@@ -1,0 +1,41 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)  // 
+    FadeToColor([1.0],0)
+    LeaveAreaLUAPanic("AR1005","",[196.820],13)
+    LeaveAreaLUA("AR1005","",[196.820],13)
+    ActionOverride(Player2,LeaveAreaLUA("AR1005","",[314.1065],13))
+    ActionOverride(Player3,LeaveAreaLUA("AR1005","",[444.991],6))
+    ActionOverride(Player4,LeaveAreaLUA("AR1005","",[645.829],11))
+    ActionOverride(Player5,LeaveAreaLUA("AR1005","",[532.744],11))
+    ActionOverride(Player6,LeaveAreaLUA("AR1005","",[423.658],11))
+    MultiPlayerSync()
+    ActionOverride("PRISONK1",EscapeAreaDestroy(0))
+    CreateCreature("CBPRISON",[886.517],15)  // ~Prison Keeper~
+    Lock("Door01")
+    Lock("Door02")
+    Lock("Door03")
+    Lock("Door04")
+    Lock("Door05")
+    Lock("Door06")
+    Lock("Door07")
+    Lock("Door08")
+    Lock("Door09")
+    Lock("Door10")
+    Lock("Door11")
+    Lock("Door12")
+    Lock("Door13")
+    Lock("Door14")
+    Lock("Door15")
+    TriggerActivation("Tran1000",FALSE)
+    TriggerActivation("Tra1000b",FALSE)
+    Explore()
+    MoveViewPoint([200.800],INSTANT)
+    Wait(1)
+    FadeFromColor([1.0],0)
+    EndCutSceneMode()
+    MultiPlayerSync()
+END
+

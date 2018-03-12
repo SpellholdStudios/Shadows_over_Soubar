@@ -1,0 +1,55 @@
+IF
+  OnCreation()
+  Global("CbPiperCreatedProfessionals","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbPiperCreatedProfessionals","LOCALS",1)
+    CreateCreature("CBSHPP18",[3682.494],0)  // ~Lumber Dealer~
+    CreateCreature("CBSHPP02",[4511.1059],0)  // ~Soap Maker~
+    CreateCreature("CBSHPP03",[3544.1493],0)  // ~Butcher~
+    CreateCreature("CBSHPP04",[2623.1242],0)  // ~Wheelwright~
+    CreateCreature("CBSHPP05",[2970.2132],0)  // ~Fishmonger~
+    CreateCreature("CBSHPP23",[2932.2146],0)  // ~Tailor~
+    CreateCreature("CBSHPP07",[1478.2728],0)  // ~Accountant~
+    CreateCreature("CBSHPP13",[1191.3138],0)  // ~Cobbler~
+    CreateCreature("CBSHPP09",[1010.3290],0)  // ~Baker~
+    CreateCreature("CBSHPP10",[653.3385],0)  // ~Barber~
+    CreateCreature("CBSHPP11",[807.2430],0)  // ~Brewer~
+END
+
+IF
+  !GlobalTimerNotExpired("CbPiperPlaysPipe","AR0500")
+  Global("CbRatsRatsRatsConcluded","GLOBAL",0)
+  NumCreatureLT("CBRRRRAT",10)  // ~Rat~
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbPiperPlaysPipe","AR0500",40)
+    CreateCreature("CBRRRRAT",[3828.74],0)  // ~Rat~
+    CreateCreature("CBRRRRAT",[3994.124],0)  // ~Rat~
+    CreateCreature("CBRRRRAT",[3625.207],0)  // ~Rat~
+    CreateCreature("CBRRRRAT",[3702.408],0)  // ~Rat~
+    CreateCreature("CBRRRRAT",[4082.343],0)  // ~Rat~
+    CreateCreature("CBRRRRAT",[4385.364],0)  // ~Rat~
+    CreateCreature("CBRRRRAT",[4290.192],0)  // ~Rat~
+    CreateCreature("CBRRRRAT",[4943.716],0)  // ~Rat~
+    CreateCreature("CBRRRRAT",[4948.798],0)  // ~Rat~
+    CreateCreature("CBRRRRAT",[4760.849],0)  // ~Rat~
+END
+
+IF
+  Global("CbPiperGetsRidOfPipe","AR0500",1)
+  HasItem("CBRRRPIP",Myself)  // ~Pipe of the Sewers~
+THEN
+  RESPONSE #100
+    DropItem("CBRRRPIP",[0.0])
+    EscapeArea()
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    PlaySound("CBRRRPIP")
+    Wait(35)
+END
+

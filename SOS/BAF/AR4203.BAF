@@ -1,0 +1,82 @@
+IF
+  OnCreation()
+  TimeGT(DAWN_END)
+  TimeLT(DUSK_START)
+  !Dead("CBBUCKMO")  // ~Master Werewolf~
+THEN
+  RESPONSE #100
+    CreateCreature("WEREGR01",[248.448],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[522.621],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[623.712],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[823.796],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[725.435],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[754.488],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[824.524],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[873.520],12)  // ~Greater Werewolf~
+END
+
+IF
+  OnCreation()
+  TimeLT(DAWN_END)
+  TimeGT(DUSK_START)
+  !Dead("CBBUCKMO")  // ~Master Werewolf~
+THEN
+  RESPONSE #100
+    CreateCreature("WEREGR01",[248.448],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[522.621],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[623.712],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[823.796],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[725.435],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[754.488],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[824.524],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[873.520],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[248.448],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[522.621],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[623.712],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[823.796],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[725.435],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[754.488],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[824.524],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[873.520],12)  // ~Greater Werewolf~
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4203",0)
+  Global("CbNaliaInteracted_4203","AR4203",0)
+  InParty("nalia")  // nalia
+  Delay(10)
+  CombatCounter(0)
+  !StateCheck(Player1,STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("CbOriginalPeopleInteract","AR4203",1)
+    ActionOverride("nalia",StartDialogNoSet(Player1))
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4203",0)
+  Global("CbKeldornInteracted_4203","AR4203",0)
+  Global("CbBetraChanged","GLOBAL",1)
+  InParty("Keldorn")  // Keldorn
+  Delay(10)
+  CombatCounter(0)
+  !StateCheck(Player1,STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("CbOriginalPeopleInteract","AR4203",1)
+    ActionOverride("Keldorn",StartDialogNoSet(Player1))
+END
+
+IF
+  Dead("CBBUCKMO")  // ~Master Werewolf~
+  !Global("CbFamilyMoved","AR4203",1)
+THEN
+  RESPONSE #100
+    CreateCreature("CBLDBUCK",[851.452],2)  // ~Lord Bucko~
+    CreateCreature("CBLYBUCK",[902.480],2)  // ~Leeta Bucko~
+    CreateCreature("CBSNBUCK",[807.416],2)  // ~Abor Bucko~
+    CreateCreature("CBSTBUCK",[765.380],2)  // ~Korhun Bucko~
+    CreateCreature("CBDRBUCK",[691.514],12)  // ~Betra Bucko~
+    SetGlobal("CbFamilyMoved","AR4203",1)
+END
+

@@ -1,0 +1,19 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CBDRT70a")  // 
+    AttackOneRound("CBDRT70b")
+    ActionOverride(LastTalkedToBy("CBDRT70a"),Wait(2))
+    ActionOverride(LastTalkedToBy("CBDRT70a"),DropInventory())
+    ActionOverride(LastTalkedToBy("CBDRT70a"),GiveItemCreate("DART01",LastTalkedToBy("CBDRT70a"),10,0,0))  // ~Dart~
+    ActionOverride(LastTalkedToBy("CBDRT70a"),FillSlot(SLOT_WEAPON0))
+    ActionOverride(LastTalkedToBy("CBDRT70a"),EquipItem("DART01"))
+    ActionOverride(LastTalkedToBy("CBDRT70a"),EquipRanged())
+    ActionOverride(LastTalkedToBy("CBDRT70a"),AttackOneRound("CBDRT70b"))
+    Wait(4)
+    SetGlobal("CbDartPlayerPlayed","AR4270",1)
+    Wait(2)
+    StartDialogNoSet(LastTalkedToBy(Myself))
+END
+

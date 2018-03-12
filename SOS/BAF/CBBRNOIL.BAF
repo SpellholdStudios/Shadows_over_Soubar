@@ -1,0 +1,7 @@
+IF
+  IsOverMe([GOODCUTOFF])
+THEN
+  RESPONSE #100
+    ReallyForceSpellRES("CBBRNOIL", LastTrigger)
+END
+

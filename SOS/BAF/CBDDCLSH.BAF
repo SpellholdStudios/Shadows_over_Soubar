@@ -1,0 +1,101 @@
+IF
+  HPLT(Myself,1)
+  !Global("CbDragonDied","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbDragonDied","LOCALS",1)
+    SetGlobal("SPRITE_IS_DEADCBDRAGDP","GLOBAL",1)
+END
+
+IF
+  HPPercentLT(Myself,60)
+THEN
+  RESPONSE #100
+    ClearActions(Myself)
+    ChangeAnimationNoEffect("CBDDDRGE")
+END
+
+IF
+  Global("CbDeepDragonChangedToGetClose","AR4212",1)
+  Global("CbDeepDragonChangedToEnemy","AR4212",1)
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    SetGlobal("CbDeepDragonChangedToGetClose","AR4212",0)
+    ClearAllActions()
+END
+
+IF
+  Global("CbDeepDragonChangedToGetClose","AR4212",1)
+  Global("CbDeepDragonChangedToEnemy","AR4212",1)
+  !See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    MoveToObject(Player1)
+END
+
+IF
+  !Global("CbDeepDragonChangedToGetClose","AR4212",1)
+  Global("CbDeepDragonChangedToEnemy","AR4212",1)
+  !See(NearestEnemyOf(Myself))
+  HPPercentGT(Myself,60)
+THEN
+  RESPONSE #50
+    SetGlobal("CbDeepDragonChangedToGetClose","AR4212",1)
+    ChangeAnimationNoEffect("CBDDSNKE")
+  RESPONSE #50
+    SetGlobal("CbDeepDragonChangedToGetClose","AR4212",1)
+    ChangeAnimationNoEffect("CBDDHMNE")
+END
+
+IF
+  Global("CbDeepDragonChangedToEnemy","AR4212",1)
+  GlobalTimerExpired("CbGetDeepDragonToChange","AR4212")
+  !Global("CbDeepDragonChangedToGetClose","AR4212",1)
+  HPPercentGT(Myself,60)
+THEN
+  RESPONSE #50
+    SetGlobalTimer("CbGetDeepDragonToChange","AR4212",30)
+    ChangeAnimationNoEffect("CBDDDRGE")
+  RESPONSE #50
+    SetGlobalTimer("CbGetDeepDragonToChange","AR4212",30)
+    ChangeAnimationNoEffect("CBDDSNKE")
+END
+
+IF
+  GlobalTimerExpired("CbGetDeepDragonToChange","AR4212")
+  Global("CbDeepDragonChangedToEnemy","AR4212",0)
+  HPPercentGT(Myself,60)
+THEN
+  RESPONSE #50
+    SetGlobalTimer("CbGetDeepDragonToChange","AR4212",30)
+    ChangeAnimationNoEffect("CBDRAGDP")
+  RESPONSE #50
+    SetGlobalTimer("CbGetDeepDragonToChange","AR4212",30)
+    ChangeAnimationNoEffect("CBDRGDPS")
+END
+
+IF
+  OnCreation()
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbGetDeepDragonToChange","AR4212",30)
+END
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    SetGlobal("CbDeepDragonChangedToEnemy","AR4212",1)
+    Enemy()
+END
+
+IF
+  HPLT(Myself,1)
+  Global("CbDeepDragonDied","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbDeepDragonDied","GLOBAL",1)
+END
+

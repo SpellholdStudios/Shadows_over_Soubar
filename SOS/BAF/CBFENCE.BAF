@@ -1,0 +1,16 @@
+IF
+  See([ANYONE])
+  Class(LastSeenBy(Myself),THIEF_ALL)
+  !Allegiance(LastSeenBy(Myself),PC)
+  !Allegiance(LastSeenBy(Myself),FAMILIAR)
+  !Allegiance(LastSeenBy(Myself),ALLY)
+  !Allegiance(LastSeenBy(Myself),CONTROLLED)
+  !Allegiance(LastSeenBy(Myself),CHARMED)
+  !Allegiance(LastSeenBy(Myself),GOODCUTOFF)
+THEN
+  RESPONSE #100
+    ActionOverride(LastSeenBy(Myself),ChangeEnemyAlly(Myself,ALLY))
+    ActionOverride(LastSeenBy(Myself),DisplayString(Myself,@10055)
+    DisplayString(Myself,@10056)
+END
+

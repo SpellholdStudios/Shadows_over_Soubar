@@ -1,0 +1,38 @@
+IF
+	Global("CbGuardsAlerted","AR0702",1)
+THEN
+	RESPONSE #100
+		ActionOverride("STEALGRD",ChangeEnemyAlly(Myself,ENEMY))
+		Wait(10)
+		CreateCreature("CBAMNLGS",[950.725],6)
+		CreateCreature("CBAMNLG1",[1007.772],6)
+		CreateCreature("CBAMNLG2",[1007.772],6)
+		CreateCreature("CBAMNLG3",[1007.772],6)
+		CreateCreature("CBAMNLG4",[1007.772],6)
+		CreateCreature("CBAMNG01",[1007.772],6)
+		CreateCreature("CBAMNG02",[1007.772],6)
+		CreateCreature("CBAMNG03",[1007.772],6)
+		CreateCreature("CBAMNG04",[1007.772],6)
+		CreateCreature("CBAMNG05",[1007.772],6)
+		SetGlobal("CbGuardsAlerted","AR0702",2)
+END
+
+IF
+	!InMyArea("CBAMNLGS")
+	Global("CbGuardsAlerted","AR0702",2)
+THEN
+	RESPONSE #100
+		Wait(5)
+		CreateCreature("CBAMNLGS",[950.725],6)
+		CreateCreature("CBAMNLG1",[1007.772],6)
+		CreateCreature("CBAMNLG2",[1007.772],6)
+		CreateCreature("CBAMNLG3",[1007.772],6)
+		CreateCreature("CBAMNLG4",[1007.772],6)
+		CreateCreature("CBAMNG01",[1007.772],6)
+		CreateCreature("CBAMNG02",[1007.772],6)
+		CreateCreature("CBAMNG03",[1007.772],6)
+		CreateCreature("CBAMNG04",[1007.772],6)
+		CreateCreature("CBAMNG05",[1007.772],6)
+END
+
+

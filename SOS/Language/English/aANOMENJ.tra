@@ -1,0 +1,12 @@
+@0    = ~Methinks it would be wise to leave this noble shop, <CHARNAME>.  By Helm's beard, what we are doing is wrong.~
+@1    = ~We cannot stoop to becoming petty burglars.  Even if we do need to find that sneaky woman's stuff, good Sir Barterman is sure to find out.~
+@2    = ~I know, Anomen.  This isn't right.  Come on everyone, back down the chimmney.~
+@3    = ~Of course he'll find out his shop has been ransacked, Anomen.  But I need to get this stuff for Selence.  Now, watch where you walk so you don't set off any traps.~
+@4    = ~Very well, <CHARNAME>.  That is indeed the wisest course.  We don't need Selence.  Come, fellows.~
+@5    = ~I hope that fortune will smile on us, for I think that we are going to lose our freedom and become branded as criminals.~
+@6    = ~The waters here are as swift as the justice Tyr dispenses.  To ford the river here, we must take care.  Perhaps we could hike north or south in search of an easier route.~
+@7    = ~That might be best, Anomen.  You go south, and I'll go north.  If we find a place to ford in the next two days, meet back here and we'll go.~
+@8    = ~No, Anomen, I don't think that's wise.  We should cross the Chionthar right here.  Just be real careful, everyone.  Come on.~
+@9    = ~<CHARNAME>, that might not be a good idea.  If we were to do that, we'd lose up to four days of searching.  No, I retract my first suggestion.  Let's ford here, and just be real careful about falling or getting hurt.~
+@10   = ~Aye, mate.~
+@11   = ~Aye, lass, aye.~

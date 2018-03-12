@@ -1,0 +1,8 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)  // 
+    ActionOverride("CB430SCD",StartDialogNoSet("CB430SCE"))
+END
+

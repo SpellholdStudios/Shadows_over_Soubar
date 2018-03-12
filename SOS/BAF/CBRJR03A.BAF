@@ -1,0 +1,14 @@
+IF
+  !Contains("CBRJR03b","CBRJR03a")  // CBRJR03a
+  !Contains("CBRJR03c","CBRJR03a")  // CBRJR03a
+  !Contains("CBRJR03d","CBRJR03a")  // CBRJR03a
+  !Contains("CBRJR03e","CBRJR03a")  // CBRJR03a
+  !Contains("CBRJR03f","CBRJR03a")  // CBRJR03a
+  !Contains("CBRJR03g","CBRJR03a")  // CBRJR03a
+  !Contains("CBRJR03h","CBRJR03a")  // CBRJR03a
+  !Contains("CBRJR03i","CBRJR03a")  // CBRJR03a
+THEN
+  RESPONSE #100
+    TakePartyItem("CBRJR03a")
+END
+

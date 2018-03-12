@@ -1,0 +1,129 @@
+IF
+  Global("CbKerlinCreatesCustomer","AR4270",0)
+  Global("CbKerlinGoingToCreateCustomer","LOCALS",7)
+THEN
+  RESPONSE #100
+    SetGlobal("CbKerlinCreatesCustomer","AR4270",1)
+END
+
+IF
+  Global("CbKerlinCreatesCustomer","AR4270",1)
+THEN
+  RESPONSE #15
+    Wait(10)
+    CreateCreature("CB270CCa",[1353.1193],7)  // ~Soubar Villager~
+    MoveToPoint([1254.865])
+    FaceObject("CB270CCa")
+    Wait(1)
+    DisplayStringHead(Myself,@10099)
+    Wait(1)
+    SetGlobal("CbKerlinCreatesCustomer","AR4270",0)
+    SetGlobal("CbKerlinGoingToCreateCustomer","LOCALS",0)
+  RESPONSE #15
+    Wait(10)
+    CreateCreature("CB270CCb",[1353.1193],7)  // ~Soubar Villager~
+    MoveToPoint([1254.865])
+    FaceObject("CB270CCb")
+    Wait(1)
+    DisplayStringHead(Myself,@10100)
+    Wait(1)
+    SetGlobal("CbKerlinCreatesCustomer","AR4270",0)
+    SetGlobal("CbKerlinGoingToCreateCustomer","LOCALS",0)
+  RESPONSE #15
+    Wait(10)
+    CreateCreature("CB270CCc",[1353.1193],7)  // ~Soubar Villager~
+    MoveToPoint([1254.865])
+    FaceObject("CB270CCc")
+    Wait(1)
+    DisplayStringHead(Myself,@10099)
+    Wait(1)
+    SetGlobal("CbKerlinCreatesCustomer","AR4270",0)
+    SetGlobal("CbKerlinGoingToCreateCustomer","LOCALS",0)
+  RESPONSE #15
+    Wait(10)
+    CreateCreature("CB270CCd",[1353.1193],7)  // ~Soubar Villager~
+    MoveToPoint([1254.865])
+    FaceObject("CB270CCd")
+    Wait(1)
+    DisplayStringHead(Myself,@10100)
+    Wait(1)
+    SetGlobal("CbKerlinCreatesCustomer","AR4270",0)
+    SetGlobal("CbKerlinGoingToCreateCustomer","LOCALS",0)
+  RESPONSE #15
+    Wait(10)
+    CreateCreature("CB270CCe",[1353.1193],7)  // ~Soubar Villager~
+    MoveToPoint([1254.865])
+    FaceObject("CB270CCe")
+    Wait(1)
+    DisplayStringHead(Myself,@10099)
+    Wait(1)
+    SetGlobal("CbKerlinCreatesCustomer","AR4270",0)
+    SetGlobal("CbKerlinGoingToCreateCustomer","LOCALS",0)
+  RESPONSE #15
+    Wait(10)
+    CreateCreature("CB270CCf",[1353.1193],7)  // ~Soubar Villager~
+    MoveToPoint([1254.865])
+    FaceObject("CB270CCf")
+    Wait(1)
+    DisplayStringHead(Myself,@10100)
+    Wait(1)
+    SetGlobal("CbKerlinCreatesCustomer","AR4270",0)
+    SetGlobal("CbKerlinGoingToCreateCustomer","LOCALS",0)
+  RESPONSE #15
+    Wait(10)
+    CreateCreature("CB270CCg",[1353.1193],7)  // ~Soubar Villager~
+    MoveToPoint([1254.865])
+    FaceObject("CB270CCg")
+    Wait(1)
+    DisplayStringHead(Myself,@10099)
+    Wait(1)
+    SetGlobal("CbKerlinCreatesCustomer","AR4270",0)
+    SetGlobal("CbKerlinGoingToCreateCustomer","LOCALS",0)
+END
+
+IF
+  Delay(10)
+  Global("CbKerlinCreatesCustomer","AR4270",0)
+THEN
+  RESPONSE #15
+    MoveToPoint([1218.805])
+    Face(13)
+    Wait(1)
+    Face(5)
+    Wait(1)
+    IncrementGlobal("CbKerlinGoingToCreateCustomer","LOCALS",1)
+  RESPONSE #20
+    MoveToPoint([1171.700])
+    Face(8)
+    Wait(2)
+    Face(15)
+    Wait(2)
+    IncrementGlobal("CbKerlinGoingToCreateCustomer","LOCALS",1)
+  RESPONSE #15
+    MoveToPoint([1199.756])
+    Face(4)
+    Wait(1)
+    Face(8)
+    Wait(1)
+    IncrementGlobal("CbKerlinGoingToCreateCustomer","LOCALS",1)
+  RESPONSE #15
+    MoveToPoint([1215.795])
+    Face(8)
+    Wait(2)
+    Face(5)
+    Wait(2)
+    IncrementGlobal("CbKerlinGoingToCreateCustomer","LOCALS",1)
+  RESPONSE #15
+    MoveToPoint([1278.946])
+    Face(12)
+    Wait(4)
+    Face(4)
+    IncrementGlobal("CbKerlinGoingToCreateCustomer","LOCALS",1)
+  RESPONSE #20
+    MoveToPoint([269.864])
+    Face(12)
+    Wait(6)
+    Face(4)
+    IncrementGlobal("CbKerlinGoingToCreateCustomer","LOCALS",1)
+END
+

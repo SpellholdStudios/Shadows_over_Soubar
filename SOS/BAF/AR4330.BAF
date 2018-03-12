@@ -1,0 +1,54 @@
+IF
+  OnCreation()
+  Global("CbRiverCurrentEnabled","AR4330",0)
+THEN
+  RESPONSE #100
+    CreateCreature("CB330CR1",[316.950],12)
+    CreateCreature("CB330CR2",[581.951],8)
+    CreateCreature("CB330CR3",[862.699],8)
+    CreateCreature("CB330CR4",[726.667],8)
+    CreateCreature("CB330CR5",[850.318],8)
+    CreateCreature("CB330CR6",[800.200],8)
+    CreateCreature("CBROPEDP",[249.428],0)
+    SetGlobal("CbRiverCurrentEnabled","AR4330",1)
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4330",0)
+  Global("CbAnomenInteracted_4330","AR4330",0)
+  InParty("Anomen")  // Anomen
+  !StateCheck(Player1,STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("CbOriginalPeopleInteract","AR4330",1)
+    ActionOverride("Anomen",StartDialogNoSet(Player1))
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4330",0)
+  Global("CbYoshimoInteracted_4330","AR4330",1)
+  InParty("Yoshimo")  // Yoshimo
+  Delay(40)
+  !StateCheck(Player1,STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("CbOriginalPeopleInteract","AR4330",1)
+    ActionOverride("Yoshimo",StartDialogNoSet(Player1))
+END
+
+IF
+  Global("CbRopeBridgeMade","AR4330",2)
+THEN
+  RESPONSE #100
+    SetGlobal("CbRopeBridgeMade","AR4330",3)
+    TakePartyItem("CBROPEDP")
+    DisplayStringHead(Player1,@10000)
+    ActionOverride("CB330CR1",DestroySelf())
+    ActionOverride("CB330CR2",DestroySelf())
+    ActionOverride("CB330CR3",DestroySelf())
+    ActionOverride("CB330CR4",DestroySelf())
+    ActionOverride("CB330CR5",DestroySelf())
+    ActionOverride("CB330CR6",DestroySelf())
+    AddexperienceParty(12000)
+END
+

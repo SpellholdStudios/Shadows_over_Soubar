@@ -1,0 +1,20 @@
+IF
+  OnCreation()
+THEN
+  RESPONSE #100
+    FaceObject(Nearest([GOODCUTOFF]))
+    PlaySound("ALARM1")
+    Wait(3)
+    PlaySound("CBMOUTH1")
+    Wait(3)
+    PlaySound("CBMOUTH2")
+    Wait(3)
+    PlaySound("CBMOUTH3")
+    Wait(3)
+    PlaySound("CBMOUTH4")
+    Wait(4)
+    SetGlobal("CbGuardsAlerted","AR4202",1)
+    DisplayStringNoName(Myself,8205)  // ~Guards approach. Obviously word of your misdeeds have reached the authorities.~
+    DestroySelf()
+END
+

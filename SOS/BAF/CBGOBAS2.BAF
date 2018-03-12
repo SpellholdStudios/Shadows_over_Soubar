@@ -1,0 +1,22 @@
+IF
+  Clicked([ANYONE])
+  !Range(LastTrigger,10)
+THEN
+  RESPONSE #100
+    DisplayStringNoName(Myself,16484)  // ~You must gather your party before venturing forth.~ [error01]
+END
+
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,LeaveAreaLUAPanic("AR4201","",[584.283],13))
+    ActionOverride(Player1,LeaveAreaLUA("AR4201","",[584.283],13))
+    ActionOverride(Player2,LeaveAreaLUA("AR4201","",[519.281],13))
+    ActionOverride(Player3,LeaveAreaLUA("AR4201","",[586.243],13))
+    ActionOverride(Player4,LeaveAreaLUA("AR4201","",[538.244],13))
+    ActionOverride(Player5,LeaveAreaLUA("AR4201","",[602.212],13))
+    ActionOverride(Player6,LeaveAreaLUA("AR4201","",[536.208],13))
+END
+

@@ -1,0 +1,25 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)  // 
+    GiveItemCreate("CBMAYRSD",Myself,6,1,0)  // ~Wand of Lightning~
+    UseItem("CBMAYRSD",Player1)  // ~Wand of Lightning~
+    UseItem("CBMAYRSD",Player2)  // ~Wand of Lightning~
+    UseItem("CBMAYRSD",Player3)  // ~Wand of Lightning~
+    UseItem("CBMAYRSD",Player4)  // ~Wand of Lightning~
+    UseItem("CBMAYRSD",Player5)  // ~Wand of Lightning~
+    UseItem("CBMAYRSD",Player6)  // ~Wand of Lightning~
+    SetGlobal("CbPartyLeaderBecomesMayor","GLOBAL",2)
+    DestroyItem("CBMAYRSD")  // ~Wand of Lightning~
+    DestroyItem("CBMAYRSD")  // ~Wand of Lightning~
+    EndCutSceneMode()
+    AddexperienceParty(200000)
+    AddXPObject(Player1,100000)
+    AddJournalEntry(@5091,QUEST_DONE)
+    EraseJournalEntry(@5092)
+    EraseJournalEntry(@5093)
+    EraseJournalEntry(@5094)
+    SaveGame(0)
+END
+

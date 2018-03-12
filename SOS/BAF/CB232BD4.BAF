@@ -1,0 +1,9 @@
+IF
+  !See(NearestEnemyOf(Myself))
+  Detect("CB232LD1")  // ~Squad Leader~
+THEN
+  RESPONSE #100
+    MoveToObject("CB232LD1")
+    FollowObjectFormation("CB232LD1",9,5)
+END
+

@@ -1,0 +1,9 @@
+IF
+  OR(2)
+    Entered([ANYONE])
+    Opened([ANYONE])
+THEN
+  RESPONSE #50
+    ForceSpell(LastTrigger,TRAP_HALLWAY_SPIKES)
+END
+

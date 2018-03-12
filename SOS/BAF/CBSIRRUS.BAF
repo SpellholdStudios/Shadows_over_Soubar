@@ -1,0 +1,17 @@
+IF
+  Global("CbPartyLeaderBecomesMayor","GLOBAL",3)
+THEN
+  RESPONSE #100
+    EscapeArea()
+END
+
+IF
+  Global("CbPlayerMetSirrus","AR4289",1)
+  Global("CbIMoved","LOCALS",0)
+THEN
+  RESPONSE #100
+    MoveToPointNoInterrupt([213.610])
+    Face(0)
+    SetGlobal("CbIMoved","LOCALS",1)
+END
+

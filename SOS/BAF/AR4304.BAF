@@ -1,0 +1,125 @@
+IF
+  Global("CbPrisonCreated","AR4304",0)
+  Global("CbWinthropTheSpyEscaped","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbPrisonCreated","AR4304",1)
+    CreateCreature("CBSBIN75",[1824.972],0)  // ~Winthrop~
+END
+
+IF
+  Global("CbPrisonCreated","AR4304",0)
+  Global("CbCeebIssonTheSpyEscaped","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbPrisonCreated","AR4304",1)
+    CreateCreature("CBISSON2",[1824.972],0)  // ~Ceeb Isson~
+END
+
+IF
+  Global("CbPrisonCreated","AR4304",0)
+  Global("CbCharlieTheSpyEscaped","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbPrisonCreated","AR4304",1)
+    CreateCreature("CB232CLU",[1824.972],0)  // ~Charlie~
+END
+
+IF
+  Global("CbPrisonCreated","AR4304",0)
+  Global("CbFightersTheSpyEscaped","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbPrisonCreated","AR4304",1)
+    CreateCreature("CB285FT1",[1824.972],0)  // ~Fighter~
+    CreateCreature("CB285FT2",[1824.972],0)  // ~Fighter~
+    CreateCreature("CB285FT3",[1824.972],0)  // ~Fighter~
+END
+
+IF
+  Global("CbPrisonCreated","AR4304",0)
+  Global("CbMayorTheSpyEscaped","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbPrisonCreated","AR4304",1)
+    CreateCreature("CBSIRRUS",[1824.972],0)  // ~Sirrus Melandor~
+END
+
+IF
+  Global("CbPrisonCreated","AR4304",0)
+  Global("CbRangerTheSpyEscaped","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbPrisonCreated","AR4304",1)
+    CreateCreature("CBCHRRAN",[1824.972],0)  // ~Ranger~
+END
+
+IF
+  GlobalLT("CbPartyHasKilledAllBandits","GLOBAL",2)
+  Global("Cb4304TrapsDeactivated","AR4304",0)
+THEN
+  RESPONSE #100
+    TriggerActivation("CbJailBreak1",FALSE)
+    TriggerActivation("CbJailBreak2",FALSE)
+    TriggerActivation("CbJailBreak3",FALSE)
+    TriggerActivation("CbJailBreak4",FALSE)
+END
+
+IF
+  Global("CbJailBreak","AR4304",1)
+  Global("CbMoreJailorsSpawned","AR4304",0)
+  GlobalLT("CbPartyHasKilledAllBandits","GLOBAL",2)
+THEN
+  RESPONSE #100
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    SetGlobal("CbMoreJailorsSpawned","AR4304",1)
+END
+
+IF
+  Global("CbMoreJailorsSpawned","AR4304",1)
+  GlobalLT("CbPartyHasKilledAllBandits","GLOBAL",2)
+  Global("CbJailBreak","AR4304",1)
+  Delay(45)
+THEN
+  RESPONSE #100
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    SetGlobal("CbMoreJailorsSpawned","AR4304",2)
+END
+
+IF
+  Global("CbMoreJailorsSpawned","AR4304",2)
+  GlobalLT("CbPartyHasKilledAllBandits","GLOBAL",2)
+  Global("CbJailBreak","AR4304",1)
+  Delay(90)
+THEN
+  RESPONSE #100
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+    CreateCreature("CB4304OR",[860.580],0)  // ~Bandit Orc~
+END
+

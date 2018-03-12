@@ -1,0 +1,157 @@
+IF
+	Global("CbCharlotteAndNaliaGirlTalk","GLOBAL",0)
+	Global("CbCharlotteAndNaliaMeet","GLOBAL",5)
+	GlobalTimerExpired("CbCharlotteAndNaliaSecond","GLOBAL")
+	InParty("CHARLOTT")
+	InParty("NALIA")
+	TimeGT(8)
+	TimeLT(DUSK_START)
+	CombatCounter(0)
+	AreaType(OUTDOOR)
+	!StateCheck("CHARLOTT",STATE_SLEEPING)
+	!StateCheck("NALIA",STATE_SLEEPING)
+	!StateCheck("Player1",STATE_SLEEPING)
+THEN
+	RESPONSE #100
+		ActionOverride("NALIA",StartDialogueNoSet("CHARLOTT"))
+END
+
+IF
+	Global("CbCharlotteAndNaliaGirlTalk","GLOBAL",32)
+	GlobalTimerExpired("CbCharlotteAndNaliaFourthBanter","GLOBAL")
+	InParty("CHARLOTT")
+	InParty("NALIA")
+	!AreaType(DUNGEON)
+	CombatCounter(0)
+	!StateCheck("CHARLOTT",STATE_SLEEPING)
+	!StateCheck("NALIA",STATE_SLEEPING)
+	!StateCheck(Player1,STATE_SLEEPING)
+THEN
+	RESPONSE #100
+		ActionOverride("CHARLOTT",StartDialogueNoSet("NALIA"))
+END
+
+IF
+	Global("CbCharlotteAndNaliaGirlTalk","GLOBAL",14)
+	GlobalTimerExpired("CbCharlotteAndNaliaThirdBanter","GLOBAL")
+	InParty("CHARLOTT")
+	InParty("NALIA")
+	TimeGT(MIDNIGHT)
+	TimeLT(DAWN_START)
+	!AreaType(DUNGEON)
+	CombatCounter(0)
+	!StateCheck("CHARLOTT",STATE_SLEEPING)
+	!StateCheck("NALIA",STATE_SLEEPING)
+	!StateCheck(Player1,STATE_SLEEPING)
+THEN
+	RESPONSE #100
+		ActionOverride("CHARLOTT",StartDialogueNoSet("NALIA"))
+END
+
+IF
+	Global("CbPartyInvestigatesLeads","GLOBAL",2)
+	Global("CbOneSpyDown","GLOBAL",6)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPartyInvestigatesLeads","GLOBAL",3)
+END
+
+IF
+	Global("CbPartyInvestigatesLeads","GLOBAL",3)
+	Global("CbSpyIsNotWinthrop","GLOBAL",1)
+	Global("CbSpyIsNotCharlie","GLOBAL",1)
+	Global("CbSpyIsNotFighter","GLOBAL",1)
+	Global("CbSpyIsNotMiller","GLOBAL",1)
+	Global("CbSpyIsNotRanger","GLOBAL",1)
+	Global("CbSpyIsNotMayor","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPartyInvestigatesLeads","GLOBAL",4)
+		SetGlobal("CbSpyIs_SSC","GLOBAL",1)
+END
+
+IF
+	Global("CbPartyInvestigatesLeads","GLOBAL",3)
+	Global("CbSpyIsNotSSC","GLOBAL",1)
+	Global("CbSpyIsNotCharlie","GLOBAL",1)
+	Global("CbSpyIsNotFighter","GLOBAL",1)
+	Global("CbSpyIsNotMiller","GLOBAL",1)
+	Global("CbSpyIsNotRanger","GLOBAL",1)
+	Global("CbSpyIsNotMayor","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPartyInvestigatesLeads","GLOBAL",4)
+		SetGlobal("CbSpyIs_Winthrop","GLOBAL",1)
+END
+
+IF
+	Global("CbPartyInvestigatesLeads","GLOBAL",3)
+	Global("CbSpyIsNotSSC","GLOBAL",1)
+	Global("CbSpyIsNotWinthrop","GLOBAL",1)
+	Global("CbSpyIsNotFighter","GLOBAL",1)
+	Global("CbSpyIsNotMiller","GLOBAL",1)
+	Global("CbSpyIsNotRanger","GLOBAL",1)
+	Global("CbSpyIsNotMayor","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPartyInvestigatesLeads","GLOBAL",4)
+		SetGlobal("CbSpyIs_Charlie","GLOBAL",1)
+END
+
+IF
+	Global("CbPartyInvestigatesLeads","GLOBAL",3)
+	Global("CbSpyIsNotSSC","GLOBAL",1)
+	Global("CbSpyIsNotWinthrop","GLOBAL",1)
+	Global("CbSpyIsNotCharlie","GLOBAL",1)
+	Global("CbSpyIsNotMiller","GLOBAL",1)
+	Global("CbSpyIsNotRanger","GLOBAL",1)
+	Global("CbSpyIsNotMayor","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPartyInvestigatesLeads","GLOBAL",4)
+		SetGlobal("CbSpyIs_Fighter","GLOBAL",1)
+END
+
+IF
+	Global("CbPartyInvestigatesLeads","GLOBAL",3)
+	Global("CbSpyIsNotSSC","GLOBAL",1)
+	Global("CbSpyIsNotWinthrop","GLOBAL",1)
+	Global("CbSpyIsNotCharlie","GLOBAL",1)
+	Global("CbSpyIsNotFighter","GLOBAL",1)
+	Global("CbSpyIsNotRanger","GLOBAL",1)
+	Global("CbSpyIsNotMayor","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPartyInvestigatesLeads","GLOBAL",4)
+		SetGlobal("CbSpyIs_Miller","GLOBAL",1)
+END
+
+IF
+	Global("CbPartyInvestigatesLeads","GLOBAL",3)
+	Global("CbSpyIsNotSSC","GLOBAL",1)
+	Global("CbSpyIsNotWinthrop","GLOBAL",1)
+	Global("CbSpyIsNotCharlie","GLOBAL",1)
+	Global("CbSpyIsNotFighter","GLOBAL",1)
+	Global("CbSpyIsNotMiller","GLOBAL",1)
+	Global("CbSpyIsNotMayor","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPartyInvestigatesLeads","GLOBAL",4)
+		SetGlobal("CbSpyIs_Ranger","GLOBAL",1)
+END
+
+IF
+	Global("CbPartyInvestigatesLeads","GLOBAL",3)
+	Global("CbSpyIsNotSSC","GLOBAL",1)
+	Global("CbSpyIsNotWinthrop","GLOBAL",1)
+	Global("CbSpyIsNotCharlie","GLOBAL",1)
+	Global("CbSpyIsNotFighter","GLOBAL",1)
+	Global("CbSpyIsNotMiller","GLOBAL",1)
+	Global("CbSpyIsNotRanger","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPartyInvestigatesLeads","GLOBAL",4)
+		SetGlobal("CbSpyIs_Mayor","GLOBAL",1)
+END
+
+

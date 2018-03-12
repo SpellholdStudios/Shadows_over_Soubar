@@ -1,0 +1,40 @@
+IF
+  See(NearestEnemyOf(Myself))
+  !StateCheck(LastSeenBy(Myself),STATE_STUNNED)
+THEN
+  RESPONSE #100
+    EquipItem("DWBOLT02")
+    AttackReevaluate(LastSeenBy(Myself),12)
+END
+
+IF
+  HasItem("DWBOLT02",Myself)  // ~Drow Bolt of Stunning~
+  HasItem("DWBOLT03",Myself)  // ~Drow Bolt +1~
+  See(NearestEnemyOf(Myself))
+  StateCheck(LastSeenBy(Myself),STATE_STUNNED)
+THEN
+  RESPONSE #100
+    EquipItem("DWBOLT03")
+    AttackReevaluate(LastSeenBy(Myself),12)
+END
+
+IF
+  !HasItem("DWBOLT02",Myself)  // ~Drow Bolt of Stunning~
+  HasItem("DWBOLT03",Myself)  // ~Drow Bolt +1~
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    EquipItem("DWBOLT03")
+    AttackReevaluate(LastSeenBy(Myself),12)
+END
+
+IF
+  !HasItem("DWBOLT02",Myself)  // ~Drow Bolt of Stunning~
+  !HasItem("DWBOLT03",Myself)  // ~Drow Bolt +1~
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    EquipItem("SW1H07")
+    AttackReevaluate(LastSeenBy(Myself),12)
+END
+

@@ -1,0 +1,24 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)  // 
+    SmallWait(7)
+    CreateCreatureDoor("CBSPYBAN",[292.505],0)
+    CreateCreatureDoor("CBSPYBAN",[357.517],2)
+    CreateCreatureDoor("CBSPYBAN",[486.591],14)
+    CreateCreatureDoor("CBSPYBAN",[445.669],4)
+    CreateCreatureDoor("CBSPYBAN",[378.724],8)
+    CreateCreatureDoor("CBSPYBAN",[299.707],0)
+    CreateCreatureDoor("CBSPYBAN",[210.672],2)
+    CreateCreatureDoor("CBSPYBAN",[191.617],14)
+    CreateCreatureDoor("CBSPYBAN",[491.375],8)
+    CreateCreatureDoor("CBSPYBAN",[435.397],0)
+    CreateCreatureDoor("CBSPYRLF",[309.630],4)
+    ActionOverride("CBISSON2",GiveItemCreate("MINHP1",Myself,1,0,0)) 
+    ActionOverride("CBISSON2",EquipItem("MINHP1"))
+    ActionOverride("CBISSON2",Enemy())
+    Wait(1)
+    ActionOverride("CBSPYRLF",StartDialogNoSet(Player1))
+END
+

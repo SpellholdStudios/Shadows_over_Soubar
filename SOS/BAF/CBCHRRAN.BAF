@@ -1,0 +1,10 @@
+IF
+  Global("CbPartyInvestigatesLeads","GLOBAL",1)
+  Delay(10)
+  See([PC])
+THEN
+  RESPONSE #100
+    MoveToObject(Player1)
+    StartDialogNoSet(Player1)
+END
+

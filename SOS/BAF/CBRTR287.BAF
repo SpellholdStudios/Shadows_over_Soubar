@@ -1,0 +1,29 @@
+IF
+  See([ANYONE])
+  HPGT(Myself,0)
+  GlobalTimerExpired("CbLeaderCallsForRein","LOCALS")
+  RandomNum(2,1)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbLeaderCallsForRein","LOCALS",45)
+    DisplayStringHead(Myself,@10087)
+    CreateCreatureOffScreen("CB232RNA",0)  // ~Bandit~
+    CreateCreatureOffScreen("CB232RNA",0)  // ~Bandit~
+    CreateCreatureOffScreen("CB232RNA",0)  // ~Bandit~
+    CreateCreatureOffScreen("CB232RNA",0)  // ~Bandit~
+END
+
+IF
+  See([ANYONE])
+  HPGT(Myself,0)
+  GlobalTimerExpired("CbLeaderCallsForRein","LOCALS")
+  RandomNum(2,2)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbLeaderCallsForRein","LOCALS",45)
+    DisplayStringHead(Myself,@10088)
+    CreateCreatureOffScreen("CB232RNH",0)  // ~Bandit~
+    CreateCreatureOffScreen("CB232RNH",0)  // ~Bandit~
+    CreateCreatureOffScreen("CB232RNH",0)  // ~Bandit~
+END
+

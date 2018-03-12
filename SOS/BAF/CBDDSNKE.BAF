@@ -1,0 +1,9 @@
+IF
+  HasItem("CBDRGSW1",Myself)  // ~Skull~
+  HPPercentGT(Myself,59)
+THEN
+  RESPONSE #100
+    AttackOneRound(NearestEnemyOf(Myself))
+    AttackOneRound(NearestEnemyOf(Myself))
+END
+

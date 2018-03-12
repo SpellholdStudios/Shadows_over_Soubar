@@ -1,0 +1,10 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CB430SCD")  // 
+    SetGlobal("CbBanditsRun","AR4370",3)
+    Wait(1)
+    ActionOverride("CB4300CT",StartDialogNoSet("CB430SCD"))
+END
+

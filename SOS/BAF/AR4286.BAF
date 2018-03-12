@@ -1,0 +1,328 @@
+//*****************************************************************************************
+IF
+  Global("CbPartyIsInSoubarMilitia","GLOBAL",0)
+  Global("CbPlayerCanJoinSoubarMilita","GLOBAL",1)
+  Global("SoubarStuffWarning","GLOBAL",0)
+THEN
+  RESPONSE #100
+               SetGlobal("SoubarStuffWarning","GLOBAL",1)
+               ActionOverride(Player1,DisplayStringHead(Myself,@10119))
+ 	       Continue()
+END
+IF
+	Global("CbDeactivateOtherCaptains","GLOBAL",1)
+	InParty("Minsc")
+	Global("BPMinsc4286","AR4286",0)
+	!HasItem("MISC84","Minsc")
+THEN
+	RESPONSE #100
+		SetGlobal("BPMinsc4286","AR4286",1)
+		ReallyForceSpellRES("SPMINSC","Minsc")
+		ActionOverride("Minsc",FillSlot(SLOT_MISC))
+		ActionOverride("Minsc",EquipItem("MISC84"))
+ 	        Continue()
+END
+
+IF
+	Global("CbDeactivateOtherCaptains","GLOBAL",1)
+	InParty("Edwin")
+	Global("BPEdwin4286","AR4286",0)
+	!HasItem("MISC89","Edwin")
+THEN
+	RESPONSE #100
+		SetGlobal("BPEdwin4286","AR4286",1)
+		ReallyForceSpellRES("SPEDWIN","Edwin")
+		ActionOverride("Edwin",FillSlot(SLOT_AMULET))
+		ActionOverride("Edwin",EquipItem("MISC89"))
+ 	        Continue()
+END
+
+/*IF
+	Global("CbDeactivateOtherCaptains","GLOBAL",1)
+	InParty("Imoen2")
+	Global("BPImoen4286","AR4286",0)
+	!HasItem("MRIMRIN1","Imoen2")
+THEN
+	RESPONSE #100
+		SetGlobal("BPImoen4286","AR4286",1)
+		ReallyForceSpellRES("SPIMOEN","Imoen2")
+		ActionOverride("Imoen2",FillSlot(SLOT_GAUNTLETS))
+		ActionOverride("Imoen2",EquipItem("MRIMRIN1"))  //?
+ 	        Continue()
+END*/
+
+IF
+	Global("CbDeactivateOtherCaptains","GLOBAL",1)
+	InParty("Valygar")
+	Global("BPValyg4286","AR4286",0)
+	!HasItem("VALNECK1","Valygar")
+THEN
+	RESPONSE #100
+		SetGlobal("BPValyg4286","AR4286",1)
+		ReallyForceSpellRES("spvalyg","Valygar")
+		ActionOverride("Valygar",FillSlot(SLOT_AMULET))
+		ActionOverride("Valygar",EquipItem("VALNECK1"))
+ 	        Continue()
+END
+
+IF
+	Global("CbDeactivateOtherCaptains","GLOBAL",1)
+	InParty("Nalia")
+	Global("BPNalia4286","AR4286",0)
+	!HasItem("NPRING01","Nalia")
+THEN
+	RESPONSE #100
+		SetGlobal("BPNalia4286","AR4286",1)
+		ReallyForceSpellRES("spnalia","Nalia")
+		ActionOverride("Nalia",FillSlot(SLOT_RING_LEFT))
+		ActionOverride("Nalia",EquipItem("NPRING01"))
+ 	        Continue()
+END
+
+IF
+	Global("CbDeactivateOtherCaptains","GLOBAL",1)
+	InParty("Robilard")
+	Global("BPRobil4286","AR4286",0)
+	!HasItem("RINGROB","Robilard")
+THEN
+	RESPONSE #100
+		SetGlobal("BPRobil4286","AR4286",1)
+		ReallyForceSpellRES("sprobil","Robilard")
+		ActionOverride("Robilard",FillSlot(SLOT_RING_RIGHT))
+		ActionOverride("Robilard",EquipItem("RINGROB"))
+ 	        Continue()
+END
+
+IF
+	Global("CbDeactivateOtherCaptains","GLOBAL",1)
+	InParty("Shartedd")
+	Global("BPSharT4286","AR4286",0)
+	!HasItem("SHAR20","Shartedd")
+THEN
+	RESPONSE #100
+		SetGlobal("BPSharT4286","AR4286",1)
+		ReallyForceSpellRES("spshart","Shartedd")
+		ActionOverride("Shartedd",FillSlot(SLOT_ARMOR))
+		ActionOverride("Shartedd",EquipItem("SHAR20"))
+ 	        Continue()
+END
+
+IF
+	Global("CbDeactivateOtherCaptains","GLOBAL",1)
+	InParty("Kachiko")
+	Global("BPKachi4286","AR4286",0)
+	!HasItem("NPRING02","Kachiko")
+THEN
+	RESPONSE #100
+		SetGlobal("BPKachi4286","AR4286",1)
+		ReallyForceSpellRES("spkachi","Kachiko")
+		ActionOverride("Kachiko",FillSlot(SLOT_RING_LEFT))
+		ActionOverride("Kachiko",EquipItem("NPRING02"))
+ 	        Continue()
+END
+
+IF
+	Global("CbDeactivateOtherCaptains","GLOBAL",1)
+	InParty("Sime")
+	Global("BPSime14286","AR4286",0)
+	!HasItem("HELMSUN","Sime")
+THEN
+	RESPONSE #100
+		SetGlobal("BPSime14286","AR4286",1)
+		ReallyForceSpellRES("spsime1","Sime")
+		ActionOverride("Sime",FillSlot(SLOT_HELMET))
+		ActionOverride("Sime",EquipItem("HELMSUN"))
+ 	        Continue()
+END
+
+IF
+	Global("CbDeactivateOtherCaptains","GLOBAL",1)
+	InParty("Sime")
+	Global("BPSime24286","AR4286",0)
+	!HasItem("SIAMUL","Sime")
+THEN
+	RESPONSE #100
+		SetGlobal("BPSime24286","AR4286",1)
+		ReallyForceSpellRES("spsime2","Sime")
+		ActionOverride("Sime",FillSlot(SLOT_AMULET))
+		ActionOverride("Sime",EquipItem("SIAMUL"))
+ 	        Continue()
+END
+
+IF
+	Global("CbDeactivateOtherCaptains","GLOBAL",1)
+	InParty("Selence")
+	Global("BPSelen4286","AR4286",0)
+	!HasItem("CBSLENCE","Selence")
+THEN
+	RESPONSE #100
+		SetGlobal("BPSelen4286","AR4286",1)
+		ReallyForceSpellRES("spselen","Selence")
+		ActionOverride("Selence",FillSlot(SLOT_MISC2))
+		ActionOverride("Selence",EquipItem("CBSLENCE"))
+ 	        Continue()
+END
+
+IF
+	Global("CbDeactivateOtherCaptains","GLOBAL",1)
+	InParty("Dynaheir")
+	Global("BPDynah4286","AR4286",0)
+	!HasItem("BOO","Dynaheir")
+THEN
+	RESPONSE #100
+		SetGlobal("BPDynah4286","AR4286",1)
+		ReallyForceSpellRES("spdynah","Dynaheir")
+		ActionOverride("Dynaheir",FillSlot(SLOT_MISC2))
+		ActionOverride("Dynaheir",EquipItem("BOO"))
+ 	        Continue()
+END
+//*******************************************************************************************
+
+IF
+  Global("CbOriginalPeopleInteract","AR4286",0)
+  Global("CbHaerInteractMayor","GLOBAL",0)
+  InParty("HaerDalis")  // HaerDalis
+  Delay(3)
+  !StateCheck(Player1,STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("CbHaerInteractMayor","GLOBAL",1)
+    SetGlobal("CbOriginalPeopleInteract","AR4286",1)
+    ActionOverride("HaerDalis",StartDialogNoSet(Player1))
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4286",0)
+  Global("CbImoenInteractMayor","GLOBAL",0)
+  InParty("Imoen2")  // Imoen2
+  Delay(3)
+  !StateCheck(Player1,STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("CbImoenInteractMayor","GLOBAL",1)
+    SetGlobal("CbOriginalPeopleInteract","AR4286",1)
+    ActionOverride("Imoen2",StartDialogNoSet(Player1))
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4286",0)
+  Global("CbJanInteractMayor","GLOBAL",0)
+  InParty("Jan")  // Jan
+  Delay(3)
+  !StateCheck(Player1,STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("CbJanInteractMayor","GLOBAL",1)
+    SetGlobal("CbOriginalPeopleInteract","AR4286",1)
+    ActionOverride("Jan",StartDialogNoSet(Player1))
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4286",0)
+  Global("CbMazzyInteractMayor","GLOBAL",0)
+  InParty("Mazzy")  // Mazzy
+  Delay(3)
+  !StateCheck(Player1,STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("CbMazzyInteractMayor","GLOBAL",1)
+    SetGlobal("CbOriginalPeopleInteract","AR4286",1)
+    ActionOverride("Mazzy",StartDialogNoSet(Player1))
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4286",0)
+  Global("CbViccyInteractMayor","GLOBAL",0)
+  InParty("Viconia")  // Viconia
+  Delay(3)
+  !StateCheck(Player1,STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("CbViccyInteractMayor","GLOBAL",1)
+    SetGlobal("CbOriginalPeopleInteract","AR4286",1)
+    ActionOverride("Viconia",StartDialogNoSet(Player1))
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4286",0)
+  Global("CbYoshimoInteractMayor","GLOBAL",0)
+  InParty("Yoshimo")  // Yoshimo
+  Delay(3)
+  !StateCheck(Player1,STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("CbYoshimoInteractMayor","GLOBAL",1)
+    SetGlobal("CbOriginalPeopleInteract","AR4286",1)
+    ActionOverride("Yoshimo",StartDialogNoSet(Player1))
+END
+
+IF
+  GlobalGT("CbPartyIsInSoubarMilitia","GLOBAL",4)
+  Global("CbOpenJail","AR4286",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbOpenJail","AR4286",1)
+END
+
+IF
+  GlobalGT("CbRecruiting","GLOBAL",3)
+THEN
+  RESPONSE #100
+    ContainerEnable("CbShelf",TRUE)
+    Continue()
+END
+
+IF
+  GlobalLT("CbRecruiting","GLOBAL",4)
+THEN
+  RESPONSE #100
+    ContainerEnable("CbShelf",FALSE)
+    Continue()
+END
+
+IF
+  GlobalGT("CbOpenJail","AR4286",0)
+THEN
+  RESPONSE #100
+    TriggerActivation("Door0146",TRUE)
+    Continue()
+END
+
+IF
+  Global("CbOpenJail","AR4286",0)
+THEN
+  RESPONSE #100
+    TriggerActivation("Door0146",FALSE)
+    Continue()
+END
+
+IF
+  Global("CbPartyIsInSoubarMilitia","GLOBAL",1)
+  Global("CbBarrackResting","AR4286",0)
+THEN
+  RESPONSE #100
+    AddAreaType(DUNGEON)
+    SetAreaRestFlag(1)
+    SetGlobal("CbBarrackResting","AR4286",1)
+END
+
+IF
+  GlobalGT("CbPartyIsInSoubarMilitia","GLOBAL",1)
+  GlobalLT("CbPartyIsInSoubarMilitia","GLOBAL",5)
+  Global("CbBarrackResting","AR4286",1)
+THEN
+  RESPONSE #100
+    RemoveAreaType(DUNGEON)
+    AddAreaType(CITY)
+    SetGlobal("CbBarrackResting","AR4286",2)
+END
+
+IF
+  GlobalGT("CbPartyIsInSoubarMilitia","GLOBAL",5)
+  Global("CbBarrackResting","AR4286",2)
+THEN
+  RESPONSE #100
+    RemoveAreaType(CITY)
+    SetGlobal("CbBarrackResting","AR4286",3)
+END
+

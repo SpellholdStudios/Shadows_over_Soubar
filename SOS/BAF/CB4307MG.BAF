@@ -1,0 +1,23 @@
+IF
+  OnCreation()
+THEN
+  RESPONSE #100
+    ApplySpell(Myself,WIZARD_STONE_SKIN)
+    ApplySpell(Myself,WIZARD_MIRROR_IMAGE)
+END
+
+IF
+  Global("CbJodieFosterMakesContactWithPC","LOCALS",0)
+  See([GOODCUTOFF])
+THEN
+  RESPONSE #100
+    SetGlobal("CbJodieFosterMakesContactWithPC","LOCALS",1)
+    ApplySpell(Myself,WIZARD_ABSOLUTE_IMMUNITY)
+    ApplySpell(Myself,WIZARD_GLOBE_OF_INVULNERABILITY)
+    CreateCreatureDoor("CB4300AR",[-1.-1],0)
+    CreateCreatureDoor("CB4300AR",[-5.-5],0)
+    CreateCreatureDoor("CB4300AR",[-5.-5],0)
+    CreateCreatureDoor("CB4300HB",[-1.-1],0)
+    CreateCreatureDoor("CB4300HB",[-1.-1],0)
+END
+

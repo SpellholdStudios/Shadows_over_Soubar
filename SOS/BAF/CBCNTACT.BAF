@@ -1,0 +1,16 @@
+IF
+  Global("CbSoubarContactsAttacked","GLOBAL",1)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    ChangeEnemyAlly(Myself,ENEMY)
+END
+
+IF
+  Allegiance(Myself,NEUTRAL)
+  AttackedBy([GOODCUTOFF],DEFAULT)
+THEN
+  RESPONSE #100
+    SetGlobal("CbSoubarContactsAttacked","GLOBAL",1)
+END
+

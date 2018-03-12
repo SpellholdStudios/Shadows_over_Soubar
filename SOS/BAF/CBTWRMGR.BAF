@@ -1,0 +1,56 @@
+IF
+  OnCreation()
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbGreaterTremor","LOCALS",1)
+END
+
+IF
+  GlobalTimerExpired("CbGreaterTremor","LOCALS")
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbGreaterTremor","LOCALS",30)
+    ReallyForceSpell(NearestEnemyOf(Myself),CLERIC_EARTHQUAKE)
+    ReallyForceSpell(NearestEnemyOf(Myself),CLERIC_EARTHQUAKE)
+END
+
+IF
+  Heard(NearestMyGroupOfType,63)
+  !See(NearestEnemyOf(Myself))
+  Range(LastHeardBy(Myself),30)
+THEN
+  RESPONSE #100
+    MoveToObject(LastHeardBy(Myself))
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("CbTremorWormShout","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbTremorWormShout","LOCALS",1)
+    Shout(63)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  GlobalTimerNotExpired("CbGreaterTremor","LOCALS")
+THEN
+  RESPONSE #40
+    SelectWeaponAbility(SLOT_WEAPON0,0)
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+  RESPONSE #60
+    SelectWeaponAbility(SLOT_WEAPON1,0)
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  ActionListEmpty()
+THEN
+  RESPONSE #40
+    SelectWeaponAbility(SLOT_WEAPON0,0)
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+

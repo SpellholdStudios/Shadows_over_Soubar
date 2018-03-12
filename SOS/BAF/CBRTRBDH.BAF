@@ -1,0 +1,160 @@
+IF
+  RandomNum(3,1)
+  OnCreation()
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbRetributionAgainstPlayer","LOCALS",7)
+    CreateCreature("CBRTBDH1",[-1.-1],0)  // ~Bandit~
+    CreateCreature("CBRTBDH1",[-1.-1],0)  // ~Bandit~
+    CreateCreature("CBRTBDH1",[-1.-1],0)  // ~Bandit~
+    CreateCreature("CBRTBDH1",[-1.-1],0)  // ~Bandit~
+    CreateCreature("CBRTBDH1",[-1.-1],0)  // ~Bandit~
+END
+
+IF
+  RandomNum(3,2)
+  OnCreation()
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbRetributionAgainstPlayer","LOCALS",14)
+    CreateCreature("CBRTBDH2",[-1.-1],0)  // ~Bandit~
+    CreateCreature("CBRTBDH2",[-1.-1],0)  // ~Bandit~
+    CreateCreature("CBRTBDH2",[-1.-1],0)  // ~Bandit~
+    CreateCreature("CBRTBDH2",[-1.-1],0)  // ~Bandit~
+    CreateCreature("CBRTBDH2",[-1.-1],0)  // ~Bandit~
+END
+
+IF
+  RandomNum(3,3)
+  OnCreation()
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbRetributionAgainstPlayer","LOCALS",21)
+    CreateCreature("CBRTBDH3",[-1.-1],0)  // ~Bandit~
+    CreateCreature("CBRTBDH3",[-1.-1],0)  // ~Bandit~
+    CreateCreature("CBRTBDH3",[-1.-1],0)  // ~Bandit~
+    CreateCreature("CBRTBDH3",[-1.-1],0)  // ~Bandit~
+    CreateCreature("CBRTBDH3",[-1.-1],0)  // ~Bandit~
+END
+
+IF
+  RandomNum(6,1)
+  HPGT(Myself,0)
+  GlobalTimerExpired("CbRetributionAgainstPlayer","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbRetributionAgainstPlayer","LOCALS",20)
+    DisplayStringHead(Myself,@10089)
+END
+
+IF
+  RandomNum(6,2)
+  HPGT(Myself,0)
+  GlobalTimerExpired("CbRetributionAgainstPlayer","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbRetributionAgainstPlayer","LOCALS",10)
+    DisplayStringHead(Myself,@10090)
+END
+
+IF
+  RandomNum(6,3)
+  HPGT(Myself,0)
+  GlobalTimerExpired("CbRetributionAgainstPlayer","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbRetributionAgainstPlayer","LOCALS",30)
+    DisplayStringHead(Myself,@10091)
+END
+
+IF
+  RandomNum(6,4)
+  HPGT(Myself,0)
+  GlobalTimerExpired("CbRetributionAgainstPlayer","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbRetributionAgainstPlayer","LOCALS",40)
+    DisplayStringHead(Myself,@10092)
+END
+
+IF
+  RandomNum(6,5)
+  HPGT(Myself,0)
+  GlobalTimerExpired("CbRetributionAgainstPlayer","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbRetributionAgainstPlayer","LOCALS",15)
+    DisplayStringHead(Myself,@10093)
+END
+
+IF
+  RandomNum(6,6)
+  HPGT(Myself,0)
+  GlobalTimerExpired("CbRetributionAgainstPlayer","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbRetributionAgainstPlayer","LOCALS",25)
+    DisplayStringHead(Myself,@10094)
+END
+
+IF
+  See([ANYONE])
+  HPGT(Myself,0)
+  GlobalTimerExpired("CbLeaderCallsForRein","LOCALS")
+  RandomNum(2,1)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbLeaderCallsForRein","LOCALS",45)
+    DisplayStringHead(Myself,@10087)
+    CreateCreatureOffScreen("CB232RNA",0)  // ~Bandit~
+    CreateCreatureOffScreen("CB232RNA",0)  // ~Bandit~
+    CreateCreatureOffScreen("CB232RNA",0)  // ~Bandit~
+    CreateCreatureOffScreen("CB232RNA",0)  // ~Bandit~
+END
+
+IF
+  See([ANYONE])
+  HPGT(Myself,0)
+  GlobalTimerExpired("CbLeaderCallsForRein","LOCALS")
+  RandomNum(2,2)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbLeaderCallsForRein","LOCALS",45)
+    DisplayStringHead(Myself,@10088)
+    CreateCreatureOffScreen("CB232RNH",0)  // ~Bandit~
+    CreateCreatureOffScreen("CB232RNH",0)  // ~Bandit~
+    CreateCreatureOffScreen("CB232RNH",0)  // ~Bandit~
+END
+
+IF
+  See([ANYONE])
+  !Allegiance(LastSeenBy(Myself),ENEMY)
+THEN
+  RESPONSE #100
+    AttackReevaluate(LastSeenBy(Myself),20)
+END
+
+IF
+  AreaCheck("AR4230")
+  ActionListEmpty()
+THEN
+  RESPONSE #10
+    MoveToPoint([2475.975])
+  RESPONSE #10
+    MoveToPoint([1055.1515])
+  RESPONSE #10
+    MoveToPoint([1930.2465])
+  RESPONSE #10
+    MoveToPoint([3410.1400])
+  RESPONSE #10
+    MoveToPoint([4050.1725])
+  RESPONSE #10
+    MoveToPoint([3385.2400])
+  RESPONSE #10
+    MoveToPoint([4390.3130])
+  RESPONSE #10
+    MoveToPoint([1620.2950])
+  RESPONSE #20
+    MoveToPoint([2300.3540])
+END
+

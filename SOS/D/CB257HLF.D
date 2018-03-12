@@ -1,0 +1,214 @@
+BEGIN ~CB257HLF~
+
+IF ~Global("CbPartySpokeWithSoubarThief","GLOBAL",0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN GOTO 1
+END
+
+IF ~~ THEN BEGIN 1 // from: 0.0
+  SAY @1
+  IF ~~ THEN REPLY @2 GOTO 2
+  IF ~~ THEN REPLY @3 GOTO 18
+  IF ~~ THEN REPLY @4 GOTO 20
+END
+
+IF ~~ THEN BEGIN 2 // from: 1.0
+  SAY @5
+  IF ~~ THEN GOTO 3
+END
+
+IF ~~ THEN BEGIN 3 // from: 2.0
+  SAY @6
+  IF ~~ THEN REPLY @7 GOTO 4
+  IF ~~ THEN REPLY @8 GOTO 16
+  IF ~~ THEN REPLY @9 GOTO 17
+END
+
+IF ~~ THEN BEGIN 4 // from: 20.0 19.0 3.0
+  SAY @10
+  IF ~~ THEN REPLY @11 GOTO 5
+END
+
+IF ~~ THEN BEGIN 5 // from: 17.0 16.0 13.0 4.0
+  SAY @12
+  IF ~~ THEN GOTO 6
+END
+
+IF ~~ THEN BEGIN 6 // from: 5.0
+  SAY @13
+  IF ~~ THEN REPLY @14 GOTO 7
+END
+
+IF ~~ THEN BEGIN 7 // from: 8.0 7.1 6.1 6.0
+  SAY @15
+  IF ~~ THEN REPLY @14 GOTO 7
+  IF ~~ THEN REPLY @16 GOTO 9
+END
+
+IF ~~ THEN BEGIN 9 // from: 8.1
+  SAY @17
+  IF ~~ THEN REPLY @18 GOTO 10
+END
+
+IF ~~ THEN BEGIN 10 // from: 11.2 11.0 10.1 9.0
+  SAY @19
+  IF ~~ THEN REPLY @20 GOTO 11
+  IF ~~ THEN REPLY @21 GOTO 10
+END
+
+IF ~~ THEN BEGIN 11 // from: 10.0
+  SAY @22
+  IF ~~ THEN REPLY @23 GOTO 12
+  IF ~~ THEN REPLY @21 GOTO 14
+END
+
+IF ~~ THEN BEGIN 12 // from: 11.1
+  SAY @24
+  IF ~~ THEN REPLY @25 GOTO 13
+END
+
+IF ~~ THEN BEGIN 13 // from: 14.0 12.0
+  SAY @26
+  IF ~~ THEN REPLY @11 GOTO 5
+END
+
+IF ~~ THEN BEGIN 14 // from: 11.3
+  SAY @27
+  IF ~~ THEN REPLY @28 GOTO 13
+  IF ~~ THEN REPLY @29 GOTO 15
+END
+
+IF ~~ THEN BEGIN 15 // from: 14.1
+  SAY @30
+  IF ~~ THEN REPLY @31 GOTO 31
+  IF ~~ THEN REPLY @32 GOTO 32
+END
+
+IF ~~ THEN BEGIN 16 // from: 20.1 19.1 3.1
+  SAY @33
+  IF ~~ THEN REPLY @11 GOTO 5
+END
+
+IF ~~ THEN BEGIN 17 // from: 20.2 19.2 3.2
+  SAY @34
+  IF ~~ THEN REPLY @11 GOTO 5
+END
+
+IF ~~ THEN BEGIN 18 // from: 1.1
+  SAY @35
+  IF ~~ THEN GOTO 19
+END
+
+IF ~~ THEN BEGIN 19 // from: 18.0
+  SAY @36
+  IF ~~ THEN REPLY @7 GOTO 4
+  IF ~~ THEN REPLY @8 GOTO 16
+  IF ~~ THEN REPLY @9 GOTO 17
+END
+
+IF ~~ THEN BEGIN 20 // from: 1.2
+  SAY @37
+  IF ~~ THEN REPLY @7 GOTO 4
+  IF ~~ THEN REPLY @8 GOTO 16
+  IF ~~ THEN REPLY @9 GOTO 17
+END
+
+IF ~Global("CbPartySpokeWithSoubarThief","GLOBAL",1)~ THEN BEGIN 21
+  SAY @38
+  IF ~HasItem("CBAROWHL",LastTalkedToBy())~ THEN REPLY @39 GOTO 22
+  IF ~HasItem("CBAROWPN",LastTalkedToBy())~ THEN REPLY @39 GOTO 25
+  IF ~HasItem("CBBRACRV",LastTalkedToBy())~ THEN REPLY @40 GOTO 27
+  IF ~HasItem("CBGHSTBN",LastTalkedToBy())~ THEN REPLY @41 GOTO 29
+  IF ~~ THEN REPLY @42 GOTO 24
+  IF ~~ THEN REPLY @43 EXIT
+  IF ~~ THEN REPLY @44 GOTO 34
+END
+
+IF ~~ THEN BEGIN 22 // from: 21.0
+  SAY @45
+  IF ~~ THEN REPLY @46 GOTO 23
+  IF ~~ THEN REPLY @47 GOTO 24
+END
+
+IF ~~ THEN BEGIN 23 // from: 22.0
+  SAY @48
+  IF ~~ THEN DO ~TakePartyItemNum("CBAROWHL",1)
+AddexperienceParty(1000)~ EXIT
+END
+
+IF ~~ THEN BEGIN 24 // from: 29.1 27.1 25.0 22.1 21.4
+  SAY @49
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 25 // from: 21.1
+  SAY @45 /* #76313 */
+  IF ~~ THEN REPLY @47 GOTO 24
+  IF ~~ THEN REPLY @46 GOTO 26
+END
+
+IF ~~ THEN BEGIN 26 // from: 25.1
+  SAY @48
+  IF ~~ THEN DO ~TakePartyItemNum("CBAROWPN",1)
+AddexperienceParty(1000)~ EXIT
+END
+
+IF ~~ THEN BEGIN 27 // from: 21.2
+  SAY @45
+  IF ~~ THEN REPLY @46 GOTO 28
+  IF ~~ THEN REPLY @47 GOTO 24
+END
+
+IF ~~ THEN BEGIN 28 // from: 27.0
+  SAY @48
+  IF ~~ THEN DO ~TakePartyItemNum("CBBRACRV",1)
+AddexperienceParty(1000)~ EXIT
+END
+
+IF ~~ THEN BEGIN 29 // from: 21.3
+  SAY @45
+  IF ~~ THEN REPLY @46 GOTO 30
+  IF ~~ THEN REPLY @47 GOTO 24
+END
+
+IF ~~ THEN BEGIN 30 // from: 29.0
+  SAY @48
+  IF ~~ THEN DO ~TakePartyItemNum("CBGHSTBN",1)
+AddexperienceParty(1000)~ EXIT
+END
+
+IF ~~ THEN BEGIN 31 // from: 15.0
+  SAY @50
+  IF ~~ THEN DO ~SetGlobal("CbPartySpokeWithSoubarThief","GLOBAL",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN 32 // from: 15.1
+  SAY @51
+  IF ~~ THEN GOTO 33
+END
+
+IF ~~ THEN BEGIN 33 // from: 32.0
+  SAY @52
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN 34 // from: 21.6
+  SAY @53
+  IF ~~ THEN REPLY @54 GOTO 35
+  IF ~~ THEN REPLY @55 GOTO 37
+END
+
+IF ~~ THEN BEGIN 35 // from: 34.0
+  SAY @56
+  IF ~~ THEN GOTO 36
+END
+
+IF ~~ THEN BEGIN 36 // from: 37.0 35.0
+  SAY @57
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN 37 // from: 34.1
+  SAY @58
+  IF ~~ THEN GOTO 36
+END

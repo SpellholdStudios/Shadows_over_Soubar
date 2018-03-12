@@ -1,0 +1,166 @@
+IF
+  OnCreation()
+  Global("CbStartingCreaturesCreated","AR4220",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbStartingCreaturesCreated","AR4220",1)
+    CreateCreature("CBNARULF",[2310.1708],6)  // ~Narulf~
+    CreateCreature("CBRBDdrb",[61.542],0)  // ~Rabid Deer~
+    CreateCreature("CBRBDdrb",[1255.1636],0)  // ~Rabid Deer~
+    CreateCreature("CBRBDdrb",[1550.288],0)  // ~Rabid Deer~
+    CreateCreature("CBRBDgrb",[72.836],0)  // ~Rabid Bear~
+    CreateCreature("CBRBDgrb",[976.1857],0)  // ~Rabid Bear~
+    CreateCreature("CBRBDgrb",[1649.602],0)  // ~Rabid Bear~
+    CreateCreature("CBRBDbrb",[301.1413],0)  // ~Rabid Bear~
+    CreateCreature("CBRBDbrb",[538.361],0)  // ~Rabid Bear~
+    CreateCreature("CBRBDbrb",[1105.1542],0)  // ~Rabid Bear~
+    CreateCreature("CBRBDbrb",[1390.1203],0)  // ~Rabid Bear~
+    CreateCreature("CBRBDblb",[229.495],0)  // ~Rabid Wolf~
+    CreateCreature("CBRBDblb",[961.1121],0)  // ~Rabid Wolf~
+    CreateCreature("CBRBDblb",[2223.311],0)  // ~Rabid Wolf~
+    CreateCreature("CBRBDblb",[2394.723],0)  // ~Rabid Wolf~
+    Continue()
+END
+
+IF
+  Global("CHARLOTTE","GLOBAL",0)
+  LevelLT(Player1,13)
+THEN
+  RESPONSE #100
+    SetGlobal("CHARLOTTE","GLOBAL",1)
+    CreateCreature("CHARLO09",[2306.1117],0)
+END
+
+IF
+  Global("CHARLOTTE","GLOBAL",0)
+  LevelGT(Player1,12)
+  LevelLT(Player1,23)
+THEN
+  RESPONSE #100
+    SetGlobal("CHARLOTTE","GLOBAL",1)
+    CreateCreature("CHARLO12",[2306.1117],0)
+END
+
+IF
+  Global("CHARLOTTE","GLOBAL",0)
+  LevelGT(Player1,22)
+THEN
+  RESPONSE #100
+    SetGlobal("CHARLOTTE","GLOBAL",1)
+    CreateCreature("CHARLO22",[2306.1117],0)
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4220",0)
+  Global("CbAerieInteracted_4220","AR4220",0)
+  InParty("Aerie")  // ~Aerie~
+  !StateCheck(Player1,STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("CbOriginalPeopleInteract","AR4220",1)
+    ActionOverride("Aerie",StartDialogNoSet(Player1))
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4220",0)
+  Global("CbNaliaInteracted_4220","AR4220",0)
+  InParty("nalia")  // nalia
+  InParty("CHARLOTT")  // CHARLOTT
+  !StateCheck("CHARLOTT",STATE_SLEEPING)  // CHARLOTT
+THEN
+  RESPONSE #100
+    SetGlobal("CbOriginalPeopleInteract","AR4220",1)
+    ActionOverride("nalia",StartDialogNoSet(Player1))
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4220",0)
+  Global("CbCerndInteracted_4220","AR4220",0)
+  InParty("Cernd")  // Cernd
+  InParty("CHARLOTT")  // CHARLOTT
+  !StateCheck("CHARLOTT",STATE_SLEEPING)  // CHARLOTT
+THEN
+  RESPONSE #100
+    SetGlobal("CbOriginalPeopleInteract","AR4220",1)
+    ActionOverride("Cernd",StartDialogNoSet(Player1))
+END
+
+IF
+  Global("CbDeliveringMissives","GLOBAL",1)
+  Global("CbBanditsTryToStopParty","AR4220",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbBanditsTryToStopParty","AR4220",1)
+    CreateCreature("CB220BN1",[60.500],6)  // ~Bandit Orc~
+    CreateCreature("CB220BN2",[60.500],6)  // ~Bandit Orc~
+    CreateCreature("CB220BN2",[60.500],6)  // ~Bandit Orc~
+END
+
+IF
+  GlobalGT("CbNarulfStoppedPoisoningRiver","AR4220",0)
+  Global("CbCleanRiverTimerSet","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbCleanRiverTimerSet","GLOBAL",1)
+    SetGlobalTimer("CbCleanRiverChionthar","GLOBAL",THREE_DAYS)
+END
+
+IF
+  GlobalTimerExpired("CbCleanRiverChionthar","GLOBAL")
+  Global("CbCleanRiverTimerSet","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbRiverChiontharCleaned","GLOBAL",1)
+    TriggerActivation("CbPoisonRiverNumber01",FALSE)
+    TriggerActivation("CbPoisonRiverNumber02",FALSE)
+    TriggerActivation("CbPoisonRiverNumber03",FALSE)
+    TriggerActivation("CbPoisonRiverNumber04",FALSE)
+    TriggerActivation("CbPoisonRiverNumber05",FALSE)
+    TriggerActivation("CbPoisonRiverNumber06",FALSE)
+    TriggerActivation("CbPoisonRiverNumber07",FALSE)
+    TriggerActivation("CbPoisonRiverNumber08",FALSE)
+    TriggerActivation("CbPoisonRiverNumber09",FALSE)
+    TriggerActivation("CbPoisonRiverNumber10",FALSE)
+    TriggerActivation("CbPoisonRiverNumber11",FALSE)
+END
+
+IF
+  !Exists("CBRBDdrb")  // ~Rabid Deer~
+  Delay(15)
+  Global("CbStartingCreaturesCreated","AR4220",1)
+  !GlobalGT("CbNarulfStoppedPoisoningRiver","AR4220",1)
+THEN
+  RESPONSE #100
+    CreateCreatureOffScreen("CBRBDdrb",0)  // ~Rabid Deer~
+END
+
+IF
+  !Exists("CBRBDgrb")  // ~Rabid Bear~
+  Delay(15)
+  Global("CbStartingCreaturesCreated","AR4220",1)
+  !GlobalGT("CbNarulfStoppedPoisoningRiver","AR4220",1)
+THEN
+  RESPONSE #100
+    CreateCreatureOffScreen("CBRBDgrb",0)  // ~Rabid Bear~
+END
+
+IF
+  !Exists("CBRBDbrb")  // ~Rabid Bear~
+  Delay(15)
+  Global("CbStartingCreaturesCreated","AR4220",1)
+  !GlobalGT("CbNarulfStoppedPoisoningRiver","AR4220",1)
+THEN
+  RESPONSE #100
+    CreateCreatureOffScreen("CBRBDbrb",0)  // ~Rabid Bear~
+END
+
+IF
+  !Exists("CBRBDblb")  // ~Rabid Wolf~
+  Delay(15)
+  Global("CbStartingCreaturesCreated","AR4220",1)
+  !GlobalGT("CbNarulfStoppedPoisoningRiver","AR4220",1)
+THEN
+  RESPONSE #100
+    CreateCreatureOffScreen("CBRBDblb",0)  // ~Rabid Wolf~
+END
+

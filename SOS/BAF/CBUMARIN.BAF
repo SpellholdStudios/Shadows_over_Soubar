@@ -1,0 +1,41 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CBWILLET")  // 
+    SetGlobal("CbContactsAboutToMove","AR1105",1)
+    MoveViewObject("UHPAT01",STANDARD)
+    MoveToObject("UHPAT01")
+    Wait(1)
+    MoveViewObject("UHMER01",STANDARD)
+    MoveToObject("UHMER01")
+    Wait(1)
+    MoveToPoint([1003.466])
+    Wait(1)
+    MoveToPoint([1044.192])
+    Wait(1)
+    JumpToPoint([534.680])
+    FadeToColor([40.0],0)
+    Wait(4)
+    ActionOverride("CBUHAKCT",DestroySelf())
+    ActionOverride("CBUHGVCT",DestroySelf())
+    ActionOverride(Player1,LeaveAreaLUAPanic("AR4219","",[782.169],14))
+    ActionOverride(Player1,LeaveAreaLUA("AR4219","",[782.169],14))
+    ActionOverride(Player2,LeaveAreaLUA("AR4219","",[791.210],12))
+    ActionOverride(Player3,LeaveAreaLUA("AR4219","",[824.234],12))
+    ActionOverride(Player4,LeaveAreaLUA("AR4219","",[859.258],12))
+    ActionOverride(Player5,LeaveAreaLUA("AR4219","",[826.149],5))
+    ActionOverride(Player6,LeaveAreaLUA("AR4219","",[888.188],6))
+    Explore()
+    CreateCreature("CBUHAKCT",[882.171],5)  // ~Arvin Kothonos~
+    CreateCreature("CBUHGVCT",[920.230],6)  // ~Gaius Varros~
+    ActionOverride(Player1,Explore())
+    FadeFromColor([40.0],0)
+    MoveViewPoint([883.288],INSTANT)
+    Wait(1)
+    ActionOverride(Player1,TriggerActivation("Tran1100",FALSE))
+    ActionOverride(Player1,TriggerActivation("Tran1100b",FALSE))
+    SetGlobal("CbTownCouncilWithPlayer","GLOBAL",11)
+    StartDialogNoSet("CBWILLET")
+END
+

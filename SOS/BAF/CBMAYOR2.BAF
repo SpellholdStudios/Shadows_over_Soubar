@@ -1,0 +1,106 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+    FadeToColor([40.0],0)
+    Wait(2)
+    LeaveAreaLUAPanic("AR4299","",[10.10],4)
+    LeaveAreaLUA("AR4299","",[10.10],4)
+    ActionOverride(Player2,LeaveAreaLUA("AR4299","",[10.10],4))
+    ActionOverride(Player3,LeaveAreaLUA("AR4299","",[10.10],4))
+    ActionOverride(Player4,LeaveAreaLUA("AR4299","",[10.10],2))
+    ActionOverride(Player5,LeaveAreaLUA("AR4299","",[10.10],0))
+    ActionOverride(Player6,LeaveAreaLUA("AR4299","",[10.10],0))
+    Wait(3)
+    DayNight(DAWN_END)
+    Explore()
+    MultiPlayerSync()
+    MoveViewPoint([3000.2450],INSTANT)
+    CreateCreature("M05PCSPY",[2760.2300],0)  // <Invalid Strref -1>
+    CreateCreature("M05PCSPY",[2700.2675],0)  // <Invalid Strref -1>
+    CreateCreature("M05PCSPY",[3320.2725],0)  // <Invalid Strref -1>
+    CreateCreature("M05PCSPY",[3260.2370],0)  // <Invalid Strref -1>
+    CreateCreature("CBRSSOUB",[3440.1930],0)  // ~Rolf Sureblade~
+    CreateCreature("CBSDSO01",[3075.2350],12)  // ~Bandit~
+    CreateCreature("CBSDSO02",[3075.2380],12)  // ~Bandit~
+    CreateCreature("CBSDSO03",[3075.2410],12)  // ~Bandit~
+    CreateCreature("CBSDSO04",[3075.2430],12)  // ~Bandit~
+    CreateCreature("CBSDSO05",[3075.2460],12)  // ~Bandit~
+    CreateCreature("CBSDSO06",[3075.2490],12)  // ~Bandit~
+    CreateCreature("CBSDSO07",[3075.2520],12)  // ~Bandit~
+    CreateCreature("CBSDSO08",[3075.2550],12)  // ~Bandit~
+    CreateCreature("CBSDSO09",[3075.2580],12)  // ~Bandit~
+    CreateCreature("CBSDSO10",[3075.2610],12)  // ~Bandit~
+    CreateCreature("CBSDSO11",[3075.2640],12)  // ~Bandit~
+    CreateCreature("CBSDSO12",[3075.2670],12)  // ~Bandit~
+    CreateCreature("CBSDSO21",[3025.2350],12)  // ~Bandit~
+    CreateCreature("CBSDSO22",[3025.2380],12)  // ~Bandit~
+    CreateCreature("CBSDSO23",[3025.2410],12)  // ~Bandit~
+    CreateCreature("CBSDSO24",[3025.2430],12)  // ~Bandit~
+    CreateCreature("CBSDSO25",[3025.2460],12)  // ~Bandit~
+    CreateCreature("CBSDSO26",[3025.2490],12)  // ~Bandit~
+    CreateCreature("CBSDSO27",[3025.2520],12)  // ~Bandit~
+    CreateCreature("CBSDSO28",[3025.2550],12)  // ~Bandit~
+    CreateCreature("CBSDSO29",[3025.2580],12)  // ~Bandit~
+    CreateCreature("CBSDSO30",[3025.2610],12)  // ~Bandit~
+    CreateCreature("CBSDSO31",[3025.2640],12)  // ~Bandit~
+    CreateCreature("CBSDSO32",[3025.2670],12)  // ~Bandit~
+    CreateCreature("CBSDSO41",[2975.2350],12)  // ~Bandit~
+    CreateCreature("CBSDSO42",[2975.2380],12)  // ~Bandit~
+    CreateCreature("CBSDSO43",[2975.2410],12)  // ~Bandit~
+    CreateCreature("CBSDSO44",[2975.2430],12)  // ~Bandit~
+    CreateCreature("CBSDSO45",[2975.2460],12)  // ~Bandit~
+    CreateCreature("CBSDSO46",[2975.2490],12)  // ~Bandit~
+    CreateCreature("CBSDSO47",[2975.2520],12)  // ~Bandit~
+    CreateCreature("CBSDSO48",[2975.2550],12)  // ~Bandit~
+    CreateCreature("CBSDSO49",[2975.2580],12)  // ~Bandit~
+    CreateCreature("CBSDSO50",[2975.2610],12)  // ~Bandit~
+    CreateCreature("CBSDSO51",[2975.2640],12)  // ~Bandit~
+    CreateCreature("CBSDSO52",[2975.2670],12)  // ~Bandit~
+    CreateCreature("CBACSO01",[2900.2380],12)  // ~Bandit~
+    CreateCreature("CBACSO02",[2900.2410],12)  // ~Bandit~
+    CreateCreature("CBACSO03",[2900.2430],12)  // ~Bandit~
+    CreateCreature("CBACSO04",[2900.2460],12)  // ~Bandit~
+    CreateCreature("CBACSO05",[2900.2490],12)  // ~Bandit~
+    CreateCreature("CBACSO06",[2900.2520],12)  // ~Bandit~
+    CreateCreature("CBACSO07",[2900.2550],12)  // ~Bandit~
+    CreateCreature("CBACSO08",[2900.2580],12)  // ~Bandit~
+    CreateCreature("CBACSO09",[2900.2610],12)  // ~Bandit~
+    CreateCreature("CBACSO10",[2900.2640],12)  // ~Bandit~
+    CreateCreature("CBACSO11",[2850.2380],12)  // ~Bandit~
+    CreateCreature("CBACSO12",[2850.2410],12)  // ~Bandit~
+    CreateCreature("CBACSO13",[2850.2430],12)  // ~Bandit~
+    CreateCreature("CBACSO14",[2850.2460],12)  // ~Bandit~
+    CreateCreature("CBACSO15",[2850.2490],12)  // ~Bandit~
+    CreateCreature("CBACSO16",[2850.2520],12)  // ~Bandit~
+    CreateCreature("CBACSO17",[2850.2550],12)  // ~Bandit~
+    CreateCreature("CBACSO18",[2850.2580],12)  // ~Bandit~
+    CreateCreature("CBACSO19",[2850.2610],12)  // ~Bandit~
+    CreateCreature("CBACSO20",[2850.2640],12)  // ~Bandit~
+    CreateCreature("CBHBSO02",[2775.2330],12)  // ~Bandit~
+    CreateCreature("CBHBSO03",[2775.2370],12)  // ~Bandit~
+    CreateCreature("CBHBSO04",[2775.2410],12)  // ~Bandit~
+    CreateCreature("CBHBSO05",[2775.2450],12)  // ~Bandit~
+    CreateCreature("CBHBSO06",[2775.2490],12)  // ~Bandit~
+    CreateCreature("CBHBSO07",[2775.2530],12)  // ~Bandit~
+    CreateCreature("CBHBSO08",[2775.2570],12)  // ~Bandit~
+    CreateCreature("CBHBSO09",[2775.2610],12)  // ~Bandit~
+    CreateCreature("CBHBSO10",[2775.2650],12)  // ~Bandit~
+    CreateCreature("CBHBSO12",[2700.2330],12)  // ~Bandit~
+    CreateCreature("CBHBSO13",[2700.2370],12)  // ~Bandit~
+    CreateCreature("CBHBSO14",[2700.2410],12)  // ~Bandit~
+    CreateCreature("CBHBSO15",[2700.2450],12)  // ~Bandit~
+    CreateCreature("CBHBSO16",[2700.2490],12)  // ~Bandit~
+    CreateCreature("CBHBSO17",[2700.2530],12)  // ~Bandit~
+    CreateCreature("CBHBSO18",[2700.2570],12)  // ~Bandit~
+    CreateCreature("CBHBSO19",[2700.2610],12)  // ~Bandit~
+    CreateCreature("CBHBSO20",[2700.2650],12)  // ~Bandit~
+    FadeFromColor([40.0],0)
+    Wait(2)
+    ActionOverride("CBRSSOUB",MoveToPoint([3300.2530]))
+    ActionOverride("CBRSSOUB",Face(3))
+    ActionOverride("CBRSSOUB",MoveToPoint([3240.2530]))
+    ActionOverride("CBRSSOUB",StartDialogNoSet("CBRSSOUB"))
+END
+

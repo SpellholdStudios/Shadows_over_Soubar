@@ -1,0 +1,28 @@
+BEGIN ~CBLYBUCK~
+
+IF ~!Dead("CBBUCKMO")~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN EXIT
+END
+
+IF ~Dead("CBBUCKMO")
+Global("CbBetraChanged","GLOBAL",0)~ THEN BEGIN 1
+  SAY @1
+  IF ~~ THEN EXIT
+END
+
+IF ~Dead("CBBUCKMO")
+Global("CbBetraChanged","GLOBAL",1)~ THEN BEGIN 2
+  SAY @2
+  IF ~~ THEN GOTO 3
+END
+
+IF ~~ THEN BEGIN 3 // from: 2.0
+  SAY @3
+  IF ~~ THEN GOTO 4
+END
+
+IF ~~ THEN BEGIN 4 // from: 3.0
+  SAY @4
+  IF ~~ THEN EXIT
+END

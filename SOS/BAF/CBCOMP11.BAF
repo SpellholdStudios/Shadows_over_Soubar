@@ -1,0 +1,24 @@
+IF
+  See([ANYONE])
+  Allegiance(LastSeenBy(Myself),ENEMY)
+THEN
+  RESPONSE #100
+    AttackReevaluate(LastSeenBy(Myself),20)
+END
+
+IF
+  !See([ENEMY])
+  Detect([PC])
+THEN
+  RESPONSE #100
+    FollowObjectFormation(Player1,2,2)
+END
+
+IF
+  !See([ENEMY])
+  Detect([PC])
+THEN
+  RESPONSE #100
+    FollowObjectFormation(Player1,2,2)
+END
+

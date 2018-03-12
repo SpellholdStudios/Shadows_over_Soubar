@@ -1,0 +1,19 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CBTRIEL1")  // 
+    ActionOverride("CBTRIEL0",JumpToPoint([539.962]))
+    JumpToPoint([265.907])
+    MoveToObjectNoInterrupt("CBTRIEL0")
+    CreateCreature("M05PCSPY",[-1.-1],0)  // <Invalid Strref -1>
+    ActionOverride("CBTRIEL0",MoveViewObject(Myself,INSTANT))
+    ActionOverride("CBTRIEL0",DisplayStringHead(Myself,44179))  // ~Get away from me!! I'll... I'll kill you!! I'll rip your eyes from your filthy faces!!! Do not tempt my wrath!! Do not...~
+    ActionOverride("CBTRIEL0",Wait(6))
+    Wait(3)
+    MoveViewObject(Myself,INSTANT)
+    DisplayStringHead(Myself,530)  // ~Do you truly believe that you have the strength to kill me?~
+    SetGlobal("CbBarBrawl","AR4264",1)
+    EndCutSceneMode()
+END
+

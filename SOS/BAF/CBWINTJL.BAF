@@ -1,0 +1,23 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)  // 
+    FadeToColor([20.0],0)
+    Wait(3)
+    ActionOverride("CBSBIN75",MoveBetweenAreas("AR4287",[741.1365],8))
+    LeaveAreaLUAPanic("AR4287","",[600.901],10)
+    LeaveAreaLUA("AR4287","",[600.901],10)
+    ActionOverride(Player2,LeaveAreaLUA("AR4287","",[612.957],10))
+    ActionOverride(Player3,LeaveAreaLUA("AR4287","",[556.941],10))
+    ActionOverride(Player4,LeaveAreaLUA("AR4287","",[489.879],10))
+    ActionOverride(Player5,LeaveAreaLUA("AR4287","",[469.927],10))
+    ActionOverride(Player6,LeaveAreaLUA("AR4287","",[446.849],10))
+    MultiPlayerSync()
+    Wait(1)
+    FadeFromColor([20.0],0)
+    Wait(2)
+    SetGlobal("CbASpyWasJailed","GLOBAL",1)
+    EndCutSceneMode()
+END
+

@@ -1,0 +1,36 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CBSOUSGT")  // 
+    GiveItemCreate("CBFXMNK1",Myself,6,1,0)  // CBFXMNK1
+    UseItem("CBFXMNK1",Player1)  // CBFXMNK1
+    UseItem("CBFXMNK1",Player2)  // CBFXMNK1
+    UseItem("CBFXMNK1",Player3)  // CBFXMNK1
+    UseItem("CBFXMNK1",Player4)  // CBFXMNK1
+    UseItem("CBFXMNK1",Player5)  // CBFXMNK1
+    UseItem("CBFXMNK1",Player6)  // CBFXMNK1
+    SetGlobal("CbGetUniforms","LOCALS",1)
+    ActionOverride(Player1,EquipItem("CBMILT04"))
+    ActionOverride(Player2,EquipItem("CBMILT04"))
+    ActionOverride(Player3,EquipItem("CBMILT04"))
+    ActionOverride(Player4,EquipItem("CBMILT04"))
+    ActionOverride(Player5,EquipItem("CBMILT04"))
+    ActionOverride(Player6,EquipItem("CBMILT04"))
+    GiveItemCreate("CBSOUSG2",Myself,6,1,0)  // ~Wand of Lightning~
+    UseItem("CBSOUSG2",Player1)  // ~Wand of Lightning~
+    UseItem("CBSOUSG2",Player2)  // ~Wand of Lightning~
+    UseItem("CBSOUSG2",Player3)  // ~Wand of Lightning~
+    UseItem("CBSOUSG2",Player4)  // ~Wand of Lightning~
+    UseItem("CBSOUSG2",Player5)  // ~Wand of Lightning~
+    UseItem("CBSOUSG2",Player6)  // ~Wand of Lightning~
+    ActionOverride(Player1,EquipMostDamagingMelee())
+    ActionOverride(Player2,EquipMostDamagingMelee())
+    ActionOverride(Player3,EquipMostDamagingMelee())
+    ActionOverride(Player4,EquipMostDamagingMelee())
+    ActionOverride(Player5,EquipMostDamagingMelee())
+    ActionOverride(Player6,EquipMostDamagingMelee())
+    SetGlobal("CbMajorWantsStuffInBag","AR4286",3)
+    EndCutSceneMode()
+END
+

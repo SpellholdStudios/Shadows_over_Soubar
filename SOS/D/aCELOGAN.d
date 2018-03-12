@@ -1,0 +1,303 @@
+APPEND CELOGAN
+
+IF WEIGHT #21 ~GlobalLT("loganmantle","GLOBAL",2)
+GlobalLT("feudplot","GLOBAL",2)
+GlobalGT("CbDeliveringMissives","GLOBAL",0)
+!Global("CbDeliveringMissives","GLOBAL",3)
+!Global("LoganMad","GLOBAL",1)~ THEN BEGIN SOS19
+  SAY @0
+  IF ~Global("CbLoganReadingMissive","LOCALS",0)
+PartyHasItem("CBLOGMSS")~ THEN REPLY @1 GOTO SOS20
+  IF ~Global("CbLoganReadingMissive","LOCALS",1)
+!Global("CbLoganAnswered","LOCALS",1)
+!PartyHasItem("CBLOGMSS")~ THEN REPLY @2 GOTO SOS27
+  IF ~~ THEN REPLY @3 EXIT
+END
+
+IF ~~ THEN BEGIN SOS20
+  SAY @4
+  IF ~~ THEN REPLY @5 GOTO SOS21
+  IF ~~ THEN REPLY @6 GOTO SOS22
+  IF ~~ THEN REPLY @7 GOTO SOS25
+END
+
+IF ~~ THEN BEGIN SOS21
+  SAY @8 
+  IF ~~ THEN DO ~SetGlobal("CbLoganReadingMissive","LOCALS",1)
+TakePartyItem("CBLOGMSS")~ EXIT
+END
+
+IF ~~ THEN BEGIN SOS22
+  SAY @9 
+  IF ~~ THEN REPLY @10 GOTO SOS23
+  IF ~~ THEN REPLY @11 GOTO SOS24
+END
+
+IF ~~ THEN BEGIN SOS23
+  SAY @12
+  IF ~~ THEN DO ~SetGlobal("CbLoganReadingMissive","LOCALS",1)
+TakePartyItem("CBLOGMSS")~ EXIT
+END
+
+IF ~~ THEN BEGIN SOS24
+  SAY @13
+  IF ~~ THEN DO ~SetGlobal("CbLoganReadingMissive","LOCALS",1)
+TakePartyItem("CBLOGMSS")~ EXIT
+END
+
+IF ~~ THEN BEGIN SOS25
+  SAY @14
+  IF ~~ THEN DO ~TakePartyItem("CBLOGMSS")~ GOTO SOS26
+END
+
+IF ~~ THEN BEGIN SOS26
+  SAY @15 
+  IF ~~ THEN DO ~SetGlobal("CbLoganReadingMissive","LOCALS",1)
+TakePartyItem("CBLOGMSS")~ EXIT
+END
+
+IF ~~ THEN BEGIN SOS27
+  SAY @16
+  IF ~~ THEN GOTO SOS28
+END
+
+IF ~~ THEN BEGIN SOS28
+  SAY @17
+  IF ~~ THEN GOTO SOS29
+END
+
+IF ~~ THEN BEGIN SOS29
+  SAY @18
+  IF ~~ THEN GOTO SOS30
+END
+
+IF ~~ THEN BEGIN SOS30
+  SAY @19
+  IF ~~ THEN GOTO SOS31
+END
+
+IF ~~ THEN BEGIN SOS31
+  SAY @20
+  IF ~~ THEN GOTO SOS32
+END
+
+IF ~~ THEN BEGIN SOS32
+  SAY @21
+  IF ~~ THEN DO ~IncrementGlobal("CbDeliveringMissives","GLOBAL",1)
+SetGlobal("CbLoganAnswered","LOCALS",1)~ EXIT
+END
+
+IF WEIGHT #22 ~Global("loganmantle","GLOBAL",2)
+Global("feudplot","GLOBAL",2)
+GlobalGT("CbDeliveringMissives","GLOBAL",0)
+!Global("CbDeliveringMissives","GLOBAL",3)
+!Global("LoganMad","GLOBAL",1)~ THEN BEGIN SOS33
+  SAY @22
+  IF ~Global("CbLoganReadingMissive","LOCALS",0)
+PartyHasItem("CBLOGMSS")~ THEN REPLY @23 GOTO SOS34
+  IF ~Global("CbLoganReadingMissive","LOCALS",0)
+PartyHasItem("CBLOGMSS")~ THEN REPLY @24 GOTO SOS41
+  IF ~Global("CbLoganReadingMissive","LOCALS",0)
+PartyHasItem("CBLOGMSS")~ THEN REPLY @25 GOTO SOS47
+  IF ~~ THEN REPLY @26 GOTO SOS52
+  IF ~Global("CbLoganReadingMissive","LOCALS",1)
+!Global("CbLoganAnswered","LOCALS",1)
+!PartyHasItem("CBLOGMSS")~ THEN REPLY @2 GOTO SOS27
+  IF ~Global("CbLoganReadingMissive","LOCALS",1)
+!Global("CbLoganAnswered","LOCALS",1)
+!PartyHasItem("CBLOGMSS")~ THEN REPLY @27 GOTO SOS53
+END
+
+IF ~~ THEN BEGIN SOS34
+  SAY @28
+  IF ~~ THEN REPLY @29 GOTO SOS35
+END
+
+IF ~~ THEN BEGIN SOS35
+  SAY @30
+  IF ~~ THEN GOTO SOS36
+END
+
+IF ~~ THEN BEGIN SOS36
+  SAY @31
+  IF ~~ THEN REPLY @32GOTO SOS37
+  IF ~~ THEN REPLY @33 GOTO SOS39
+END
+
+IF ~~ THEN BEGIN SOS37
+  SAY @34
+  IF ~~ THEN GOTO SOS38
+END
+
+IF ~~ THEN BEGIN SOS38
+  SAY @35
+  IF ~~ THEN DO ~SetGlobal("CbLoganReadingMissive","LOCALS",1)
+TakePartyItem("CBLOGMSS")~ EXIT
+END
+
+IF ~~ THEN BEGIN SOS39
+  SAY @36
+  IF ~~ THEN GOTO SOS40
+END
+
+IF ~~ THEN BEGIN SOS40
+  SAY @37
+  IF ~~ THEN DO ~SetGlobal("CbLoganReadingMissive","LOCALS",1)
+TakePartyItem("CBLOGMSS")~ EXIT
+END
+
+IF ~~ THEN BEGIN SOS41
+  SAY @38
+  IF ~~ THEN GOTO SOS42
+END
+
+IF ~~ THEN BEGIN SOS42
+  SAY @39
+  IF ~~ THEN REPLY @40 GOTO SOS43
+  IF ~~ THEN REPLY @41 GOTO SOS44
+  IF ~~ THEN REPLY @42 GOTO SOS45
+END
+
+IF ~~ THEN BEGIN SOS43
+  SAY @43
+  IF ~~ THEN DO ~SetGlobal("CbLoganReadingMissive","LOCALS",1)
+TakePartyItem("CBLOGMSS")~ EXIT
+END
+
+IF ~~ THEN BEGIN SOS44
+  SAY @44
+  IF ~~ THEN DO ~SetGlobal("CbLoganReadingMissive","LOCALS",1)
+TakePartyItem("CBLOGMSS")~ EXIT
+END
+
+IF ~~ THEN BEGIN SOS45
+  SAY @45
+  IF ~~ THEN DO ~TakePartyItem("CBLOGMSS")~ GOTO SOS46
+END
+
+IF ~~ THEN BEGIN SOS46
+  SAY @46
+  IF ~~ THEN DO ~SetGlobal("CbLoganReadingMissive","LOCALS",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN SOS47
+  SAY @47
+  IF ~~ THEN REPLY @48 GOTO SOS48
+  IF ~~ THEN REPLY @41 GOTO SOS44
+  IF ~~ THEN REPLY @49 GOTO SOS50
+END
+
+IF ~~ THEN BEGIN SOS48
+  SAY @50
+  IF ~~ THEN GOTO SOS49
+END
+
+IF ~~ THEN BEGIN SOS49
+  SAY @51
+  IF ~~ THEN DO ~SetGlobal("CbLoganReadingMissive","LOCALS",1)
+TakePartyItem("CBLOGMSS")~ EXIT
+END
+
+IF ~~ THEN BEGIN SOS50
+  SAY @45
+  IF ~~ THEN DO ~TakePartyItem("CBLOGMSS")~ GOTO SOS51
+END
+
+IF ~~ THEN BEGIN SOS51
+  SAY @46
+  IF ~~ THEN DO ~SetGlobal("CbLoganReadingMissive","LOCALS",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN SOS52
+  SAY @52
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN SOS53
+  SAY @53
+  IF ~~ THEN GOTO SOS54
+END
+
+IF ~~ THEN BEGIN SOS54
+  SAY @54
+  IF ~~ THEN GOTO SOS55
+END
+
+IF ~~ THEN BEGIN SOS55
+  SAY @55
+  IF ~~ THEN GOTO SOS56
+END
+
+IF ~~ THEN BEGIN SOS56
+  SAY @56
+  IF ~~ THEN GOTO SOS57
+END
+
+IF ~~ THEN BEGIN SOS57
+  SAY @57
+  IF ~~ THEN DO ~IncrementGlobal("CbDeliveringMissives","GLOBAL",1)
+SetGlobal("CbLoganAnswered","LOCALS",1)
+~ EXIT
+END
+
+IF WEIGHT #23 ~Global("LoganMad","GLOBAL",1)
+GlobalGT("CbDeliveringMissives","GLOBAL",0)
+!Global("CbDeliveringMissives","GLOBAL",3)~ THEN BEGIN SOS58
+  SAY @58
+  IF ~~ THEN REPLY @59 GOTO SOS59
+  IF ~Global("CbLoganReadingMissive","LOCALS",0)
+PartyHasItem("CBLOGMSS")~ THEN REPLY @60 GOTO SOS60
+  IF ~~ THEN REPLY @61 EXIT
+  IF ~Global("CbLoganReadingMissive","LOCALS",1)
+!Global("CbLoganAnswered","LOCALS",1)
+!PartyHasItem("CBLOGMSS")~ THEN REPLY @62 GOTO SOS65
+END
+
+IF ~~ THEN BEGIN SOS59
+  SAY @63
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN SOS60
+  SAY @64
+  IF ~~ THEN REPLY @65 GOTO SOS61
+  IF ~~ THEN REPLY @66 GOTO SOS63
+END
+
+IF ~~ THEN BEGIN SOS61
+  SAY @67
+  IF ~~ THEN DO ~TakePartyItem("CBLOGMSS")~ GOTO SOS62
+END
+
+IF ~~ THEN BEGIN SOS62
+  SAY @68
+  IF ~~ THEN DO ~SetGlobal("CbLoganReadingMissive","LOCALS",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN SOS63
+  SAY @69
+  IF ~~ THEN DO ~TakePartyItem("CBLOGMSS")~ GOTO SOS64
+END
+
+IF ~~ THEN BEGIN SOS64
+  SAY @70
+  IF ~~ THEN DO ~SetGlobal("CbLoganReadingMissive","LOCALS",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN SOS65
+  SAY @71
+  IF ~~ THEN GOTO SOS66
+END
+
+IF ~~ THEN BEGIN SOS66
+  SAY @72
+  IF ~~ THEN GOTO SOS67
+END
+
+IF ~~ THEN BEGIN SOS67
+  SAY @73
+  IF ~~ THEN DO ~IncrementGlobal("CbDeliveringMissives","GLOBAL",1)
+SetGlobal("CbLoganAnswered","LOCALS",1)~ EXIT
+END
+
+END

@@ -1,0 +1,34 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CB287CPT")  // 
+    FadeToColor([20.0],0)
+    TakePartyItemAll("CBMILT01")
+    DestroyItem("CBMILT01")  // ~Plate Mail Armor~
+    TakePartyItemAll("CBMILT02")
+    DestroyItem("CBMILT02")  // ~Helmet~
+    TakePartyItemAll("CBMILT04")
+    DestroyItem("CBMILT04")  // ~Long Sword +1~
+    TakePartyItemAll("CBMILT11")
+    DestroyItem("CBMILT11")  // ~Plate Mail Armor~
+    TakePartyItemAll("CBMILT12")
+    DestroyItem("CBMILT12")  // ~Helmet~
+    TakePartyItemAll("CBMILT14")
+    DestroyItem("CBMILT14")  // ~Long Sword +1~
+    TakePartyItemAll("B1-2")
+    DestroyItem("B1-2")  // ~Skull~
+    GiveItemCreate("CBSOUSG3",Myself,1,1,0)  // ~Wand of Lightning~
+    UseItem("CBSOUSG3",Myself)  // ~Wand of Lightning~
+    GiveItemCreate("CBCAPT01",Myself,6,1,0)  // ~Wand of Lightning~
+    UseItem("CBCAPT01",Player1)  // ~Wand of Lightning~
+    UseItem("CBCAPT01",Player2)  // ~Wand of Lightning~
+    UseItem("CBCAPT01",Player3)  // ~Wand of Lightning~
+    UseItem("CBCAPT01",Player4)  // ~Wand of Lightning~
+    UseItem("CBCAPT01",Player5)  // ~Wand of Lightning~
+    UseItem("CBCAPT01",Player6)  // ~Wand of Lightning~
+//    SetGlobal("ainEscapes","CbCapt",1)
+    FadeFromColor([20.0],0)
+    EndCutSceneMode()
+END
+

@@ -1,0 +1,86 @@
+IF
+  HPPercentLT(Myself,25)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    ClearActions(Myself)
+    MoveToPointNoInterrupt([928.165])
+END
+
+IF
+  Global("CbGaelionTranslatesHello","AR4212",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbGaelionTranslatesHello","AR4212",2)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("CbGaelionandMalApology","AR4212",3)
+THEN
+  RESPONSE #100
+    SetGlobal("CbGaelionandMalApology","AR4212",4)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("CbTBGHelpsParty","AR4212",7)
+THEN
+  RESPONSE #100
+    SetGlobal("CbTBGHelpsParty","AR4212",8)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("SPRITE_IS_DEADCBDRAGDP","GLOBAL",1)
+  Global("CbTBGThanksPartyForKilling","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbTBGThanksPartyForKilling","LOCALS",1)
+END
+
+IF
+  AreaCheck("AR0021")
+THEN
+  RESPONSE #100
+    RandomWalk()
+END
+
+IF
+  BreakingPoint()
+  Global("Panic","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Panic","LOCALS",1)
+    DisplayStringHead(Myself,49766)  // ~I can't take this~
+  RESPONSE #100
+    SetGlobal("Panic","LOCALS",1)
+    DisplayStringHead(Myself,49767)  // ~No more~
+  RESPONSE #100
+    SetGlobal("Panic","LOCALS",1)
+    DisplayStringHead(Myself,49768)  // ~Mercy!~
+END
+
+IF
+  HPPercentLT(Myself,35)
+  HPGT(Myself,1)
+  !GlobalTimerNotExpired("Whined","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Whined","LOCALS",6)
+    DisplayStringHead(Myself,46151)  // ~help!~
+    Shout(123)
+  RESPONSE #100
+    SetGlobalTimer("Whined","LOCALS",6)
+    DisplayStringHead(Myself,49763)  // ~I require assistance~
+    Shout(123)
+  RESPONSE #100
+    SetGlobalTimer("Whined","LOCALS",6)
+    DisplayStringHead(Myself,49764)  // ~Defend me!~
+    Shout(123)
+  RESPONSE #100
+    SetGlobalTimer("Whined","LOCALS",6)
+    DisplayStringHead(Myself,49765)  // ~Slay my attacker!~
+    Shout(123)
+END
+

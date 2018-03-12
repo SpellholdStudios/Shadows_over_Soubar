@@ -1,0 +1,85 @@
+IF
+  Global("CbSoubarContactsInitiateDialog","AR1105",15)
+  AreaCheck("AR1105")
+THEN
+  RESPONSE #100
+    SetGlobal("CbSoubarContactsInitiateDialog","AR1105",16)
+    StartDialogNoSet("CBWILLET")
+END
+
+IF
+  Global("CbSoubarContactsInitiateDialog","AR1105",19)
+  AreaCheck("AR1105")
+THEN
+  RESPONSE #100
+    SetGlobal("CbSoubarContactsInitiateDialog","AR1105",20)
+    StartDialogNoSet("CBWILLET")
+END
+
+IF
+  Global("CbSoubarContactsInitiateDialog","AR4219",24)
+  AreaCheck("AR4219")
+THEN
+  RESPONSE #100
+    SetGlobal("CbSoubarContactsInitiateDialog","AR4219",25)
+    StartDialogNoSet("CBWILLET")
+END
+
+IF
+  Global("CbSoubarContactsInitiateDialog","AR4219",26)
+  AreaCheck("AR4219")
+THEN
+  RESPONSE #100
+    SetGlobal("CbSoubarContactsInitiateDialog","AR4219",27)
+    StartDialogNoSet("CBUHGVCT")
+END
+
+IF
+  Global("CbSoubarContactsInitiateDialog","AR4219",32)
+  AreaCheck("AR4219")
+THEN
+  RESPONSE #100
+    JumpToPoint([947.319])
+    SetGlobal("CbSoubarContactsInitiateDialog","AR4219",33)
+    StartDialogNoSet("CBUHAKCT")
+END
+
+IF
+  Global("CbSoubarContactsInitiateDialog","AR4219",36)
+  AreaCheck("AR4219")
+THEN
+  RESPONSE #100
+    SetGlobal("CbSoubarContactsInitiateDialog","AR4219",37)
+    StartDialogNoSet("CBUHGVCT")
+END
+
+IF
+  GlobalGT("CbSoubarContactsInitiateDialog","AR4219",38)
+  Global("CbVinnyMoved","AR4219",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbVinnyMoved","AR4219",1)
+    JumpToPoint([603.609])
+    Face(12)
+END
+
+IF
+  Global("CbPartyHelpsSoubar","AR4219",2)
+  Global("CbVinnyHasDinner","AR4219",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbVinnyHasDinner","AR4219",2)
+    JumpToPoint([947.319])
+    StartDialogNoSet("CBUHGVCT")
+END
+
+IF
+  GlobalGT("CbVinnyHasDinner","AR4219",4)
+  Global("CbDinnerServed","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbDinnerServed","LOCALS",0)
+    JumpToPoint([603.609])
+    Face(12)
+END
+

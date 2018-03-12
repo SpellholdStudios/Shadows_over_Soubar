@@ -1,0 +1,57 @@
+IF
+  Global("CbSelenceSmuggles","GLOBAL",1)
+  GlobalTimerExpired("CbSelenceSmugglesTimer","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceSmuggles","GLOBAL",2)
+END
+
+IF
+  Global("CbSelenceSmuggles","GLOBAL",3)
+  GlobalTimerExpired("CbSelenceSmugglesTimer","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceSmuggles","GLOBAL",4)
+END
+
+IF
+  Global("CbSelenceSmuggles","GLOBAL",5)
+  GlobalTimerExpired("CbSelenceSmugglesTimer","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceSmuggles","GLOBAL",6)
+    CreateCreature("CBSHTHEF",[3597.2206],0)  // ~Sendai~
+END
+
+IF
+  Global("CbSelenceSmuggles","GLOBAL",7)
+  GlobalTimerExpired("CbSelenceSmugglesTimer","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceSmuggles","GLOBAL",8)
+END
+
+IF
+  Global("CbSelenceSmuggles","GLOBAL",9)
+  GlobalTimerExpired("CbSelenceSmugglesTimer","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceSmuggles","GLOBAL",10)
+END
+
+IF
+  Global("CbSelenceSmuggles","GLOBAL",11)
+  GlobalTimerExpired("CbSelenceSmugglesTimer","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceSmuggles","GLOBAL",12)
+END
+
+IF
+  Global("CbSelenceSmuggles","GLOBAL",13)
+  GlobalTimerExpired("CbSelenceSmugglesTimer","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceSmuggles","GLOBAL",14)
+END
+

@@ -1,0 +1,48 @@
+IF
+  HPLT(Myself,1)
+  Global("CbNotASelfPleaser","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbNotASelfPleaser","LOCALS",1)
+    IncrementGlobal("CbPartySquadDied","GLOBAL",1)
+END
+
+IF
+  See([ANYONE])
+  Allegiance(LastSeenBy(Myself),ENEMY)
+THEN
+  RESPONSE #100
+    AttackReevaluate(LastSeenBy(Myself),20)
+END
+
+IF
+  AreaCheck("AR4230")
+  Global("CbCloseToNarwhal","AR4230",2)
+  Global("CbThisSoldierMovedIntoNarwhal","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbThisSoldierMovedIntoNarwhal","LOCALS",1)
+    EscapeAreaMove("AR4264",749,1006,4)
+END
+
+IF
+  !See([ENEMY])
+  GlobalGT("CbRecruiting","GLOBAL",1)
+  AreaCheck("AR4230")
+  Detect([PC])
+THEN
+  RESPONSE #100
+    FollowObjectFormation(Player1,2,4)
+END
+
+IF
+  !See([ENEMY])
+  GlobalGT("CbRecruiting","GLOBAL",2)
+  Global("CbThisSoldierMovedIntoNarwhal","LOCALS",1)
+  AreaCheck("AR4230")
+  Detect([PC])
+THEN
+  RESPONSE #100
+    FollowObjectFormation(Player1,2,4)
+END
+

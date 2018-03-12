@@ -1,0 +1,24 @@
+IF
+  OnCreation()
+THEN
+  RESPONSE #100
+    TriggerActivation("Tran5006",FALSE)
+END
+
+IF
+  GlobalGT("CbPartyIsInSoubarMilitia","GLOBAL",6)
+  GlobalGT("CbMajorExplainsHowToGetToLyrars","GLOBAL",0)
+THEN
+  RESPONSE #100
+    TriggerActivation("Tran5006",TRUE)
+END
+
+IF
+  Global("CbSoubarIsAttacked","GLOBAL",2)
+  Global("CbASpyWasJailed","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbASpyWasJailed","GLOBAL",2)
+    CreateCreature("CBRTRBDf",[1837.1071],0)  // ~Squad Leader~
+END
+

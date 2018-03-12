@@ -1,0 +1,23 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)  // 
+    FadeToColor([40.0],0)
+    Wait(2)
+    ActionOverride("CBSOUSGT",MoveBetweenAreas("AR4286",[761.344],1))
+    LeaveAreaLUAPanic("AR4286","",[851.420],3)
+    LeaveAreaLUA("AR4286","",[851.420],3)
+    ActionOverride(Player2,LeaveAreaLUA("AR4286","",[860.385],3))
+    ActionOverride(Player3,LeaveAreaLUA("AR4286","",[888.430],3))
+    ActionOverride(Player4,LeaveAreaLUA("AR4286","",[897.391],3))
+    ActionOverride(Player5,LeaveAreaLUA("AR4286","",[922.433],3))
+    ActionOverride(Player6,LeaveAreaLUA("AR4286","",[938.393],3))
+    Wait(1)
+    MultiPlayerSync()
+    SetGlobal("CbFarmPatrolDuty","AR4286",6)
+    DayNight(DAWN_END)
+    FadeFromColor([40.0],0)
+    EndCutSceneMode()
+END
+

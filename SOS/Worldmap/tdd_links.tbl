@@ -1,0 +1,19 @@
+
+//TDD-SOS Cross Links Table
+SRC_AREA  SRC_NWSE  TARGET_ARE  ENTRY_NAME  TRV_TIME  DEF_ENTRY  ENC1     ENC2     ENC3     ENC4     ENC5     ENC_PROB
+
+DD1800    N         AR4220      ExitS       24        4          AR0042   AR0044   N        N        N        30
+AR4220    S         DD1800      N           24        8          AR0042   AR0044   N        N        N        30
+
+DD2500    N         AR4220      ExitS       26        4          AR0042   AR0044   N        N        N        30
+AR4220    S         DD2500      N           26        8          AR0042   AR0044   N        N        N        30
+
+DD2300    N         AR4220      ExitS       26        4          AR0042   AR0044   N        N        N        35
+AR4220    S         DD2300      EXIT1400    26        8          AR0042   AR0044   N        N        N        35
+
+DD9000    N         AR4220      ExitS       25        4          AR0042   AR0044   N        N        N        35
+AR4220    S         DD9000      ExitW       25        8          AR0042   AR0044   N        N        N        35
+
+DD5000    N         AR4220      ExitS       25        4          AR0042   AR0044   N        N        N        35
+AR4220    S         DD5000      FRWMap      25        8          AR0042   AR0044   N        N        N        35
+

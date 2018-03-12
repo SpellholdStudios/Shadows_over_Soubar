@@ -1,0 +1,47 @@
+IF
+  Heard([ANYONE],111)
+  !See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    MoveToObject(LastHeardBy(Myself))
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("CbOrcJailorShouted","LOCALS",0)
+THEN
+  RESPONSE #100
+    Shout(111)
+    SetGlobal("CbOrcJailorShouted","LOCALS",1)
+    SetGlobal("CbJailBreak","AR4304",1)
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+  AttackedBy([ANYONE],DEFAULT)
+THEN
+  RESPONSE #100
+    Attack(LastAttackerOf(Myself))
+END
+
+IF
+  !See(NearestEnemyOf(Myself))
+  !Heard([ANYONE],111)
+THEN
+  RESPONSE #20
+    MoveToObject("CbJailPatrol1")
+    Wait(4)
+  RESPONSE #20
+    MoveToObject("CbJailPatrol2")
+    Wait(4)
+  RESPONSE #20
+    MoveToObject("CbJailPatrol3")
+    Wait(4)
+  RESPONSE #20
+    MoveToObject("CbJailPatrol4")
+    Wait(4)
+  RESPONSE #20
+    MoveToObject("CbJailPatrol5")
+    Wait(4)
+END
+

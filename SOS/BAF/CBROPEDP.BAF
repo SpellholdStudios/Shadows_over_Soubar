@@ -1,0 +1,14 @@
+IF
+  !HasItem("CBROPEDP",Myself)  // ~Hemp Rope~
+THEN
+  RESPONSE #100
+    EscapeArea()
+END
+
+IF
+  OnCreation()
+THEN
+  RESPONSE #100
+    DropInventory()
+END
+

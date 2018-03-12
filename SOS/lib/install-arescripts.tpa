@@ -1,0 +1,611 @@
+EXTEND_TOP ~AR0406.BCS~ ~SOS/SNIP/tAR0406.BAF~
+ EVALUATE_BUFFER
+EXTEND_TOP ~AR0700.BCS~ ~SOS/SNIP/tAR0700.BAF~
+ EVALUATE_BUFFER
+EXTEND_TOP ~AR0800.BCS~ ~SOS/SNIP/tAR0800.BAF~
+ EVALUATE_BUFFER
+EXTEND_TOP ~AR1004.BCS~ ~SOS/SNIP/tAR1004.BAF~
+ EVALUATE_BUFFER
+
+COPY_EXISTING ~AR0406.are~           ~override~
+ READ_LONG  0x70  "cont_offset"
+ READ_SHORT 0x74  "cont_num"
+ READ_LONG  0x78  "items_offset"
+ READ_SHORT 0x76  "items_num"
+ FOR( cnt=0; cnt<"%cont_num%"; cnt=cnt+1 ) BEGIN  //containers loop
+   READ_ASCII ("%cont_offset%"+0xc0*cnt)       "cont_name"
+   READ_LONG  ("%cont_offset%"+0xc0*cnt+0x40)  "start_items_idx"
+   READ_LONG  ("%cont_offset%"+0xc0*cnt+0x44)  "items_num"
+   SET end_item="%start_items_idx%"+"%items_num%"
+   PATCH_IF (("%cont_name%" STRING_COMPARE_CASE "Table 1")=0) BEGIN  //Table 1 - replacing items
+      FOR( itm="%start_items_idx%"; itm<end_item; itm=itm+1 ) BEGIN
+        READ_ASCII ("%items_offset%"+0x14*itm) "item_name"
+          PATCH_IF (("%item_name%" STRING_COMPARE_CASE "MISC43")=0) BEGIN
+            WRITE_ASCII ("%items_offset%"+0x14*itm) "CBLTCNT1"
+          END
+          PATCH_IF (("%item_name%" STRING_COMPARE_CASE "RING14")=0) BEGIN
+            WRITE_ASCII ("%items_offset%"+0x14*itm) "CBLTCNT2"
+          END
+          PATCH_IF (("%item_name%" STRING_COMPARE_CASE "SCRL93")=0) BEGIN
+            WRITE_ASCII ("%items_offset%"+0x14*itm) "RNDTRE01"
+          END
+          PATCH_IF (("%item_name%" STRING_COMPARE_CASE "SCRL94")=0) BEGIN
+            WRITE_ASCII ("%items_offset%"+0x14*itm) "RNDTRE02"
+          END
+      END
+   END
+   WRITE_ASCII ("%cont_offset%"+0xc0*cnt+0x78)  "CBSHCCKY"    //key name
+ END
+ BUT_ONLY_IF_IT_CHANGES //********************************************************  ~AR0406.are~
+
+
+COPY_EXISTING ~AR0700.are~           ~override~
+	READ_SHORT 0x5a  "infotrig_num"
+	READ_LONG  0x5c  "infotrig_offset"
+	READ_LONG  0x68  "entrances_offset"
+	READ_LONG  0x6c  "entrances_num"
+	
+	SET info_1=1
+	SET info_2=1
+	
+	FOR( cnt=0; cnt<"%infotrig_num%"; cnt=cnt+1 ) BEGIN  //info/triggers loop
+		READ_ASCII ("%infotrig_offset%"+0xc4*cnt)       "info_name"
+		PATCH_IF (("%info_name%" STRING_COMPARE_CASE "CBDownToCatacombs")=0) BEGIN  //if already exists
+			info_1=0
+		END
+		PATCH_IF (("%info_name%" STRING_COMPARE_CASE "CbRibaldShopClosed")=0) BEGIN  //if already exists
+			info_2=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN            
+		//new travel region to AR4201.ARE
+		LPF fj_are_structure
+			INT_VAR
+			fj_type         = 2    //travel
+			fj_box_left     = 3446
+			fj_box_top      = 3304
+			fj_box_right    = 3600
+			fj_box_bottom   = 3496
+			fj_cursor_idx   = 28
+			fj_flags        = 0x000000004
+			//fj_info_point_strref
+			//fj_trap_detect
+			//fj_trap_remove
+			//fj_trap_active
+			//fj_trap_status
+			fj_loc_x        = 3513
+			fj_loc_y        = 3417
+			//fj_alt_x
+			//fj_alt_y
+			fj_vertex_0     = 3446 + (3371 << 16)
+			fj_vertex_1     = 3447 + (3460 << 16)
+			fj_vertex_2     = 3512 + (3496 << 16)
+			fj_vertex_3     = 3600 + (3419 << 16)
+			fj_vertex_4     = 3541 + (3389 << 16)
+			fj_vertex_5     = 3539 + (3304 << 16)
+			STR_VAR
+			fj_structure_type   = region
+			fj_name             = CBDownToCatacombs
+			fj_destination_area = AR4201
+			fj_destination_name = Exit4500
+			//fj_key_resref
+			//fj_reg_script
+			//fj_dialog
+		END
+	END
+	PATCH_IF (info_2=1) BEGIN	
+		//new info trigger
+		LPF fj_are_structure
+			INT_VAR
+			fj_type         = 1    //info
+			fj_box_left     = 2180
+			fj_box_top      = 1528
+			fj_box_right    = 2240
+			fj_box_bottom   = 1646
+			fj_cursor_idx   = 22
+			fj_info_point_strref = RESOLVE_STR_REF (@20071)
+			fj_vertex_0     = 2180 + (1565 << 16)
+			fj_vertex_1     = 2182 + (1646 << 16)
+			fj_vertex_2     = 2240 + (1602 << 16)
+			fj_vertex_3     = 2234 + (1528 << 16)
+			STR_VAR
+			fj_structure_type   = region
+			fj_name             = CbRibaldShopClosed
+		END
+	END
+	SET info_1=1
+	FOR( cnt=0; cnt<"%entrances_num%"; cnt=cnt+1 ) BEGIN  //entrances loop
+		READ_ASCII ("%entrances_offset%"+0x68*cnt)       "info_name"
+		PATCH_IF (("%info_name%" STRING_COMPARE_CASE "Exit4201")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN
+		//new entrance
+		LPF fj_are_structure
+			INT_VAR
+			fj_loc_x       = 3541
+			fj_loc_y       = 3467
+			fj_orientation = 14   //SW
+			STR_VAR
+			fj_structure_type = entrance
+			fj_name           = Exit4201
+		END
+	END
+
+COPY_EXISTING ~AR0800.are~           ~override~
+	READ_SHORT 0x5a  "infotrig_num"
+	READ_LONG  0x5c  "infotrig_offset"
+	READ_LONG  0x68  "entrances_offset"
+	READ_LONG  0x6c  "entrances_num"
+	
+	SET info_1=1
+	FOR( cnt=0; cnt<"%infotrig_num%"; cnt=cnt+1 ) BEGIN  //info/triggers loop
+		READ_ASCII ("%infotrig_offset%"+0xc4*cnt)       "info_name"
+		PATCH_IF (("%info_name%" STRING_COMPARE_CASE "CbFenceOperation")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN
+		//new travel region to AR4201.ARE
+		LPF fj_are_structure
+			INT_VAR
+			fj_type         = 2    //travel
+			fj_box_left     = 1589
+			fj_box_top      = 1267
+			fj_box_right    = 1676
+			fj_box_bottom   = 1399
+			fj_cursor_idx   = 30
+			fj_flags        = 0x000000004
+			fj_vertex_0     = 1589 + (1267 << 16)
+			fj_vertex_1     = 1590 + (1342 << 16)
+			fj_vertex_2     = 1670 + (1399 << 16)
+			fj_vertex_3     = 1676 + (1328 << 16)
+			STR_VAR
+			fj_structure_type   = region
+			fj_name             = CbFenceOperation
+			fj_destination_area = AR4210
+			fj_destination_name = Exit2615
+		END
+	END
+	SET info_1=1
+	FOR( cnt=0; cnt<"%entrances_num%"; cnt=cnt+1 ) BEGIN  //entrances loop
+		READ_ASCII ("%entrances_offset%"+0x68*cnt)       "info_name"
+		PATCH_IF (("%info_name%" STRING_COMPARE_CASE "Exit4210")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN
+		//new entrance
+		LPF fj_are_structure
+			INT_VAR
+			fj_loc_x       = 1653
+			fj_loc_y       = 1451
+			fj_orientation = 2   //SW
+			STR_VAR
+			fj_structure_type = entrance
+			fj_name           = Exit4210
+		END
+	END
+
+COPY_EXISTING ~AR1004.are~           ~override~
+	READ_LONG  0x70  "cont_offset"
+	READ_SHORT 0x74  "cont_num"
+	READ_LONG  0xa4  "doors_num"
+	READ_LONG  0xa8  "doors_offset"
+	
+	SET info_1=1
+	FOR( cnt=0; cnt<"%cont_num%"; cnt=cnt+1 ) BEGIN  //containers loop
+		READ_ASCII ("%cont_offset%"+0xc4*cnt)       "info_name"
+		PATCH_IF (("%info_name%" STRING_COMPARE_CASE "Wall Tapestry with Hidden Safe")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN
+		//new container + 1 item
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        = 8 //nonvisible
+			fj_loc_x       = 955
+			fj_loc_y       = 322
+			fj_box_left    = 931
+			fj_box_top     = 220
+			fj_box_right   = 979
+			fj_box_bottom  = 312
+			fj_lock_diff   = 100
+			fj_flags       = 1
+			fj_vertex_0    = 979 + (278 << 16)
+			fj_vertex_1    = 931 + (312 << 16)
+			fj_vertex_2    = 931 + (256 << 16)
+			fj_vertex_3    = 979 + (220 << 16)
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~Wall Tapestry with Hidden Safe~
+			fj_key_resref     = CBWLKEY1
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 1 // identified
+			STR_VAR
+			fj_name           = CBSHGOLD
+			fj_structure_type = itm
+		END
+	END
+	SET info_1=1
+	FOR( cnt=0; cnt<"%doors_num%"; cnt=cnt+1 ) BEGIN  //doors loop
+		READ_ASCII ("%doors_offset%"+0xc8*cnt)       "info_name"
+		PATCH_IF (("%info_name%" STRING_COMPARE_CASE "TapestryDoor")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN
+		LPF fj_are_structure
+			INT_VAR
+			fj_flags               = 0x00000022
+			fj_open_box_left       = 23
+			fj_open_box_top        = 10
+			fj_open_box_right      = 65
+			fj_open_box_bottom     = 45
+			fj_closed_box_left     = 869
+			fj_closed_box_top      = 216
+			fj_closed_box_right    = 982
+			fj_closed_box_bottom   = 374
+			fj_cursor_idx          = 30
+			fj_locked_diff         = 100
+			fj_open_loc_x          = 941
+			fj_open_loc_y          = 341
+			fj_closed_loc_x        = 941
+			fj_closed_loc_y        = 341
+			fj_door_open_vert_0    = 23 + (10 << 16)
+			fj_door_open_vert_1    = 23 + (45 << 16)
+			fj_door_open_vert_2    = 65 + (45 << 16)
+			fj_door_open_vert_3    = 65 + (10 << 16)
+			fj_door_open_vert_4    = 23 + (10 << 16)
+			fj_door_closed_vert_0  = 869 + (295 << 16)
+			fj_door_closed_vert_1  = 869 + (374 << 16)
+			fj_door_closed_vert_2  = 982 + (295 << 16)
+			fj_door_closed_vert_3  = 982 + (216 << 16)
+			fj_door_closed_vert_4  = 869 + (295 << 16)
+			fj_lockpick_strref     = 43963
+			STR_VAR
+			fj_structure_type      = door
+			fj_name                = TapestryDoor
+			fj_door_wed_id         = DOOR03
+			fj_key_resref          = CBWLKEY1
+		END
+	END
+
+
+EXTEND_TOP    ~AR0411.BCS~ ~SOS/SNIP/tAR0411.BAF~
+ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR0702.BCS~ ~SOS/SNIP/bAR0702.BAF~
+ EVALUATE_BUFFER
+EXTEND_TOP    ~AR0903.BCS~ ~SOS/SNIP/tAR0903.BAF~
+ EVALUATE_BUFFER
+EXTEND_TOP    ~AR1100.BCS~ ~SOS/SNIP/tAR1100.BAF~
+ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR1100.BCS~ ~SOS/SNIP/bAR1100.BAF~
+ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR1105.BCS~ ~SOS/SNIP/bAR1105.BAF~
+ EVALUATE_BUFFER
+
+EXTEND_BOTTOM ~AR1613.BCS~ ~SOS/SNIP/bAR1613.BAF~
+ EVALUATE_BUFFER
+
+EXTEND_TOP    ~AR2007.BCS~ ~SOS/SNIP/tAR2007.BAF~
+ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR2010.BCS~ ~SOS/SNIP/bAR2010.BAF~
+ EVALUATE_BUFFER
+
+
+COPY_EXISTING ~ar2500.bcs~ ~override~   //from BDash-WeiDU
+ DECOMPILE_BCS_TO_BAF
+ REPLACE_TEXTUALLY ~CreateCreatureObjectEffect("c6elvenw","spportal",Player1)~ ~CreateCreatureObject("c6elvenw",Player1,0,0,0)~
+ REPLACE_TEXTUALLY ~DWCSW1H01~ ~DWSW1H01~
+ COMPILE_BAF_TO_BCS
+
+COPY_EXISTING ~AR2500.BCS~ ~override~
+              ~AR4000.BCS~ ~override~
+              ~AR4500.BCS~ ~override~
+              ~AR6100.BCS~ ~override~
+ DECOMPILE_BCS_TO_BAF
+ REPLACE_TEXTUALLY ~HasItem("DWCHAN01",Player1)~ ~!HasItem("CBDRWRNG",Player1) HasItem("DWCHAN01",Player1)~
+ REPLACE_TEXTUALLY ~HasItem("DWCHAN01",Player2)~ ~!HasItem("CBDRWRNG",Player2) HasItem("DWCHAN01",Player2)~
+ REPLACE_TEXTUALLY ~HasItem("DWCHAN01",Player3)~ ~!HasItem("CBDRWRNG",Player3) HasItem("DWCHAN01",Player3)~
+ REPLACE_TEXTUALLY ~HasItem("DWCHAN01",Player4)~ ~!HasItem("CBDRWRNG",Player4) HasItem("DWCHAN01",Player4)~
+ REPLACE_TEXTUALLY ~HasItem("DWCHAN01",Player5)~ ~!HasItem("CBDRWRNG",Player5) HasItem("DWCHAN01",Player5)~
+ REPLACE_TEXTUALLY ~HasItem("DWCHAN01",Player6)~ ~!HasItem("CBDRWRNG",Player6) HasItem("DWCHAN01",Player6)~
+ REPLACE_TEXTUALLY ~HasItem("DWCHAN02",Player1)~ ~!HasItem("CBDRWRNG",Player1) HasItem("DWCHAN02",Player1)~
+ REPLACE_TEXTUALLY ~HasItem("DWCHAN02",Player2)~ ~!HasItem("CBDRWRNG",Player2) HasItem("DWCHAN02",Player2)~
+ REPLACE_TEXTUALLY ~HasItem("DWCHAN02",Player3)~ ~!HasItem("CBDRWRNG",Player3) HasItem("DWCHAN02",Player3)~
+ REPLACE_TEXTUALLY ~HasItem("DWCHAN02",Player4)~ ~!HasItem("CBDRWRNG",Player4) HasItem("DWCHAN02",Player4)~
+ REPLACE_TEXTUALLY ~HasItem("DWCHAN02",Player5)~ ~!HasItem("CBDRWRNG",Player5) HasItem("DWCHAN02",Player5)~
+ REPLACE_TEXTUALLY ~HasItem("DWCHAN02",Player6)~ ~!HasItem("CBDRWRNG",Player6) HasItem("DWCHAN02",Player6)~
+ REPLACE_TEXTUALLY ~HasItem("DWSW1H01",Player1)~ ~!HasItem("CBDRWRNG",Player1) HasItem("DWSW1H01",Player1)~
+ REPLACE_TEXTUALLY ~HasItem("DWSW1H01",Player2)~ ~!HasItem("CBDRWRNG",Player2) HasItem("DWSW1H01",Player2)~
+ REPLACE_TEXTUALLY ~HasItem("DWSW1H01",Player3)~ ~!HasItem("CBDRWRNG",Player3) HasItem("DWSW1H01",Player3)~
+ REPLACE_TEXTUALLY ~HasItem("DWSW1H01",Player4)~ ~!HasItem("CBDRWRNG",Player4) HasItem("DWSW1H01",Player4)~
+ REPLACE_TEXTUALLY ~HasItem("DWSW1H01",Player5)~ ~!HasItem("CBDRWRNG",Player5) HasItem("DWSW1H01",Player5)~
+ REPLACE_TEXTUALLY ~HasItem("DWSW1H01",Player6)~ ~!HasItem("CBDRWRNG",Player6) HasItem("DWSW1H01",Player6)~
+ REPLACE_TEXTUALLY ~HasItem("DWSW1H02",Player1)~ ~!HasItem("CBDRWRNG",Player1) HasItem("DWSW1H02",Player1)~
+ REPLACE_TEXTUALLY ~HasItem("DWSW1H02",Player2)~ ~!HasItem("CBDRWRNG",Player2) HasItem("DWSW1H02",Player2)~
+ REPLACE_TEXTUALLY ~HasItem("DWSW1H02",Player3)~ ~!HasItem("CBDRWRNG",Player3) HasItem("DWSW1H02",Player3)~
+ REPLACE_TEXTUALLY ~HasItem("DWSW1H02",Player4)~ ~!HasItem("CBDRWRNG",Player4) HasItem("DWSW1H02",Player4)~
+ REPLACE_TEXTUALLY ~HasItem("DWSW1H02",Player5)~ ~!HasItem("CBDRWRNG",Player5) HasItem("DWSW1H02",Player5)~
+ REPLACE_TEXTUALLY ~HasItem("DWSW1H02",Player6)~ ~!HasItem("CBDRWRNG",Player6) HasItem("DWSW1H02",Player6)~
+ REPLACE_TEXTUALLY ~HasItem("DWBLUN01",Player1)~ ~!HasItem("CBDRWRNG",Player1) HasItem("DWBLUN01",Player1)~
+ REPLACE_TEXTUALLY ~HasItem("DWBLUN01",Player2)~ ~!HasItem("CBDRWRNG",Player2) HasItem("DWBLUN01",Player2)~
+ REPLACE_TEXTUALLY ~HasItem("DWBLUN01",Player3)~ ~!HasItem("CBDRWRNG",Player3) HasItem("DWBLUN01",Player3)~
+ REPLACE_TEXTUALLY ~HasItem("DWBLUN01",Player4)~ ~!HasItem("CBDRWRNG",Player4) HasItem("DWBLUN01",Player4)~
+ REPLACE_TEXTUALLY ~HasItem("DWBLUN01",Player5)~ ~!HasItem("CBDRWRNG",Player5) HasItem("DWBLUN01",Player5)~
+ REPLACE_TEXTUALLY ~HasItem("DWBLUN01",Player6)~ ~!HasItem("CBDRWRNG",Player6) HasItem("DWBLUN01",Player6)~
+ REPLACE_TEXTUALLY ~HasItem("DWHALB01",Player1)~ ~!HasItem("CBDRWRNG",Player1) HasItem("DWHALB01",Player1)~
+ REPLACE_TEXTUALLY ~HasItem("DWHALB01",Player2)~ ~!HasItem("CBDRWRNG",Player2) HasItem("DWHALB01",Player2)~
+ REPLACE_TEXTUALLY ~HasItem("DWHALB01",Player3)~ ~!HasItem("CBDRWRNG",Player3) HasItem("DWHALB01",Player3)~
+ REPLACE_TEXTUALLY ~HasItem("DWHALB01",Player4)~ ~!HasItem("CBDRWRNG",Player4) HasItem("DWHALB01",Player4)~
+ REPLACE_TEXTUALLY ~HasItem("DWHALB01",Player5)~ ~!HasItem("CBDRWRNG",Player5) HasItem("DWHALB01",Player5)~
+ REPLACE_TEXTUALLY ~HasItem("DWHALB01",Player6)~ ~!HasItem("CBDRWRNG",Player6) HasItem("DWHALB01",Player6)~
+ REPLACE_TEXTUALLY ~HasItem("DWSPER01",Player1)~ ~!HasItem("CBDRWRNG",Player1) HasItem("DWSPER01",Player1)~
+ REPLACE_TEXTUALLY ~HasItem("DWSPER01",Player2)~ ~!HasItem("CBDRWRNG",Player2) HasItem("DWSPER01",Player2)~
+ REPLACE_TEXTUALLY ~HasItem("DWSPER01",Player3)~ ~!HasItem("CBDRWRNG",Player3) HasItem("DWSPER01",Player3)~
+ REPLACE_TEXTUALLY ~HasItem("DWSPER01",Player4)~ ~!HasItem("CBDRWRNG",Player4) HasItem("DWSPER01",Player4)~
+ REPLACE_TEXTUALLY ~HasItem("DWSPER01",Player5)~ ~!HasItem("CBDRWRNG",Player5) HasItem("DWSPER01",Player5)~
+ REPLACE_TEXTUALLY ~HasItem("DWSPER01",Player6)~ ~!HasItem("CBDRWRNG",Player6) HasItem("DWSPER01",Player6)~
+ REPLACE_TEXTUALLY ~HasItem("DWXBOW01",Player1)~ ~!HasItem("CBDRWRNG",Player1) HasItem("DWXBOW01",Player1)~
+ REPLACE_TEXTUALLY ~HasItem("DWXBOW01",Player2)~ ~!HasItem("CBDRWRNG",Player2) HasItem("DWXBOW01",Player2)~
+ REPLACE_TEXTUALLY ~HasItem("DWXBOW01",Player3)~ ~!HasItem("CBDRWRNG",Player3) HasItem("DWXBOW01",Player3)~
+ REPLACE_TEXTUALLY ~HasItem("DWXBOW01",Player4)~ ~!HasItem("CBDRWRNG",Player4) HasItem("DWXBOW01",Player4)~
+ REPLACE_TEXTUALLY ~HasItem("DWXBOW01",Player5)~ ~!HasItem("CBDRWRNG",Player5) HasItem("DWXBOW01",Player5)~
+ REPLACE_TEXTUALLY ~HasItem("DWXBOW01",Player6)~ ~!HasItem("CBDRWRNG",Player6) HasItem("DWXBOW01",Player6)~
+ REPLACE_TEXTUALLY ~HasItem("DWSHLD01",Player1)~ ~!HasItem("CBDRWRNG",Player1) HasItem("DWSHLD01",Player1)~
+ REPLACE_TEXTUALLY ~HasItem("DWSHLD01",Player2)~ ~!HasItem("CBDRWRNG",Player2) HasItem("DWSHLD01",Player2)~
+ REPLACE_TEXTUALLY ~HasItem("DWSHLD01",Player3)~ ~!HasItem("CBDRWRNG",Player3) HasItem("DWSHLD01",Player3)~
+ REPLACE_TEXTUALLY ~HasItem("DWSHLD01",Player4)~ ~!HasItem("CBDRWRNG",Player4) HasItem("DWSHLD01",Player4)~
+ REPLACE_TEXTUALLY ~HasItem("DWSHLD01",Player5)~ ~!HasItem("CBDRWRNG",Player5) HasItem("DWSHLD01",Player5)~
+ REPLACE_TEXTUALLY ~HasItem("DWSHLD01",Player6)~ ~!HasItem("CBDRWRNG",Player6) HasItem("DWSHLD01",Player6)~
+ REPLACE_TEXTUALLY ~HasItem("DWCLCK01",Player1)~ ~!HasItem("CBDRWRNG",Player1) HasItem("DWCLCK01",Player1)~
+ REPLACE_TEXTUALLY ~HasItem("DWCLCK01",Player2)~ ~!HasItem("CBDRWRNG",Player2) HasItem("DWCLCK01",Player2)~
+ REPLACE_TEXTUALLY ~HasItem("DWCLCK01",Player3)~ ~!HasItem("CBDRWRNG",Player3) HasItem("DWCLCK01",Player3)~
+ REPLACE_TEXTUALLY ~HasItem("DWCLCK01",Player4)~ ~!HasItem("CBDRWRNG",Player4) HasItem("DWCLCK01",Player4)~
+ REPLACE_TEXTUALLY ~HasItem("DWCLCK01",Player5)~ ~!HasItem("CBDRWRNG",Player5) HasItem("DWCLCK01",Player5)~
+ REPLACE_TEXTUALLY ~HasItem("DWCLCK01",Player6)~ ~!HasItem("CBDRWRNG",Player6) HasItem("DWCLCK01",Player6)~
+ REPLACE_TEXTUALLY ~HasItem("DWBOLT01",Player1)~ ~!HasItem("CBDRWRNG",Player1) HasItem("DWBOLT01",Player1)~
+ REPLACE_TEXTUALLY ~HasItem("DWBOLT01",Player2)~ ~!HasItem("CBDRWRNG",Player2) HasItem("DWBOLT01",Player2)~
+ REPLACE_TEXTUALLY ~HasItem("DWBOLT01",Player3)~ ~!HasItem("CBDRWRNG",Player3) HasItem("DWBOLT01",Player3)~
+ REPLACE_TEXTUALLY ~HasItem("DWBOLT01",Player4)~ ~!HasItem("CBDRWRNG",Player4) HasItem("DWBOLT01",Player4)~
+ REPLACE_TEXTUALLY ~HasItem("DWBOLT01",Player5)~ ~!HasItem("CBDRWRNG",Player5) HasItem("DWBOLT01",Player5)~
+ REPLACE_TEXTUALLY ~HasItem("DWBOLT01",Player6)~ ~!HasItem("CBDRWRNG",Player6) HasItem("DWBOLT01",Player6)~
+ REPLACE_TEXTUALLY ~HasItem("DWBOLT02",Player1)~ ~!HasItem("CBDRWRNG",Player1) HasItem("DWBOLT02",Player1)~
+ REPLACE_TEXTUALLY ~HasItem("DWBOLT02",Player2)~ ~!HasItem("CBDRWRNG",Player2) HasItem("DWBOLT02",Player2)~
+ REPLACE_TEXTUALLY ~HasItem("DWBOLT02",Player3)~ ~!HasItem("CBDRWRNG",Player3) HasItem("DWBOLT02",Player3)~
+ REPLACE_TEXTUALLY ~HasItem("DWBOLT02",Player4)~ ~!HasItem("CBDRWRNG",Player4) HasItem("DWBOLT02",Player4)~
+ REPLACE_TEXTUALLY ~HasItem("DWBOLT02",Player5)~ ~!HasItem("CBDRWRNG",Player5) HasItem("DWBOLT02",Player5)~
+ REPLACE_TEXTUALLY ~HasItem("DWBOLT02",Player6)~ ~!HasItem("CBDRWRNG",Player6) HasItem("DWBOLT02",Player6)~
+ REPLACE_TEXTUALLY ~HasItem("DWBOLT03",Player1)~ ~!HasItem("CBDRWRNG",Player1) HasItem("DWBOLT03",Player1)~
+ REPLACE_TEXTUALLY ~HasItem("DWBOLT03",Player2)~ ~!HasItem("CBDRWRNG",Player2) HasItem("DWBOLT03",Player2)~
+ REPLACE_TEXTUALLY ~HasItem("DWBOLT03",Player3)~ ~!HasItem("CBDRWRNG",Player3) HasItem("DWBOLT03",Player3)~
+ REPLACE_TEXTUALLY ~HasItem("DWBOLT03",Player4)~ ~!HasItem("CBDRWRNG",Player4) HasItem("DWBOLT03",Player4)~
+ REPLACE_TEXTUALLY ~HasItem("DWBOLT03",Player5)~ ~!HasItem("CBDRWRNG",Player5) HasItem("DWBOLT03",Player5)~
+ REPLACE_TEXTUALLY ~HasItem("DWBOLT03",Player6)~ ~!HasItem("CBDRWRNG",Player6) HasItem("DWBOLT03",Player6)~
+ REPLACE_TEXTUALLY ~HasItem("DWPLAT01",Player1)~ ~!HasItem("CBDRWRNG",Player1) HasItem("DWPLAT01",Player1)~
+ REPLACE_TEXTUALLY ~HasItem("DWPLAT01",Player2)~ ~!HasItem("CBDRWRNG",Player2) HasItem("DWPLAT01",Player2)~
+ REPLACE_TEXTUALLY ~HasItem("DWPLAT01",Player3)~ ~!HasItem("CBDRWRNG",Player3) HasItem("DWPLAT01",Player3)~
+ REPLACE_TEXTUALLY ~HasItem("DWPLAT01",Player4)~ ~!HasItem("CBDRWRNG",Player4) HasItem("DWPLAT01",Player4)~
+ REPLACE_TEXTUALLY ~HasItem("DWPLAT01",Player5)~ ~!HasItem("CBDRWRNG",Player5) HasItem("DWPLAT01",Player5)~
+ REPLACE_TEXTUALLY ~HasItem("DWPLAT01",Player6)~ ~!HasItem("CBDRWRNG",Player6) HasItem("DWPLAT01",Player6)~
+ REPLACE_TEXTUALLY ~HasItem("MISC9W",Player1)~ ~!HasItem("CBDRWRNG",Player1) HasItem("MISC9W",Player1)~
+ REPLACE_TEXTUALLY ~HasItem("MISC9W",Player2)~ ~!HasItem("CBDRWRNG",Player2) HasItem("MISC9W",Player2)~
+ REPLACE_TEXTUALLY ~HasItem("MISC9W",Player3)~ ~!HasItem("CBDRWRNG",Player3) HasItem("MISC9W",Player3)~
+ REPLACE_TEXTUALLY ~HasItem("MISC9W",Player4)~ ~!HasItem("CBDRWRNG",Player4) HasItem("MISC9W",Player4)~
+ REPLACE_TEXTUALLY ~HasItem("MISC9W",Player5)~ ~!HasItem("CBDRWRNG",Player5) HasItem("MISC9W",Player5)~
+ REPLACE_TEXTUALLY ~HasItem("MISC9W",Player6)~ ~!HasItem("CBDRWRNG",Player6) HasItem("MISC9W",Player6)~
+ COMPILE_BAF_TO_BCS
+
+COPY_EXISTING ~AR4500.BCS~ ~override~
+              ~AR6100.BCS~ ~override~
+ DECOMPILE_BCS_TO_BAF
+ REPLACE_TEXTUALLY ~InMyArea(Player1)~ ~~
+ REPLACE_TEXTUALLY ~InMyArea(Player2)~ ~~
+ REPLACE_TEXTUALLY ~InMyArea(Player3)~ ~~
+ REPLACE_TEXTUALLY ~InMyArea(Player4)~ ~~
+ REPLACE_TEXTUALLY ~InMyArea(Player5)~ ~~
+ REPLACE_TEXTUALLY ~InMyArea(Player6)~ ~~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player1,0,0,0)[^!]* TakePartyItemAll("DWCHAN01")~ ~TakeItemReplace("DWDUST","DWCHAN01",Player1)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player2,0,0,0)[^!]* TakePartyItemAll("DWCHAN01")~ ~TakeItemReplace("DWDUST","DWCHAN01",Player2)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player3,0,0,0)[^!]* TakePartyItemAll("DWCHAN01")~ ~TakeItemReplace("DWDUST","DWCHAN01",Player3)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player4,0,0,0)[^!]* TakePartyItemAll("DWCHAN01")~ ~TakeItemReplace("DWDUST","DWCHAN01",Player4)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player5,0,0,0)[^!]* TakePartyItemAll("DWCHAN01")~ ~TakeItemReplace("DWDUST","DWCHAN01",Player5)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player6,0,0,0)[^!]* TakePartyItemAll("DWCHAN01")~ ~TakeItemReplace("DWDUST","DWCHAN01",Player6)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player1,0,0,0)[^!]* TakePartyItemAll("DWCHAN02")~ ~TakeItemReplace("DWDUST","DWCHAN02",Player1)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player2,0,0,0)[^!]* TakePartyItemAll("DWCHAN02")~ ~TakeItemReplace("DWDUST","DWCHAN02",Player2)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player3,0,0,0)[^!]* TakePartyItemAll("DWCHAN02")~ ~TakeItemReplace("DWDUST","DWCHAN02",Player3)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player4,0,0,0)[^!]* TakePartyItemAll("DWCHAN02")~ ~TakeItemReplace("DWDUST","DWCHAN02",Player4)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player5,0,0,0)[^!]* TakePartyItemAll("DWCHAN02")~ ~TakeItemReplace("DWDUST","DWCHAN02",Player5)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player6,0,0,0)[^!]* TakePartyItemAll("DWCHAN02")~ ~TakeItemReplace("DWDUST","DWCHAN02",Player6)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player1,0,0,0)[^!]* TakePartyItemAll("DWSW1H01")~ ~TakeItemReplace("DWDUST","DWSW1H01",Player1)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player2,0,0,0)[^!]* TakePartyItemAll("DWSW1H01")~ ~TakeItemReplace("DWDUST","DWSW1H01",Player2)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player3,0,0,0)[^!]* TakePartyItemAll("DWSW1H01")~ ~TakeItemReplace("DWDUST","DWSW1H01",Player3)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player4,0,0,0)[^!]* TakePartyItemAll("DWSW1H01")~ ~TakeItemReplace("DWDUST","DWSW1H01",Player4)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player5,0,0,0)[^!]* TakePartyItemAll("DWSW1H01")~ ~TakeItemReplace("DWDUST","DWSW1H01",Player5)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player6,0,0,0)[^!]* TakePartyItemAll("DWSW1H01")~ ~TakeItemReplace("DWDUST","DWSW1H01",Player6)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player1,0,0,0)[^!]* TakePartyItemAll("DWSW1H02")~ ~TakeItemReplace("DWDUST","DWSW1H02",Player1)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player2,0,0,0)[^!]* TakePartyItemAll("DWSW1H02")~ ~TakeItemReplace("DWDUST","DWSW1H02",Player2)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player3,0,0,0)[^!]* TakePartyItemAll("DWSW1H02")~ ~TakeItemReplace("DWDUST","DWSW1H02",Player3)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player4,0,0,0)[^!]* TakePartyItemAll("DWSW1H02")~ ~TakeItemReplace("DWDUST","DWSW1H02",Player4)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player5,0,0,0)[^!]* TakePartyItemAll("DWSW1H02")~ ~TakeItemReplace("DWDUST","DWSW1H02",Player5)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player6,0,0,0)[^!]* TakePartyItemAll("DWSW1H02")~ ~TakeItemReplace("DWDUST","DWSW1H02",Player6)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player1,0,0,0)[^!]* TakePartyItemAll("DWBLUN01")~ ~TakeItemReplace("DWDUST","DWBLUN01",Player1)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player2,0,0,0)[^!]* TakePartyItemAll("DWBLUN01")~ ~TakeItemReplace("DWDUST","DWBLUN01",Player2)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player3,0,0,0)[^!]* TakePartyItemAll("DWBLUN01")~ ~TakeItemReplace("DWDUST","DWBLUN01",Player3)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player4,0,0,0)[^!]* TakePartyItemAll("DWBLUN01")~ ~TakeItemReplace("DWDUST","DWBLUN01",Player4)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player5,0,0,0)[^!]* TakePartyItemAll("DWBLUN01")~ ~TakeItemReplace("DWDUST","DWBLUN01",Player5)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player6,0,0,0)[^!]* TakePartyItemAll("DWBLUN01")~ ~TakeItemReplace("DWDUST","DWBLUN01",Player6)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player1,0,0,0)[^!]* TakePartyItemAll("DWHALB01")~ ~TakeItemReplace("DWDUST","DWHALB01",Player1)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player2,0,0,0)[^!]* TakePartyItemAll("DWHALB01")~ ~TakeItemReplace("DWDUST","DWHALB01",Player2)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player3,0,0,0)[^!]* TakePartyItemAll("DWHALB01")~ ~TakeItemReplace("DWDUST","DWHALB01",Player3)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player4,0,0,0)[^!]* TakePartyItemAll("DWHALB01")~ ~TakeItemReplace("DWDUST","DWHALB01",Player4)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player5,0,0,0)[^!]* TakePartyItemAll("DWHALB01")~ ~TakeItemReplace("DWDUST","DWHALB01",Player5)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player6,0,0,0)[^!]* TakePartyItemAll("DWHALB01")~ ~TakeItemReplace("DWDUST","DWHALB01",Player6)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player1,0,0,0)[^!]* TakePartyItemAll("DWSPER01")~ ~TakeItemReplace("DWDUST","DWSPER01",Player1)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player2,0,0,0)[^!]* TakePartyItemAll("DWSPER01")~ ~TakeItemReplace("DWDUST","DWSPER01",Player2)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player3,0,0,0)[^!]* TakePartyItemAll("DWSPER01")~ ~TakeItemReplace("DWDUST","DWSPER01",Player3)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player4,0,0,0)[^!]* TakePartyItemAll("DWSPER01")~ ~TakeItemReplace("DWDUST","DWSPER01",Player4)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player5,0,0,0)[^!]* TakePartyItemAll("DWSPER01")~ ~TakeItemReplace("DWDUST","DWSPER01",Player5)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player6,0,0,0)[^!]* TakePartyItemAll("DWSPER01")~ ~TakeItemReplace("DWDUST","DWSPER01",Player6)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player1,0,0,0)[^!]* TakePartyItemAll("DWXBOW01")~ ~TakeItemReplace("DWDUST","DWXBOW01",Player1)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player2,0,0,0)[^!]* TakePartyItemAll("DWXBOW01")~ ~TakeItemReplace("DWDUST","DWXBOW01",Player2)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player3,0,0,0)[^!]* TakePartyItemAll("DWXBOW01")~ ~TakeItemReplace("DWDUST","DWXBOW01",Player3)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player4,0,0,0)[^!]* TakePartyItemAll("DWXBOW01")~ ~TakeItemReplace("DWDUST","DWXBOW01",Player4)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player5,0,0,0)[^!]* TakePartyItemAll("DWXBOW01")~ ~TakeItemReplace("DWDUST","DWXBOW01",Player5)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player6,0,0,0)[^!]* TakePartyItemAll("DWXBOW01")~ ~TakeItemReplace("DWDUST","DWXBOW01",Player6)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player1,0,0,0)[^!]* TakePartyItemAll("DWSHLD01")~ ~TakeItemReplace("DWDUST","DWSHLD01",Player1)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player2,0,0,0)[^!]* TakePartyItemAll("DWSHLD01")~ ~TakeItemReplace("DWDUST","DWSHLD01",Player2)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player3,0,0,0)[^!]* TakePartyItemAll("DWSHLD01")~ ~TakeItemReplace("DWDUST","DWSHLD01",Player3)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player4,0,0,0)[^!]* TakePartyItemAll("DWSHLD01")~ ~TakeItemReplace("DWDUST","DWSHLD01",Player4)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player5,0,0,0)[^!]* TakePartyItemAll("DWSHLD01")~ ~TakeItemReplace("DWDUST","DWSHLD01",Player5)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player6,0,0,0)[^!]* TakePartyItemAll("DWSHLD01")~ ~TakeItemReplace("DWDUST","DWSHLD01",Player6)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player1,0,0,0)[^!]* TakePartyItemAll("DWCLCK01")~ ~TakeItemReplace("DWDUST","DWCLCK01",Player1)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player2,0,0,0)[^!]* TakePartyItemAll("DWCLCK01")~ ~TakeItemReplace("DWDUST","DWCLCK01",Player2)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player3,0,0,0)[^!]* TakePartyItemAll("DWCLCK01")~ ~TakeItemReplace("DWDUST","DWCLCK01",Player3)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player4,0,0,0)[^!]* TakePartyItemAll("DWCLCK01")~ ~TakeItemReplace("DWDUST","DWCLCK01",Player4)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player5,0,0,0)[^!]* TakePartyItemAll("DWCLCK01")~ ~TakeItemReplace("DWDUST","DWCLCK01",Player5)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player6,0,0,0)[^!]* TakePartyItemAll("DWCLCK01")~ ~TakeItemReplace("DWDUST","DWCLCK01",Player6)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player1,0,0,0)[^!]* TakePartyItemAll("DWBOLT01")~ ~TakeItemReplace("DWDUST","DWBOLT01",Player1)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player2,0,0,0)[^!]* TakePartyItemAll("DWBOLT01")~ ~TakeItemReplace("DWDUST","DWBOLT01",Player2)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player3,0,0,0)[^!]* TakePartyItemAll("DWBOLT01")~ ~TakeItemReplace("DWDUST","DWBOLT01",Player3)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player4,0,0,0)[^!]* TakePartyItemAll("DWBOLT01")~ ~TakeItemReplace("DWDUST","DWBOLT01",Player4)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player5,0,0,0)[^!]* TakePartyItemAll("DWBOLT01")~ ~TakeItemReplace("DWDUST","DWBOLT01",Player5)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player6,0,0,0)[^!]* TakePartyItemAll("DWBOLT01")~ ~TakeItemReplace("DWDUST","DWBOLT01",Player6)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player1,0,0,0)[^!]* TakePartyItemAll("DWBOLT02")~ ~TakeItemReplace("DWDUST","DWBOLT02",Player1)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player2,0,0,0)[^!]* TakePartyItemAll("DWBOLT02")~ ~TakeItemReplace("DWDUST","DWBOLT02",Player2)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player3,0,0,0)[^!]* TakePartyItemAll("DWBOLT02")~ ~TakeItemReplace("DWDUST","DWBOLT02",Player3)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player4,0,0,0)[^!]* TakePartyItemAll("DWBOLT02")~ ~TakeItemReplace("DWDUST","DWBOLT02",Player4)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player5,0,0,0)[^!]* TakePartyItemAll("DWBOLT02")~ ~TakeItemReplace("DWDUST","DWBOLT02",Player5)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player6,0,0,0)[^!]* TakePartyItemAll("DWBOLT02")~ ~TakeItemReplace("DWDUST","DWBOLT02",Player6)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player1,0,0,0)[^!]* TakePartyItemAll("DWBOLT03")~ ~TakeItemReplace("DWDUST","DWBOLT03",Player1)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player2,0,0,0)[^!]* TakePartyItemAll("DWBOLT03")~ ~TakeItemReplace("DWDUST","DWBOLT03",Player2)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player3,0,0,0)[^!]* TakePartyItemAll("DWBOLT03")~ ~TakeItemReplace("DWDUST","DWBOLT03",Player3)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player4,0,0,0)[^!]* TakePartyItemAll("DWBOLT03")~ ~TakeItemReplace("DWDUST","DWBOLT03",Player4)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player5,0,0,0)[^!]* TakePartyItemAll("DWBOLT03")~ ~TakeItemReplace("DWDUST","DWBOLT03",Player5)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player6,0,0,0)[^!]* TakePartyItemAll("DWBOLT03")~ ~TakeItemReplace("DWDUST","DWBOLT03",Player6)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player1,0,0,0)[^!]* TakePartyItemAll("DWPLAT01")~ ~TakeItemReplace("DWDUST","DWPLAT01",Player1)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player2,0,0,0)[^!]* TakePartyItemAll("DWPLAT01")~ ~TakeItemReplace("DWDUST","DWPLAT01",Player2)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player3,0,0,0)[^!]* TakePartyItemAll("DWPLAT01")~ ~TakeItemReplace("DWDUST","DWPLAT01",Player3)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player4,0,0,0)[^!]* TakePartyItemAll("DWPLAT01")~ ~TakeItemReplace("DWDUST","DWPLAT01",Player4)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player5,0,0,0)[^!]* TakePartyItemAll("DWPLAT01")~ ~TakeItemReplace("DWDUST","DWPLAT01",Player5)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player6,0,0,0)[^!]* TakePartyItemAll("DWPLAT01")~ ~TakeItemReplace("DWDUST","DWPLAT01",Player6)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player1,0,0,0)[^!]* TakePartyItemAll("MISC9W")~ ~TakeItemReplace("DWDUST","MISC9W",Player1)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player2,0,0,0)[^!]* TakePartyItemAll("MISC9W")~ ~TakeItemReplace("DWDUST","MISC9W",Player2)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player3,0,0,0)[^!]* TakePartyItemAll("MISC9W")~ ~TakeItemReplace("DWDUST","MISC9W",Player3)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player4,0,0,0)[^!]* TakePartyItemAll("MISC9W")~ ~TakeItemReplace("DWDUST","MISC9W",Player4)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player5,0,0,0)[^!]* TakePartyItemAll("MISC9W")~ ~TakeItemReplace("DWDUST","MISC9W",Player5)~
+ REPLACE_TEXTUALLY ~GiveItemCreate("DWDUST",Player6,0,0,0)[^!]* TakePartyItemAll("MISC9W")~ ~TakeItemReplace("DWDUST","MISC9W",Player6)~
+ COMPILE_BAF_TO_BCS
+
+COPY_EXISTING ~AR4000.BCS~ ~override~
+ DECOMPILE_BCS_TO_BAF
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWCHAN01",Player1)~ ~TakeItemReplace("DWDUST","DWCHAN01",Player1) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWCHAN01",Player2)~ ~TakeItemReplace("DWDUST","DWCHAN01",Player2) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWCHAN01",Player3)~ ~TakeItemReplace("DWDUST","DWCHAN01",Player3) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWCHAN01",Player4)~ ~TakeItemReplace("DWDUST","DWCHAN01",Player4) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWCHAN01",Player5)~ ~TakeItemReplace("DWDUST","DWCHAN01",Player5) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWCHAN01",Player6)~ ~TakeItemReplace("DWDUST","DWCHAN01",Player6) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWCHAN02",Player1)~ ~TakeItemReplace("DWDUST","DWCHAN02",Player1) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWCHAN02",Player2)~ ~TakeItemReplace("DWDUST","DWCHAN02",Player2) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWCHAN02",Player3)~ ~TakeItemReplace("DWDUST","DWCHAN02",Player3) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWCHAN02",Player4)~ ~TakeItemReplace("DWDUST","DWCHAN02",Player4) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWCHAN02",Player5)~ ~TakeItemReplace("DWDUST","DWCHAN02",Player5) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWCHAN02",Player6)~ ~TakeItemReplace("DWDUST","DWCHAN02",Player6) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWSW1H01",Player1)~ ~TakeItemReplace("DWDUST","DWSW1H01",Player1) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWSW1H01",Player2)~ ~TakeItemReplace("DWDUST","DWSW1H01",Player2) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWSW1H01",Player3)~ ~TakeItemReplace("DWDUST","DWSW1H01",Player3) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWSW1H01",Player4)~ ~TakeItemReplace("DWDUST","DWSW1H01",Player4) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWSW1H01",Player5)~ ~TakeItemReplace("DWDUST","DWSW1H01",Player5) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWSW1H01",Player6)~ ~TakeItemReplace("DWDUST","DWSW1H01",Player6) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWSW1H02",Player1)~ ~TakeItemReplace("DWDUST","DWSW1H02",Player1) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWSW1H02",Player2)~ ~TakeItemReplace("DWDUST","DWSW1H02",Player2) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWSW1H02",Player3)~ ~TakeItemReplace("DWDUST","DWSW1H02",Player3) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWSW1H02",Player4)~ ~TakeItemReplace("DWDUST","DWSW1H02",Player4) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWSW1H02",Player5)~ ~TakeItemReplace("DWDUST","DWSW1H02",Player5) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWSW1H02",Player6)~ ~TakeItemReplace("DWDUST","DWSW1H02",Player6) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWBLUN01",Player1)~ ~TakeItemReplace("DWDUST","DWBLUN01",Player1) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWBLUN01",Player2)~ ~TakeItemReplace("DWDUST","DWBLUN01",Player2) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWBLUN01",Player3)~ ~TakeItemReplace("DWDUST","DWBLUN01",Player3) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWBLUN01",Player4)~ ~TakeItemReplace("DWDUST","DWBLUN01",Player4) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWBLUN01",Player5)~ ~TakeItemReplace("DWDUST","DWBLUN01",Player5) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWBLUN01",Player6)~ ~TakeItemReplace("DWDUST","DWBLUN01",Player6) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWHALB01",Player1)~ ~TakeItemReplace("DWDUST","DWHALB01",Player1) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWHALB01",Player2)~ ~TakeItemReplace("DWDUST","DWHALB01",Player2) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWHALB01",Player3)~ ~TakeItemReplace("DWDUST","DWHALB01",Player3) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWHALB01",Player4)~ ~TakeItemReplace("DWDUST","DWHALB01",Player4) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWHALB01",Player5)~ ~TakeItemReplace("DWDUST","DWHALB01",Player5) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWHALB01",Player6)~ ~TakeItemReplace("DWDUST","DWHALB01",Player6) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWSPER01",Player1)~ ~TakeItemReplace("DWDUST","DWSPER01",Player1) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWSPER01",Player2)~ ~TakeItemReplace("DWDUST","DWSPER01",Player2) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWSPER01",Player3)~ ~TakeItemReplace("DWDUST","DWSPER01",Player3) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWSPER01",Player4)~ ~TakeItemReplace("DWDUST","DWSPER01",Player4) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWSPER01",Player5)~ ~TakeItemReplace("DWDUST","DWSPER01",Player5) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWSPER01",Player6)~ ~TakeItemReplace("DWDUST","DWSPER01",Player6) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWXBOW01",Player1)~ ~TakeItemReplace("DWDUST","DWXBOW01",Player1) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWXBOW01",Player2)~ ~TakeItemReplace("DWDUST","DWXBOW01",Player2) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWXBOW01",Player3)~ ~TakeItemReplace("DWDUST","DWXBOW01",Player3) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWXBOW01",Player4)~ ~TakeItemReplace("DWDUST","DWXBOW01",Player4) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWXBOW01",Player5)~ ~TakeItemReplace("DWDUST","DWXBOW01",Player5) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWXBOW01",Player6)~ ~TakeItemReplace("DWDUST","DWXBOW01",Player6) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWSHLD01",Player1)~ ~TakeItemReplace("DWDUST","DWSHLD01",Player1) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWSHLD01",Player2)~ ~TakeItemReplace("DWDUST","DWSHLD01",Player2) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWSHLD01",Player3)~ ~TakeItemReplace("DWDUST","DWSHLD01",Player3) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWSHLD01",Player4)~ ~TakeItemReplace("DWDUST","DWSHLD01",Player4) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWSHLD01",Player5)~ ~TakeItemReplace("DWDUST","DWSHLD01",Player5) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWSHLD01",Player6)~ ~TakeItemReplace("DWDUST","DWSHLD01",Player6) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWCLCK01",Player1)~ ~TakeItemReplace("DWDUST","DWCLCK01",Player1) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWCLCK01",Player2)~ ~TakeItemReplace("DWDUST","DWCLCK01",Player2) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWCLCK01",Player3)~ ~TakeItemReplace("DWDUST","DWCLCK01",Player3) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWCLCK01",Player4)~ ~TakeItemReplace("DWDUST","DWCLCK01",Player4) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWCLCK01",Player5)~ ~TakeItemReplace("DWDUST","DWCLCK01",Player5) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWCLCK01",Player6)~ ~TakeItemReplace("DWDUST","DWCLCK01",Player6) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWBOLT01",Player1)~ ~TakeItemReplace("DWDUST","DWBOLT01",Player1) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWBOLT01",Player2)~ ~TakeItemReplace("DWDUST","DWBOLT01",Player2) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWBOLT01",Player3)~ ~TakeItemReplace("DWDUST","DWBOLT01",Player3) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWBOLT01",Player4)~ ~TakeItemReplace("DWDUST","DWBOLT01",Player4) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWBOLT01",Player5)~ ~TakeItemReplace("DWDUST","DWBOLT01",Player5) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWBOLT01",Player6)~ ~TakeItemReplace("DWDUST","DWBOLT01",Player6) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWBOLT02",Player1)~ ~TakeItemReplace("DWDUST","DWBOLT02",Player1) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWBOLT02",Player2)~ ~TakeItemReplace("DWDUST","DWBOLT02",Player2) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWBOLT02",Player3)~ ~TakeItemReplace("DWDUST","DWBOLT02",Player3) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWBOLT02",Player4)~ ~TakeItemReplace("DWDUST","DWBOLT02",Player4) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWBOLT02",Player5)~ ~TakeItemReplace("DWDUST","DWBOLT02",Player5) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWBOLT02",Player6)~ ~TakeItemReplace("DWDUST","DWBOLT02",Player6) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWBOLT03",Player1)~ ~TakeItemReplace("DWDUST","DWBOLT03",Player1) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWBOLT03",Player2)~ ~TakeItemReplace("DWDUST","DWBOLT03",Player2) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWBOLT03",Player3)~ ~TakeItemReplace("DWDUST","DWBOLT03",Player3) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWBOLT03",Player4)~ ~TakeItemReplace("DWDUST","DWBOLT03",Player4) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWBOLT03",Player5)~ ~TakeItemReplace("DWDUST","DWBOLT03",Player5) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWBOLT03",Player6)~ ~TakeItemReplace("DWDUST","DWBOLT03",Player6) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWPLAT01",Player1)~ ~TakeItemReplace("DWDUST","DWPLAT01",Player1) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWPLAT01",Player2)~ ~TakeItemReplace("DWDUST","DWPLAT01",Player2) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWPLAT01",Player3)~ ~TakeItemReplace("DWDUST","DWPLAT01",Player3) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWPLAT01",Player4)~ ~TakeItemReplace("DWDUST","DWPLAT01",Player4) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWPLAT01",Player5)~ ~TakeItemReplace("DWDUST","DWPLAT01",Player5) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","DWPLAT01",Player6)~ ~TakeItemReplace("DWDUST","DWPLAT01",Player6) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","MISC9W",Player1)~ ~TakeItemReplace("DWDUST","MISC9W",Player1) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","MISC9W",Player2)~ ~TakeItemReplace("DWDUST","MISC9W",Player2) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","MISC9W",Player3)~ ~TakeItemReplace("DWDUST","MISC9W",Player3) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","MISC9W",Player4)~ ~TakeItemReplace("DWDUST","MISC9W",Player4) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","MISC9W",Player5)~ ~TakeItemReplace("DWDUST","MISC9W",Player5) Continue()~
+ REPLACE_TEXTUALLY ~TakeItemReplace("DWDUST","MISC9W",Player6)~ ~TakeItemReplace("DWDUST","MISC9W",Player6) Continue()~
+ COMPILE_BAF_TO_BCS
+
+
+
+EXTEND_TOP    ~BALDUR.BCS~ ~SOS/SNIP/tBALDUR.BAF~
+ EVALUATE_BUFFER
+EXTEND_BOTTOM ~BALDUR.BCS~ ~SOS/SNIP/bBALDUR.BAF~
+ EVALUATE_BUFFER
+
+EXTEND_TOP    ~NALIA.BCS~  ~SOS/SNIP/tNALIA.BAF~
+ EVALUATE_BUFFER
+EXTEND_BOTTOM ~RIBALD.BCS~ ~SOS/SNIP/bRIBALD.BAF~
+ EVALUATE_BUFFER
+ 

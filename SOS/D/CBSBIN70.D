@@ -1,0 +1,172 @@
+BEGIN ~CBSBIN70~
+
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN GOTO 11
+END
+
+IF ~!GlobalTimerExpired("CBSBIN70","AR4270")~ THEN BEGIN 6
+  SAY @1
+  IF ~~ THEN REPLY @2 GOTO 16
+  IF ~~ THEN REPLY @3 EXIT
+  IF ~GlobalLT("CbPartyIsInSoubarMilitia","GLOBAL",5)~ THEN REPLY @4 GOTO 17
+END
+
+IF ~GlobalTimerExpired("CBSBIN70","AR4270")~ THEN BEGIN 7
+  SAY @5
+  IF ~~ THEN REPLY @6 GOTO 9
+  IF ~~ THEN REPLY @7 EXIT
+  IF ~GlobalLT("CbPartyIsInSoubarMilitia","GLOBAL",5)~ THEN REPLY @4 GOTO 17
+END
+
+IF ~~ THEN BEGIN 9 // from: 7.0
+  SAY @8
+  IF ~~ THEN DO ~StartStore("CBSBIN7b",LastTalkedToBy())~ EXIT
+END
+
+IF ~~ THEN BEGIN 11 // from: 0.4
+  SAY @9
+  IF ~~ THEN GOTO 12
+END
+
+IF ~~ THEN BEGIN 12 // from: 11.0
+  SAY @10
+  IF ~~ THEN REPLY @11 DO ~SetGlobalTimer("CBSBIN70","AR4270",ONE_DAY)~ GOTO 13
+  IF ~ReputationGT(LastTalkedToBy,15)~ THEN REPLY @12 DO ~SetGlobalTimer("CBSBIN70","AR4270",ONE_DAY)~ GOTO 32
+  IF ~ReputationLT(LastTalkedToBy,16)~ THEN REPLY @12 DO ~SetGlobalTimer("CBSBIN70","AR4270",ONE_DAY)~ GOTO 33
+  IF ~~ THEN REPLY @13 DO ~SetGlobalTimer("CBSBIN70","AR4270",ONE_DAY)~ GOTO 35
+END
+
+IF ~~ THEN BEGIN 13 // from: 12.0
+  SAY @14
+  IF ~~ THEN GOTO 14
+END
+
+IF ~~ THEN BEGIN 14 // from: 13.0
+  SAY @15
+  IF ~~ THEN REPLY @16 GOTO 15
+  IF ~~ THEN REPLY @17 GOTO 16
+  IF ~GlobalLT("CbPartyIsInSoubarMilitia","GLOBAL",5)~ THEN REPLY @18 GOTO 17
+END
+
+IF ~~ THEN BEGIN 15 // from: 14.0
+  SAY @19
+  IF ~~ THEN REPLY @2 GOTO 16
+  IF ~~ THEN REPLY @20 EXIT
+END
+
+IF ~~ THEN BEGIN 16 // from: 15.0 14.1 6.0
+  SAY @21
+  IF ~~ THEN DO ~StartStore("CBSBIN7a",LastTalkedToBy())~ EXIT
+END
+
+IF ~~ THEN BEGIN 17 // from: 14.2 7.2 6.2
+  SAY @22
+  IF ~~ THEN GOTO 18
+END
+
+IF ~~ THEN BEGIN 18 // from: 17.0
+  SAY @23
+  IF ~~ THEN REPLY @24 GOTO 19
+  IF ~~ THEN REPLY @25 GOTO 21
+  IF ~~ THEN REPLY @26 GOTO 26
+  IF ~~ THEN REPLY @27 GOTO 27
+END
+
+IF ~~ THEN BEGIN 19 // from: 26.1 25.1 20.0 18.0
+  SAY @28
+  IF ~~ THEN GOTO 20
+END
+
+IF ~~ THEN BEGIN 20 // from: 19.0
+  SAY @29
+  IF ~~ THEN REPLY @24 GOTO 19
+  IF ~~ THEN REPLY @25 GOTO 21
+  IF ~~ THEN REPLY @26 GOTO 26
+  IF ~~ THEN REPLY @27 GOTO 27
+END
+
+IF ~~ THEN BEGIN 21 // from: 26.0 25.0 20.1 18.1
+  SAY @30
+  IF ~~ THEN GOTO 22
+END
+
+IF ~~ THEN BEGIN 22 // from: 21.0
+  SAY @31
+  IF ~~ THEN GOTO 23
+END
+
+IF ~~ THEN BEGIN 23 // from: 22.0
+  SAY @32
+  IF ~~ THEN GOTO 24
+END
+
+IF ~~ THEN BEGIN 24 // from: 23.0
+  SAY @33
+  IF ~~ THEN GOTO 25
+END
+
+IF ~~ THEN BEGIN 25 // from: 24.0
+  SAY @34
+  IF ~~ THEN REPLY @25 GOTO 21
+  IF ~~ THEN REPLY @24 GOTO 19
+  IF ~~ THEN REPLY @26 GOTO 26
+  IF ~~ THEN REPLY @27 GOTO 27
+END
+
+IF ~~ THEN BEGIN 26 // from: 26.2 25.2 20.2 18.2
+  SAY @35
+  IF ~~ THEN REPLY @25 GOTO 21
+  IF ~~ THEN REPLY @24 GOTO 19
+  IF ~~ THEN REPLY @26 GOTO 26
+  IF ~~ THEN REPLY @27 GOTO 27
+END
+
+IF ~~ THEN BEGIN 27 // from: 26.3 25.3 20.3 18.3
+  SAY @36
+  IF ~~ THEN GOTO 28
+END
+
+IF ~~ THEN BEGIN 28 // from: 27.0
+  SAY @37
+  IF ~~ THEN GOTO 29
+END
+
+IF ~~ THEN BEGIN 29 // from: 28.0
+  SAY @38
+  IF ~~ THEN REPLY @39 EXIT
+  IF ~!GlobalTimerExpired("CBSBIN70","AR4270")~ THEN REPLY @40 GOTO 30
+  IF ~GlobalTimerExpired("CBSBIN70","AR4270")~ THEN REPLY @40 GOTO 31
+END
+
+IF ~~ THEN BEGIN 30 // from: 29.1
+  SAY @41
+  IF ~~ THEN DO ~StartStore("CBSBIN7a",LastTalkedToBy())~ EXIT
+END
+
+IF ~~ THEN BEGIN 31 // from: 29.2
+  SAY @41
+  IF ~~ THEN DO ~StartStore("CBSBIN7b",LastTalkedToBy())~ EXIT
+END
+
+IF ~~ THEN BEGIN 32 // from: 12.1
+  SAY @42
+  IF ~~ THEN DO ~StartStore("CBSBIN7a",LastTalkedToBy())~ EXIT
+END
+
+IF ~~ THEN BEGIN 33 // from: 12.2
+  SAY @43
+  IF ~~ THEN GOTO 34
+END
+
+IF ~~ THEN BEGIN 34 // from: 33.0
+  SAY @44
+  IF ~~ THEN REPLY @45 EXIT
+  IF ~~ THEN REPLY @46 DO ~StartStore("CBSBIN7b",LastTalkedToBy())~ EXIT
+END
+
+IF ~~ THEN BEGIN 35 // from: 12.3
+  SAY @47
+  IF ~~ THEN REPLY @48 DO ~StartStore("CBSBIN7b",LastTalkedToBy())~ EXIT
+  IF ~~ THEN REPLY @45 EXIT
+END

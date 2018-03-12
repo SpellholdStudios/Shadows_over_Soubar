@@ -1,0 +1,16 @@
+IF
+  Global("CbDeactivateOtherCaptains","GLOBAL",1)
+  AreaCheck("AR4287")
+THEN
+  RESPONSE #100
+    Deactivate(Myself)
+END
+
+IF
+  See([PC])
+  NumberOfTimesTalkedTo(0)
+THEN
+  RESPONSE #100
+    Dialog([PC])
+END
+

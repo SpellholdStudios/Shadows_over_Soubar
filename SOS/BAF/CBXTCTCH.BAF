@@ -1,0 +1,19 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)  // 
+    CreateVisualEffectObject("SPDISPMA","CB232CLU")
+    CreateVisualEffectObject("SPDISPMA","CBSPYRLF")
+    Wait(1)
+    ActionOverride("CB232CLU",ForceSpell("CB232CLU",DRYAD_TELEPORT))
+    ActionOverride("CB232CLU",Wait(1))
+    ActionOverride("CB232CLU",DestroySelf())
+    ActionOverride("CBSPYRLF",ForceSpell("CBSPYRLF",DRYAD_TELEPORT))
+    ActionOverride("CBSPYRLF",Wait(1))
+    ActionOverride("CBSPYRLF",DestroySelf())
+    SetGlobal("CbCharlieTheSpyEscaped","GLOBAL",1)
+    SetGlobal("CbASpyEscaped","GLOBAL",1)
+    EndCutSceneMode()
+END
+

@@ -1,0 +1,95 @@
+APPEND JAHEIRAJ
+
+
+IF ~Global("CbOriginalPeopleInteract","AR4202",1)
+AreaCheck("AR4202")
+Global("CbJaheiraInteracted_4202","AR4202",0)~ THEN BEGIN SOS136
+  SAY @0
+  IF ~~ THEN GOTO SOS137
+END
+
+IF ~~ THEN BEGIN SOS137
+  SAY @1
+  IF ~Class(Player1,THIEF_ALL)~ THEN GOTO SOS138
+  IF ~!Class(Player1,THIEF_ALL)~ THEN GOTO SOS139
+END
+
+IF ~~ THEN BEGIN SOS138
+  SAY @2
+  IF ~~ THEN REPLY @3 DO ~SetGlobal("CbOriginalPeopleInteract","AR4202",0)
+SetGlobal("CbJaheiraInteracted_4202","AR4202",1)~ EXIT
+  IF ~~ THEN REPLY @4 DO ~SetGlobal("CbOriginalPeopleInteract","AR4202",0)
+SetGlobal("CbJaheiraInteracted_4202","AR4202",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN SOS139
+  SAY @5
+  IF ~~ THEN REPLY @6 DO ~SetGlobal("CbOriginalPeopleInteract","AR4202",0)
+SetGlobal("CbJaheiraInteracted_4202","AR4202",1)~ EXIT
+  IF ~~ THEN REPLY @3 DO ~SetGlobal("CbOriginalPeopleInteract","AR4202",0)
+SetGlobal("CbJaheiraInteracted_4202","AR4202",1)~ EXIT
+END
+
+IF ~Global("CbOriginalPeopleInteract","AR1100",1)
+AreaCheck("AR1100")~ THEN BEGIN SOS140
+  SAY @7
+  IF ~~ THEN DO ~SetGlobal("CbOriginalPeopleInteract","AR1100",0)
+SetGlobal("CbJaheiraInteract_1100","AR1100",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN SOS141
+  SAY @8
+  IF ~~ THEN GOTO SOS142
+END
+
+IF ~~ THEN BEGIN SOS142
+  SAY @9
+  IF ~~ THEN EXTERN ~CHARLOTJ~ 113
+END
+
+IF ~~ THEN BEGIN SOS143
+  SAY @10
+  IF ~~ THEN GOTO SOS144
+END
+
+IF ~~ THEN BEGIN SOS144
+  SAY @11
+  IF ~~ THEN GOTO SOS145
+END
+
+IF ~~ THEN BEGIN SOS145
+  SAY @12
+  IF ~~ THEN GOTO SOS146
+END
+
+IF ~~ THEN BEGIN SOS146
+  SAY @13
+  IF ~~ THEN EXTERN ~NALIAJ~ SOS170
+END
+
+IF ~~ THEN BEGIN SOS147
+  SAY @14
+  IF ~~ THEN GOTO SOS148
+END
+
+IF ~~ THEN BEGIN SOS148
+  SAY @15
+  IF ~~ THEN EXTERN ~NALIAJ~ SOS177
+END
+
+IF ~~ THEN BEGIN SOS149
+  SAY @16
+  IF ~~ THEN GOTO SOS150
+END
+
+IF ~~ THEN BEGIN SOS150
+  SAY @15
+  IF ~~ THEN EXTERN ~NALIAJ~ SOS179
+END
+
+IF ~~ THEN BEGIN SOS151
+  SAY @17
+  IF ~~ THEN EXTERN ~NALIAJ~ SOS187
+END
+
+END

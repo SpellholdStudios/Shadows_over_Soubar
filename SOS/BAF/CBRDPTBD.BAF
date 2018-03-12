@@ -1,0 +1,18 @@
+IF
+  OnCreation()
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    MoveToObjectNoInterrupt("CbWayPoint6")
+    Enemy()
+END
+
+IF
+  HPLT(Myself,1)
+  Global("CbIDied","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbIDied","LOCALS",1)
+    IncrementGlobal("CbRoadPatrolBanditsDied","AR4230",1)
+END
+

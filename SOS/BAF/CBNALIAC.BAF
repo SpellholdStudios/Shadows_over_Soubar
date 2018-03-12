@@ -1,0 +1,15 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)  // 
+    FadeToColor([20.0],0)
+    Wait(5)
+    GiveItemCreate("CBCHARNL","NALIA",1,1,0)  // ~Potion of Fire Resistance~
+    ActionOverride("NALIA",UseItem("CBCHARNL","NALIA"))  // ~Potion of Fire Resistance~
+    FadeFromColor([20.0],0)
+    SmallWait(5)
+    SetGlobal("CbCharlotteAndNaliaGirlTalk","GLOBAL",12)
+    ActionOverride("CHARLOTT",StartDialogNoSet("NALIA"))
+END
+

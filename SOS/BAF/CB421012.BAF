@@ -1,0 +1,92 @@
+IF
+  Global("CbSelenceSmuggles","GLOBAL",2)
+  Global("CbItemsCreated","AR4210",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbItemsCreated","AR4210",1)
+    CreateItem("CBRJR001",1,0,0)  // ~Vanshir's Warblade~
+END
+
+IF
+  Global("CbSelenceSmuggles","GLOBAL",4)
+  Global("CbItemsCreated","AR4210",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbItemsCreated","AR4210",2)
+    CreateItem("CBRJR002",1,0,0)  // ~Amulet of the Arcanist~
+    CreateItem("MISC07",2300,0,0)  // ~Gold Piece~
+END
+
+IF
+  Global("CbSelenceSmuggles","GLOBAL",6)
+  Global("CbItemsCreated","AR4210",2)
+THEN
+  RESPONSE #100
+    SetGlobal("CbItemsCreated","AR4210",3)
+    CreateItem("CBRJR004",1,0,0)  // ~Sword of Nazger~
+    CreateItem("CBRJR005",1,0,0)  // ~Glass of Mist~
+    CreateItem("MISC07",3800,0,0)  // ~Gold Piece~
+END
+
+IF
+  Global("CbSelenceSmuggles","GLOBAL",8)
+  Global("CbItemsCreated","AR4210",3)
+THEN
+  RESPONSE #100
+    SetGlobal("CbItemsCreated","AR4210",4)
+    CreateItem("CBRJR006",1,0,0)  // ~Ring of Silence~
+    CreateItem("CBRJR007",1,0,0)  // ~Book of Roses~
+    CreateItem("CBRJR008",1,0,0)  // ~Beltyn's Burning Blood~
+    CreateItem("CBRJR009",1,0,0)  // ~Hungersword~
+    CreateItem("CBRJR010",1,0,0)  // ~Amulet of Spirit Storing~
+    CreateItem("CBRJR011",1,0,0)  // ~Mantle of Rage~
+    CreateItem("CBRJR012",1,0,0)  // ~Letter~
+    CreateItem("MISC07",8945,0,0)  // ~Gold Piece~
+END
+
+IF
+  Global("CbSelenceSmuggles","GLOBAL",10)
+  Global("CbItemsCreated","AR4210",4)
+THEN
+  RESPONSE #100
+    SetGlobal("CbItemsCreated","AR4210",5)
+    CreateItem("MISC07",26000,0,0)  // ~Gold Piece~
+END
+
+IF
+  Global("CbSelenceSmuggles","GLOBAL",12)
+  Global("CbItemsCreated","AR4210",5)
+THEN
+  RESPONSE #100
+    SetGlobal("CbItemsCreated","AR4210",6)
+    CreateItem("CBRJR013",1,0,0)  // ~Scepter of Savras~
+    CreateItem("CBRJR014",1,0,0)  // ~Zelandazar~
+    CreateItem("CBRJR015",1,0,0)  // ~Dzance's Guardian~
+    CreateItem("CBRJR017",1,0,0)  // ~Laeral's Storm Armor~
+    CreateItem("CBRJR018",1,0,0)  // ~Giiraegisir~
+    CreateItem("CBRJR019",1,0,0)  // ~Girdle of Lions~
+    CreateItem("MISC07",12400,0,0)  // ~Gold Piece~
+END
+
+IF
+  Global("CbSelenceSmuggles","GLOBAL",14)
+  Global("CbItemsCreated","AR4210",5)
+THEN
+  RESPONSE #100
+    SetGlobal("CbItemsCreated","AR4210",6)
+    SetGlobalTimer("CbRealClosetoSmuggleTimer","AR4210",SEVEN_DAYS)
+    CreateItem("CBRJR020",1,0,0)  // ~Wand of Eyes~
+    CreateItem("CBRJR021",1,0,0)  // ~Archmage Staff~
+    CreateItem("MISC07",16478,0,0)  // ~Gold Piece~
+END
+
+IF
+  GlobalGT("CbSelenceSmuggles","GLOBAL",13)
+  !GlobalTimerNotExpired("CbRealClosetoSmuggleTimer","AR4210")
+  !Contains("MISC07","CbContainer12")  // CbContainer12
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbRealClosetoSmuggleTimer","AR4210",SEVEN_DAYS)
+    CreateItem("MISC07",16478,0,0)  // ~Gold Piece~
+END
+

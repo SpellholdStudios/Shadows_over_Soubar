@@ -1,0 +1,11 @@
+IF
+  OnCreation()
+  Global("CbRolfNotKillableSpawn","AR4305",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbRolfNotKillableSpawn","AR4305",1)
+    CreateCreature("CBROLFSB",[878.752],15)  // ~Rolf Sureblade~
+    StartCutSceneMode()
+    StartCutScene("CBAR4305")
+END
+

@@ -1,0 +1,16 @@
+BEGIN ~CB4308NR~
+
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN GOTO 1
+END
+
+IF ~~ THEN BEGIN 1 // from: 0.0
+  SAY @1
+  IF ~~ THEN GOTO 2
+END
+
+IF ~~ THEN BEGIN 2 // from: 1.0
+  SAY @2
+  IF ~~ THEN EXIT
+END

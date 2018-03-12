@@ -1,0 +1,13 @@
+@0    = ~Sergeant <CHARNAME>.  We have orders to assist you on your assignment.  We'll follow and help you out if you need anything.~
+@1    = ~Sergeant <CHARNAME>?  Are we headed inside this inn now?  I need to pass your orders on to the men if that is the case.~
+@2    = ~No, soldier.  Why don't you come with me for now.  We have other things we need to do.~
+@3    = ~Yes, soldier.  We will be guarding the Narwhal tonight.  I don't want to see any barfights here.  If there is any trouble, we'll be taking prisoners, so use the flat of your blades.~
+@4    = ~Aye, sergeant.~
+@5    = ~Aye sergeant.  If we are only preventing crimes, why don't you take these.  They'll be of more help than your weapons.~
+@6    = ~We will meet you inside then.~
+@7    = ~Yes, Sergeant <CHARNAME>?  Your orders?~
+@8    = ~Nothing, Soldier.  Carry on.~
+@9    = ~It seems our duties here are completed.  Let us return to the barracks.  Come.~
+@10   = ~This men are just drinking, Sergeant <CHARNAME>.  As long as they don't cause any trouble, there's no need for us to interfer just yet.~
+@11   = ~SERGEANT <CHARNAME>!  THE TRIEL MEN ARE BRAWLING!  THAT'S AGAINST THE LAW!  ARREST THEM OR TAKE THEM DOWN!~
+@12   = ~As you wish, Sir!~

@@ -1,0 +1,19 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CBSIRRUS")  // 
+    GiveItemCreate("CBLIEUT1",Myself,1,1,0)  // ~Wand of Lightning~
+    GiveItemCreate("CBLIEUT2",Myself,5,1,0)  // ~Wand of Lightning~
+    UseItem("CBLIEUT1",Player1)  // ~Wand of Lightning~
+    UseItem("CBLIEUT2",Player2)  // ~Wand of Lightning~
+    UseItem("CBLIEUT2",Player3)  // ~Wand of Lightning~
+    UseItem("CBLIEUT2",Player4)  // ~Wand of Lightning~
+    UseItem("CBLIEUT2",Player5)  // ~Wand of Lightning~
+    UseItem("CBLIEUT2",Player6)  // ~Wand of Lightning~
+    SetGlobal("CbPartyIsInSoubarMilitia","GLOBAL",7)
+    EndCutSceneMode()
+    AddexperienceParty(100000)
+    SaveGame(0)
+END
+

@@ -1,0 +1,35 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)  // 
+    CreateVisualEffectObject("SPDISPMA","CB285FT1")
+    CreateVisualEffectObject("SPDISPMA","CB285FT2")
+    CreateVisualEffectObject("SPDISPMA","CB285FT3")
+    CreateVisualEffectObject("SPDISPMA","CB285FT4")
+    CreateVisualEffectObject("SPDISPMA","CB285FT5")
+    CreateVisualEffectObject("SPDISPMA","CBSPYRLF")
+    Wait(1)
+    ActionOverride("CB285FT1",ForceSpell("CB285FT1",DRYAD_TELEPORT))
+    ActionOverride("CB285FT1",Wait(1))
+    ActionOverride("CB285FT1",DestroySelf())
+    ActionOverride("CB285FT2",ForceSpell("CB285FT2",DRYAD_TELEPORT))
+    ActionOverride("CB285FT2",Wait(1))
+    ActionOverride("CB285FT2",DestroySelf())
+    ActionOverride("CB285FT3",ForceSpell("CB285FT3",DRYAD_TELEPORT))
+    ActionOverride("CB285FT3",Wait(1))
+    ActionOverride("CB285FT3",DestroySelf())
+    ActionOverride("CB285FT4",ForceSpell("CB285FT4",DRYAD_TELEPORT))
+    ActionOverride("CB285FT4",Wait(1))
+    ActionOverride("CB285FT4",DestroySelf())
+    ActionOverride("CB285FT5",ForceSpell("CB285FT5",DRYAD_TELEPORT))
+    ActionOverride("CB285FT5",Wait(1))
+    ActionOverride("CB285FT5",DestroySelf())
+    ActionOverride("CBSPYRLF",ForceSpell("CBSPYRLF",DRYAD_TELEPORT))
+    ActionOverride("CBSPYRLF",Wait(1))
+    ActionOverride("CBSPYRLF",DestroySelf())
+    SetGlobal("CbFightersTheSpyEscaped","GLOBAL",1)
+    SetGlobal("CbASpyEscaped","GLOBAL",1)
+    EndCutSceneMode()
+END
+

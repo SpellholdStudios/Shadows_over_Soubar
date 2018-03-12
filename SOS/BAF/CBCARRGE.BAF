@@ -1,0 +1,26 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)  // 
+    Wait(1)
+    FadeToColor([40.0],0)
+    Wait(2)
+    ActionOverride("CBUHAKCT",MoveBetweenAreas("AR4220",[2351.1303],6))
+    ActionOverride("CBUHGVCT",MoveBetweenAreas("AR4220",[2296.1323],7))
+    ActionOverride(Player2,LeaveAreaLUA("AR4220","",[2330.1190],3))
+    ActionOverride(Player3,LeaveAreaLUA("AR4220","",[2390.1240],3))
+    ActionOverride(Player4,LeaveAreaLUA("AR4220","",[2390.1190],3))
+    ActionOverride(Player5,LeaveAreaLUA("AR4220","",[2425.1240],3))
+    ActionOverride(Player6,LeaveAreaLUA("AR4220","",[2425.1190],3))
+    LeaveAreaLUAPanic("AR4220","",[2330.1240],3)
+    LeaveAreaLUA("AR4220","",[2330.1240],3)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(DUSK_START)
+    FadeFromColor([40.0],0)
+    EndCutSceneMode()
+END
+

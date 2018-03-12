@@ -1,0 +1,32 @@
+IF
+  AreaCheck("AR4270")
+  !Global("CbThisCreatureEscapes","LOCALS",1)
+  OR(3)
+    !OnScreen(Myself)
+    TimeLT(DUSK_START)
+    TimeGT(1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbThisCreatureEscapes","LOCALS",1)
+    SetGlobalTimer("CbThisCreatureEscapes","LOCALS",1200)
+END
+
+IF
+  AreaCheck("AR4270")
+  GlobalTimerExpired("CbThisCreatureEscapes","LOCALS")
+  Global("CbThisCreatureEscapes","LOCALS",1)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    EscapeArea()
+END
+
+IF
+  AreaCheck("AR4270")
+  Global("CbThisCreatureEscapes","LOCALS",1)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    RandomWalk()
+END
+

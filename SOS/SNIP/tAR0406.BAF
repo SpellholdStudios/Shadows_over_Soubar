@@ -1,0 +1,32 @@
+IF
+	Global("BOLIVAR","GLOBAL",0)
+	LevelLT(Player1,16)
+THEN
+	RESPONSE #100
+		SetGlobal("BOLIVAR","GLOBAL",1)
+		CreateCreature("BOLIVR09",[426.1462],8)
+ 	        Continue()
+END
+
+IF
+	Global("BOLIVAR","GLOBAL",0)
+	LevelGT(Player1,15)
+	LevelLT(Player1,21)
+THEN
+	RESPONSE #100
+		SetGlobal("BOLIVAR","GLOBAL",1)
+		CreateCreature("BOLIVR15",[426.1462],8)
+ 	        Continue()
+END
+
+IF
+	Global("BOLIVAR","GLOBAL",0)
+	LevelGT(Player1,20)
+THEN
+	RESPONSE #100
+		SetGlobal("BOLIVAR","GLOBAL",1)
+		CreateCreature("BOLIVR20",[426.1462],8)
+ 	        Continue()
+END
+
+

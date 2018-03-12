@@ -1,0 +1,9 @@
+IF
+  See([GOODCUTOFF])
+  Global("CbBanditsRun","AR4370",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbBanditsRun","AR4370",1)
+    StartDialogNoSet("CB430SCE")
+END
+

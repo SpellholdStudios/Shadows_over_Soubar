@@ -1,0 +1,26 @@
+IF
+  AreaCheck("AR4285")
+  !AreaCheck("AR4287")
+  Allegiance(Myself,NEUTRAL)
+  HasItem("minhp1",Myself)  // <Invalid Strref -1>
+THEN
+  RESPONSE #20
+    AttackReevaluate("CB285FT1",6)
+  RESPONSE #20
+    AttackReevaluate("CB285FT2",6)
+  RESPONSE #20
+    AttackReevaluate("CB285FT3",6)
+  RESPONSE #20
+    AttackReevaluate("CB285FT4",6)
+  RESPONSE #20
+    AttackReevaluate("CB285FT5",6)
+END
+
+IF
+  AreaCheck("AR4287")
+  HasItem("minhp1",Myself)  // <Invalid Strref -1>
+THEN
+  RESPONSE #100
+    DestroyItem("MINHP1")  // <Invalid Strref -1>
+END
+

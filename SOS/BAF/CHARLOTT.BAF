@@ -1,0 +1,397 @@
+IF
+  Global("CbCharlotteRangerAgain","LOCALS",2)
+  Global("CbCharlotteChangedAssociationsII","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbCharlotteChangedAssociationsII","LOCALS",1)
+    ChangeAIScript("CHARRANG",OVERRIDE)
+    ChangeAIScript("",CLASS)
+    ChangeAIScript("CHARRANG",RACE)
+    ChangeAIScript("DEFAULT",GENERAL)
+    ChangeAIScript("DPLAYER2",DEFAULT)
+END
+
+IF
+  Global("CbNaliaAndCharlotteFriendsForever","GLOBAL",1)
+  !InParty("NALIA")  // NALIA
+  InParty(Myself)  // Myself
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("CbCharlotteII","GLOBAL",1)
+  Global("CbCharlotteLion","GLOBAL",1)
+  Exists("CHARLOTT")  // CHARLOTT
+  !InMyArea("CBCHARLN")  // ~Spotted Lion~
+THEN
+  RESPONSE #100
+    CreateCreature("CBCHARLN",[-1.-1],0)  // ~Spotted Lion~
+    SetGlobal("CbCharlotteLion","GLOBAL",2)
+    SetGlobal("CbCharlotteLionClaw","GLOBAL",0)
+END
+
+IF
+  Global("CbCharlotteII","GLOBAL",1)
+  Global("CbCharlotteLionStart","GLOBAL",0)
+  Global("CbCharlotteLion","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbCharlotteLion","GLOBAL",1)
+    SetGlobal("CbCharlotteLionStart","GLOBAL",1)
+END
+
+IF
+  Global("CbCharlotteII","GLOBAL",1)
+  GlobalTimerExpired("CbCharlotteLionDies","GLOBAL")
+  Global("CbCharlotteLion","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("CbCharlotteLion","GLOBAL",1)
+END
+
+IF
+  Global("CbCharlotteII","GLOBAL",1)
+  !Exists("CBCHARLN")  // ~Spotted Lion~
+  Global("CbCharlotteLion","GLOBAL",0)
+  Global("CbCharlotteLionClaw","GLOBAL",1)
+  Exists("CHARLOTT")  // CHARLOTT
+THEN
+  RESPONSE #100
+    SetGlobal("CbCharlotteLion","GLOBAL",1)
+    SetGlobal("CbCharlotteLionClaw","GLOBAL",0)
+END
+
+IF
+  Global("CbCharlotteII","GLOBAL",1)
+  !Exists("CBCHARLN")  // ~Spotted Lion~
+  Global("CbCharlotteLion","GLOBAL",2)
+  Global("CbCharlotteLionClaw","GLOBAL",1)
+  Exists("CHARLOTT")  // CHARLOTT
+THEN
+  RESPONSE #100
+    SetGlobal("CbCharlotteLion","GLOBAL",1)
+    SetGlobal("CbCharlotteLionClaw","GLOBAL",0)
+END
+
+IF
+  AreaCheck("AR4220")
+  InParty(Myself)
+  Global("CbCharlotteII","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbCharlotteII","GLOBAL",1)
+END
+
+IF
+  Global("CbCharlotteII","GLOBAL",1)
+  GlobalTimerExpired("CbCharlotteCatDies","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("CbCharlotteLion","GLOBAL",5)
+END
+
+IF
+  InParty(Myself)
+  Delay(20)
+  !See(NearestEnemyOf(Myself))
+  CombatCounter(0)
+  Global("CbCharlotteExplainsFallenRanger","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbCharlotteExplainsFallenRanger","LOCALS",1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("CbCharlotteExplainsFallenRanger","LOCALS",2)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbCharlotteExplainsFallenRanger","LOCALS",TWO_DAYS)
+    SetGlobal("CbCharlotteExplainsFallenRanger","LOCALS",3)
+END
+
+IF
+  Global("CbCharlotteExplainsFallenRanger","LOCALS",3)
+  GlobalTimerExpired("CbCharlotteExplainsFallenRanger","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobal("CbCharlotteExplainsFallenRanger","LOCALS",1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  InParty(Myself)
+  GlobalLT("CbCharlotteInstructsCrossingRivers","LOCALS",1)
+  AreaCheck("AR4330")
+  CombatCounter(0)
+  !Global("CbImPlayingMyFano","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbImPlayingMyFano","LOCALS",1)
+    SetGlobal("CbCharlotteInstructsCrossingRivers","LOCALS",1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  InParty(Myself)
+  Global("CbGetsAcrossRiver","LOCALS",0)
+  AreaCheck("AR4330")
+  Range("CbWayPoint4330",2)  // CbWayPoint4330
+  CombatCounter(0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbGetsAcrossRiver","LOCALS",1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  GlobalTimerExpired("CbCleanRiverChionthar","GLOBAL")
+  Global("CbCharlotteExplainsFallenRanger","LOCALS",4)
+  !See(NearestEnemyOf(Myself))
+  CombatCounter(0)
+  InParty(Myself)
+THEN
+  RESPONSE #100
+    SetGlobal("CbCharlotteExplainsFallenRanger","LOCALS",6)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("CbCharlotteExplainsFallenRanger","LOCALS",7)
+  GlobalTimerExpired("CbCharlotteRemindsChionthar","LOCALS")
+  !AreaCheck("AR4220")
+THEN
+  RESPONSE #100
+    SetGlobal("CbCharlotteExplainsFallenRanger","LOCALS",8)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("CbCharlotteExplainsFallenRanger","LOCALS",9)
+  AreaCheck("AR4220")
+  Range("CbWayPointThree",15)  // CbWayPointThree
+  Global("CbRiverChiontharCleaned","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbCharlotteExplainsFallenRanger","LOCALS",10)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  AreaCheck("AR4230")
+  InParty(Myself)
+  Global("CbPartyHuntsSpy","GLOBAL",1)
+  Global("CbCharlotteStartsTheInquisition","LOCALS",0)
+  Delay(10)
+THEN
+  RESPONSE #100
+    SetGlobal("CbCharlotteStartsTheInquisition","LOCALS",1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  AreaCheck("AR4230")
+  InParty(Myself)
+  Global("CbOneSpyDown","GLOBAL",1)
+  Global("CbPartyInvestigatesLeads","GLOBAL",2)
+  Global("CbCharlotteAndTheSpy","LOCALS",0)
+  Delay(10)
+THEN
+  RESPONSE #100
+    SetGlobal("CbCharlotteAndTheSpy","LOCALS",1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  AreaCheck("AR4230")
+  InParty(Myself)
+  Global("CbOneSpyDown","GLOBAL",2)
+  Global("CbPartyInvestigatesLeads","GLOBAL",2)
+  Global("CbCharlotteAndTheSpyII","LOCALS",0)
+  Delay(10)
+THEN
+  RESPONSE #100
+    SetGlobal("CbCharlotteAndTheSpyII","LOCALS",1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  AreaCheck("AR4230")
+  InParty(Myself)
+  Global("CbOneSpyDown","GLOBAL",3)
+  Global("CbPartyInvestigatesLeads","GLOBAL",2)
+  Global("CbCharlotteAndTheSpy3","LOCALS",0)
+  Delay(10)
+THEN
+  RESPONSE #100
+    SetGlobal("CbCharlotteAndTheSpy3","LOCALS",1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  AreaCheck("AR4230")
+  InParty(Myself)
+  Global("CbOneSpyDown","GLOBAL",4)
+  Global("CbPartyInvestigatesLeads","GLOBAL",2)
+  Global("CbCharlotteAndTheSpy4","LOCALS",0)
+  Delay(10)
+THEN
+  RESPONSE #100
+    SetGlobal("CbCharlotteAndTheSpy4","LOCALS",1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  AreaCheck("AR4230")
+  InParty(Myself)
+  Global("CbOneSpyDown","GLOBAL",5)
+  Global("CbPartyInvestigatesLeads","GLOBAL",2)
+  Global("CbCharlotteAndTheSpy5","LOCALS",0)
+  Delay(10)
+THEN
+  RESPONSE #100
+    SetGlobal("CbCharlotteAndTheSpy5","LOCALS",1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  InParty(Myself)
+  Global("CbPartyInvestigatesLeads","GLOBAL",4)
+  Global("CbCharlotteAndTheSpy6","LOCALS",0)
+  Delay(10)
+THEN
+  RESPONSE #100
+    SetGlobal("CbCharlotteAndTheSpy6","LOCALS",1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("CbPartyIsInSoubarMilitia","GLOBAL",5)
+  Global("CbCharlotteSaysThis","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbCharlotteSaysThis","LOCALS",1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("CbCharlotteRegainsRangerhood","GLOBAL",3)
+  Global("CbCharlotteRangerAgain","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbCharlotteRangerAgain","LOCALS",1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  AttackedBy([ANYONE],DEFAULT)
+  InParty(LastAttackerOf(Myself))
+  StateCheck(LastAttackerOf(Myself),STATE_CHARMED)
+THEN
+  RESPONSE #100
+    Shout(22)
+    EquipMostDamagingMelee()
+    AttackReevaluate(LastAttackerOf(Myself),20)
+    Continue()
+END
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  !Allegiance(Myself,ENEMY)
+  !StateCheck(LastAttackerOf(Myself),STATE_CHARMED)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+IF
+  Heard([ANYONE],22)
+THEN
+  RESPONSE #100
+    MoveToObject(LastHeardBy(Myself))
+    Continue()
+END
+
+IF
+  AttackedBy([ENEMY],DEFAULT)
+  !StateCheck(LastAttackerOf(Myself),STATE_PANIC)
+THEN
+  RESPONSE #100
+    Shout(23)
+    EquipMostDamagingMelee()
+    AttackReevaluate(LastAttackerOf(Myself),30)
+    Continue()
+END
+
+IF
+  Heard([ANYONE],23)
+THEN
+  RESPONSE #100
+    MoveToObject(LastHeardBy(Myself))
+    EquipMostDamagingMelee()
+    AttackReevaluate(LastAttackerOf(LastHeardBy(Myself)),30)
+END
+
+IF
+  See([ENEMY])
+  !InParty(LastSeenBy(Myself))
+  !StateCheck(LastSeenBy(Myself),STATE_PANIC)
+THEN
+  RESPONSE #100
+    Shout(24)
+    EquipMostDamagingMelee()
+    AttackReevaluate(LastSeenBy(Myself),30)
+    Continue()
+END
+
+IF
+  Heard([ANYONE],24)
+  InParty(LastHeardBy(Myself))
+  See(LastTargetedBy(LastHeardBy(Myself)))
+  !InParty(LastTargetedBy(LastHeardBy(Myself)))
+  !StateCheck(LastTargetedBy(LastHeardBy(Myself)),STATE_PANIC)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    AttackReevaluate(LastTargetedBy(LastHeardBy(Myself)),30)
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !Range(NearestEnemyOf(Myself),5)
+  !General(LastSeenBy(Myself),ANIMAL)
+THEN
+  RESPONSE #100
+    EquipRanged()
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Range(NearestEnemyOf(Myself),5)
+  !General(LastSeenBy(Myself),ANIMAL)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  General(LastSeenBy(Myself),ANIMAL)
+  AttackedBy(LastSeenBy(Myself),DEFAULT)
+THEN
+  RESPONSE #100
+    RunAwayFrom(LastSeenBy,20)
+END
+
+IF
+  AttackedBy([ANYONE],DEFAULT)
+THEN
+  RESPONSE #100
+    AttackReevaluate(LastAttackerOf(Myself),30)
+END
+

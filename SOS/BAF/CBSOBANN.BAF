@@ -1,0 +1,49 @@
+IF
+  OnCreation()
+THEN
+  RESPONSE #100
+    SetGlobal("CbBanditWarning","LOCALS",1)
+    SetGlobalTimer("CbBanditAnnouncerEscapes","LOCALS",200)
+END
+
+IF
+  GlobalTimerExpired("CbBanditAnnouncerEscapes","LOCALS")
+THEN
+  RESPONSE #100
+    EscapeArea()
+END
+
+IF
+  AttackedBy([ANYONE],DEFAULT)
+THEN
+  RESPONSE #100
+    EscapeArea()
+END
+
+IF
+  Global("CbBanditWarning","LOCALS",1)
+  RandomNum(3,1)
+THEN
+  RESPONSE #100
+    DisplayStringHead(Myself,34252)  // ~Bandits! I saw them! Coming! They try not to be seen, but I saw them! Nearly here! Hide and run! ~
+    Wait(10)
+END
+
+IF
+  Global("CbBanditWarning","LOCALS",1)
+  RandomNum(3,2)
+THEN
+  RESPONSE #100
+    DisplayStringHead(Myself,73146)  // ~We're under attack!~
+    Wait(10)
+END
+
+IF
+  Global("CbBanditWarning","LOCALS",1)
+  RandomNum(3,3)
+THEN
+  RESPONSE #100
+    DisplayStringHead(Myself,72706)  // ~Run for your lives!~
+    Wait(10)
+END
+

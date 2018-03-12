@@ -1,0 +1,31 @@
+IF
+  TimeGT(20)
+  TimeLT(MIDNIGHT)
+THEN
+  RESPONSE #100
+    Deactivate(Myself)
+END
+
+IF
+  Time(MIDNIGHT)
+THEN
+  RESPONSE #100
+    Deactivate(Myself)
+END
+
+IF
+  TimeGT(MIDNIGHT)
+  TimeLT(DAWN_START)
+THEN
+  RESPONSE #100
+    Deactivate(Myself)
+END
+
+IF
+  TimeLT(DUSK_END)
+  TimeGT(DAWN_END)
+THEN
+  RESPONSE #100
+    Activate(Myself)
+END
+

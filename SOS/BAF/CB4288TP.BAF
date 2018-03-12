@@ -1,0 +1,10 @@
+IF
+  OR(2)
+    Entered([ANYONE])
+    Opened([ANYONE])
+THEN
+  RESPONSE #100
+    ApplyDamage(LastTrigger,20,POISON)
+    ApplySpell(LastTrigger,CLERIC_POISON)
+END
+

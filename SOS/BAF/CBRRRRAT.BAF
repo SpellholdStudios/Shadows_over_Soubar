@@ -1,0 +1,54 @@
+IF
+  AttackedBy([ANYONE],DEFAULT)
+THEN
+  RESPONSE #100
+    RunAwayFrom(LastAttackerOf(Myself),150)
+END
+
+IF
+  Range([GOODCUTOFF],10)
+THEN
+  RESPONSE #100
+    RunAwayFrom(LastTrigger,150)
+END
+
+IF
+  InMyArea("CBRRRPIP")  // ~Piper~
+  Range("CBRRRPIP",20)  // ~Piper~
+  !OnScreen(Myself)
+THEN
+  RESPONSE #100
+    DestroySelf()
+END
+
+IF
+  InMyArea("CBRRRPIP")  // ~Piper~
+  !Range("CBRRRPIP",20)  // ~Piper~
+THEN
+  RESPONSE #100
+    MoveToObject("CBRRRPIP")
+END
+
+IF
+  GlobalTimerExpired("CbRatsRatsRatsRunRace","LOCALS")
+  !OnScreen(Myself)
+THEN
+  RESPONSE #100
+    EscapeArea()
+END
+
+IF
+  GlobalTimerNotExpired("CbRatsRatsRatsRunRace","LOCALS")
+THEN
+  RESPONSE #100
+    RandomWalkContinuous()
+END
+
+IF
+  Global("CbRatsRatsRatsConcluded","GLOBAL",1)
+  !GlobalTimerNotExpired("CbRatsRatsRatsRunRace","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbRatsRatsRatsRunRace","LOCALS",200)
+END
+

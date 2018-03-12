@@ -1,0 +1,54 @@
+IF
+  OnCreation()
+  Global("CbGoingRoundWays","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbLeaderCallsForRein","LOCALS",1)
+    CreateCreature("CB232BDA",[-1.-1],0)  // ~Squad Bandit~
+    CreateCreature("CB232BDB",[-1.-1],0)  // ~Squad Bandit~
+    CreateCreature("CB232BDC",[-1.-1],0)  // ~Squad Bandit~
+    CreateCreature("CB232BDD",[-1.-1],0)  // ~Squad Bandit~
+    CreateCreature("CB232BDE",[-1.-1],0)  // ~Squad Bandit~
+    SetGlobal("CbGoingRoundWays","LOCALS",2)
+END
+
+IF
+  Global("CbGoingRoundWays","LOCALS",2)
+  !See(NearestEnemyOf(Myself))
+  !Range("CbWaypoint3",5)  // CbWaypoint3
+THEN
+  RESPONSE #100
+    MoveToObject("CbWaypoint3")
+    SetGlobal("CbGoingRoundWays","LOCALS",3)
+END
+
+IF
+  Global("CbGoingRoundWays","LOCALS",3)
+  !See(NearestEnemyOf(Myself))
+  !Range("CbWaypoint1",5)  // CbWaypoint1
+THEN
+  RESPONSE #100
+    MoveToObject("CbWaypoint1")
+    SetGlobal("CbGoingRoundWays","LOCALS",1)
+END
+
+IF
+  Global("CbGoingRoundWays","LOCALS",1)
+  !See(NearestEnemyOf(Myself))
+  !Range("CbWaypoint4",5)  // CbWaypoint4
+THEN
+  RESPONSE #100
+    MoveToObject("CbWaypoint4")
+    SetGlobal("CbGoingRoundWays","LOCALS",4)
+END
+
+IF
+  Global("CbGoingRoundWays","LOCALS",4)
+  !See(NearestEnemyOf(Myself))
+  !Range("CbWaypoint2",5)  // CbWaypoint2
+THEN
+  RESPONSE #100
+    MoveToObject("CbWaypoint2")
+    SetGlobal("CbGoingRoundWays","LOCALS",2)
+END
+

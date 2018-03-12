@@ -1,0 +1,473 @@
+IF
+  Global("CbASpyEscaped","GLOBAL",2)
+  Global("CbBigRaidTimerSet","GLOBAL",2)
+  GlobalGT("CbDeliveringMissives","GLOBAL",2)
+  !Dead("CBRTRBDa")  // ~Squad Leader~
+  OR(9)
+    !Dead("CBRTRBDb")  // ~Squad Leader~
+    !Dead("CBRTRBDc")  // ~Squad Leader~
+    !Dead("CBRTRBDd")  // ~Squad Leader~
+    !Dead("CBRTRBDe")  // ~Squad Leader~
+    !Dead("CBRTRBDg")  // ~Squad Leader~
+    !Dead("CBRTRBDh")  // ~Squad Leader~
+    !Dead("CBRTRBDi")  // ~Squad Leader~
+    !Dead("CBRTRBDj")  // ~Squad Leader~
+    !Dead("CBRTRBDk")  // ~Squad Leader~
+  HPGT(Myself,0)  
+  RandomNum(2,1)
+  GlobalLT("CbVillagerScared","LOCALS",5)
+  Delay(30)
+THEN
+  RESPONSE #50
+    IncrementGlobal("CbVillagerScared","LOCALS",1)
+    DisplayStringHead(Myself,46151)  // ~help!~
+    Shout(153)
+    Panic()
+  RESPONSE #50
+    IncrementGlobal("CbVillagerScared","LOCALS",1)
+    DisplayStringHead(Myself,49763)  // ~I require assistance~
+    Shout(153)
+    Panic()
+  RESPONSE #50
+    IncrementGlobal("CbVillagerScared","LOCALS",1)
+    DisplayStringHead(Myself,49764)  // ~Defend me!~
+    Shout(153)
+    Panic()
+  RESPONSE #50
+    IncrementGlobal("CbVillagerScared","LOCALS",1)
+    DisplayStringHead(Myself,49765)  // ~Slay my attacker!~
+    Shout(153)
+    Panic()
+END
+
+IF
+  Global("CbASpyEscaped","GLOBAL",2)
+  Global("CbBigRaidTimerSet","GLOBAL",2)
+  GlobalGT("CbDeliveringMissives","GLOBAL",2)
+  !Dead("CBRTRBDa")  // ~Squad Leader~
+  OR(9)
+    !Dead("CBRTRBDb")  // ~Squad Leader~
+    !Dead("CBRTRBDc")  // ~Squad Leader~
+    !Dead("CBRTRBDd")  // ~Squad Leader~
+    !Dead("CBRTRBDe")  // ~Squad Leader~
+    !Dead("CBRTRBDg")  // ~Squad Leader~
+    !Dead("CBRTRBDh")  // ~Squad Leader~
+    !Dead("CBRTRBDi")  // ~Squad Leader~
+    !Dead("CBRTRBDj")  // ~Squad Leader~
+    !Dead("CBRTRBDk")  // ~Squad Leader~
+  HPGT(Myself,0)  
+  RandomNum(2,2)
+  GlobalLT("CbVillagerScared","LOCALS",5)
+  Delay(20)
+THEN
+  RESPONSE #50
+    IncrementGlobal("CbVillagerScared","LOCALS",1)
+    DisplayStringHead(Myself,46151)  // ~help!~
+    Shout(153)
+    Panic()
+  RESPONSE #50
+    IncrementGlobal("CbVillagerScared","LOCALS",1)
+    DisplayStringHead(Myself,49763)  // ~I require assistance~
+    Shout(153)
+    Panic()
+  RESPONSE #50
+    IncrementGlobal("CbVillagerScared","LOCALS",1)
+    DisplayStringHead(Myself,49764)  // ~Defend me!~
+    Shout(153)
+    Panic()
+  RESPONSE #50
+    IncrementGlobal("CbVillagerScared","LOCALS",1)
+    DisplayStringHead(Myself,49765)  // ~Slay my attacker!~
+    Shout(153)
+    Panic()
+END
+
+IF
+  !Global("CbASpyEscaped","GLOBAL",2)
+  TimeGT(DAWN_START)
+  TimeLT(DUSK_START)
+  AreaCheck("AR4230")
+  !See([ENEMY])
+  !See(NearestEnemyOf(Myself))
+  !GlobalTimerNotExpired("CbsbvillTalk","LOCALS")
+  GlobalGT("CbPartyHasKilledAllBandits","GLOBAL",2)
+THEN
+  RESPONSE #6
+    MoveToPointNoInterrupt([1963.1545])
+    Face(7)
+    Wait(10)
+  RESPONSE #6
+    MoveToPointNoInterrupt([1865.2650])
+    Face(6)
+    Wait(10)
+  RESPONSE #6
+    MoveToPointNoInterrupt([4006.1778])
+    Face(14)
+    Wait(10)
+  RESPONSE #6
+    MoveToPointNoInterrupt([4021.2733])
+    Face(6)
+    Wait(10)
+  RESPONSE #6
+    MoveToPointNoInterrupt([2408.2476])
+  RESPONSE #6
+    MoveToPointNoInterrupt([4669.3082])
+  RESPONSE #6
+    MoveToPointNoInterrupt([3086.2457])
+  RESPONSE #6
+    MoveToPointNoInterrupt([2459.3331])
+    Face(11)
+    Wait(10)
+  RESPONSE #6
+    MoveToPointNoInterrupt([1963.1545])
+    Face(4)
+    Wait(10)
+    MoveToPointNoInterrupt([1900.1500])
+    Face(8)
+    Wait(10)
+    MoveToPointNoInterrupt([2060.1700])
+  RESPONSE #6
+    MoveToPointNoInterrupt([2408.2467])
+  RESPONSE #6
+    MoveToPointNoInterrupt([1961.3545])
+    Face(2)
+    Wait(10)
+    MoveToPointNoInterrupt([1850.3750])
+  RESPONSE #6
+    Wait(14)
+    MoveToPointNoInterrupt([2548.1020])
+  RESPONSE #6
+    MoveToPointNoInterrupt([4124.1735])
+    Face(8)
+    Wait(10)
+    MoveToPointNoInterrupt([3870.1700])
+  RESPONSE #6
+    Wait(8)
+    MoveToPointNoInterrupt([1383.3214])
+  RESPONSE #6
+    MoveToPointNoInterrupt([3679.3747])
+    Face(2)
+    Wait(10)
+    MoveToPointNoInterrupt([3420.3890])
+  RESPONSE #6
+    MoveToPointNoInterrupt([3578.2020])
+    Face(8)
+    Wait(10)
+    MoveToPointNoInterrupt([2618.2484])
+  RESPONSE #6
+    MoveToPointNoInterrupt([2548.1020])
+    Face(2)
+    Wait(10)
+    MoveToPointNoInterrupt([2670.1100])
+    Face(8)
+    Wait(10)
+    MoveToPointNoInterrupt([2500.1100])
+  RESPONSE #6
+    MoveToPointNoInterrupt([1383.3214])
+END
+
+IF
+  TimeGT(DAWN_START)
+  TimeLT(DUSK_START)
+  AreaCheck("AR4230")
+  !See([ENEMY])
+  !See(NearestEnemyOf(Myself))
+  !GlobalTimerNotExpired("CbsbvillTalk","LOCALS")
+  GlobalLT("CbPartyHasKilledAllBandits","GLOBAL",3)
+  !Global("CbASpyEscaped","GLOBAL",2)
+  !Global("CbBigRaidTimerSet","GLOBAL",2)
+THEN
+  RESPONSE #6
+    MoveToPointNoInterrupt([1963.1545])
+    Face(7)
+    Wait(10)
+  RESPONSE #6
+    MoveToPointNoInterrupt([1865.2650])
+    Face(6)
+    Wait(10)
+  RESPONSE #6
+    MoveToPointNoInterrupt([4006.1778])
+    Face(14)
+    Wait(10)
+  RESPONSE #6
+    MoveToPointNoInterrupt([4021.2733])
+    Face(6)
+    Wait(10)
+  RESPONSE #6
+    MoveToPointNoInterrupt([2408.2476])
+  RESPONSE #6
+    MoveToPointNoInterrupt([4669.3082])
+  RESPONSE #6
+    MoveToPointNoInterrupt([3086.2457])
+  RESPONSE #6
+    MoveToPointNoInterrupt([2459.3331])
+    Face(11)
+    Wait(10)
+  RESPONSE #6
+    MoveToPointNoInterrupt([1963.1545])
+    Face(4)
+    Wait(10)
+    MoveToPointNoInterrupt([1900.1500])
+    Face(8)
+    Wait(10)
+    MoveToPointNoInterrupt([2060.1700])
+  RESPONSE #6
+    MoveToPointNoInterrupt([2408.2467])
+  RESPONSE #6
+    MoveToPointNoInterrupt([1961.3545])
+    Face(2)
+    Wait(10)
+    MoveToPointNoInterrupt([1850.3750])
+  RESPONSE #6
+    Wait(14)
+    MoveToPointNoInterrupt([2548.1020])
+  RESPONSE #6
+    MoveToPointNoInterrupt([4124.1735])
+    Face(8)
+    Wait(10)
+    MoveToPointNoInterrupt([3870.1700])
+  RESPONSE #6
+    Wait(8)
+    MoveToPointNoInterrupt([1383.3214])
+  RESPONSE #6
+    MoveToPointNoInterrupt([3679.3747])
+    Face(2)
+    Wait(10)
+    MoveToPointNoInterrupt([3420.3890])
+  RESPONSE #6
+    MoveToPointNoInterrupt([3578.2020])
+    Face(8)
+    Wait(10)
+    MoveToPointNoInterrupt([2618.2484])
+  RESPONSE #6
+    MoveToPointNoInterrupt([2548.1020])
+    Face(2)
+    Wait(10)
+    MoveToPointNoInterrupt([2670.1100])
+    Face(8)
+    Wait(10)
+    MoveToPointNoInterrupt([2500.1100])
+  RESPONSE #6
+    MoveToPointNoInterrupt([1383.3214])
+  RESPONSE #6
+    MoveToPointNoInterrupt([1961.3545])
+    Face(2)
+    Wait(10)
+    DisplayStringHead(Myself,@10101)
+    SetGlobalTimer("CbsbvillTalk","LOCALS",30)
+    MoveToPointNoInterrupt([1850.3750])
+  RESPONSE #6
+    Wait(14)
+    DisplayStringHead(Myself,@10102)
+    SetGlobalTimer("CbsbvillTalk","LOCALS",30)
+    MoveToPointNoInterrupt([2548.1020])
+  RESPONSE #6
+    MoveToPointNoInterrupt([4124.1735])
+    Face(8)
+    Wait(10)
+    DisplayStringHead(Myself,@10103)
+    SetGlobalTimer("CbsbvillTalk","LOCALS",30)
+    MoveToPointNoInterrupt([3870.1700])
+  RESPONSE #6
+    Wait(8)
+    DisplayStringHead(Myself,@10104)
+    SetGlobalTimer("CbsbvillTalk","LOCALS",30)
+    MoveToPointNoInterrupt([1383.3214])
+  RESPONSE #6
+    MoveToPointNoInterrupt([3679.3747])
+    Face(2)
+    Wait(10)
+    DisplayStringHead(Myself,@10105)
+    SetGlobalTimer("CbsbvillTalk","LOCALS",30)
+    MoveToPointNoInterrupt([3420.3890])
+  RESPONSE #6
+    MoveToPointNoInterrupt([3578.2020])
+    Face(8)
+    Wait(10)
+    DisplayStringHead(Myself,@10106)
+    SetGlobalTimer("CbsbvillTalk","LOCALS",30)
+    MoveToPointNoInterrupt([2618.2484])
+  RESPONSE #6
+    MoveToPointNoInterrupt([2548.1020])
+    Face(2)
+    Wait(10)
+    MoveToPointNoInterrupt([2670.1100])
+    DisplayStringHead(Myself,@10107)
+    Face(8)
+    Wait(10)
+    MoveToPointNoInterrupt([2500.1100])
+    SetGlobalTimer("CbsbvillTalk","LOCALS",30)
+  RESPONSE #6
+    DisplayStringHead(Myself,@10108)
+    SetGlobalTimer("CbsbvillTalk","LOCALS",30)
+    MoveToPointNoInterrupt([1383.3214])
+END
+
+IF
+  Die()
+THEN
+  RESPONSE #100
+    Shout(151)
+END
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  OR(3)
+    Allegiance(Myself,GOODBUTBLUE)
+    Allegiance(Myself,NEUTRAL)
+    Allegiance(Myself,EVILBUTBLUE)
+THEN
+  RESPONSE #100
+    Shout(151)
+    Enemy()
+END
+
+IF
+  HitBy([GOODCUTOFF],CRUSHING)
+THEN
+  RESPONSE #100
+    Shout(151)
+    Continue()
+END
+
+IF
+  See([GOODCUTOFF])
+  Allegiance(Myself,ENEMY)
+  ActionListEmpty()
+THEN
+  RESPONSE #100
+    Shout(151)
+    Continue()
+END
+
+IF
+  Heard([ANYONE],151)
+  InMyGroup(LastHeardBy(Myself))
+  !Class(Myself,INNOCENT)
+  OR(2)
+    Allegiance(Myself,GOODBUTBLUE)
+    Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    Enemy()
+    MoveToObject(LastHeardBy(Myself))
+END
+
+IF
+  Heard([ANYONE],151)
+  InMyGroup(LastHeardBy(Myself))
+  OR(2)
+    Allegiance(Myself,GOODBUTBLUE)
+    Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+IF
+  Heard([ANYONE],151)
+  InMyGroup(LastHeardBy(Myself))
+  !Class(Myself,INNOCENT)
+  !See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    MoveToObject(LastHeardBy(Myself))
+    Continue()
+END
+
+IF
+  HitBy(Myself,CRUSHING)
+THEN
+  RESPONSE #100
+    RunAwayFrom(NearestEnemyOf(Myself),15)
+END
+
+IF
+  General(Myself,HUMANOID)
+  HPPercentLT(Myself,20)
+  HPGT(Myself,0)
+  Global("Whined","LOCALS",0)
+  See(NearestMyGroupOfType)
+  Allegiance(Myself,ENEMY)
+  HPGT(LastSeenBy(Myself),0)
+  !Global("CbASpyEscaped","GLOBAL",2)
+THEN
+  RESPONSE #50
+    SetGlobal("Whined","LOCALS",1)
+    DisplayStringHead(Myself,46151)  // ~help!~
+    Shout(153)
+  RESPONSE #50
+    SetGlobal("Whined","LOCALS",1)
+    DisplayStringHead(Myself,49763)  // ~I require assistance~
+    Shout(153)
+  RESPONSE #50
+    SetGlobal("Whined","LOCALS",1)
+    DisplayStringHead(Myself,49764)  // ~Defend me!~
+    Shout(153)
+  RESPONSE #50
+    SetGlobal("Whined","LOCALS",1)
+    DisplayStringHead(Myself,49765)  // ~Slay my attacker!~
+    Shout(153)
+END
+
+IF
+  General(Myself,HUMANOID)
+  BreakingPoint()
+  Global("Panic","LOCALS",0)
+THEN
+  RESPONSE #50
+    SetGlobal("Panic","LOCALS",1)
+    DisplayStringHead(Myself,49766)  // ~I can't take this~
+  RESPONSE #50
+    SetGlobal("Panic","LOCALS",1)
+    DisplayStringHead(Myself,49767)  // ~No more~
+  RESPONSE #50
+    SetGlobal("Panic","LOCALS",1)
+    DisplayStringHead(Myself,49768)  // ~Mercy!~
+END
+
+IF
+  See([ENEMY])
+  !Class(LastSeenBy(Myself),KOBOLD)
+  Class(Myself,INNOCENT)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    RunAwayFrom(LastSeenBy(Myself),30)
+END
+
+IF
+  See([GOODCUTOFF])
+  ReputationLT(LastSeenBy(Myself),6)
+  Range(LastSeenBy(Myself),30)
+THEN
+  RESPONSE #100
+    RunAwayFrom(LastSeenBy(Myself),30)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    RunAwayFrom(NearestEnemyOf(Myself),150)
+END
+
+IF
+  AttackedBy([ANYONE],DEFAULT)
+THEN
+  RESPONSE #100
+    RunAwayFrom(LastAttackerOf(Myself),150)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  OR(2)
+    !Detect(NearestEnemyOf(Myself))
+    !Range(NearestEnemyOf(Myself),50)
+  !See([ENEMY])
+  !HPPercentLT(Myself,100)
+THEN
+  RESPONSE #100
+    ChangeEnemyAlly(Myself,NEUTRAL)
+END
+

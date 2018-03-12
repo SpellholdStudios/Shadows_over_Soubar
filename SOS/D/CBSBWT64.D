@@ -1,0 +1,82 @@
+BEGIN ~CBSBWT64~
+
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN GOTO 1
+END
+
+IF ~~ THEN BEGIN 1 // from: 0.0
+  SAY @1
+  IF ~~ THEN GOTO 2
+END
+
+IF ~~ THEN BEGIN 2 // from: 1.0
+  SAY @2
+  IF ~~ THEN GOTO 3
+END
+
+IF ~~ THEN BEGIN 3 // from: 2.0
+  SAY @3
+  IF ~~ THEN GOTO 4
+END
+
+IF ~~ THEN BEGIN 4 // from: 3.0
+  SAY @4
+  IF ~~ THEN REPLY @5 GOTO 5
+END
+
+IF ~~ THEN BEGIN 5 // from: 12.0 4.0
+  SAY @6
+  IF ~~ THEN REPLY @7 GOTO 6
+END
+
+IF ~~ THEN BEGIN 6 // from: 5.0
+  SAY @8
+  IF ~~ THEN REPLY @9 GOTO 7
+END
+
+IF ~~ THEN BEGIN 7 // from: 6.0
+  SAY @10
+  IF ~~ THEN REPLY @11 GOTO 8
+END
+
+IF ~~ THEN BEGIN 8 // from: 7.0
+  SAY @12
+  IF ~~ THEN REPLY @13 GOTO 9
+END
+
+IF ~~ THEN BEGIN 9 // from: 8.0
+  SAY @14
+  IF ~~ THEN REPLY @15 GOTO 14
+END
+
+IF ~NumTimesTalkedToGT(0)~ THEN BEGIN 10
+  SAY @16
+  IF ~~ THEN REPLY @17 GOTO 11
+  IF ~~ THEN REPLY @18 GOTO 12
+END
+
+IF ~~ THEN BEGIN 11 // from: 10.0
+  SAY @19
+  IF ~~ THEN REPLY @20 EXIT
+END
+
+IF ~~ THEN BEGIN 12 // from: 10.1
+  SAY @21
+  IF ~~ THEN GOTO 5
+END
+
+IF ~Global("CbPartyLeaderBecomesMayor","GLOBAL",3)~ THEN BEGIN 13
+  SAY @22
+  IF ~~ THEN GOTO 15
+END
+
+IF ~~ THEN BEGIN 14 // from: 9.0
+  SAY @23
+  IF ~~ THEN REPLY @24 EXIT
+END
+
+IF ~~ THEN BEGIN 15 // from: 13.0
+  SAY @25
+  IF ~~ THEN EXIT
+END

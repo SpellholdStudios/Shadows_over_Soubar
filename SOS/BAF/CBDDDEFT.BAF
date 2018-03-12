@@ -1,0 +1,151 @@
+IF
+  Allegiance(Myself,ENEMY)
+  OR(7)
+    Gender(NearestEnemyOf(Myself),ILLUSIONARY)
+    StateCheck(NearestEnemyOf(Myself),STATE_INVISIBLE)
+    StateCheck(NearestEnemyOf(Myself),STATE_IMPROVEDINVISIBILITY)
+    StateCheck(SecondNearestEnemyOf(Myself),STATE_INVISIBLE)
+    StateCheck(SecondNearestEnemyOf(Myself),STATE_IMPROVEDINVISIBILITY)
+    StateCheck(ThirdNearestEnemyOf(Myself),STATE_INVISIBLE)
+    StateCheck(ThirdNearestEnemyOf(Myself),STATE_IMPROVEDINVISIBILITY)
+  !GlobalTimerNotExpired("CbDeepDragonTrueSight","AR4212")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbDeepDragonTrueSight","AR4212",60)
+    ReallyForceSpell(Myself,WIZARD_TRUE_SIGHT)
+END
+
+IF
+  !Detect([PC])
+  HPLT(Myself,50)
+  CombatCounter(0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbDeepDragonFear","AR4212",0)
+    SetGlobal("CbDeepDragonWingBuffet","AR4212",0)
+    SetGlobal("CbDeepDragonSilence","AR4212",0)
+    SetGlobal("CbDeepDragonBreath","AR4212",0)
+    ForceSpell(Myself,CLERIC_HEAL)
+END
+
+IF
+  Global("CbDeepDragonSilence","AR4212",0)
+  OR(2)
+    See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+    See(NearestEnemyOfType([0.0.0.CLERIC_ALL]))
+THEN
+  RESPONSE #100
+    ForceSpell(LastSeenBy(Myself),DRAGON_SILENCE)
+    SetGlobal("CbDeepDragonSilence","AR4212",1)
+    AttackOneRound(LastSeenBy(Myself))
+    AttackOneRound(LastSeenBy(Myself))
+END
+
+IF
+  OR(3)
+    See(NearestEnemyOfType([PC.0.0.BARD_ALL]))
+    See(NearestEnemyOfType([PC.0.0.MAGE_ALL]))
+    See(NearestEnemyOfType([PC.0.0.SORCERER]))
+  !GlobalTimerNotExpired("CbDeepDragonSpellTrigger","AR4212")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbDeepDragonSpellTrigger","AR4212",1000)
+    DisplayString(Myself,39968)  // ~Spell Trigger - Fired~
+    ReallyForceSpell(Myself,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+    ReallyForceSpell(Myself,WIZARD_SPELL_IMMUNITY_ABJURATION)
+    ReallyForceSpell(Myself,BEHOLDER_SPELL_TURNING)
+END
+
+IF
+  Detect(NearestEnemyOf(Myself))
+  HPPercentLT(Myself,100)
+  See(LastAttackerOf(Myself))
+  !GlobalTimerNotExpired("CbDeepDragonSpSequencer","AR4212")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbDeepDragonSpSequencer","AR4212",1000)
+    SetGlobalTimer("CbDeepDragonDispel","AR4212",30)
+    DisplayString(Myself,39969)  // ~Spell Sequencer - Fired~
+    DialogueInterrupt(FALSE)
+    ReallyForceSpell(Myself,DRAGON_STONE_SKIN)
+    ReallyForceSpell(Myself,CLERIC_DEATH_WARD)
+    NoAction()
+    ReallyForceSpell(Myself,WIZARD_HASTE)
+    ReallyForceSpell(LastAttackerOf(Myself),2326)//WIZARD_DISPEL_MAGIC)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  !CheckStatGT(Myself,0,STONESKINS)
+  !GlobalTimerNotExpired("CbDeepDragonStoneSkin","AR4212")
+  RandomNum(2,1)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbDeepDragonStoneSkin","AR4212",30)
+    ForceSpell(Myself,DRAGON_STONE_SKIN)
+END
+
+IF
+  OR(3)
+    SpellCast([GOODCUTOFF],WIZARD_CLOUDKILL)
+    SpellCast([GOODCUTOFF],WIZARD_INCENDIARY_CLOUD)
+    SpellCast([GOODCUTOFF],WIZARD_DEATH_FOG)
+  !GlobalTimerNotExpired("CbDeepDragonZone","AR4212")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbDeepDragonZone","AR4212",12)
+    ForceSpell(NearestEnemyOf(Myself),DRAGON_WING_BUFFET)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  OR(3)
+    Class(LastSeenBy(Myself),BARD_ALL)
+    Class(LastSeenBy(Myself),MAGE_ALL)
+    Class(LastSeenBy(Myself),SORCERER)
+  OR(2)
+    HasBounceEffects(LastSeenBy(Myself))
+    HasImmunityEffects(LastSeenBy(Myself))
+  !GlobalTimerNotExpired("CbDeepDragonRemoveMagic","AR4212")
+  !StateCheck(Myself,STATE_INVISIBLE)
+  Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #34
+    SetGlobalTimer("CbDeepDragonRemoveMagic","AR4212",48)
+    ForceSpell(LastSeenBy(Myself),WIZARD_SECRET_WORD)
+    ForceSpell(LastSeenBy(Myself),WIZARD_BREACH)
+    ForceSpell(LastSeenBy(Myself),WIZARD_PIERCE_MAGIC)
+    Continue()
+  RESPONSE #33
+    SetGlobalTimer("CbDeepDragonRemoveMagic","AR4212",48)
+    ForceSpell(LastSeenBy(Myself),WIZARD_BREACH)
+    ForceSpell(LastSeenBy(Myself),WIZARD_PIERCE_MAGIC)
+    Continue()
+  RESPONSE #33
+    SetGlobalTimer("CbDeepDragonRemoveMagic","AR4212",48)
+    ForceSpell(LastSeenBy(Myself),WIZARD_PIERCE_MAGIC)
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !HasBounceEffects(LastSeenBy(Myself))
+  !CheckStatGT(LastSeenBy(Myself),60,RESISTMAGIC)
+  !CheckStatLT(LastSeenBy(Myself),4,SAVEVSSPELL)
+  !GlobalTimerNotExpired("CbDeepDragonMagicalBarrage","AR4212")
+  !StateCheck(Myself,STATE_INVISIBLE)
+THEN
+  RESPONSE #25
+    SetGlobalTimer("CbDeepDragonMagicalBarrage","AR4212",18)
+    ForceSpell(LastSeenBy(Myself),WIZARD_MAGIC_MISSILE)
+  RESPONSE #25
+    SetGlobalTimer("CbDeepDragonMagicalBarrage","AR4212",18)
+    ForceSpell(LastSeenBy(Myself),WIZARD_HOLD_PERSON)
+  RESPONSE #25
+    SetGlobalTimer("CbDeepDragonMagicalBarrage","AR4212",18)
+    ForceSpell(LastSeenBy(Myself),WIZARD_CHROMATIC_ORB)
+  RESPONSE #25
+    SetGlobalTimer("CbDeepDragonMagicalBarrage","AR4212",18)
+    ForceSpell(LastSeenBy(Myself),WIZARD_SLOW)
+END
+

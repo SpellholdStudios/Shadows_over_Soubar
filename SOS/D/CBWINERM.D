@@ -1,0 +1,126 @@
+BEGIN ~CBWINERM~
+
+IF ~RandomNum(25,1)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(25,2)~ THEN BEGIN 1
+  SAY @1
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(25,3)~ THEN BEGIN 2
+  SAY @2
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(25,4)~ THEN BEGIN 3
+  SAY @3
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(25,5)~ THEN BEGIN 4
+  SAY @4
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(25,6)~ THEN BEGIN 5
+  SAY @5
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(25,7)~ THEN BEGIN 6
+  SAY @6
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(25,8)~ THEN BEGIN 7
+  SAY @7
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(25,9)~ THEN BEGIN 8
+  SAY @8
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(25,10)~ THEN BEGIN 9
+  SAY @9
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(25,11)~ THEN BEGIN 10
+  SAY @10
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(25,12)~ THEN BEGIN 11
+  SAY @11
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(25,13)~ THEN BEGIN 12
+  SAY @12
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(25,14)~ THEN BEGIN 13
+  SAY @13
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(25,15)~ THEN BEGIN 14
+  SAY @14
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(25,16)~ THEN BEGIN 15
+  SAY @15
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(25,17)~ THEN BEGIN 16
+  SAY @16
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(25,18)~ THEN BEGIN 17
+  SAY @17
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(25,19)~ THEN BEGIN 18
+  SAY @18
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(25,20)~ THEN BEGIN 19
+  SAY @19
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(25,21)~ THEN BEGIN 20
+  SAY @20
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(25,22)~ THEN BEGIN 21
+  SAY @21
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(25,23)~ THEN BEGIN 22
+  SAY @22
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(25,24)~ THEN BEGIN 23
+  SAY @23
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(25,25)~ THEN BEGIN 24
+  SAY @24
+  IF ~~ THEN EXIT
+END

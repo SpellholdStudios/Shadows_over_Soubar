@@ -1,0 +1,91 @@
+IF
+	PartyHasItem("CBLTCNT1")
+	PartyHasItem("CBLTCNT2")
+	!PartyHasItemIdentified("CBLTCNT2")
+	Global("CbPlayerCanGoToSoubar","GLOBAL",1)
+THEN
+	RESPONSE #100
+		FadeToColor([40.0],0)
+		Explore()
+		Wait(1)
+		SetGlobal("CbPlayerCanGoToSoubar","GLOBAL",2)
+		CreateCreature("CBUHAKCT",[942.272],0)
+		CreateCreature("CBUHGVCT",[1025.298],0)
+		ActionOverride("CBUHAKCT",FaceObject("CBUHGVCT"))
+		ActionOverride("CBUHGVCT",FaceObject("CBUHAKCT"))
+		ActionOverride("UHINN01",Deactivate("UHINN01"))
+		ActionOverride("UHINN02",Deactivate("UHINN02"))
+		CreateCreature("CBVINNIE",[603.609],12)
+		CreateCreature("CBWILLET",[534.680],12)
+		Wait(1)
+		FadeFromColor([40.0],0)
+END
+
+IF
+	GlobalGT("CbPlayerCanGoToSoubar","GLOBAL",2)
+	!IsActive("UHINN01")
+THEN
+	RESPONSE #100
+		ActionOverride("CBVINNIE",DestroySelf())
+		ActionOverride("UHINN01",Activate("UHINN01"))
+		Continue()
+END
+
+IF
+	GlobalGT("CbPlayerCanGoToSoubar","GLOBAL",2)
+	Exists("CBVINNIE")
+THEN
+	RESPONSE #100
+		ActionOverride("CBVINNIE",DestroySelf())
+		Continue()
+END
+
+IF
+	GlobalGT("CbPlayerCanGoToSoubar","GLOBAL",2)
+	!IsActive("UHINN02")
+THEN
+	RESPONSE #100
+		ActionOverride("CBWILLET",DestroySelf())
+		ActionOverride("UHINN02",Activate("UHINN02"))
+		Continue()
+END
+
+IF
+	GlobalGT("CbPlayerCanGoToSoubar","GLOBAL",2)
+	Exists("CBWILLET")
+THEN
+	RESPONSE #100
+		ActionOverride("CBWILLET",DestroySelf())
+		Continue()
+END
+
+IF
+	GlobalGT("CbPlayerCanGoToSoubar","GLOBAL",2)
+	Exists("CBUHAKCT")
+THEN
+	RESPONSE #100
+		ActionOverride("CBUHAKCT",DestroySelf())
+		Continue()
+END
+
+IF
+	GlobalGT("CbPlayerCanGoToSoubar","GLOBAL",2)
+	Exists("CBUHGVCT")
+THEN
+	RESPONSE #100
+		ActionOverride("CBUHGVCT",DestroySelf())
+		Continue()
+END
+
+IF
+	GlobalGT("CbPlayerCanGoToSoubar","GLOBAL",2)
+	Global("CbSendWilletHome","AR1105",0)
+THEN
+	RESPONSE #100
+		ActionOverride("CBUHAKCT",DestroySelf())
+		ActionOverride("CBUHGVCT",DestroySelf())
+		ActionOverride("UHINN02",JumpToPoint([534.680]))
+		SetGlobal("CbSendWilletHome","AR1105",1)
+END
+
+

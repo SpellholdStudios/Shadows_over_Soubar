@@ -1,0 +1,297 @@
+IF
+  Heard([ANYONE],111)
+THEN
+  RESPONSE #100
+    MoveToObject(NearestEnemyOf(Myself))
+END
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+  AttackedBy([ANYONE],DEFAULT)
+THEN
+  RESPONSE #100
+    Attack(LastAttackerOf(Myself))
+END
+
+IF
+  !HasItem("DAGG16",Myself)  // ~Poisoned Throwing Dagger~
+  !InParty(Myself)
+  Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    RunAwayFrom(NearestEnemyOf(Myself),45)
+END
+
+IF
+  AreaCheck("AR0700")
+  GlobalTimerExpired("CbSelencePickedAPocket","LOCALS")
+  !GlobalGT("CbSelencePicksAPocket","LOCALS",0)
+THEN
+  RESPONSE #100
+    ClearActions([ANYONE])
+    SetGlobal("CbSelencePicksAPocket","LOCALS",0)
+END
+
+IF
+  AreaCheck("AR0700")
+  !InParty(Myself)
+  GlobalTimerNotExpired("CbSelenceWalksAround","LOCALS")
+THEN
+  RESPONSE #100
+    RandomWalkContinuous()
+END
+
+IF
+  AreaCheck("AR0511")
+  GlobalLT("CbSelenceGaveTaskTwo","LOCALS",2)
+  Global("CbSelenceCounted005","LOCALS",0)
+  PartyHasItem("CBCL005")  // ~The Argent Shield~
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceCounted005","LOCALS",1)
+    IncrementGlobal("CbPartyGotMartItem","LOCALS",1)
+    Continue()
+END
+
+IF
+  AreaCheck("AR0511")
+  GlobalLT("CbSelenceGaveTaskTwo","LOCALS",2)
+  Global("CbSelenceCounted005","LOCALS",1)
+  !PartyHasItem("CBCL005")  // ~The Argent Shield~
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceCounted005","LOCALS",0)
+    IncrementGlobal("CbPartyGotMartItem","LOCALS",-1)
+    Continue()
+END
+
+IF
+  AreaCheck("AR0511")
+  GlobalLT("CbSelenceGaveTaskTwo","LOCALS",2)
+  Global("CbSelenceCounted024","LOCALS",0)
+  PartyHasItem("CBCL024")  // ~Helm of the Trusted Defender~
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceCounted024","LOCALS",1)
+    IncrementGlobal("CbPartyGotMartItem","LOCALS",1)
+    Continue()
+END
+
+IF
+  AreaCheck("AR0511")
+  GlobalLT("CbSelenceGaveTaskTwo","LOCALS",2)
+  Global("CbSelenceCounted024","LOCALS",1)
+  !PartyHasItem("CBCL024")  // ~Helm of the Trusted Defender~
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceCounted024","LOCALS",0)
+    IncrementGlobal("CbPartyGotMartItem","LOCALS",-1)
+    Continue()
+END
+
+IF
+  AreaCheck("AR0511")
+  GlobalLT("CbSelenceGaveTaskTwo","LOCALS",2)
+  Global("CbSelenceCounted031","LOCALS",0)
+  PartyHasItem("CBCL031")  // ~Lonesome Road~
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceCounted031","LOCALS",1)
+    IncrementGlobal("CbPartyGotMartItem","LOCALS",1)
+    Continue()
+END
+
+IF
+  AreaCheck("AR0511")
+  GlobalLT("CbSelenceGaveTaskTwo","LOCALS",2)
+  Global("CbSelenceCounted031","LOCALS",1)
+  !PartyHasItem("CBCL031")  // ~Lonesome Road~
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceCounted031","LOCALS",0)
+    IncrementGlobal("CbPartyGotMartItem","LOCALS",-1)
+    Continue()
+END
+
+IF
+  AreaCheck("AR0511")
+  GlobalLT("CbSelenceGaveTaskTwo","LOCALS",2)
+  Global("CbSelenceCounted047","LOCALS",0)
+  PartyHasItem("CBCL047")  // ~Owain's Lullabye~
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceCounted047","LOCALS",1)
+    IncrementGlobal("CbPartyGotMartItem","LOCALS",1)
+    Continue()
+END
+
+IF
+  AreaCheck("AR0511")
+  GlobalLT("CbSelenceGaveTaskTwo","LOCALS",2)
+  Global("CbSelenceCounted047","LOCALS",1)
+  !PartyHasItem("CBCL047")  // ~Owain's Lullabye~
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceCounted047","LOCALS",0)
+    IncrementGlobal("CbPartyGotMartItem","LOCALS",-1)
+    Continue()
+END
+
+IF
+  AreaCheck("AR0511")
+  GlobalLT("CbSelenceGaveTaskTwo","LOCALS",2)
+  Global("CbSelenceCounted033","LOCALS",0)
+  PartyHasItem("CBCL033")  // ~Mail of Life~
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceCounted033","LOCALS",1)
+    IncrementGlobal("CbPartyGotMartItem","LOCALS",1)
+    Continue()
+END
+
+IF
+  AreaCheck("AR0511")
+  GlobalLT("CbSelenceGaveTaskTwo","LOCALS",2)
+  Global("CbSelenceCounted033","LOCALS",1)
+  !PartyHasItem("CBCL033")  // ~Mail of Life~
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceCounted033","LOCALS",0)
+    IncrementGlobal("CbPartyGotMartItem","LOCALS",-1)
+    Continue()
+END
+
+IF
+  AreaCheck("AR0511")
+  GlobalLT("CbSelenceGaveTaskTwo","LOCALS",2)
+  Global("CbSelenceCounted060","LOCALS",0)
+  PartyHasItem("CBCL060")  // ~Young Rage~
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceCounted060","LOCALS",1)
+    IncrementGlobal("CbPartyGotMartItem","LOCALS",1)
+    Continue()
+END
+
+IF
+  AreaCheck("AR0511")
+  GlobalLT("CbSelenceGaveTaskTwo","LOCALS",2)
+  Global("CbSelenceCounted060","LOCALS",1)
+  !PartyHasItem("CBCL060")  // ~Young Rage~
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceCounted060","LOCALS",0)
+    IncrementGlobal("CbPartyGotMartItem","LOCALS",-1)
+    Continue()
+END
+
+IF
+  AreaCheck("AR0511")
+  GlobalLT("CbSelenceGaveTaskTwo","LOCALS",2)
+  Global("CbSelenceCounted009","LOCALS",0)
+  PartyHasItem("CBCL009")  // ~Flaming Oil~
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceCounted009","LOCALS",1)
+    IncrementGlobal("CbPartyGotMartItem","LOCALS",1)
+    Continue()
+END
+
+IF
+  AreaCheck("AR0511")
+  GlobalLT("CbSelenceGaveTaskTwo","LOCALS",2)
+  Global("CbSelenceCounted009","LOCALS",1)
+  !PartyHasItem("CBCL009")  // ~Flaming Oil~
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceCounted009","LOCALS",0)
+    IncrementGlobal("CbPartyGotMartItem","LOCALS",-1)
+    Continue()
+END
+
+IF
+  AreaCheck("AR0511")
+  GlobalLT("CbSelenceGaveTaskTwo","LOCALS",2)
+  Global("CbSelenceCounted012","LOCALS",0)
+  PartyHasItem("CBCL012")  // ~Cairn Blade~
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceCounted012","LOCALS",1)
+    IncrementGlobal("CbPartyGotMartItem","LOCALS",1)
+    Continue()
+END
+
+IF
+  AreaCheck("AR0511")
+  GlobalLT("CbSelenceGaveTaskTwo","LOCALS",2)
+  Global("CbSelenceCounted012","LOCALS",1)
+  !PartyHasItem("CBCL012")  // ~Cairn Blade~
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceCounted012","LOCALS",0)
+    IncrementGlobal("CbPartyGotMartItem","LOCALS",-1)
+    Continue()
+END
+
+IF
+  AreaCheck("AR0511")
+  GlobalLT("CbSelenceGaveTaskTwo","LOCALS",2)
+  Global("CbSelenceCounted029","LOCALS",0)
+  PartyHasItem("CBCL029")  // ~Bone Kris of Black Ichor~
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceCounted029","LOCALS",1)
+    IncrementGlobal("CbPartyGotMartItem","LOCALS",1)
+    Continue()
+END
+
+IF
+  AreaCheck("AR0511")
+  GlobalLT("CbSelenceGaveTaskTwo","LOCALS",2)
+  Global("CbSelenceCounted029","LOCALS",1)
+  !PartyHasItem("CBCL029")  // ~Bone Kris of Black Ichor~
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceCounted029","LOCALS",0)
+    IncrementGlobal("CbPartyGotMartItem","LOCALS",-1)
+    Continue()
+END
+
+IF
+  AreaCheck("AR0511")
+  GlobalLT("CbSelenceGaveTaskTwo","LOCALS",2)
+  Global("CbSelenceCounted042","LOCALS",0)
+  PartyHasItem("CBCL042")  // ~Edion's Ring of Wizardry~
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceCounted042","LOCALS",1)
+    IncrementGlobal("CbPartyGotMartItem","LOCALS",1)
+    Continue()
+END
+
+IF
+  AreaCheck("AR0511")
+  GlobalLT("CbSelenceGaveTaskTwo","LOCALS",2)
+  Global("CbSelenceCounted042","LOCALS",1)
+  !PartyHasItem("CBCL042")  // ~Edion's Ring of Wizardry~
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceCounted042","LOCALS",0)
+    IncrementGlobal("CbPartyGotMartItem","LOCALS",-1)
+    Continue()
+END
+

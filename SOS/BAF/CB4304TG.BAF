@@ -1,0 +1,12 @@
+IF
+  IsOverMe([GOODCUTOFF])
+THEN
+  RESPONSE #100
+    Shout(111)
+    DisplayString(LastTrigger,14381)  // ~Trap Sprung~ [AMB_D05C]
+    DisplayString(LastTrigger,9896)  // ~Someone has noticed you! You hear the guards being summoned!~ [AMB_D05A]
+    Shout(111)
+    ForceSpell(LastTrigger,WIZARD_DETECT_INVISIBILITY)
+    SetGlobal("CbJailBreak","AR4304",1)
+END
+

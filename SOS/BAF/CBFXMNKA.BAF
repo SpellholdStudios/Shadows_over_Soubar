@@ -1,0 +1,30 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CBSOUSGT")  // 
+    SetGlobal("CbFarmPatrolDuty","AR4286",6)
+    GiveItemCreate("CBFXMNKA",Myself,6,1,0)  // CBFXMNKA
+    UseItem("CBFXMNKA",Player1)  // CBFXMNKA
+    UseItem("CBFXMNKA",Player2)  // CBFXMNKA
+    UseItem("CBFXMNKA",Player3)  // CBFXMNKA
+    UseItem("CBFXMNKA",Player4)  // CBFXMNKA
+    UseItem("CBFXMNKA",Player5)  // CBFXMNKA
+    UseItem("CBFXMNKA",Player6)  // CBFXMNKA
+    GiveItemCreate("CBSOUSG4",Myself,6,1,0)  // ~Wand of Lightning~
+    UseItem("CBSOUSG4",Player1)  // ~Wand of Lightning~
+    UseItem("CBSOUSG4",Player2)  // ~Wand of Lightning~
+    UseItem("CBSOUSG4",Player3)  // ~Wand of Lightning~
+    UseItem("CBSOUSG4",Player4)  // ~Wand of Lightning~
+    UseItem("CBSOUSG4",Player5)  // ~Wand of Lightning~
+    UseItem("CBSOUSG4",Player6)  // ~Wand of Lightning~
+    ActionOverride(Player1,EquipMostDamagingMelee())
+    ActionOverride(Player2,EquipMostDamagingMelee())
+    ActionOverride(Player3,EquipMostDamagingMelee())
+    ActionOverride(Player4,EquipMostDamagingMelee())
+    ActionOverride(Player5,EquipMostDamagingMelee())
+    ActionOverride(Player6,EquipMostDamagingMelee())
+    SetGlobal("CbPartyIsInSoubarMilitia","GLOBAL",2)
+    EndCutSceneMode()
+END
+

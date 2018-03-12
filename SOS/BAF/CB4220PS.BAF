@@ -1,0 +1,9 @@
+IF
+  IsOverMe([ANYONE])
+THEN
+  RESPONSE #100
+    ApplySpell(LastTrigger,CLERIC_POISON)
+    ApplySpell(LastTrigger,CLERIC_POISON)
+    Wait(2)
+END
+

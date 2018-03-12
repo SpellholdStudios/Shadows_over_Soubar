@@ -1,0 +1,16 @@
+IF
+  AreaCheck("AR4286")
+  Global("CbAlertSounded","AR4286",0)
+THEN
+  RESPONSE #100
+    StartDialogNoSet([PC])
+END
+
+IF
+  AreaCheck("AR4230")
+  Global("CbAlertSounded","AR4230",0)
+THEN
+  RESPONSE #100
+    StartDialogNoSet([PC])
+END
+

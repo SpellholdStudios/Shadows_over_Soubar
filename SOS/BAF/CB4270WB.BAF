@@ -1,0 +1,76 @@
+IF
+  See(NearestEnemyOf(Myself))
+  Allegiance(Myself,ENEMY)
+  CheckStatLT(Myself,5,ARMORCLASS)
+THEN
+  RESPONSE #100
+    AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  !HasItemEquiped("STAF22",Myself)
+  !HasItemEquiped("BELT08",Myself)
+  !HasItemEquiped("RING41",Myself)
+  !HasItemEquiped("WA2ROBE",Myself)
+THEN
+  RESPONSE #100
+    GiveItemCreate("STAF22",Myself,1,0,0)  // ~Staff of the Ram +6~
+    FillSlot(SLOT_WEAPON0)
+    EquipItem("STAF22")
+    EquipMostDamagingMelee()
+    Continue()
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  !HasItemEquiped("BELT08",Myself)
+  !HasItemEquiped("RING41",Myself)
+  !HasItemEquiped("WA2ROBE",Myself)
+THEN
+  RESPONSE #100
+    GiveItemCreate("BELT08",Myself,1,0,0)  // ~Girdle of Frost Giant Strength~
+    FillSlot(SLOT_BELT)
+    EquipItem("BELT08")
+    Continue()
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  !HasItemEquiped("RING41",Myself)
+  !HasItemEquiped("WA2ROBE",Myself)
+THEN
+  RESPONSE #100
+    GiveItemCreate("RING41",Myself,1,0,0)  // ~Ring of Protection +3~
+    FillSlot(SLOT_RING_LEFT)
+    EquipItem("RING41")
+    Continue()
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  !HasItemEquiped("WA2ROBE",Myself)
+THEN
+  RESPONSE #100
+    GiveItemCreate("WA2ROBE",Myself,1,0,0)  // ~Robe of Vecna~
+    FillSlot(SLOT_ARMOR)
+    EquipItem("WA2ROBE")
+    Continue()
+END
+
+IF
+  Heard([ANYONE],111)
+THEN
+  RESPONSE #100
+    MoveToObject(NearestEnemyOf(Myself))
+    Continue()
+END
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+

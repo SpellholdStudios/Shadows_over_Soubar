@@ -1,0 +1,43 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CB351GD1")  // 
+    FadeToColor([40.0],0)
+    Wait(3)
+    GiveItemCreate("CBTNHAL2",Myself,1,0,0)  // ~Dart~
+    UseItem("CBTNHAL2",LastTalkedToBy(Myself))  // ~Dart~
+    DayNight(MIDNIGHT)
+    DayNight(DAWN_END)
+    DayNight(MIDNIGHT)
+    DayNight(DAWN_END)
+    DayNight(MIDNIGHT)
+    DayNight(DAWN_END)
+    DayNight(MIDNIGHT)
+    DayNight(DAWN_END)
+    DayNight(MIDNIGHT)
+    DayNight(DAWN_END)
+    DayNight(MIDNIGHT)
+    DayNight(DAWN_END)
+    DayNight(MIDNIGHT)
+    DayNight(DAWN_END)
+    DayNight(MIDNIGHT)
+    DayNight(DAWN_END)
+    DayNight(MIDNIGHT)
+    DayNight(DAWN_END)
+    DayNight(MIDNIGHT)
+    DayNight(DAWN_END)
+    DayNight(MIDNIGHT)
+    DayNight(DAWN_END)
+    DayNight(MIDNIGHT)
+    DayNight(DAWN_END)
+    DayNight(MIDNIGHT)
+    DayNight(DAWN_END)
+    DayNight(MIDNIGHT)
+    DayNight(DAWN_END)
+    Rest()
+    RestParty()
+    FadeFromColor([40.0],0)
+    EndCutSceneMode()
+END
+

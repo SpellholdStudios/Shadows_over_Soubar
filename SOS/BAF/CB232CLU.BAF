@@ -1,0 +1,8 @@
+IF
+  AreaCheck("AR4232")
+  Global("CbPartyFoundCharlie","AR4232",1)
+THEN
+  RESPONSE #100
+    MoveToObjectFollow(Player1)
+END
+

@@ -1,0 +1,10 @@
+IF
+	Global("CbNaliaAndCharlotteFriendsForever","GLOBAL",1)
+	!InParty("CHARLOTT")
+	InParty(Myself)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+

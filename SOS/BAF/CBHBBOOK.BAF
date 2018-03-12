@@ -1,0 +1,9 @@
+IF
+  OnCreation()
+THEN
+  RESPONSE #100
+    DropInventory()
+    Wait(1)
+    DestroySelf()
+END
+

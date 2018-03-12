@@ -1,0 +1,916 @@
+IF
+  AreaCheck("AR0511")
+  !Global("CbSelenceChangedDialog0511","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetDialogue("SELE0511")
+    SetGlobal("CbSelenceChangedDialog0511","LOCALS",1)
+END
+
+IF
+  Global("CbSelenceChangedDialog0511","LOCALS",1)
+  !AreaCheck("AR0511")
+  !AreaCheck("AR0700")
+  !Global("CbSelenceChangedDialogBack","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetDialogue("SELENCE")
+    SetGlobal("CbSelenceChangedDialogBack","LOCALS",1)
+END
+
+IF
+  !InParty(Myself)                                    //KD ************************
+  StateCheck(Myself,STATE_INVISIBLE)
+THEN
+  RESPONSE #100
+    ClearActions([ANYONE])
+    SetGlobal("CbSelencePicksAPocket","LOCALS",0)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",0)
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",0)
+END
+
+IF
+  See(Player1)
+  AreaCheck("AR0700")
+  Global("CbSelencePicksAPocket","LOCALS",0)
+  GlobalGT("CbCanSpawnFence","GLOBAL",0)
+  !StateCheck(Myself,STATE_INVISIBLE)
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself,20524)  // ~Pssst...psssst. Hey. Hey there.~
+    Wait(10)
+  RESPONSE #20
+    DisplayStringHead(Myself,7775)  // ~This way.~
+    Wait(10)
+  RESPONSE #20
+    DisplayStringHead(Myself,13784)  // ~  'Ere there . . .pssssst.  This way.~
+    Wait(10)
+  RESPONSE #40
+    Wait(10)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",1)
+END
+
+IF
+  Detect(Player1)
+  AreaCheck("AR0700")
+  Global("CbSelencePicksAPocket","LOCALS",0)
+THEN
+  RESPONSE #60
+    DisplayStringHead(Myself,10069)  // ~Pick Pocket Failed~
+    SetGlobal("CbSelencePicksAPocket","LOCALS",2)
+  RESPONSE #40
+    DisplayStringHead(Myself,10072)  // ~Pick Pocket Succeeded~
+    Wait(10)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+END
+
+IF
+  Global("CbSelencePicksAPocket","LOCALS",2)
+  AreaCheck("AR0700")
+THEN
+  RESPONSE #50
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",1)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",3)
+  RESPONSE #50
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",1)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",3)
+END
+
+IF
+  Global("CbSelencePicksAPocket","LOCALS",4)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbSelencePicked","LOCALS",60)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",5)
+END
+
+IF
+  GlobalTimerExpired("CbSelencePicked","LOCALS")
+  Global("CbSelencePicksAPocket","LOCALS",5)
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelencePicksAPocket","LOCALS",0)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",0)
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",0)
+END
+
+IF
+  Global("CbSelenceReturnsPickedItem","LOCALS",1)
+  Global("CbSelencePicksAPocket","LOCALS",3)
+  AreaCheck("AR0700")
+THEN
+  RESPONSE #4
+    CreateCreature("CBSHPP01",[-1.-1],0)  // ~Taxidermist~
+    Wait(1)
+    ActionOverride("CBSHPP01",DisplayStringHead("CBSHPP01",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP01",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP01",DisplayStringHead("CBSHPP01",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP01",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP01",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP01",DisplayStringHead("CBSHPP01",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP01",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP02",[-1.-1],0)  // ~Soap Maker~
+    Wait(1)
+    ActionOverride("CBSHPP02",DisplayStringHead("CBSHPP02",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP02",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP02",DisplayStringHead("CBSHPP02",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP02",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP02",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP02",DisplayStringHead("CBSHPP02",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP02",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP03",[-1.-1],0)  // ~Butcher~
+    Wait(1)
+    ActionOverride("CBSHPP03",DisplayStringHead("CBSHPP03",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP03",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP03",DisplayStringHead("CBSHPP03",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP03",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP03",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP03",DisplayStringHead("CBSHPP03",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP03",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP04",[-1.-1],0)  // ~Wheelwright~
+    Wait(1)
+    ActionOverride("CBSHPP04",DisplayStringHead("CBSHPP04",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP04",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP04",DisplayStringHead("CBSHPP04",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP04",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP04",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP04",DisplayStringHead("CBSHPP04",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP04",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP05",[-1.-1],0)  // ~Fishmonger~
+    Wait(1)
+    ActionOverride("CBSHPP05",DisplayStringHead("CBSHPP05",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP05",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP05",DisplayStringHead("CBSHPP05",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP05",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP05",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP05",DisplayStringHead("CBSHPP05",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP05",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP06",[-1.-1],0)  // ~Perfumer~
+    Wait(1)
+    ActionOverride("CBSHPP06",DisplayStringHead("CBSHPP06",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP06",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP06",DisplayStringHead("CBSHPP06",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP06",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP06",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP06",DisplayStringHead("CBSHPP06",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP06",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP07",[-1.-1],0)  // ~Accountant~
+    Wait(1)
+    ActionOverride("CBSHPP07",DisplayStringHead("CBSHPP07",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP07",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP07",DisplayStringHead("CBSHPP07",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP07",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP07",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP07",DisplayStringHead("CBSHPP07",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP07",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP08",[-1.-1],0)  // ~Apothecary~
+    Wait(1)
+    ActionOverride("CBSHPP08",DisplayStringHead("CBSHPP08",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP08",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP08",DisplayStringHead("CBSHPP08",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP08",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP08",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP08",DisplayStringHead("CBSHPP08",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP08",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP09",[-1.-1],0)  // ~Baker~
+    Wait(1)
+    ActionOverride("CBSHPP09",DisplayStringHead("CBSHPP09",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP09",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP09",DisplayStringHead("CBSHPP09",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP09",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP09",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP09",DisplayStringHead("CBSHPP09",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP09",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP10",[-1.-1],0)  // ~Barber~
+    Wait(1)
+    ActionOverride("CBSHPP10",DisplayStringHead("CBSHPP10",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP10",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP10",DisplayStringHead("CBSHPP10",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP10",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP10",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP10",DisplayStringHead("CBSHPP10",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP10",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP11",[-1.-1],0)  // ~Brewer~
+    Wait(1)
+    ActionOverride("CBSHPP11",DisplayStringHead("CBSHPP11",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP11",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP11",DisplayStringHead("CBSHPP11",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP11",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP11",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP11",DisplayStringHead("CBSHPP11",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP11",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP12",[-1.-1],0)  // ~Chandler~
+    Wait(1)
+    ActionOverride("CBSHPP12",DisplayStringHead("CBSHPP12",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP12",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP12",DisplayStringHead("CBSHPP12",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP12",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP12",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP12",DisplayStringHead("CBSHPP12",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP12",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP13",[-1.-1],0)  // ~Cobbler~
+    Wait(1)
+    ActionOverride("CBSHPP13",DisplayStringHead("CBSHPP13",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP13",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP13",DisplayStringHead("CBSHPP13",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP13",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP13",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP13",DisplayStringHead("CBSHPP13",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP13",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP14",[-1.-1],0)  // ~Florist~
+    Wait(1)
+    ActionOverride("CBSHPP14",DisplayStringHead("CBSHPP14",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP14",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP14",DisplayStringHead("CBSHPP14",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP14",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP14",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP14",DisplayStringHead("CBSHPP14",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP14",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP15",[-1.-1],0)  // ~Goldsmith~
+    Wait(1)
+    ActionOverride("CBSHPP15",DisplayStringHead("CBSHPP15",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP15",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP15",DisplayStringHead("CBSHPP15",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP15",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP15",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP15",DisplayStringHead("CBSHPP15",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP15",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP16",[-1.-1],0)  // ~Healer~
+    Wait(1)
+    ActionOverride("CBSHPP16",DisplayStringHead("CBSHPP16",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP16",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP16",DisplayStringHead("CBSHPP16",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP16",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP16",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP16",DisplayStringHead("CBSHPP16",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP16",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP17",[-1.-1],0)  // ~Lapidary~
+    Wait(1)
+    ActionOverride("CBSHPP17",DisplayStringHead("CBSHPP17",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP17",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP17",DisplayStringHead("CBSHPP17",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP17",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP17",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP17",DisplayStringHead("CBSHPP17",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP17",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP18",[-1.-1],0)  // ~Lumber Dealer~
+    Wait(1)
+    ActionOverride("CBSHPP18",DisplayStringHead("CBSHPP18",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP18",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP18",DisplayStringHead("CBSHPP18",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP18",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP18",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP18",DisplayStringHead("CBSHPP18",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP18",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP19",[-1.-1],0)  // ~Mason~
+    Wait(1)
+    ActionOverride("CBSHPP19",DisplayStringHead("CBSHPP19",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP19",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP19",DisplayStringHead("CBSHPP19",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP19",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP19",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP19",DisplayStringHead("CBSHPP19",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP19",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP20",[-1.-1],0)  // ~Money Changer~
+    Wait(1)
+    ActionOverride("CBSHPP20",DisplayStringHead("CBSHPP20",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP20",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP20",DisplayStringHead("CBSHPP20",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP20",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP20",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP20",DisplayStringHead("CBSHPP20",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP20",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP21",[-1.-1],0)  // ~Potter~
+    Wait(1)
+    ActionOverride("CBSHPP21",DisplayStringHead("CBSHPP21",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP21",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP21",DisplayStringHead("CBSHPP21",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP21",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP21",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP21",DisplayStringHead("CBSHPP21",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP21",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP22",[-1.-1],0)  // ~Sage~
+    Wait(1)
+    ActionOverride("CBSHPP22",DisplayStringHead("CBSHPP22",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP22",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP22",DisplayStringHead("CBSHPP22",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP22",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP22",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP22",DisplayStringHead("CBSHPP22",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP22",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP23",[-1.-1],0)  // ~Tailor~
+    Wait(1)
+    ActionOverride("CBSHPP23",DisplayStringHead("CBSHPP23",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP23",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP23",DisplayStringHead("CBSHPP23",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP23",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP23",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP23",DisplayStringHead("CBSHPP23",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP23",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP24",[-1.-1],0)  // ~Tool Maker~
+    Wait(1)
+    ActionOverride("CBSHPP24",DisplayStringHead("CBSHPP24",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP24",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP24",DisplayStringHead("CBSHPP24",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP24",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP24",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP24",DisplayStringHead("CBSHPP24",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP24",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP25",[-1.-1],0)  // ~Undertaker~
+    Wait(1)
+    ActionOverride("CBSHPP25",DisplayStringHead("CBSHPP25",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP25",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP25",DisplayStringHead("CBSHPP25",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP25",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP25",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP25",DisplayStringHead("CBSHPP25",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP25",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP26",[-1.-1],0)  // ~Woodcarver~
+    Wait(1)
+    ActionOverride("CBSHPP26",DisplayStringHead("CBSHPP26",22342))  // ~Thief!  How dare you steal from me!!~
+    ActionOverride("CBSHPP26",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP26",DisplayStringHead("CBSHPP26",7914))  // ~This is a matter that is best handled by the local authorities. ~
+    ActionOverride("CBSHPP26",Wait(2))
+    Wait(2)
+    DisplayStringHead(Myself,22349)  // ~Oh, no, no.  I wasn't stealing this, my friend.  Here you go!~
+    ActionOverride("CBSHPP26",Wait(2))
+    Wait(2)
+    ActionOverride("CBSHPP26",DisplayStringHead("CBSHPP26",14636))  // ~Alright, I'll be on my way, then.~
+    ActionOverride("CBSHPP26",RandomWalk())
+    SetGlobal("CbSelenceReturnsPickedItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+END
+
+IF
+  Global("CbSelenceDoesntReturnItem","LOCALS",1)
+  Global("CbSelencePicksAPocket","LOCALS",3)
+  AreaCheck("AR0700")
+THEN
+  RESPONSE #4
+    CreateCreature("CBSHPP01",[-1.-1],0)  // ~Taxidermist~
+    ActionOverride("CBSHPP01",DisplayStringHead("CBSHPP01",@10115))
+    ActionOverride("CBSHPP01",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP01",DisplayStringHead("CBSHPP01",@10117))
+    ActionOverride("CBSHPP01",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)
+    ActionOverride("CBSHPP01",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP02",[-1.-1],0)  // ~Soap Maker~
+    ActionOverride("CBSHPP02",DisplayStringHead("CBSHPP02",@10115))
+    ActionOverride("CBSHPP02",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP02",DisplayStringHead("CBSHPP02",@10117))
+    ActionOverride("CBSHPP02",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)
+    ActionOverride("CBSHPP02",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP03",[-1.-1],0)  // ~Butcher~
+    ActionOverride("CBSHPP03",DisplayStringHead("CBSHPP03",@10115))
+    ActionOverride("CBSHPP03",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP03",DisplayStringHead("CBSHPP03",@10117))
+    ActionOverride("CBSHPP03",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)
+    ActionOverride("CBSHPP03",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP04",[-1.-1],0)  // ~Wheelwright~
+    ActionOverride("CBSHPP04",DisplayStringHead("CBSHPP04",@10115))
+    ActionOverride("CBSHPP04",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP04",DisplayStringHead("CBSHPP04",@10117))
+    ActionOverride("CBSHPP04",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)
+    ActionOverride("CBSHPP04",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP05",[-1.-1],0)  // ~Fishmonger~
+    ActionOverride("CBSHPP05",DisplayStringHead("CBSHPP05",@10115))
+    ActionOverride("CBSHPP05",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP05",DisplayStringHead("CBSHPP05",@10117))
+    ActionOverride("CBSHPP05",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)
+    ActionOverride("CBSHPP05",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP06",[-1.-1],0)  // ~Perfumer~
+    ActionOverride("CBSHPP06",DisplayStringHead("CBSHPP06",@10115))
+    ActionOverride("CBSHPP06",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP06",DisplayStringHead("CBSHPP06",@10117))
+    ActionOverride("CBSHPP06",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)
+    ActionOverride("CBSHPP06",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP07",[-1.-1],0)  // ~Accountant~
+    ActionOverride("CBSHPP07",DisplayStringHead("CBSHPP07",@10115))
+    ActionOverride("CBSHPP07",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP07",DisplayStringHead("CBSHPP07",@10117))
+    ActionOverride("CBSHPP07",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)
+    ActionOverride("CBSHPP07",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP08",[-1.-1],0)  // ~Apothecary~
+    ActionOverride("CBSHPP08",DisplayStringHead("CBSHPP08",@10115))
+    ActionOverride("CBSHPP08",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP08",DisplayStringHead("CBSHPP08",@10117))
+    ActionOverride("CBSHPP08",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)
+    ActionOverride("CBSHPP08",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP09",[-1.-1],0)  // ~Baker~
+    ActionOverride("CBSHPP09",DisplayStringHead("CBSHPP09",@10115))
+    ActionOverride("CBSHPP09",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP09",DisplayStringHead("CBSHPP09",@10117))
+    ActionOverride("CBSHPP09",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)
+    ActionOverride("CBSHPP09",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP10",[-1.-1],0)  // ~Barber~
+    ActionOverride("CBSHPP10",DisplayStringHead("CBSHPP10",@10115))
+    ActionOverride("CBSHPP10",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP10",DisplayStringHead("CBSHPP10",@10117))
+    ActionOverride("CBSHPP10",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)
+    ActionOverride("CBSHPP10",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP11",[-1.-1],0)  // ~Brewer~
+    ActionOverride("CBSHPP11",DisplayStringHead("CBSHPP11",@10115))
+    ActionOverride("CBSHPP11",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP11",DisplayStringHead("CBSHPP11",@10117))
+    ActionOverride("CBSHPP11",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)
+    ActionOverride("CBSHPP11",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP12",[-1.-1],0)  // ~Chandler~
+    ActionOverride("CBSHPP12",DisplayStringHead("CBSHPP12",@10115))
+    ActionOverride("CBSHPP12",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP12",DisplayStringHead("CBSHPP12",@10117))
+    ActionOverride("CBSHPP12",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)
+    ActionOverride("CBSHPP12",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP13",[-1.-1],0)  // ~Cobbler~
+    ActionOverride("CBSHPP13",DisplayStringHead("CBSHPP13",@10115))
+    ActionOverride("CBSHPP13",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP13",DisplayStringHead("CBSHPP13",@10117))
+    ActionOverride("CBSHPP13",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)
+    ActionOverride("CBSHPP13",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP14",[-1.-1],0)  // ~Florist~
+    ActionOverride("CBSHPP14",DisplayStringHead("CBSHPP14",@10115))
+    ActionOverride("CBSHPP14",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP14",DisplayStringHead("CBSHPP14",@10117))
+    ActionOverride("CBSHPP14",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)
+    ActionOverride("CBSHPP14",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP15",[-1.-1],0)  // ~Goldsmith~
+    ActionOverride("CBSHPP15",DisplayStringHead("CBSHPP15",@10115))
+    ActionOverride("CBSHPP15",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP15",DisplayStringHead("CBSHPP15",@10117))
+    ActionOverride("CBSHPP15",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)
+    ActionOverride("CBSHPP15",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP16",[-1.-1],0)  // ~Healer~
+    ActionOverride("CBSHPP16",DisplayStringHead("CBSHPP16",@10115))
+    ActionOverride("CBSHPP16",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP16",DisplayStringHead("CBSHPP16",@10117))
+    ActionOverride("CBSHPP16",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)
+    ActionOverride("CBSHPP16",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP17",[-1.-1],0)  // ~Lapidary~
+    ActionOverride("CBSHPP17",DisplayStringHead("CBSHPP17",@10115))
+    ActionOverride("CBSHPP17",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP17",DisplayStringHead("CBSHPP17",@10117))
+    ActionOverride("CBSHPP17",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)
+    ActionOverride("CBSHPP17",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP18",[-1.-1],0)  // ~Lumber Dealer~
+    ActionOverride("CBSHPP18",DisplayStringHead("CBSHPP18",@10115))
+    ActionOverride("CBSHPP18",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP18",DisplayStringHead("CBSHPP18",@10117)
+    ActionOverride("CBSHPP18",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)
+    ActionOverride("CBSHPP18",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP19",[-1.-1],0)  // ~Mason~
+    ActionOverride("CBSHPP19",DisplayStringHead("CBSHPP19",@10115))
+    ActionOverride("CBSHPP19",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP19",DisplayStringHead("CBSHPP19",@10117))
+    ActionOverride("CBSHPP19",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)
+    ActionOverride("CBSHPP19",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP20",[-1.-1],0)  // ~Money Changer~
+    ActionOverride("CBSHPP20",DisplayStringHead("CBSHPP20",@10115))
+    ActionOverride("CBSHPP20",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP20",DisplayStringHead("CBSHPP20",@10117))
+    ActionOverride("CBSHPP20",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)
+    ActionOverride("CBSHPP20",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP21",[-1.-1],0)  // ~Potter~
+    ActionOverride("CBSHPP21",DisplayStringHead("CBSHPP21",@10115))
+    ActionOverride("CBSHPP21",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP21",DisplayStringHead("CBSHPP21",@10117))
+    ActionOverride("CBSHPP21",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)
+    ActionOverride("CBSHPP21",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP22",[-1.-1],0)  // ~Sage~
+    ActionOverride("CBSHPP22",DisplayStringHead("CBSHPP22",@10115))
+    ActionOverride("CBSHPP22",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP22",DisplayStringHead("CBSHPP22",@10117))
+    ActionOverride("CBSHPP22",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)
+    ActionOverride("CBSHPP22",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP23",[-1.-1],0)  // ~Tailor~
+    ActionOverride("CBSHPP23",DisplayStringHead("CBSHPP23",@10115))
+    ActionOverride("CBSHPP23",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP23",DisplayStringHead("CBSHPP23",@10117))
+    ActionOverride("CBSHPP23",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)
+    ActionOverride("CBSHPP23",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP24",[-1.-1],0)  // ~Tool Maker~
+    ActionOverride("CBSHPP24",DisplayStringHead("CBSHPP24",@10115))
+    ActionOverride("CBSHPP24",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP24",DisplayStringHead("CBSHPP24",@10117))
+    ActionOverride("CBSHPP24",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)
+    ActionOverride("CBSHPP24",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP25",[-1.-1],0)  // ~Undertaker~
+    ActionOverride("CBSHPP25",DisplayStringHead("CBSHPP25",@10115))
+    ActionOverride("CBSHPP25",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)
+    Wait(2)
+    ActionOverride("CBSHPP25",DisplayStringHead("CBSHPP25",@10117))
+    ActionOverride("CBSHPP25",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118) 
+    ActionOverride("CBSHPP25",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+  RESPONSE #4
+    CreateCreature("CBSHPP26",[-1.-1],0)  // ~Woodcarver~
+    ActionOverride("CBSHPP26",DisplayStringHead("CBSHPP26",@10115))  // ~Thief!  You dare steal from me?  I shall take what is rightfully mine!~
+    ActionOverride("CBSHPP26",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10116)  // ~What?  Steal from you?  What could you have that possibly would be of value to me?  Bugger off before I call the guard.~
+    Wait(2)
+    ActionOverride("CBSHPP26",DisplayStringHead("CBSHPP26",@10117))  // ~You lie!  I shall inform the authorities myself.  You shall not get away with this.~
+    ActionOverride("CBSHPP26",Wait(6))
+    Wait(2)
+    DisplayStringHead(Myself,@10118)  // ~Like they'll listen to a simple peasant.  Fool.~
+    ActionOverride("CBSHPP26",RandomWalk())
+    Wait(2)
+    SetGlobal("CbSelenceDoesntReturnItem","LOCALS",2)
+    SetGlobal("CbSelencePicksAPocket","LOCALS",4)
+END
+

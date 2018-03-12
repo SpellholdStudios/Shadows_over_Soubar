@@ -1,0 +1,138 @@
+IF
+  See(NearestEnemyOf(Myself))
+  Global("Prep","LOCALS",0)
+THEN
+  RESPONSE #100
+    ApplySpell(Myself,WIZARD_STONE_SKIN)
+    ApplySpell(Myself,WIZARD_PROTECTION_FROM_NORMAL_MISSILES)
+    ApplySpell(Myself,WIZARD_IMPROVED_MANTLE)
+    Spell(Myself,WIZARD_MIRROR_IMAGE)
+    SetGlobal("Prep","LOCALS",1)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("SpellTrigger","LOCALS",0)
+  HPGT(Myself,0)  
+THEN
+  RESPONSE #100
+    DisplayString(Myself,3302)  // ~Chain Contingency - Spell Turning~
+    ApplySpell(Myself,WIZARD_SPELL_TURNING)
+    DisplayString(Myself,40240)  // ~Chain Contingency - Mislead~
+    ApplySpell(Myself,WIZARD_MISLEAD)
+    DisplayString(Myself,29736)  // ~Contingency - Stoneskin~
+    ApplySpell(Myself,WIZARD_STONE_SKIN)
+    SetGlobal("SpellTrigger","LOCALS",1)
+    SetGlobalTimer("SpellTrigger","LOCALS",60)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  GlobalTimerExpired("SpellTrigger","LOCALS")
+  Global("SpellTrigger","LOCALS",1)
+  HPGT(Myself,0)  
+THEN
+  RESPONSE #100
+    DisplayString(Myself,39968)  // ~Spell Trigger - Fired~
+    DisplayString(Myself,43046)  // ~Spell Trigger - Mislead~
+    ReallyForceSpell(Myself,WIZARD_MISLEAD)
+    DisplayString(Myself,43047)  // ~Spell Trigger - Fire Shield Red~
+    ReallyForceSpell(Myself,WIZARD_FIRE_SHIELD_RED)
+    DisplayString(Myself,40245)  // ~Spell Trigger - Globe of Invulnerability~
+    ReallyForceSpell(Myself,WIZARD_GLOBE_OF_INVULNERABILITY)
+    SetGlobal("SpellTrigger","LOCALS",2)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_VOCALIZE)
+  StateCheck(Myself,STATE_SILENCED)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_VOCALIZE)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_DOMINATION)
+  !StateCheck(LastSeenBy(Myself),STATE_CHARMED)
+THEN
+  RESPONSE #100
+    Spell(LastSeenBy(Myself),WIZARD_DOMINATION)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  See(NearestEnemyOf(Myself))
+  HPGT(LastSeenBy(Myself),0)
+  HaveSpell(WIZARD_FLESH_TO_STONE)
+THEN
+  RESPONSE #100
+    Spell(LastSeenBy(Myself),WIZARD_FLESH_TO_STONE)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_DISINTEGRATE)
+THEN
+  RESPONSE #100
+    Spell(LastSeenBy(Myself),WIZARD_DISINTEGRATE)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_FINGER_OF_DEATH)
+THEN
+  RESPONSE #100
+    Spell(LastSeenBy(Myself),WIZARD_FINGER_OF_DEATH)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_PRISMATIC_SPRAY)
+THEN
+  RESPONSE #100
+    Spell(LastSeenBy(Myself),WIZARD_PRISMATIC_SPRAY)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_ABI_DALZIMS_HORRID_WILTING)
+THEN
+  RESPONSE #100
+    Spell(LastSeenBy(Myself),WIZARD_ABI_DALZIMS_HORRID_WILTING)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_SYMBOL_STUN)
+THEN
+  RESPONSE #100
+    Spell(LastSeenBy(Myself),WIZARD_SYMBOL_STUN)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_SYMBOL_FEAR)
+THEN
+  RESPONSE #100
+    Spell(LastSeenBy(Myself),WIZARD_SYMBOL_FEAR)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_WAIL_OF_THE_BANSHEE)
+THEN
+  RESPONSE #100
+    Spell(LastSeenBy(Myself),WIZARD_WAIL_OF_THE_BANSHEE)
+END
+

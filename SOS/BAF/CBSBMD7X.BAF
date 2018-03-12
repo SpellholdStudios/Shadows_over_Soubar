@@ -1,0 +1,24 @@
+IF
+  Allegiance(Myself,ENEMY)
+  !HasItemEquiped("SW1H22",Myself)
+THEN
+  RESPONSE #100
+    GiveItemCreate("SW1H22",Myself,1,0,0)  // ~Scimitar +1~
+    FillSlot(SLOT_WEAPON0)
+    EquipItem("SW1H22")
+    EquipMostDamagingMelee()
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  !HasItemEquiped("SW1H20",Myself)
+THEN
+  RESPONSE #100
+    GiveItemCreate("CHAN01",Myself,1,0,0)  // ~Chain Mail Armor~
+    FillSlot(SLOT_ARMOR)
+    EquipItem("CHAN01")
+    GiveItemCreate("SW1H20",Myself,1,0,0)  // ~Scimitar~
+    FillSlot(SLOT_SHIELD)
+    EquipItem("SW1H20")
+END
+

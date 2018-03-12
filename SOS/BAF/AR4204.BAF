@@ -1,0 +1,36 @@
+IF
+  OnCreation()
+  TimeGT(DAWN_END)
+  TimeLT(DUSK_START)
+  !Dead("CBBUCKMO")  // ~Master Werewolf~
+THEN
+  RESPONSE #100
+    CreateCreature("WEREGR01",[801.336],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[1003.499],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[866.575],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[694.496],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[597.334],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[991.601],12)  // ~Greater Werewolf~
+END
+
+IF
+  OnCreation()
+  TimeLT(DAWN_END)
+  TimeGT(DUSK_START)
+  !Dead("CBBUCKMO")  // ~Master Werewolf~
+THEN
+  RESPONSE #100
+    CreateCreature("WEREGR01",[801.336],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[1003.499],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[866.575],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[694.496],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[597.334],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[991.601],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[801.336],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[1003.499],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[866.575],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[694.496],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[597.334],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[991.601],12)  // ~Greater Werewolf~
+END
+

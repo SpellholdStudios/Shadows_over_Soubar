@@ -1,0 +1,35 @@
+
+//SOS Area Links Table
+SRC_AREA  SRC_NWSE  TARGET_ARE  ENTRY_NAME  TRV_TIME  DEF_ENTRY  ENC1     ENC2     ENC3     ENC4     ENC5     ENC_PROB
+
+AR4220    S         AR0020      ExitNE      28        1          AR0042   AR0043   AR0044   N        N        75
+AR4220    S         AR1100      ExitNW      25        1          AR0043   AR0044   AR0042   N        N        60
+AR4220    S         AR1200      ExitW       26        1          AR0044   AR0042   AR0043   N        N        70
+AR4220    S         AR1300      N           24        1          AR0042   AR0043   AR0044   N        N        65
+AR4220    S         AR1304      N           24        1          AR0043   AR0044   AR0042   N        N        65
+AR4220    S         AR1400      ExitSE      24        1          AR0044   AR0042   AR0043   N        N        65
+AR4220    S         AR1404      ExitSE      24        1          AR0043   AR0044   AR0042   N        N        65
+AR4220    W         AR0020      ExitNE      28        1          AR0042   AR0043   AR0044   N        N        75
+AR4220    W         AR1100      ExitNW      25        1          AR0043   AR0044   AR0042   N        N        60
+AR4220    W         AR1200      ExitW       26        1          AR0044   AR0042   AR0043   N        N        70
+AR4220    W         AR1300      N           24        1          AR0042   AR0043   AR0044   N        N        65
+AR4220    W         AR1304      N           24        1          AR0043   AR0044   AR0042   N        N        65
+AR4220    W         AR1400      ExitSE      24        1          AR0044   AR0042   AR0043   N        N        65
+AR4220    W         AR1404      ExitSE      24        1          AR0043   AR0044   AR0042   N        N        65
+
+AR0020    N         AR4220      ExitS       28        4          AR0042   AR0043   AR0044   N        N        75
+AR0020    E         AR4220      ExitS       28        4          AR0042   AR0043   AR0044   N        N        75
+AR1100    N         AR4220      ExitS       25        4          AR0043   AR0044   AR0042   N        N        60
+AR1100    W         AR4220      ExitS       25        4          AR0043   AR0044   AR0042   N        N        60
+AR1200    N         AR4220      ExitS       26        4          AR0044   AR0042   AR0043   N        N        70
+AR1200    W         AR4220      ExitS       26        4          AR0044   AR0042   AR0043   N        N        70
+AR1300    N         AR4220      ExitS       24        4          AR0042   AR0043   AR0044   N        N        65
+AR1300    E         AR4220      ExitS       24        4          AR0042   AR0043   AR0044   N        N        65
+AR1304    N         AR4220      ExitS       24        4          AR0042   AR0043   AR0044   N        N        65
+AR1304    E         AR4220      ExitS       24        4          AR0042   AR0043   AR0044   N        N        65
+AR1400    N         AR4220      ExitS       24        4          AR0044   AR0042   AR0043   N        N        65
+AR1400    W         AR4220      ExitS       24        4          AR0044   AR0042   AR0043   N        N        65
+AR1404    N         AR4220      ExitS       24        4          AR0044   AR0042   AR0043   N        N        65
+AR1404    W         AR4220      ExitS       24        4          AR0044   AR0042   AR0043   N        N        65
+
+

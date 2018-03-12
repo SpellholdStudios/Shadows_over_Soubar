@@ -1,0 +1,17 @@
+IF
+  See(NearestEnemyOf(Myself))
+  HasItem("CBSSYETI",Myself)  // ~Giant Rock~
+THEN
+  RESPONSE #100
+    EquipRanged()
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+  !HasItem("CBSSYETI",Myself)  // ~Giant Rock~
+THEN
+  RESPONSE #100
+    GiveItemCreate("CBSSYETI",Myself,20,0,0)  // ~Giant Rock~
+    EquipItem("CBSSYETI")
+END
+

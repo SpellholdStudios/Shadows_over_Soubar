@@ -1,0 +1,1165 @@
+COPY + ~SoS/CRE/BOLIVR09.cre~         ~%SOS-CRE%~
+       ~SoS/CRE/BOLIVR15.cre~         ~%SOS-CRE%~
+       ~SoS/CRE/BOLIVR20.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20091
+  SAY NAME2 @20091
+  SAY 0xa4 @20092 
+  SAY 0xa8 @20093 
+  SAY 0xac @20094 
+  SAY 0xbc @20095  
+  SAY 0xc0 @20096  
+  SAY 0xc4 @20097  
+  SAY 0xc8 @20098  
+  SAY 0xcc @20099
+  SAY 0xd0 @20100  
+  SAY 0xd4 @20101  
+  SAY 0xec ~~ [CBBOL_37] 
+  SAY 0xf0 @20103  
+  SAY 0xf4 @20104 
+  SAY 0x10c @20105  
+  SAY 0x110 @20106  
+  SAY 0x114 @20107  
+  SAY 0x118 @20108  
+  SAY 0x11c @20109  
+  SAY 0x120 @20110  
+  SAY 0x124 @20111  
+  SAY 0x128 @20112  
+  SAY 0x12c @20113  
+  SAY 0x130 @20114  
+  SAY 0x134 @20115  
+  SAY 0x138 @20116 
+  SAY 0x13c @20117  
+  SAY 0x178 @20118 
+  SAY 0x17c @20119  
+  SAY 0x18c @20120  
+  SAY 0x198 ~~ [CBBOL_03] 
+  SAY 0x1a8 @20122 
+  SAY 0x1ac @20123  
+  SAY 0x1b0 @20124  
+  SAY 0x1cc @20125 
+
+COPY + ~SoS/CRE/CB220BN1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB220BN2.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20126
+  SAY NAME2 @20126
+
+COPY + ~SoS/CRE/CB230BAA.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB230BAH.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB230BAS.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB230BBA.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB230BBH.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB230BBS.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB230BCA.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB230BCH.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB230BCS.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB230BDA.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB230BDH.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB230BDS.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB232BD1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB232BD2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB232BD3.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB232BD4.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB232BD5.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB232BDA.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB232BDB.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB232BDC.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB232BDD.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB232BDE.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20127
+  SAY NAME2 @20127
+
+COPY + ~SoS/CRE/CB230BLA.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB230BLB.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB230BLC.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB230BLD.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB232LD1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB232LD2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB307SL1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB307SL2.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20128
+  SAY NAME2 @20128
+
+COPY + ~SoS/CRE/CB232CLU.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20129
+  SAY NAME2 @20129
+
+COPY + ~SoS/CRE/CB232COW.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20130
+  SAY NAME2 @20130
+
+COPY + ~SoS/CRE/CB232FM1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB232FM2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB232FM3.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB232FM4.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20131
+  SAY NAME2 @20131
+
+COPY + ~SoS/CRE/CB232HRS.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20132
+  SAY NAME2 @20132
+
+COPY + ~SoS/CRE/CB257HLF.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20133 
+  SAY NAME2 @20133 
+
+COPY + ~SoS/CRE/CB270CCA.cre~         ~%SOS-CRE%~       
+     ~SoS/CRE/CB270CCB.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB270CCC.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB270CCD.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB270CCE.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB270CCF.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB270CCG.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB270PT1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB270PT2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB304SVA.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB304SVB.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB304SVC.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20134
+  SAY NAME2 @20134 
+
+COPY + ~SoS/CRE/CB282CAT.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20135 
+  SAY NAME2 @20135 
+
+COPY + ~SoS/CRE/CB285FT1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB285FT2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB285FT3.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB285FT4.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB285FT5.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20136 
+  SAY NAME2 @20136 
+
+COPY + ~SoS/CRE/CB287CPT.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20137 
+  SAY NAME2 @20137 
+
+COPY + ~SoS/CRE/CB300CO1.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20138 
+  SAY NAME2 @20139
+
+COPY + ~SoS/CRE/CB300CO2.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20140 
+  SAY NAME2 @20139 
+
+COPY + ~SoS/CRE/CB300SLA.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20139
+  SAY NAME2 @20139
+
+COPY + ~SoS/CRE/CB304TRA.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB304TRB.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20141
+  SAY NAME2 @20141
+
+COPY + ~SoS/CRE/CB325EQK.cre~         ~%SOS-CRE%~
+
+COPY + ~SoS/CRE/CB330CR1.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20025
+  SAY NAME2 @20025
+
+COPY + ~SoS/CRE/CB330CR2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB330CR3.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB330CR4.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB330CR5.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB330CR6.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20025
+  SAY NAME2 @20025
+
+COPY + ~SoS/CRE/CB351TGA.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20142 
+  SAY NAME2 @20142
+
+COPY + ~SoS/CRE/CB351TGB.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20143 
+  SAY NAME2 @20143 
+
+COPY + ~SoS/CRE/CB351TGC.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20144
+  SAY NAME2 @20144 
+
+COPY + ~SoS/CRE/CB351TGD.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20145 
+  SAY NAME2 @20145 
+
+COPY + ~SoS/CRE/CB4270DW.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20146 
+  SAY NAME2 @20146 
+
+COPY + ~SoS/CRE/CB4270SM.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20147 
+  SAY NAME2 @20147 
+
+COPY + ~SoS/CRE/CB4270WB.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20148
+  SAY NAME2 @20148
+
+COPY + ~SoS/CRE/CB4279ST.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20149 
+  SAY NAME2 @20149 
+
+COPY + ~SoS/CRE/CB4280ST.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20150 
+  SAY NAME2 @20150 
+
+COPY + ~SoS/CRE/CB4281ST.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20151 
+  SAY NAME2 @20151 
+
+COPY + ~SoS/CRE/CB4287MJ.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20152 
+  SAY NAME2 @20152 
+
+COPY + ~SoS/CRE/CB4300AR.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20153 
+  SAY NAME2 @20153 
+
+COPY + ~SoS/CRE/CB4300CT.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20154 
+  SAY NAME2 @20154 
+
+COPY + ~SoS/CRE/CB4300GH.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20155 
+  SAY NAME2 @20155
+
+COPY + ~SoS/CRE/CB4300GT.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20156 
+  SAY NAME2 @20156 
+
+COPY + ~SoS/CRE/CB4300OR.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB4304OR.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB4310SW.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB4311AR.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20126
+  SAY NAME2 @20126
+
+COPY + ~SoS/CRE/CB4305SN.cre~         ~%SOS-CRE%~
+
+COPY + ~SoS/CRE/CB4307MG.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20157
+  SAY NAME2 @20158
+
+COPY + ~SoS/CRE/CB4308NR.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20159
+  SAY NAME2 @20159
+
+COPY + ~SoS/CRE/CBAKSOUB.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20160
+  SAY NAME2 @20161
+  SAY 0xb8 @20162 
+  SAY 0xc8 @20163 
+  SAY 0xcc @20164 
+  SAY 0xec ~~ [ILLASE04]
+  SAY 0xf0 ~~ [ILLASE05]
+  SAY 0x10c @20167 
+
+COPY + ~SoS/CRE/CBAMNG01.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBAMNG02.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBAMNG03.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBAMNG04.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBAMNG05.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20168
+  SAY NAME2 @20168
+
+COPY + ~SoS/CRE/CBAMNLG1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBAMNLG2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBAMNLG3.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBAMNLG4.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBAMNLGS.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20169
+  SAY NAME2 @20169
+
+COPY + ~SoS/CRE/CBARVIN1.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20160
+  SAY NAME2 @20161
+  SAY 0xa4 @20170
+
+COPY + ~SoS/CRE/CBBANDED.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20171
+  SAY NAME2 @20171
+
+COPY + ~SoS/CRE/CBBNLCH1.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20172
+  SAY NAME2 @20172 
+
+COPY + ~SoS/CRE/CBBNLCH2.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20173 
+  SAY NAME2 @20172 
+
+COPY + ~SoS/CRE/CBBUCKMO.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20174 
+  SAY NAME2 @20174 
+
+COPY + ~SoS/CRE/CBBURNBN.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20175 
+  SAY NAME2 @20175 
+
+COPY + ~SoS/CRE/CBCHANT1.cre~         ~%SOS-CRE%~       
+     ~SoS/CRE/CBCHANT2.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20176 
+  SAY NAME2 @20176 
+
+COPY + ~SoS/CRE/CBCHARBR.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20177 
+  SAY NAME2 @20177 
+
+COPY + ~SoS/CRE/CBCHARLN.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20178 
+  SAY NAME2 @20178 
+
+COPY + ~SoS/CRE/CBCHARWF.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20179 
+  SAY NAME2 @20179 
+
+COPY + ~SoS/CRE/CBCHRRAN.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20180 
+  SAY NAME2 @20180 
+
+COPY + ~SoS/CRE/CB304SBG.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB351GD1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB351GD2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB351GD3.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB351GD4.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB351GD5.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBCOMP01.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBCUTDF1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBCUTDF2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBCUTDF3.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBCUTDF4.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20181 
+  SAY NAME2 @20181 
+
+COPY + ~SoS/CRE/CBDDDRGE.cre~         ~%SOS-CRE%~       
+     ~SoS/CRE/CBDRAGDP.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20182
+  SAY NAME2 @20183
+
+COPY + ~SoS/CRE/CBDDHMNE.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBDRGDPH.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20184
+  SAY NAME2 @20183
+
+COPY + ~SoS/CRE/CBDDSNKE.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBDRGDPS.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20185
+  SAY NAME2 @20183
+
+COPY + ~SoS/CRE/CBDRBUCK.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20186
+  SAY NAME2 @20186
+
+COPY + ~SoS/CRE/CBDRICL2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBDRICL3.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20187
+  SAY NAME2 @20187
+
+COPY + ~SoS/CRE/CBDRIFT1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBDRIFT2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBDRIFT3.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20188 
+  SAY NAME2 @20188 
+
+COPY + ~SoS/CRE/CBDRIWZ2.cre~         ~%SOS-CRE%~       
+     ~SoS/CRE/CBDRIWZ3.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20189 
+  SAY NAME2 @20189 
+
+COPY + ~SoS/CRE/CBDRT70A.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20190
+  SAY NAME2 @20190 
+
+COPY + ~SoS/CRE/CBDRT70B.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20191 
+  SAY NAME2 @20191 
+
+COPY + ~SoS/CRE/CBDRWERE.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20186 
+  SAY NAME2 @20186 
+
+COPY + ~SoS/CRE/CBDRWFM1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBDRWFM2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBDRWFM3.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBDRWFR2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBDRWFR3.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20192 
+  SAY NAME2 @20192 
+
+COPY + ~SoS/CRE/CBDRWHM2.cre~         ~%SOS-CRE%~       
+     ~SoS/CRE/CBDRWHM3.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20193 
+  SAY NAME2 @20194 
+
+COPY + ~SoS/CRE/CBDRWHP3.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20195 
+  SAY NAME2 @20196 
+
+COPY + ~SoS/CRE/CBDRWW11.cre~         ~%SOS-CRE%~       
+     ~SoS/CRE/CBDRWW13.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBDRWW21.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBDRWW23.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20197 
+  SAY NAME2 @20197 
+
+COPY + ~SoS/CRE/CBFIXLGN.CRE~         ~%SOS-CRE%~       
+
+COPY + ~SoS/CRE/CBFIXPRE.CRE~         ~%SOS-CRE%~       
+
+COPY + ~SoS/CRE/CBGAELAN.cre~         ~%SOS-CRE%~
+
+COPY + ~SoS/CRE/CBGAIUS1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBGVSOUB.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20198
+  SAY NAME2 @20199
+
+COPY + ~SoS/CRE/CBGONOBL.cre~         ~%SOS-CRE%~
+
+COPY + ~SoS/CRE/CBGRBONE.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20200
+  SAY NAME2 @20200
+
+COPY + ~SoS/CRE/CBHBBOOK.cre~         ~%SOS-CRE%~
+
+COPY + ~SoS/CRE/CB232RNA.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB232RNH.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB4300HB.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB4300SW.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB430SCD.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB430SCE.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CB430SCF.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBACSO01.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBACSO02.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBACSO03.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBACSO04.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBACSO05.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBACSO06.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBACSO07.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBACSO08.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBACSO09.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBACSO10.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBACSO11.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBACSO12.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBACSO13.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBACSO14.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBACSO15.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBACSO16.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBACSO17.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBACSO18.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBACSO19.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBACSO20.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBCUTAT0.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBCUTAT1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBCUTAT2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBCUTAT3.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBCUTAT4.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBCUTAT5.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBCUTAT6.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBCUTAT7.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBCUTAT8.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBCUTAT9.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBCUTATA.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBCUTATB.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBCUTATC.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBCUTATD.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBHBSO02.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBHBSO03.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBHBSO04.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBHBSO05.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBHBSO06.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBHBSO07.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBHBSO08.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBHBSO09.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBHBSO10.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBHBSO12.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBHBSO13.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBHBSO14.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBHBSO15.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBHBSO16.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBHBSO17.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBHBSO18.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBHBSO19.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBHBSO20.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRDPTBD.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDA1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDA2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDA3.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDB1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDB2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDB3.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDC1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDC2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDC3.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDD1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDD2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDD3.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDE1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDE2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDE3.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDG1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDG2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDG3.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDH1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDH2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDH3.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDI1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDI2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDI3.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDJ1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDJ2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDJ3.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDK1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDK2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTBDK3.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20201
+  SAY NAME2 @20201
+
+COPY + ~SoS/CRE/CBIMP111.cre~         ~%SOS-CRE%~
+COPY + ~SoS/CRE/CBIMP112.cre~         ~%SOS-CRE%~
+COPY + ~SoS/CRE/CBIMP113.cre~         ~%SOS-CRE%~
+COPY + ~SoS/CRE/CBIMP114.cre~         ~%SOS-CRE%~
+COPY + ~SoS/CRE/CBIMP115.cre~         ~%SOS-CRE%~
+COPY + ~SoS/CRE/CBIMP116.cre~         ~%SOS-CRE%~
+COPY + ~SoS/CRE/CBIMP117.cre~         ~%SOS-CRE%~
+COPY + ~SoS/CRE/CBIMP118.cre~         ~%SOS-CRE%~
+
+COPY + ~SoS/CRE/CBISSON1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBISSON2.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20202 
+  SAY NAME2 @20202 
+  SAY 0xb8 @20203 
+  SAY 0xc8 @20204 
+  SAY 0xcc @20205 
+  SAY 0xec ~~ [ODREN04] 
+  SAY 0xf0 ~~ [ODREN05] 
+  SAY 0x10c @20208 
+
+COPY + ~SoS/CRE/CBKBAKER.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20209 
+  SAY NAME2 @20209 
+
+COPY + ~SoS/CRE/CBLDBUCK.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20210 
+  SAY NAME2 @20211
+
+COPY + ~SoS/CRE/CBLOLTH1.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20212 
+  SAY NAME2 @20212 
+
+COPY + ~SoS/CRE/CBLOLTH2.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20212 
+  SAY NAME2 @20212 
+  SAY 0xc8 ~~ [DEMOG02]
+  SAY 0xcc ~~ [DEMOG03]
+  SAY 0xec ~~ [DEMOG04] 
+  SAY 0xf0 ~~ [DEMOG05] 
+  SAY 0x10c @20217 
+
+COPY + ~SoS/CRE/CBLOLTH3.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20218
+  SAY NAME2 @20219
+
+COPY + ~SoS/CRE/CBLYBUCK.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20220 
+  SAY NAME2 @20220 
+
+COPY + ~SoS/CRE/CBMARCH1.CRE~         ~%SOS-CRE%~
+COPY + ~SoS/CRE/CBMARCH2.CRE~         ~%SOS-CRE%~
+COPY + ~SoS/CRE/CBMARCH3.CRE~         ~%SOS-CRE%~
+COPY + ~SoS/CRE/CBMARCH4.CRE~         ~%SOS-CRE%~
+COPY + ~SoS/CRE/CBMARCH5.CRE~         ~%SOS-CRE%~
+
+COPY + ~SoS/CRE/CBMMOUTH.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20221 
+  SAY NAME2 @20221 
+
+COPY + ~SoS/CRE/CBNARULF.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20159 
+  SAY NAME2 @20159 
+
+COPY + ~SoS/CRE/CBPRISON.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20222 
+  SAY NAME2 @20222 
+
+COPY + ~SoS/CRE/CBRBDBLB.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20223 
+  SAY NAME2 @20223
+
+COPY + ~SoS/CRE/CBRBDBRB.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20224
+  SAY NAME2 @20224 
+
+COPY + ~SoS/CRE/CBRBDDRB.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20225 
+  SAY NAME2 @20225 
+
+COPY + ~SoS/CRE/CBRBDGRB.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20224
+  SAY NAME2 @20224 
+
+COPY + ~SoS/CRE/CBROLFSB.CRE~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRSSOUB.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20226
+  SAY NAME2 @20227
+  SAY 0xc8 @20228 
+  SAY 0xcc @20229 
+  SAY 0xec ~~ [GROM04]
+  SAY 0xf0 @20231 
+
+COPY + ~SoS/CRE/CBROPEDP.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20232
+  SAY NAME2 @20232
+
+COPY + ~SoS/CRE/CBRRRPIP.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20233
+  SAY NAME2 @20233
+
+COPY + ~SoS/CRE/CBRRRRAT.cre~         ~%SOS-CRE%~
+  SAY 0xa4 ~~ [RAT01]
+  SAY 0xec ~~ [RAT02]
+  SAY 0xf0 ~~ [RAT03]
+  SAY 0x10c ~~ [RAT01]
+  SAY 0x110 ~~ [RAT02]
+
+COPY + ~SoS/CRE/CBRTRALT.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20237 
+  SAY NAME2 @20237
+
+COPY + ~SoS/CRE/CBRTRBDA.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTRBDB.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTRBDC.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTRBDD.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTRBDE.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTRBDF.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTRBDG.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTRBDH.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTRBDI.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTRBDJ.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBRTRBDK.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20128 
+  SAY NAME2 @20128 
+
+COPY + ~SoS/CRE/CBSBBATH.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20238 
+  SAY NAME2 @20238 
+
+COPY + ~SoS/CRE/CBSBIN62.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20239 
+  SAY NAME2 @20239 
+
+COPY + ~SoS/CRE/CBSBIN64.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20240 
+  SAY NAME2 @20240 
+
+COPY + ~SoS/CRE/CBSBIN67.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20241 
+  SAY NAME2 @20241 
+
+COPY + ~SoS/CRE/CBSBIN70.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20242 
+  SAY NAME2 @20242 
+
+COPY + ~SoS/CRE/CBSBIN71.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20243 
+  SAY NAME2 @20243 
+
+COPY + ~SoS/CRE/CBSBIN72.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20244 
+  SAY NAME2 @20244 
+
+COPY + ~SoS/CRE/CBSBIN75.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20245 
+  SAY NAME2 @20245 
+
+COPY + ~SoS/CRE/CBSBMD73.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20246 
+  SAY NAME2 @20246 
+
+COPY + ~SoS/CRE/CBSBMD74.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20247 
+  SAY NAME2 @20247 
+
+COPY + ~SoS/CRE/CBSBSLP1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBSLP2.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20248
+  SAY NAME2 @20248
+
+COPY + ~SoS/CRE/CBSBTVCS.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBTVRA.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBTVRB.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBTVRC.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBTVRD.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBTVRE.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBTVRF.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBTVRG.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBTVRH.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBTVRI.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBTVRJ.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBTVRK.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBTVRL.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBTVRM.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBTVRN.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBTVRO.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBTVRP.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBTVRQ.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVILA.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVILB.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVILC.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVILD.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVILE.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVILF.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVILG.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVILH.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVILI.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVILJ.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVILK.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVILL.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVLIA.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVLIB.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVLIC.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVLID.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVLIE.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVLIF.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVLIG.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVLIH.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVLII.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVLIJ.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVLIK.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVLIL.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVLIU.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVLIV.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVLIW.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSBVLIX.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20134 
+  SAY NAME2 @20134
+
+COPY + ~SoS/CRE/CBSBW172.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20249 
+  SAY NAME2 @20249 
+
+COPY + ~SoS/CRE/CBSBW272.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20250 
+  SAY NAME2 @20250 
+
+COPY + ~SoS/CRE/CBSBW372.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20251
+  SAY NAME2 @20251 
+
+COPY + ~SoS/CRE/CBSBWT64.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20252 
+  SAY NAME2 @20252 
+
+COPY + ~SoS/CRE/CBSBWT67.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20253 
+  SAY NAME2 @20253 
+
+COPY + ~SoS/CRE/CBSBWU67.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20254 
+  SAY NAME2 @20254 
+
+COPY + ~SoS/CRE/CBSBWV67.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20255 
+  SAY NAME2 @20255 
+
+COPY + ~SoS/CRE/CBSDSO01.cre~         ~%SOS-CRE%~       
+     ~SoS/CRE/CBSDSO02.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO03.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO04.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO05.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO06.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO07.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO08.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO09.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO10.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO11.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO12.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO21.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO22.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO23.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO24.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO25.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO26.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO27.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO28.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO29.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO30.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO31.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO32.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO41.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO42.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO43.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO44.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO45.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO46.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO47.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO48.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO49.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO50.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO51.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSDSO52.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20201
+  SAY NAME2 @20201
+
+COPY + ~SoS/CRE/CBSHPP01.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20256
+  SAY NAME2 @20256 
+
+COPY + ~SoS/CRE/CBSHPP02.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20257 
+  SAY NAME2 @20257 
+
+COPY + ~SoS/CRE/CBSHPP03.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20258 
+  SAY NAME2 @20258 
+
+COPY + ~SoS/CRE/CBSHPP04.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20259 
+  SAY NAME2 @20259 
+
+COPY + ~SoS/CRE/CBSHPP05.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20260 
+  SAY NAME2 @20260 
+
+COPY + ~SoS/CRE/CBSHPP06.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20261 
+  SAY NAME2 @20261 
+
+COPY + ~SoS/CRE/CBSHPP07.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20262 
+  SAY NAME2 @20262 
+
+COPY + ~SoS/CRE/CBSHPP08.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20263 
+  SAY NAME2 @20263 
+
+COPY + ~SoS/CRE/CBSHPP09.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20264 
+  SAY NAME2 @20264 
+
+COPY + ~SoS/CRE/CBSHPP10.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20265 
+  SAY NAME2 @20265 
+
+COPY + ~SoS/CRE/CBSHPP11.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20266 
+  SAY NAME2 @20266 
+
+COPY + ~SoS/CRE/CBSHPP12.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20267 
+  SAY NAME2 @20267 
+
+COPY + ~SoS/CRE/CBSHPP13.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20268 
+  SAY NAME2 @20268 
+
+COPY + ~SoS/CRE/CBSHPP14.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20269 
+  SAY NAME2 @20269 
+
+COPY + ~SoS/CRE/CBSHPP15.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20270 
+  SAY NAME2 @20270
+
+COPY + ~SoS/CRE/CBSHPP16.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20271 
+  SAY NAME2 @20271 
+
+COPY + ~SoS/CRE/CBSHPP17.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20272 
+  SAY NAME2 @20272 
+
+COPY + ~SoS/CRE/CBSHPP18.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20273 
+  SAY NAME2 @20273 
+
+COPY + ~SoS/CRE/CBSHPP19.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20274 
+  SAY NAME2 @20274 
+
+COPY + ~SoS/CRE/CBSHPP20.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20275 
+  SAY NAME2 @20275 
+
+COPY + ~SoS/CRE/CBSHPP21.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20276 
+  SAY NAME2 @20276 
+
+COPY + ~SoS/CRE/CBSHPP22.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20277 
+  SAY NAME2 @20277 
+
+COPY + ~SoS/CRE/CBSHPP23.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20278 
+  SAY NAME2 @20278 
+
+COPY + ~SoS/CRE/CBSHPP24.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20279 
+  SAY NAME2 @20279 
+
+COPY + ~SoS/CRE/CBSHPP25.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20280 
+  SAY NAME2 @20280 
+
+COPY + ~SoS/CRE/CBSHPP26.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20281 
+  SAY NAME2 @20281 
+
+COPY + ~SoS/CRE/CBSHTHEF.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20282
+  SAY NAME2 @20282 
+
+COPY + ~SoS/CRE/CBSHTHIF.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20283 
+  SAY NAME2 @20283 
+
+COPY + ~SoS/CRE/CBSIRRUS.cre~         ~%SOS-CRE%~       
+     ~SoS/CRE/CBSMSOUB.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20284 
+  SAY NAME2 @20285 
+
+COPY + ~SoS/CRE/CBSNBUCK.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20286 
+  SAY NAME2 @20286 
+
+COPY + ~SoS/CRE/CBSOBANN.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20134 
+  SAY NAME2 @20134 
+
+COPY + ~SoS/CRE/CBSOBGR1.cre~         ~%SOS-CRE%~       
+     ~SoS/CRE/CBSOBGR2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSOBGR3.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSOBGR4.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSOBGR5.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSOBGRD.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBSOUGRD.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20181 
+  SAY NAME2 @20181 
+
+COPY + ~SoS/CRE/CBSOUMJR.CRE~         ~%SOS-CRE%~       
+  SAY NAME1 @20152 
+  SAY NAME2 @20152 
+
+COPY + ~SoS/CRE/CBSOUSGT.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20237 
+  SAY NAME2 @20237 
+
+COPY + ~SoS/CRE/CBSPLLTH.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20287 
+  SAY NAME2 @20287 
+
+COPY + ~SoS/CRE/CBSPYBAN.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20201 
+  SAY NAME2 @20201 
+
+COPY + ~SoS/CRE/CBSPYRLF.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20227
+  SAY NAME2 @20227 
+  SAY 0xc8 @20228 
+  SAY 0xcc @20229 
+  SAY 0xec ~~ [GROM04] 
+  SAY 0xf0 @20231 
+
+COPY + ~SoS/CRE/CBSTBUCK.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20289 
+  SAY NAME2 @20289 
+
+COPY + ~SoS/CRE/CBSUPMUM.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20290 
+  SAY NAME2 @20290 
+
+COPY + ~SoS/CRE/CBSWPIPE.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20291 
+  SAY NAME2 @20291 
+
+COPY + ~SoS/CRE/CBTANASU.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20292 
+  SAY NAME2 @20292 
+
+COPY + ~SoS/CRE/CBTBGGAL.cre~         ~%SOS-CRE%~       
+     ~SoS/CRE/CBTBGGL1.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20293
+  SAY NAME2 @20294
+
+COPY + ~SoS/CRE/CBTBGMAL.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBTBGML1.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20295
+  SAY NAME2 @20296
+
+COPY + ~SoS/CRE/CBTBGMER.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBTBGMR1.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20297 
+  SAY NAME2 @20298 
+  SAY 0xa8 @20299  
+  SAY 0xac ~~ [CBTBGMEX]
+  SAY 0xb8 @20301  
+  SAY 0xbc @20302  
+  SAY 0xc0 @20303  
+  SAY 0xc4 @20304  
+  SAY 0xc8 @20305 
+  SAY 0xcc @20301  
+  SAY 0xd0 @20306  
+  SAY 0xd4 @20299  
+  SAY 0xec ~~ [CBTBGMEL]
+  SAY 0xf0 ~~ [CBTBGMEM]
+  SAY 0xf4 @20309  
+  SAY 0xf8 @20310  
+  SAY 0xfc @20311  
+  SAY 0x100 @20312  
+  SAY 0x104 @20313  
+  SAY 0x108 @20314  
+  SAY 0x10c @20315  
+  SAY 0x110 @20316  
+  SAY 0x114 @20317  
+  SAY 0x118 @20318  
+  SAY 0x11c @20319  
+  SAY 0x120 @20320  
+  SAY 0x124 @20321  
+  SAY 0x128 @20322  
+  SAY 0x12c @20323  
+  SAY 0x130 @20324  
+  SAY 0x134 @20325  
+  SAY 0x138 @20326  
+  SAY 0x13c @20327  
+  SAY 0x178 @20328  
+  SAY 0x17c @20328  
+  SAY 0x18c @20305  
+  SAY 0x190 @20301  
+  SAY 0x198 @20305  
+  SAY 0x1a8 @20329  
+  SAY 0x1ac @20330  
+  SAY 0x1b4 @20331  
+  SAY 0x1b8 @20332  
+  SAY 0x1bc @20333  
+  SAY 0x1c0 @20334  
+
+COPY + ~SoS/CRE/CBTBGPOT.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBTBGPT1.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20335 
+  SAY NAME2 @20336 
+
+COPY + ~SoS/CRE/CBTBGTD1.cre~         ~%SOS-CRE%~       
+     ~SoS/CRE/CBTBGTOD.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20337 
+  SAY NAME2 @20338 
+
+COPY + ~SoS/CRE/CBTRIEL0.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBTRIEL1.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBTRIEL2.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBTRIEL3.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBTRIEL4.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBTRIEL5.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBTRIEL6.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBTRIEL7.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBTRIEL8.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/CBTRIEL9.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20141 
+  SAY NAME2 @20141 
+
+COPY + ~SoS/CRE/CBTWRMBB.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20339 
+  SAY NAME2 @20339 
+
+COPY + ~SoS/CRE/CBUHAKCT.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20160 
+  SAY NAME2 @20161 
+  SAY 0xa4 @20170 
+
+COPY + ~SoS/CRE/CBUHCUT1.cre~         ~%SOS-CRE%~
+
+COPY + ~SoS/CRE/CBUHGVCT.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20198
+  SAY NAME2 @20199 
+
+COPY + ~SoS/CRE/CBVINNIE.CRE~         ~%SOS-CRE%~
+
+COPY + ~SoS/CRE/CBWEREGR.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20342 
+  SAY NAME2 @20342 
+
+COPY + ~SoS/CRE/CBWILLET.CRE~         ~%SOS-CRE%~       
+
+COPY + ~SoS/CRE/CBWILLMA.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20343 
+  SAY NAME2 @20343 
+
+COPY + ~SoS/CRE/CBWILLMS.CRE~         ~%SOS-CRE%~       
+  SAY NAME1 @20344 
+  SAY NAME2 @20344 
+
+COPY + ~SoS/CRE/CBWLSERV.cre~         ~%SOS-CRE%~       
+  SAY NAME1 @20345 
+  SAY NAME2 @20345 
+
+COPY + ~SoS/CRE/CHARLO09.CRE~         ~%SOS-CRE%~       
+     ~SoS/CRE/CHARLO12.CRE~         ~%SOS-CRE%~
+     ~SoS/CRE/CHARLO22.CRE~         ~%SOS-CRE%~
+  SAY NAME1 @20346 
+  SAY NAME2 @20346 
+  SAY 0xac @20347  
+  SAY 0xb0 @20348  
+  SAY 0xb4 @20348  
+  SAY 0xb8 @20349  
+  SAY 0xbc @20350  
+  SAY 0xc0 @20351  
+  SAY 0xc4 @20352
+  SAY 0xc8 @20353  
+  SAY 0xcc @20354  
+  SAY 0xd0 @20355 
+  SAY 0xec ~~ [CHARL_34]
+  SAY 0xf0 @20357  
+  SAY 0xf4 @20358  
+  SAY 0x10c @20359  
+  SAY 0x110 @20360  
+  SAY 0x114 @20361  
+  SAY 0x118 @20362  
+  SAY 0x11c @20363  
+  SAY 0x120 @20364  
+  SAY 0x124 @20365  
+  SAY 0x128 @20366  
+  SAY 0x12c @20367  
+  SAY 0x130 @20368  
+  SAY 0x134 @20369  
+  SAY 0x138 @20370  
+  SAY 0x13c @20371  
+  SAY 0x178 @20372  
+  SAY 0x17c @20372  
+  SAY 0x198 @20355  
+  SAY 0x1ac @20373  
+  SAY 0x1b0 @20373  
+  SAY 0x1b4 @20374  
+  SAY 0x1cc @20375 
+
+
+COPY + ~SoS/CRE/TOMAST11.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/TOMAST16.cre~         ~%SOS-CRE%~
+     ~SoS/CRE/TOMAST19.cre~         ~%SOS-CRE%~
+  SAY NAME1 @20376 
+  SAY NAME2 @20377 
+  SAY 0xa8 @20378  
+  SAY 0xac @20379 
+  SAY 0xc0 @20380  
+  SAY 0xc4 @20381  
+  SAY 0xc8 @20382  
+  SAY 0xcc @20383  
+  SAY 0xd0 @20384  
+  SAY 0xd4 @20385  
+  SAY 0xec @20386
+  SAY 0xf0 @20387  
+  SAY 0xf4 @20388  
+  SAY 0xf8 @20389  
+  SAY 0xfc @20390  
+  SAY 0x100 @20379 
+  SAY 0x10c @20391  
+  SAY 0x110 @20392  
+  SAY 0x114 @20393  
+  SAY 0x118 @20394  
+  SAY 0x11c @20395  
+  SAY 0x120 @20396  
+  SAY 0x124 @20397  
+  SAY 0x128 @20398  
+  SAY 0x12c @20399  
+  SAY 0x130 @20400 
+  SAY 0x134 @20401 
+  SAY 0x138 @20402 
+  SAY 0x13c @20403 
+  SAY 0x178 @20404 
+  SAY 0x17c @20405 
+  SAY 0x1a0 @20406 
+  SAY 0x1a4 @20407 
+  SAY 0x1cc @20408

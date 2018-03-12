@@ -1,0 +1,2710 @@
+/////////////////////////////////////////////////////////////////////////////////////
+// Scripts - unified Journal entries
+/////////////////////////////////////////////////////////////////////////////////////
+//SELENCE.BAF
+@5090  = ~Selence Estrelladelmonte: Buscar dinero
+
+Parece ser que mi nuevo contacto, una ladrona de Athkatla, sabe algo acerca de quién ha estado buscándome. La mujer se niega a desvelar información, pero dice que me irá poniendo al corriente si demuestro aptitudes y lealtad hacia ella. No se muy bien qué persigue, pero por el momento parece que algún noble de Amn le "debe" dinero y yo debo recuperárselo como sea. Encontraré su oro en una caja fuerte dentro del Distrito Gubernamental.~
+
+//CBPROM06.BAF
+@5091  = ~No más Sombras Sobre Soubar
+
+Después de derrotar a Rolf Hojacertera y sus Bandidos en la Fortaleza de Lyrar, volví triunfante a Soubar. Recibí una calurosa bienvenida, y no sé si fruto de la euforia, las circunstancias, ó mis méritos, me ofrecieron la honorable posición de Alcalde de la Ciudad.  Fuese como fuese, no acepté, pues deseo continuar mi propio camino allende los mares. Los pobres aldeanos de Soubar ya me han dado suficientes quebraderos de cabeza, y al menos por ahora, prefiero cedérselos a alguien que quiera cuidarlos de verdad. Que Tymora les sonría.~ ~No más Sombras Sobre Soubar
+
+Después de derrotar a Rolf Hojacertera y sus Bandidos en la Fortaleza de Lyrar, volví triunfante a Soubar. Recibí una calurosa bienvenida, y no sé si fruto de la euforia, las circunstancias, ó mis méritos, me ofrecieron la honorable posición de Alcaldesa de la Ciudad.  Fuese como fuese, no acepté, pues deseo continuar mi propio camino allende los mares. Los pobres aldeanos de Soubar ya me han dado suficientes quebraderos de cabeza, y al menos por ahora, prefiero cedérselos a alguien que quiera cuidarlos de verdad. Que Tymora les sonría.~
+@5092  = ~Promoción a Teniente General
+
+El Alcalde de Soubar me ha recompensado con la promoción a Teniente General. Es curiosa mi evolución... un ratón de biblioteca de Candelero hijo de un dios muerto escalando puestos en la milicia hasta convertirse en un oficial alto mando.~ ~Promoción a Teniente General
+
+El Alcalde de Soubar me ha recompensado con la promoción a Teniente General. Es curiosa mi evolución... una ratoncilla de biblioteca de Candelero hija de un dios muerto escalando puestos en la milicia hasta convertirse en una oficial de alta graduación.~
+@5093  = ~Promoción a Teniente General
+
+El Paladin de Soubar, Gaius, me ha recompensado por los servicios prestados a la ciudad con la promoción a Teniente General. ¡Imagínate yo, un retoño de Candelero escalando puestos en el ejército hasta convertirme en oficial de alta graduación!~ ~Promoción a Teniente General
+
+El Paladin de Soubar, Gaius, me ha recompensado los servicios prestados a la ciudad promocionándome a Teniente General. ¡Imagínate yo, un ratoncilla de Candelero escalando puestos en el ejército hasta convertirme en una oficiala de alta graduación!~
+@5094  = ~Asalto a la Fortaleza de Lyrar
+
+Despues del asalto que perpetraron los bandidos sobre Soubar, por fín he sido autorizado a usar la fuerza que sea necesaria para detenerlos. He discutido las opciones de un ataque a su fortaleza con el Comandante, y como parece que muchos de nuestros hombres han sido heridos o asesinados en el combate, no podré contar con ayuda suplementaria para realizar el asalto. El Comandante me ha mostrado dos vías de entrada al fuerte: una ruta terrestre la cual podría forzarme a asediar las murallas del castillo y otra ruta que sería a través de una red de túneles subterráneos conectados entre si que parten desde la cárcel bajo las barracones. No se que camino elegiré, pero ambos son peligrosos en cierta medida. El Comandante me ha deseado buena suerte en mi misión y espera ansioso mi regreso a Soubar triunfante.~ ~Asalto a la Fortaleza de Lyrar
+
+Despues del asalto que perpetraron los bandidos sobre Soubar, por fín he sido autorizada a usar la fuerza que sea necesaria para detenerlos. He discutido las opciones de un ataque a su fortaleza con el Comandante, y como parece que muchos de nuestros hombres han sido heridos o asesinados en el combate, no podré contar con ayuda suplementaria para realizar el asalto. El Comandante me ha mostrado dos vías de entrada al fuerte: una ruta terrestre la cual podría forzarme a asediar las murallas del castillo y otra ruta que sería a través de una red de túneles subterráneos conectados entre si que parten desde la cárcel bajo las barracones. No se que camino elegiré, pero ambos son peligrosos en cierta medida. El Comandante me ha deseado buena suerte en mi misión y espera ansioso mi regreso a Soubar triunfante.~
+
+//CBPROM05.BAF
+@5095  = ~No más Sombras Sobre Soubar
+
+Después de derrotar a Rolf Hojacertera y sus Bandidos en la Fortaleza de Lyrar, volví triunfante a Soubar. Recibí una calurosa bienvenida, y no sé si fruto de la euforia, las circunstancias, ó mis méritos, me ofrecieron y concedieron la honorable posición de Alcalde de Soubar.  No me supondrá muchas responsabilidades por ahora, pues la mayoría de los aldeanos están tan ocupados reparando sus casas, granjas y otras propiedades destruidas en los ataques que no me demandarán demasiado la atención. En consecuencia, tal vez me tome un respiro y siente la cabeza durante algún tiempo, o tal vez parta a retomar mis propios asuntos pendientes en cuanto recobre las fuerzas.~ ~No más Sombras Sobre Soubar
+
+Después de derrotar a Rolf Hojacertera y sus Bandidos en la Fortaleza de Lyrar, volví triunfante a Soubar. Recibí una calurosa bienvenida, y no sé si fruto de la euforia, las circunstancias, ó mis méritos, me ofrecieron y concedieron la honorable posición de Alcaldesa de Soubar.  No me supondrá muchas responsabilidades por ahora, pues la mayoría de los aldeanos están tan ocupados reparando sus casas, granjas y otras propiedades destruidas en los ataques que no me demandarán demasiado la atención. En consecuencia, tal vez me tome un respiro y siente la cabeza durante algún tiempo, o tal vez parta a retomar mis propios asuntos pendientes en cuanto recobre las fuerzas.~
+
+/////////////////////////////////////////////////////////////////////////////////////
+// Dialogues - unified Journal entries
+/////////////////////////////////////////////////////////////////////////////////////
+
+//CBSBIN75.D
+@50100 = ~¡Tal vez haya un espía en Soubar!
+
+Informes sin confirmar muestran que los bandidos podrían estar consiguiendo información privilegiada sobre Soubar, en concreto sobre sus recursos y sus capacidades de maniobra, datos a los que sólo un infiltrado o infiltrada podría acceder.  No se si realmente habrá un espía, pero si lo hay, lo destaparé y lo pondré al descubierto. Pagará caro su atrevimiento.~
+@50101 = ~Posibles sospechosos
+
+He hablado con mi viejo amigo Winthrop sobre el tema del espía, y un explorador que estaba a nuestro lado no ha podido evitar escuchar la conversación y me ha ayudado a descifrar quien podría ser el culpable. Entre los dos hicimos una lista de sospechosos y debería investigar a cada uno de ellos. Los sospechosos actuales son:
+*El propio explorador de la posada
+*El mismo Winthrop 
+*El Alcalde de Soubar, Sirrus Melandor
+*El comprador de la casa de A. Miller
+*Uno o varios de los residentes del Club Social de Soubar
+*El niño que rescaté de la granja, Charlie
+*Un grupo de espadachines que se reunen en un viejo almacen.~
+@50120 = ~Espía en Soubar:
+
+Creo que podría haber resuelto el misterio del espía en Soubar. Pienso que el culpable es Winthrop, mi viejo amigo, pero él se declara inocente. Por el momento lo he encerrado en los Barracones de la Guardia donde tendrá que esperar veredicto.~
+@50121 = ~Espía en Soubar:
+
+Las sospechas del Comandante eran ciertas.  Había un espía en Soubar, y por desgracia se demostró que no era otro que mi viejo amigo de la infancia, Winthrop. Lamentablemente cuando me dirigí a arrestarlo Rolf Hojacertera se presentó de improvisto, lo rescató, y yo a duras penas pude sobrevivir al encuentro.~
+
+//CB285FTX.D
+@50122 = ~Espía en Soubar:
+
+Parece que las sospechas del Comandante iban bien encaminadas.  No sólo había un espía en Soubar, sino varios. Conseguí desenmascarar a los culpables y estos resultaron ser los espadachines del viejo almacén, los hombres que decían preparase para el combate. Por desgracia cuando me dirigí a arrestarlos Rolf Hojacertera se presentó de improvisto, los rescató, y yo a duras penas pude sobrevivir al encuentro.~
+@50123 = ~Espía en Soubar:
+
+Creo que podría haber resuelto el misterio del espía en Soubar. Pienso que los culpables son los espadachines que entrenaban en el viejo almacén, pero ellos se declaran inocentes. Por el momento los he encerrado en los Barracones de la Guardia donde tendrán que esperar un veredicto que les juzgue definitivamente.~
+
+//CB428MJ.D
+@50103 = ~Promoción
+
+El Comandante de Soubar me ha promocionado al rango de Sargento por el trabajo que he realizado para la milicia. Sospecho que con este rango vendrán grandes responsabilidades, pero espero que también grandes recompensas.~
+@50105 = ~¡Promocionado de nuevo!
+
+Una vez más el Comandante estaba muy agradecido por mi rendimiento y me concedió un nuevo ascenso, esta vez al rango de Capitán. Le estoy muy agradecido por ello, porque eso quiere decir que no tendré que volver a utilizar el desastroso equipamiento de Soubar y podré recuperar el mío.~ ~¡Promocionada de nuevo!
+
+Una vez más el Comandante estaba muy agradecido por mi rendimiento y me concedió un nuevo ascenso, esta vez al rango de Capitán. Le estoy muy agradecido por ello, porque eso quiere decir que no tendré que volver a utilizar el desastroso equipamiento de Soubar y podré recuperar el mío.~
+
+//CBCHRRAN.D
+@50124 = ~¿Espía en Soubar?
+
+Creo que podría haber resuelto el misterio del espía en Soubar. Todos los indicios apuntan a que el culpable es el explorador que estaba en la posada de Winthrop, pero él se declara inocente. Por el momento lo he encerrado en los Barracones de la Guardia donde tendrá que esperar un juicio oficial.~
+
+//CBISSON2.D
+@50125 = ~Espía en Soubar:
+
+Parece que las sospechas del Comandante se han acabado confirmando.  En efecto había un espía en Soubar, y por fín dilucidé que el culpable era el hombre de mi linaje que inicialmente conocí en Caravasar, Ceeb Isson. Por desgracia, el mismísimo Rolf Hojacertera lo rescató y ambos salieron huyendo.~
+
+//CBSIRRUS.D
+@50126 = ~¡Han atacado Soubar!
+
+Soubar ha sido recientemente atacado por un pequeño grupo de bandidos y aún no se han podido cuantificar las pérdidas originadas por la incursión. Desconozco el número de bajas que cayó ante el enemigo, pero reflexionando ahora sobre ello, me fastidia que el Comandante no me permita directamente atacar la fortaleza de los rufianes. Hay que hacer algo por el pueblo, y me da la sensación de que estoy perdiendo el tiempo ocupándome sólo de defenderlo.~
+@50127 = ~Espía en Soubar:
+
+Las sospechas del Comandante eran ciertas.  Había un espía en Soubar, y por desgracia se demostró que no era otro que el alcalde la ciudad, Melandor. Lamentablemente cuando me dirigí a arrestarlo Rolf Hojacertera se presentó de improvisto, lo rescató, y yo a duras penas pude sobrevivir al encuentro.~
+@50106 = ~Llegada a Soubar
+
+Al fín he llegado a Soubar.  He conocido a su alcalde, un hombre llamado Sirrus Melandor que parece muy preocupado por las consecuencias que podrían acarrearse si los bandidos llegaran a hacerse con el control de la ciudad. De momento no quiere mandarme al frente contra el enemigo y me pide que comprenda sus razones.  Lo cierto es que no siempre la violencia es la respuesta, y si se puede evitar, supongo que será lo mejor.  Lo que sí voy a hacer es alistarme en la milicia para mantener la seguridad en el interior de la ciudad. Ojalá logre ganarme la confianza y el respeto de los lugareños. Me esforzaré por marcar la diferencia protegiendo a los aldeanos.~
+
+//CBSOUMJ1.D
+@50107 = ~Alistado
+
+He conocido al jefe de la milicia soubariana, el Comandante, y me he enrolado a sus órdenes como soldado raso. Me ha obligado a dejar todos mis bienes en una bolsa. Dice que si me relevan de mi puesto o si me nombran Capitán me lo devolverán todo. Al parecer por ahora no puedo aspirar a tanto.~ ~Alistada
+
+He conocido al jefe de la milicia soubariana, el Comandante, y me he enrolado a sus órdenes como soldada. Me ha obligado a dejar todos mis bienes en una bolsa. Dice que si me relevan de mi puesto o si me nombran Capitana me lo devolverán todo. Al parecer por ahora no puedo aspirar a tanto.~
+@50108 = ~Patrullar la Carretera
+
+El Comandante me ha encargado mi primera tarea como soldado. He de patrullar el borde septentrional de Soubar donde debo acudir enseguida. Puede que los bandidos intenten abrirse paso a traves del lugar, por lo que debo andarme con ojo.  Haré todo cuanto esté en mi mano para prevenir la incursión.~ ~Patrullar la Carretera
+
+El Comandante me ha encargado mi primera tarea como soldada. He de patrullar el borde septentrional de Soubar donde debo acudir enseguida. Puede que los bandidos intenten abrirse paso a traves del lugar, por lo que debo andarme con ojo.  Haré todo cuanto esté en mi mano para prevenir la incursión.~
+@50102 = ~Al rescate de los exploradores
+
+El Comandante me ha encargado otra misión. Junto a un sargento, avanzaré hasta una alejada granja al norte de Soubar. Me han dicho que una patrulla fue enviada allí para observar los movimientos tácticos del enemigo y yo debo averigar qué les ha sucedido... los hombres no regresaron de su cometido y el Comandante se teme lo peor.~
+
+//CBSOUMJ2.D
+@50104 = ~Hombres desarraigados
+
+Como los bandidos saquearon la vecina aldea occidental de Triel, muchos de sus aldeanos se refugiaron aquí en Soubar y se teme que causen problemas o daños materiales debido a su pésimo estado de ánimo.  Para prevenir incidencias, me han encomendado ir a pasar la noche a El Narval, una taberna de ricachones situada en la parte oeste de la ciudad donde deberé poner orden si se originan disturbios.~
+@50109 = ~Entrenamiento de nuevos reclutas
+
+Después del incidente de El Narval, el Comandante me ha pedido que intente reclutar para la milicia a los hombres alborotadores de Triel que encerramos en prisión; tiene fé en que puedan ayudar a Soubar a luchar contra los bandidos.   Por otro lado, mi superior me ha dejado entreveer que le gusta mi forma de actuar y que me promocionará de nuevo si continúo satisfaciendo sus expectativas.~
+
+//CBSOUMJ3.D
+@50111 = ~Mensajero
+
+Creía que siendo Capitán podría empezar a librarme de cierta clase de encargos tipo chico de los recados y tal, pero parece ser que no. El Comandante me ha pedido que le entregue un mensaje de socorro a los líderes de dos poderosas organizaciones en Athkatla, y para ello me ha entregado dos cartas. Una es de ellas es para el Prelado Welessan, líder de la Orden Del Muy Radiante Corazón, y la otra para Lord Logan Coprith, Gran Comerciante de Caravasar.~ ~Pedir socorro
+
+Creía que siendo Capitán podría empezar a librarme de cierta clase de encargos tipo chica de los recados y tal, pero parece ser que no. El Comandante me ha pedido que le entregue un mensaje de socorro a los líderes de dos poderosas organizaciones en Athkatla, y para ello me ha entregado dos cartas. Una es de ellas es para el Prelado Welessan, líder de la Orden Del Muy Radiante Corazón, y la otra para Lord Logan Coprith, Gran Comerciante de Caravasar.~
+@50128 = ~¡Asalto a Soubar!
+
+Como respuesta a los contratiempos causados a Hojacertera, los bandidos han realizado un asalto a gran escala contra Soubar. Muchos aldeanos y milicianos han fallecido o se han visto forzados a retirarse mientras que otros tantos han desaparecido. Finalmente logré amedrentar al enemigo, pero no pude derrotarlo del todo. Por este ultraje juro dar caza todos y cada uno de los bandidos que se han visto implicados en el ataque y no cejaré en mi empeño de disipar las sombras que envuelven la ciudad.   Por otro lado, el Comandante me ha dicho que el Teniente principal de la milicia fue asesinado durante la contienda y como consecuencia, ha decidido entregarme el puesto vacante. Esto supone subir un peldaño más en mi fulgurante ascenso en la guardia.~
+@50110 = ~Una compañía a mi cargo
+
+El Comandante me ha asignado una compañía a mi cargo. Me ha pedido que le ordene tareas rutinarias de protección y patrulla del pueblo y que lo haga bajo mi propio criterio y responsabilidad. Mis soldados esperan fuera.~
+
+//CHARLOTJ.D
+@50113 = ~Clase Explorador:  Charlotte
+
+Debido a su condición de exploradora, al parecer Charlotte conoce algo de los alrededores de Soubar, especialmente de los bosques sureños y del oeste de Puerta de Baldur. Dado que teníamos que cruzar el temible Río Chionthar, su ayuda nos resultó muy útil; había mucha corriente por el vado por donde cruzamos y el agua estaba helada. Afortunadamente, Charlotte nos explicó lo que teníamos que hacer y pudimos cruzar a la otra orilla sin apenas problemas. Desde luego, día a día la acechadora caída va recuperando su condición de prestigio con el sudor de su frente. Ojalá pronto disfrute de sus antiguos privilegios de nuevo.~
+@50114 = ~Clase Explorador:  Charlotte
+
+La acechadora caída Charlotte, y yo, volvimos a las aguas del Chionthar para ver como se había recuperado la zona.  Al parecer las cosas han vuelto a la normalidad y eso son buenas noticias. El veneno de belladona que se vertió a las aguas fue una cantidad pequeña y el impacto originado en la vida salvaje y en las comunidades a lo largo del río es casi inapreciable. Indudablemente, la exploradora caída ha dado un paso de gigante en cuanto a recuperar su clase de prestigio se refiere.~
+@50208 = ~Clase Explorador Recuperada:  Charlotte
+
+Charlotte ha recuperado su estatus original de prestigio como exploradora acechadora. Me alegro por ella.~
+
+//CHARLOT0.D
+@50115 = ~¡El Rio Chiontar envenenado!
+
+Tras conocer a una exploradora caída y a su mascota, un león, averiguamos que el poderoso río que desciende desde el norte, el Chiontar, había sido envenenado por un ogro. El ogro, llamado Narulf, no tenía muchas luces y había sido adiestrado y mandado por su jefe a lanzar botellas de belladona -veneno- al río.  Afortunadamente, la ex-exploradora trató de ayudarnos a la recuperación de la zona y parece que el entorno se reestablecerá por si solo más tarde o más temprano. Desgraciadamente, los animales salvajes autóctonos están enfermos de rabia y no creo que corran la misma suerte. Quizá debamos volver otro día para ver como evoluciona todo.~
+
+//CB232CLU.D
+@50200 = ~Espía en Soubar:
+
+Parece ser que las sospechas del Comandante iban bien encaminadas.  En efecto había un espía en Soubar, y se ha demostrado que no era otro que el chico que rescaté de la granja vilipendiada, Charlie. Lamentablemente cuando me dirigí a arrestarlo apareció Rolf Hojacertera en persona y lo rescató; a duras penas pude sobrevivir al encuentro.~
+@50202 = ~Granjas vilipendiadas
+
+Mientras luchábamos con los bandidos en una granja al norte de Soubar, encontré un niño llamado Charlie. Al parecer el crío logró escapar de los bandidos y eludir la muerte escondiéndose en un huerto de tomates de las inmediaciones. Dice que vió lo que le pasó a su familia cuando los bandidos atacaron su casa, pero no parece estar traumatizado.   Por otro lado, no ví ningún otro superviviente en la zona ni tampoco hay rastro de los milicianos perdidos.  No sé si éstos habrán pasado de largo o si habrán sido emboscados, pero debo regresar a Soubar e informar de lo que sea al Comandante.~
+
+//CBWILLMA.D
+@50201 = ~Los problemas de Sir William
+
+Al parecer Selence Estrelladelmonte descubrió a uno de los nobles más importantes de Athkatla en una situacion bastante comprometida. No sé lo que opinará el interfecto, pero por lo que a mí respecta, tengo que pedirle una compensación económica, chantajearle o robarle, si quiero contentar a la ladrona. Afortunadamente, tengo la llave de la caja fuerte del "deudor" en mi poder, luego si las cosas se ponen feas, no debería resultarme demasiado dificíl hacerme con los fondos. El dinero es la única solución admitida por Selence para mantener su boca cerrada.~
+
+//CBLDBUCK.D
+@50203 = ~La Mansión de Lord Bucko ManoMartillo
+
+La aniquilación de la plaga de hombres-lobo que azotaba la mansión de Bucko fue todo un éxito. No creo que los monstruos vuelvan, pero por si acaso, no estaría de más regresar a la zona algún día.~
+
+//CBISSON1.D
+//CBCUTDF2.D
+@50204 = ~¿Otro vástago de Bhaal?
+
+¿Será posible? Hoy trabé contacto con un hechicero en el local de Vyatri de Caravasar. Se llamaba Ceeb Isson. Parecía un poco desquiciado, pero sabía cosas acerca de mí.  Me dijo que la sangre de Bhaal también bullía en sus venas y que había conocido a unos individuos que estaban buscando a alguien de nuestra estirpe. ¿Será cierto? Tanto si lo es como si no, intuyo que pronto lo averiguaré.~
+
+//TOMASTOJ.D
+@50205 = ~Ratas Ratas Ratas
+
+Un mercader de Athkatla se ha cogido la tarde libre y ha debido toparse con una flauta de las cloacas por pura casualidad. Ha estado tocándola durante un tiempo y ha atraído cientos de ratas a la ciudad. Por fortuna pude convencerle de que abandonara su afición musical y regresó a su comercio. Las ratas han perdido la atracción que sentían por el flautista, y con un poco de suerte, pronto se dispersarán.~
+
+//TOMASTO1.D
+@50206 = ~Tomas persigue a un semiorco llamado Hojacertera. Al parecer asesinó a algún pariente o amigo suyo.~
+
+//SELENCE.D
+@50207 = ~Finalmente Selence cumplió su palabra
+
+Selence Estrelladelmonte, la contrabandista/perista de Athkatla, por fín me pasó la información prometida. Eso si, a su manera. Si sus palabras fueron ciertas, tengo en mi poder una llave que me dará acceso a sus aposentos privados en una de las posadas más famosas de la ciudad. Teóricamente, allí encontraré las indicaciones necesarias para contactar con sus socios.
+
+Por otra parte, la Perista tuvo un gesto de gratitud inesperado. No solo me ofreció la posibilidad de seguir trabajando para ella en un futuro, sino que además, me comentó algo de unirse a mi grupo. Al parecer posee una habitación propia en El Regalo del Mar, luego si alguna vez quiero volver a verla, ya se a donde acudir.~
+
+//////////////////////////////////////////////////////////
+// Fixing invalid dialog.tlk strings (BG1 part mostly)
+//////////////////////////////////////////////////////////
+@9048  = ~Ahh sí, la... ahh...cuenta. Um... otra cerveza, jovencita, y os tendré los fondos preparados cuando volváis.~ [VOLOO01]
+@9087  = ~ Pertenecéis a un pueblo algo estrafalario como para vagar por aquí.~ [HALFL02]
+@9088  = ~ Ojalá tuviera mi vieja pipa.~ [HALFL04]
+@9089  = ~ Bastante de mal humor estoy sin necesidad de que me importunéis~ [DWARF03]
+@9090  = ~ -burp- Tengo que dejar de remojarme en mi cerveza.~ [BARTN03]
+@9091  = ~ No sois mercenarios, ¿verdad? Odio a esa escoria que escarba en busca de dinero.~ [INNKE04] ~[INNKEEPER 4] No sois mercenarios, ¿verdad? Odio a esa escoria que escarba en busca de dinero.~ [INNKE04]
+@9112  = ~ No me toquéis... sois inmundo.~ [NOBw202] ~[NOBLEWOMAN TWO 2]  No me toquéis... sois inmundo.~ [NOBw202]
+@9131  = ~¡YO soy la Ley!~ [FLAMN02]
+
+
+//////////////////////////////////////////////////////////
+// SCRIPTS
+//////////////////////////////////////////////////////////
+@10000 = ~Has conseguido atar ambos extremos de la cuerda a ambos lados del río. Ahora hay un puente improvisado que puede resultar muy útil.  En teoría ya se puede cruzar el Chiontar sin perder el equilibrio y caerse. La corriente y demás incovenientes ya no deberían suponer ningún problema.~
+@10001 = ~El equipo de la catapulta empiezan a cargar brea ardiendo.~
+@10002 = ~El equipo de la catapulta tensa la cuerda y arma el brazo de la catapulta.~
+@10003 = ~El equipo de la catapulta lanza una bola de brea ardiendo.~
+@10004 = ~¡No dejéis el flanco desprotegido!~
+@10005 = ~¡Cortad hacia abajo, y seguid la trayectoria hasta el final!~
+@10006 = ~Fijáos en el ángulo de contacto de vuestra espada.~
+@10007 = ~No está mal.~
+@10008 = ~Apuntad un poco mas arriba del objetivo, si no la flecha volará demasiado rasante y no podrá describir la parábola necesaria para superar los obstáculos.~
+@10009 = ~¡Disparad las flechas más rapido, soldados!~
+@10010 = ~Mantened la cuerda pegada a vuestra cara.~
+@10011 = ~Buen trabajo, soldados.~
+@10012 = ~Cortad recto.~
+@10013 = ~Mantened los arcos tensos.~
+@10014 = ~Mantened la espada firme y acompañad el golpe.~
+@10015 = ~Buena ejecución.~
+@10016 = ~¡Directo hacia el objetivo!~
+@10017 = ~¡Controla la maniobra, soldado!~
+@10018 = ~¡Apuntad a los puntos vitales!~
+@10019 = ~Despues de doblar la esquina, el camino se vuelve oscuro como la boca del lobo. Tus experiencias anteriores te han enseñado a desconfiar de lugares como este.~
+@10020 = ~Miras a tus compañeros con una mirada pensativa y asientes. Cada uno de vosotros ya se ha enfrentado a la muerte anteriormente y todos pensáis lo mismo: esta vez podria ser el fin.~
+@10021 = ~Pero no tienes porqué detenerte. Puedes continuar enfrentándote a los desafios con la cabeza bien alta o retirarte con el rabo entre las piernas.~ ~Pero no tienes porqué detenerte. Tienes dos opciones: continuar enfrentándote a lo que te espere o retroceder.~
+@10022 = ~Tenemos demasiado lío. Necesitamos más ayuda.~
+@10023 = ~Ya hemos despejado algunas mesas, Oscar. Puedes sentar ahí a los clientes.~
+@10024 = ~Todas las mesas están recogidas, Oscar. Puedes decir a la gente que se siente si quiere.~
+@10025 = ~Oscar, los platos ya están limpios y secos. Voy a descansar un rato.~
+@10026 = ~¿Puedo traerles algo?~
+@10027 = ~Pescado blanco, una fuente de queso, algo de pan y una cerveza.~
+@10028 = ~Se lo diré a Oscar. Vuelvo en un minuto.~
+@10029 = ~Unas costillas y vino, por favor.~
+@10030 = ~Más platos sucios.  Aquí tienes.~
+@10031 = ~Genial.  Lávalos.~
+@10032 = ~¡Atacad!  ¡Seguid disparando!~
+@10033 = ~¡Seguid disparando y no entrarán!~
+@10034 = ~No os preocupéis, chicos. La hicimos fuerte. ¡Aguantará!~
+@10035 = ~¡Hombres! ¡Los tenemos donde queríamos!  ¡No pueden pasar!~
+@10036 = ~¡Hombres!  ¡Necesitamos elevar la puerta!  ¡Poned algunos hombres en las manivelas!~
+@10037 = ~¡Se está debilitando!  ¡Mas rápido, chicos!~
+@10038 = ~¡La puerta!  ¡Se va a derrumbar!  ¡Arqueros, a los flancos!  ¡Alabarderos!  ¡ADELANTE!~
+@10039 = ~¡Oloth plynn dos!~
+@10040 = ~¡Hlaund ulu usstan!~
+@10041 = ~¡Khaless nau uss!~
+@10042 = ~¡Por Quarval-sharess!~
+@10043 = ~¡Usstan streea!~
+@10044 = ~¡Silencio, soldado! Oigo ruidos.~
+@10045 = ~¿Cómo?, ¿Dónde?~
+@10046 = ~Allí, sobre el cerro. ¿Lo ves?~
+@10047 = ~¡Bandidos!, ¡debemos avisar a los demás! No son demasiados, pero están muy bien armados.~
+@10048 = ~¡Liquida tantos como puedas, pero si se acercan demasiado, retírate!~
+@10049 = ~¡Retirada! ¡Vamos, ocúltémonos entre la maleza! ¡¡Volvamos a Soubar!!~
+@10050 = ~¡Los túneles se estan derrumbando!  ¡Si quieres salvar tu vida, corre!~
+@10051 = ~La orilla Este del río es empinada, pero hay muchas raíces y rocas sueltas a las que uno puede agarrarse si necesita descenderla, luego puedes bajarla a gatas si eres habilidoso.~
+@10052 = ~Intentas descender por el lado este del Chionthar pero pierdes el equilibrio y caes.~
+@10053 = ~La orilla Este del río es empinada, pero hay muchas raíces y rocas sueltas a las que uno puede agarrarse si necesita escalarla, luego puedes trepar por ella si eres habilidoso.~
+@10054 = ~Intentas escalar el margen del Chionthar, pero resbalas y caes a las frías aguas.~
+@10055 = ~Se une a tu red de ladrones.~
+@10056 = ~Una vez más tu influencia en el mercado negro ha conseguido atraer a un nuevo ladrón a tu gremio. Ganas un contacto adicional en tu red de ladrones. Tu nuevo contacto será tu aliado, pero no te jurará fidelidad a menos que le trates adecuadamente. Tampoco te seguirá si te trasladas, pero te ayudará en lo posible si sabe que lo necesitas.~
+@10057 = ~Al parecer Ribald el Truequista ha descubierto que su tienda ha sido asaltada desde esta parte del Mercado del Aventurero. Ha contratado albañiles y ha tapado el agujero con bloques de argamasa y mortero. Lamentablemente, ya no se puede subir al desván sin un hechizo de Piedra a Barro, un hechizo de Atravesar Muro o un buen equipo de excavacion. Desde luego, no resultará fácil regresar a la escena del crimen con todo el jaleo que se montó.~
+@10058 = ~¡SARN!  ¡SREEN!  ¡THALACKZ'HIND!  ¡QUARVAL-SHARESS ORTHAE SSUSSUN ELGG!~
+@10059 = ~De acuerdo, caballeros.  Necesitamos que la Alianza de los Señores nos ayude.~ 
+@10060 = ~Sin ellos, no podremos resistir a un asedio de los bandidos de Lyrar.~ 
+@10061 = ~Hemos contactado con Piergeron y los señores de Aguas Profundas, Alcalde. No parecen dispuestos a colaborar.~ 
+@10062 = ~No, Gaius, eso no es totalmente cierto.  Simplemente tienen que velar por sus propios intereses. Los rumores de guerra en el sur les coartan, ellos no tienen la culpa. No podemos hacer nada al respecto.~ 
+@10063 = ~Debemos encontrar a alguien que no este trabado por cuestiones políticas.~ 
+@10064 = ~¿Acaso las arcas de la ciudad no pueden permitirse contratar a más soldados? ¿Mercenarios de baja ralea, quizás?~ 
+@10065 = ~Es imposible. Soubar no puede permitirse ni siquiera eso, Alcalde.~ 
+@10066 = ~¿Ni siquiera eso? ¿NADA? ¿Lo dices por los víveres? Soubar perecerá de todos modos si no movemos un dedo.~ 
+@10067 = ~¿Entonces que sugerís, Alcalde Melandor?~ 
+@10068 = ~La verdad, no lo sé...; Arvin, amigo mío. ¿Tienes alguna sugerencia?~ 
+@10069 = ~¿Por qué no uno de los Vástagos de Bhaal de Tethyr?~ 
+@10070 = ~¿Estás loco? ¿Un Hijo de Bhaal de Saradush en Soubar?~ 
+@10071 = ~No, no podemos correr semejante riesgo. No podemos traer a un Engendro del Dios del Asesinato a nuestras tierras. Podría ser peor el remedio que la enfermedad.~ 
+@10072 = ~Ah, mi buen y orondo "alcalde".  Que agradable verte de nuevo.~
+@10073 = ~¡¡Tú!! ¡¿Cómo te atreves?! ¿¡Cómo te atreves a profanar nuestras tierras y nuestra reunión secreta!? ¿¡A qué has venido!? ¡¡No eres bienvenido aquí!!~ 
+@10074 = ~Jajaja.. pronto lo seré. Pero contestando a tu pregunta, vengo a darte otra oportunidad. No quiero violencia, al menos nó si no es estrictamente necesaria.  Ya sabes... deseo agotar la vía diplomática. Podemos zanjar este asunto de un modo civilizado.~
+@10075 = ~Estás son mis condiciones: entrégame Soubar y seré clemente. No sufriréis la misma suerte que Triel.~
+@10076 = ~¡Nunca! ¡No claudicaré! ¡Eres un monstruo sibilino y aberrante!~ 
+@10077 = ~Ahh.. cometes un grave error, Sirrus.  Uno que tus harapientos aldeanos pagarán MUY caro.~
+@10078 = ~¡Fuera de aquí, bastardo semiorco!  Libra a nuestra presencia de tu hedor... No nos intimidarás. Sólo eres un reptil sin entrañas de la peor especie.~ 
+@10079 = ~Cálmate, Gaius.  Mantengamos las formas por el momento.~ 
+@10080 = ~Arvin tiene razon, Alcalde.  Lo he reconsiderado.  Creo que su sugerencia es nuestra única salida.  Debemos hacerlo.~ 
+@10081 = ~Gracias, Lord Varros, agradezco vuestro apoyo.  Mañana partiremos juntos y traeremos a UNO. No volveremos con las manos vacías, lo juro.~ 
+@10082 = ~Muy bien.  Ahora sacad a esta... a esta cosa fuera de mi vista.  Su presencia es un insulto para la dignidad de Soubar.~ 
+@10083 = ~Tened cuidado en vuestro viaje, Arvin.  No podemos permitirnos fallar.  Cueste lo que cueste, debemos tener éxito en nuestra misión.~ 
+@10084 = ~¡Por los senos de Beshaba!  ¿¡¿Dónde estan mis hombres?!?~
+@10085 = ~¡No saldrás vivo de mi castillo, <CHARNAME>!~ ~¡No saldrás viva de mi castillo, <CHARNAME>!~
+@10086 = ~¡Ven, descendiente de Baal, te espero en mis aposentos!~
+@10087 = ~¡Refuerzos! ¡Vamos!~
+@10088 = ~¡Consigue refuerzos, soldado!~
+@10089 = ~¿Dónde esta aquél que se hace llamar <CHARNAME>?~ ~¿Dónde esta aquélla que se hace llamar <CHARNAME>?~
+@10090 = ~¡Si nos lo entregáis, terminarán los castigos para el pueblo!~ ~¡Si nos la entregáis, terminarán los castigos para el pueblo!~
+@10091 = ~¡Hojacertera quiere la cabeza de <CHARNAME>!~
+@10092 = ~¡100 monedas de oro a quien desenmascare a <CHARNAME>!~
+@10093 = ~¡Si no os volvéis en su contra, mataremos a cada hombre, mujer y niño!~
+@10094 = ~¡Entregadnos a <CHARNAME> ahora!~
+@10095 = ~¡Cubridme!  ¡Matadlos!~
+@10096 = ~Encontraré a nuestros hombres.~
+@10097 = ~Espera.  Te sacaremos de aqui enseguida.~
+@10098 = ~Vamos.  Hojacertera quiere tener una charla contigo.~
+@10099 = ~Buenos días.  Si necesita algo de la Espada Cantarina, hágamelo saber.~
+@10100 = ~Bienvenido a la Espada Cantarina.  Si necesita cualquier cosa, simplemente pídala.~
+@10101 = ~¿Dónde están los "hijos pródigos" de Soubar?~
+@10102 = ~Necesitamos más provisiones y soldados.~
+@10103 = ~Que los Dioses nos protejan.~
+@10104 = ~Afortunadamente todo esto acabará pronto.~
+@10105 = ~Los bandidos han saqueado Triel.~
+@10106 = ~Espero que los bandidos no vuelvan más.~
+@10107 = ~Estoy seguro de que pronto llegaran provisiones y suministros.~
+@10108 = ~¿A qué demonios juega Melandor? ¿Por qué no trae más soldados?~
+@10109 = ~¿De dónde demonios están viniendo esas ratas?~
+@10110 = ~¡Talona ha enviado a sus siervos a Athkatla! ¡La Señora de la enfermedad nos invade!~
+@10111 = ~Malditas ratas, ¡están por todas partes!~
+@10112 = ~Si las calles se limpiasen de vez en cuando, no habría ratas.~
+@10113 = ~Haz click de nuevo en el tronco del árbol para atarle la cuerda alrededor y hacer un puente provisional.~
+@10114 = ~Atas un extremo de la cuerda de cáñamo alrededor del tronco del árbol de la orilla este.  Ahora deberías atar el otro extremo al otro lado.~
+@10115 = ~¡Ladrona!  ¿Cómo te atreves?  ¡Devuélveme el dinero!~
+@10116 = ~¿Qué?  ¿Robarte?  ¿Qué podrías tener tú que fuese de valor para mi?  Largo de aquí, chusma, antes de que llame a la guardia.~
+@10117 = ~¡Mientes! Informaré a las autoridades. Vas a ver tú lo que es bueno.~
+@10118 = ~Claro, como que van a escuchar a un simple transeúnte. Já.~
+@10119 = ~Hmpf. No te puedes fiar de los militares. Más vale que guardemos nuestras pertenencias a buen recaudo o nos las confiscarán todas en un abrir y cerrar de ojos.~
+
+////////////////////////////////////////////////////////////////////////
+// TP2
+///////////////////////////////////////////////////////////////////////
+@20000 = ~Shadows Over Soubar~
+@20001 = ~Registrando GUI...~
+@20003 = ~ Baldur's Gate<TM> y Tales of the Sword Coast<TM> o Jugar~
+@20004 = ~"Tortured Souls"~
+@20005 = ~%separator%"The Darkest Day"~
+@20006 = ~%separator%"Shadows Over Soubar"~
+@20007 = ~ con la nueva expansión(es): ~
+@20008 = ~%separator%"Neverending Journey"~
+@20009 = ~%separator%"Big Picture"~
+@20010 = ~%separator%"Check The Bodies"~
+@200101 = ~%separator%"Region Of Terror"~
+@20011 = ~Juega%bgt%Shadows of Amn<TM>%separator2%%ts%%tdd%%sos%%nej%%bp%%ctb%%rot%~
+@20012 = ~Corrigiendo entradas de texto erroneas...~
+@20013 = ~Actualizando mapa del mundo...~
+@20014 = ~Bosque de las Serpientes~
+@20015 = ~Montañas Trolls~
+@20016 = ~Eshpurta~
+@20017 = ~Entrada al Salon del Conocimiento~
+@20018 = ~Riatavin~
+@20019 = ~Bosque Profundo de Mir~
+@20020 = ~Bosque Poseído~
+@20021 = ~Vado del Troll~
+@20022 = ~Torre Orgoth~
+@20023 = ~Purskal~
+@20024 = ~Entrada del Escarabajo Mohoso~
+@20025 = ~Rio Chionthar~
+@20026 = ~Parcheando reglas (2DA, IDS)...~
+
+@20028 = ~Legado de Amaunator~
+@20029 = ~Rayo solar~
+@20030 = ~Aliento de Auril~
+@20031 = ~Cono de Frío~
+@20032 = ~Cinismo~
+@20033 = ~Encontrar Trampas~
+@20034 = ~Apertura~
+@20035 = ~Beso del HelechoEscarcha~
+@20036 = ~Tormenta de venganza~
+@20037 = ~Acción libre~
+@20038 = ~Borrosidad~
+@20039 = ~Imagen espejada~
+@20040 = ~Ceguera~
+@20041 = ~Rociada de Color~
+@20042 = ~Capa de miedo~
+@20043 = ~Bastón del Demonio~
+@20044 = ~Invocar Tanar'ri~
+@20045 = ~Transformación en el Asesino~
+@20046 = ~Filo Infernal:  Devoravidas~
+@20047 = ~Celeridad~
+@20048 = ~Filo Infernal:  Drenadora de Almas~
+@20049 = ~Protección contra el Plano Negativo~
+@20050 = ~Filo Infernal: Devoradora de Almas~
+@20051 = ~Transformación de Tenser~
+@20052 = ~Filo Infernal:  Succionadora de Almas~
+@20053 = ~Globo Menor de Invulnerabilidad~
+@20054 = ~Filo Infernal:  Desolladora de Almas~
+@20055 = ~Piel pétrea~
+@20056 = ~Filo Infernal:  Aniquiladora de Almas~
+@20057 = ~Horror neblinoso~
+@20058 = ~Espada Hambrienta~
+@20059 = ~Símbolo de la Muerte~
+@20060 = ~Furia Bárbara~
+@20061 = ~Ojo de mago~
+@20062 = ~Curar Ceguera~
+@20063 = ~Detectar la invisibilidad~
+@20064 = ~Bastón Nigromántico~
+@20065 = ~Curar heridas graves~
+@20066 = ~Reanimar a los muertos~
+@20067 = ~     Las granjas al norte de Soubar suelen ser sitios tranquilos y agradables. Cualquiera puede relajarse sentado bajo un gran roble o tomar el sol junto a una pequeña charca. Desgraciadamente, con los problemas del Valle Chionthar, las redondeadas colinas en las que se cultivan largas hileras de plantas, pastos vivificantes o grandes arboledas de árboles frutales, ya no son un lugar seguro de visitar. Los bandidos del Bastión de Lyrar han arrasado algo más que un pequeño edificio y desde tu posición puedes divisar una nube de humo negro procedente de una larga extensión de terreno incendiada.
+     Al penetrar en los pastos de una granja saqueada reciéntemente, la peste de los animales pudriéndose es claramente perceptible en el aire. En la distancia, desde tu escondite sobre la colina, aún puedes disivar algunos bandidos registrando los escasos bienes que quedan en pie. No hay supervivientes inocentes a la vista, asi que rogas a los dioses para que al menos uno o dos campesinos estén escondidos y hayan salidos ilesos.~
+@20068 = ~HOJACERTERA DERROTADO:
+
+   Echas una breve ojeada a la habitación de la torre más alta de la Fortaleza de Lyrar: el cuarto es un desastre: manchas de sangre creando dibujos siniestros por las paredes, el mobiliario destrozado, trozos de armaduras de placas adornando el suelo...
+   Ha sido una batalla monumental, una que probablemente recordarás el resto de tus días sobre Faerún. La contienda con Rolf Hojacertera te trae a la mente otras batallas épicas que has librado, como por ejemplo la que lidiaste contra Sarevok en Puerta de Baldur, la primera vez que te encontrastes con un gnoll poco después de abandonar Candelero, el encuentro con el Caballero Demonio en las profundidades de la mazmorra de la Torre de Durlag, la primera vez que cazastes un dragón peleando contra luchadores y magos del Culto Del Dragón, o cuando saliste de la Infraoscuridad con los drows pisándote los talones.
+   Tus gestas te han llevado a muchos lugares exóticos y fantásticos, y has conocido a todo tipo de gente; buena, mala.. de toda clase y condición. 
+   Apoyándose firmemente sobre en el mango de tu arma, Rolf yace muerto a tus pies. Con su desaparición, Soubar y todo el Valle Chionthar pueden volver a respirar tranquilos. Sin un líder que los guíe en sus actos de opresión, los bandidos que quedan no tardarán mucho en dispersarse. Sólo te queda una tarea por hacer: informar de tus acciones al Comandante. Probablemente no te llevará demasiado tiempo, y para entonces esperas que te releven de tu puesto y puedas continuar con tus aventuras por Amn o Tethyr.~
+@20069 = ~Instalando dialogos...~
+@20070 = ~Parcheando areas y scripts originales del BG2...~
+@20071 = ~El Mercado del Aventurero cierra por las noches. Tienes que esperar a que abra por la mañana.~
+@20072 = ~Instalando nuevos scripts...~
+@20073 = ~Instalando nuevas areas...~
+@20074 = ~Las telarañas, naturales y no naturales, hacen que el acceso al lugar sea dificil.~
+@20075 = ~Club Social de Soubar~
+@20076 = ~El Narval~
+@20077 = ~Barracones de la Guardia de Soubar~
+@20078 = ~Ayuntamiento de Soubar~
+@20079 = ~Sala de Lectura de Chauntea~
+@20080 = ~Hacia la Fortaleza de Lyrar~
+@20081 = ~Hacia el Río Chionthar~
+@20082 = ~Noche~
+@20083 = ~Dragon rojo sobre Ansalon~
+@20084 = ~La Caída de Istar~
+@20085 = ~Arte Abstracto~
+@20086 = ~Aquí hay sacos, barriles, contenedores con alimentos imperecederos y diversos bienes. A simple vista, esta parte de la prisión de Soubar se usa como almacen para emergencias.~
+@20087 = ~Fortaleza de Lyrar~
+@20088 = ~Esta es una estatua de Tiqué o quizás de una diosa de la fortuna aún más antigua. Preside la arqueta de Lyrar.~
+@20089 = ~Todas estas altas estatuas parecen representar una figura vestida con túnicas y rostro austero.~
+@20090 = ~Instalando criaturas...~
+@20091 = ~Bolivar~
+@20092 = ~¿Sí?~ [CBBOL_16]
+@20093 = ~Para eso estamos~ [CBBOL_01]
+@20094 = ~¿Qué? ¿Crees que nuestros enemigos van a ir detrás de nosotros?~ [CBBOL_13]
+@20095 = ~Entonces tomaré la delantera.~ [CBBOL_09]
+@20096 = ~Ya he tenido bastante diversión por hoy.  Es hora de dormir.~ [CBBOL_11]
+@20097 = ~Ya basta. Vamos a trabajar.~ [CBBOL_12]
+@20098 = ~Te partiré en dos.~ [CBBOL_04]
+@20099 = ~¡Ven pa'aca miserable!~ [CBBOL_05]
+@20100 = ~¡Muere!~ [CBBOL_06]
+@20101 = ~Lavaré mi barba con tu sangre.~ [CBBOL_07]
+
+@20103 = ~No puedo seguir...~ [CBBOL_15]
+@20104 = ~Necesito un sanador.~ [CBBOL_14]
+@20105 = ~Ooh sí, cuando todo lo demás falla, pon al enano al frente.~ [CBBOL_08]
+@20106 = ~En realidad no tienes ni idea, ¿verdad?~ [CBBOL_30]
+@20107 = ~¿Huh?~ [CBBOL_17]
+@20108 = ~Estoy aquí.~ [CBBOL_18]
+@20109 = ~¿Mmm?~ [CBBOL_19]
+@20110 = ~¿Sí?~ [CBBOL_21]
+@20111 = ~Te he oído.~ [CBBOL_22]
+@20112 = ~Está bien, sigue así.~ [CBBOL_31]
+@20113 = ~De acuerdo entonces.~ [CBBOL_24]
+@20114 = ~Observa como me muevo.~ [CBBOL_25]
+@20115 = ~Tan fácil como sacudirle a un goblin.~ [CBBOL_29]
+@20116 = ~Vale.~ [CBBOL_27]
+@20117 = ~¿Eso es todo?~ [CBBOL_28]
+@20118 = ~Ahora descansa, valiente amigo.~ [CBBOL_39]
+@20119 = ~No serás olvidado.~ [CBBOL_40]
+@20120 = ~¿¿Eso es lo mejor que sabes hacer??~ [CBBOL_34]
+
+@20122 = ~Espero que te ahogues en esa cosa.~ [CBBOL_33]
+@20123 = ~Malditos sean tus ojos.~ [CBBOL_32]
+@20124 = ~Es inútil.. ¡huyamos!~ [CBBOL_02]
+@20125 = ~BOLIVAR es un enano de complexión respetable con una altura y peso medianos. No es algo fuera de lo común, pero tiene aptitudes de sobra para el combate. Odia charlar y suele contestar las preguntas con gruñidos y eructos. Su pasado es indefinido, pero su personalidad salta a la vista. Es el arquetipo del enano típico de Faerûn: gruñón, rudo, conciso, y a menudo también, borracho. Esto no sería tan preocupante de no ser por la mala costumbre que tiene de beber TODO cuanto se encuentra a su paso, especialmente vino fermentado.
+
+Tímido, lacónico y abrupto al mismo tiempo, con frecuencia es difícil discernir el estado real en que se encuentra tu pequeño compañero. En todo caso, enseguida has aprendido que por lo general, es mejor no intentar averiguarlo.~
+@20126 = ~Bandido Orco~
+@20127 = ~Bandido~
+@20128 = ~Líder de Patrulla~
+@20129 = ~Charlie~
+@20130 = ~Vaca~
+@20131 = ~Aventurero~
+@20132 = ~Caballo~
+@20133 = ~Mediano Ladrón~
+@20134 = ~Campesino de Soubar~
+@20135 = ~Gato~
+@20136 = ~Guerrero~
+@20137 = ~Capitán de Soubar~
+@20138 = ~Catapultero (Primer Escuadrón)~
+@20139 = ~Catapultero~
+@20140 = ~Catapultero (Segundo Escuadrón)~
+@20141 = ~Aldeano de Triel~
+@20142 = ~Gnoll~
+@20143 = ~Guerrero gran trasgo~
+@20144 = ~Arquero orco~
+@20145 = ~Troll~
+@20146 = ~Fregadero~
+@20147 = ~Doncella~
+@20148 = ~Tratante de Vinos~
+@20149 = ~Edward~
+@20150 = ~Erdane~
+@20151 = ~Reyna~
+@20152 = ~Comandante de Soubar~
+@20153 = ~Bandido Arquero~
+@20154 = ~Guardia de la puerta~
+@20155 = ~Entrada del Castillo~
+@20156 = ~Bandido Gigante~
+@20157 = ~Alduvar Marcanevada: Mago de Hojacertera~
+@20158 = ~Alduvar Marcanevada~
+@20159 = ~Narulf~
+@20160 = ~Lord Arvin Kothonos: Mago de Soubar~
+@20161 = ~Arvin Kothonos~
+@20162 = ~ ¡Son demasiado poderosos! ¡Retirada!~ [ILLASE06] ~[ILLASE 06] ¡Son demasiado poderosos! ¡Retirada!~ [ILLASE06]
+@20163 = ~ ¡Morid, estúpidos!~ [ILLASE02] ~[ILLASE 02] ¡Morid, estúpidos!~ [ILLASE02]
+@20164 = ~ ¡Asesinos Rojos!~ [ILLASE03] ~[ILLASE 02] ¡Asesinos Rojos!~ [ILLASE03]
+
+@20167 = ~ No te interpondrás en mi camino.~ [ILLASE01] ~[ILLASE 01] No te interpondrás en mi camino.~ [ILLASE01]
+@20168 = ~Soldado de Amn~
+@20169 = ~Legionario amniano~
+@20170 = ~¡Bueno, Yaga-Shura no se ha encontrado con armas como las que esgrimo!~
+@20171 = ~Muerto viviente de Bane~
+@20172 = ~Liche de Bane~
+@20173 = ~Liche de Bane Indestructible~
+@20174 = ~Hombre Lobo Líder~
+@20175 = ~Calavera Ardiente~
+@20176 = ~Pastor de Chauntea~
+@20177 = ~Oso pardo~
+@20178 = ~León moteado~
+@20179 = ~Lobo~
+@20180 = ~Explorador~
+@20181 = ~Guardia de Soubar~
+@20182 = ~Dragón de las Profundidades: Draco~
+@20183 = ~Dragón de las Profundidades~
+@20184 = ~Dragón de las Profundidades: Humanoide~
+@20185 = ~Dragón de las Profundidades: Sierpe~
+@20186 = ~Berta Bucko~
+@20187 = ~Sacerdotisa Draña~
+@20188 = ~Cazadora Draña~
+@20189 = ~Hechicero Draña~
+@20190 = ~Lanzador de Dardos~
+@20191 = ~Diana~
+@20192 = ~Guerrero drow~
+@20193 = ~Sierva Mayor de Lolth~
+@20194 = ~Gran Sierva~
+@20195 = ~Suma Sacerdotisa de Lolth~
+@20196 = ~Suma Sacerdotisa~
+@20197 = ~Mago drow~
+@20198 = ~Gaius Varros:  Paladin de Soubar~
+@20199 = ~Gaius Varros~
+@20200 = ~Demonio de Hueso Mayor~
+@20201 = ~Bandido~
+@20202 = ~Ceeb Isson~
+@20203 = ~ ¡Hermanos de la Vigilia, retiraos!~ [ODREN06] ~[ODREN 06] ¡Hermanos de la Vigilia, retiraos!~ [ODREN06]
+@20204 = ~ ¡Por la gloria de Helmo!~ [ODREN02] ~[ODREN 02] ¡Por la gloria de Helmo!~ [ODREN02]
+@20205 = ~ ¡Helmo guía mi mano!~ [ODREN03] ~[ODREN 03] ¡Helmo guía mi mano!~ [ODREN03]
+
+@20208 = ~ Que Helmo te proteja.~ [ODREN01] ~[ODREN 01] Que Helmo te proteja.~ [ODREN01]
+@20209 = ~Ken Baker~
+@20210 = ~Lord Bucko ManoMartillo~
+@20211 = ~Lord Bucko~
+@20212 = ~Avatar de Lolth~
+
+@20217 = ~ ¿Osas acercarte, mortal?~ [DEMOG01] ~[DEMOG 01] ¿Osas acercarte, mortal?~ [DEMOG01]
+@20218 = ~Lolth, la Reina Araña~
+@20219 = ~Lolth~
+@20220 = ~Leeta Bucko~
+@20221 = ~Sello mágico~
+@20222 = ~Carcelero~
+@20223 = ~Lobo Rabioso~
+@20224 = ~Venado Rabioso~
+@20225 = ~Venado Rabioso~
+@20226 = ~Rolf HojaCertera:  Señor de los Bandidos~
+@20227 = ~Rolf Hojacertera~
+@20228 = ~ ¡Qué divertido! ¡Ja!~ [GROM02] ~[GROM 02] ¡Qué divertido! ¡Ja!~ [GROM02]
+@20229 = ~ ¡Estúpidos por enfrentarse a mí!~ [GROM03] ~[GROM 03] ¡Estúpidos por enfrentarse a mí!~ [GROM03]
+
+@20231 = ~ N-no... es posible...~ [GROM05] ~[GROM 05] N-no... es posible...~ [GROM05]
+@20232 = ~Portadora del Alba Alvanna~
+@20233 = ~Flautista~
+
+@20237 = ~Sargento de Soubar~
+@20238 = ~Mujer bañandose~
+@20239 = ~Berde Cedmac~
+@20240 = ~Johan Branding~
+@20241 = ~Ludwig Kross~
+@20242 = ~Oscar Kerlin~
+@20243 = ~Marie Moorland~
+@20244 = ~Eryn Lashir~
+@20245 = ~Winthrop~
+@20246 = ~Auberigine~
+@20247 = ~Voron Lashir~
+@20248 = ~Soubariano dormido~
+@20249 = ~Forel Lashir~
+@20250 = ~Challot~
+@20251 = ~Gaolla Lashir~
+@20252 = ~Susan Branding~
+@20253 = ~Jill Ann Kross~
+@20254 = ~Laura Kross~
+@20255 = ~Karl Kross~
+@20256 = ~Taxidermista~
+@20257 = ~Fabricante de jabón~
+@20258 = ~Carnicero~
+@20259 = ~Carretero~
+@20260 = ~Pescadero~
+@20261 = ~Perfumero~
+@20262 = ~Contable~
+@20263 = ~Boticario~
+@20264 = ~Panadero~
+@20265 = ~Barbero~
+@20266 = ~Cervecero~
+@20267 = ~Barquero~
+@20268 = ~Zapatero~
+@20269 = ~Florista~
+@20270 = ~Orfebre~
+@20271 = ~Sanador~
+@20272 = ~Lapidario~
+@20273 = ~Comerciante de madera~
+@20274 = ~Albañil~
+@20275 = ~Cambiador de Divisas~
+@20276 = ~Alfarero~
+@20277 = ~Sabio~
+@20278 = ~Profesor~
+@20279 = ~Fabricante de herramientas~
+@20280 = ~Director de funeraria~
+@20281 = ~Tallador de madera~
+@20282 = ~Sendái~
+@20283 = ~Roger el Perista~
+@20284 = ~Sirrus Melandor: Alcalde de Soubar~
+@20285 = ~Sirrus Melandor~
+@20286 = ~Abor Bucko~
+@20287 = ~Araña pequeña~
+@20288 = ~Abominable Hombre de las Nieves~
+@20289 = ~Korhun Bucko~
+@20290 = ~Banita Momificado~
+@20291 = ~Tubería~
+@20292 = ~Tanar'ri~
+@20293 = ~Adventurero Gaelion~
+@20294 = ~Gaelion~
+@20295 = ~Adventurero Maltanar~
+@20296 = ~Maltanar~
+@20297 = ~Adventurero Mercurial~
+@20298 = ~Mercurial~
+@20299 = ~¡El honor y la gloria serán nuestros!~ 
+
+@20301 = ~¡En el nombre de los Vistani, yo te maldigo!~ 
+@20302 = ~Adelante entonces, hagamos historia.~ 
+@20303 = ~Sera mejor que nos vayamos a dormir. Mis reflejos empiezan a perder facultades.~ 
+@20304 = ~Si mi única ambición en la vida fuera estar por ahí silbando, preferiría hacerlo en un lugar más seguro que este.~ 
+@20305 = ~Lamentarás haberte cruzado en mi camino.~ 
+@20306 = ~Te cortaré la garganta antes de que puedas pestañear.~ 
+
+@20309 = ~¡Necesito auxilio, sé que ayudas a los necesitados!~ 
+@20310 = ~Como de costumbre, el peligro acecha detrás de cada esquina.~ 
+@20311 = ~La ciudad esta llena de voces; juntas forman su propia atmósfera.~ 
+@20312 = ~Mantente alerta. Las sombras que nos rodean tienen... dientes.~ 
+@20313 = ~Las horas de luz tienen un valor incalculable.~ 
+@20314 = ~El peligro siempre esta más presente durante la noche.~ 
+@20315 = ~¿Qué quieres?~ 
+@20316 = ~¿Qué es lo que deseas exactamente?~ 
+@20317 = ~¿Qué necesitas?~ 
+@20318 = ~Pero pregunta, que yo responderé.~ 
+@20319 = ~Como se me pida.~
+@20320 = ~Más vale que esto sea bueno. Necesito desesperadamente una botella de vino decente.~ 
+@20321 = ~Más fácil hacerlo que decirlo.~ 
+@20322 = ~Ya que insistes.~ 
+@20323 = ~Esto requiere un tratamiento especial.~ 
+@20324 = ~Con elegancia y rapidez, como siempre.~ 
+@20325 = ~¿Este es mi sino? ¿Debo pasarme toda la vida yendo y viniendo trayendo cosas?~ 
+@20326 = ~No creo que esto sea material suficiente para forjar leyendas.~ 
+@20327 = ~¿Crees que es tan fácil como parece?~ 
+@20328 = ~¡El circo recordará tus hazañas para siempre!~ 
+@20329 = ~¡Recordarás eso por mucho tiempo!~ 
+@20330 = ~¡Pssah!  Yo puedo hacerlo mejor.~ 
+@20331 = ~Ya estoy bastante ocupado tal y como estoy.~ 
+@20332 = ~Como de costumbre, los calzonazos son ciegos, sordos y muditos.~ 
+@20333 = ~No le des tantas vueltas. Las sombras son mis amigas.~ 
+@20334 = ~¡Maldición!, ¡perdí mi concentración!~ 
+@20335 = ~Adventurero Potencius~
+@20336 = ~Potencius~
+@20337 = ~Adventurero Te Elle~
+@20338 = ~Te Elle~
+@20339 = ~Gusano de Tremor menor~
+@20340 = ~Gusano de Tremor mayor~
+@20341 = ~Gusano de Tremor~
+@20342 = ~Hombre-lobo mayor~
+@20343 = ~Sir William~
+@20344 = ~Sir William dormido~
+@20345 = ~Sirviente~
+@20346 = ~Charlotte~
+@20347 = ~Haré todo lo posible para mantenerme al margen de los problemas.~ [CHARL_04]
+@20348 = ~Esto no está yendo bien...~ [CHARL_01]
+@20349 = ~Debo tomarme el día libre.~ [CHARL_02]
+@20350 = ~Debo esforzarme por ser una líder sabia.~ [CHARL_08]
+@20351 = ~No puedo seguir adelante. Si no descanso ahora, perderé el conocimiento.~ [CHARL_11]
+@20352 = ~¡Bah! Permanecer aquí sentados sin hacer nada es una forma inútil de malgastar mi talento.~ [CHARL_12]
+@20353 = ~¡A la refriega!~ [CHARL_05]
+@20354 = ~Es hora de poner a prueba mi templanza.~ [CHARL_06]
+@20355 = ~Ahora pagarás.~ [CHARL_07]
+
+@20357 = ~Insisto, necesito ayuda urgéntemente.~ [CHARL_14]
+@20358 = ~Me encuentro fatal.~ [CHARL_15]
+@20359 = ~Espero tus órdenes.~ [CHARL_19]
+@20360 = ~Adelante.~ [CHARL_20]
+@20361 = ~¿Tú instrucción?~ [CHARL_21]
+@20362 = ~Creo que estoy lista.~ [CHARL_22]
+@20363 = ~Tienes toda mi atención.~ [CHARL_17]
+@20364 = ~¿Tus órdenes?~ [CHARL_16]
+@20365 = ~En efecto.~ [CHARL_24]
+@20366 = ~Parece razonable.~ [CHARL_25]
+@20367 = ~Sí.~ [CHARL_26]
+@20368 = ~De acuerdo.~ [CHARL_27]
+@20369 = ~Como quieras.~ [CHARL_28]
+@20370 = ~Enterada.~ [CHARL_29]
+@20371 = ~¿Sí, cariño?~ [CHARL_30]
+@20372 = ~Encenderé una vela por tí.~ [CHARL_39]
+@20373 = ~Oh vaya, estas mostrando ser una persona bastante irritante.~ [CHARL_31]
+@20374 = ~Espero que te salga viruela en la mano.~ [CHARL_33]
+@20375 = ~CHARLOTTE fue criada en la isla perdida de los Elfos, SiempreUnidos.	Estudió a los clásicos del arte, la literatura, la religión, la historia, la música y la interpretación. Su impresionante currículum, valioso como ninguno, no la hicieron sin embargo sentirse útil para su pueblo. La muchacha podía adivinar con facilidad quién había pintado determinado cuadro y cuando lo había hecho, pero no tenía la capacidad o el talento necesarios para llevar a cabo sus propias creaciones, lo que la frustraba enormemente.
+
+Decidió que necesitaba algo más para completar su aprendizaje. Una vez terminó sus estudios obligatorios, se enfrentó a los deseos de sus antepasados y a su propia familia para dejar atrás su pasado y su hogar. Ganada la disputa, zarpó rumbo al continente mientras abandonaba a sus amigos y al resto de los elfos en las siempre entrañables tierras de Siempreunidos.
+
+Antes de asumir su faceta de exploradora, Charlotte anduvo vagando por bosques selváticos durante décadas. Con el tiempo, algo tan onírico como utópico para ella se transformó en su realidad cotidiana, aunque le costó largos años de reflexión acostumbrarse y aceptarlo. Nunca había sido entrenada para esa vida...
+
+En el presente, Charlotte ha perdido reciéntemente su condición de acechadora y se ha convertido en una exploradora caída por causas que desconoces. No obstante, intuyes que sólo se trata de una situación temporal y crees que más tarde o más temprano, recuperará su estatus.~
+@20376 = ~Tomas Tomalson~
+@20377 = ~Tomas~
+@20378 = ~Estamos en clara desventaja, es mejor huir.~ [CBTOM_01]
+@20379 = ~Estoy demasiado nervioso, ahora no puedo esconderme.~ [CBTOM_30]
+@20380 = ~Necesito descansar, <CHARNAME>.~ [CBTOM_11]
+@20381 = ~Me estoy agotando.~ [CBTOM_10]
+@20382 = ~No van a ir a ningún sitio.~ [CBTOM_07]
+@20383 = ~Lo conseguí.~ [CBTOM_06]
+@20384 = ~Me encargaré de eso.~ [CBTOM_03]
+@20385 = ~Intentaré mantenerme cerca.~ [CBTOM_04]
+@20386 = ~No puedo seguir luchando si quiero seguir vivo.~ [CBTOM_02]
+@20387 = ~Maldita sea... yo... arrgghhh~ [CBTOM_37]
+@20388 = ~Necesito ayuda.~ [CBTOM_14]
+@20389 = ~Conozco a un druida que puede hacerte alucinar con hierbas y ungüentos.~ [CBTOM_33]
+@20390 = ~Que pequeño es el mundo.  Aquí viene el hombre más excéntrico del universo. Wow.~ [CBTOM_32] ~Que pequeño es el mundo.  Aquí viene la mujer más excéntrica del universo. Wow.~ [CBTOM_32]
+@20391 = ~Mmm.~ [CBTOM_05]
+@20392 = ~Me parece bien.~ [CBTOM_08]
+@20393 = ~Supongo que soy tan bueno como cualquiera.~ [CBTOM_09]
+@20394 = ~Listo.~ [CBTOM_19]
+@20395 = ~¿Qué?~ [CBTOM_21]
+@20396 = ~Uuh.~ [CBTOM_24]
+@20397 = ~No puedo mantener esto a flote.~ [CBTOM_15]
+@20398 = ~Mmm, mmm.~ [CBTOM_16]
+@20399 = ~Sí.~ [CBTOM_17]
+@20400 = ~¿Huh?~ [CBTOM_18]
+@20401 = ~Mmmph.~ [CBTOM_20]
+@20402 = ~¿Puedo ayudarte?~ [CBTOM_22]
+@20403 = ~Claro.~ [CBTOM_23]
+@20404 = ~Lo siento, debo seguir adelante.~ [CBTOM_39]
+@20405 = ~Ohhhh...~ [CBTOM_40]
+@20406 = ~Vale.~ [CBTOM_25]
+@20407 = ~Bien, bien.~ [CBTOM_27]
+@20408 = ~Cuando preguntas a TOMAS acerca de su pasado, este te contesta con una interminable retahíla de frases élficas que escapan a tu comprensión. Según deduces torpemente, te cuenta su vida, la de su padre, la de su madre, la de su abuelo (paterno y materno), la de su abuela (paterna y materna), la de sus bisabuelos (paternos y maternos), la de sus tatarabuelos (paternos y maternos), la de sus hermanos y hermanas (más de media docena), la de sus tíos y tías (más de dos docenas), la de sus primos y primas primeros (más de seis docenas), y la de sus primos y primas segundos y terceros (alrededor de cien) Todo en apenas cinco minutos hablando en su propio e ininteligible dialecto élfico. 
+
+Ante semejante tortura para tu mente, asientes una y otra vez con la cabeza mientras con un heróico esfuerzo, echas mano de la mochila en busca de pociones de curación.~
+@20409 = ~Instalando objetos...~
+@20410 = ~Esta es una llave metálica de singular diseño. A juzgar por su forma, la cerradura que abra deberá ser imposible de forzar con ganzúas.~
+@20411 = ~Palanca~
+@20412 = ~Una palanca de acero de tamaño mediano. Se suele usar para forzar y abrir cofres semicerrados o cualquier otro tipo de caja que no este herméticamente sellada.~
+@20413 = ~Frasco de líquido misterioso~
+@20414 = ~Poción de Belladona~
+@20415 = ~Esta botellita contiene una extraña sustancia verde similar a la que tantas veces has visto usada en dagas, flechas y otros tipos de arma. Es un líquido grasiento y espeso que parece haber sido previamente diluido en agua. Huele raro, pero su color es muy bonito.~
+@20416 = ~Las flores que crecen en las plantas de belladona tienen un olor extravagante pero son muy bonitas. Cortando y reduciendo a polvo uno de sus pétalos y añadiéndole el jugo de la planta, los asesinos pueden elaborar un veneno letal. En tus manos tienes una muestra de ese veneno, la que te proporcionó Narulf en la orilla del Río Chiontar.~
+@20417 = ~Catálogo del Amanecer de los Reinos~
+@20418 = ~Esta enciclopedia describe varios de los cientos de miles de objetos que pueden ser encontrados, comprados o robados a lo largo y ancho de los Reinos Olvidados. Un lector atento y diligente será capaz de identificar cualquier cosa que encuentre, normalmente descubriendo en el proceso su verdadera naturaleza. Al menos eso es lo que afirma el prólogo del volumen.
+
+
+ESTADÍSTICAS:
+
+Especial: El personaje que lee el libro aumenta su conocimiento en 80 puntos de forma permanente. El objeto se consume tras usarse.~
+@20419 = ~El Conocimiento del personaje se ha incrementado en 80 puntos de forma permanente.~
+@20420 = ~Aguas Turbulentas~
+@20421 = ~Chiontar~
+@20422 = ~Amuleto de Palabra de Poder: Dolor~
+@20423 = ~Cuando la Palabra de Poder es pronunciada, todas las criaturas a 8 metros del objetivo deben realizar una tirada de salvación contra varitas o sufrir un angustioso dolor durante 2-8 asaltos que penaliza en 4 puntos el THACO y en 1 la clase de armadura.
+
+El conjuro sólo puede usado una vez al día, y durante su ejecución, el lanzador esta obligado a llevar el amuleto en la mano.
+
+ESTADÍSTICAS:
+
+Habilidad ofensiva: Todos los enemigos a 8m o menos son penalizados con -4 al THACO y -1 al AC durante 2-8 asaltos. Salvarse vs. varitas anula efectos. Las criaturas con resistencia mágica son inmunes~
+@20424 = ~Flecha de Curación~
+@20425 = ~Se dice que estas raras y elegantes flechas fueron elaboradas artesanalmente por una Hermandad de Sacerdotes que desapareció hace mucho tiempo. El astil esta hecho de madera suave mientras que el mango esta adornado con brillantes plumas multicolor y la punta de la flecha esta astillada pero contiene un poderoso hechizo de curación en el interior.
+
+Cuando alcanza a un blanco, la flecha de curación inflige 1 punto de daño a su objetivo pero al mismo tiempo le sana 2D10.
+
+Los eruditos creen que estas flechas eran disparabas en las batallas de la antigüedad por los arqueros veteranos de segunda línea. Ése era un método poco ortodoxo pero eficaz para curar a los guerreros del frente.
+
+
+ESTADÍSTICAS:
+
+Daño: Sana 2D10 puntos de vida e inflige 1 punto de daño
+Lanzador: Arco~
+@20426 = ~Flecha de Dolor~
+@20427 = ~Estas flechas tienen una apariencia muy similar a las de curación. Sin embargo si se las observa detenidamente, se puede apreciar en su punta el colmillo de un tiburón. Cuando alcanzan al blanco, las flechas de dolor infligen 1D6 + 1D4 puntos de daño adicionales con respecto a la flecha común. Éste daño adicional dura 3 asaltos. Las flechas de dolor provocan a las víctimas un sufrimiento angustioso que parece no terminar nunca.
+
+
+ESTADÍSTICAS:
+
+Daño: 1D6 + 1D4 puntos de daño adicionales durante 3 asaltos
+Tipo de daño: proyectil (perforante)
+Lanzador: Arco~
+@20428 = ~Flechas para Atontar~
+@20429 = ~La flecha para atontar tiene el aspecto de una flecha vulgar, sin embargo cuando se tensa en la cuerda de un arco vibra levemente.  La víctima alcanzada por una flecha de estas características debe salvarse vs. petrificación o quedar atontada durante 30 segundos. 
+
+
+ESTADÍSTICAS:
+
+Daño: 1D6, salvación vs. petrificación o atontar durante 30 seg
+Tipo de daño: proyectil (perforante)
+Factor de velocidad: 2
+Lanzador: Arco~
+@20430 = ~¡Mordido por un muerto viviente de Bane!~
+@20431 = ~¡Golpeado por un muerto viviente de Bane!~
+@20432 = ~Ceeb Isson's Ecologies~
+@20433 = ~Ceeb Isson's Ecologies: Sobre Las Calaveras Ardientes 
+
+Los primeros días de Cyric como dios de los muertos fueron terribles. Tras la muerte de Bane, antiguos y poderosos Banitas buscaron venganza en los jóvenes e inexpertos iniciados de Cyric. Después de incontables masacres, Cyric reaccionó delegando una parte de su poder en sus más fervientes devotos. Como resultado, estos fueron reducidos a restos sin vida con el sello ardiente de su deidad latente en sus huesos. Los nuevos muertos vivientes contrajeron un aspecto similar al de los Huesos llameantes encontrados en las ruinas de Myth Drannor, pero su naturaleza se erigió opuesta. 
+
+Las Calaveras Ardientes suelen llevar grabado en sus ropas o en sus propios huesos el Sol Oscuro, símbolo sagrado de Cyric.~
+@20434 = ~Ceeb Isson's Ecologies: Sobre los Liches de Bane
+
+Hace mucho, mucho tiempo, cuando Bane comenzaba a establecer su Iglesia en los Reinos, aquellos que le rendían culto eran perseguidos hasta la muerte por las fuerzas del Bien. 
+
+Cansado de ver morir a sus fieles devotos, Bane decidió seleccionar cada 50 años al más poderoso de sus clérigos y darle la oportunidad de convertirse en Liche de Bane. Para conseguirlo, el aspirante debía demostrar una fe y una fuerza de voluntad inquebrantables; sólo entonces le era otorgado el favor de su dios.   
+
+Los liches de Bane son muertos vivientes inmortales. Descarnados y con forma esquelética, las cuencas de sus ojos son tinieblas dónde sólo brillan dos orbes sangrientos inundados de maldad. Visten con desgastadas aunque elegantes túnicas ceremoniales y en ellas siempre aparece la Mano Negra, símbolo sagrado de Bane.
+
+Los liches de Bane sólo pueden ser destruidos mediante la aniquilación de su esencia vital, la filacteria. Cuando finalmente abandonan el plano material, su desaparición culmina con una potentísima explosión de energía negativa que fácilmente puede llevarse consigo a aquellos que les dieron muerte.~
+@20435 = ~Identificación Perista~
+@20436 = ~Brazaletes de revelación~
+@20437 = ~Un individuo que vista estas bandas altamente pulidas puede contar mucho sobre aquellos a los que saluda. Dando la mano a otra persona puede determinar la clase y el nivel de quien tiene enfrente. Mediante otro gesto, también puede determinar el alineamiento. No obstante, los brazales no desvelan nada si la víctima del conjuro lleva un amuleto de protección contra la detección o si esta imbuida con otra magia protectora similar.   Los brazales de revelación se suelen encontrar con 4-40 cargas y no pueden ser recargados.
+
+ESTADÍSTICAS:
+
+Especial: 
+ Permite revelar la clase, el nivel y el alineamiento del objetivo mediante dos conjuros
+ diferentes
+Lo puede usar:
+Cualquiera~
+@20438 = ~Esta espada resplandeciente es extremadamente antigua, data de 3000 años antes de la creación del Día Final de los Valles. Fue forjada por un archimago netheriano llamado Pouldinus como regalo para un amigo guerrero llamado Kalamnin. Kalamnin era un estricto devoto de Amaunator, el estricto Dios de la Ley y el Sol hoy casi olvidado.  Aunque siempre dió lo mejor de si mismo para prodigar las leyes de Amaunator en sus viajes, Kalamnin perdió su espada cuando murió a manos de unos demonios invocados por el mago Ylmandi, que guardó la espada en el seno de su familia hasta la caída de Netheril.
+
+ESTADÍSTICAS:
+
+Aptitudes de Combate:
+ Cada golpe acertado tiene 5% de provocar Sangre Ardiente de Beltyn en el objetivo
+Habilidades Especiales: 
+ Permite lanzar Rayo solar 1/Día
+THAC0: +3
+Daño: 2D4+3, + 2D4+3 ptos de daño adicionales por fuego contra no muertos
+Tipo de daño: cortante
+Peso: 3
+Factor de velocidad:  1
+Talento marcial: espada bastarda
+Tipo:  a una mano
+No permitido a:
+Criaturas caóticas
+Druida
+Clérigo
+Mago
+Ladrón~
+@20439 = ~Amuleto de barrera~
+@20440 = ~Este poderoso amuleto fue manufacturado por el encantador Celemon de Calimport en el año 727 DR. Hizo 10 copias idénticas antes de que un rival celoso lo asesinará para robarle el procedimiento. Sus colegas no tenían tanto talento como Celemon, y destruyeron su laboratorio, la fórmula, y a ellos mismos, cuando ocurrió el desastre.    Este ejemplar en particular lo llevó a cuestas el guerrero/mago elfo Pelan Rainwind. Se perdió cuando el elfo sucumbió a manos de gigantes en algún lugar de la Columna del Mundo allá por el 840 DR.
+
+ESTADÍSTICAS:
+
+Permite lanzar simultáneamente Piel Pétrea y Globo Menor de Invulnerabilidad sobre el portador
+Lo puede usar:
+Mago (Puro, Dual, o multiclase)~
+@20441 = ~Escarabeo de Defensa~
+@20442 = ~El amuleto que sostienes en tus manos tiene la forma de un escarabajo esculpido y se cree que hay varios como él circulando por los Reinos, especialmente en los alrededores de Mulhorand. Los sacerdotes de Waukeen les tienen bastante aprecio.
+
+Éste ejemplar en concreto lo creó Gulvak Anrak en Thay, un poderoso conjurador interesado principalmente en la magia defensiva. Gulvak entregó el escarabeo a su aprediz, Alik Banom, quien fue asesinado por soldados de Cormyr en el 1021 DR. De acuerdo con la leyenda, Alik comenzó una reyerta con un caballero de Cormyr que insultó a Thay y a los magos rojos en general. Aunque luchó con pericia, no fue rival para los dragones púrpura; el caballero no luchó solo.
+
+ESTADÍSTICAS:
+
+Bono +2 a las tiradas de salvación vs. petrificar y polimorfar
+Permitido a:
+Todos~
+@20443 = ~Amuleto de Carne Sombría~
+@20444 = ~El Amuleto de Carne Sombría, símbolo de enfermedad y muerte, es un horrible objeto maldito creado por el nigromante calishita Niri Eddin. Eddin se lo entregó a sus enemigos como supuesto regalo y así los engañó y maldijo para siempre. Después reclamó su colgante de nuevo para sí, y para recuperarlo contrató ladrones de alta alcurnia.
+
+Se cree que Niri aún "vive" en alguna parte de los reinos, pero lo cierto es que nació en el 832 DR y no se sabe nada más de él.
+
+ESTADÍSTICAS:
+
+Quien se pone el amuleto es paralizado y enferma~
+@20445 = ~El Escudo Argénteo~
+@20446 = ~Este escudo de plata residió una vez en la Mano de Seldarine, donde tuvo la tarea de proteger a sus portadores de ataques y magia dañina. Tiempo más tarde, debido a su supina estupidez, los orcos y goblins que lo encontraron lo dejaron abandonado en la torre donde lo hallaron. La Doncella Ilmadia lo recuperó.
+
+ESTADÍSTICAS:
+
+Aptitudes Portador: Resistencia mágica +25%
+Bonificación a la clase de armadura: 3
+Peso: 5
+Sólo lo puede usar:
+Elfo
+Semielfo
+No lo puede usar:
+Druida
+Ladrón
+Mago
+Bardo~
+@20447 = ~Kontik, servidor de Auril, forjó esta cuchilla. Ha sido encantada con algunas mejoras mágicas.
+
+ESTADÍSTICAS:
+
+Aptitudes Portador:
+ Inteligencia: +1, Carisma -1
+ 100% Resistencia al frío, -50% a la Resistencia al fuego
+Habilidades Especiales:
+ Cono de Frío 2/día 
+THAC0: +3
+Daño: 1D4 +3
+Tipo de daño: perforante
+Peso: 1
+Factor de velocidad: 2
+Tipo de talento: Daga
+Tipo: 1-mano
+No lo puede usar:
+Clérigo~
+@20448 = ~Fajín de Gond~
+@20449 = ~Gond, Dios de los inventos y los artificios, es una deidad raramente adorada por los aventureros tradicionales. Algunos ladrones sin embargo, adoran a Gond para obtener su bendición con las ganzúas, trampas y máquinas complejas. Uno de sus mayores devotos en el pasado, Jurmar el Tranquilo, empezó su carrera como cerrajero y se hizo famoso por su enorme sensibilidad táctil y su frialdad. Jurmar pagó a sacerdotisas de Gond para que le tejieran este cinturón para él. Siempre que el pícaro se vió en una situación en la que no tuvo la herramienta mecánica necesaria para salir adelante, los bolsillos del cinturón le proveyeron la solución.
+
+ESTADÍSTICAS:
+
+Especial: +10% Abrir Cerraduras y +5% Encontrar/desactivar trampas
+Sólo lo puede usar:
+Ladrón (Puro, Dual, ó Multiclase)~
+@20450 = ~Amor de Bess la Negra~
+@20451 = ~El Amor de Bess la Negra fue creada por una maga hermosa y cruel que adoraba a la Señora de la Desgracia, Beshaba. Se llamaba Redani, y era tan conocida por sus poderes como encantadora como por sus poderes como seductora. Siempre entregaba el arma a su consorte favorito, y sin que éste se diera cuenta, le colocaba un anillo de Disponibilidad en él conservando un anillo Activador en su poder. De este modo, cuando pasaba un tiempo convencía a un nuevo romeo al que entrega el anillo Activador para matar a su antíguo consorte.
+   Sin embargo, un día Redani confió en quien no debía para llevar a cabo su macabro juego ritual. Gural de Khessenta, un clérigo de Hoar disfrazado, investigó y descubrió como vengar a uno de los ex-amantes que resultó ser amigo suyo.  Los clérigos de Hoar no tuvieron miramientos con Redani y reanimaron como no-muertos a todos las antiguas víctimas de la maga que la destrozaron extremidad por extremidad.
+
+ESTADÍSTICAS:
+
+Especial:  El 10% de los golpes propinados causa la pérdida de 4 puntos de Suerte
+THAC0:  +3
+Daño:  1D6 +4
+Tipo de daño:  contundente
+Peso:  7
+Factor de velocidad:  5
+Talento marcial:  Maza
+Tipo:  1 mano
+No lo puede usar:
+Druida
+Mago
+Ladrón~
+@20452 = ~Aceite incendiario~
+@20453 = ~Dentro de este frasco de cristal hay una rara mezcla de aceite y sustancias químicas. Cuando se enciende, la mezcla arde en el aire a altas temperaturas durante varios segundos.    El aceite incendiario es en ocasiones difícil de usar debido a que se tarda mucho en prepararlo adecuadamente. Los aventureros lo llevan para enfrentarse a trolls o monstruos similares que sólo pueden ser derrotados con fuego.
+
+ESTADÍSTICAS:
+
+Cuando se lanza sobre un objetivo el frasco de cristal se rompe y estalla en una bola de fuego de 1,5 metros de diámetro causando 2-16 puntos de daño por fuego a todo el que pilla por delante
+Lo puede usar:
+Cualquiera~
+@20454 = ~Manual de Ingeniería~
+@20455 = ~Este antiguo libro contiene técnicas complejas de ingeniería enana. Aunque está escrito completamente en su idioma, alguien ha incluído notas traducidas aclaratorias a lo largo del libro. Este volumen en particular contiene análisis detallados sobre la construcción de puentes.~
+@20456 = ~Botas de Moander~
+@20457 = ~Estas botas parcheadas de cuero rojo y negro fueron creadas por los devotos de Moander, dios antiguo de las intrigas y la decadencia. Las botas se utilizaron en varias guerras contra sus enemigos. Aldarra de Chauntea las reclamó para sí y se las regaló a su amigo explorador semielfo Liberon Twelvetrees.
+
+ESTADÍSTICAS:
+
+Especial: Inmunidad a Enredar~
+@20458 = ~Mandoble del Túmulo~
+@20459 = ~Reconocido por su asombrosa habilidad para derribar caballeros montados, el Mandoble del Túmulo fue empuñado en su tiempo por el famoso mercenario Adal Kerrn. 
+
+Adal Kerrn era un guerrero muy hábil como infantería pesada. Junto a su compañía, los Lanceros de Kerrn, derrotó a cientos de magos, bandidos y líderes religiosos a lo largo y ancho de los Reinos Olvidados. Durante las batallas siempre se colocaba al frente de sus hombres para detener las cargas de la caballería pesada y esta fue su perdición cuando en el año 1054 DR mató accidentalmente al caballo de un enemigo y éste le cayó encima. Aunque su cuerpo no se encontró nunca, la iglesia de Helm recuperó su espada.
+
+ESTADÍSTICAS:
+
+THAC0: +4
+Daño: 1D10 +4
+Tipo de daño: cortante
+Peso: 20
+Factor de Velocidad: 10
+Talento marcial: mandoble
+Tipo: 2-manos
+Requiere: Fuerza 14
+No lo puede usar:
+Druida
+Clérigo
+Mago
+Ladrón~
+@20460 = ~Malla de Perdición~
+@20461 = ~Esta armadura fue creada en 1221 DR por un armero duergar que trabajaba para un sacerdote de Bane llamado Alerri de Aguas Profundas. Durante los primeros días de Alerri como sacerdote, éste provocaba y atacaba a agentes de Sune. Desafortunadamente para Alerri, los seguidores de la Señora de los Cabellos Ardientes emplearon magia encantadora para controlar a los antiguos banitas. Una vez encantados, Alerri fue enviado a las calles de Aguas Profundas a realizar una serie de actos vergonzosos para los de su estirpe. Después de muchos años, decidió construir una armadura que le protegiese de los encantamientos y no dudó en trabajar codo con codo con sus camaradas banitas para descrubir los materiales y rituales necesarios. Siguiendo las instrucciones de su maestro, asesinó trece parejas casadas y pusó sus anillos de boda en la armadura. Después mató a trece elfos y se bañó en su sangre rezando plegarias satánicas durante trece horas. Cuando acabó su armadura obtuvo protección contra la magia Sunita y un irrefrenable odio. Declaró la guerra a los agentes de Sune, Llira y Halani Celanil durante tres años. Su sendero de muerte acabó cuando los devotos de Corellon Larethian le emboscaron y le asesinaron en una carretera al norte de Aguas Profundas.
+
+ESTADÍSTICAS:
+
+Aptitudes Portador:
+ Carisma -2
+ Inmunidad a Hechizo horrendo, Hechizar persona, Confusión, Orden imperiosa y Pensamiento
+ estricto
+Clase de Armadura: 3
+Peso: 45
+No permitido a:
+Alineamientos buenos
+Druida
+Mago
+Ladrón~
+@20462 = ~Capa de Mithran~
+@20463 = ~Esta capa élfica tejida con seda y lana fue originariamente construida por un poderoso mago de Myth Nantar llamado Mithran PetalodeLuz. 
+Mithran era famoso por su devoción a los viajes y su simpatía hacia los "N'TelQuessir," la "no gente"; es decir, los no elfos. Esto le trajo su perdición cuando su capa fue reetejida y encantada por su amante drow Rauva Vrinn. El nuevo diseño negro y azul medianoche, infrecuente entre los elfos de la superficie, pronto levantó sospechas entre sus compañeros y un conocido de Mithran cazador de drows llamado Gaedel descubrió el escondite de la amante de Mithran en un bosque cercano a Myth Nantar, y la asesinó. Cuando Mithran descubrió lo sucedido, sus gritos de ira tronaron en el cielo. El mago, enloquecido por el dolor y la rabia, irrumpió en la caseta de Gaedel y sus hermanos y los descuartizó a todos. Con el tiempo, la familia de Gaedel se vengó y Mithran no pudo escapar a su destino. Su capa fue recuperada por un íntimo amigo suyo, el guerrero enano Hael LagodeBronce. Gracias a él el valioso objeto sobrevivió a la caída de Myth Nantar mientras que la arrogante ciudad de los elfos se hundió en el Mar de las Estrellas Fugaces algunos años después.
+
+ESTADÍSTICAS:
+
+Bonificación a la Clase de Armadura: +3
+Bonificación a las Tiradas de salvación: +2~
+@20464 = ~Brebaje Negro de Berdusk~
+@20465 = ~Esta bebida oscura fue bautizada así por los mercaderes de Berdusk que la elaboraron. Los mercaderes berduskanos siempre tenian mucha prisa por satisfacer pedidos relacionados con sus negocios y caían fatigados tras largas horas de trabajo presos de la necesidad de dormir y descansar. Bebiendo este brebaje, los efectos de la fatiga y el cansancio desaparecían permitiendo al catador de la poción seguir con lo que estuviera haciendo durante al menos un día más.
+
+ESTADÍSTICAS:
+
+Quita la fatiga y devuelve la vitalidad al personaje como si hubiese dormido una noche entera
+Usable por:
+Todos~
+@20466 = ~¡Glup!~
+@20467 = ~En el año 834 CV, un mago llamado Legedain el Sabio capturó a un renombrado ladrón que se introducía en su torre. Se trataba de un cínico bribón llamado Ilfain Plumanegra. Legedain se hacía viejo y comenzaba a estar cansado de su frágil cuerpo, así que para remediarlo lanzó un conjuro de Transmigración almacenando el espíritu de Ilfain en una preciosa gema. Después, Legedain transfirió su espíritu al cuerpo del joven elfo, y dejó la gema abandonada en una estanteria. Cien años después, Legedain decidió utilizarla, y creó una espada para Gundak, su arrogante guardaespaldas, transfiriendo el espíritu de Ilfain desde la gema a la espada. Ilfain, que en vida era muy sarcástico con los demás, comenzó a criticar telepáticamente a Gundak cuando combatía. Tras un par de semanas, Gundak se cansó de la espada y la abandonó en una callejuela. Varios guerrreros utilizaron la espada y la fueron abandonando tras cortos periodos de posesión. Con el tiempo, la espada ha llegado a ser conocida sólo por su nombre y su infamia.
+
+ESTADÍSTICAS:
+
+Habilidades Especiales: Encontrar Trampas 1/Día, Apertura 1/Día
+THACO: +4
+Daño: 2D4 +4
+Tipo de daño: cortante
+Peso: 4
+Factor de velocidad: 5
+Tipo de pericia: espada larga
+Tipo: 1 mano
+No utilizable por:
+Druida
+Clérigo
+Mago~
+@20468 = ~Dardo magnífico de Zilzanzer~
+@20469 = ~El excéntrico hechicero Zilzanzer, bien conocido por su anillo de Gorgona, fué también el creador de un buen número de proyectiles arcanos, "los magníficos dardos de Zilzanzer". Estos se vendieron a muchos de sus colegas y a pesar de las numerosas variantes que se desarrollaron, la esencia de su magia siempre fue la misma.
+
+ESTADÍSTICAS:
+
+Especial: El lanzador puede tirar hasta 5 dardos de Zilzanzer por asalto, independientemente de su clase y su pericia
+Daño: 1D3 +2
+Tipo de daño: perforante
+Peso: 0
+Factor de Velocidad: 1
+Tipo de talento: proyectiles
+Tipo: 1-mano
+No lo puede usar:
+Clérigo~
+@20470 = ~Imán de Hechizos~
+@20471 = ~El espadachín Naradon de Thesk era famoso por vencer a todo tipo de magos enfrentándose a ellos en desventaja numérica. Ganó su reputación con la ayuda de tres objetos: las pociones de velocidad, las botas de velocidad, y su amada espada corta, Imán de Hechizos.     A los 32 años de edad, Naradon de Thesk inició su retiro. Cansado y fatigado de sus días de aventura, su abuso de pociones de velocidad lo acabó debilitando y murió cuatro años más tarde. Con un único heredero como legado, su espada acabó en las manos de un astuto pícaro. Sin embargo, a diferencia de otras armas mágicas, Imán de Hechizos no tuvo una historia cruel con un reguereo de sangre en su honor.
+    
+La espada se reconoce fácilmente por llevar un pescador grabado en la cruceta.
+
+ESTADÍSTICAS:
+
+Aptitudes Portador:
+ +1 salvación vs. conjuros
+ +5% Resistencia Mágica
+Aptitudes de Combate:
+ 50% de anular la capacidad de lanzar conjuros del objetivo golpeado durante 2 asaltos
+THAC0: +2
+Daño: 1D6+2
+Tipo de daño: perforante
+Peso: 1
+Factor de Velocidad: 1
+Tipo de talento: espada corta
+Tipo: 1-mano
+No lo puede usar:
+Druida
+Clérigo
+Mago~
+@20472 = ~Vino Curativo Élfico~
+@20473 = ~Esta botella de vino élfico tiene las propiedades de una poción de curación. El elixir debe su origen a un festival faérico donde unas sacerdotisas de Seldarine se emborracharon y metieron vino en un odre. El odre estaba destinado a fabricar pociones curativas.
+
+ESTADÍSTICAS:
+
+Cura 2D8 puntos de vida a quien lo bebe~
+@20474 = ~Túnica de la Mano de Seldarine~
+@20475 = ~Creada durante la edad dorada de los elfos de la Mano de Seldarine y los enanos de las profundidades de Dorn, esta túnica fue construida por y para los magos. Aunque parezca una túnica normal, protege del frío, el fuego y la electricidad.
+
+ESTADÍSTICAS:
+
+Aptitudes Portador:
+ Destreza -2
+ +40% resistencia al fuego, frío y electricidad
+Clase de armadura: 9
+Peso: 10
+Sólo lo puede usar:
+Mago (puro, dual, y multiclase)~
+@20476 = ~Flechas goblin~
+@20477 = ~Estas flechas no son relevantes por el daño que hacen sino por generar un singular poder de convocación. Inventadas por un gnomo malvado llamado Turbar Talinbar, las flechas goblins se suelen encontrar en las aljibas de medianos y elfos sin escrúpulos. Algunas compañías de aventureros las utilizan para pertrecharse de carne de cañón antes de comenzar una contienda seria.
+
+ESTADÍSTICAS:
+
+Especial: Cada golpe acertado invoca un goblin al lado del objetivo
+GAC0: +1
+Daño: 1D6 +1
+Tipo de daño: proyectil (perforante)
+Lanzador: Arco~
+@20478 = ~Estrella Generosa~
+@20479 = ~Este lucero del alba plateado y negro fue creado originariamente por un nigromante de Cormyr llamado Demeth Wan. Tiempo después de su construcción fue comprado por un sacerdote de Myrkul que lo utilizó salvajemente en sus escaramuzas contra sus enemigos. Cuando finalmente el sacerdote fue derrotado por un paladín de Lathander, éste confiscó el arma. Años más tarde el templo de la montaña que lo custodiaba fue saqueado por gigantes en 1190 DR y nunca más se supo del objeto.  Con una siniestra apariencia, su interior oculta un enorme poder.
+
+ESTADÍSTICAS:
+
+Especial: Cada golpe acertado tiene un 10% de lanzar Curar heridas leves al portador y otorgarle +1 a la Fuerza durante 5 asaltos
+THAC0: +3
+Daño: 2D4 +3
+Tipo de daño: contundente
+Peso: 9
+Factor de velocidad: 4
+Talento marcial: mangual/lucero del alba/mayal
+Tipo: 1 mano
+No lo puede usar:
+Personajes buenos
+Druida
+Mago
+Ladrón~
+@20480 = ~Guantelete de Valor~
+@20481 = ~Un objeto mágico extremadamente deseado, el Guantelete de Valor es parte de una de las tres Armas de Poder que quedan de los archimagos de Myth Drannor. Las Armas de Poder fueron creadas para que las usasen los campeones de la ciudad élfica en las raras ocasiones en que ésta se encontrase en peligro.     Este guantelete resplandece eternamente y representa la cúspide del poder élfico. Aventureros de toda clase y condición buscan la localización de este tipo de objetos a lo largo y ancho de los Reinos Olvidados.
+
+ESTADÍSTICAS:
+
+Aptitudes Portador:
+ Inmunidad a Hechizar, Inmovilizar, Dormir y hechizos similares
+ Se puede usar como arma 3/día:
+THAC0: +1
+Daño: 1D4+1, 12% de causar 3D6 ptos. de daño adicionales y atontar durante 3 segundos
+Tipo de daño: contundente
+Peso: 2
+Lo puede usar:
+Cualquiera~
+@20482 = ~Yelmo del Defensor Verdadero~
+@20483 = ~Este casco fue usado durante cientos de años por medianos y gnomos en la pequeña y desconocida comunidad llamada el Valle de Shepherd. Cada atardecer el capitán de la guardia de noche tomaba el objeto del capitán de la guardía de día y al amanecer ocurría lo contrario y el ciclo se repetía una y otra vez. Así hasta que Pheldon Tock, un capitán de la guardia de noche, decidió cambiar la tradición. El Yelmo del Defensor Verdadero terminó en manos de un enano aburrido que lo guardó para sí en tierras lejanas.
+
+ESTADÍSTICAS:
+
+Especial: Inmunidad a dormir y a los efectos de la fatiga
+Bonificador de clase de armadura:  3
+Peso:  2
+Sólo lo puede usar:
+Mediano
+Gnomo
+No lo puede usar:
+Mago
+Bardo
+Ladrón~
+@20484 = ~Laurel del favor de Sune~
+@20485 = ~Este casco de hojas de laurel y rosas fue un regalo de la iglesia de Sune a las sacerdotisas de Hanali Celanil de la Mano de Seldarine. Los representantes de la Diosa humana del amor y la belleza fueron bien recibidos y las más altas sacerdotisas de Hanali Celanil usaron el Laurel siempre que los humanos visitaron la Mano. Los orcos descartaron el laurel como basura inservible cuando saquearon la torre de las sacerdotisas.
+
+ESTADÍSTICAS
+
+Especial: +1 al Carisma mientras permanece equipado
+Bonificador de clase de armadura: +1
+Peso: 1~
+@20486 = ~Flechas de Enredar~
+@20487 = ~Empleadas casi exclusivamente por los exploradores de Eldathyn en las tierras salvajes del este de Faerún, las flechas de enredar son apreciadas por su capacidad de atrapar un blanco sin necesidad de matarlo. Se usan comúnmente para capturar animales, pero son igualmente efectivas frente a los humanoides. Se suelen adornar con ribetes verdes y azules y llevan flores para demostrar que son fruto de hacedores de la paz y no de flecheros ordinarios. Esto no las hace menos relevantes en combate.
+
+ESTADÍSTICAS
+
+Especial: Enredan al objetivo durante 4 asaltos
+THAC0: +1
+Daño: 1D6+1
+Tipo de daño: proyectil (perforante)
+Lanzador: Arco~
+@20488 = ~Armadura del Rey del Invierno~
+@20489 = ~Esta armadura fue hecha a mano a partir de la piel del gusano polar más poderoso del Valle del Viento Helado conocido por los nativos como el "Rey del Invierno". La piel blanca, cubierta con ribetes azules, es extremadamente gruesa, resistente y asombrosamente ligera a la vez.
+
+ESTADÍSTICAS:
+
+Clase de armadura: 3
+Especial:  +25% Resistencia al Frío y al Fuego
+Peso: 25
+No lo puede usar:
+Bardo
+Mago
+Ladrón~
+@20490 = ~Este arma la forjaste con tus propias manos bajo la supervisión de Tiernon el enano. Hecha de hielo recolectado de las paredes del HelechoEscarcha, la espada ha juntado tu fuerza y la del glaciar originando así un arma formidable. Aunque hecha de escarcha, el arma sólo es ligeramente fría al tacto y no se funde ni sometida a las más altas temperaturas.
+
+ESTADÍSTICAS:
+
+Aptitudes Portador:
+ +10% Resistencia al Fuego y al Frío
+Habilidades Especiales:
+ Tormenta de Venganza 1/Día
+THAC0: +4
+Daño: 1D8+4, 5% de causar 2D6 de daño adicional por frío
+Tipo se daño: cortante
+Peso: 3
+Factor de Velocidad: 1
+Tipo de Habilidad: espada larga
+Tipo: 1 mano
+No lo puede usar:
+Druida
+Clérigo
+Mago~
+@20491 = ~Kris de Hueso del Icor Negro~
+@20492 = ~Por extraño que parezca, esta daga de hueso está afilada de forma similar a un Kris, pero lo que la hace verdaderamente letal es que de vez en cuando segrega un poderoso veneno oscuro que coge desprevenido al oponente.
+
+ESTADÍSTICAS:
+
+THAC0: +2
+Daño: 1D4 +2, 20% de envenenar a menos que se pase un tiro de salvación vs. muerte
+Tipo de daño: perforante
+Peso: 3
+Factor de velocidad: 2
+Talento marcial: daga
+No lo puede usar:
+Paladín
+Explorador
+Clérigo~
+@20493 = ~Símbolo de Labelas Enoreth~
+@20494 = ~Creado durante la edad de oro entre los elfos de la Mano de Seldarine y los enanos de la Hondanada de Dorn, este anillo fue forjado para aumentar el poder de los magos jóvenes que necesitaban rápidamente aumentar su repertorio de conjuros, pues aunque los altos hechiceros de Seldarine estaban entre los más poderosos de los Reinos, su falta de tiempo libre les impedía adquirir pergaminos con los que abastecer a sus aprendices y hacerles progresar en el Arte.
+
+ESTADÍSTICAS
+
+Inteligencia: +1
+Sólo lo puede usar:
+Mago (puro, dual y multiclase)~
+@20495 = ~Camino Solitario~
+@20496 = ~Esta poderosa hacha consiste en un mango de varios pies de largo rematado con una pesada doble hoja. Es una arma poco manejable, pero un guerrero experto puede dar golpes formidables con ella.
+
+ESTADÍSTICAS:
+
+Daño: 1D10
+Tipo de daño: cortante
+Peso: 10
+Factor de velocidad: 9
+Tipo de talento: hacha
+Tipo: 2 manos
+No lo puede usar:
+Druida
+Clérigo
+Mago
+Ladrón~
+@20497 = ~Esta era el hacha de un alma maldita condenada a vagar a lo largo y ancho de Faerún cometiendo crímenes contra los elfos de Myth Drannor. Denell Harband era un ser humano participante del "Rastro de Halfaxe". Bajo órdenes de su comandante, Halvan el Oscuro avanzó a través de bosques élficos a pesar de repetidos ataques y protestas. Cuando los elfos finalmente lo capturaron, él enfatizó que estaba libre de toda culpa, dado que estaba cumpliendo órdenes. El consejo faérico lo juzgó y lo condenó a llevar Camino Solitario desde la Costa de la Espada al lejano Este Fronterizo, y desde el Gran Glaciar hasta Lurien. Le llevó 30 años terminar su tarea. Cuando acabó, era un guerrero capaz, resistente, y desgastado por los años pasados en lugares desconocidos. En el camino de regreso a su hogar, pasó por el Valle de la Rastra y vió que en la plaza de la ciudad había una estatua de madera fabricada en su honor. Con una sola mano, alojó su enorme hacha sobre la frente de su representación tallada en piedra, y la rompió en dos partes. Entró en su cabaña, y vivió el resto de sus días como granjero.
+
+ESTADÍSTICAS
+
+Especial: Contitución +1
+THAC0: +3
+Daño: 1D10 +3
+Tipo de daño: cortante
+Peso: 10
+Factor de velocidad: 6
+Tipo de talento: hacha
+Tipo: 2 manos
+No lo puede usar:
+Druida
+Clérigo
+Mago
+Ladrón~
+@20498 = ~Instrumento~
+@20499 = ~Lira de Progresión~
+@20500 = ~Una lira~
+@20501 = ~La lira de progresión fue creada por el bardo Sedini Paletto. Sedini fue profesor de bardos principiantes durante épocas difíciles. Este instrumento, que siempre sostenía a su lado, lo ayudaba en la lucha contra los que atacasen a sus estudiantes. Cuando Sedini envejeció, pasó su lira a su estudiante predilecto, Galwen Alaman. Galwen continuó la enseñanza durante algunos años antes de dedicarse a las aventuras, se cree que perdió el objeto cuando se le cayó accidentalmente en un pantano.
+
+ESTADÍSTICAS
+
+Llevada bajo el brazo izquierdo, este instrumento permite al bardo memorizar dos hechizos extra de 2 nivel y otro de 3
+Sólo lo puede usar:
+Bardo~
+@20502 = ~Malla de la Vida~
+@20503 = ~Esta armadura fue hecha a mano por herreros enanos y elfos a partir de hierro de meteoritos durante la Era de la Cooperación.  Un sumo sacerdote de Moradin y un sumo sacerdote de Labelas Enoreth encantaron la armadura con sus poderes actuales. Desgraciadamente, ningún guerrero elfo o enano la llevó jamás.  Cuando surgieron los problemas entre la Mano de Seldarine y la Hondanada de Dorn, los enanos guardaron la armadura bajo llave rechazando utilizar nada que los elfos hubieran tocado.
+
+ESTADÍSTICAS:
+
+Aptitudes Equipada: Puntos de vida +10, Regenera 1 PV/turno
+Clase de Armadura: 2
+Peso: 40
+No lo puede usar:
+Druida
+Mago
+Ladrón~
+@20504 = ~Manto de la Tormenta Venidera~
+@20505 = ~Esta sencilla capa ha sido imbuída con propiedades mágicas para ayudar a proteger de su portador. Afecta tanto a las tiradas de salvación como a la clase de armadura. Es ideal para magos ú otros que no puedan usar armaduras voluminosas ni restrictivas.
+
+ESTADÍSTICAS:
+
+Peso: 1~
+@20506 = ~Esta capa de aspecto deshilachado permaneció mucho tiempo en letargo por orden de Lysan, sacerdotisa de Auril.   Creada en las ceremonias de La Tormenta Venidera a principios del invierno en honor a la Doncella del Hielo, esta capa fue específicamente diseñada para derretir el fuego e inmunizar contra la parálisis. Además, aunque las sacerdotisas de Auril ya son resistentes al frío de por sí y pueden moverse en la nieve y en ríos congelados con facilidad, esta capa amplifica su protección permitiendo no solo soportar el frío sino también absorber su poder.   Cuando un sólo copo de nieve cae la capa, ésta se transforma en un manto blanco resplandeciente que permite a su portador flotar sobre la nieve y sumergirse en agua helada.
+
+La mayoría de los mercaderes no querrán comerciar con este objeto o lo harán por un precio muy bajo, ya que lo verán como una reliquia de Auril sólo apta para atraer fieles y no para el comercio.
+
+ESTADÍSTICAS:
+
+Especial: 
+ +1 salvación vs. parálisis
+ +30% Resistencia al frío y al fuego
+ Acción Libre 3/día
+Bonificación a la Clase de Armadura: 1
+Peso: 1~
+@20507 = ~Espejo de Hielo Negro~
+@20508 = ~Envuelto con serpentina alrededor de las esquinas y tallado por las manos de Tiernon, este espejo de hielo negro puede llevarse alrededor del cuello. Hace la misma función que el Hielo Negro original, pero parece mucho más ligero y las reflexiones del espejo parecen más profundas y embotadas.
+El poder del Espejo de Hielo Negro está en su habilidad de confundir la vista del agresor. Llevarlo proporciona una bonificación a las defensas, pues confiere contorno borroso. El espejo contiene una cantidad limitada de cargas para funcionar, no obstante cuando las imágenes borrosas y las duplicadas se han disipado, las defensas pasivas permanecen intactas.
+
+ESTADÍSTICAS:
+
+Aptitudes Portador:
+ +3 a los tiros de salvación vs. hechizos y varitas
+Habilidades Especiales:
+ Borrosidad, Imagen espejada
+Bonificador de clase de armadura: +2, +3 vs. proyectiles, 0 vs. contundentes~
+@20509 = ~Espada del Valle de Myrloch~
+@20510 = ~Se cree que criaturas faéricas ayudaron a crear esta bonita espada, y las leyendas dicen que fue forjada en las profundidades de Myrloch, en el gran lago del centro de Gwynneth de las Moonshaes. El arma tiene un aire a ésas lejanas tierras, con lo que se presupone que es extremadamente vieja. El único individuo conocido portador del arma fue un semielfo bardo llamado Daen Winterbrush. Algunos dicen que después de que accidentalmente encontrase la espada, fue bendecido con una creatividad excepcional y una asombrosa percepción. Viajó durante cuarenta años y es famoso por algunas de las más singulares e imperecederas melodías que pueblan Faerún. Se dice que finalmente Daen se volvió demasiado melancólico por la visión de la miseria y opresión que encontró en sus viajes y que los forjadores de las Islas de las Moonshaes le dieron la bienvenida en el pecho de Myrloch.
+
+ESTADÍSTICAS
+
+Especial: +20 al Conocimiento
+THACO: +3
+Daño: 1D8 +3
+Tipo de daño: cortante
+Peso: 4
+Factor de velocidad: 4
+Tipo de talento: espada larga
+Tipo: 1 mano
+No lo puede usar:
+Criaturas malvadas
+Druida
+Clérigo
+Mago~
+@20511 = ~Misterio de la Muerte~
+@20512 = ~El frontal de este enorme escudo de acero está decorado con diseños esmaltados negros y una única calavera colada en el centro.  En su interior resplandecen unas runas indescifrables grabadas en tiempos remotos. Las únicas palabras legibles están en la parte superior y dicen: "¿Y QUÉ HAY DE LA MUERTE?" La historia de este objeto parece imposible de entender para los ojos mortales.
+
+ESTADÍSTICAS:
+
+Especial: Inmunidad a Dedo de la Muerte y Palabra de Poder: Matar
+Bonificación de Clase de Armadura: +4, +5 vs. proyectiles
+Peso: 20
+Sólo lo puede usar:
+Humano
+Semielfo
+No lo puede usar:
+Druida
+Ladrón
+Mago
+Bardo~
+@20513 = ~Gran túnica de Ogi-Luc~
+@20514 = ~Desde la época de Netheril los magos han aprendido a conferir una gran variedad de propiedades mágicas a los objetos cotidianos que les rodean. Uno de los elementos favoritos para tal encantamiento es la túnica. Es ligera, económica y mantiene bien el encantamiento, por lo que resulta ideal para un mago. No obstante, debido a su patrimonio mágico, sólo los magos individuales, dobles y multiclase pueden llevar estas túnicas encantadas.~
+@75295 = ~Esta túnica fue fabricada a partir de un tejido resistente y teñida de azul oscuro, el color favorito de su dueño original, el archimago Ogi-Luc.  Sembiano de nacimiento, Ogi-Luc era un hombre poderoso, tan fuerte de cuerpo como de mente.  Sin embargo, no estaba satisfecho con ser meramente fuerte, sino que pretendía ser extraordinariamente fuerte. Cuando se ponía esta túnica, los hombres orgullosos se hacían a un lado y los fanfarrones se callaban.  Pero a pesar de todo su empeño y habilidad, Ogi-Luc fue incapaz de derrotar al abjurador thayino Nesk Vhaltim, y éste cogió la túnica como premio.   Años más tarde, fue robada y vendida por un osado pícaro.
+
+ESTADÍSTICAS:
+
+Especial:  Establece la Fuerza en 18/99 y otorga +2 a la Constitución
+Clase de Armadura: 4
+Peso: 5
+Sólo lo puede usar:
+Mago (Clase única)~
+@20515 = ~Laúd~
+@20516 = ~El Viejo Laúd de Pellon Kay~
+@20517 = ~Un laúd musical~
+@20518 = ~Pellon Kay nunca habría aparecido en los libros de historia de no ser por su famoso laúd. Sin él, nadie lo habría recordado en absoluto. Nacido en Sembia, Pellon creó una nueva escuela de música, pero nunca se tomó sus actuaciones demasiado en serio.  Los monjes creían que Milil fruncía el entrecejo por sus bufonadas, pero lo único cierto es que Talos encontraba su actitud realmente divertida. Una noche, el avatar del dios lo contempló luchar con más de veinte hombres en una taberna, y como regalo, Talos tocó el laúd al lado de donde estaba el cuerpo inconsciente de Pellon. Después de esa noche, Pellon descubrió que podía hacer a los hombres enfurecer frenéticamente con sólo tocar su instrumento. De esta forma, disfrutó de lo lindo poniendo furiosos a mercenarios y marineros durante incontables semanas, e hizo docenas de enemigos por todas partes debido a su frivolidad y su apetito por la confrontación. Finalmente, cayó derrotado ante un destacado guerrero que no permitió que se acercase lo suficiente para emplear el laúd contra él.  El guerrero tiró el instrumento al Mar de las Estrellas Fugaces.
+
+ESTADÍSTICAS:
+
+Cuando se toca en dirección a un enemigo, éste cae bajo los efectos del conjuro Hechizo Horrendo
+Sólo lo puede usar:
+Bardo~
+@20519 = ~Poción de pensamiento claro~
+@20520 = ~Pocas de estas pociones fueron nunca manufacturadas y los métodos con las que se hicieron se perdieron para siempre.  Creadas durante los tiempos de Netheril para los sacerdotes más importantes, estas pociones aumentan el poder de los sacerdotes.
+
+ESTADISTICAS:
+
+Constitución -2, Sabiduría +1 (efectos permanentes)
+Sólo lo puede usar:
+Clérigo~
+@20521 = ~Laceradora de Ihanora~
+@20522 = ~Las únicas partes materiales de este arma gélida son la empuñadura, el agarre y el pomo, todas forjadas de brillante plata y acero. Este arma fue creada en 1099 DR por la Elegida de Auril, Ihanora la Clemente.  Ihanora marchó por el norte dirigiendo despiadados ataques contra todos los que intentaban encontrar refugio del frío y la batalla. Viajaba congelándolo todo a su paso con una abigarrada pandilla de yetis, osos polares, gigantes de la escarcha y un dragón blanco. Ihanora fue derrotada en 1108 DR por la célebre Brigada de la Máscara Roja encabezada por el ruín asesino Harley el Mordiente.
+
+ESTADÍSTICAS:
+
+THAC0: +2
+Daño: 2D4 +2, 2% de congelar (muerte automática)
+Tipo de daño: frío
+Peso: 10
+Factor de velocidad: 6
+Tipo de talento: espada bastarda
+Tipo: 1 mano
+No lo puede usar:
+Druida
+Clérigo
+Mago
+Ladrón~
+@20523 = ~Anillo de Hechicería de Edion~
+@20524 = ~Edion, nigromante moribundo de Sembia, fue el propietario originario de este poderoso anillo. El mago forjó el objeto con sus propias manos y en sus últimos años de vida se encontró tan ligado a él que casi nunca se lo quitó de encima hasta que expiró su último aliento.
+
+ESTADÍSTICAS:
+
+Especial: Dobla el número de hechizos memorizables de nivel 5
+Sólo Utilizable Por:
+Mago (Simple, Dual y Multiclase)~
+@20525 = ~Capucha del Bribón~
+@20526 = ~Esta capucha marrón oscuro está diseñada para ser usada sobre la cabeza y los hombros a modo de capota ancha. Fue creado por el ladrón e ilusionista gnomo Brein Castaño. Brein usó la capucha en sus aventuras durante muchos años antes de que su amante de la infancia le convenciese de que se retirara. Entonces pasó a manos de su sobrino, Chirchet, quien a su vez 
+vendió el objeto a cambio de tierras de cultivo.
+
+ESTADÍSTICAS:
+
+Especial: Sigilo +10%, Ceguera y Rociada de color 1/día
+Bonificador a la clase de armadura: 2
+Peso: 2
+Sólo lo puede usar:
+Ladrón (Simple, dual o multiclase)
+Explorador (Simple, dual o multiclase)
+Bardo~
+@20527 = ~Cinto trémulo~
+@20528 = ~Uno de los cintos encantados más hermosos creados en Zakhara, este lujoso objeto de seda fue diseñado para auxiliar a sus portadores a esquivar ataques. La Hermandad de los Tres Soles, una sociedad de asesinos sagrados, concedía estos cintos a sus sirvientes más devotos. Este cinto en particular perteneció al miembro Khamu Bedi. Una cadena de delicadas letras negras escritas sobre la seda roja dicen: "Sé veloz, poderoso y letal. Pero sobre todo, sé moral."
+
+ESTADÍSTICAS:
+
+Especial: Borrosidad constante sobre el portador
+Peso: 2
+Permitido a:
+Personajes Buenos~
+@20529 = ~Virote de fuego de Sekolah~
+@20530 = ~Este virote de metal está ajustado con un buzo al final. El virote está relleno de una sustancia viscosa semejante a jalea que apesta a pescado. Cuando es disparado, el buzo expulsa su contenido en un flujo de 15 metros de largo. Al contacto con el aire, la jalea se incinera dejando un rastro de fuego mientras vuela hacia su objetivo. Cualquier herida alcanzada es recubierta por la jalea y se inflama. Estos virotes son el arma favorita de los saguajin de alto rango.
+
+ESTADÍSTICAS:
+
+Daño: 3D6 de daño de fuego por asalto. El efecto dura tres asaltos
+Tipo de daño: Fuego
+Lanzador: Ballesta~
+@20531 = ~Espada de hueso aserrada~
+@20532 = ~Emitiendo una ténue aura azul, este gigantesca arma es un mandoble aserrado hecho de hueso. Ocasionalmente golpea con una oleada de frío y entumece machacando a sus víctimas.
+
+ESTADÍSTICAS:
+
+THAC0: +3
+Daño: 1D10+3, 20% de infligir 1D10 de daño de frío adicional
+Tipo de daño: cortante
+Peso: 25
+Factor de velocidad: 10
+Tipo de talento: mandoble
+Tipo: 2 manos
+No lo puede usar:
+Clérigo
+Mago
+Druida
+Ladrón~
+@20533 = ~Arrullo de Owain~
+@20534 = ~Una flauta mágica.~
+@20535 = ~El Arrullo de Owain fue creado por un bardo trastornado llamado Owain Piper. Piper era un devoto de Auril, nacido en la ciudad de Luna Plateada y acostumbrado a aceptar el clima frío de su tierra natal. Viajó extensamente por el Mar de la Luna, donde encontró a un mago llamado 
+Pelham del Pantano. Owain y Pelham se hicieron buenos amigos y estuvieron en contacto durante una década. Pelham encantó el Arrullo de Owain para el bardo en cambio de una pequeña suma de dinero. Owain raramente usó el instrumento en batalla, lo empleada cuando los gansos retrasados en la emigración rondaban en el lago. Soplaba el cuerno para que los gansos lo escuchasen como el sonido de sus primos y entonces emprendiesen el viaje hacia el sur. Cuando los gansos intentasen echar avolar, el cuerno de Owain los congelaría allí mismo, donde los dejaría morir.
+
+ESTADÍSTICAS:
+
+Cuando es usado lanza Cono de frío ocasionando 10D4+10 puntos de daño
+Sólo lo puede usar:
+Bardo~
+@20536 = ~Protector de Spendelard~
+@20537 = ~El hechicero Spendelard se hizo famoso gracias a la extrema utilidad de sus conjuros. Cuando no estaba elaborando uno, sus infrecuentes pero largos viajes le metían en embrollos peligrosos. Éste bastón creado por él le ayudó bastante a salir indémne de dichas situaciones, pero un buen día se encontró con una peregrina druida de Chauntea y se lo cambió por otra vara que le gustaba más.
+
+ESTADÍSTICAS:
+
+Especial: Bono +1 a la clase de armadura y las tiradas de salvación vs. conjuros
+THAC0: +1
+Daño: 1D6+1
+Tipo de daño: contundente
+Peso: 3
+Factor de velocidad: 3
+Tipo de talento: bastón
+Tipo: 2-manos
+No lo puede usar:~
+@20538 = ~Botas del Pisoteador~
+@20539 = ~Este par de botas extremadamente fuertes fueron propiedad del explorador Thentian Bordel "Pisoteador" Farpath. Bordel fue famoso por todo el mar de la Luna por sus habilidades de viaje. Bordel y un grupo de compañeros exploradores señalarían un lugar de Faerun para marchar hasta allá. Los competidores caminarían hasta ese lugar por la ruta más rápida posible. Bordel ganó muchas más competiciones de las que perdió, ganando una reputación por tener pisadas extremadamente pesadas. Esto le ganó el sobrenombre "Pisoteador." Cuando Bordel murió en una caída de rocas, fue enterrado en el desierto. Muchos años después de su muerte, comenzaron a circular los rumores de que las botas de Bordel estaban encantadas para que sus pasos sonasen con fuerza cuando se acercaba. Este rumor circuló fuera de control, algunos fueron tan lejos que llegaban a decir que las botas de Bordel eran capaces de derribar casas con su peso. Diez años después la muerte de Bordel, unos ladrones robaron las botas, tomando control sobre la propiedad
+que tanta gente creyó poseer.
+
+ESTADÍSTICAS:
+
+Permite al portador lanzar Terremoto 1/Día
+Peso: 4~
+@20540 = ~Martillo de Guerra Santificado +3~
+@20541 = ~Como otros de su clase, este martillo está hecho completamente de acero y montado sobre un asta de cuarenta y cinco centímetros. Este ejemplar es mágico y ha sido bendecido en su creación haciéndolo más efectivo en combate.
+
+ESTADÍSTICAS:
+
+Especial:
+ Memoriza 2 conjuros adicionales de sacerdote de nivel 1
+ Memoriza 1 conjuro adicional de sacerdote de nivel 2
+ Memoriza 1 conjuro adicional de sacerdote de nivel 3
+THAC0: +3
+Daño: 1D4 +4
+Tipo de daño: contundente
+Peso: 6
+Factor de velocidad: 3
+Tipo de talento: martillo de guerra
+Clase:  Una mano
+Sólo lo puede usar:
+Clérigo (simple, dual o multiclase)~
+@20542 = ~Martillo de Guerra +5: Defensor~
+@20543 = ~Como otros de su clase, este martillo de guerra está hecho completamente de acero y es difícil de emular en poder. Consiste en un sólido, grande y pesado rectángulo de metal montado sobre un asta de cuarenta y cinco centímetros y contiene unos poderosísimos encantamientos en su interior que lo hacen prácticamente imparable en combate.
+
+Las armas Defensoras se encuentran entre las más poderosas del mundo.
+
+ESTADÍSTICAS:
+
+Aptitudes Portador:
+ Resistencia mágica +15%, Clase de Armadura +2 (bono)
+ Resistencia física +15%, +3 a las tiradas de salvación vs. conjuros (bono)
+THAC0: +5
+Daño: 1D4 +5, 20% de sanar al portador 1D4 puntos de vida
+Tipo de daño: contundente
+Peso: 6
+Factor de velocidad: 3
+Tipo de talento: martillo de guerra
+Clase: una mano
+No lo puede usar:
+Druida
+Mago
+Ladrón~
+@20544 = ~Hacha de Batalla Envenenada +2~
+@20545 = ~Además de tener una soberbia manofactura, diminutas runas de poder pueden ser vistas grabadas a lo largo y ancho de la superficie de esta hacha. Es obvio que se invirtió mucho tiempo y esfuerzo en su creación, y aunque no se note al principio, observando con atención se puede descubrir un ligero brillo azulado emanando desde el interior.
+
+ESTADÍSTICAS:
+
+THAC0: +2
+Daño: 1D8+2, 25% de envenenar
+Tipo de daño: cortante
+Peso: 7
+Factor de velocidad: 7
+Tipo de talento: hacha
+Tipo: 1 mano
+No permitido a:
+Personajes buenos
+Druida
+Clérigo
+Mago
+Ladrón~
+@20546 = ~Verdad de Benorg~
+@20547 = ~Además de tener una soberbia manofactura, diminutas runas de poder pueden ser vistas grabadas a lo largo y ancho de la superficie de esta hacha. Es obvio que se invirtió mucho tiempo y esfuerzo en su creación, y aunque no se note al principio, observando con atención se puede descubrir un ligero brillo azulado emanando desde el interior.
+
+ESTADÍSTICAS:
+
+Aptitudes Portador:
+ Clase de armadura +1 (bono)
+Aptitudes de Combate:
+ 10% de atontar por cada golpe propinado
+THAC0: +4
+Daño: 1D8+4 + 1D6 de daño contundente adicional
+Tipo de daño: cortante
+Peso: 7
+Factor de velocidad: 7
+Tipo de talento: hacha
+Tipo: 1 mano
+No lo puede usar:
+Druida
+Clérigo
+Mago
+Ladrón~
+@20548 = ~Hacha de Resistencia +3~
+@20549 = ~Esta poderosa hacha consiste en un mango de 140 cm. con una pesada doble hoja rematada al final. Es un arma difícil de manejar, pero un guerrero habilidoso puede asestar unos golpes tremendos con ella. Runas enanas recubren su dorso.
+
+ESTADÍSTICAS:
+
+Aptitudes Portador:
+ +10% a la Resistencia mágica, +2 a las tiradas de salvación (bono)
+ +10% a la Resistencia al daño cortante, perforante, contundente y de proyectil
+THAC0: +3
+Daño: 1D10 +3
+Tipo de daño: cortante
+Peso: 10
+Factor de velocidad: 9
+Tipo de talento: hacha
+Clase: 2 manos
+No lo puede usar:
+Druida
+Clérigo
+Mago
+Ladrón~
+@20550 = ~Espada Bastarda +3: Defensora~
+@20551 = ~Además de tener una soberbia manofactura, diminutas runas de poder pueden ser vistas grabadas a lo largo y ancho de la superficie de esta espada. Es obvio que se invirtió mucho tiempo y esfuerzo en su creación, y aunque no se note al principio, observando con atención se puede descubrir un ligero brillo azulado emanando desde el interior.
+
+ESTADÍSTICAS:
+
+Bonificador a la clase de armadura: 2
+Bonificadores a las resistencias:
+ +10% a la resistencia al daño cortante
+ +10% a la resistencia al daño perforante
+ +10% a la resistencia al daño contundente
+ +10% a la resistencia a los proyectiles
+ +1 a todas las tiradas de salvación
+THAC0: +3
+Daño: 2D4 +3
+Tipo de daño: cortante
+Peso: 10
+Factor de velocidad: 8
+Tipo de talento: espada bastarda
+Clase: 1 mano
+No lo puede usar:
+Druida
+Clérigo
+Mago
+Ladrón~
+@20552 = ~Valerosa~
+@20553 = ~Esta espada legendaria fue empuñada durante un breve período de tiempo por el guerrero Ilban de Elturel. Es por sus hazañas en Calimshan que el arma se ganó su nombre. Sin embargo, antes de estar con Ilban, Valerosa estuvo en posesión de un asesino sagrado de la lejana Zakhara. Según los profetas, la liviana espada fue forjada para servir a una orden de asesinos. Los dueñós de Valerosa sobrevivieron a muchas experiencias increíbles, la mayoría gracias a la magia del arma. El arma se perdió en Calimshan cuando un asesino sagrado cazó a un agente blasfemo del Pachá en Calimport. La cimitarra se quedó en las manos de Baris Cabal cerca de una docena de años antes de que la banda fuese desintegrada por Ilban y sus compañeros. Las cruzadas de Ilban metieron a Valerosa en batalla contra hombres de la arena, escorpiones gigantes, corsarios del desierto, hechiceros malvados y los demoníacos sirvientes de Celan Harad.
+
+ESTADÍSTICAS:
+
+Especial: Un ataque extra por asalto
+THAC0: +2
+Daño: 1D8 +2
+Tipo de daño: cortante
+Peso: 4
+Tipo de talento: espada larga
+Factor de velocidad: 0
+Clase: 1 mano
+No lo puede usar:
+Mago
+Clérigo~
+@20554 = ~Aullído de Vírgenes~
+@20555 = ~Esta sencilla capa ha sido imbuída con propiedades mágicas para ayudar a proteger de su portador. Afecta tanto a las tiradas de salvación como a la clase de armadura. Es ideal para magos ú otros que no puedan usar armaduras voluminosas ni restrictivas.
+
+ESTADÍSTICAS:
+
+Peso: 3~
+@20556 = ~Esta enjuta capa parece deshilachada, pero con una inspección más cercana, se ve que sus hilos son cabellos humanos. La capa se contorsiona a la luz de las velas y cada hebra del pelo que la conforma se enreda y desenreda haciendo que parezca que la luz resbala sobre ella.
+
+Los cabellos son el pelo de las vírgenes enviadas a la Isla Burial a descansar eternamente junto a sus señores muertos. Fue voluntad del Vidente confortar a estas mujeres, apaciguando su pánico y su miedo tomando un mechón de pelo de cada una y tejiéndolo en una capa que les extrajo la angustia de sus espíritus. El resultado se tradujo en un manto que se cierne sobre si mismo con culpabilidad pero que es capaz de repeler el miedo.
+
+Cuando la capa es usada, los cabellos que la dan forma se "atemorizan" y entretejen alrededor del cuerpo de quien la lleva como los hilos de un telar. Como consecuencia, la capa no se puede desenredar a voluntad sino que debe lanzarse antes un conjuro de Quitar Maldición.
+
+ESTADÍSTICAS:
+
+Aptitudes Portador:
+ Inmunidad al Miedo y Arrebato Emocional
+ Bono CA +4 contra ataques contundentes, perforantes y de proyectil
+ Bono CA +2 contra ataques cortantes
+Habilidades Portador:
+ Capa de Miedo 1/día
+Peso: 1
+Sólo lo puede usar:
+Elfo
+Semielfo~
+@20557 = ~Defensor de Waukeen~
+@20558 = ~Cierta cantidad de estos broqueles pueden ser hallados en los templos de Waukeen
+a lo largo y ancho de Faerun. La iglesia hizo estos escudos para venderlos a los aventureros. A cambio de los poderes del artefacto, el portador debe mantener la enseña del escudo al descubierto y no alterarla. Si el portador no accede, los poderes del escudo fallan, asi que docenas de aventureros viajan por los Reinos con la enseña dorada de Waukeen ondeando bajo su brazo.
+
+ESTADÍSTICAS:
+
+Bonificador a la Clase de Armadura: +3
+Bonificador a las Tiradas de Salvación: +2
+Resistencia mágica: 10%
+Peso: 4
+No lo puede usar:
+El druida
+El ladrón
+El mago
+El bardo~
+@20559 = ~Ol'Withery~
+@20560 = ~El nombre original de esta extraña espada está perdido en el lóbegro fondo del Mar de las Espadas. Construído con un hueso de sahuagin reforzado mágicamente, se dice que el arma fue usada en rituales kuo-toa. El asidero está hecho de coral y se encuentra enredado en piel de sahuagin. 
+
+Su portador original fue Lockhart, destacado ladrón, aventurero y contrabandista de la Costa de la Espada. La daga le debe su nombre.
+
+ESTADÍSTICAS:
+
+Especial: Con cada ataque tiene un 2% de probabilidades de lanzar Dedo de la Muerte sobre el contrincante
+THAC0: +2
+Daño: 1D4+2
+Tipo de daño: perforante
+Peso: 1
+Factor de velocidad: 1
+Tipo de talento: Daga
+Clase: Una mano
+No lo puede usar:
+El clérigo~
+@20561 = ~Fervor Joven~
+@20562 = ~Esta hacha fue construída para un joven bárbaro llamado Hegelfden. Lo que sigue es su historia:
+   Hegelfden nació en la tribu del Elk y los chamanes profetizaron que sería un poderoso guerrero. El bárbaro creció creyendo que era especial, importante y algo mejor que aquellos que le rodeaban. A los diecisiete, cumplió la profecía y se convirtió en un poderoso combatiente.
+   En un viaje por la Espina Dorsal del Mundo, Hegelfden capturó dos artesanos enanos con los que se cruzó en una cueva. Soberbio, rehusó dejarlos ir hasta que le creasen un magnífica hacha para él. Los dos enanos accedieron de mala gana, forjando una poderosa arma con aguda hoja y empuñadura recia. Habiendo terminado, pidieron su liberación, pero Hegelfden frunció el entrecejo y les negó su deseo pues planeaba mantenerlos como sirvientes. Los enanos le maldijeron y le advirtieron que el fruto de su abuso sería su fin, pero el bárbaro se burló de ellos y llevándoselos consigo, continuó con su vida. Al día siguiente, en una batalla contra una tribu rival, entró en un estado bersérker descontrolado y mató a todo bicho viviente con el que se cruzó. Sus compañeros de clan, convencidos de que se había vuelto loco, decidieron quitarle la vida y se llevaron su cuerpo. El hacha se perdió para siempre en el campo de batalla.
+
+ESTADÍSTICAS:
+
+Aptitudes Combate: Cada golpe tiene un 5% de probabilidades de originar Furia de Combate sobre el portador durante 10 asaltos
+THACO: +5
+Daño: 1D8 +5
+Tipo de daño: cortante
+Peso: 6
+Factor de velocidad: 3
+Tipo de talento: hacha
+Clase: 1 mano
+No lo puede usar:
+El druida
+El clérigo
+El mago
+El ladrón~
+@20563 = ~Este es un bastón de cuero negro, muy fuerte, con distintas escenas y runas grabadas. Permite al usuario causar pánico a cualquiera que toque -sin tirada de salvación-, e inflige 4D6 puntos de daño que pueden ser sanados únicamente por magia clerical, pociones o todo un día de descanso. Puede ser usado también para conjurar a un tipo de demonio I (Tanar'ri) y/o convertir a el que lo agarra en un demonio tipo III (como el Asesino) durante cinco asaltos. Cada una de éstas funciones sólo puede ser usada una vez al día.
+
+ESTADÍSTICAS:
+
+Habilidades de Combate:
+ Causa miedo en el objetivo (sin salvación)
+ Puede convocar a un Tanar'ri una vez por día
+ Puede convertir al portador en el Asesino una vez por día
+Daño: 4D6
+Peso: 3
+Factor de velocidad: 1
+Tipo de talento: bastón
+Clase: 2 manos
+Requerimientos: fuerza 5~
+@20564 = ~Anillo del Drow~
+@20565 = ~Este anillo está hecho con ocho hebras de diferentes metales raros entrelazados en sí hasta formar un anillo. Los drow encontraron problemático el hecho de que sus objetos mágicos se deterioraran al dejar su hogar subterráneo por períodos largos de tiempo; y este anillo esta hecho para contrarrestar ese efecto. El Anillo del Drow está hecho por sacerdotisas de Lolth. Estas se propusieron mantener los objetos hechos por drows a salvo de la deterioración. Para ello, el anillo irradia un aura de energía mágica que duplica las radiaciones de la infraoscuridad de los hogares drow. Como efecto secundario del aura mágica del anillo, un conjuro de detectar magia revela el aura mágica que rodea a su portador. Además, un conjuro de detectar mal muestra al portador del anillo como maligno, aunque no lo sea, y el conjuro Conocer Alineamiento indica que el portador es caótico maligno, sin emportar el verdadero alineamiento del portador. Si el portador usa un poder psiónico de alteración de aura para cambiar el aura, debe superar una tirada de salvación contra conjuros o sino cambiará su alineamiento a caótico maligno. Si el portador la pasa, o si el portador falla pero ya es caótico maligno, el poder psiónico funciona normalmente, y el aura del anillo es cambiada de forma temporal.
+
+Poseer uno de estos anillos es un gran honor entre los drow, porque significa que el portador ha viajado lejos de su hogar, y que él o ella fueron asistidos por una clériga agraciada por Lolth. Un drow matará a cualquier criatura que posea estos anillos y que no sea un drow.~
+@20566 = ~Catalejo~
+@20567 = ~El catalejo suele utilizarse por exploradores o centinelas en compañías mercenarias o ejércitos regulares. Los beneficios de poder avistar y vigilar a los enemigos sin uso de magia suponen una gran virtúd para aquellos poco familiarizados con los métodos arcanos.
+
+Recibiste este ejemplar de manos del Comandante de la Guardia de Soubar. Revelará una pequeña área del mapa por lejana que esta esté como si usaras el conjuro Vista Lejana, pero sin uso real de magia. 
+
+El Comandante sugirió que podrías emplear el catalejo para avistar a los bandidos de las granjas al norte de Soubar.
+
+ESTADÍSTICAS:
+
+Especial: Permite beneficiarse de los mismos efectos que Vista Lejana 3/día
+Utilizable por:
+Cualquiera~
+@20568 = ~Guiso de Pescado~
+@20569 = ~Cualquier cena de Oscar es excelente. Comerla incrementa la fuerza, constitución e inteligencia en un punto durante cuatro horas. Simplemente deja el objeto en una casilla rápida y úsalo como una poción~
+@20570 = ~Sopa de Marisco~
+@20571 = ~Biscochos de Trigo~
+@20572 = ~Mahi Mahi~
+@20573 = ~Lenguado~
+@20574 = ~Merluza~
+@20575 = ~Mero~
+@20576 = ~Halibut~
+@20577 = ~Pescado del Día~
+@20578 = ~Costillas de Vaca~
+@20579 = ~Bistec~
+@20580 = ~Hígado de cordero relleno~
+@20581 = ~Bifes de lagarto~
+@20582 = ~Carne de cordero~
+@20583 = ~Pollo Asado~
+@20584 = ~Guiso de Serpiente~
+@20585 = ~Guiso de Conejo~
+@20586 = ~Guiso de Vaca~
+@20587 = ~Vegetales~
+@20588 = ~Bistecs de Venado~
+@20589 = ~Pavo Asado~
+@20590 = ~Pan de Centeno~
+@20591 = ~Huevos de Gallina~
+@20592 = ~Huevos de Serpiente~
+@20593 = ~Pastel de Manzana~
+@20594 = ~Cualquier cena de Oscar es excelente. La comida incrementa la fuerza, constitución e inteligencia en un punto durante cuatro horas. Simplemente deja el objeto en una casilla rápida y úsalo como una poción.
+
+Mi madre hace el pastel de manzana mejor que Oscar-- cbisson~
+@20595 = ~Bandeja de Queso~
+@20596 = ~Perdición de Fantasmas~
+@20597 = ~Normalmente encontrado en viales, Perdición de Fantasmas es un polvo muy valioso para aventureros y nigromantes. Cuando se consume mezclado con agua, protege durante 24 horas de ser envejecido por un fantasma (protección contra el plano negativo)  Es muy buscado por quienes luchan contra no-muertos.
+
+ESTADISTICAS:
+
+El que lo consume recibe inmunidad contra la consunción de niveles durante 24 horas~
+@20598 = ~Ceeb Isson's Ecologies: Los Filos infernales
+
+Se rumoreaba hace muchos años, durante las guerras, cuando los elfos se unieron para luchar contra los elfos oscuros y les obligaron a huir hacia la Infraoscuridad, que Gulgaraith, un drow luchador/mago experimentado, creó numerosas armas de gran poder para ayudar a los suyos en la eterna contienda. Así fue como los Filos Infernales llegaron al mundo mortal del hombre.
+
+Nadie sabe cuantas de estas armas siguen existiendo después de tantos siglos, pero lo que sí se sabe a ciencia cierta es que son artefactos demoníacos malditos.
+
+Efectos Globales:
+
+Cada Filo Infernal funciona como una Espada de la Agudeza modificada, con un encantamiento +3 para golpear y con capacidad de seccionar miembros con una tirada de ataque de 20.  Estas armas están tan viciadas, corruptas y llenas de poder que si se rompen se reconstruyen solas y si son separadas de su dueño son capaces de buscarle sin cesar y reunirse de nuevo con él/ella en cuanto dan con su paradero.  Su habilidad más conocida es la de matar de un sólo golpe, pero también cabe destacar que aquellos asesinados por un Filo Infernal son enviados al Abismo para siempre y no pueden revivirse por ningún medio conocido.
+
+Cada Filo Infernal tiene un ego, una inteligencia y un poder de defensa para "ayudar" a su dueño.
+
+Los Filos Infernales son peligrosos tanto para el objetivo como para quien los empuña.  Cuando un Filo Infernal escoge su propietario/a, el arma tratará con todas sus fuerzas de no separarse de él/ella. Si se separa, regresará.
+
+Debido al lazo que se forma entre el Filo Infernal y su portador/a, éste útimo podrá cambiar de alineación pues se formará una siniestra unión entre él/ella y su espada. Esta conexión no conoce límites y absorbe la voluntad del mortal que empuña el arma hasta el punto de que puede acabar convirtiéndose en un mero títere al servicio del Mal.
+
+Como última advertencia, hay que tener mucho cuidado cuando se mira la descripción de un Filo Infernal, pues sólo con mirarla se puede caer bajo su influjo para siempre.
+
+ESTADÍSTICAS:
+
+Añade 1 punto a la Sabiduría de forma permanente.~
+@20599 = ~La sabiduría ha aumentado en un 1 punto de forma permanente~
+@20600 = ~Sobre los Filos infernales:
+
+     Se rumorea que hace muchos años, durante las guerras entre hermanos entre los elfos y los elfos oscuros, un experimentado drow llamado Gulgaraith forjó numerosas armas de gran poder para defenderse en la batalla. Estas armas fueron bautizadas como Los Filos infernales, y varios siglos después nadie sabe cuantos perduran en el mundo, sólo se sabe que son artefactos de gran poder.
+
+Efectos Globales:  Todos los Filos Infernales funcionan como una Espada de la Agudeza modificada +3 y decapitan con un tirada natural de 20.  Son tan poderosos que si se rompen se reconstruyen solos y si se separan de su dueño lo buscan incesantemente hasta encontrarlo. Su habilidad más famosa es la de matar instantáneamente, pero también destacan porque aquellos a los que asesinan no se les puede revivir.
+
+Cada Filo Infernal tiene su propio ego, inteligencia y poder de defensa particular para ayudar a su dueño.
+
+Filo Infernal: Devoravidas:
+
+  Se trata de una cimitarra brillante como el rubí que puede lanzar Celeridad sobre su portador 3 veces al día.  Tiene una inteligencia de 17 y un ego de 10.
+
+ESTADISTICAS:
+
+Daño: 1D6 + 3
+Tipo de Daño: cortante
+Peso: 5
+Factor de Velocidad: 5
+Tipo de Talento: cimitarra
+Tipo: 1 mano
+No Usable Por:
+Druida
+Clérigo
+Mago~
+@20601 = ~Sobre los Filos infernales:
+
+     Se rumorea que hace muchos años, durante las guerras entre hermanos entre los elfos y los elfos oscuros, un experimentado drow llamado Gulgaraith forjó numerosas armas de gran poder para defenderse en la batalla. Estas armas fueron bautizadas como Los Filos infernales, y varios siglos después nadie sabe cuantos perduran en el mundo, sólo se sabe que son artefactos de gran poder.
+
+Efectos Globales:  Todos los Filos Infernales funcionan como una Espada de la Agudeza modificada, son +3 y decapitan con un tirada de 20.  Son tan poderosos que si se rompen se reconstruyen solos y si se separan de su dueño lo buscan incesantemente hasta encontrarlo. Su habilidad más famosa es la de matar instantáneamente, pero también destacan porque aquellos a los que asesinan son imposibles de revivir.
+
+Cada Filo Infernal tiene su propio ego, inteligencia, y poder de defensa particular para ayudar a su dueño en combate.
+
+Filo Infernal: Drenadora de Almas:
+
+  Se trata de una espada larga con un brillo de color púrpura/amarillento.  Puede lanzar Protección contra el Plano Negativo 3 veces al día.  Tiene una inteligencia de 17 y un ego de 12.
+
+ESTADISTICAS:
+
+Daño:  1D8 + 3
+Tipo de Daño:  cortante
+Peso: 5
+Factor de Velocidad: 5
+Tipo de Talento: Espada Larga
+Tipo:  una mano
+No Usable Por:
+ Druida
+ Clérigo
+ Mago~
+@20602 = ~Sobre los Filos infernales:
+
+     Se rumorea que hace muchos años, durante las guerras entre hermanos entre los elfos y los elfos oscuros, un experimentado drow llamado Gulgaraith forjó numerosas armas de gran poder para defenderse en la batalla. Estas armas fueron bautizadas como Los Filos infernales, y varios siglos después nadie sabe cuantos perduran en el mundo, sólo se sabe que son artefactos de gran poder.
+
+Efectos Globales:  Todos los Filos Infernales funcionan como una Espada de la Agudeza modificada, son +3 y decapitan con un tirada de 20.  Son tan poderosos que si se rompen se reconstruyen solos y si se separan de su dueño lo buscan incesantemente hasta encontrarlo. Su habilidad más famosa es la de matar instantáneamente, pero también destacan porque aquellos a los que asesinan son imposibles de revivir.
+
+Cada Filo Infernal tiene su propio ego, inteligencia, y poder de defensa particular para ayudar a su dueño en combate.
+
+Filo Infernal: Devoradora de Almas:
+
+Se trata de una cimitarra de brillo grisáceo. Permite lanzar el conjuro Transformación de Tenser a nivel 13 de poder una vez al día.  Tiene una inteligencia de 16 y un ego de 13.
+
+ESTADISTICAS:
+
+Daño:  1D6 + 3
+Tipo de Daño:  cortante
+Peso: 5
+Factor de Velocidad: 5
+Tipo de Talento: Cimitarra
+Tipo:  Cimitarra
+No lo puede usar:
+ Druida
+ Clérigo
+ Mago~
+@20603 = ~Sobre los Filos infernales:
+
+     Se rumorea que hace muchos años, durante las guerras entre hermanos entre los elfos y los elfos oscuros, un experimentado drow llamado Gulgaraith forjó numerosas armas de gran poder para defenderse en la batalla. Estas armas fueron bautizadas como Los Filos infernales, y varios siglos después nadie sabe cuantos perduran en el mundo, sólo se sabe que son artefactos de gran poder.
+
+Efectos Globales:  Todos los Filos Infernales funcionan como una Espada de la Agudeza modificada, son +3 y decapitan con un tirada de 20.  Son tan poderosos que si se rompen se reconstruyen solos y si se separan de su dueño lo buscan incesantemente hasta encontrarlo. Su habilidad más famosa es la de matar instantáneamente, pero también destacan porque aquellos a los que asesinan son imposibles de revivir.
+
+Cada Filo Infernal tiene su propio ego, inteligencia, y poder de defensa particular para ayudar a su dueño en combate.
+
+Filo Infernal: Succionadora de Almas:
+
+  Se trata de una espada larga con un brillo verde/amarillento.  Otorga a su dueño 37% de Resistencia Mágica y la habilidad de lanzar Esfera Menor de Invulnerabilidad a nivel 12 de poder tres veces al día.  Tiene una inteligencia de 17 y un ego de 12.
+
+ESTADISTICAS:
+
+Daño:  1D8 + 3
+Tipo de Daño:  cortante
+Peso: 5
+Factor de Velocidad: 5
+Tipo de Talento: Espada Larga
+Tipo:  un puño
+No Usable Por:
+ Druida
+ Clérigo
+ Mago~
+@20604 = ~Sobre los Filos infernales:
+
+     Se rumorea que hace muchos años, durante las guerras entre hermanos entre los elfos y los elfos oscuros, un experimentado drow llamado Gulgaraith forjó numerosas armas de gran poder para defenderse en la batalla. Estas armas fueron bautizadas como Los Filos infernales, y varios siglos después nadie sabe cuantas perduran en el mundo, sólo se sabe que son artefactos de gran renombre.
+
+Efectos Globales:  Todos los Filos Infernales funcionan como una Espada de la Agudeza modificada, son +3 y decapitan con un tirada de ataque de 20.  Son tan poderosos que si se rompen se reconstruyen solos y si se separan de su dueño lo buscan incesantemente hasta encontrarlo.  Su habilidad más famosa es la de matar instantáneamente, pero también destacan porque aquellos a los que asesinan son imposibles de revivir.
+
+Cada Filo Infernal tiene su propio ego, inteligencia, y poder de defensa particular para ayudar a su dueño en combate.
+
+Filo Infernal:  Desolladora de Almas:
+
+  Se trata de una espada corta de brillo amarillento con capacidad para lanzar Piel Pétrea sobre el portador 3 veces al día a nivel 12 de poder.  Tiene una inteligencia de 17 y un ego de 12.
+
+ESTADISTICAS:
+
+Daño:  1D6 + 3
+Tipo de Daño:  cortante
+Peso: 5
+Factor de Velocidad: 5
+Tipo de Talento: Espada Corta
+Tipo:  un mano
+No Usable Por:
+ Druida
+ Clérigo
+ Mago~
+@20605 = ~Sobre los Filos infernales:
+
+     Se rumorea que hace muchos años, durante las guerras entre hermanos entre los elfos y los elfos oscuros, un experimentado drow llamado Gulgaraith forjó numerosas armas de gran poder para defenderse en la batalla. Estas armas fueron bautizadas como Los Filos infernales, y varios siglos después nadie sabe cuantos perduran en el mundo, sólo se sabe que son artefactos de gran poder.
+
+Efectos Globales:  Todos los Filos Infernales funcionan como una Espada de la Agudeza modificada, son +3 y decapitan con un tirada exitosa de 20.  Son tan poderosos que si se rompen se reconstruyen solos y si se separan de su dueño lo buscan incesantemente hasta encontrarlo.  Su habilidad más famosa es la de matar instantáneamente, pero también destacan porque aquellos a los que asesinan son imposibles de revivir.
+
+Cada Filo Infernal tiene su propio ego, inteligencia, y poder de defensa particular para ayudar a su dueño en combate.
+
+Filo Infernal:  Aniquiladora de Almas:
+
+  Se trata de una cimitarra de acero negro con un brillo rojo como el fuego del infierno.  Otorga a su portador 100% de Resistencia al Fuego y puede lanzar Imagen espejada tres veces al día a nivel 12 de poder.  Tiene una inteligencia de 17 y un ego de 12.
+
+ESTADISTICAS:
+
+Daño:  1D8 + 3
+Tipo de Daño:  cortante
+Peso: 5
+Factor de Velocidad: 5
+Tipo de Talento: Cimitarra
+Tipo:  una mano
+No lo puede usar:
+ Druida
+ Clérigo
+ Mago~
+@20606 = ~Urna~
+@20607 = ~Filacteria~
+@20608 = ~Esta es una urna con una sustancia rara bañando el interior hasta los bordes.  La sustancia es como una ceniza líquida muy fina que parece haber estado quemándose a altas temperaturas.~
+@20609 = ~Aparentemente esto es la filacteria de un liche. Desconoces para qué podría servir, pero según cuentan las leyendas, se trata de un objeto muy poderoso. Quizás encuentres más información sobre el tema buscando en libros o manuscritos perdidos...~
+@20610 = ~Teniente General de Soubar~
+@20611 = ~Teniente General~
+@20612 = ~Petate~
+@20613 = ~El Comandante de Soubar te dió esta bolsa para que te desprendieras en ella de tus pertenencias. Según te dijo, si no las pones aquí TODAS se pueden perder. Al parecer las recuperarás cuando te nombren alto mando, pero hasta entonces tendrás que prescindir de ellas.  Una vez hayas recogido todo debes dirigirte de nuevo a tus superiores.~
+@20614 = ~Esta carta está destinada al Gran Mercader de Caravasar Lord Logan Coprith. Tienes que entregársela al interfecto de parte del Comandante de Soubar.
+
+Saludos a un viejo amigo-
+
+Estimado Logan, lamento la brevedad de la misiva, pero necesito cualquier ayuda que me puedas prestar para mi pueblo y para mi región en general.  Como ya te expliqué, estoy sufriendo horrores a manos de ese semi-orco llamado HojaCertera. Su horda de bandidos ha saqueado Triel e intenta conquistar Soubar. Estoy desesperado y sé que no podré defender la ciudad durante mucho más tiempo. Te lo ruego, Logan, si tienes algunos hombres o dinero disponibles, envíamelos cuanto antes. Te lo agradeceré eternamente.  
+
+Que Helm te guíe,
+
+(la firma está garabateada y no logras transcribirla)
+El Comandante de Soubar
+
+Posdata: Sabby envía recuerdos para tí y los tuyos.~
+@20615 = ~Símbolo Sagrado de Lolth~
+@20616 = ~Sólo los sirvientes más devotos de la Reina Araña logran hacerse con estos poderosos símbolos. 
+
+ESTADÍSTICAS:
+
+Dos hechizos adicionales de clérigo de 6to nivel y uno más de 7mo
+Resistencia Mágica +5%, Fuerza +1
+Permitido a:
+Clérigos elfos~
+@20617 = ~Carta de Introducción~
+@20618 = ~Hijo de Bhaal,
+
+     Perdona la manera en la que te contactamos.  Hemos estado buscando por todos los rincones de Amn y la Costa de la Espada alguien con poder, habilidades e influencia suficientes para que nos asista en nuestro momento más oscuro y no hemos encontrado una forma mejor de llegar hasta tus oídos.  
+     Si decides ayudarnos, por favor no olvides traernos esta carta de presentación junto con la misiva sellada que te adjuntamos al mesón principal de las Colinas de Umar.
+     Éso es todo. Esperamos conocerte cuanto antes ya que hemos oído de tus hazañas y tu compasión y ambas muestras de virtúd nos han llenado de esperanzas.
+
+Respetuosamente,
+
+GV & AK
+
+PD: No abras la misiva sellada, pues si lo haces, pondrás nuestra integridad en peligro.~ ~Hija de Bhaal,
+
+     Perdona la manera en la que te contactamos.  Hemos estado buscando por todos los rincones de Amn y la Costa de la Espada alguien con poder, habilidades e influencia suficientes para que nos asista en nuestro momento más oscuro y no hemos encontrado una forma mejor de llegar hasta tus oídos.  
+     Si decides ayudarnos, por favor no olvides traernos esta carta de presentación junto con la misiva sellada que te adjuntamos al mesón principal de las Colinas de Umar.
+     Éso es todo. Esperamos conocerte cuanto antes ya que hemos oído de tus hazañas y tu compasión y ambas muestras de virtúd nos han llenado de esperanzas.
+
+Respetuosamente,
+
+GV & AK
+
+PD: No abras la misiva sellada, pues si lo haces, pondrás nuestra integridad en peligro.~
+@20619 = ~Carta sellada~
+@20620 = ~Carta sellada rota~
+@20621 = ~Esta es la carta sellada que acompañaba a la carta de presentación que encontraste en la Corona de Cobre.  Ha sido sellada con cera y tiene un logo que no reconoces.
+
+Te dijeron que la llevaras tal cual a la posada de las Colinas de Umar, asi que abrirla sería una decisión controvertida.~
+@20622 = ~Esta carta estaba sellada con cera y lleva un logo que no reconoces. La encontraste en la Corona de Cobre dentro de la habitación de Selence y se te instruyó NO abrirla antes de acudir a la reunión con los socios de la ladrona en las Colinas de Umar.  Ahora que has hecho caso omiso de lo que se te dijo y la has sacado del sobre, ves que tiene escritas runas negras y rojas en su interior y un bloque de inscripciones indescifrables a la izquierda.~
+@20623 = ~Maza de Lyrar~
+@20624 = ~La Maza de Lyrar es un arma muy poderosa que encontraste al norte de Soubar.  Protege al portador de la consunción de niveles y le establece la fuerza a 22.
+
+ESTADISTICAS:
+
+Aptitudes Equipada: Fuerza 22, Protección contra el Plano Negativo
+THACO: +5
+Daño: 1D6+6
+Tipo de Daño: aplastante
+Peso: 4
+Factor de Velocidad: 2
+Tipo de Talento: maza
+Tipo: 1 mano
+Requiere: fuerza 10
+No usable por:
+Druida
+Mago
+Ladrón~
+@20625 = ~Armadura de Placas de Lyrar~
+@20626 = ~Encontraste esta armadura junto a una tumba mientras asediabas la Fortaleza de Lyrar. A pesar de ser muy vieja, está en buenas condiciones. Su única pega es que enlentece a quien la lleva al atacar, pero tiene una manofactura impresionante y no perjudica al resto de acciones comunes.  Otorga un 50% de resistencia contra el daño contundente, cortante, perforante y de proyectil.
+
+ESTADISTICAS:
+
+Aptitudes Portador:
+ 50% de resistencia contra todos los tipos de daño físico
+ +30% de resistencia al daño mágico
+ Número de ataques del portador reducidos un 33% (penalización)
+Clase de Armadura: -1, -5 contra daño cortante
+Peso: 35
+Requiere: fuerza 12
+No usable por:
+Bardo 
+Druida
+Mago
+Ladrón~
+@20627 = ~Escudo de Lyrar~
+@20628 = ~Encontraste este escudo en la Fortaleza de Lyrar. Proporciona permanentemente el efecto del conjuro Protección contra el Mal sobre el portador y otorga un bono a la clase armadura muy superior al del resto de escudos ordinarios.
+
+ESTADISTICAS:
+
+Aptitudes Portador: 
+ Bono CA +2 vs. proyectiles
+ Protección contra el Mal constante
+Clase de Armadura: 4
+Peso: 15
+Requiere: fuerza 15
+No Usable Por:
+Bardo
+Druida
+Mago
+Ladrón~
+@20629 = ~Grilletes~
+@20630 = ~Has sido esposado con estos grilletes por un delito que se te ha imputado. Mientras los lleves encima tus movimientos estarán limitados y no te los podrás quitar de encima sin una llave o ganzúa.~
+@20631 = ~Estos grilletes están hechos de hierro. Un prisionero que los lleve atados a pies y manos queda restringido a pocos movimientos. Este tipo de grilletes son empleados con frecuencia por los carceleros para prevenir que el reo se escape, ataque, o intente algún otro tipo de movimiento peligroso.
+
+Al usarse se tratan de colocar en las muñecas y los pies del objetivo mediante un ataque ordinario, y si se acierta, se colocan. Una vez puestos el objetivo no se puede mover y queda apresado sin posibilidad de huída a menos que disponga de una llave o ganzúa.~
+@20632 = ~Ha sido esposado~
+@20633 = ~Alcalde de Soubar~
+@20634 = ~Concejal de Soubar~
+@20635 = ~<CLASS>~
+@20636 = ~Esta carta está dirigida al Prelado Welessan, el líder de la Orden del Muy Radiante Corazón en Athkatla.  Tienes que entregársela al interfecto de parte del Comandante de Soubar.
+
+Mi Muy Noble Prelado-
+Espero que esta misiva la encuentre con ánimos y buena salud. Disculpe mi tono abrupto, directo, y mis faltas de caligrafía, pero me temo que las cosas no andan bien en Soubar. Estamos sufriendo oleadas de ataques a manos de los bandidos más despiadados que he visto desde la Caída de los Dioses, pues son capaces incluso de saquear villas enteras.
+  Os lo ruego, os lo imploro, por Helm, os solicito vuestra ayuda. Cualquier cosa que me prestéis será bienvenida. Mientras tanto, sólo Tymora nos salvaguardará del desastre.
+
+Con la bendición de Torm- (hay una firma pero no entiendes el nombre)
+El Comandante de Soubar~
+@20637 = ~Hoja de Guerra de Vanshir~
+@20638 = ~El guerrero Vanshir viajó durante mucho tiempo con un grupo mercenario, algunos en quienes no confiaba por su maldad, aunque peleó duro por mantenerles a salvo.  Un día luego de una batalla donde todos quedaron heridos, un ladrón decidió aprovecharse robando a la compañía.  Comenzó con el más poderoso guerrero, Vanshir.  El malvado hombre le clavó una daga envenenada por la espalda y se dedicó luego al resto del grupo.  Vanshir sobrevivió y llegó a la ciudad más cercana para curarse y descansar, 3 dias después, regresó a su casa.  Aquí es cuando se obsesionó con vengarse y vendió todo lo que tenía, llamó a todos quines le debían favores y a sus amigos.  Usó el dinero para pagarle a un mago que le hiciera un arma muy poderosa que le ayudara a matar ladrones.
+   Es un arma +3 que da inmunidad al miedo, +3 a AC, y +1 a las tiradas de salvación.  Tiene un brillo verde y palpita.
+
+ESTADISTICAS:
+
+Aptitudes Portador:
+*Inmunidad a miedo/pánico/confusión
+*Premia con +3 a la clase de armadura y +1 a todas las tiradas de salvación
+THAC0: +3
+Daño:  1D8+3
+Tipo de Daño: cortante
+Peso: 4
+Factor de Velocidad: 5
+Tipo de Talento: espada Larga
+Tipo: un puño
+Requiere: fuerza 6
+No Usable Por:
+Druida
+Clérigo
+Mago
+Ladrón~
+@20639 = ~Amuleto Arcanista~
+@20640 = ~Este medallon de plata da +2 a todas las tiradas de salvación contra hechizos.
+
+ESTADISTICAS:
+
+Salvación vs. hechizos +2 (bono)
+Peso:  3~
+@20641 = ~Espada de Nazger~
+@20642 = ~Esta espada larga mágica que no tiene brillo y está sin pulir es de un tinte rojizo.  La hoja es de largo regular, aunque un poco más delgada de lo normal.  La empuñadura está separada y es de acero.  La cruz está hecha en forma de dos medialunas cruzándose, similar a .  La empuñadura está envuelta en cuerdas azules y verdes.
+     Fué forjada hace 150 años por un explorador que se hizo mago en el área del Bosque del Arkho, llamado Frasfer el Marrón.  Él y unos compañeros vigilaban el Bosque, cuando una banda de hombres lobo; esto les obligo a intentar hacer un objeto mágico para eliminarlos más fácilmente.  Uno de sus compañeros era druida, y la mezcla de magia druídica y arcana creó esta espada.
+     Nazger, un soldado de Sembia fué quien fundió la espada 150 años atrás.  La usó para buscar asesinos en Highmoon, una ciudad al norte del Bosque del Arkho.  Asique Nazger mató a la mayoría.  Pero peleando en las alcantarillas de la ciudad desapareció.  Lo único que se encontró de Nazger, fué su espada.  En un mercado fué vendida a una caravana que iba a Ordulin.
+     Como Nazgar no tenía familia directa los soldados de la ciudad investigaron muy poco.  Todo lo que se supo fué que un pobre de la ciudad encontró la espada y la vendió por comida en el mercado.  El pobre no sabía nada más.
+     Los poderes de esta espada pueden haber sido revelados a los de la caravana, o pueden haber quedado ocultos y haber sido vendida como una espada normal.  
+     La espada de Nazger es una espada inteligente +1 en daño, que da +3 de daño contra hombes lobo.  También despierta a su dueño cuando hay hombres lobo cerca en caso de que éste esté dormido, aunque no dirá que criatura exactamente es el hombre-lobo, ni se hace más poderosa cuando está cerca.   También parece tener unas inscripciones si se la mira en una noche de luna llena.  
+
+ESTADISTICAS:
+
+THAC0: +1, +3 vs. licántropos
+Daño: 1D6 +1, +3 vs. licántropos
+Tipo de daño: cortante
+Peso: 6
+Factor de velocidad: 1
+Tipo de talento: espada Larga
+Tipo: un puño
+Requiere: fuerza 6
+No usable por:
+Druida
+Clérigo
+Mago~
+@20643 = ~Vidrio Neblinoso~
+@20644 = ~Un espejo muy elegante enmarcado en oro. Exala un aura de poder.~
+@20645 = ~Este espejo puede convocar un Horror Neblinoso 3/día y lanzar Imagen espejada 1/día.
+  
+Lo puede usar:
+Cualquiera~
+@20646 = ~Anillo de Silencio~
+@20647 = ~Esta banda de metal negro azabache elimina la capacidad de hablar al que lo porta; los hechizos con componentes hablados, las canciones bardas y cualquier otro tipo de acción que requiera la voz se hacen imposibles de realizar.  La víctima del anillo sólo se puede desprender de éste mediante el conjuro Quitar Maldición o pereciendo.~
+@20648 = ~Libro de Rosas~
+@20649 = ~Este tomo sólo afecta al primero que lo lee y para sacarle provecho hay que estudiarlo durante una semana entera.  Pasado ese tiempo se gana libertad de movimiento permanente, pero a partir de entonces, si se mata a una planta de rosas incluso aunque sea inadvertida o accidentalmente, se pierde la aptitud obtenida.
+
+ESTADISTICAS:
+
+Acción Libre permanente
+Usable por:
+Cualquiera de 10mo nivel.~
+@20650 = ~Estudias el Libro de Rosas durante una semana.~
+@20651 = ~Sangre Ardiente de Beltyn~
+@20652 = ~Sangre Ardiente de Beltyn (Nigromancia)
+Nivel: 4
+Alcance: Visual
+Duración: 2 asaltos
+Tiempo de lanzamiento: 4
+Área de efecto: Criatura objetivo
+Tirada de salvación: Especial
+
+Este conjuro convierte la sangre del objetivo en llamas ocasionando 3D4 puntos de daño cada 6 segundos durante 12 segundos como máximo. La víctima tiene derecho a una tirada de salvación vs. conjuros al principio de cada asalto con -3 de penalizador; si la supera, el conjuro queda cancelado. La Sangre ardiente de Beltyn no funciona contra muertos vivientes o criaturas extraplanares que no tengan sangre (como los elementales) Si el objetivo es resistente al fuego, se reduce o se anula el daño.~
+@20653 = ~Se dice que existen séis de estas espadas.  Todas son Espadas Impías +5 y están hechas de hierro negro y huesos.  Confieren a su dueño Símbolo de la Muerte una vez al día y absorben el poder de hechizos de magos y clérigos como si fueran una varita de absorción. La única gran pega de esta arma es que drena un nivel A SU PORTADOR cada vez que golpea con éxito a un oponente.
+
+ESTADÍSTICAS:
+
+Aptitudes Portador:
+ Inmunidad a todo tipo de hechizo
+Penalizador de Combate:
+ Cada golpe acertado drena un nivel al portador
+Habilidades Especiales:
+ Símbolo de la Muerte 1/día
+THAC0: +5
+Daño: 1D10 +5
+Tipo de daño: cortante
+Peso: 4
+Factor de velocidad: 5
+Tipo de talento: mandoble
+Tipo: dos puños
+Requiere: fuerza 14, nivel 19
+No Usable Por:
+Druida
+Clérigo
+Mago
+Ladrón
+Personajes buenos o legales~
+@20654 = ~Amuleto de Guarda del Espíritu~
+@20655 = ~El Amuleto de Guarda del Espíritu es un amuleto de plata u oro con un cristal suspendido en el centro. Si su dueño cae a -1 puntos de vida mientras lo usa, su espíritu se transfiere al cristal. De esta forma, su alma se guarda en el cristal hasta que su cuerpo revive de nuevo y así se protege contra la muerte irreversible.
+
+ESTADISTICAS
+
+Habilidades: Al usarse, protege de la muerte irreversible (pero no de la muerte en sí)~
+@20656 = ~Manto de Rabia~
+@20657 = ~El Manto de Rabia es un objeto hecho a partir de la piel de un animal peligroso como un oso o un león.  Cuando se usa le da a su dueño la habilidad Furia bárbara a nivel 1 de poder. Si el portador de la capa ya es bárbaro de por sí entonces simplemente le da la posibilidad de usar el poder más veces al día.
+
+ESTADISTICAS:
+
+Habilidades Especiales: Furia Bárbara
+Requiere: Nivel 11
+Lo puede usar:
+Cualquiera~
+@20658 = ~Volúmenes como este sólo se encuentran una vez en la vida.  Has sido muy sabio y generoso al adquirirlo, pues supongo que habrás pagado una enorme suma por él. A partir de ahora a tus ojos resultará más util la ciencia del lanzador de conjuros que cualquier otra ciencia de Faerún. Oh, ya sé que hay libros más aparentemente poderosos e interesantes que éste, pero sólo aquí encontrarás el conocimiento necesario para poder comprenderlo todo. 
+
+El lector de la Guía de Todo lo Mágico de Volo puede acceder brevemente a los complejos aromas de los recovecos ocultos del Arte Arcano exactamente igual que lo haría cualquier hechicero no perteneciente a los Thayinos o los Halruaa.
+
+Este magnífico tomo casi me cuesta la vida, o algo peor, ser transformado en un criatura desvalida y encerrarme en algún recóndito lugar desde donde me hubieran controlado y atormentado por los siglos de los siglos (o al menos esa fué la amenaza de una tal Catanarla de la Capa Carmesí, Hechicera de Telflamm, si finalmente me decidía a escribir este libro)
+
+Muchos magos, parece, se oponían a que divulgase sus conjuros favoritos, pecadillos del pasado, palabras secretas y palabras de poder. Elminster y Khelben se las arreglaron entre los dos para que sobreviviera, pero antes decidieron enviarme a las garras, err, delicadas manos de Simbul, la Reina Bruja de Aglarond que me mostró cuales serían las consecuencias de futuras revelaciones inautorizadas de diarios de magos. La verdad es que no fue nada divertido ser transformado en pájaro y lanzado a toda velocidad contra un muro, ni tampoco lo fue oler todos los pelos de mi cabeza chamuscados.
+
+No obstante no voy a agregar nada más de las maldiciones que seguro ahora mismo se están lanzando sobre mí mientras hablamos, pues debo añadir que estarán preparadas para castigarme en el momento más inoportuno si mmm, quisiera seguir ahondando en intentar enseñarte los secretos de la magia. Baste decir que estoy siendo muy buen chico para que mis asuntillos pendientes con los brujos sean pasados por alto, y espero que eso me deje tranquilo.
+
+No creo que haya mejor lugar que este para tratar las extrañas vertientes arcanas que sólo encajan aquí dentro de mis ensayos. En este volúmen están reunidas algunas de las cosas más apasionantes que he aprendido sobre hechicería en Faerûn. Continúa leyendo y podrás disfrutar de un libro completo dedicado a ellas. Ojalá todos mis Faerûnianos/as lectores las encuentren entretenidas a la par que prácticas y que ello les incite a adentrarse con entusiamo en los exóticos senderos de la magia. ¡Estoy seguro que la vida en los Reinos mejorará con más aprendices de magia humildes y menos experimentados artríticos ancianos prepotentes!... no lo digo por supuesto, por los desgrac... maravillosos sabios eruditos que se citan en mis páginas.
+
+Mi libro, a pesar de estar brutalmente censu.. er revisado y engalanado por Elminster, obtendrá ahora una mayor audiencia si cabe de la que yo nunca hubiera imaginado, y... er, al menos algunos de los jugosos secretos de los practicantes de la magia serán revelados a mis diligentes lectores que espero, no serán sólo archimagos o liches malhumorados. De modo que bienvenido/a, como diría el viejo Elminster: "fascinantes poderes y augustos conocimientos aguardan tu llegada, amigo".   
+
+-Volothamp Geddarm~
+@20659 = ~Cetro de Savras~
+@20660 = ~El Cetro de Savras es un bastón tallado y gris con nueve zafiros estrella incrustados.  Un diamante engarzado tiene el símbolo de Savras en la base del cetro, junto con un diamante con el símbolo de Azru.
+
+Historia
+     Después de la caída de Netheril y antes de la fundación de Myth Drannor, los dioses lucharon en el cataclismo de la mañana, y muchos fueron asesinados durante las guerras, nuevas deidades fueron creadas como Tymora y Beshaba.  Durante estos tiempos turbulentos dos dioses elevados por Mystra la ayudaron a vencer a los magos que luchaban contra ella.  Azuth venció a Savras y lo aprisionó en un artefacto muy poderoso creado luego del conflicto.
+     El señor de los hechizos, como se le conoció luego a Azuth quería quedarse con el cetro en el cual aprisionó a Savras como su bastón de oficio.  Aunque su status luego del conflicto era de semidios, Savras era aún poderoso y teletransportó el artefacto a los Reinos, donde Azuth no podía alcanzarlo.  (Como El-Que-Todo-lo-Ve y el Lord de la Divinación, Savras simplemente bloqueó los podres de divinación de Azuth.)  El Cetro de Savras, pasó por las manos de muchos archimaos a traves de los siglos.  Savras siempre quiso escapar de su prision, y subliminalmente (como Spirit del Cetro) influenció a varios magos para que le ayudaran.
+     Antes de que Savras pudiera liberarse, el Cetro llegó a las manos de Syluné Silverhand, una de las siete hermanas.  Savras le dio habilidades de dragon de las aguas permanentemente, permitiéndole tomar la forma de dragon de plata cuando quisiera.  Savras quería convencer a Syluné de que lo liberara de su prisión, pensando que ella tenia poder por ser elegida de Mystra.
+     Syluné no le escuchó porque no confiaba en un dios caído, asique usó su poder y el Cetro en incontables aventuras.  Eventualmente le devolvió el Cetro a Azuth.  Syluné había usado el cetro para dsecubrir varios secretos de los poderes de los dioses de los Reinos que Mystra no quería que supieran los mortales.
+     Una vez que Azuth recuperó el Cetro de Savras, se sintió culpable del sufrimiento de Savras, y terminada la Era de los Trastornos, lo liberó.
+     Hoy Savras sirve a Azuth, y se dedica a las magias de adivinación.  Dicen aún que el Cetro se encuentra en los Reinos, aunque supusetamente solo los dioses pueden verlo. Aún guarda parte del poder que se usó en crearlo.
+
+ESTADISTICAS:
+
+Una vez al día el portador puede imitar el efecto de uno de los ojos del contemplador. Los poderes incluyen:
+ Hechizar Persona
+ Hechizar Monstruo
+ Dormir
+ De la Carne a la Piedra
+ Desintegrar
+ Miedo
+ Lentificar
+ Causar Heridas Graves
+ Rayo Mortal
+ Rayo Antimágico
+Permitido a:
+Personajes de nivel 14 en adelante~
+@20661 = ~Espada Fantasma Zeladazar~
+@20662 = ~La Espada Fantasma Zeladazar
+
+     La Espada Fantasma es una espada larga de hoja invisible, aunque a veces se la ve cuando corta algo -armaduras, por ejemplo-  Lo normalmente visible de Zeladazar es la empuñadura. La joya es tan grande como una naranja pequeña.
+
+Historia:
+     En los dias decadentes de Netheril, un peculiar hechicero llamado Twyluth Ornadyn pensó que la salvación de Netherese yacía en vivir armoniosamente con la naturaleza y las demás criaturas vivas.  Ornadyn vio que la batall sería necesaria para salvaguardar a Netherese asique creó estas espadas que permitirían a sus dueños comunicarse via meditación y transmisiones mentales de imágenes y sonidos.  Creó dos de estas espadas para probarlas, pero fué muerto por un aprendiz traicionero.  El cuerpo sin cabeza del archimago cojió la otra espada para defenderse, destrozandose junto con el aprendiz.
+     La otra espada pasó a manos del Archimago Alados Sorngol, que la bautizó como espada de los sueños, ya que eso fué lo que le hizo caercarse a ella.  
+
+Poderes:  Sólo la magia puede hacer visible a la hoja.  El dueño es inmune a la parálisis y el drenaje de energía, y además queda bajo los efectos de acción libre de forma permanente lo que le proteje de hechizos que prevengan su movimiento.
+     La Espada Fantasma hace 1D12 puntos de daño a todas las criaturas vivientes y 4d12 a los no-muertos.  El toque de la espada desintegra fantasmás.
+
+ESTADISTICAS:
+
+Aptitudes Portador:
+ Inmunidad a la parálisis
+ Inmunidad a la consunción de niveles
+ Libertad de movimiento permanente
+Daño: 1D12, 4D12 vs no-muertos
+Tipo de daño: cortante
+Peso: 2
+Factor de velocidad: 0
+Tipo de talento: espada larga
+Tipo: un puño
+Requiere: fuerza 6
+No Usable Por:
+Druida
+Clérigo
+Mago~
+@20663 = ~Guardián de Dzance~
+@20664 = ~Un explorador llamado Dzance encontró este escudo en un cofre dentro de las profundidades de Gauntlgrym, La Ciudad Perdida. Llegado el día de retirarse de las aventuras, Dzance se fue a vivir a Luna de Plata y le entregó el escudo a Belpir, un joven caballero de la ciudad que emprendió viaje y desapareció para siempre.    Se cree que el objeto le debe su origen a los enanos.
+
+FUNCIÓN:  El Guardian es un escudo +0; es mágico pero no da bono a la armadura.  Tiene un poder defensivo muy especial: irradia un aura que envuelve al dueño y refleja cualquier misil mágico lanzado contra él. También tiene un poder ofensivo que absorbe y almacena electricidad y es capaz de descargar chispas sobre el enemigo si entra en contacto físico con él. Sin embargo, si éste poder es liberado, hay un 30% de que el portador sufra un viaje interplanar accidental hacia un destino impredecible.
+
+No lo puede usar:
+Bardo
+Mago
+Ladrón
+Druida~
+@20665 = ~Armadura de Tormenta de Laeral~
+@20666 = ~     Esta armadura lleva el nombre de la maga que la inventó.  La hechicera creadora forjó otras iguales para los campeones del reino norteño del que procedía. El secreto de cómo las hizo murió con ella. Los magos del norte han buscado su fórmula sin éxito durante siglos.     De la docena de armaduras que se construyeron sólo quedan tres, el resto fueron destruídas o se perdieron.
+
+     Función:  Se trata de un armadura completa +2 de aleación no metálica.  La electricidad no conduce por ella y nunca se inflama ni se congela, asi que su dueño se vuelve inmune a los tres elementos y se encuentra a salvo tanto en zonas frías como cálidas.
+
+ESTADISTICAS:
+
+Habilidades Equipada:
+ 100% Resistencia al Fuego, Frio y Electricidad
+ Acción Libre
+Clase de Armadura: -1
+Peso: 70
+Requiere: Fuerza 17, Inteligencia 17
+Permitido a:
+Luchadores legales/neutrales buenos y guerreros/magos~
+@20667 = ~Alfiler~
+@20668 = ~Giiraegisir~
+@20669 = ~Un alfiler o broche es un utensilio que se usa/forma parte de una capa u otra prenda de vestir.~
+@20670 = ~Broche de Guardia
+
+     Este tipo de broches de Myth Drannor, conocidos como Giiraegisir, fueron usados en su tiempo como prenda de moda y amuletos.  Aunque todos son distintos en materiales, todos comparten la misma forma básica: un óvalo de marfil con un alfiler en la parte de atrás.
+     Éste Giiraegisir desata un interesante poder cuando se desabrocha: genera un campo de energía que rodea al dueño y le otorga clase de armadura cero durante tres asaltos.  La habilidad sólo se puede usar una vez al día.
+     Realmente muchos giiraegisir se diseñaron más para representar símbolos especiales o para embellecer que para dar poder. En todo caso, son objetos especialmente apropiados para ser bendecidos con encantamientos.
+
+ESTADÍSTICAS:
+
+Cuando se usa otorga clase de armadura 0 durante 3 asaltos
+
+Permitido a:
+Semielfos Neutrales
+Bardos
+Luchadores/Druidas~
+@20671 = ~Cinturón de Leones~
+@20672 = ~    El Cinturón de Leones proporciona un amplio repertorio de habilidades a su portador: le permite hablar con felinos, invocarlos, controlarlos, caerse sin hacerse daño, moverse sigilosamente con un mínimo de 50% de probabilidades de éxito y ver en la oscuridad como un gato (infravisión)
+
+No lo puede usar:
+Guerrero
+Clérigo
+Mago
+Ladrón
+Paladín~
+@20673 = ~Varita de Ojos~
+@20674 = ~Esta varita puede curar la ceguera y otorgar Detectar Invisibilidad a un objetivo durante un asalto. También proporciona el conjuro Ojo de Mago y permite ver a grandes distancias con un ojo que escudriña y revela todo que lo ve.   Cada uso de la varita consume una carga y cuando éstas se acaban, el objeto se desvanece.~
+@20675 = ~Bastón del Archimago~
+@20676 = ~Este bastón funciona igual que un Anillo de Hechicería. Cuando se equipa, incrementa el número de hechizos memorizables en el grimorio para determinados niveles de mago.
+
+ESTADISTICAS:
+
+Permite memorizar al mago más hechizos:
+ Nivel 1: +4
+ Nivel 2: +4
+ Nivel 3: +4
+ Nivel 4: +4
+ Nivel 5: +4 
+ Nivel 6: +1
+THACO: +2
+Daño: 1D6+2
+Tipo de daño: contundente
+Peso: 4
+Factor de velocidad: 4
+Tipo de talento: bastón
+Tipo: dos manos
+Requiere: Fuerza 5
+Sólo lo puede usar:
+Mago (Simple, Dual o Multiclase)~
+@20677 = ~Portavaras~
+@20678 = ~Un Portavaras es ideal para llevar bastones y varas.~
+@20679 = ~Bastón de Especialista~
+@20680 = ~Un Bastón de Abjuración sirve para incorporar algunos hechizos adicionales al grimorio básico de un Abjurador y poder lanzarlos desde el bastón.
+
+ESTADISTICAS:
+
+Especial: Lanza hechizos de Abjuración
+
+Daño: 1D6+2 
+Tipo de daño: contundente
+Peso: 4
+Factor de velocidad: 2
+Tipo de talento: bastón
+Tipo: 2 manos
+Requisitos: Fuerza 5
+Usable por:
+Abjuradores de nivel 13 o superior~
+@20681 = ~Un Bastón de Conjuración sirve para incorporar algunos hechizos adicionales al grimorio básico de un Conjurador y poder lanzarlos desde el bastón.
+
+ESTADISTICAS:
+
+Especial: Lanza hechizos de Conjuración
+
+Daño: 1D6+2 
+Tipo de daño: contundente
+Peso: 4
+Factor de velocidad: 2
+Tipo de talento: bastón
+Tipo: 2 manos
+Requisitos: Fuerza 5
+Usable por:
+Conjuradores de nivel 13 o superior~
+@20682 = ~Un Bastón de Adivinación sirve para incorporar algunos hechizos adicionales al grimorio básico de un Adivinador y poder lanzarlos desde el bastón.
+
+ESTADISTICAS:
+
+Especial: Lanza hechizos de Adivinación
+
+Daño: 1D6+2 
+Tipo de daño: contundente
+Peso: 4
+Factor de velocidad: 2
+Tipo de talento: bastón
+Tipo: 2 manos
+Requisitos: Fuerza 5
+Sólo lo puede usar:
+Adivinadores de nivel 13 o superior~
+@20683 = ~Un Bastón de Encantamiento sirve para incorporar algunos hechizos adicionales al grimorio básico de un Encantador y poder lanzarlos desde el bastón.
+
+ESTADISTICAS:
+
+Especial: Lanza hechizos de Encantamiento
+
+Daño: 1D6+2 
+Tipo de daño: contundente
+Peso: 4
+Factor de velocidad: 2
+Tipo de talento: bastón
+Tipo: 2 manos
+Requisitos: Fuerza 5
+Sólo lo puede usar:
+Encantadores de nivel 13 o superior~
+@20684 = ~Un Bastón de Evocación sirve para incorporar algunos hechizos adicionales al grimorio básico de un Invocador y poder lanzarlos desde el bastón.
+
+ESTADISTICAS:
+
+Especial: Lanza hechizos de Evocación
+
+Daño: 1D6+2 
+Tipo de daño: contundente
+Peso: 4
+Factor de velocidad: 2
+Tipo de talento: bastón
+Tipo: 2 manos
+Requisitos: Fuerza 5
+Usable por:
+Invocadores de nivel 13 o superior~
+@20685 = ~Un Bastón de Ilusionista sirve para incorporar algunos hechizos adicionales al grimorio básico de un Ilusionista y poder lanzarlos desde el bastón.
+
+ESTADISTICAS:
+
+Especial: Lanza hechizos de Ilusión
+
+Daño: 1D6+2 
+Tipo de daño: contundente
+Peso: 4
+Factor de velocidad: 2
+Tipo de talento: bastón
+Tipo: 2 manos
+Requisitos: Fuerza 5
+Usable por:
+Ilusionistas de nivel 13 o superior~
+@20686 = ~Un Bastón de Nigromancia sirve para incorporar algunos hechizos adicionales al grimorio básico de un Nigromante y poder lanzarlos desde el bastón.
+
+ESTADISTICAS:
+
+Especial: Lanza hechizos de Nigromancia
+
+Daño: 1D6+2 
+Tipo de daño: contundente
+Peso: 4
+Factor de velocidad: 2
+Tipo de talento: bastón
+Tipo: 2 manos
+Requisitos: Fuerza 5
+Usable por:
+Nigromantes de nivel 13 o superior~
+@20687 = ~Un Bastón de Alteración sirve para incorporar algunos hechizos adicionales al grimorio básico de un Transmutador y poder lanzarlos desde el bastón.
+
+ESTADISTICAS:
+
+Especial: Lanza hechizos de Alteración
+
+Daño: 1D6+2 
+Tipo de daño: contundente
+Peso: 4
+Factor de velocidad: 2
+Tipo de talento: bastón
+Tipo: 2 manos
+Requisitos: Fuerza 5
+Sólo lo puede usar:
+Transmutadores de nivel 13 o superior~
+@20688 = ~Diario de HojaCertera~
+@20689 = ~Las bastas pinceladas de un escritor torpe envuelven las páginas de este libro con descriptivas imágenes de violencia y destrucción. Un reducido número de anotaciones te revelan lo que ya conoces de HojaCertera; sus órdenes de atacar Soubar y sus granjas colindantes y los comentarios referidos a la conquista de Triel. En el diario no encuentras nada que todavía no sepas, asi que lo depositas con desgana junto al resto de tu equipo.~
+@20690 = ~Las bastas pinceladas de un escritor torpe envuelven las páginas de este libro con descriptivas imágenes de violencia y destrucción. Un reducido número de anotaciones te revelan lo que ya conoces de HojaCertera; sus órdenes de atacar Soubar y sus granjas colindantes y los comentarios referidos a la conquista de Triel. No obstante, unas líneas al margen captan tu atención. Están sin fecha, pero como apenas queda texto después, deduces que son recientes:
+  
+"El posadero que soborné me sirvió bastante bien, pero su inoperancia para lidiar con el Engendro de Bhaal trastocó mis planes. No debería haber sido tan retrasado de ponerse en evidencia frente al Único, y como es lógico lo ha pagado caro.  Su captura me obliga a tomar medidas drásticas contra Soubar antes de lo previsto, y ya solo me queda esperar a que la región entera caiga definitivamente bajo mi control antes de que termine la presente estación."
+En el diario no encuentras nada más que todavía no sepas, asi que te limitas a depositarlo como prueba incriminatoria junto al resto de tus pertenencias.~
+@20691 = ~Las bastas pinceladas de un escritor torpe envuelven las páginas de este libro con descriptivas imágenes de violencia y destrucción. Un reducido número de anotaciones te revelan lo que ya conoces de HojaCertera; sus órdenes de atacar Soubar y sus granjas colindantes y los comentarios referidos a la conquista de Triel. No obstante, unas líneas al margen captan tu atención. Están sin fecha, pero como apenas queda texto después, deduces que son recientes:
+  
+"El mago que soborné resultó ser de bastante utilidad, pero su inoperancia para lidiar con el Engendro de Bhaal trastocó mis planes. No debería haber sido tan estúpido de ponerse en evidencia frente al Único, y como es lógico lo ha pagado caro.  Su captura me obliga a tomar medidas drásticas contra Soubar antes de lo previsto, y ya solo me queda esperar que la región entera caiga definitivamente bajo mi control antes de que termine la presente estación."
+En el diario no encuentras nada más que todavía no sepas, asi que te limitas a dejarlo como prueba incriminatoria junto al resto de tus pertenencias.~
+@20692 = ~Las bastas pinceladas de un escritor torpe envuelven las páginas de este libro con descriptivas imágenes de violencia y destrucción. Un reducido número de anotaciones te revelan lo que ya conoces de HojaCertera; sus órdenes de atacar Soubar y sus granjas colindantes y los comentarios referidos a la conquista de Triel. No obstante, unas líneas al margen captan tu atención. Están sin fecha, pero como apenas queda texto después, deduces que son recientes:
+  
+"El niño que soborné me fue provechoso, pero su inoperancia para lidiar con el Engendro de Bhaal trastocó mis planes. No debería haber sido tan inocente de ponerse en evidencia frente al Único, y como es lógico lo ha pagado caro.  Su captura me obliga a tomar medidas drásticas contra Soubar antes de lo previsto, y ya solo me queda esperar que la región entera caiga bajo mi yugo antes de que termine la presente estación."
+En el diario no encuentras nada más que todavía no sepas, asi que te limitas a depositarlo como prueba incriminatoria junto al resto de tus pertenencias.~
+@20693 = ~Las bastas pinceladas de un escritor torpe envuelven las páginas de este libro con descriptivas imágenes de violencia y destrucción. Un reducido número de anotaciones te revelan lo que ya conoces de HojaCertera; sus órdenes de atacar Soubar y sus granjas colindantes y los comentarios referidos a la conquista de Triel. No obstante, unas líneas al margen captan tu atención. Están sin fecha, pero como apenas queda texto después, deduces que son recientes:
+  
+"Los granjeros que soborné para traicionar a su gente resultaron ser bastante útiles, pero su inoperancia para lidiar con el Engendro de Bhaal trastocaron mis planes. No deberían haber sido tan idiotas de ponerse en evidencia frente al Único, y como es lógico lo han pagado caro.  Su captura me obliga a tomar medidas drásticas contra Soubar antes de lo previsto, y ya solo me queda esperar que la región entera caiga definitivamente bajo mi control antes de que termine la presente estación."
+En el diario no encuentras nada más que todavía no sepas, asi que te limitas a depositarlo como prueba incriminatoria junto al resto de tus pertenencias.~
+@20694 = ~Las bastas pinceladas de un escritor torpe envuelven las páginas de este libro con descriptivas imágenes de violencia y destrucción. Un reducido número de anotaciones te revelan lo que ya conoces de HojaCertera; sus órdenes de atacar Soubar y sus granjas colindantes y los comentarios referidos a la conquista de Triel. No obstante, unas líneas al margen captan tu atención. Están sin fecha, pero como apenas queda texto después, deduces que son recientes:
+  
+"Sobornar a Melandor me resultó bastante más fácil de lo que temí en un principio, pero su inoperancia para lidiar con el Engendro de Bhaal trastocó mis planes. No debería haber sido tan tonto de ponerse en evidencia frente al Único, y como es lógico lo ha pagado caro.  Su captura me obliga a tomar medidas drásticas contra Soubar antes de lo previsto, y ya solo me queda esperar a que la región entera caiga definitivamente bajo mi control antes de que termine la presente estación."
+
+En el diario no encuentras nada más que todavía no sepas, asi que te limitas a depositarlo como prueba incriminatoria junto al resto de tus pertenencias.~
+@20695 = ~Las bastas pinceladas de un escritor torpe envuelven las páginas de este libro con descriptivas imágenes de violencia y destrucción. Un reducido número de anotaciones te revelan lo que ya conoces de HojaCertera; sus órdenes de atacar Soubar y granjas colindantes y los comentarios referidos a la conquista de Triel. No obstante, unas líneas al margen captan tu atención. Están sin fecha, pero como apenas queda texto después, deduces que son recientes:
+  
+"Sobornar al explorador resultó provechoso, pero su inoperancia para lidiar con el Engendro de Bhaal trastocó mis planes. No debería haber sido tan estúpido de ponerse en evidencia frente al Único, y como es lógico lo ha pagado caro.  Su captura me obliga a tomar medidas drásticas contra Soubar antes de lo previsto, y ya solo me queda esperar que la región entera caiga bajo mi yugo antes de que termine la presente estación."
+
+En el diario no encuentras nada más que todavía no sepas, asi que te limitas a depositarlo junto al resto de tus pertenencias como prueba incriminatoria.~
+@20696 = ~Escudo de HojaCertera~
+@20697 = ~Tras derrotar al señor de los bandidos, su magnífico escudo yace a tus pies. Es realmente uno de esos objetos que merece la pena conservar toda la vida, pues con él te sientes invulnerable.
+El escudo otorga 6 puntos de bonificación a la clase de armadura y un bono de -3 a todas las tiradas de salvación. Además, la tasa de movimiento del portador se ve incrementada en 2 puntos y los proyectiles normales son inútiles contra él. 
+
+
+ESTADISTICAS:
+
+Especial: Inmunidad frente a proyectiles normales, tasa de movimiento incrementada
+Clase de Armadura: 6
+Peso: 10
+Requisitos: Fuerza 16
+Sólo lo puede usar:
+Guerreros~
+@20698 = ~Espada de Rolf HojaCertera~
+@20699 = ~Tras derrotar al semiorco en su fortaleza al norte de Soubar, encuentras entre sus restos la terrible espada que esgrimió contra ti mientras combatíais. Sin duda un arma merecedora del mayor de los talentos, su poder es tal que es capaz de derribar a cualquier oponente de nivel 15 o inferior de un solo golpe.
+
+ESTADISTICAS:
+
+Especial: Asesina a cualquier enemigo de nivel 15 o inferior de un sólo golpe a menos que se salve contra muerte con un penalizador de -2 a la tirada
+THACO: +3 
+Daño: 2D6 + 3
+Tipo de daño: cortante
+Peso: 8
+Factor de velocidad: 4
+Tipo de talento: espada bastarda
+Tipo: 1-mano
+Requisitos: Fuerza 15
+Sólo lo puede usar:
+Guerreros~
+@20700 = ~Cuerda de cáñamo~
+@20701 = ~Esta cuerda de cáñamo es lo suficiéntemente larga y gruesa para permitiros atravesar el poderoso Río Chiontar sin problemas. Si consiguieras asegurarla a ambos lados del río, debería socavar el peligro de ser arrastrado por la corriente.~
+@20702 = ~Flauta~
+@20703 = ~Flauta de las cloacas~
+@20704 = ~Esta es una flauta que sirve para invocar y comandar ratas. Dondequiera que se toque, la extrañamente hipnótica melodía que produce puede atraer a decenas de ratas de las áreas cercanas y embelesarlas. Esto puede ser una maldición para un pueblo o ciudad ya que las ratas son portadoras de enfermedades y enseguida atestan el lugar donde el flautista se encuentra.
+
+ESTADÍSTICAS:
+
+Cuando es tocado, el instrumento convoca hasta 25 ratas a la vez
+
+Lo puede usar:
+Cualquiera~
+@20705 = ~Esta es la llave que te dió Selence Estrelladelmonte. No te dijo para que sirve, pero si te comentó que cuando encontraras su cerradura estarías más cerca de averiguar lo que deseas saber acerca de quienes han estado buscándote.~
+@20706 = ~Saco~
+@20707 = ~Saco de contrabando de Selence~
+@20708 = ~A menudo los viajeros, letrados y aventureros llevan sacos de cuero como éste sobre uno de sus hombros o agarrados por la solapa. Mientras se camina, se suele utilizar una cuerda para cerrarlos herméticamente y evitar que su contenido se desparrame por el suelo. Éste saco en concreto tiene numerosas cartucheras por fuera que están diseñadas para guardar objetos pequeños tales como plumas de escribir, tinteros o cachos de pan. También tiene correas de cuero para afirmar aún más el conjunto.~
+@20709 = ~Este es el saco de contrabando donde Selence Estrelladelmonte guarda recelosamente la mayoría de los objetos que pone a la venta. Sabes que jamás te lo entregará mientras viva, pero al menos te queda el consuelo de poder mirar su interior cuando te apetezca.~
+@20710 = ~Sobre Shadows Over Soubar:
+
+Es costumbre en las expansiones no oficiales de juegos basados en el motor Infinity (TDD, DSOTSC), el incluir un libro que hable sobre el propio mod en cuestión. Por este motivo y por otros, voy a recoger el testigo y contaros algunas cosas sobre mi experiencia desarrollando Shadows Over Soubar.
+
+En primer lugar me presentaré. Me llamo C.Bisson y soy el creador de esta aventura que estás (espero), disfrutando en estos momentos. Me gustaría agradecerte a tí y a todos los que leáis esto el haberos descargado mi pequeña (bueno, 300mb no es exactamente algo pequeño), expansión.
+
+A pesar de los innumerables obstáculos que sufrí al elaborar este trabajo, me lo pasé en grande llevándolo a cabo. Llené de notas y apuntes dos discos duros enteros y tuve que coleccionar grandes cantidades de CD´s para guardar backups, pero disfruté como un enano. Desde el principio fuí muy cuidadoso para no perder o extraviar nada, y a pesar de todo un buen día me ví obligado a borrar varias áreas del cementerio, algunas misiones del Mercado del Aventurero y la NPC Selence Estrella del Monte. No me resultó demasiado complejo recomponerlo todo, pero este ligero traspiés me hizo retroceder dos o tres semanas en mi tarea, y fue duro, muy duro, volver sobre mis pasos.
+
+Quiero dedicarle algunas líneas a la misión principal del mod. Soy consciente de que a priori, el tener que liberar un pueblo de un grupo de bandidos no parece un reto digno de una expansión para BG2 ni tampoco nada especialmente original, pero aunque puede que sea cierto, la verdad es que realicé un trabajo bastante decente con los scripts de todas las misiones y me lo pasé bomba viendo funcionar todo el entramado de la historia tal y como yo lo había planeado. Disfruté mucho con el mecanismo de las secuencias o escenas en segundo plano, los intentos de robar bolsillos de Selence o las peripecias del archienemigo del mod. No obstante, conseguir el código que yo deseaba para Rolf Hojacertera fue una labor ardua y compleja. Cuando lo logré, canté eureka varias veces y me divertí de lo lindo jugando con mi criatura viéndola actuar tal y como yo había pretendido que lo hiciera.
+
+Pero todo esto no tendría sentido sin mencionar a los artífices de que yo pudiera embarcame y llevar a buen puerto el proyecto. Sin la ayuda desinteresada de ciertas personas, Shadows Over Soubar nunca hubiera sido posible. La mayoría de estas personas son miembros de TeamBG: (Nota de SirLancelot: Gracias, pioneros ;)) Ken Baker, TL, Cat, Gorin, Gaelion, PatternStorm, gafman, Theo, Manveru, Maltanar y Jon. Que me perdonen si me dejo a alguno fuera. La gente mencionada fue la creadora de las herramientas empleadas para la realizacion de este mod. Quiero reiterar que sin ellos, sin excepción, todo esto sería un sueño y nadie podría contemplarlo. Les agradezco mucho su tiempo y su dedicación.
+
+Finalmente, quisiera hacer referencia a lo que sucede cuando uno se pone a elaborar un mod sin delimitar claramente hasta donde aspira a llegar. En mi caso, lo que en un principio iban a ser 40 áreas nuevas se convirtieron en 100 y 150 Mb pasaron a ser 300. Creí que tardaría unos cuatro o cinco meses en acabar SOS, ¡y sin embargo me tiré nueve, cerca de un año entero! Con todo, estoy plenamente satisfecho del resultado final. Esta es mi obra y me siento orgulloso de ella. De hecho, probablemente mientras lees esto esta naciendo una nueva expansión.
+
+Gracias lector(a),
+te deseo lo mejor,
+y que Dios te bendiga.
+
+C.Bisson.
+
+SirLancelot: El equipo traductor español te desea lo mismo.
+
+(**** Bajo el texto principal hay varias marcas de sangre con unas horribles letras carmesíes escritas encima que dicen "King estuvo aquí" ****)~
+@20711 = ~Identificación~
+@20712 = ~Estos papeles te identifican como miembro de la guardia de Soubar.  Debes llevarlos en todo momento mientras trabajes para ella.~
+@20713 = ~Soldado de Soubar~
+@20714 = ~Este bastón puede ser usado por todas las clases y sirve para reanimar a los muertos. Cada vez que se dice la palabra "¡Levántate!" gasta una carga e invoca esqueletos que quedan bajo el control del portador del bastón. Si la vara cambia de manos el control de los esqueletos también lo hace. La duración de este conjuro es permanente, aunque sus efectos pueden ser disipados o las criaturas destruidas.
+
+El 25% de estos bastones también tienen otra habilidad secundaria: son capaces de arreglar huesos rotos a la criatura objetivo.  Por desgracia, dicha habilidad también consume una carga.
+
+ESTADISTICAS:
+
+Habilidades Especiales:
+ Reanimar a los muertos
+ Curar Heridas Graves
+THACO: +2
+Daño: 1D6+2
+Peso: 3
+Factor de velocidad: 1
+Tipo de talento: bastón
+Tipo: 2 manos
+Requiere: Fuerza 5
+Permitido a:
+Todos~
+@20715 = ~Bolsa de viaje~
+@20716 = ~Esta es una sencilla bolsa de viaje que te dió el Comandante de Soubar.  Tiene algunos objetos que puedes llevar contigo hasta las granjas limítrofes de la ciudad.~
+@20717 = ~Corazón de Gusano de Tremor~
+@20718 = ~Recogiste este corazón del cuerpo inerte de un Gusano de Tremor. Algunos bersérkers suelen comerse corazones como este creyendo que les darán la fuerza que tenía su enemigo. Este corazón en efecto elevará durante dos horas la fuerza y la constitución en 1 punto a quien se lo coma, pero también enfermará ocasionando 10 puntos de daño.~
+@20719 = ~Armadura Sagrada de Torm~
+@20720 = ~Esta armadura exquisitamente construída ha sido bendecida por Torm.  Viene adornada con su símbolo sagrado y tiene grabadas las letras "IRNI" en el peto. Aunque no es mágica, su origen divino hace que no se deba tomar a la ligera. 
+
+Cuando se lleva puesta otorga protección contra el plano negativo, lo que protege al portador frente a determinados poderes tales como la consunción de niveles o similares.
+
+
+ESTADISTICAS:
+
+Especial: Protección contra el Plano Negativo
+Clase de Armadura: 3
+Peso: 18
+Requiere: Fuerza 12
+No lo puede usar:
+Bardo 
+Druida
+Mago
+Ladrón
+Criaturas caóticas o malvadas~
+@20721 = ~Mandoble Sagrado de Torm +3~
+@20722 = ~Mandoble +3: Espada sagrada de Torm
+
+Este mandoble ha sido bendecido por el todopoderoso Torm. Si se hiere con él a una criatura caótica malvada, ésta quedará petrificada a menos que supere con éxito una tirada de salvación contra conjuros. Además, otorga un hechizo adicional de 6to y 7mo nivel, 5% de resistencia mágica y +1 a la Fuerza.
+
+La espada sagrada de Torm sólo concede sus poderes cuando se lleva desenfundada y se empuña.
+
+ESTADÍSTICAS:
+
+Aptitudes Portador:
+ +1 hechizo adicional de 6to y 7mo nivel
+ Resistencia mágica +5%
+ Fuerza +1
+Aptitudes de Combate: 
+ Petrifica a todas las criaturas demoníacas golpeadas a menos que se salven vs. hechizos a -2
+THAC0: +3
+Daño: 1D10 +3 
+Tipo de daño: cortante
+Peso: 10
+Factor de velocidad: 7
+Tipo de Talento: mandoble
+Tipo: 2 manos
+Requisitos: Fuerza 14
+No lo puede usar:
+Druida
+Clérigo
+Mago
+Ladrón~
+@20723 = ~¡¡¡Contrae la licantropía!!!~
+@20724 = ~Vino~
+@20725 = ~Vino de invierno~
+@20726 = ~Esta es una botella de vino normal. Puedes abrirla y bebértela o esperar a que se añeje. Para saber más sobre vinos y como prepararlos atrevéte a degustar los que hace Oscar en su taberna de Soubar.~
+@20727 = ~Vino seco de Arabella~
+@20728 = ~Vino oscuro de Berdusk~
+@20729 = ~Vino de sangre~
+@20730 = ~Vino Clarete de Saerloonia~
+@20731 = ~Vino de Alurlyath~
+@20732 = ~Vino Tinto de Puerta del Oeste~
+@20733 = ~Vino Blanco~
+@20734 = ~Vino Tinto~
+@20735 = ~Vino de Murann~
+@20736 = ~Vino de Corwell~
+@20737 = ~Vino Thayviano~
+@20738 = ~Cosecha de 1369 DR
+
+Esta es una botella de vino extraordinaria elaborada a partir de las mejores viñas de Faerûn. Puedes abrirla y bebértela o esperar a que se añeje. Para saber más sobre vinos y como prepararlos, atrévete a degustar los que hace Oscar en su taberna de Soubar.~
+@20739 = ~Cosecha de 1358 DR
+
+Esta es una botella de vino extraordinaria elaborada a partir de las mejores viñas de Faerûn. Puedes abrirla y bebértela o esperar a que se añeje. Si quieres saber más sobre vinos y como prepararlos, atrévete a degustar los que hace Oscar en su taberna de Soubar.~
+@20740 = ~Cosecha de 1314 DR
+
+Esta es una botella de vino extraordinaria elaborada a partir de las mejores viñas de Faerûn. Puedes abrirla y bebértela o esperar a que se añeje. Para saber más sobre vinos y como prepararlos, atrévete a degustar los que hace Oscar en su taberna de Soubar.~
+@20741 = ~Cosecha de 1290 DR
+
+Esta es una botella de vino extraordinaria elaborada a partir de las mejores viñas de Faerûn. Puedes abrirla y bebértela o esperar a que se añeje. Si quieres saber más sobre vinos y como prepararlos, atrévete a degustar los que hace Oscar en su taberna de Soubar.~
+@20742 = ~Cosecha de 1288 DR
+
+Esta es una botella de vino extraordinaria elaborada a partir de las mejores viñas de Faerûn. Puedes abrirla y bebértela o esperar a que se añeje. Para saber más sobre vinos y como prepararlos, atrévete a degustar los que hace Oscar en su taberna de Soubar.~
+@20743 = ~Cosecha de 1266 DR
+
+Esta es una botella de vino extraordinaria elaborada a partir de las mejores viñas de Faerûn. Puedes abrirla y bebértela o esperar a que se añeje. Para saber más sobre vinos y como prepararlos, atrévete a degustar los que hace Oscar en su taberna de Soubar.~
+@20744 = ~Vino de Turmish~
+@20745 = ~Vino Lantanés~
+@20746 = ~Cosecha de 1342 DR
+
+Esta es una botella de vino extraordinaria elaborada a partir de las mejores viñas de Faerûn. Puedes abrirla y bebértela o esperar a que se añeje. Para saber más sobre vinos y como prepararlos, atrévete a degustar los que hace Oscar en su taberna de Soubar.~
+@20747 = ~Cosecha de 1338 DR
+
+Esta es una botella de vino extraordinaria elaborada a partir de las mejores viñas de Faerûn. Puedes abrirla y bebértela o esperar a que se añeje. Para saber más sobre vinos y como prepararlos, atrévete a degustar los que hace Oscar en su taberna de Soubar.~
+@20748 = ~Vino Lantanés~
+@20749 = ~Cosecha de 1304 DR
+
+Esta es una botella de vino extraordinaria elaborada a partir de las mejores viñas de Faerûn. Puedes abrirla y bebértela o esperar a que se añeje. Para saber más sobre vinos y como prepararlos, atrévete a degustar los que hace Oscar en su taberna de Soubar.~
+@20750 = ~Vino de Shou Lung~
+@20751 = ~Cosecha de 1360 DR
+
+Esta es una botella de vino extraordinaria elaborada a partir de las mejores viñas de Faerûn. Puedes abrirla y bebértela o esperar a que se añeje. Para saber más sobre vinos y como prepararlos, atrévete a degustar los que hace Oscar en su taberna de Soubar.~
+@20752 = ~Llave de la caja fuerte de Sir William~
+@20753 = ~Esta es la llave que abre la caja fuerte oculta del hogar de Sir William. Aparentemente el noble nunca pagó por los servicios de Selence y ahora debe mucho oro.~
+@20754 = ~Nota de William~
+@20755 = ~<<<Aquí debería haber algún texto pero no hay nada...>>>~
+@20756 = ~Instalando hechizos...~
+@20757 = ~Nivel y Clase conocidos~
+@20758 = ~Brea ardiendo~
+@20759 = ~Aguas turbulentas~
+@20760 = ~La feroz corriente del Chionthar te arrastra río abajo y sufres infinidad de golpes y magulladuras por todo el cuerpo.~
+@20761 = ~Nube hedionda~
+@20762 = ~Agua congelada~
+@20763 = ~La nieve derretida de las montañas convierte a las turbulentas aguas del Chionthar en un río muy peligroso. Sufres daño por frío.~
+@20764 = ~Instalando tiendas...~
+@20765 = ~Dispensario de Soubar~
+@20766 = ~El Loco Eddie~
+@20767 = ~Tienda de Erdane~
+@20768 = ~Tienda de Reyna~
+@20769 = ~Posada de Berde~
+@20770 = ~Posada y Mesón El Narval~
+@20771 = ~El Peldaño Astillado~
+@20772 = ~Casa de Marie~
+@20773 = ~Taberna de Oscar~
+@20774 = ~Modista Jill Ann~
+@20775 = ~Almuerzo del HombredelosValles~
+@20776 = ~Sopa de pescado y almejas de Luskan~
+@20777 = ~Puntas de solomillo~
+@20778 = ~Plato de verduras~
+@20779 = ~Fuente de Atún~
+@20780 = ~Rollos de pan~
+@20781 = ~Parrilla de Cormyr~
+@20782 = ~Fuente de Gambas~
+@20783 = ~Salchichas Iriaeboranas~
+@20784 = ~Sopa de pescado y almejas de Aguas Profundas~
+@20785 = ~Jamón ahumado de Puerta del Oeste~
+@20786 = ~Mercancía de Contrabando de Selence E.~
+@20787 = ~Vinos de Sumiller~
+@20788 = ~Vino de Thay - 1358~
+@20789 = ~Vino de Thay - 1369~
+@20790 = ~Vino Lantanno - 1338~
+@20791 = ~Vino de Thay - 1266~
+@20792 = ~Vino Lantanno - 1304~
+@20793 = ~Vino Lantanno - 1369~
+@20794 = ~Vino de Shou Lung - 1360~
+@20795 = ~Vino Lantanno - 1342~
+@20796 = ~Vino de Thay - 1314~
+@20797 = ~Vino de Thay - 1290~
+@20798 = ~Vino de Shou Lung - 1342~
+@20799 = ~Vino de Thay - 1288~
+@20800 = ~Instalando subclase PERISTA...~
+@20802 = ~PERISTA: El perista es un estraperlista, un contrabandista, un ladrón y un vendedor de productos robados e ilegales. En cualquier ciudad que se precie con suficientes habitantes tanto para comprar como para proveerse, hay uno. 
+
+Un buen perista necesita tener una mente ágil, un buen ojo tanto para la gente como para las mercancías y saber cómo mantenerse fuera del alcance de la ley. Si quieres coger esta subclase de ladrón tu personaje necesita un mínimo de 12 de Inteligencia. 
+
+Rol: El perista es el eje principal de la complicada red del mercado negro. Los ladrones corrientes le venden la mercancía de sus robos por una cantidad de dinero menor que su valor real, y el perista la revende en el mercado negro a un precio más elevado. Si la ciudad en la que opera el perista es demasiado grande y no hay sufientes bienes con los que traficar, trabaja encubiertamente en el mercado legal ordinario. Pero si los objetos se acaban de "sacar del horno" (robar), se llevan fuera de la ciudad y se comercia con ellos en el exterior.
+
+Además de con objetos, el perista también comercia con informacion, y éste es un punto donde se esfuerza por mejorar día a día dado que no le requiere grandes inversiones de dinero, sino sólo inteligencia y saber dónde y cómo moverse. Los peristas son con seguridad los soplones más dedicados de los bajos fondos.
+
+       Entre peristas y contrabandistas, la lucha por la posición social, el poder y el prestigio no suelen resolverse por la mera capacidad individual de cada uno de ellos. Lo que realmente marca la diferencia entre unos y otros es el círculo que manejan, los subordinados y los contactos a los que pueden acudir. Para conseguir y mantener una red extensa el perista necesita ser astuto y experimentado, lo que normalmente implica devanarse los sesos por ser carismático, despierto e influyente.
+     Los peristas pueden ser de cualquier estracto social, pero lo cierto es que no hay muchos ricos y nobles de cuna entre sus filas. De hecho, los pocos de esta clase que existen mantienen su identidad en total secreto por razones evidentes. Estos peristas aventajados sólo se permiten llamar la atención de las altas esferas cuando los beneficios potenciales son astronómicos.
+
+Habilidades con armas: Cualquiera.
+
+Progreso de Habilidades: Todos los peristas excepto los más poderosos (es decir, los que se encuentran en la escala más alta de su jerarquía) suelen necesitar usar las habilidades comunes del ladrón con frecuencia. Vaciar bolsillos es una pequeña fuente de ingresos cuando los negocios van mal, los juegos de manos son útiles para timar a tontos e imprudentes, encontrar/desactivar trampas es importante a la hora de inspeccionar mercancía, y saber leer/hablar idiomas es indispensable a la hora de examinar algunos objetos exóticos ó traficar con información. Sigilo y Esconderse en las Sombras son, por su parte, habilidades de un valor incalculable para moverse por las calles sin ser descubierto, especialmente cuando se necesita tener contacto directo con el cliente.
+
+Beneficios especiales: Debido a sus contactos, un perista puede contratar rateros, asaltadores, bribones y similares con facilidad si el territorio en el que está no pertenece a ningún gremio enemigo.
+     Los peristas son muy respetados en el submundo de cualquier zona donde les conozcan. Como se acaba de comentar, a menos que los ladrones del lugar les persigan por algún motivo importante, siempre tienen facilidad para ganarse el favor de todos los delincuentes en general por razones obvias de negocios. En el juego, esto se traduce en que los peristas reciben un bono de +3 a la reaccion con los NPC's pícaros.
+
+Hándicaps especiales: Los peristas son relativamente importantes en su gremio, pero al contrario que los ladrones normales y al contrario que los contrabandistas puros, la red del mercado negro que dirigen requiere que se establezcan en lugares fijos para así poder mantener cerca a sus clientes y darles seguridad y confianza. Esto causa que las autoridades locales estén muy atentas a sus posibles actividades delictivas, y que se vean expuestos a redadas periódicas que buscan información y chivos expiatorios.
+
+Razas: Los peristas pueden ser de cualquier raza. Los peristas de algunas razas prefieren comerciar únicamente con ciertos bienes en particular. Los enanos y gnomos por ejemplo, son conocidos por ser excelentes tasadores de gemas robadas y de joyeria y a menudo desdeñan otro tipo de material.~
+@20803 = ~Encanto Perista~
+@20804 = ~Selence Estrelladelmonte~
+@20805 = ~Selence~
+@20806 = ~SELENCE nació y creció en las populosas calles de Athkatla, cuna de pícaros y maleantes, lugar totalmente inapropiado para la educación de una niña. Vivió una infancia difícil que pronto la convirtió en una joven ladronzuela; por ello, la perista a menudo desea desahogarse sobre su pasado, pero bien sea por su orgullo ó por otro motivo, nunca te lo reconoce abiertamente.
+
+Selence se ha convertido en una profesional entregada y ambiciosa que aspira a formar una red extensísima de contrabandistas, espías y atracadores. Su mente alberga un plan maestro para conseguirlo, algo infrecuente en los rateros ordinarios de Faerûn. Hará todo cuanto esté en su mano para alcanzar sus sueños.~

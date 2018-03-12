@@ -1,0 +1,197 @@
+IF
+  OnCreation()
+  Global("CbMovingRoundWays","LOCALS",0)
+  Range("CbWayPoint1",5)  // CbWayPoint1
+THEN
+  RESPONSE #100
+    SetGlobal("CbMovingRoundWays","LOCALS",1)
+END
+
+IF
+  OnCreation()
+  Global("CbMovingRoundWays","LOCALS",0)
+  Range("CbWayPoint2",5)  // CbWayPoint2
+THEN
+  RESPONSE #100
+    SetGlobal("CbMovingRoundWays","LOCALS",2)
+END
+
+IF
+  OnCreation()
+  Global("CbMovingRoundWays","LOCALS",0)
+  Range("CbWayPoint3",5)  // CbWayPoint3
+THEN
+  RESPONSE #100
+    SetGlobal("CbMovingRoundWays","LOCALS",3)
+END
+
+IF
+  OnCreation()
+  Global("CbMovingRoundWays","LOCALS",0)
+  Range("CbWayPoint4",5)  // CbWayPoint4
+THEN
+  RESPONSE #100
+    SetGlobal("CbMovingRoundWays","LOCALS",4)
+END
+
+IF
+  OnCreation()
+  Global("CbMovingRoundWays","LOCALS",0)
+  Range("CbWayPoint5",5)  // CbWayPoint5
+THEN
+  RESPONSE #100
+    SetGlobal("CbMovingRoundWays","LOCALS",5)
+END
+
+IF
+  OnCreation()
+  Global("CbMovingRoundWays","LOCALS",0)
+  Range("CbWayPoint6",5)  // CbWayPoint6
+THEN
+  RESPONSE #100
+    SetGlobal("CbMovingRoundWays","LOCALS",6)
+END
+
+IF
+  OnCreation()
+  Global("CbMovingRoundWays","LOCALS",0)
+  Range("CbWayPoint7",5)  // CbWayPoint7
+THEN
+  RESPONSE #100
+    SetGlobal("CbMovingRoundWays","LOCALS",7)
+END
+
+IF
+  OnCreation()
+  Global("CbMovingRoundWays","LOCALS",0)
+  Range("CbWayPoint8",5)  // CbWayPoint8
+THEN
+  RESPONSE #100
+    SetGlobal("CbMovingRoundWays","LOCALS",8)
+END
+
+IF
+  OnCreation()
+  Global("CbMovingRoundWays","LOCALS",0)
+  Range("CbWayPoint9",5)  // CbWayPoint9
+THEN
+  RESPONSE #100
+    SetGlobal("CbMovingRoundWays","LOCALS",9)
+END
+
+IF
+  Heard([EVILCUTOFF],ALERT)
+  !See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    MoveToObject(LastHeardBy(Myself))
+END
+
+IF
+  !Range("CbWayPoint1",5)  // CbWayPoint1
+  Global("CbMovingRoundWays","LOCALS",0)
+  Delay(10)
+  !See(NearestEnemyOf(Myself))
+  !Heard([EVILCUTOFF],ALERT)
+THEN
+  RESPONSE #100
+    SetGlobal("CbMovingRoundWays","LOCALS",1)
+    MoveToObject("CbWayPoint1")
+END
+
+IF
+  !Range("CbWayPoint2",5)  // CbWayPoint2
+  Global("CbMovingRoundWays","LOCALS",1)
+  Delay(10)
+  !See(NearestEnemyOf(Myself))
+  !Heard([EVILCUTOFF],ALERT)
+THEN
+  RESPONSE #100
+    SetGlobal("CbMovingRoundWays","LOCALS",2)
+    MoveToObject("CbWayPoint2")
+END
+
+IF
+  !Range("CbWayPoint3",5)  // CbWayPoint3
+  Global("CbMovingRoundWays","LOCALS",2)
+  Delay(10)
+  !See(NearestEnemyOf(Myself))
+  !Heard([EVILCUTOFF],ALERT)
+THEN
+  RESPONSE #100
+    SetGlobal("CbMovingRoundWays","LOCALS",3)
+    MoveToObject("CbWayPoint3")
+END
+
+IF
+  !Range("CbWayPoint4",5)  // CbWayPoint4
+  Global("CbMovingRoundWays","LOCALS",3)
+  Delay(10)
+  !See(NearestEnemyOf(Myself))
+  !Heard([EVILCUTOFF],ALERT)
+THEN
+  RESPONSE #100
+    SetGlobal("CbMovingRoundWays","LOCALS",4)
+    MoveToObject("CbWayPoint4")
+END
+
+IF
+  !Range("CbWayPoint5",5)  // CbWayPoint5
+  Global("CbMovingRoundWays","LOCALS",4)
+  Delay(10)
+  !See(NearestEnemyOf(Myself))
+  !Heard([EVILCUTOFF],ALERT)
+THEN
+  RESPONSE #100
+    SetGlobal("CbMovingRoundWays","LOCALS",5)
+    MoveToObject("CbWayPoint5")
+END
+
+IF
+  !Range("CbWayPoint6",5)  // CbWayPoint6
+  Global("CbMovingRoundWays","LOCALS",5)
+  Delay(10)
+  !See(NearestEnemyOf(Myself))
+  !Heard([EVILCUTOFF],ALERT)
+THEN
+  RESPONSE #100
+    SetGlobal("CbMovingRoundWays","LOCALS",6)
+    MoveToObject("CbWayPoint6")
+END
+
+IF
+  !Range("CbWayPoint7",5)  // CbWayPoint7
+  Global("CbMovingRoundWays","LOCALS",6)
+  Delay(10)
+  !See(NearestEnemyOf(Myself))
+  !Heard([EVILCUTOFF],ALERT)
+THEN
+  RESPONSE #100
+    SetGlobal("CbMovingRoundWays","LOCALS",7)
+    MoveToObject("CbWayPoint7")
+END
+
+IF
+  !Range("CbWayPoint8",5)  // CbWayPoint8
+  Global("CbMovingRoundWays","LOCALS",7)
+  Delay(10)
+  !See(NearestEnemyOf(Myself))
+  !Heard([EVILCUTOFF],ALERT)
+THEN
+  RESPONSE #100
+    SetGlobal("CbMovingRoundWays","LOCALS",8)
+    MoveToObject("CbWayPoint8")
+END
+
+IF
+  !Range("CbWayPoint9",5)  // CbWayPoint9
+  Global("CbMovingRoundWays","LOCALS",8)
+  Delay(10)
+  !See(NearestEnemyOf(Myself))
+  !Heard([EVILCUTOFF],ALERT)
+THEN
+  RESPONSE #100
+    SetGlobal("CbMovingRoundWays","LOCALS",9)
+    MoveToObject("CbWayPoint9")
+END
+

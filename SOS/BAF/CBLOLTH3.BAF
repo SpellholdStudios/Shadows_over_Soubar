@@ -1,0 +1,112 @@
+IF
+  OnCreation()
+THEN
+  RESPONSE #100
+    StartTimer(77,6)
+    Continue()
+END
+
+IF
+  TimerExpired(77)
+THEN
+  RESPONSE #100
+    StartTimer(77,6)
+    Continue()
+END
+
+IF
+  HPLT(Myself,10)
+  Global("CbLolthIsBeingDestroyed","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    MoveViewObject(Myself,INSTANT)
+    StartTimer(77,6)
+    ClearAllActions()
+    SetGlobal("CbLolthIsBeingDestroyed","LOCALS",1)
+    SetGlobal("SPRITE_IS_DEADCBLOLTH3","GLOBAL",1)
+    StartCutSceneMode()
+    DisplayStringHead(Myself,@10058)
+    Wait(4)
+    CreateVisualEffectObject("SPFIREPI",Myself)
+    Wait(1)
+    CreateVisualEffectObject("SPFIRSD2",Myself)
+    Wait(2)
+    CreateVisualEffectObject("SPFLSRIN",Myself)
+    Wait(1)
+    CreateVisualEffectObject("SPTRAPBB",Myself)
+    Wait(2)
+    CreateVisualEffectObject("SPUNHOLY",Myself)
+    Wait(1)
+    CreateVisualEffectObject("SPPLANAR",Myself)
+    Wait(2)
+    EndCutSceneMode()
+    ActionOverride(LastAttackerOf("CBLOLTH3"),Attack("CBLOLTH3"))
+END
+
+IF
+  Global("CbStopPartyFromCheating","AR4211",1)
+  Global("CbLolthThreeTalkedToParty","AR4211",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbLolthThreeTalkedToParty","AR4211",1)
+    StartDialogNoSet(NearestEnemyOf(Myself))
+END
+
+IF
+  Global("CbLolthsProtectorsDied","AR4211",14)
+  Global("CbLolthThreeTalkedToParty","AR4211",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbLolthThreeTalkedToParty","AR4211",2)
+    StartDialogNoSet(NearestEnemyOf(Myself))
+END
+
+IF
+  Global("CbLolthThreeTalkedToParty","AR4211",3)
+  Global("CbLolthThreeChangedScripts","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbLolthThreeChangedScripts","LOCALS",1)
+    ChangeAIScript("CBLOLSU3",DEFAULT)
+    ChangeAIScript("",RACE)
+END
+
+IF
+  Global("CbLolthThreeTalkedToParty","AR4211",1)
+  !NumCreatureVsPartyGT("SPIDHU01",3)  // ~Huge Spider~
+  NumInPartyAliveLT(5)
+THEN
+  RESPONSE #100
+    CreateCreature("SPIDHU01",[-1.-1],0)  // ~Huge Spider~
+END
+
+IF
+  Global("CbLolthThreeTalkedToParty","AR4211",1)
+  !NumCreatureVsPartyGT("MINDFL01",2)  // ~Mind Flayer~
+  NumInPartyAliveGT(4)
+THEN
+  RESPONSE #100
+    CreateCreature("MINDFL01",[-1.-1],0)  // ~Mind Flayer~
+END
+
+IF
+  !CombatCounter(0)
+  Global("CbLolthThreeTalkedToParty","AR4211",1)
+  See(NearestEnemyOf(Myself))
+  ActionListEmpty()
+THEN
+  RESPONSE #100
+    AttackReevaluate(LastSeenBy(Myself),0)
+END
+
+IF
+  !See(NearestEnemyOf(Myself))
+  !Range("CbL3Home",3)  // CbL3Home
+  GlobalLT("CbLolthsProtectorsDied","AR4211",14)
+THEN
+  RESPONSE #100
+    MoveToObject("CbL3Home")
+    Face(14)
+END
+

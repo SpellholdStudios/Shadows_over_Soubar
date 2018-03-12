@@ -1,0 +1,7 @@
+IF
+  OnScreen(Myself)
+THEN
+  RESPONSE #100
+    RandomTurn()
+END
+

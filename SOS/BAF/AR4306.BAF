@@ -1,0 +1,76 @@
+IF
+  OnCreation()
+  Global("CbArea4306Created","AR4306",0)
+THEN
+  RESPONSE #100
+    ContainerEnable("CbNoSpy",FALSE)
+    ContainerEnable("CbCharlie",FALSE)
+    ContainerEnable("CbMayor",FALSE)
+    ContainerEnable("CbRanger",FALSE)
+    ContainerEnable("CbCeeb",FALSE)
+    ContainerEnable("CbFighters",FALSE)
+    ContainerEnable("CbWinthrop",FALSE)
+    SetGlobal("CbArea4306Created","AR4306",1)
+END
+
+IF
+  Global("CbWinthropTheSpyEscaped","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ContainerEnable("CbWinthrop",TRUE)
+    Continue()
+END
+
+IF
+  Global("CbCeebIssonTheSpyEscaped","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ContainerEnable("CbCeeb",TRUE)
+    Continue()
+END
+
+IF
+  Global("CbCharlieTheSpyEscaped","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ContainerEnable("CbCharlie",TRUE)
+    Continue()
+END
+
+IF
+  Global("CbFightersTheSpyEscaped","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ContainerEnable("CbFighters",TRUE)
+    Continue()
+END
+
+IF
+  Global("CbMayorTheSpyEscaped","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ContainerEnable("CbMayor",TRUE)
+    Continue()
+END
+
+IF
+  Global("CbRangerTheSpyEscaped","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ContainerEnable("CbRanger",TRUE)
+    Continue()
+END
+
+IF
+  !Global("CbWinthropTheSpyEscaped","GLOBAL",1)
+  !Global("CbRangerTheSpyEscaped","GLOBAL",1)
+  !Global("CbMayorTheSpyEscaped","GLOBAL",1)
+  !Global("CbCeebIssonTheSpyEscaped","GLOBAL",1)
+  !Global("CbCharlieTheSpyEscaped","GLOBAL",1)
+  !Global("CbFightersTheSpyEscaped","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ContainerEnable("CbNoSpy",TRUE)
+    Continue()
+END
+

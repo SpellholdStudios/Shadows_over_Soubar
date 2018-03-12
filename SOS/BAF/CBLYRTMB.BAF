@@ -1,0 +1,14 @@
+IF
+  OR(2)
+    Entered([ANYONE])
+    Opened([ANYONE])
+THEN
+  RESPONSE #100
+    DisplayString(LastTrigger,14381)  // ~Trap Sprung~ [AMB_D05C]
+    ForceSpellPoint([2139.697],WIZARD_CLOUDKILL)
+    ForceSpellPoint([2215.519],WIZARD_CLOUDKILL)
+    ForceSpellPoint([2391.637],WIZARD_CLOUDKILL)
+    ForceSpellPoint([2453.463],WIZARD_CLOUDKILL)
+    ForceSpellPoint([2559.363],WIZARD_CLOUDKILL)
+END
+

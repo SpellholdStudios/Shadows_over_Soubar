@@ -1,0 +1,9 @@
+IF
+  AreaCheck("AR4205")
+  !Dead("CBBUCKMO")  // ~Master Werewolf~
+THEN
+  RESPONSE #100
+    Wait(10)
+    DisplayStringHead(Myself,14200)  // ~Help!  Nasty mean and evil!~
+END
+

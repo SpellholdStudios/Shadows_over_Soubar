@@ -1,0 +1,118 @@
+//*****************************************************************************************
+//*** GUI Switcher
+//*****************************************************************************************
+PRINT @20001
+
+<<<<<<<< new_gui_switcher.tp2
+BACKUP ~GUI_Mods/Backup~
+AUTHOR ~King Diamond~
+
+>>>>>>>>
+<<<<<<<< GUI_Mods.2DA
+NEXT_AVAILABLE_MOD_SLOT      1
+CURRENT_ACTIVE_MOD_GUI       0
+RESERVED2                    -1
+RESERVED3                    -1
+RESERVED4                    -1
+RESERVED5                    -1
+RESERVED6                    -1
+RESERVED7                    -1
+RESERVED8                    -1
+RESERVED9                    -1
+>>>>>>>>
+<<<<<<<< orig_gui.tp2
+//***********************************************************************************
+BEGIN ~"Original SoA/ToB"~
+SUBCOMPONENT ~Game Graphical User Interface (GUI)~
+
+COPY_EXISTING ~GUI_Mods/GUI_Mods.2DA~ ~GUI_Mods~
+ SET_2DA_ENTRY  1 1 2    0   //CURRENT_ACTIVE_MOD_GUI
+AT_EXIT ~Setup-GUI.exe --uninstall~
+
+>>>>>>>>
+<<<<<<<< mod_gui.tp2
+//***********************************************************************************
+BEGIN ~"Shadows Over Soubar"~
+SUBCOMPONENT ~Game Graphical User Interface (GUI)~
+
+COPY_EXISTING ~GUI_Mods/GUI_Mods.2DA~ ~GUI_Mods~
+ SET_2DA_ENTRY  1 1 2   "%gui_slot_name%"  //CURRENT_ACTIVE_MOD_GUI
+COPY ~GUI_Mods/%gui_slot_name%~  ~override~
+
+>>>>>>>>
+
+ACTION_IF NOT FILE_EXISTS ~Setup-GUI.tp2~
+THEN BEGIN
+  MKDIR ~GUI_Mods~
+  COPY ~Setup-SoS.exe~ ~Setup-GUI.exe~
+  COPY ~GUI_Mods.2DA~ ~GUI_Mods/GUI_Mods.2DA~
+  COPY ~new_gui_switcher.tp2~ ~Setup-GUI.tp2~
+   APPEND_FILE ~orig_gui.tp2~
+END
+ELSE BEGIN
+  COPY_EXISTING - ~GUI_Mods/GUI_Mods.2DA~ ~GUI_Mods~
+   READ_2DA_ENTRY 1 1 2 "active_gui"   //CURRENT_ACTIVE_MOD_GUI
+
+  ACTION_IF ("%active_gui%">0) THEN BEGIN
+    UNINSTALL ~Setup-GUI.tp2~ ~%active_gui%~
+  END
+END
+
+OUTER_SET gui_slot_name=0
+COPY_EXISTING ~GUI_Mods/GUI_Mods.2DA~ ~GUI_Mods~
+ READ_2DA_ENTRY 0 1 2 gui_slot_name
+ SET_2DA_ENTRY  0 1 2 gui_slot_name+1  //NEXT_AVAILABLE_MOD_SLOT
+
+COPY_EXISTING ~Setup-GUI.tp2~ ~Setup-GUI.tp2~
+ APPEND_FILE_EVALUATE ~mod_gui.tp2~
+
+MKDIR ~GUI_Mods/%gui_slot_name%~
+COPY ~SoS/gui~ ~GUI_Mods/%gui_slot_name%~
+//*****************************************************************************************
+//*****************************************************************************************
+
+COPY_EXISTING + ~SoS/title.tr~ ~SoS/title.tra~
+ SPRINT bgt " "
+ SPRINT tdd ""
+ SPRINT sos ""
+ SPRINT ts  ""
+ SPRINT nej ""
+ SPRINT ctb ""
+ SPRINT bp  ""
+ SPRINT rot  ""
+ SPRINT separator ""
+ PATCH_IF (FILE_EXISTS ~data/BG1ARE.BIF~) BEGIN
+   SPRINT bgt @20003
+ END
+ PATCH_IF (FILE_EXISTS ~data/TS-RULE.BIF~) BEGIN
+   SPRINT ts @20004
+   SPRINT separator ", "
+ END
+ PATCH_IF (FILE_EXISTS ~data/TDD-RULE.BIF~) BEGIN
+   SPRINT tdd @20005
+   SPRINT separator ", "
+ END
+ SPRINT sos @20006
+ SPRINT separator ", "
+ SPRINT separator2 @20007
+ PATCH_IF ((FILE_EXISTS_IN_GAME ~Bag02NeJ.ITM~) OR (FILE_EXISTS_IN_GAME ~EyeBite.itm~)) BEGIN
+   SPRINT nej @20008
+   SPRINT separator ", "
+ END
+ PATCH_IF (FILE_EXISTS ~data/BP-RULE.BIF~) BEGIN
+   SPRINT bp @20009
+   SPRINT separator ", "
+ END
+ PATCH_IF (FILE_EXISTS ~data/CTB-RULE.BIF~) BEGIN
+   SPRINT ctb @20010
+   SPRINT separator ", "
+ END
+ PATCH_IF (FILE_EXISTS ~data/ROT-RULE.BIF~) BEGIN
+   SPRINT rot @200101
+   SPRINT separator ", "
+ END
+ SPRINT str @20011
+ REPLACE_TEXTUALLY ~game prompt~ "%str%"
+
+ STRING_SET ~73245~ @123456789 USING ~SoS/title.tra~
+///////////////////////////////////////////////////////////////////////////////

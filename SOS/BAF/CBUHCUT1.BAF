@@ -1,0 +1,26 @@
+IF
+  Range(Player1,5)
+  NumberOfTimesTalkedTo(0)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    SetInterrupt(FALSE)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  OnCreation()
+  NumberOfTimesTalkedTo(0)
+  !Range(Player1,5)
+THEN
+  RESPONSE #100
+    MoveToObject(Player1)
+END
+
+IF
+  NumTimesTalkedToGT(0)
+THEN
+  RESPONSE #100
+    DestroySelf()
+END
+

@@ -1,0 +1,21 @@
+IF
+	OR(11)
+		Global("PlayerHasStronghold","GLOBAL",1)
+		Global("PCKeepOwner","GLOBAL",1)
+		Global("PCSphere","GLOBAL",1)
+		Global("PlayerThiefGuild","GLOBAL",1)
+		Global("PlayerHasPlayhouse","GLOBAL",1)
+		Global("PaladinOrder","GLOBAL",1)
+		Global("JoinHelm","GLOBAL",1)
+		Global("JoinLathander","GLOBAL",1)
+		Global("JoinTalos","GLOBAL",1)
+		Global("BPCeebIssonBitesRangers","GLOBAL",1)
+		Global("GreatDruid","GLOBAL",1)
+	!Global("CbCreatedMyself","AR2010",1)
+	!Global("CbCanSpawnFence","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCreatedMyself","AR2010",1)
+		CreateCreature("CBISSON1",[262.579],1)
+END
+

@@ -1,0 +1,145 @@
+BEGIN ~CBSBIN67~
+
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN GOTO 1
+END
+
+IF ~~ THEN BEGIN 1 // from: 0.0
+  SAY @1
+  IF ~~ THEN GOTO 2
+END
+
+IF ~~ THEN BEGIN 2 // from: 1.0
+  SAY @2
+  IF ~~ THEN REPLY @3 GOTO 3
+  IF ~~ THEN REPLY @4 GOTO 4
+  IF ~~ THEN REPLY @5 GOTO 11
+  IF ~~ THEN REPLY @6 GOTO 15
+END
+
+IF ~~ THEN BEGIN 3 // from: 23.3 22.1 18.2 16.2 13.1 9.1 8.0 6.1 5.0 2.0
+  SAY @7
+  IF ~~ THEN DO ~StartStore("CBSBIN67",LastTalkedToBy())~ EXIT
+END
+
+IF ~~ THEN BEGIN 4 // from: 23.2 22.0 18.1 16.3 2.1
+  SAY @8
+  IF ~~ THEN REPLY @9 GOTO 5
+  IF ~~ THEN REPLY @10 GOTO 8
+  IF ~~ THEN REPLY @11 GOTO 9
+END
+
+IF ~~ THEN BEGIN 5 // from: 4.0
+  SAY @12
+  IF ~~ THEN REPLY @13 GOTO 3
+  IF ~~ THEN REPLY @14 GOTO 6
+END
+
+IF ~~ THEN BEGIN 6 // from: 8.1 5.1
+  SAY @15
+  IF ~~ THEN REPLY @16 GOTO 7
+  IF ~~ THEN REPLY @17 GOTO 3
+END
+
+IF ~~ THEN BEGIN 7 // from: 6.0
+  SAY @18
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 8 // from: 4.1
+  SAY @19
+  IF ~~ THEN REPLY @20 DO ~SetGlobal("CbJillAnnKrossStoreCanOpen","AR4267",1)~ GOTO 3
+  IF ~~ THEN REPLY @21 DO ~SetGlobal("CbJillAnnKrossStoreCanOpen","AR4267",1)~ GOTO 6
+END
+
+IF ~~ THEN BEGIN 9 // from: 4.2
+  SAY @22
+  IF ~~ THEN REPLY @23 GOTO 10
+  IF ~~ THEN REPLY @24 GOTO 3
+END
+
+IF ~~ THEN BEGIN 10 // from: 9.0
+  SAY @25
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 11 // from: 23.0 22.3 18.0 16.1 2.2
+  SAY @26
+  IF ~~ THEN REPLY @27 GOTO 12
+END
+
+IF ~~ THEN BEGIN 12 // from: 11.0
+  SAY @28
+  IF ~~ THEN GOTO 13
+END
+
+IF ~~ THEN BEGIN 13 // from: 12.0
+  SAY @29
+  IF ~~ THEN REPLY @16  GOTO 14
+  IF ~~ THEN REPLY @17 GOTO 3
+END
+
+IF ~~ THEN BEGIN 14 // from: 13.0
+  SAY @18
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 15 // from: 23.1 22.2 18.3 16.0 2.3
+  SAY @18
+  IF ~~ THEN EXIT
+END
+
+IF ~NumTimesTalkedToGT(0)
+GlobalLT("CbPartyIsInSoubarMilitia","GLOBAL",8)~ THEN BEGIN 16
+  SAY @30
+  IF ~~ THEN REPLY @6 GOTO 15
+  IF ~~ THEN REPLY @5 GOTO 11
+  IF ~~ THEN REPLY @3 GOTO 3
+  IF ~~ THEN REPLY @31 GOTO 4
+END
+
+IF ~GlobalGT("CbPartyHasKilledAllBandits","GLOBAL",2)
+!Global("CbPartyLeaderBecomesMayor","GLOBAL",3)~ THEN BEGIN 17
+  SAY @32
+  IF ~~ THEN GOTO 18
+END
+
+IF ~~ THEN BEGIN 18 // from: 17.0
+  SAY @33
+  IF ~~ THEN REPLY @5 GOTO 11
+  IF ~~ THEN REPLY @31  GOTO 4
+  IF ~~ THEN REPLY @3 GOTO 3
+  IF ~~ THEN REPLY @6 GOTO 15
+END
+
+IF ~Global("CbPartyLeaderBecomesMayor","GLOBAL",1)~ THEN BEGIN 19
+  SAY @34
+  IF ~~ THEN GOTO 20
+END
+
+IF ~~ THEN BEGIN 20 // from: 19.0
+  SAY @35
+  IF ~~ THEN GOTO 21
+END
+
+IF ~~ THEN BEGIN 21 // from: 20.0
+  SAY @36
+  IF ~~ THEN GOTO 22
+END
+
+IF ~~ THEN BEGIN 22 // from: 21.0
+  SAY @37
+  IF ~~ THEN REPLY @31 GOTO 4
+  IF ~~ THEN REPLY @3 GOTO 3
+  IF ~~ THEN REPLY @6 GOTO 15
+  IF ~~ THEN REPLY @5 GOTO 11
+END
+
+IF ~Global("CbPartyLeaderBecomesMayor","GLOBAL",3)~ THEN BEGIN 23
+  SAY @38
+  IF ~~ THEN REPLY @5 GOTO 11
+  IF ~~ THEN REPLY @6 GOTO 15
+  IF ~~ THEN REPLY @31 GOTO 4
+  IF ~~ THEN REPLY @3 GOTO 3
+END

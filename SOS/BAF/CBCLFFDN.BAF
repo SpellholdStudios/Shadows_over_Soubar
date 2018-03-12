@@ -1,0 +1,83 @@
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  Global("CbClimbDownCliff","AR4330",0)
+  !GlobalTimerNotExpired("CbCliffTimer","AR4330")
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    SetGlobal("CbClimbDownCliff","AR4330",1)
+    SetGlobalTimer("CbCliffTimer","AR4330",3)
+    DisplayStringNoNameHead(LastTrigger,@10051)
+END
+
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  Class(LastTrigger,THIEF_ALL)
+  !GlobalTimerNotExpired("CbCliffTimer","AR4330")
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    SetGlobalTimer("CbCliffTimer","AR4330",3)
+    ActionOverride(LastTrigger,JumpToPoint([978.170]))
+    ActionOverride(LastTrigger,Face(2))
+END
+
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  CheckStatGT(LastTrigger,14,DEX)
+  !GlobalTimerNotExpired("CbCliffTimer","AR4330")
+THEN
+  RESPONSE #70
+    ClearAllActions()
+    SetGlobalTimer("CbCliffTimer","AR4330",3)
+    ActionOverride(LastTrigger,JumpToPoint([978.170]))
+    ActionOverride(LastTrigger,Face(2))
+  RESPONSE #30
+    ClearAllActions()
+    SetGlobalTimer("CbCliffTimer","AR4330",3)
+    ActionOverride(LastTrigger,JumpToPoint([978.170]))
+    ActionOverride(LastTrigger,Face(2))
+    DisplayStringNoNameHead(LastTrigger,@10052)
+    ApplySpellRES("jwfall",LastTrigger)
+END
+
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  CheckStatLT(LastTrigger,15,DEX)
+  !GlobalTimerNotExpired("CbCliffTimer","AR4330")
+THEN
+  RESPONSE #40
+    ClearAllActions()
+    SetGlobalTimer("CbCliffTimer","AR4330",3)
+    ActionOverride(LastTrigger,JumpToPoint([978.170]))
+    ActionOverride(LastTrigger,Face(2))
+  RESPONSE #60
+    ClearAllActions()
+    SetGlobalTimer("CbCliffTimer","AR4330",3)
+    ActionOverride(LastTrigger,JumpToPoint([978.170]))
+    ActionOverride(LastTrigger,Face(2))
+    DisplayStringNoNameHead(LastTrigger,@10052)
+    ApplySpellRES("jwfall",LastTrigger)
+END
+
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  GlobalTimerNotExpired("CbCliffTimer","AR4330")
+THEN
+  RESPONSE #100
+    ClearActions(LastTrigger)
+END
+
+IF
+  Clicked([ANYONE])
+  !Range(LastTrigger,10)
+THEN
+  RESPONSE #100
+    DisplayStringNoNameHead(LastTrigger,14702)
+END
+

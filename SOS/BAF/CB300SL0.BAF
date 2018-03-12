@@ -1,0 +1,11 @@
+IF
+  Global("CbCatapultSightedTen","AR4370",1)
+THEN
+  RESPONSE #50
+    PlaySound("AM5000S2")
+    SetGlobal("CbCatapultSightedTen","AR4370",0)
+  RESPONSE #50
+    PlaySound("AM5000S3")
+    SetGlobal("CbCatapultSightedTen","AR4370",0)
+END
+

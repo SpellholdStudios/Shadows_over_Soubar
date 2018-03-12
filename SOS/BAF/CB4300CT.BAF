@@ -1,0 +1,64 @@
+IF
+  GlobalLT("CbPorticullisDestroyed","AR4370",2)
+  Global("CbBanditsRun","AR4370",4)
+  HPPercentGT("CB4300GH",80)
+  Delay(10)
+  Range(NearestEnemyOf(Myself),40)
+THEN
+  RESPONSE #50
+    DisplayStringHead(Myself,@10032)
+  RESPONSE #50
+    DisplayStringHead(Myself,@10033)
+END
+
+IF
+  GlobalLT("CbPorticullisDestroyed","AR4370",2)
+  Global("CbBanditsRun","AR4370",4)
+  HPPercentLT("CB4300GH",81)
+  HPPercentGT("CB4300GH",50)
+  Delay(7)
+  Range(NearestEnemyOf(Myself),40)
+THEN
+  RESPONSE #50
+    DisplayStringHead(Myself,@10034)
+  RESPONSE #50
+    DisplayStringHead(Myself,@10035)
+END
+
+IF
+  GlobalLT("CbPorticullisDestroyed","AR4370",2)
+  Global("CbBanditsRun","AR4370",4)
+  HPPercentLT("CB4300GH",51)
+  HPPercentGT("CB4300GH",20)
+  Delay(5)
+  Range(NearestEnemyOf(Myself),40)
+THEN
+  RESPONSE #50
+    DisplayStringHead(Myself,@10036)
+  RESPONSE #50
+    DisplayStringHead(Myself,@10037)
+END
+
+IF
+  GlobalLT("CbPorticullisDestroyed","AR4370",2)
+  Global("CbBanditsRun","AR4370",4)
+  HPPercentLT("CB4300GH",21)
+  Delay(5)
+  Range(NearestEnemyOf(Myself),40)
+THEN
+  RESPONSE #100
+    DisplayStringHead(Myself,@10038)
+    SetGlobal("CbPorticullisAlmostDestroyed","AR4370",1)
+    ActionOverride("CBBANARC",ClearActions([ANYONE]))
+    ActionOverride("CB4300HB",ClearActions([ANYONE]))
+END
+
+IF
+  Global("CbPorticullisAlmostDestroyed","AR4370",1)
+  Range("CB4300GH",20)
+  AreaCheck("AR4370")
+THEN
+  RESPONSE #100
+    EscapeAreaMove("AR4305",1250,810,15)
+END
+

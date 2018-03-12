@@ -1,0 +1,100 @@
+IF
+  OnCreation()
+  Global("CbSendaiSpoke","AR4210",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbSendaiSpoke","AR4210",0)
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4210",0)
+  Global("CbAerieInteracted_4210","AR4210",0)
+  InParty("Aerie")  // ~Aerie~
+  Delay(10)
+  CombatCounter(0)
+  !StateCheck(Player1,STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("CbOriginalPeopleInteract","AR4210",1)
+    ActionOverride("Aerie",StartDialogNoSet(Player1))
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4210",0)
+  Global("CbCerndInteracted_4210","AR4210",0)
+  InParty("Cernd")  // Cernd
+  Delay(10)
+  CombatCounter(0)
+  !StateCheck(Player1,STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("CbOriginalPeopleInteract","AR4210",1)
+    ActionOverride("Cernd",StartDialogNoSet(Player1))
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4210",0)
+  Global("CbEdwinInteracted_4210","AR4210",0)
+  InParty("Edwin")  // Edwin
+  Delay(10)
+  CombatCounter(0)
+  !StateCheck(Player1,STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("CbOriginalPeopleInteract","AR4210",1)
+    ActionOverride("Edwin",StartDialogNoSet(Player1))
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4210",0)
+  Global("CbJanInteracted_4210","AR4210",0)
+  InParty("Jan")  // Jan
+  Delay(10)
+  CombatCounter(0)
+  !StateCheck(Player1,STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("CbOriginalPeopleInteract","AR4210",1)
+    ActionOverride("Jan",StartDialogNoSet(Player1))
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4210",0)
+  Global("CbMinscInteracted_4210","AR4210",0)
+  InParty("Minsc")  // Minsc
+  Delay(10)
+  CombatCounter(0)
+  !StateCheck(Player1,STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("CbMinscInteract","AR4210",1)
+    SetGlobal("CbOriginalPeopleInteract","AR4210",1)
+    ActionOverride("Minsc",StartDialogNoSet(Player1))
+END
+
+IF
+  GlobalGT("CbSelenceGetsSmuggling","GLOBAL",0)
+  Global("CbDeactivateRest","AR4210",0)
+THEN
+  RESPONSE #100
+    SpawnPtDeactivate("CbSkeletonSpawnOne")
+    SpawnPtDeactivate("CbSkeletonSpawnTwo")
+    ContainerEnable("CbContainer1",FALSE)
+    ContainerEnable("CbContainer2",FALSE)
+    ContainerEnable("CbContainer3",FALSE)
+    ContainerEnable("CbContainer4",FALSE)
+    ContainerEnable("CbContainer5",FALSE)
+    ContainerEnable("CbContainer6",FALSE)
+    ContainerEnable("CbContainer7",FALSE)
+    ContainerEnable("CbContainer8",FALSE)
+    ContainerEnable("CbContainer9",FALSE)
+    ContainerEnable("CbContainer10",FALSE)
+    ContainerEnable("CbContainer11",FALSE)
+    ContainerEnable("CbContainer13",FALSE)
+    ContainerEnable("CbContainer14",FALSE)
+    SetRestEncounterProbabilityDay(0)
+    SetRestEncounterProbabilityNight(0)
+    SetAreaRestFlag(1)
+    SetGlobal("CbDeactivateRest","AR4210",1)
+END
+

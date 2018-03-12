@@ -1,0 +1,28 @@
+IF
+  Entered([GOODCUTOFF])
+  Global("CbDisplayStringSet","AR4210",0)
+  NumInPartyGT(1)
+THEN
+  RESPONSE #100
+    DisplayString(LastTrigger,@10019)
+    Wait(2)
+    DisplayString(LastTrigger,@10020)
+    Wait(3)
+    DisplayString(LastTrigger,@10021)
+    Wait(1)
+    SetGlobal("CbDisplayStringSet","AR4210",1)
+END
+
+IF
+  Entered([GOODCUTOFF])
+  Global("CbDisplayStringSet","AR4210",0)
+  NumInPartyLT(2)
+THEN
+  RESPONSE #100
+    DisplayString(LastTrigger,@10019)
+    Wait(2)
+    DisplayString(LastTrigger,@10021)
+    Wait(1)
+    SetGlobal("CbDisplayStringSet","AR4210",1)
+END
+

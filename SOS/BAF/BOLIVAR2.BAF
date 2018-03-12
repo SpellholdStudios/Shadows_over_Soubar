@@ -1,0 +1,199 @@
+IF
+  HPPercentLT(Myself,50)
+  Global("CbBolivarFightsPartyMember","LOCALS",1)
+  Global("CbBeatBolivar","LOCALS",0)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    SetGlobal("CbBeatBolivar","LOCALS",1)
+    Dialog([PC])
+END
+
+IF
+  HPPercentLT(LastTargetedBy(Myself),50)
+  Global("CbBolivarFightsPartyMember","LOCALS",1)
+  Global("CbBolivarWon","LOCALS",0)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    SetGlobal("CbBolivarWon","LOCALS",1)
+    Dialog([PC])
+END
+
+IF
+  Global("CbBolivarFightsPlayer1","LOCALS",1)
+  Global("CbBolivarFightsPartyMember","LOCALS",1)
+  HitBy(Player2,CRUSHING)
+  OR(4)
+    HitBy(Player3,CRUSHING)
+    HitBy(Player4,CRUSHING)
+    HitBy(Player5,CRUSHING)
+    HitBy(Player6,CRUSHING)
+  Allegiance(Myself,NEUTRAL)
+  Global("CbCheatedBolivar","LOCALS",0)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    SetGlobal("CbCheatedBolivar","LOCALS",1)
+    Dialog([PC])
+END
+
+IF
+  Global("CbBolivarFightsPlayer2","LOCALS",1)
+  Global("CbBolivarFightsPartyMember","LOCALS",1)
+  HitBy(Player1,CRUSHING)
+  OR(4)
+    HitBy(Player3,CRUSHING)
+    HitBy(Player4,CRUSHING)
+    HitBy(Player5,CRUSHING)
+    HitBy(Player6,CRUSHING)
+  Allegiance(Myself,NEUTRAL)
+  Global("CbCheatedBolivar","LOCALS",0)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    SetGlobal("CbCheatedBolivar","LOCALS",1)
+    Dialog([PC])
+END
+
+IF
+  Global("CbBolivarFightsPlayer3","LOCALS",1)
+  Global("CbBolivarFightsPartyMember","LOCALS",1)
+  HitBy(Player2,CRUSHING)
+  OR(4)
+    HitBy(Player1,CRUSHING)
+    HitBy(Player4,CRUSHING)
+    HitBy(Player5,CRUSHING)
+    HitBy(Player6,CRUSHING)
+  Allegiance(Myself,NEUTRAL)
+  Global("CbCheatedBolivar","LOCALS",0)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    SetGlobal("CbCheatedBolivar","LOCALS",1)
+    Dialog([PC])
+END
+
+IF
+  Global("CbBolivarFightsPlayer4","LOCALS",1)
+  Global("CbBolivarFightsPartyMember","LOCALS",1)
+  HitBy(Player2,CRUSHING)
+  OR(4)
+    HitBy(Player3,CRUSHING)
+    HitBy(Player1,CRUSHING)
+    HitBy(Player5,CRUSHING)
+    HitBy(Player6,CRUSHING)
+  Allegiance(Myself,NEUTRAL)
+  Global("CbCheatedBolivar","LOCALS",0)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    SetGlobal("CbCheatedBolivar","LOCALS",1)
+    Dialog([PC])
+END
+
+IF
+  Global("CbBolivarFightsPlayer5","LOCALS",1)
+  Global("CbBolivarFightsPartyMember","LOCALS",1)
+  HitBy(Player2,CRUSHING)
+  OR(4)
+    HitBy(Player3,CRUSHING)
+    HitBy(Player4,CRUSHING)
+    HitBy(Player1,CRUSHING)
+    HitBy(Player6,CRUSHING)
+  Allegiance(Myself,NEUTRAL)
+  Global("CbCheatedBolivar","LOCALS",0)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    SetGlobal("CbCheatedBolivar","LOCALS",1)
+    Dialog([PC])
+END
+
+IF
+  Global("CbBolivarFightsPlayer6","LOCALS",1)
+  Global("CbBolivarFightsPartyMember","LOCALS",1)
+  HitBy(Player2,CRUSHING)
+  OR(4)
+    HitBy(Player3,CRUSHING)
+    HitBy(Player4,CRUSHING)
+    HitBy(Player5,CRUSHING)
+    HitBy(Player1,CRUSHING)
+  Allegiance(Myself,NEUTRAL)
+  Global("CbCheatedBolivar","LOCALS",0)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    SetGlobal("CbCheatedBolivar","LOCALS",1)
+    Dialog([PC])
+END
+
+IF
+  Global("CbBolivarFightsPlayer1","LOCALS",1)
+  Global("CbBolivarFightsPartyMember","LOCALS",1)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,4907)
+    ActionOverride(Player1,Attack("BOLIVAR"))
+    AttackReevaluate(Player1,20)
+END
+
+IF
+  Global("CbBolivarFightsPlayer2","LOCALS",1)
+  Global("CbBolivarFightsPartyMember","LOCALS",1)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,4907)
+    ActionOverride(Player2,Attack("BOLIVAR"))
+    AttackReevaluate(Player2,20)
+END
+
+IF
+  Global("CbBolivarFightsPlayer3","LOCALS",1)
+  Global("CbBolivarFightsPartyMember","LOCALS",1)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,4907)
+    ActionOverride(Player3,Attack("BOLIVAR"))
+    AttackReevaluate(Player3,20)
+END
+
+IF
+  Global("CbBolivarFightsPlayer4","LOCALS",1)
+  Global("CbBolivarFightsPartyMember","LOCALS",1)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,4907)
+    ActionOverride(Player4,Attack("BOLIVAR"))
+    AttackReevaluate(Player4,20)
+END
+
+IF
+  Global("CbBolivarFightsPlayer5","LOCALS",1)
+  Global("CbBolivarFightsPartyMember","LOCALS",1)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,4907)
+    ActionOverride(Player5,Attack("BOLIVAR"))
+    AttackReevaluate(Player5,20)
+END
+
+IF
+  Global("CbBolivarFightsPlayer6","LOCALS",1)
+  Global("CbBolivarFightsPartyMember","LOCALS",1)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,4907)
+    ActionOverride(Player6,Attack("BOLIVAR"))
+    AttackReevaluate(Player6,20)
+END
+
+IF
+  AttackedBy([PC],DEFAULT)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+

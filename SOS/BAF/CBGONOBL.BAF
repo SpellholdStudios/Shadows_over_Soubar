@@ -1,0 +1,17 @@
+IF
+  Clicked([ANYONE])
+  !Range(LastTrigger,10)
+THEN
+  RESPONSE #100
+    DisplayString(Myself,14230)  // ~You are too far away to catch a glimpse of the tube's contents.~
+END
+
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    CreateCreature("CBGONOBL",[953.1632],0) 
+END
+

@@ -1,0 +1,180 @@
+IF
+  Global("CbBanelichUsesArmor","LOCALS",0)
+  See(NearestEnemyOf(Myself))
+  HasItem("CBBNLCH3",Myself)  // ~Potion of Fire Resistance~
+THEN
+  RESPONSE #100
+    SetGlobal("CbBanelichUsesArmor","LOCALS",1)
+    ApplySpell(Player1,WIZARD_LOWER_RESISTANCE)
+    ApplySpell(Player2,WIZARD_LOWER_RESISTANCE)
+    ApplySpell(Player3,WIZARD_LOWER_RESISTANCE)
+    ApplySpell(Player4,WIZARD_LOWER_RESISTANCE)
+    ApplySpell(Player5,WIZARD_LOWER_RESISTANCE)
+    ApplySpell(Player6,WIZARD_LOWER_RESISTANCE)
+    UseItem("CBBNLCH3",Myself)  // ~Potion of Fire Resistance~
+    SetGlobalTimer("CbBanelichsArmor1","LOCALS",120)
+END
+
+IF
+  GlobalTimerExpired("CbBanelichsArmor1","LOCALS")
+  Global("CbBanelichUsesArmor","LOCALS",1)
+  HasItem("CBBNLCH4",Myself)  // ~Potion of Fire Resistance~
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    SetGlobal("CbBanelichUsesArmor","LOCALS",2)
+    ApplySpell(Player1,WIZARD_LOWER_RESISTANCE)
+    ApplySpell(Player2,WIZARD_LOWER_RESISTANCE)
+    ApplySpell(Player3,WIZARD_LOWER_RESISTANCE)
+    ApplySpell(Player4,WIZARD_LOWER_RESISTANCE)
+    ApplySpell(Player5,WIZARD_LOWER_RESISTANCE)
+    ApplySpell(Player6,WIZARD_LOWER_RESISTANCE)
+    UseItem("CBBNLCH4",Myself)  // ~Potion of Fire Resistance~
+    SetGlobalTimer("CbBanelichsArmor2","LOCALS",90)
+END
+
+IF
+  GlobalTimerExpired("CbBanelichsArmor2","LOCALS")
+  Global("CbBanelichUsesArmor","LOCALS",2)
+  HasItem("CBBNLCH5",Myself)  // ~Potion of Fire Resistance~
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    SetGlobal("CbBanelichUsesArmor","LOCALS",3)
+    ApplySpell(Player1,WIZARD_LOWER_RESISTANCE)
+    ApplySpell(Player2,WIZARD_LOWER_RESISTANCE)
+    ApplySpell(Player3,WIZARD_LOWER_RESISTANCE)
+    ApplySpell(Player4,WIZARD_LOWER_RESISTANCE)
+    ApplySpell(Player5,WIZARD_LOWER_RESISTANCE)
+    ApplySpell(Player6,WIZARD_LOWER_RESISTANCE)
+    UseItem("CBBNLCH5",Myself)  // ~Potion of Fire Resistance~
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HPPercentLT(Myself,50)
+  !GlobalGT("CbHealedMyself","LOCALS",2)
+THEN
+  RESPONSE #100
+    IncrementGlobal("CbHealedMyself","LOCALS",1)
+    ForceSpell(Myself,CLERIC_HEAL)
+END
+
+IF
+  Global("CbBanelichSawAnEnemy","LOCALS",1)
+  Global("CbBanelichEcology","LOCALS",0)
+THEN
+  RESPONSE #34
+    SetGlobal("CbBanelichEcology","LOCALS",1)
+  RESPONSE #33
+    SetGlobal("CbBanelichEcology","LOCALS",2)
+  RESPONSE #33
+    SetGlobal("CbBanelichEcology","LOCALS",3)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("CbBanelichEcology","LOCALS",1)
+  !StateCheck(LastSeenBy(Myself),STATE_BLIND)
+THEN
+  RESPONSE #100
+    GiveItemCreate("CBBNEL20",Myself,1,0,0)  // ~Wand of Paralyzation ~
+    EquipItem("CBBNEL20")
+    UseItem("CBBNEL20",LastSeenBy(Myself))  // ~Wand of Paralyzation ~
+    DestroyItem("CBBNEL20")  // ~Wand of Paralyzation ~
+    SetGlobal("CbBanelichEcology","LOCALS",5)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("CbBanelichEcology","LOCALS",1)
+  StateCheck(LastSeenBy(Myself),STATE_BLIND)
+THEN
+  RESPONSE #100
+    SetGlobal("CbBanelichEcology","LOCALS",4)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("CbBanelichEcology","LOCALS",2)
+  !NumInParty(1)
+  OR(2)
+    !StateCheck(LastSeenBy(Myself),STATE_CHARMED)
+    !StateCheck(LastSeenBy(Myself),STATE_SILENCED)
+THEN
+  RESPONSE #100
+    ApplySpell(LastSeenBy(Myself),WIZARD_DIRE_CHARM)
+    SetGlobal("CbBanelichEcology","LOCALS",5)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("CbBanelichEcology","LOCALS",2)
+  OR(3)
+    NumInParty(1)
+    StateCheck(LastSeenBy(Myself),STATE_CHARMED)
+    StateCheck(LastSeenBy(Myself),STATE_SILENCED)
+THEN
+  RESPONSE #100
+    SetGlobal("CbBanelichEcology","LOCALS",4)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("CbBanelichEcology","LOCALS",3)
+  OR(2)
+    !StateCheck(Myself,0)
+    !StateCheck(Myself,STATE_STUNNED)
+THEN
+  RESPONSE #100
+    GiveItemCreate("CBBNEL30",Myself,1,0,0)  // ~Wand of Paralyzation ~
+    UseItem("CBBNEL30",NearestEnemyOf(Myself))  // ~Wand of Paralyzation ~
+    SetGlobal("CbBanelichEcology","LOCALS",5)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("CbBanelichEcology","LOCALS",3)
+  OR(2)
+    StateCheck(Myself,0)
+    StateCheck(Myself,STATE_STUNNED)
+THEN
+  RESPONSE #100
+    SetGlobal("CbBanelichEcology","LOCALS",4)
+END
+
+IF
+  Global("CbBanelichEcology","LOCALS",4)
+  Global("CbBanelichEcologyTimerSet","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbBanelichEcologyTimer","LOCALS",160)
+    SetGlobal("CbBanelichEcologyTimerSet","LOCALS",1)
+END
+
+IF
+  Global("CbBanelichEcology","LOCALS",5)
+  Global("CbBanelichEcologyTimerSet","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbBanelichEcologyTimer","LOCALS",460)
+    SetGlobal("CbBanelichEcologyTimerSet","LOCALS",1)
+END
+
+IF
+  Global("CbBanelichEcologyTimerSet","LOCALS",1)
+  GlobalTimerExpired("CbBanelichEcologyTimer","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobal("CbBanelichEcology","LOCALS",0)
+    SetGlobal("CbBanelichEcologyTimerSet","LOCALS",0)
+END
+
+IF
+  ActionListEmpty()
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(LastSeenBy(Myself),30)
+END
+

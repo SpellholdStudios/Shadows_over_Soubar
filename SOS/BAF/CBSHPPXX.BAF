@@ -1,0 +1,42 @@
+IF
+  Delay(200)
+  AreaCheck("AR0700")
+THEN
+  RESPONSE #100
+    EscapeArea()
+END
+
+IF
+  AreaCheck("AR0500")
+  GlobalLT("CbRatsRatsRatsConcluded","GLOBAL",1)
+  !GlobalTimerNotExpired("CbDisplayedText","LOCALS")
+THEN
+  RESPONSE #25
+    Wait(10)
+    DisplayStringHead(Myself,@10109)
+    SetGlobalTimer("CbDisplayedText","LOCALS",45)
+    RandomWalk()
+  RESPONSE #25
+    Wait(20)
+    DisplayStringHead(Myself,@10110)
+    SetGlobalTimer("CbDisplayedText","LOCALS",45)
+    RandomWalk()
+  RESPONSE #25
+    Wait(30)
+    DisplayStringHead(Myself,@10111)
+    SetGlobalTimer("CbDisplayedText","LOCALS",45)
+    RandomWalk()
+  RESPONSE #25
+    DisplayStringHead(Myself,@10112)
+    SetGlobalTimer("CbDisplayedText","LOCALS",45)
+    RandomWalk()
+END
+
+IF
+  AreaCheck("AR0500")
+  Global("CbRatsRatsRatsConcluded","GLOBAL",1)
+THEN
+  RESPONSE #100
+    EscapeArea()
+END
+

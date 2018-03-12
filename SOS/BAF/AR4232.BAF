@@ -1,0 +1,47 @@
+IF
+  GlobalGT("CbPartyFoundDeadBody","AR4232",3)
+  Global("CbClueSpawned","AR4232",0)
+  Dead("CB232LD1")  // ~Squad Leader~
+  Dead("CB232LD2")  // ~Squad Leader~
+THEN
+  RESPONSE #100
+    SetGlobal("CbClueSpawned","AR4232",1)
+//    CreateCreature("CB232CLU",[500.500],0)  // ~Charlie~
+    CreateCreature("CB232CLU",[652.552],0)  // ~Charlie~
+END
+
+IF
+  Global("CbChickensCreated","AR4232",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbChickensCreated","AR4232",1)
+    CreateCreature("CHICKE",[953.977],0)  // ~Chicken~
+    CreateCreature("CHICKE",[780.1113],0)  // ~Chicken~
+    CreateCreature("CHICKE",[1148.1169],0)  // ~Chicken~
+    CreateCreature("CHICKE",[801.1323],0)  // ~Chicken~
+    CreateCreature("CHICKE",[1265.1328],0)  // ~Chicken~
+    CreateCreature("CHICKE",[1643.1134],0)  // ~Chicken~
+    CreateCreature("CHICKE",[1514.960],0)  // ~Chicken~
+    CreateCreature("CHICKE",[1370.1082],0)  // ~Chicken~
+    CreateCreature("CHICKE",[1192.1087],0)  // ~Chicken~
+    CreateCreature("CHICKE",[900.700],0)  // ~Chicken~
+    CreateCreature("CHICKE",[953.975],0)  // ~Chicken~
+    CreateCreature("CHICKE",[780.1110],0)  // ~Chicken~
+    CreateCreature("CHICKE",[1148.1165],0)  // ~Chicken~
+    CreateCreature("CHICKE",[801.1320],0)  // ~Chicken~
+    CreateCreature("CHICKE",[1265.1325],0)  // ~Chicken~
+    CreateCreature("CHICKE",[1643.1130],0)  // ~Chicken~
+    CreateCreature("CHICKE",[1514.955],0)  // ~Chicken~
+    CreateCreature("CHICKE",[1370.1075],0)  // ~Chicken~
+    CreateCreature("CHICKE",[1192.1075],0)  // ~Chicken~
+    CreateCreature("CHICKE",[900.757],0)  // ~Chicken~
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    Weather(RAIN)
+    Continue()
+END
+

@@ -1,0 +1,220 @@
+IF
+  RandomNum(3,1)
+  OnCreation()
+THEN
+  RESPONSE #100
+    CreateCreature("CBRTBDE1",[2000.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE1",[2000.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE1",[2000.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE1",[2000.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE1",[2000.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE1",[2000.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE1",[2000.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE1",[2000.1000],0)  // ~Bandit~
+END
+
+IF
+  RandomNum(3,2)
+  OnCreation()
+THEN
+  RESPONSE #100
+    CreateCreature("CBRTBDE2",[2000.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE2",[2000.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE2",[2000.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE2",[2000.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE2",[2000.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE2",[2000.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE2",[2000.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE2",[2000.1000],0)  // ~Bandit~
+END
+
+IF
+  RandomNum(3,3)
+  OnCreation()
+THEN
+  RESPONSE #100
+    CreateCreature("CBRTBDE3",[2000.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE3",[2000.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE3",[2000.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE3",[2000.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE3",[2000.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE3",[2000.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE3",[2000.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE3",[2000.1000],0)  // ~Bandit~
+END
+
+IF
+  Global("CbSpyRescueHappening","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    MoveToPointNoInterrupt([1602.1279])
+    Unlock("Door10")
+    OpenDoor("Door10")
+    SetGlobal("CbSpyRescueHappening","LOCALS",1)
+END
+
+IF
+  Global("CbSpyRescueHappening","LOCALS",1)
+THEN
+  RESPONSE #100
+    MoveToPointNoInterrupt([1036.1000])
+    Unlock("Door05")
+    OpenDoor("Door05")
+    SetGlobal("CbSpyRescueHappening","LOCALS",2)
+END
+
+IF
+  Global("CbSpyRescueHappening","LOCALS",2)
+THEN
+  RESPONSE #100
+    MoveToPointNoInterrupt([644.886])
+    SetGlobal("CbSpyRescueHappening","LOCALS",3)
+END
+
+IF
+  Global("CbSpyRescueHappening","LOCALS",3)
+  See([GOODCUTOFF])
+  RandomNum(2,1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbSpyRescueHappening","LOCALS",4)
+    CreateCreature("CBRTBDE1",[1036.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE1",[1036.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE1",[1036.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE1",[1036.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE1",[1036.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE1",[1036.1000],0)  // ~Bandit~
+    DisplayStringHead(Myself,@10095)
+    Wait(2)
+    DisplayStringHead(Myself,@10096)
+    Wait(1)
+    SetGlobal("CbSpyRescueHappening","LOCALS",4)
+END
+
+IF
+  Global("CbSpyRescueHappening","LOCALS",3)
+  See([GOODCUTOFF])
+  RandomNum(2,2)
+THEN
+  RESPONSE #100
+    SetGlobal("CbSpyRescueHappening","LOCALS",4)
+    CreateCreature("CBRTBDE2",[1036.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE2",[1036.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE2",[1036.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE2",[1036.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE2",[1036.1000],0)  // ~Bandit~
+    CreateCreature("CBRTBDE2",[1036.1000],0)  // ~Bandit~
+    DisplayStringHead(Myself,@10095)
+    Wait(2)
+    DisplayStringHead(Myself,@10096)
+    Wait(1)
+END
+
+IF
+  Global("CbSpyRescueHappening","LOCALS",4)
+THEN
+  RESPONSE #100
+    MoveToPointNoInterrupt([697.1156])
+    Unlock("Door06")
+    OpenDoor("Door06")
+    SetGlobal("CbSpyRescueHappening","LOCALS",5)
+END
+
+IF
+  Global("CbSpyRescueHappening","LOCALS",5)
+THEN
+  RESPONSE #100
+    MoveToPointNoInterrupt([941.1337])
+    Face(3)
+    Wait(1)
+    MoveToPointNoInterrupt([838.1341])
+    SmallWait(5)
+    DisplayStringHead(Myself,@10097)
+    Wait(2)
+    SetGlobal("CbSpyRescueHappening","LOCALS",6)
+END
+
+IF
+  Global("CbSpyRescueHappening","LOCALS",6)
+THEN
+  RESPONSE #100
+    OpenDoor("Door07")
+    MoveToPointNoInterrupt([757.1393])
+    Wait(1)
+    SetGlobal("CbSpyRescueHappening","LOCALS",7)
+END
+
+IF
+  Global("CbSpyRescueHappening","LOCALS",7)
+  See("CBCHRRAN")  // ~Ranger~
+THEN
+  RESPONSE #100
+    SetGlobal("CbSpyRescueHappening","LOCALS",8)
+    DisplayStringHead(Myself,@10098)
+    Wait(1)
+    ActionOverride("CBCHRRAN",ForceSpell("CBCHRRAN",DRYAD_TELEPORT))
+    ActionOverride("CBCHRRAN",Wait(1))
+    ActionOverride("CBCHRRAN",DestroySelf())
+    ForceSpell(Myself,DRYAD_TELEPORT)
+    Wait(1)
+    SetGlobal("CbRangerTheSpyEscaped","GLOBAL",1)
+    SetGlobal("CbASpyEscaped","GLOBAL",1)
+    SetInterrupt(TRUE)
+    DestroySelf()
+END
+
+IF
+  Global("CbSpyRescueHappening","LOCALS",7)
+  See("CB285FT1")  // ~Fighter~
+  OR(4)
+    See("CB285FT2")  // ~Fighter~
+    See("CB285FT3")  // ~Fighter~
+    See("CB285FT4")  // ~Fighter~
+    See("CB285FT5")  // ~Fighter~
+THEN
+  RESPONSE #100
+    SetGlobal("CbSpyRescueHappening","LOCALS",8)
+    DisplayStringHead(Myself,@10098)
+    Wait(1)
+    ActionOverride("CB285FT1",ForceSpell("CB285FT1",DRYAD_TELEPORT))
+    ActionOverride("CB285FT1",Wait(1))
+    ActionOverride("CB285FT1",DestroySelf())
+    ActionOverride("CB285FT2",ForceSpell("CB285FT2",DRYAD_TELEPORT))
+    ActionOverride("CB285FT2",Wait(1))
+    ActionOverride("CB285FT2",DestroySelf())
+    ActionOverride("CB285FT3",ForceSpell("CB285FT3",DRYAD_TELEPORT))
+    ActionOverride("CB285FT3",Wait(1))
+    ActionOverride("CB285FT3",DestroySelf())
+    ActionOverride("CB285FT4",ForceSpell("CB285FT4",DRYAD_TELEPORT))
+    ActionOverride("CB285FT4",Wait(1))
+    ActionOverride("CB285FT4",DestroySelf())
+    ActionOverride("CB285FT5",ForceSpell("CB285FT5",DRYAD_TELEPORT))
+    ActionOverride("CB285FT5",Wait(1))
+    ActionOverride("CB285FT5",DestroySelf())
+    ForceSpell(Myself,DRYAD_TELEPORT)
+    Wait(1)
+    SetGlobal("CbFighterTheSpyEscaped","GLOBAL",1)
+    SetGlobal("CbASpyEscaped","GLOBAL",1)
+    SetInterrupt(TRUE)
+    DestroySelf()
+END
+
+IF
+  Global("CbSpyRescueHappening","LOCALS",7)
+  See("CBSBIN75")  // ~Winthrop~
+THEN
+  RESPONSE #100
+    SetGlobal("CbSpyRescueHappening","LOCALS",8)
+    DisplayStringHead(Myself,@10098)
+    ActionOverride("CBSBIN75",ForceSpell("CBSBIN75",DRYAD_TELEPORT))
+    ActionOverride("CBSBIN75",Wait(1))
+    ActionOverride("CBSBIN75",DestroySelf())
+    ForceSpell(Myself,DRYAD_TELEPORT)
+    Wait(1)
+    SetGlobal("CbWinthropTheSpyEscaped","GLOBAL",1)
+    SetGlobal("CbASpyEscaped","GLOBAL",1)
+    SetInterrupt(TRUE)
+    DestroySelf()
+END
+

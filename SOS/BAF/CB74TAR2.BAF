@@ -1,0 +1,28 @@
+IF
+  OR(2)
+    Entered([ANYONE])
+    Opened([ANYONE])
+THEN
+  RESPONSE #100
+    DisplayString(LastTrigger,14381)  // ~Trap Sprung~ [AMB_D05C]
+    ForceSpell(LastTrigger,TRAP_ARROW)
+    Wait(1)
+    ForceSpell(LastTrigger,TRAP_ARROW)
+    Wait(1)
+    ForceSpell(LastTrigger,TRAP_ARROW)
+    Wait(1)
+    ForceSpell(LastTrigger,TRAP_ARROW)
+    Wait(1)
+    ForceSpell(LastTrigger,TRAP_ARROW)
+    Wait(1)
+    ForceSpell(LastTrigger,TRAP_ARROW)
+    Wait(1)
+    ForceSpell(LastTrigger,TRAP_ARROW)
+    Wait(1)
+    ForceSpell(LastTrigger,TRAP_ARROW)
+    Wait(1)
+    ForceSpell(LastTrigger,TRAP_ARROW)
+    Wait(1)
+    ForceSpell(LastTrigger,TRAP_ARROW)
+END
+

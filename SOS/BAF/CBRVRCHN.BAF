@@ -1,0 +1,10 @@
+IF
+  IsOverMe([ANYONE])
+  CheckStatLT(LastTrigger,20,RESISTCOLD)
+  Delay(10)
+THEN
+  RESPONSE #100
+    ApplySpellRES("CBRVCH",LastTrigger)  // ~Cold Water~
+    Continue()
+END
+

@@ -1,0 +1,150 @@
+IF
+  HPLT(Myself,1)
+  Global("CbPartyHasKilledAllBandits","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("CbPartyHasKilledAllBandits","GLOBAL",3)
+END
+
+IF
+  HasItem("MONHP01",Myself)  // <Invalid Strref -1>
+  HasItem("B2-16M3",Myself)  // ~Skull~
+THEN
+  RESPONSE #100
+    DestroyItem("MONHP01")  // <Invalid Strref -1>
+    DestroyItem("B2-16M3")  // ~Skull~
+    GiveItemCreate("CBROLFCR",Myself,1,1,0)  // ~Wand of Magic Missiles~
+    Continue()
+END
+
+IF
+  HasItem("CBROLFCR",Myself)  // ~Wand of Magic Missiles~
+  !HasItem("CBROLFSW",Myself)  // ~Rolf Sureblade's Sword~
+  !HasItem("CBROLFSH",Myself)  // ~Rolf Sureblade's Shield~
+THEN
+  RESPONSE #100
+    UseItem("CBROLFCR",Myself)  // ~Wand of Magic Missiles~
+    Continue()
+END
+
+IF
+  HasItem("CBROLFSW",Myself)  // ~Rolf Sureblade's Sword~
+  Global("CbRolfIsNotEquipping","LOCALS",0)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    SetGlobal("CbRolfIsNotEquipping","LOCALS",1)
+    Continue()
+END
+
+IF
+  HasItem("CBROLFSH",Myself)  // ~Rolf Sureblade's Shield~
+  !HasItemEquiped("CBROLFSH",Myself)
+THEN
+  RESPONSE #100
+    EquipItem("CBROLFSH")
+    Continue()
+END
+
+IF
+  !HasItem("POTN55",Myself)  // ~Potion of Superior Healing~
+  Global("CbRolfGivesHimselfPotionsInHouse","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbRolfGivesHimselfPotionsInHouse","LOCALS",1)
+    SetGlobalTimer("CbRolfsSkills","LOCALS",1)
+    GiveItemCreate("POTN34",Myself,3,0,0)  // ~Potion of Magic Protection~
+    GiveItemCreate("POTN55",Myself,8,0,0)  // ~Potion of Superior Healing~
+    Continue()
+END
+
+IF
+  HPPercentLT(Myself,80)
+  See(NearestEnemyOf(Myself))
+  HasItem("POTN55",Myself)  // ~Potion of Superior Healing~
+  !GlobalTimerNotExpired("DrankPotionTimer","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("DrankPotionTimer","LOCALS",18)
+    UseItem("POTN55",Myself)  // ~Potion of Superior Healing~
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HasItem("POTN34",Myself)  // ~Potion of Magic Protection~
+  !GlobalTimerNotExpired("DrankMagicPotionTimer","LOCALS")
+  CheckStatLT(Myself,40,RESISTMAGIC)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("DrankMagicPotionTimer","LOCALS",6)
+    UseItem("POTN34",Myself)  // ~Potion of Magic Protection~
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !GlobalTimerNotExpired("CbRolfsSkills","LOCALS")
+  RandomNum(5,1)
+  !GlobalGT("CbRolfStopsAtSixteen","LOCALS",15)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbRolfsSkills","LOCALS",20)
+    IncrementGlobal("CbRolfStopsAtSixteen","LOCALS",1)
+    SpellNoDec(Myself,BARBARIAN_RAGE)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  GlobalTimerExpired("CbRolfsSkills","LOCALS")
+  RandomNum(5,2)
+  !GlobalGT("CbRolfStopsAtSixteen","LOCALS",15)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbRolfsSkills","LOCALS",10)
+    IncrementGlobal("CbRolfStopsAtSixteen","LOCALS",1)
+    ForceSpell(Myself,4903)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  GlobalTimerExpired("CbRolfsSkills","LOCALS")
+  RandomNum(5,3)
+  !GlobalGT("CbRolfStopsAtSixteen","LOCALS",15)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbRolfsSkills","LOCALS",10)
+    IncrementGlobal("CbRolfStopsAtSixteen","LOCALS",1)
+    ForceSpell(Myself,4901)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  GlobalTimerExpired("CbRolfsSkills","LOCALS")
+  RandomNum(5,4)
+  !GlobalGT("CbRolfStopsAtSixteen","LOCALS",15)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbRolfsSkills","LOCALS",10)
+    IncrementGlobal("CbRolfStopsAtSixteen","LOCALS",1)
+    ForceSpell(Myself,4906)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  GlobalTimerExpired("CbRolfsSkills","LOCALS")
+  RandomNum(5,5)
+  !GlobalGT("CbRolfStopsAtSixteen","LOCALS",15)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbRolfsSkills","LOCALS",20)
+    IncrementGlobal("CbRolfStopsAtSixteen","LOCALS",1)
+    ForceSpell(Myself,4909)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  ActionListEmpty()
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),20)
+END
+

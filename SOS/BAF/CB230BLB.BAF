@@ -1,0 +1,29 @@
+IF
+  See([ANYONE])
+  !Allegiance(LastSeenBy(Myself),ENEMY)
+THEN
+  RESPONSE #100
+    AttackReevaluate(LastSeenBy(Myself),20)
+END
+
+IF
+  OnCreation()
+  Global("CbMadeMySquad","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbMadeMySquad","LOCALS",1)
+    CreateCreature("CB230BBA",[-1.-1],0)  // ~Squad Bandit~
+    CreateCreature("CB230BBA",[-1.-1],0)  // ~Squad Bandit~
+    CreateCreature("CB230BBS",[-1.-1],0)  // ~Squad Bandit~
+    CreateCreature("CB230BBS",[-1.-1],0)  // ~Squad Bandit~
+    CreateCreature("CB230BBH",[-1.-1],0)  // ~Squad Bandit~
+    CreateCreature("CB230BBH",[-1.-1],0)  // ~Squad Bandit~
+END
+
+IF
+  !See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    MoveToPoint([1905.2224])
+END
+

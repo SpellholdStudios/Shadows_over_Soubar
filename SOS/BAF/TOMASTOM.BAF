@@ -1,0 +1,56 @@
+IF
+  InParty(Myself)
+  Global("CbTomasWantsToGoBridge","GLOBAL",0)
+  !Global("CbRatsRatsRatsConcluded","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbTomasWantsToGoBridge","GLOBAL",1)
+    SetGlobalTimer("CbTomasWantsToGoBridge","GLOBAL",ONE_DAY)
+END
+
+IF
+  InParty(Myself)
+  CombatCounter(0)
+  !AreaCheck("AR0500")
+  Global("CbTomasWantsToGoBridge","GLOBAL",1)
+  GlobalTimerExpired("CbTomasWantsToGoBridge","GLOBAL")
+  !Global("CbRatsRatsRatsConcluded","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbTomasWantsToGoBridge","GLOBAL",2)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  InParty(Myself)
+  AreaCheck("AR0500")
+  Global("CbRatsRatsRatsStart","AR0500",0)
+  !Global("CbRatsRatsRatsConcluded","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbTomasWantsToGoBridge","GLOBAL",3)
+    SetGlobal("CbRatsRatsRatsStart","AR0500",1)
+    CreateCreature("CBRRRPIP",[2042.2356],0)  // ~Piper~
+END
+
+IF
+  Delay(15)
+  InParty(Myself)
+  AreaCheck("AR0500")
+  Global("CbTomasSpoke","LOCALS",0)
+  GlobalGT("CbRatsRatsRatsStart","AR0500",0)
+  !Global("CbRatsRatsRatsConcluded","GLOBAL",1)
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("CbPiperGetsRidOfPipe","AR0500",1)
+  GlobalGT("CbRatsRatsRatsStart","AR0500",0)
+  !Global("CbRatsRatsRatsConcluded","GLOBAL",1)
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Player1)
+END
+

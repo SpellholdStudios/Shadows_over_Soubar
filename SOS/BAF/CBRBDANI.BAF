@@ -1,0 +1,39 @@
+IF
+  HitBy([ANYONE],FIRE)
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    RunAwayFrom(LastAttackerOf(Myself),60)
+    SetInterrupt(TRUE)
+END
+
+IF
+  See([ANYONE])
+  Range(LastSeenBy(Myself),15)
+  !Name("Narulf",LastSeenBy(Myself))
+THEN
+  RESPONSE #34
+    RunAwayFrom(LastSeenBy(Myself),40)
+  RESPONSE #33
+    AttackReevaluate(LastSeenBy(Myself),40)
+  RESPONSE #33
+    RandomWalk()
+    Continue()
+END
+
+IF
+  See([ANYONE])
+  Range(LastSeenBy(Myself),15)
+  Name("Narulf",LastSeenBy(Myself))
+THEN
+  RESPONSE #100
+    RunAwayFrom(LastSeenBy(Myself),60)
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    RandomWalk()
+END
+

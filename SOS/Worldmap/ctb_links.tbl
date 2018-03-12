@@ -1,0 +1,13 @@
+
+//CtB-SOS Cross Links Table
+SRC_AREA  SRC_NWSE  TARGET_ARE  ENTRY_NAME  TRV_TIME  DEF_ENTRY  ENC1     ENC2     ENC3     ENC4     ENC5     ENC_PROB
+
+AR3587    N         AR4220      ExitW       20        8          AR0042   AR0044   N        N        N        40
+AR4220    W         AR3587      ExitE       20        2          AR0042   AR0044   N        N        N        40
+AR4220    S         AR3587      ExitE       20        2          AR0042   AR0044   N        N        N        40
+
+AR3520    W         AR4220      ExitE       20        2          AR0042   AR0044   N        N        N        50
+AR4220    E         AR3520      N           20        8          AR0042   AR0044   N        N        N        50
+AR4220    S         AR3520      N           20        8          AR0042   AR0044   N        N        N        50
+
+

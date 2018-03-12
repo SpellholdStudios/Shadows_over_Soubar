@@ -1,0 +1,16 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)  // 
+    SetGlobal("CbPlayerCanGoToSoubar","GLOBAL",1)
+    FadeToColor([40.0],0)
+    Wait(2)
+    RestorePartyLocations()
+    Wait(2)
+    FadeFromColor([40.0],0)
+    Wait(2)
+    SaveGame(0)
+    EndCutSceneMode()
+END
+

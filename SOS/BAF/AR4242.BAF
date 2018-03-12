@@ -1,0 +1,81 @@
+IF
+  OnCreation()
+  Global("CbVillagersSpawned","AR4242",0)
+THEN
+  RESPONSE #5
+    SetGlobal("CbVillagersSpawned","AR4242",1)
+    CreateCreature("CBSBVLIa",[449.270],0)  // ~Soubar Villager~
+  RESPONSE #5
+    SetGlobal("CbVillagersSpawned","AR4242",1)
+    CreateCreature("CBSBVLIb",[449.270],0)  // ~Soubar Villager~
+  RESPONSE #5
+    SetGlobal("CbVillagersSpawned","AR4242",1)
+    CreateCreature("CBSBVLIc",[449.270],0)  // ~Soubar Villager~
+  RESPONSE #5
+    SetGlobal("CbVillagersSpawned","AR4242",1)
+    CreateCreature("CBSBVLId",[449.270],0)  // ~Soubar Villager~
+  RESPONSE #5
+    SetGlobal("CbVillagersSpawned","AR4242",1)
+    CreateCreature("CBSBVLIe",[449.270],0)  // ~Soubar Villager~
+  RESPONSE #5
+    SetGlobal("CbVillagersSpawned","AR4242",1)
+    CreateCreature("CBSBVLIf",[449.270],0)  // ~Soubar Villager~
+  RESPONSE #5
+    SetGlobal("CbVillagersSpawned","AR4242",1)
+    CreateCreature("CBSBVLIg",[449.270],0)  // ~Soubar Villager~
+  RESPONSE #5
+    SetGlobal("CbVillagersSpawned","AR4242",1)
+    CreateCreature("CBSBVLIh",[449.270],0)  // ~Soubar Villager~
+  RESPONSE #5
+    SetGlobal("CbVillagersSpawned","AR4242",1)
+    CreateCreature("CBSBVLIi",[449.270],0)  // ~Soubar Villager~
+  RESPONSE #5
+    SetGlobal("CbVillagersSpawned","AR4242",1)
+    CreateCreature("CBSBVLIj",[449.270],0)  // ~Soubar Villager~
+  RESPONSE #5
+    SetGlobal("CbVillagersSpawned","AR4242",1)
+    CreateCreature("CBSBVLIk",[449.270],0)  // ~Soubar Villager~
+  RESPONSE #5
+    SetGlobal("CbVillagersSpawned","AR4242",1)
+    CreateCreature("CBSBVLIl",[449.270],0)  // ~Soubar Villager~
+  RESPONSE #5
+    SetGlobal("CbVillagersSpawned","AR4242",1)
+    CreateCreature("CBSBVLIb",[449.270],0)  // ~Soubar Villager~
+    CreateCreature("CBSBVLId",[213.398],0)  // ~Soubar Villager~
+  RESPONSE #5
+    SetGlobal("CbVillagersSpawned","AR4242",1)
+    CreateCreature("CBSBVLIa",[449.270],0)  // ~Soubar Villager~
+    CreateCreature("CBSBVLIb",[213.398],0)  // ~Soubar Villager~
+    CreateCreature("CBSBVLIi",[377.501],0)  // ~Soubar Villager~
+  RESPONSE #5
+    SetGlobal("CbVillagersSpawned","AR4242",1)
+    CreateCreature("CBSBVLIa",[449.270],0)  // ~Soubar Villager~
+    CreateCreature("CBSBVLIb",[213.398],0)  // ~Soubar Villager~
+    CreateCreature("CBSBVLIi",[377.501],0)  // ~Soubar Villager~
+    CreateCreature("CBSBVLIk",[642.336],0)  // ~Soubar Villager~
+  RESPONSE #5
+    SetGlobal("CbVillagersSpawned","AR4242",1)
+    CreateCreature("CBSBVLIc",[449.270],0)  // ~Soubar Villager~
+    CreateCreature("CBSBVLId",[213.398],0)  // ~Soubar Villager~
+  RESPONSE #5
+    SetGlobal("CbVillagersSpawned","AR4242",1)
+    CreateCreature("CBSBVLIl",[449.270],0)  // ~Soubar Villager~
+    CreateCreature("CBSBVLIl",[213.398],0)  // ~Soubar Villager~
+  RESPONSE #5
+    SetGlobal("CbVillagersSpawned","AR4242",1)
+    CreateCreature("CBSBVLIh",[449.270],0)  // ~Soubar Villager~
+    CreateCreature("CBSBVLIi",[213.398],0)  // ~Soubar Villager~
+    CreateCreature("CBSBVLIj",[377.501],0)  // ~Soubar Villager~
+  RESPONSE #5
+    SetGlobal("CbVillagersSpawned","AR4242",1)
+    CreateCreature("CBSBVLIa",[449.270],0)  // ~Soubar Villager~
+    CreateCreature("CBSBVLIc",[213.398],0)  // ~Soubar Villager~
+    CreateCreature("CBSBVLIj",[377.501],0)  // ~Soubar Villager~
+    CreateCreature("CBSBVLIk",[642.336],0)  // ~Soubar Villager~
+  RESPONSE #5
+    SetGlobal("CbVillagersSpawned","AR4242",1)
+    CreateCreature("CBSBVLIi",[449.270],0)  // ~Soubar Villager~
+    CreateCreature("CBSBVLIj",[213.398],0)  // ~Soubar Villager~
+    CreateCreature("CBSBVLIj",[377.501],0)  // ~Soubar Villager~
+END
+

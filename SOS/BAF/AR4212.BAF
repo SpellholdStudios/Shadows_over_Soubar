@@ -1,0 +1,42 @@
+IF
+  OnCreation()
+  Global("CbMyCreaturesCreated","AR4212",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbMyCreaturesCreated","AR4212",1)
+    CreateCreature("CBTBGGAL",[928.165],12)  // ~Gaelion~
+    CreateCreature("CBTBGMAL",[825.223],12)  // ~Maltanar~
+    CreateCreature("CBTBGMER",[732.388],3)  // ~Mercurial~
+    CreateCreature("CBTBGPOT",[753.273],14)  // ~Potencius~
+    CreateCreature("CBTBGTOD",[927.206],11)  // ~Te Elle~
+    CreateCreature("CBDRAGDP",[1562.1333],3)  // ~Deep Dragon~
+END
+
+IF
+  Dead("CBDRAGDP")  // ~Deep Dragon~
+  Global("CbDragonCountedForSelence","AR4212",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbDragonCountedForSelence","AR4212",1)
+    IncrementGlobal("CbSelenceClearingOutDungeon","GLOBAL",1)
+END
+
+IF
+  Dead("CBDRGDPH")  // ~Deep Dragon~
+  Global("CbDragonCountedForSelence","AR4212",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbDragonCountedForSelence","AR4212",1)
+    IncrementGlobal("CbSelenceClearingOutDungeon","GLOBAL",1)
+END
+
+IF
+  Dead("CBDRGDPS")  // ~Deep Dragon~
+  Global("CbDragonCountedForSelence","AR4212",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbDragonCountedForSelence","AR4212",1)
+    IncrementGlobal("CbSelenceClearingOutDungeon","GLOBAL",1)
+END
+
+

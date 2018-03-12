@@ -1,0 +1,16 @@
+IF
+  Global("CbBurnbonesNeedsSpells","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbBurnbonesWillRestNow","LOCALS",ONE_DAY)
+    SetGlobal("CbBurnbonesNeedsSpells","LOCALS",1)
+END
+
+IF
+  Global("CbBurnbonesNeedsSpells","LOCALS",1)
+  GlobalTimerExpired("CbBurnbonesWillRestNow","LOCALS")
+THEN
+  RESPONSE #100
+    Rest()
+    SetGlobal("CbBurnbonesNeedsSpells","LOCALS",0)
+END

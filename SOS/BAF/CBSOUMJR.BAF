@@ -1,0 +1,110 @@
+IF
+  Global("CbPartyIsInSoubarMilitia","GLOBAL",5)
+  Global("CbRecreateUndroppablesMinsc","LOCALS",0)
+  InParty("MINSC")  // MINSC
+THEN
+  RESPONSE #100
+    GiveItemCreate("CBMINBOO",Myself,1,1,0)  // CBMINBOO
+    UseItem("CBMINBOO","MINSC")  // CBMINBOO
+    SetGlobal("CbRecreateUndroppablesMinsc","LOCALS",1)
+END
+
+IF
+  Global("CbPartyIsInSoubarMilitia","GLOBAL",5)
+  Global("CbRecreateUndroppablesSelence","LOCALS",0)
+  InParty("SELENCE")  // SELENCE
+THEN
+  RESPONSE #100
+    GiveItemCreate("CBSLENCE","SELENCE",1,0,0)  // ~Selence's Knap Sack~
+    SetGlobal("CbRecreateUndroppablesSelence","LOCALS",1)
+END
+
+IF
+  Global("CbPartyIsInSoubarMilitia","GLOBAL",5)
+  Global("CbRecreateUndroppablesNalia","LOCALS",0)
+  InParty("NALIA")  // NALIA
+THEN
+  RESPONSE #100
+    GiveItemCreate("CBNALRNG",Myself,1,1,0)  // CBNALRNG
+    UseItem("CBNALRNG","NALIA")  // CBNALRNG
+    SetGlobal("CbRecreateUndroppablesNalia","LOCALS",1)
+END
+
+IF
+  Global("CbPartyIsInSoubarMilitia","GLOBAL",5)
+  Global("CbMajorChangesDialogs","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbMajorChangesDialogs","LOCALS",2)
+    SetDialogue("CBSOUMJ3")
+END
+
+IF
+  Global("CbPartyIsInSoubarMilitia","GLOBAL",2)
+  Global("CbMajorChangesDialogs","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbMajorChangesDialogs","LOCALS",1)
+    SetDialogue("CBSOUMJ2")
+END
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+THEN
+  RESPONSE #100
+    ChangeEnemyAlly(Myself,ENEMY)
+END
+
+IF
+  AttackedBy([ANYONE],DEFAULT)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    Attack(LastAttackerOf(Myself))
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    Attack(LastAttackerOf(Myself))
+END
+
+IF
+  HPLT(LastAttackerOf(Myself),1)
+  !See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    EquipItem("B1-6")
+END
+
+IF
+  ActionListEmpty()
+  AreaCheck("AR4286")
+THEN
+  RESPONSE #100
+    MoveToPoint([511.179])
+    Face(12)
+END
+
+IF
+  Global("CbStopPrelate","GLOBAL",2)
+  Global("CbStopLogan","GLOBAL",2)
+  See([GOODCUTOFF])
+  Detect(Player1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbStopPrelate","GLOBAL",0)
+    SetGlobal("CbStopLogan","GLOBAL",0)
+    SetGlobal("CbPartyIsInSoubarMilitia","GLOBAL",5)
+    StartDialogNoSet(Player1)
+END
+

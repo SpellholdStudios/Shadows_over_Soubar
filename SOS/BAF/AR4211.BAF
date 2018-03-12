@@ -1,0 +1,102 @@
+IF
+  OnCreation()
+  Global("CbLolthsFirstEncounter","AR4211",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbLolthsFirstEncounter","AR4211",1)
+    CreateCreature("CBLOLTH1",[3327.1223],15)  // ~Avatar of Lolth~
+    CreateCreature("CBDRWFM1",[3350.1337],15)  // ~Drow Warrior~
+    CreateCreature("CBDRIFT1",[3420.1296],15)  // ~Drider Fighter~
+    CreateCreature("CBDRWFM1",[3474.1264],15)  // ~Drow Warrior~
+    CreateCreature("CBDRWW11",[3223.1230],15)  // ~Drow Wizard~
+    CreateCreature("CBDRWW21",[3292.1171],15)  // ~Drow Wizard~
+    CreateCreature("CBHBBOOK",[3867.1578],0)  // <Invalid Strref -1>
+    CreateCreature("CBHBBOOK",[3264.1224],0)  // <Invalid Strref -1>
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4211",0)
+  Global("CbViconiaInteract","AR4211",0)
+  Global("CbLolthChangedToDrow","AR4211",1)
+  Global("CbLolthOneDead","GLOBAL",1)
+  InParty("Viconia")  // Viconia
+  Delay(10)
+  CombatCounter(0)
+  !StateCheck(Player1,STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("CbOriginalPeopleInteract","AR4211",1)
+    ActionOverride("Viconia",StartDialogNoSet(Player1))
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4211",0)
+  Global("CbMazzyInteracted_4211","AR4220",0)
+  Global("CbLolthChangedToDrow","AR4211",1)
+  Global("CbLolthOneDead","GLOBAL",1)
+  InParty("Mazzy")  // Mazzy
+  Delay(10)
+  CombatCounter(0)
+  !StateCheck(Player1,STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("CbOriginalPeopleInteract","AR4211",1)
+    ActionOverride("Mazzy",StartDialogNoSet(Player1))
+END
+
+IF
+  Dead("CBLOLTH3")  // ~Lolth~
+  Global("CbLolthCountedForSelence","AR4211",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbLolthCountedForSelence","AR4211",1)
+    IncrementGlobal("CbSelenceClearingOutDungeon","GLOBAL",1)
+END
+
+IF
+  GlobalGT("CbLolthChanging","AR4211",4)
+  Global("CbLolthTookGodlyForm","AR4211",0)
+THEN
+  RESPONSE #100
+    ActionOverride("CBIMP117",DestroySelf())
+    ActionOverride("CBIMP118",DestroySelf())
+    CreateCreature("CBDRWHM3",[653.1141],14)  // ~High Handmaiden~
+    CreateCreature("CBDRWHP3",[717.1089],14)  // ~High Priestess~
+    CreateCreature("CBDRWW13",[1143.1263],3)  // ~Drow Wizard~
+    CreateCreature("CBDRWW23",[938.1420],12)  // ~Drow Wizard~
+    CreateCreature("CBDRIFT3",[987.1184],14)  // ~Drider Fighter~
+    CreateCreature("CBDRICL3",[905.1188],14)  // ~Drider Cleric~
+    CreateCreature("CBDRIWZ3",[838.1202],15)  // ~Drider Wizard~
+    CreateCreature("CBDRICL3",[815.1258],13)  // ~Drider Cleric~
+    CreateCreature("CBDRIFT3",[791.1313],12)  // ~Drider Fighter~
+    CreateCreature("CBDRWFR3",[709.1202],14)  // ~Drow Warrior~
+    CreateCreature("CBDRWFR3",[764.1155],14)  // ~Drow Warrior~
+    CreateCreature("CBDRWFR3",[842.1109],14)  // ~Drow Warrior~
+    CreateCreature("CBDRWFM3",[796.1327],7)  // ~Drow Warrior~
+    CreateCreature("CBDRWFM3",[1019.1175],0)  // ~Drow Warrior~
+    SetGlobal("CbLolthTookGodlyForm","AR4211",1)
+    SetGlobal("CbLolthTwoDead","GLOBAL",1)
+END
+
+IF
+  GlobalGT("CbLolthChanging","AR4211",1)
+  Global("CbLolthChangedToDrow","AR4211",0)
+THEN
+  RESPONSE #100
+    ActionOverride("CBIMP111",DestroySelf())
+    ActionOverride("CBIMP112",DestroySelf())
+    ActionOverride("CBIMP113",DestroySelf())
+    ActionOverride("CBIMP114",DestroySelf())
+    ActionOverride("CBIMP115",DestroySelf())
+    ActionOverride("CBIMP116",DestroySelf())
+    CreateCreature("CBDRWHM2",[3326.2069],7)  // ~High Handmaiden~
+    CreateCreature("CBDRWFM2",[3103.1993],7)  // ~Drow Warrior~
+    CreateCreature("CBDRWFR2",[3188.2001],7)  // ~Drow Warrior~
+    CreateCreature("CBDRIWZ2",[3062.1975],7)  // ~Drider Wizard~
+    CreateCreature("CBDRICL2",[3094.1962],7)  // ~Drider Cleric~
+    CreateCreature("CBDRIFT2",[3207.1967],7)  // ~Drider Fighter~
+    SetGlobal("CbLolthChangedToDrow","AR4211",1)
+    SetGlobal("CbLolthOneDead","GLOBAL",1)
+END
+
+

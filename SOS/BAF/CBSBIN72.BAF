@@ -1,0 +1,24 @@
+IF
+  Allegiance(Myself,ENEMY)
+  !HasItemEquiped("SW1H50",Myself)
+THEN
+  RESPONSE #100
+    GiveItemCreate("SW1H50",Myself,1,0,0)  // ~Shazzellim +1~
+    FillSlot(SLOT_WEAPON0)
+    EquipItem("SW1H50")
+    EquipMostDamagingMelee()
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  !HasItemEquiped("SW1H52",Myself)
+THEN
+  RESPONSE #100
+    GiveItemCreate("CHAN13",Myself,1,0,0)  // ~Elven Chain +1~
+    FillSlot(SLOT_ARMOR)
+    EquipItem("CHAN13")
+    GiveItemCreate("SW1H52",Myself,1,0,0)  // ~Scimitar +3~
+    FillSlot(SLOT_SHIELD)
+    EquipItem("SW1H52")
+END
+

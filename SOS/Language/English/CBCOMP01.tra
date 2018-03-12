@@ -1,0 +1,14 @@
+@0    = ~Sir, Captain, Sir!~
+@1    = ~I await your orders, Captain!~
+@2    = ~Soldier, I want you to patrol the streets of Soubar.  Continue with this duty until I say otherwise.~
+@3    = ~Soldier, I am ordering you to the northwest road entering Soubar.  Move to your post on the double!~
+@4    = ~Soldier, you will be guarding the main road leading into town from the north.  Report to your post!~
+@5    = ~You will be guarding the northeast road entering town, Soldier!  Report there immediately.~
+@6    = ~Soldier, I want you to guard me with your life!  If anyone makes an attack on me, you will kill them.  Follow me when there is no threat.~
+@7    = ~Soldier, I want you to guard <PLAYER2>.  Guard <PLAYER2> with your life.~
+@8    = ~Soldier, I want you to guard <PLAYER3>.  Guard <PLAYER3> with your life.~
+@9    = ~Soldier, I want you to guard <PLAYER4>.  Guard <PLAYER4> with your life.~
+@10   = ~Soldier, I want you to guard <PLAYER5>.  Guard <PLAYER5> with your life.~
+@11   = ~Soldier, I want you to guard <PLAYER6>.  Guard <PLAYER6> with your life.~
+@12   = ~Soldier, you will stand at attention here until I say otherwise.~
+@13   = ~Sir, yes, Sir!~

@@ -1,0 +1,19 @@
+IF
+	OnCreation()
+	Global("CbSelenceOpensGraveyard","AR0800",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("CbFenceOperation",FALSE)
+ 	        Continue()
+END
+
+IF
+	OnCreation()
+	Global("CbSelenceOpensGraveyard","AR0800",1)
+THEN
+	RESPONSE #100
+		TriggerActivation("CbFenceOperation",TRUE)
+ 	        Continue()
+END
+
+

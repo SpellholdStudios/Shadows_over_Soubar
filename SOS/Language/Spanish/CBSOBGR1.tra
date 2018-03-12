@@ -1,0 +1,13 @@
+@0     = ~Sargento <CHARNAME>.  Tenemos órdenes de prestaros servicio en vuestra asignación. Os obedeceremos y colaboraremos en cualquier cosa que dispongáis.~
+@1     = ~¿Debemos entrar en El Narval, Sargento? Preciso transmitir sus órdenes a los hombres si se da el caso.~
+@2     = ~No, soldado.  ¿Por qué no vienes de momento conmigo? Tenemos otras cosas que debemos hacer.~
+@3     = ~Sí, soldado. Custodiaremos El Narval esta noche.  No quiero ver bronca de ningún tipo. Si hubiese algún problema, sólo tomaremos prisioneros, así que use la parte plana de su espada.~
+@4     = ~Sí, Sargento.~
+@5     = ~Sí, Sargento.  Pero si sólo vamos a prevenir crímenes y acepta una idea, Señor, sugiero usar mejor éstas esposas antes que las espadas.  A lo mejor no son tan intimidatorias, pero pienso que quizá su presencia no levante tanto los ánimos como las armas. Tal vez inciten menos a la violencia. ~
+@6     = ~Entonces le veremos dentro.~
+@7     = ~¿Sí, Sargento <CHARNAME>?  ¿Sus órdenes?~
+@8     = ~Nada, soldado, continúa.~
+@9     = ~Parece que nuestras tareas aquí han finalizado. Regresemos a los barracones. Vamos.~
+@10    = ~Estos hombres sólo están bebiendo, Sargento <CHARNAME>. Mientras que no causen problemas, no hay necesidad de intervenir.~
+@11    = ~¡Sargento <CHARNAME>!  Los hombres de Triel están causando alboroto ¡¡¡ÉSO VA CONTRA LA LEY!!! ¡Arréstelos o llévelos a prisión!~
+@12    = ~¡A sus órdenes, Señor!~

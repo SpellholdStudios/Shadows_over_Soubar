@@ -1,0 +1,18 @@
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+THEN
+  RESPONSE #100
+    DisplayString(Myself,23493)  // ~The halls resonate with the sound of grinding stone. A door has opened somewhere nearby.~
+    Unlock("Door03")
+    OpenDoor("Door03")
+END
+
+IF
+  Clicked([ANYONE])
+  !Range(LastTrigger,10)
+THEN
+  RESPONSE #100
+    DisplayString(Myself,14702)  // ~You are too far away to use that.~
+END
+

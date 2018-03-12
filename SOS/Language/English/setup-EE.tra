@@ -1,0 +1,1178 @@
+@20423 = ~All creatures within 20 feet of the target point (within sight of the user) must save vs Wands when the Power Word is intoned, else suffer from wracking pain for 2-8 rounds, causing them to fight at -4 To Hit and making their AC worsen by 1.  The Power Word may only be used once per day and the amulet must be held in the hand for the Power Word to work.
+
+STATISTICS:
+
+Ability:
+  -4 THAC0 and -1 AC for 2-8 rounds
+  Save vs. Wands negates effects
+  Magic resistant creatures unaffected~
+@20437 = ~An individual wearing these highly polished bands can tell much about those he meets.  By shaking the hand of another person and expending a charge by force of will, the wearer can determine the class or occupation of the person.  By expending two charges, the wearer can determine the indviduals alignment.  The bracers will reveal no information if the target is wearing an amulet of proof against detection or is cloaked by similar magic.  The bracers are usually found with 4-40 charges and cannot be recharged.
+
+STATISTICS:
+
+Special:
+   Can reveal Class and Level
+   Can reveal Alignment~
+@20438 = ~This shiny brass sword is extremely old, dating back at least three thousand years before Dale Reckoning.  It was created by a Netherese archmage named Pouldinus as a gift to a warrior friend.  This friend, Kalamnin, was a strict devotee of Amaunator, a harsh, unforgiving god now almost forgotten by sages.  Amaunator was the god of law and the god of the sun.  He required his servants to follow his edicts exactly.  Kalamnin did his best to observe Amaunator's laws in his travels.  The blade was lost when Kalamnin was killed in battle by dozens of nycadaemons.  The sorcerer who summoned the creatures, Ylmandi, kept the blade in his family until the fall of Netheril.
+
+STATISTICS:
+
+Damage:  2D4 + 3
+THAC0: +3
+Special:
+  Additional 2d4+3 Fire Damage against Undead
+  5% Chance of Beltyn's Burning Blood on hit
+  Casts Sunray 1/Day
+Damage Type:  Slashing
+Weight:  3
+Speed Factor:  1
+Proficiency Type:  Long Sword
+Type:  1-handed
+Requires: 10 Strength~
+@20440 = ~This powerful amulet was crafted by the enchanter Celemon of Calimport in 727 DR.  He crafted ten such amulets on commission before jealous rivals killed him and attempted to duplicate the procedure.  His colleagues were not as talented as Celemon, and destroyed their laboratory and themselves when a mishap occurred.  The formula was destroyed as well.  This particular amulet was owned by the elven warrior-mage Pelan Rainwind.  It was lost when he was killed by giants in the Spine of the World somewhere around 840 DR.
+
+STATISTICS:
+
+Simultaneously casts Stoneskin and Minor Globe of Invulnerability on the user)~
+@20442 = ~This type of amulet takes the form of a sculpted beetle, and is typically only found in areas around Mulhorand.  This particular scarab was crafted in Thay by Gulvak Anrak, a powerful enchanter of magical protective devices.  Gulvak gave this scarab to an apprentice, Alik Banom, who was killed by Cormyrean soldiers in 1021 DR.  According to sages, Alik started a fight with a Cormyrean knight who insulted Thay and the Red Wizards as a whole.  Even though Alik was powerful, he was no match for the throng of Purple Dragons that came to the knight's aid.
+
+STATISTICS:
+
+Gives +2 save vs. Petrification and Polymorph~
+@20444 = ~A horrible cursed item crafted by the Calishite necromancer Niri Eddin, the Amulet of Dark Flesh is a token of disease and slow death.  Eddin gave the item to his secret enemies as gifts and reclaimed it through his thief servants when the sickness had run its course.  Niri is believed to still be "alive" somewhere in the realms, despite the fact that he was a human born in 832 DR.
+
+STATISTICS:
+
+Upon donning this amulet, the wearer is paralyzed and diseased~
+@20446 = ~This silver shield once resided in the Hand of the Seldarine, where it was used to protect its bearer from harmful magic and attacks.  Because of its racial attunement, the marauding orcs and goblins left it in the tower.  Maiden Ilmadia grabbed it from the ruins.
+
+STATISTICS:
+
+Armor Class Bonus: 3
+Resistance Bonus: +25% Magic Resistance
+Weight: 5
+Requires: 12 Strength~
+@20447 = ~Kontik, servant of Auril, once wielded this blade. It has been enchanted with several beneficial magics.
+
+STATISTICS:
+
+Damage:  1D4 + 3
+THAC0: +3
+Special:
+  Intelligence +1 bonus
+  Charisma -1 penalty
+  100% Cold Resistance
+  -50% Fire Resistance
+  2 charges of Cone of Cold per day
+Damage type:  Piercing
+Weight: 1
+Speed Factor: 2
+Proficiency Type: Daggers
+Type:  1-handed
+Requires: 3 Strength~
+@20449 = ~Gond, god of invention and artifice, is a deity rarely worshipped by traditional adventurers.  Some thieves, however, revere Gond for his role in the development of locks, traps, and other complex machines.  One such thief was the burglar Jurmar the Calm, who began his career as a locksmith.  Known for his cool demeanor and steady hand, Jurmar paid priests of Gond to fashion this tool belt for him.  Whenever Jurmar was stuck in a situation where he didn't have the right tool for a job, one of the small pouches on the belt would supply him with what he needed.
+
+STATISTICS:
+
+Special:
+  +10 Open Locks
+  +5 to Find/Remove Traps~
+@20451 = ~This fell weapon was crafted by a beautiful and cruel wizardess who worshipped the lady of misfortune, Beshaba.  Her name was Redani, and she was known both for her powers as an enchanter and a seductress.  The Love of Black Bess was always given to her favored consort at any particular time.  Unknown to her lovers, she would place a Ring of Readiness on the mace, saving the matching ring for a special time.  When she grew tired of her consorts, as she always did, she would give the matching ring to a new lover and send the young man out to kill her old paramour.  The new lover would simply call upon the ring and the mace would fly to his hand.
+
+Unfortunately, Redani was done in when she trusted the wrong man to kill her old lover.  Gural of Chessenta, a well-disguised priest of Hoar, took it upon himself to gain vengeance for a man whose skull he had picked up by the side of a road.  Unluckily for Redani, priests of Hoar will go to any length to avenge the dead, even if it means animating all of her dead lovers to tear her limb from limb.
+
+STATISTICS:
+
+Damage:  1D6 + 4
+THAC0:  +3
+Special:
+  10% of all hits cause the target to lose 4 points of Luck
+Damage type:  Crushing
+Weight:  7
+Speed Factor:  5
+Proficiency Type:  Maces
+Type:  1-handed
+Requires: 10 Strength~
+@20453 = ~Inside of this glass pot is an expensive mixture of oil and other chemicals.  When this mixture is set ablaze, it burns for several seconds at a very hot temperature.  Flaming oil is sometimes difficult to use because it takes a long time for the user to properly throw it.  Adventurers often carry oil with them to deal with trolls in the unfortunate event that they are encountered.
+
+STATISTICS:
+
+When thrown at a target, the glass pot breaks, spreading flaming oil over everything within a 5' radius, doing 2-16 points of fire damage.
+~
+@20459 = ~Named for its ability to lay warriors low, the Cairn Blade was used by the mercenary Adal Kerrn.  Kerrn was a skilled heavy infantryman.  He and his company, Kerrn's Breakers, hired themselves out to all sorts of warlords, bandits, wizards, and religious leaders.  They were typically placed at the front of the battlefield where they would intercept charging heavy cavalry units and break their formation.  Kerrn died in 1054 DR when he accidentally killed the horse of a heavily armored foe.  The horse fell on top of Kerrn, killing him.  In the madness of the battle that followed, most of his comrades were routed.  Though Kerrn's body was never found, the group that had employed him at the time, the church of Helm, recovered his distinctive sword.
+
+STATISTICS:
+
+Damage:  1D10 + 4
+THAC0:  +4
+Damage type:  Slashing
+Weight: 20
+Speed Factor: 10
+Proficiency Type:  Two Handed sword
+Type:  2-handed
+Requires: 14 Strength~
+@20461 = ~This armor was crafted in 1221 DR by a duergar smith working for a vengeful priest of Bane named Alerri of West Waterdeep.  During Alerri's early days in the priesthood, he frequently provoked and attacked agents of Sune.  Unfortunately for Alerri, Lady Firehair's followers employed charm magic to cease the Banite's antics.  Once he had been charmed, Alerri was commanded to perform all sorts of embarrassing actions in the streets of Waterdeep.  After many years, Alerri decided to honor his god of hate by creating a suit of armor that would protect him from charm magic.  He communed with the spiritual minions of Bane to discover the materials and rituals necessary for the suit's creation.  Following his master's instructions, he murdered thirteen married couples and had their wedding rings woven into the hem of the mail.  He then killed thirteen elves and bathed in their blood, uttering prayers for thirteen hours.  When he was finished, his armor protected him from the magic of the Sunites and filled him with irrepressible hate.  Alerri went on a crusade against the agents of Sune, Llira, and Hanali Celanil for three years.  His killing spree ended when elven archers and priests of Corellon Larethian laid a trap for him on a road going north from Waterdeep.
+
+STATISTICS:
+
+Armor Class: 3
+Special:
+  Immune to Dire Charm, Charm Person, Confusion, Command, Rigid Thinking
+   -2 Charisma while worn
+Weight: 45
+Requires: 8 Strength~
+@20463 = ~This elven cloak, woven from silk and wool, was worn by a powerful wizard from Myth Nantar named Mithran Lightpetal.  Mithran was well known for his love of travel and his acceptance of the "N'TelQuessir," or "not people," the non-elven people of the world.  The cloak was actually the cause of his doom, for it was woven and enchanted by his dark elf lover, Rauva Vrinn.  The style of the black and midnight-blue cloak was so obviously non-elven that his associates became suspicious.
+
+Eventually, an acquaintance of Mithran, an elven drow-hunter named Gaedel, discovered Rauva's secluded hiding spot in the forests surrounding Myth Nantar.  With a small band of warriors, Gaedel stormed her hut and quickly killed her.  When Mithran discovered what had happened, he went berserk with fury.  The mad mage assaulted the hunting lodge of Gaedel and his brothers, killing them all and leveling the lodge.  Gaedel's family eventually attempted to take vengeance for the act, killing Mithran at loss of most of their house.  Mithran's cloak was recovered by his close friend, the dwarven warrior Hael Bronzelake.  Had it not been, it would have been swallowed up under the waves with Myth Nantar when that proud city was drowned in the Sea of Fallen Stars several years later.
+
+STATISTICS:
+
+Armor Class Bonus: 3
+Saving Throw Bonus: +2~
+@20465 = ~This dark drink was named after the merchants from Berdusk, who concocted this brew. Berduskan merchants were always in a hurry to complete their various deals and felt hampered by the effects of fatigue and the need to sleep.  Upon drinking this brew, the effects of fatigue and weariness disappear, letting the drinker continue with whatever he was doing.
+
+STATISTICS:
+
+Removes fatigue as if user has had a full nights sleep~
+@20467 = ~In 834 DR, a wizard named Legedain the Wiser caught a renowned thief breaking into his tower.  The thief was a cynical burglar named Ilfain Blackfeather.  Legedain was growing old and becoming tired of his frail body.  To remedy the situation, he cast Magic Jar and forced Ilfain's spirit into a host gem.  Legedain then transferred his soul to the young elf's body and left the gem on a shelf nearby.  One hundred years later, Legedain decided to do something with it.  He created a sword for his arrogant bodyguard, Gundak, and transferred Ilfain's spirit from the host gem into the sword.  Ilfain, always highly critical in life, started telepathically criticizing Gundak in combat.  Gundak became annoyed with the sword after two weeks and he threw it into the street.  A series of warriors picked it up and discarded it after short periods of ownership.  Over time, the weapon has simply come to be known by its current name.
+
+STATISTICS:
+
+Damage:  2D4 + 4
+THACO:  +4
+Special:
+  Find Traps 1/Day, Knock 1/Day
+Damage Type: Slashing
+Weight: 4
+Speed Factor: 5
+Proficiency Type: Long Sword
+Type: 1-handed
+Requires: 6 Strength~
+@20469 = ~The eccentric master wizard Zilzanzer, well known for his Ring of the Gorgon, was also the creator of a number of small magical missile weapons.  "Zilzanzer's Magnificent Darts" were sold to many of the wizards' colleagues.  Unlike many of Zilzanzer's other creations, his darts actually performed as he intended them to.  He created a great number of the darts before his untimely demise.
+
+STATISTICS:
+
+Damage:  1D3 + 2
+Special:
+  User can throw up to five of Zilzanzer's darts in a single round, regardless of class
+Damage type:  Missile (piercing)
+Speed Factor: 1
+Proficiency Type: Missile Weapons
+Type:  1-handed~
+@20471 = ~The sellsword Naradon of Thesk was known for his ability to quickly and efficiently defeat enemy mages even when outnumbered.  He earned this reputation with the help of three items: Potions of Speed, Boots of Speed, and his trusted short sword, Spell Diver.  Unlike many other magical weapons, Spell Diver does not have a dark, murderous history.  Naradon retired from adventuring when he was thirty-two.  His fondness for Potions of Speed caught up with him when he died of old age four years later.  His only heir had no desires to be an adventurer.  He sold the weapon to a known cat burglar a few years after his father's death.  The sword can be recognized by the kingfisher stamped into the ricasso.
+
+STATISTICS:
+
+Damage:  1D6 + 2
+THAC0:  +2
+Special:
+  50% of all hits nullify the target's ability cast spells for 2 rounds
+  +1 to Save vs. Spells
+  +5% Magic Resistance
+Damage type:  Piercing
+Weight:  1
+Speed Factor:  1
+Proficiency Type:  Small Sword
+Type:  1-handed
+Requires: 5 Strength~
+@20475 = ~Created during the golden age of the elves of the Seldarine's Hand and the dwarves of Dorn's Deep, it was worn by the elven wizards of Hand.  Although a very cumbersome robe, it provided its wearer protection against the elements of Cold, Fire, and Electricity.
+
+STATISTICS:
+
+Armor Class:  9
+Dexterity: -2 penalty
+Resistance Bonuses:
+  +40% Cold Resistance
+  +40% Fire Resistance
+  +40% Electrical Resistance
+Weight:  10~
+@20479 = ~This black and silver morning star was created by a Cormyrean necromancer called Dameth the Wan.  Although it appears to be a sinister weapon, the unadorned surfaces of the morning star mask its dreadful power.  The weapon was sold to a priest of Myrkul who put it to good use in his battles against adventurers.  Eventually, however, the priest was overcome by a paladin of Lathander who confiscated the item.  When the mountain temple where the morning star was contained was sacked by giants in 1190 DR, the history of the weapon ended.
+
+STATISTICS:
+
+Damage:  2D4 + 3
+THAC0: +3
+Special:
+  10% of all hits cast Cure Light Wounds on the user and give a +1 bonus to Strength for 5 rounds
+Damage type:  Crushing
+Weight: 9
+Speed Factor: 4
+Proficiency Type:  Flail/Morningstar
+Type:  1-handed
+Requires: 11 Strength~
+@20481 = ~An extremely valuable magic item on its own, the Gauntlet of Valor is part of one of only three remaining Power Arms made by the elven archmages of Myth Drannor.  The devices were crafted for use by champions defending the ancient elven city on the rare occasions when it was in danger.  This eternally shining gauntlet represents a pinnacle of elven craftsmanship and enchantment.  Adventurers and ambitious villains across the Realms yearn to find the location of all the pieces of the Power Arms.
+
+STATISTICS:
+
+Damage: 1D4 + 1
+THAC0: +1
+Special:
+  Wearer is immune to Charm, Hold, Sleep, and related spells
+  Wearer can invoke the innate powers of the Gauntlet of Valor 3/day to be used as a weapon
+  12% of all hits cause 3D6 points of Crushing damage and Stun the target for 3 seconds
+Damage type:  Crushing
+Weight: 2~
+@20483 = ~This helmet was worn for four hundred years by halflings and gnomes in the small and virtually unknown community called Shepherd's Valley.  Each dawn, the Night Watch captain would hand the helmet over the Day Watch captain.  Each dusk, the Day Watch captain returned the helm.  This cycle continued without fail until Pheldon Tock, a Night Watch captain, decided to trade in the helm for another.  The helmet probably would have remained in Gibling Armstrong's Curious Armor Shoppe for quite some time if a bored dwarf hadn't bought it and set it on his mantle in distant lands.
+
+STATISTICS:
+
+Armor Class Bonus:  3
+Special:
+  User is immune to Sleep and never suffers from Fatigue
+Weight:  2~
+@20489 = ~This armor was crafted from the hide of the most powerful polar worm in Icewind Dale, known by the natives as the "Winter King."  The hide of the creature is extremely thick and tough, but surprisingly light.  It is very unusual in its appearance, colored white with blue accents.
+
+STATISTICS:
+
+Armor Class: 3
+Special:  
+  +25% Resist Cold and Fire
+Weight: 25
+Requires: 12 Strength~
+@20490 = ~This weapon was fashioned by your hands, guided by the dwarf, Tiernon.  Forged from ice taken from the walls of the Gloomfrost, this blade has taken some of the glacier and some of your strength into it, creating a formidable weapon. Though made of ice, the weapon is only slightly cold to the touch and does not melt, even when exposed to the hottest flames.
+
+STATISTICS:
+
+Damage:  1D8 + 4
+THAC0: +4
+Special: 
+  +10% Fire Resistance
+  +10% Cold Resistance
+  Storm of Vengeance 1/Day
+  5% Chance of 2-12 Cold Damage
+Damage Type:  Slashing
+Weight: 3
+Speed Factor:  1
+Proficiency Type:  Long Sword
+Type:  1-handed
+Requires: 6 Strength~
+@20492 = ~Oddly enough, this shard of bone is shaped in a form similar to a Kris.  What is even more unique is that the hilt of the Kris will occasionally secrete a black poisonous ichor.
+
+STATISTICS:
+
+Damage: 1D4 + 2
+THAC0: +2
+Special: 
+  Upon the player scoring a hit with this weapon, there will be a 20% chance that the target will be poisoned (Save vs. paralyze, poison, or death magic to counter effects)
+Damage type: Piercing
+Weight: 3
+Speed Factor: 2
+Proficiency Type: Dagger
+Requires: 3 Strength~
+@20494 = ~Created during the golden age between of the elves of the Seldarine's Hand and the dwarves of Dorn's Deep. This ring was created to empower young wizards with greater focus to cast their spells more effectively. Although the elder wizards of the Hand were some of the most powerful in the realm, they were always involved in various research or experiments that prevented them from joining less critical battles or expeditions.
+
+STATISTICS:
+
+Intelligence: +1 Bonus~
+@20496 = ~This mighty weapon consists of a haft several feet long, topped with a heavy blade.  The axe may be double-bitted, with blades on both sides of the haft, or it may only have a single blade.  It is an unwieldy weapon, but a skilled warrior can strike blows of tremendous strength with it.
+
+STATISTICS:
+
+Damage:  1D10
+Damage type:  Slashing
+Weight:  10
+Speed Factor:  9
+Proficiency Type:  Axe
+Type:  2-handed
+Requires: 10 Strength~
+@20497 = ~This was the weapon of a cursed soul, doomed to wander the length and breadth of Faerun for his crimes against the elves of Myth Drannor.  Denell Harband was a human involved with the creation of the "Halfaxe Trail."  Under the orders of his commander, Halvan the Dark, he forged ahead through elven forests despite protests and repeated attacks.  When he was finally captured by the elves, he stated emphatically that he was free of guilt because he was just following his orders.  The elven council deemed that Denell be placed under a High Geas to carry his axe from the Sword Coast of Faerun to its borders in the east, and from the Great Glacier to Lurien.  It took Denell thirty years to complete his task.  When he finished, he was an accomplished warrior, weathered and beaten by years on foreign roads.  On his way back to his home, he passed by Harrowdale and saw a wooden statue of Halvan the Dark raised proudly in a small town square.  With a single-handed blow, he lodged his huge axe into Halvan's forehead.  Never breaking stride, he returned to his hut where he lived out the rest of his days as a reclusive farmer.
+
+STATISTICS:
+
+Damage:  1D10 + 3
+THAC0:  +3
+Special:  
+  +1 to Constitution while equipped
+Damage type:  Slashing
+Weight:  10
+Speed Factor:  6
+Proficiency Type:  Axe
+Type:  2-handed
+Requires: 10 Strength~
+@20501 = ~The Lyre of Progression was created by the bard Sedini Paletto.  Sedini was a teacher of young aspiring bards during difficult times.  This instrument, held close at all times, helped Sedini fight off those who would attack him or his students.  When Sedini grew old, he passed it on to his best student, Galwen Alaman.  Galwen continued teaching for a few years before setting out into the wilderness on a life of adventure.  It is believed that he lost the lyre when he accidentally dropped it in a marsh.
+
+STATISTICS:
+
+Held under the left arm, this instrument allows a bard to memorize two extra second level spells and an extra third level spell.
+~
+@20503 = ~This armor was crafted from meteoric iron by dwarven and elven smiths during the Time of Cooperation.  A high priest of Moradin and a high priest of Labelas Enoreth enchanted the armor with its powers.  Unfortunately, no elven or dwarven warrior ever wore the chain mail.  When troubles arose between the Hand of the Seldarine and Dorn's Deep, the dwarves locked the armor in a vault, refusing to use anything the elves had a hand in creating.
+
+STATISTICS:
+
+Armor Class: 2
+Special:
+  +10 Hit Points
+  Wearer Regenerates 1 hit point per turn
+Weight: 40
+Requires: 8 Strength~
+@20505 = ~This simple cloak has been imbued with some small magical properties to help protect its wearer. It does so by affecting both saving throws and armor class. It is ideal for mages and others who cannot wear bulkier or more restrictive types of armor.
+
+STATISTICS:
+
+Weight:  1~
+@20506 = ~This seemingly threadbare robe had become "dormant" upon Lysan's command, so as not to expose herself as a priestess of Auril. When as much as a single snowflake falls upon the robe, it transforms into a scintillating cloak of white that allows the wielder to float above snow drifts and walk through even raging rivers with ease. Most merchants will not wish to purchase this item, or will do so at a very low price, as they see it as a sacred item of Auril the Frost-Maiden and likely to attract her followers... and her displeasure.
+
+Created during the ceremonies of the Coming Storm (the onset of winter) to Auril, these robes are specially created to resist flames and allow the wearer to resist any attempt to stop or hold them. Although the priestesses of Auril are naturally resistant to cold and can move through snow and icy rivers with ease, these cloaks amplify the protection of the goddess, allowing the wearer additional cold resistance (which allows a wearer already immune to cold to absorb its power) and even goes so far as to leach the heat from fire attacks directed at the wearer. In addition, the robe may be invoked to allow the wearer to pass over or through any obstacle designed to hold them, whether Web spells, ghoul paralyzation, Hold Person spells and the like.
+
+STATISTICS:
+
+Special: Casts 'Free Action' (3 Charges)
+Armor Class Bonus: 1
+Resistance Bonuses:
+  +1 Save vs. Paralyzation
+  +30% Cold Resistance
+  +30% Fire Resistance
+Weight:  1~
+@20510 = ~It is believed that fae creatures helped create this beautiful sword, and legends say that it was forged in the cool depths of Myrloch, the large lake at the center of Gwynneth in the Moonshaes.  The weapon has an unearthly look to it, and it is believed to be quite old.  The only individual known to have carried the weapon was a half-elven bard named Daen Winterbrush.  It is said by some that after he found the sword, quite by accident, that he was blessed with exceptional creativity and powerful sensitivity to the world around him.  He traveled for forty years and is known for some of the most unique, haunting melodies in Faerun.  It is believed that Daen eventually became too melancholy at the sights of misery and oppression that he encountered in his travels, and that the fae smiths of the Moonshae Isles welcomed him into the breast of Myrloch.
+
+STATISTICS:
+
+Damage:  1D8 + 3
+THACO:  +3
+Special:  
+  +20 to Lore skill while equipped
+Damage Type:  Slashing
+Weight:  4
+Speed Factor:  4
+Proficiency Type:  Long Swords
+Type:  1-handed
+Requires: 6 Strength~
+@20512 = ~This front of this huge steel shield is decorated with black enameled patterns and a single skull set in the center.  The interior of the shield is etched with encrypted ancient writings.  The only legible words are at the top, and read, "AND WHAT OF THE DEAD?"  The history of the item is completely hidden from divination.
+
+STATISTICS:
+
+Armor Class Bonus: 4
+Special:
+  +1 vs. Missile Weapons
+  Bearer is immune to Finger of Death and Power Word: Kill
+Weight: 20
+Requires: 15 Strength~
+@20514 = ~This robe was fashioned from strong fabric and dyed dark blue, the favorite color of its proud owner, the archmage Ogi-Luc.  A Sembian by birth, Ogi-Luc was a powerful man, as strong in body as he was in mind.  However, Ogi-Luc wasn't content to merely be strong.  He wanted to be exceptionally strong.  When he put on these robes, proud men stood aside and braggarts stilled their tongues.  For all of Ogi-Luc's pride and prowess, he was unable to defeat the Red Wizard abjurer Nesk Vhaltim.  Nesk took the robes as a prize.  They were later stolen and sold by a daring rogue.
+
+STATISTICS:
+
+Armor Class:  4
+Special:  
+  Grants 18/99 Strength
+  +2 to Con
+Weight:  5~
+@20518 = ~Pellon Kay would never appear in history books for his musical talents.  If it wasn't for his famous lute, no one would have remembered him at all.  Born in Sembia and raised in a musical family, Pellon Kay never took his performances seriously.  Kay made dozens of enemies everywhere he went because of his acidic wit and appetite for confrontation.  Sages believe that Milil frowned upon Pellon's antics, but that Talos found Pellon's attitude to be quite amusing.  The avatar of Talos watched Pellon start a fight with over twenty men in a bar one night.  As a gift for such destructive entertainment, Talos touched the lute that was laying next to Pellon's unconscious body.  After that night, Pellon discovered that he could make men go berserk just by playing his lute in their direction.  He took great delight in setting mercenaries and sailors against each other for several weeks.  Eventually, Pellon Kay was laid low by a grim-featured warrior with a crossbow who didn't let Pellon get close enough to employ his magical lute.  The unknown warrior threw the lute into the Sea of Fallen Stars.
+
+STATISTICS:
+
+When played at a target, this lute casts Dire Charm.~
+@20520 = ~Very few of these potions were ever manufactured, and the methods by which they were has been lost.  Created during the times of Netheril for the upper echelons of the churches, these potions would strip one of fortitude for an increase in priestly abilities.
+
+STATISTICS:
+
+Constitution: -2
+Wisdom: +1
+Duration:  Permanent~
+@20522 = ~The only material parts of this icy weapon are the hilt, grip, and pommel, wrought from shining silver and steel.  It was created in 1099 DR by the chosen of Auril, Ihanora the Merciful.  Ihanora roamed the north, leading ruthless attacks against all those who attempted to find solace from the cold or fight its effects.  She traveled with a motley crew of yetis, polar worms, frost giants, and a white dragon, freezing everything in her wake.  Ihanora was defeated in 1108 DR by the notorious Red Mask Brigade, headed by the ruthless killer known as Bitter Harley.
+
+STATISTICS:
+
+Damage:  2D4 + 2
+THAC0: +2
+Special: 
+  2% chance of turning the target to solid ice
+Damage Type:  Cold
+Weight:  10
+Speed Factor:  6
+Proficiency Type:  Bastard Sword
+Type:  1-handed
+Requires: 11 Strength~
+@20524 = ~Edion, a dying necromancer from Sembia, was the recent owner of this powerful ring.  He crafted the ring himself for his private use.  In his later years, he became so accustomed to wearing it that he almost never removed it.  He wore it on the same finger that he would wear a wedding ring on, to symbolize his marriage to the Art.
+
+STATISTICS:
+
+Doubles the character's available number of 5th level mage spells.~
+@20526 = ~This dark brown cowl is meant to be worn on the head and over the shoulders as a broad hood.  It was crafted by the gnomish thief and illusionist Brein Chestnut.  Brein used the cowl on his own adventures for several years before his childhood sweetheart convinced him to settle down.  He gave the cowl to his nephew, Chirchet, who in turn sold the item for a large stretch of farmland.
+
+STATISTICS:
+
+Armor Class Bonus:  +2
+Special:  
+  +10% to Stealth
+  Wearer can cast Blindness and Color Spray 1/Day
+Weight:  2~
+
+@20528 = ~One of many beautiful enchanted sashes created in the southern reaches of Zakhara, this luxurious silk item was created to aid its wearers in evading attacks.  The Brotherhood of the True Sun, a society of holy slayers, granted these sashes to their most devout servants.  This particular sash was most recently in the possession of the holy slayer Khamu Bedi.  A string of delicate black characters on the red silk read, "Be swift, powerful, and deadly.  But above all else, be moral."
+
+STATISTICS:
+
+Wearer is under the effects of Blur
+Weight: 2~
+@20532 = ~Emanating a faint blue aura, this gigantic weapon is a serrated two-handed sword made of bone.  It will occasionally strike with a shocking force of cold, chilling the player to the bone.
+
+STATISTICS:
+
+Damage: 1D10 + 3
+THAC0: +3
+Special: 
+  20% chance +1D10 cold damage
+Damage type: Slashing
+Weight: 25
+Speed Factor: 10
+Proficiency Type: Two Handed sword
+Type: 2-Handed
+Requires: 14 Strength~
+@20535 = ~Owain's Lullabye was created by a disturbed bard named Owain Piper.  Piper was a worshipper of Auril, born in the town of Silverymoon and raised to embrace the frigid environment of his homeland.  He traveled extensively in the Moonsea, where he met a mage named Pelham of the Moor.  Owain and Pelham became good friends and stayed in contact for over a decade.  Pelham eventually enchanted Owain's Lullabye for the bard in exchange for a small sum of money.  Owain rarely used the instrument in battle, typically employing it when he found late-migrating geese lounging on a lake.  He would blow the horn in such a way that the geese heard it as the sound of their cousins heading south for the winter.  As the geese would attempt to take flight, Owain's horn would freeze them in mid-stroke, where he would leave them to die.
+
+STATISTICS:
+
+When played, this instrument casts Cone of Cold for 10d4+10 points of damage.
+~
+@20537 = ~The wizard Spendelard was famous for his extremely utilitarian spells.  While he was not threatened a great deal during his life, his rare but far-reaching travels often took him into dangerous situations.  A staff of his making protected him on those occasions.  He eventually acquired a staff, which he found more to his liking and sold his worn Protector to a traveling druid of Chauntea.
+
+STATISTICS:
+
+Damage:  1D6 + 1
+THAC0:  +1
+Armor Class Bonus: 1
+Resistance Bonus +1 Save vs. Spells
+Damage type:  Crushing
+Weight:  3
+Speed Factor:  3
+Proficiency Type:  Quarter Staves
+Type:  2-handed
+Requires: 5 Strength~
+@20539 = ~This pair of extremely sturdy boots were owned by the Thentian explorer Bordel "Stomper" Farpath.  Bordel was famed throughout the Moonsea for his hiking contests.  Bordel and a group of fellow explorers would specify a location in Faerun to march to.  The contestants would then hike to the location by the quickest route possible.  Bordel won far more of the competitions than he lost, and he had a reputation for having extremely heavy footsteps.  This earned him the nickname "Stomper."  When Bordel died in a rockslide, he was buried in the wilderness.  Several years after his death, rumors began circulating that Bordel's boots were actually enchanted to make him sound loud when he approached.  This rumor spiraled out of control, eventually going so far as to say that Bordel's boots were capable of shaking down houses with their weight.  By the time thieves stole the boots ten years after Bordel's death, they had taken on the properties that so many people believed they possessed.
+
+STATISTICS:
+
+Allows the wearer to cast Earthquake 1/Day.
+Weight: 4~
+@20541 = ~Like others of its type, this warhammer is made entirely of steel, with a bone-crushing hammer mounted upon an 18" shaft.  It has also been bestowed with a small number of magical properties, however, thus making it more effective in combat.
+
+STATISTICS:
+
+Damage:  1D4 + 4
+THAC0:  +3
+Special:
+  Memorize 2 additional 1st level Priest spells
+  Memorize 1 additional 2nd level Priest spell
+  Memorize 1 additional 3rd level Priest spell
+Damage type:  Crushing
+Weight: 6
+Speed Factor: 3
+Proficiency Type: Hammers
+Type:  1-handed
+Requires: 9 Strength)~
+@20543 = ~Like others of its type, this warhammer is made entirely of steel, with a bone-crushing hammer mounted upon an 18" shaft.  It has also been bestowed with a small number of magical properties, however, thus making it more effective in combat.
+
+STATISTICS:
+
+Damage:  1D4 + 5
+THAC0:  +5
+Armor Class Bonus: 2
+Resistance Bonuses:
+  +15% Piercing Resistance
+  +15% Slashing Resistance
+  +15% Crushing Resistance
+  +15% Magic Resistance
+  +3 Save vs. Spells
+  20% chance to heal 1d4 HP on bearer upon successful hit
+Damage type:  Crushing
+Weight: 6
+Speed Factor: 3
+Proficiency Type: Hammers
+Type:  1-handed
+Requires: 9 Strength~
+@20545 = ~Besides its superb craftsmanship, tiny runes of power can be seen etched all along the surface. It's obvious a lot of time and effort went into its creation and although not apparent at first, a slight blue glow can be seen emanating from the runes.
+
+STATISTICS:
+
+Damage:  1D8 + 2
+THAC0: +2
+Special: 
+  25% chance target is Poisoned
+Damage type:  Slashing
+Weight: 7
+Speed Factor: 7
+Proficiency Type: Axe
+Type:  1-handed
+Requires: 10 Strength~
+@20547 = ~Besides its superb craftsmanship, tiny runes of power can be seen etched all along the surface. It's obvious a lot of time and effort went into its creation and although not apparent at first, a slight blue glow can be seen emanating from the runes.
+
+STATISTICS:
+
+Damage:  1D8 + 4
+THAC0: +4
+Armor Class Bonus: 1
+Special:
+  +1D6 additional crushing damage
+  10% chance target is Stunned
+Damage type:  Slashing
+Weight: 7
+Speed Factor: 7
+Proficiency Type: Axe
+Type:  1-handed
+Requires: 10 Strength~
+@20549 = ~This mighty weapon consists of a four- to five-feet haft with a very heavy blade.  The axe may be double-bitted, with blades on both sides of the haft, or it may only have a single blade.  It is an unwieldy weapon, but a skilled warrior can strike blows of tremendous strength with it. Dwarven runes have been etched into the giant blade to further enhance the axe.
+
+STATISTICS:
+
+Damage:  1D10 + 3
+THAC0: +3 bonus
+Resistance Bonuses:
+  +10% Magic Resistance
+  +10% Slashing Resistance
+  +10% Piercing Resistance
+  +10% Crushing Resistance
+  +10% Missile Resistance
+  +2 to all saving throws
+Damage type:  Slashing
+Weight:  10
+Speed Factor:  9
+Proficiency Type:  Axe
+Type:  2-handed
+Requires: 10 Strength~
+@20551 = ~Besides its superb craftsmanship, tiny runes of power can be seen etched all along the surface. It's obvious a lot of time and effort went into its creation and although not apparent at first, a slight blue glow can be seen emanating from the runes.
+
+STATISTICS:
+
+Damage:  2D4 + 3
+THAC0: +3
+Armor Class Bonus: 2
+Resistance Bonuses:
+  +10% Slashing Resistance
+  +10% Piercing Resistance
+  +10% Crushing Resistance
+  +10% Missile Resistance
+  +1 to all saving throws
+Damage type:  Slashing
+Weight: 10
+Speed Factor: 8
+Proficiency Type: Bastard Sword
+Type:  1-handed
+Requires: 11 Strength~
+@20553 = ~This legendary blade was wielded for a short time by the warrior Ilban of Elturel.  It is from his exploits in Calimshan that the weapon gained its name.  Before Ilban, however, Valiant was in the possession of a holy slayer from distant Zakhara.  According to sages, the light sword was crafted to serve an order of assassins.  Valiant's owners survived through many incredible ordeals, mostly because of the magic of the weapon.  The weapon was lost in Calimshan when a holy slayer pursued a pasha's blasphemous agents to Calimport.  The scimitar remained in the hands of Baris Cabal for about a dozen years before the band was broken up by Ilban and his companions.  Ilban's exploits took Valiant into battle against sandmen, giant scorpions, desert raiders, evil sorcerers and the demonic servants of Celan Harad.
+
+STATISTICS:
+
+Damage:  1D8 + 2
+THAC0:  +2
+Special:
+  Extra Attack Per Round
+Damage type:  Slashing
+Weight:  4
+Proficiency type:  Scimitar/Wakizashi/Ninja-To
+Speed Factor:  0
+Type:  1-handed
+Requires: 8 Strength~
+@20556 = ~This thin cloak appears frayed at first, but upon closer inspection, the stray threads are actually human hairs from which the cloak is woven.  The cloak twists in torchlight, each strand of hair raveling and unraveling about the others so subtly that it appears as if a light breeze is rippling the cloak.
+
+This cloak is woven from the hair of virgins sent to the Burial Isle to sleep with their dead barbarian lords.  It was the Seer's duty to comfort these women, to soothe their pain - in order to do so, she took a lock of hair from each and wove the strands into a cloak that would draw the spirits of fear from the virgins and steady their hearts.  The result was a cloak that hangs heavy with guilt and does little to shield the wearer from the cold of the North.  
+
+When worn, the hairs weave around the wielder's frame, the long strands lacing together like threads on a loom.  The cloak will not willingly unravel itself from a wearer without being coerced by a Remove Curse spell.
+
+STATISTICS:
+
+Armor Class Bonus: 4 vs. Crushing, Piercing and Missile Attacks
+Armor Class Bonus: 2 vs. Slashing Attacks
+Special: 
+  Wearer is Immune to all Fear-Based Effects and Emotion: Hopelessness
+  Wearer can summon Cloak of Fear 1/Day
+Weight: 1~
+@20558 = ~A number of these shields can be found in Waukeenar temples throughout Faerun.  The church crafts these shields to sell to enterprising adventurers.  In exchange for the powers of the device, the bearer is required to keep the front of the shield uncovered and in its original state.  If the owner does not comply, the shield's powers fail.  In this way, dozens of adventurers walk the realms bearing the golden face of Waukeen on their arm.
+
+STATISTICS:
+
+Armor Class Bonus: 3
+Saving Throw Bonus: 2
+Magic Resistance: 10%
+Weight: 4
+Requires: 4 Strength~
+@20560 = ~The original name of this odd blade is lost in the murky depths of the Sea of Swords.  Crafted of magically-strengthened sahuagin bone, the weapon is believed to have been used by kuo-toa in bizarre rituals.  The handle is crafted from coral wrapped in sahuagin skin.  At one time, it was owned by Lockhart, a prominent adventuring thief and smuggler on the Sword Coast.  It was he who gave the blade its current name.
+
+STATISTICS:
+
+Damage:  1D4 + 2
+THAC0:  +2
+Special:
+  2% chance of casting Finger of Death on target, if saved vs. spells - target receives 2d8+1 magic damage
+Damage type:  Piercing
+Weight:  1
+Speed Factor:  1
+Proficiency Type:  Dagger
+Type:  1-handed
+Requires: 4 Strength~
+@20562 = ~This axe was crafted for a powerful young barbarian warrior named Hegelfden.  He was born into the Tribe of the Elk and the shamans prophesized that he would be a powerful warrior.  Hegelfden grew up believing that he was special, important, and somehow better than those around him.  By the age of seventeen, Hegelfden was an accomplished warrior.  Huge, fast, and cunning, he was more than a match for his kinsmen.  On a journey into the Spine of the World, Hegelfden captured two dwarves that he came across in a cave.  He refused to let the two workers go until they created a magnificent axe for him.  The two dwarves reluctantly agreed, creating a stout battle axe with a keen blade and a thick handle.  When the dwarves asked to be released, Hegelfden denied their request.  He wanted to keep them as servants.  The dwarves then laid a curse upon Hegelfden.  They told him that the fruit of his abuse would be the end of him.  Hegelfden laughed at the dwarves' claim and continued on with his life.  The next day, in a battle with a rival tribe, Hegelfden went berserk with blood lust, slaying every creature he came across.  His kin, convinced that he had gone mad, cut him down where he stood.  The axe was left on the field when the warriors brought Hegelfden's body back to the camp.  When they arrived, the dwarves were nowhere to be found.
+
+STATISTICS:
+
+Damage:  1D8 + 5
+THACO:  +5
+Special:  
+  5% chance per hit that the wielder goes berserk for 10 rounds
+Damage Type: Slashing
+Weight: 6
+Speed Factor: 3
+Proficiency Type: Axe
+Type:  1-handed
+Requires: 10 Strength~
+@20563 = ~This is a black leather like staff, very stron, and carved with disqusting scenes and vile runes.  It allows the wielder to cause fear in whomever it touches-- no saving throw, inflict 4-24 HP of damage which can only be healed by clerical magic, potions, or the passage of one full day of rest.  It may also be used to call forth a Type I demon (Tanar'ri) and/or turn the holder into a Type III (Slayer-like) demon for one turn.  Each of these functions operates but once per day.
+
+STATISTICS:
+
+Combat Abilites:
+   4d6 HP Damage and Fear (no save)
+   Can summon a Tanar'ri once per day
+   Can change the wielder into a Slayer once per day
+
+Weight: 3
+Speed Factor: 1
+Proficiency Type: Staff
+Type: Two-handed
+Requires: 5 Strength~
+
+@20567 = ~Field glasses are normally carried by scouts or sentries in mercenary companies or national armies.  The benefits of sighting and monitoring one's enemies, without the use of magic to alert enemy mages, far outweigh the disadvantages which a lone scout has against greater numbers.
+
+This pair of field glasses was given to you by the Major of the Soubar Guard.  They will reveal a small area on a map from far away, per the spell Farsight, without the use of magic.  The Major suggested that you use them to scout the bandits at the farms north of Soubar, so it would be wise to hold on to these until your mission there is completed.
+
+STATISTICS:
+
+Ability:  Farsight, 3x per day~
+
+@20597 = ~Usually found in small jars of vials, Ghost Bane is a rare magical powder valued highly by adventurers and necromancers.  When mixed with water and consumed, it protects the imbiber for 24 hours from being aged by a ghost (negative plane protection).  It is sought after by those who specialize in fighting undead.
+
+STATISTICS:
+
+Protects drinker from Level Drain for 24 hours.
+~
+
+@20600 = ~On Hellblades:
+
+It was rumored many a year ago that during the great wars when the Elves united to battle the Dark Elves and to cause them to flee to the vast underground, Gulgaraith, a well-experienced fighter/mage Dark Elf, forged numerous swords of great power to help in those wars.  This is how the Hellblades came to surface on the mortal world of man.  Nobody knows how many blades were actually forged and enchanted and how many still exist after so many centuries.  All that is known is that the Hellblades are weapons of quite evil power.
+
+Overall Effects:  Each Hellblade functions as a modified Sword of Sharpness, they are all +3 weapons and can sever a random limb on a natural roll of 20.  These weapons are so powerful and evilly enchanted that if broken they will simply reform themselves and if ever torn away from their owner they will simple slide closer to get within the presense of their owner, distance not being a factor, though it may take some time to get to its owner if the distance is very great.  However, their most known power is the ability, on a natural 20, to instantly kill a target.  Those slain by a Hellblade are dead, and cannot be raised or resurrected.  Each Hellblade also has an ego, Intelligence, and a defensive power to help its owner.  Hellblades cannot, however, talk, use Telepathy, and the like.
+-----------------------------------
+
+Hellblade:  Lifeeater
+
+A scimitar that glows with a pure ruby radiance and can Haste its possessor thrice per day at the 12th level of casting.   It has an intelligence of 17 and an ego of 10.
+
+STATISTICS:
+
+Damage:  1D6 + 3
+Damage type:  slashing
+Weight: 5
+Speed Factor: 5
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 10 Strength~
+@20601 = ~On Hellblades:
+
+It was rumored many a year ago that during the great wars when the Elves united to battle the Dark Elves and to cause them to flee to the vast underground, Gulgaraith, a well-experienced fighter/mage Dark Elf, forged numerous swords of great power to help in those wars.  This is how the Hellblades came to surface on the mortal world of man.  Nobody knows how many blades were actually forged and enchanted and how many still exist after so many centuries.  All that is known is that the Hellblades are weapons of quite evil power.
+
+Overall Effects:  Each Hellblade functions as a modified Sword of Sharpness, they are all +3 weapons and can sever a random limb on a natural roll of 20.  These weapons are so powerful and evilly enchanted that if broken they will simply reform themselves and if ever torn away from their owner they will simple slide closer to get within the presense of their owner, distance not being a factor, though it may take some time to get to its owner if the distance is very great.  However, their most known power is the ability, on a natural 20, to instantly kill a target.  Those slain by a Hellblade are dead, and cannot be raised or resurrected.  Each Hellblade also has an ego, Intelligence, and a defensive power to help its owner.  Hellblades cannot, however, talk, use Telepathy, and the like.
+-----------------------------------
+
+Hellblade:  Souldrainer
+
+A long sword that glows with a sickly purplish/yellowish radiance.  This sword has the ability to Negative Plane Protection its possesser thrice per day at the 12 level of ability.  It has an intelligence of 17 and an ego of 12.
+
+STATISTICS:
+
+Damage:  1D8 + 3
+Damage type:  slashing
+Weight: 5
+Speed Factor: 5
+Proficiency Type: Long Sword
+Type:  1-handed
+Requires: 6 Strength~
+@20602 = ~On Hellblades:
+
+It was rumored many a year ago that during the great wars when the Elves united to battle the Dark Elves and to cause them to flee to the vast underground, Gulgaraith, a well-experienced fighter/mage Dark Elf, forged numerous swords of great power to help in those wars.  This is how the Hellblades came to surface on the mortal world of man.  Nobody knows how many blades were actually forged and enchanted and how many still exist after so many centuries.  All that is known is that the Hellblades are weapons of quite evil power.
+
+Overall Effects:  Each Hellblade functions as a modified Sword of Sharpness, they are all +3 weapons and can sever a random limb on a natural roll of 20.  These weapons are so powerful and evilly enchanted that if broken they will simply reform themselves and if ever torn away from their owner they will simple slide closer to get within the presense of their owner, distance not being a factor, though it may take some time to get to its owner if the distance is very great.  However, their most known power is the ability, on a natural 20, to instantly kill a target.  Those slain by a Hellblade are dead, and cannot be raised or resurrected.  Each Hellblade also has an ego, Intelligence, and a defensive power to help its owner.  Hellblades cannot, however, talk, use Telepathy, and the like.
+-----------------------------------
+
+Hellblade:  Souldevourer
+
+A scimitar that glows with a grayish radiance.  The sword can only do once per day Tenser's Transformation on its possessor but at the 13th level of casting.   It has an intelligence of 16 and an ego of 13.
+
+STATISTICS:
+
+Damage:  1D6 + 3
+Damage type:  slashing
+Weight: 5
+Speed Factor: 5
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 10 Strength~
+@20603 = ~On Hellblades:
+
+It was rumored many a year ago that during the great wars when the Elves united to battle the Dark Elves and to cause them to flee to the vast underground, Gulgaraith, a well-experienced fighter/mage Dark Elf, forged numerous swords of great power to help in those wars.  This is how the Hellblades came to surface on the mortal world of man.  Nobody knows how many blades were actually forged and enchanted and how many still exist after so many centuries.  All that is known is that the Hellblades are weapons of quite evil power.
+
+Overall Effects:  Each Hellblade functions as a modified Sword of Sharpness, they are all +3 weapons and can sever a random limb on a natural roll of 20.  These weapons are so powerful and evilly enchanted that if broken they will simply reform themselves and if ever torn away from their owner they will simple slide closer to get within the presense of their owner, distance not being a factor, though it may take some time to get to its owner if the distance is very great.  However, their most known power is the ability, on a natural 20, to instantly kill a target.  Those slain by a Hellblade are dead, and cannot be raised or resurrected.  Each Hellblade also has an ego, Intelligence, and a defensive power to help its owner.  Hellblades cannot, however, talk, use Telepathy, and the like.
+-----------------------------------
+
+Hellblade:  Soulsucker
+
+A long sword that glows with a sickly greenish/yellowish radiance.  This sword grants its possessor 37% Magic Resistance when held and has the ability to Minor Globe of Invulnerability its owner thrice per day at the 12 level of ability.  It has an intelligence of 17 and an ego of 12.
+
+STATISTICS:
+
+Damage:  1D8 + 3
+Damage type:  slashing
+Weight: 5
+Speed Factor: 5
+Proficiency Type: Long Sword
+Type:  1-handed
+Requires: 6 Strength~
+@20604 = ~On Hellblades:
+
+It was rumored many a year ago that during the great wars when the Elves united to battle the Dark Elves and to cause them to flee to the vast underground, Gulgaraith, a well-experienced fighter/mage Dark Elf, forged numerous swords of great power to help in those wars.  This is how the Hellblades came to surface on the mortal world of man.  Nobody knows how many blades were actually forged and enchanted and how many still exist after so many centuries.  All that is known is that the Hellblades are weapons of quite evil power.
+
+Overall Effects:  Each Hellblade functions as a modified Sword of Sharpness, they are all +3 weapons and can sever a random limb on a natural roll of 20.  These weapons are so powerful and evilly enchanted that if broken they will simply reform themselves and if ever torn away from their owner they will simple slide closer to get within the presense of their owner, distance not being a factor, though it may take some time to get to its owner if the distance is very great.  However, their most known power is the ability, on a natural 20, to instantly kill a target.  Those slain by a Hellblade are dead, and cannot be raised or resurrected.  Each Hellblade also has an ego, Intelligence, and a defensive power to help its owner.  Hellblades cannot, however, talk, use Telepathy, and the like.
+-----------------------------------
+
+Hellblade:  Soulskinner
+
+A short sword that glows with a yellowish radiance, it has the ability to stoneskin its possessor thrice per day at the 12 level of ability.  It has an intelligence of 17 and an ego of 12.
+
+STATISTICS:
+
+Damage:  1D6 + 3
+Damage type:  slashing
+Weight: 5
+Speed Factor: 5
+Proficiency Type: Short Sword
+Type:  1-handed
+Requires: 5 Strength~
+@20605 = ~On Hellblades:
+
+It was rumored many a year ago that during the great wars when the Elves united to battle the Dark Elves and to cause them to flee to the vast underground, Gulgaraith, a well-experienced fighter/mage Dark Elf, forged numerous swords of great power to help in those wars.  This is how the Hellblades came to surface on the mortal world of man.  Nobody knows how many blades were actually forged and enchanted and how many still exist after so many centuries.  All that is known is that the Hellblades are weapons of quite evil power.
+
+Overall Effects:  Each Hellblade functions as a modified Sword of Sharpness, they are all +3 weapons and can sever a random limb on a natural roll of 20.  These weapons are so powerful and evilly enchanted that if broken they will simply reform themselves and if ever torn away from their owner they will simple slide closer to get within the presense of their owner, distance not being a factor, though it may take some time to get to its owner if the distance is very great.  However, their most known power is the ability, on a natural 20, to instantly kill a target.  Those slain by a Hellblade are dead, and cannot be raised or resurrected.  Each Hellblade also has an ego, Intelligence, and a defensive power to help its owner.  Hellblades cannot, however, talk, use Telepathy, and the like.
+-----------------------------------
+
+Hellblade:  Soulzapper
+
+A scimitar of pure black steel, it glows with a bright red radiance of the fires of hell itself.  It grants its user Fire Resistance (100%) and has the power to Mirror Image its possessor thrice per day at the 12 level of ability.  It has an intelligence of 17 and an ego of 12.
+
+STATISTICS:
+
+Damage:  1D8 + 3
+Damage type:  slashing
+Weight: 5
+Speed Factor: 5
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 10 Strength~
+@20616 = ~Only those most worthy and devoted servants of the Spider Queen are granted these powerful holy symbols.
+
+STATISTICS:
+
+ Grants two additional 6th and one additional 7th level clerical spell
+ 5% Magic Resistance while worn
+ +1 to Strength while worn
+~
+@20624 = ~Lyrar's Mace is a powerful weapon you found while sieging his hold north of Soubar.  This weapon will protect the wielder from level drain, as well as increasing the user's strength to 22.
+
+STATISTICS:
+
+Damage:  1D6 + 6
+THACO:  +5 bonus
+Equipped Abilities:
+  Strength set to 22
+  Negative Plane Protection
+Damage type:  crushing
+Weight: 4
+Speed Factor: 2
+Proficiency Type: Mace
+Type:  1-handed
+Requires: 10 Strength~
+@20626 = ~While seiging the ancient castle of Lyrar's Hold, you found this suit of armor in fairly good condition in the tomb of Lyrar.  It is a heavy and old suit of plate mail armor.  This suit was made with antiquated methods of construction, and when worn will slow the wearer slightly when performing quick movements such as attacking, but not in normal actions like walking.  The hefty and strong plates make up for this by protecting the wearer, awarding a 50% bonus to damage versus Crushing, Slashing, Piercing, and Missile types of attacks.
+
+STATISTICS:
+
+Armor Class: -1
+Specific:
+  AC bonus of 4 vs Slashing
+  Decreases Attacks by 33%
+  Awards 50% resistance to physical damage
+  30% bonus to magic damage resistance
+Weight: 35
+Requires: 12 Strength~
+@20628 = ~You found this shield and other accoutrements of Lyrar in his castle north of Soubar.  Upon identification, this sheild proves to protect its wearer from evil, as the spell, while worn on the arm.  It also provides a greater armor class bonus than normal large shields.
+
+STATISTICS:
+
+Armor Class Bonus: 4
+Special: 
+  +2 vs. Missile Weapons
+  Grants protection from Demons
+Weight: 15
+Requires: 15 Strength~
+@20638 = ~The warrior Vanshir travelled for a great time with an mercenary party, some of whom he did not trust as to their greed and selfish acts, yet he fought valiantly to keep them safe.  After a great battle, with the company weakened, a thief decided to make his life easy and lay claim to other's belongings.  He started witht he first and most powerful warrior, Vanshir.  The foul man stuck a poison dagger in his back and went to work on the rest of the party.  Vanshir survived and made his way to a nearby city to rest and heal, and three years later, without the aid of magic to get him home, he made his way to his estates.  It was here that he became obsessed with revenge and sold all that he owned, called in all of his favors, and alienated most of his friends.  He used this money to pay off a wizard to craft an enchanted blade that he would use to hunt down and kill thieves.
+
+The Warblade is a +3 longsword that grants immunity to fear, +3 to AC, and +1 to saving throws.  It glows a sickly green and throbs.
+
+STATISTICS:
+
+Damage:  1D8 + 3
+THAC0 Bonus: +3
+Specific:
+  Grants weilder immunity to fear/panic/confusion
+  Awards +3 Armor Class and +1 to all Saving Throws
+Damage type:  slashing
+Weight: 4
+Speed Factor: 5
+Proficiency Type: Long Sword
+Type:  1-handed
+Requires: 6 Strength~
+@20640 = ~This silver medallion adds +2 to all the saving throws of arcane spells cast at the wearer.
+
+STATISTICS:
+
+Save vs. Spells Bonus: +2
+Weight:  3~
+@20642 = ~This magical item is a long sword made of what appears to be dull, unpolished (and unpolishable) reddish tinted silver.  The blade is regular length for such a weapon, though slightly slimmer than what is normal for a long sword.  The hilt is a seperate piece and of regular steel.  The cross piece looks like two crescent moons each overlapping the other, similar to () overcrossing each other at the ends and the blade coming through the middle gap.  The hilt is also wrapped in a cross-hatched pattern of blue and green wire threads.
+
+The blade was constructed some one-hundred-fifty years ago by a human ranger turned mage from the Archwood area, named Frasfer the Brown.  He and a few companions were keeping guard in the Archwood, when an influx of werewolves caused him to attempt the creation of a magical means to making their elimination easier.  One of his companions was a druid, and the mixing of druidic magic and wizard magic created a blade reknowned for a later owner.
+
+That later owner was Nazger, a soldier of Sembia who found the sword fifty years ago.  He used it to find wererats that were murdering people in Highmoon, a city just northwest of the Archwood.  So Nazger exposed the wererats and killed most of them off.  However, while fighting in the sewers of the city he disappeared.  Nothing was ever again found of Nazger, except his sword.  It was later recognized in the market, but reported too late.  It was sold to a caravan heading to Ordulin.
+
+As Nazgar had no immediate family the city guard did little investigation.  All that was turned up was that a street beggar found the blade in the sewers and thought to sell it for food in the market.  The begger claimed to know nothing else.
+
+The powers of the blade may have become revealed to the caravan and thus kept, or may have remained unknown and sold as merely a silver sword.
+
+The Sword of Nazger is an unintelligent magic blade that is normally +1 to hit/damage, but gives a +3 bonus to hit/damage versus werecreatures of all types.  It also gives the wielder a tingling sensation similar to when one's hand falls asleep when werecreatures are within 60' of the user, though it won't indicate who it is that is a werecreature, nor get more powerful if the werebeast gets closer.   The blade will also appear to have a set of glyphs along the blade if viewed under a full moon.
+
+STATISTICS:
+
+Damage:  1D6 + 1, +3 vs. lycanthropes
+THAC0:  +1 bonus, +3 vs. lycanthropes
+Damage type:  slashing
+Weight: 6
+Speed Factor: 1
+Proficiency Type: Long Sword
+Type:  1-handed
+Requires: 6 Strength~
+@20645 = ~This small hand mirror can call forth a mist (as Mist Horror) three times per day and can be used to Mirror Image the user once per day.
+~
+@20649 = ~This magical tome affects a single reader.  It takes one full week of uninterrupted study to read and comprehend.  The reader gains the permanent, inherent spell-like ability of freedom of movement.  This ability is lost forever if the character should ever cause the death of a rose plant, even inadvertently.
+
+STATISTICS:
+
+Permanent Free Action~
+@20653 = ~It is said that six of these swords exist.  They are all +5 Unholy Longswords, made of black iron with bone hilts and pommels.  Each grants its wielder Symbol of Death once per day.  The sword absorbs spells and spells from clerics and mages alike as per a rod of absorption, with no maximum amount of absorption.  In combat, these evil swords bestow a negative level with every successive strike, which lasts only a day.
+
+STATISTICS:
+
+Damage:  1D10 + 5
+THAC0: +5 bonus
+Special Abilities: 
+  Can cast Symbol of Death once per day
+  One level lost on successful hit
+  Bearer is immune to any spell
+Damage type:  slashing
+Weight:  5
+Speed Factor: 5
+Proficiency Type: Two Handed sword
+Type:  2-handed
+Requires: 14 Strength, 19th level~
+@20655 = ~The amulet of Spirit Storing is a gold or silver amulet set with a gem or crystal in the center, suspended from a chain so it can be worn around the neck.  If the wearer falls to -1 HP while wearing the amulet, the character's spirit is automatically transferred into the crystal as if he had cast a Magic Jar spell, including possing nearby creatures.
+
+If the wearer's body is slain, the spirit is stored in the amulet until the body can be restored (through a Heal or True Resurrection spell).
+
+STATISTICS:
+
+Abilities: Protects the wearer from permanent death, but not from death itself.~
+@20657 = ~The Mantle of Rage is a cloak made of fur, usually from the hide of a strong, fierce animal like a bear or lion.  When worn it gives the wearer the ability to rage as a 1st level barbarian and gain all the normal benefits and restrictions.  Note that the Mantle does not impart any additional proficiency with weapons or other combat abilities, just the benefits of barbarian rage.  If the wearer of the Mantle is a barbarian, the character can use it to rage additional times each day.
+
+STATISTICS:
+
+Grants Innate ability Barbarian Rage~
+@20660 = ~The Scepter of Savras is a four foot long staff of carved, smoky grey duskwood inlaid with nine star sapphires along the shaft.  A one inch diameter diamond engraved with the symbol of Savras the All-Seeing caps the base of the scepter, and a three-inch diameter diamond (reputed to have 1000 facets) that is engraved with the symbol of Azuth tops the staff.
+
+HISTORY:
+     After the fall of Netheril and before the founding of Myth Drannor, the gods of the Realms battled in the Dawn Cataclysm, foreshadowing the destruction that would occur as a result of the Fall of the Gods in the Year of Shadows.  Gods were slain in battles that shook the Realms, new dieties were created, and Tyche was sundered into Tymora and Beshaba.  During this time of turmoil, two gods elevated by Mystra at different times to aid her by overseeing the porfolio of wizards battled for supremacy.  Azuth defeated Savras the All-Seeing and imprisoned his essence within a powerful artifact he had constructed prior to the conflict.
+     The Lord of Spells, as Azuth was thereafter known, intended to keep the scepter in which Savras was imprisoned as his staff of office.  Although reduced to demipower status as a result of the conflict, Savras was still powerful enough to Teleport his prison into the Realms where it passed beyond Azuth's reach.  (As the All-Seeing One and Lord of Divination Magics, Savras could just barely block even Azuth's divination abilities.)  The Scepter of Savras, as the artifact came to be known, passed through the hands of countless archmages over the centuries.  Savras was always seeking to break free of his prison, and he subliminally (as the Spirit of the Scepter) influenced many a wizard to assist him in reaching his goal.
+     Before Savras could break free, however, the Scepter came into the hands of Syluné Silverhand, one of the Seven Sisters.  Savras permanently granted her the abilities of a weredragon, enabling her to take the shape of a mature adult silver dragon at will.  The All-Seeing One hoped to convince Syluné to free him from his ancient prison, believing that she had the power to do so as one of Mystra's Chosen.
+     Syluné turned a deaf ear to Savras's entreaties, as she did not trust the fallen god, and instead used her formidable powers and the Scepter during numerous adventures.  Eventually she willingly surrendered the Scepter to Azuth upon his request.  (Word of the artifact's location finally reached the Lord of Mages by roundabout ways in time for him to recover it.)  Syluné had used the Scepter to uncover some secrets of the doings of the powers (gods) of the Realms that Mystra deemed it better for mortals not to know.
+     Once Azuth finally reaquired the Scepter of Savras, he found himself troubled by the long imprisonment the All-Seeing One had endured at his hand.  Following the Time of Troubles, the Patron of Wizards agreed to Savras's request to be released in exchange for a pledge of fealty by Savras to the High One.
+     Today Savras is a demipower who serves Azuth, albeit uneasily, and whose portfolio encompasses all divinations and divination magic.  The two deities seem to be cautiously working toward friendship and a formal division of portfolios.  Some sages speculate that the All-Seeing One is attemptingb to widen his portfolio to include the idiosyncrasies of fate since he can see the future as well as the past.  These inclinations will likely come to naught, since Tymora and Beshaba would definately find such a move not to their liking.  The Scepter of Savras abruptly vanished during the god's release from his imprisonment.  Like the Cyrinishad, the Scepter is apparently invisible to all godly purview.  Rumors of its appearence in scattered locations throughout Faerun are increasing, however, suggesting the Scepter is still in the Realms- and still contains much of the power used to create it.
+
+STATISTICS:
+
+Once per day, the wielder can duplicate the effect of each eye of a beholder.  
+These abilities include:
+ Charm Person
+ Charm Monster
+ Sleep
+ Flesh to Stone
+ Disintegrate
+ Fear
+ Slow
+ Cause Serious Wounds 
+ Death Ray
+ Anti-Magic Ray~
+@20662 = ~The Ghost Sword is a long sword whose blade is invisible, though gilimmers of light may sometimes bee seen flashing along the unseen steel when it strikes something- armor for example- that bears an enchantment.  All that is normally visible of Zeladazar is a heavy steal hilt, from quillons to pommel. The pommel nut is a burnished steel sphere as large as a small orange.  The grip is wrapped in black leather, and the visible metal is blued, smooth-worn, and massive.
+
+HISTORY:
+     In the waning, decadent days of Netheril, a peculiar (for his people) sorcerer named Twyluth Ornadyn hit upon the idea that the salvation of the Netherese lay in turning their magical skills and lives back to living in harmorny with nature and other living things.  Ornadyn foresaw the need for battle magic to safeguard the survival of the Netherese as they learned the ways of all life, and he envisaged an armory of enchanted blades whose wielders could communicate with each other over long distances through meditation and the blades' transmission of mental images and audible speech.  He set about making a pair of these blades to test relevant existing magic and to develop new spells as necessary- but was slain by a treacherous apprentics, who snatched up one of the blades in the midst of it being imbued with an enchantment and beheaded Ornadyn.  The headless archmage's body lived on through previously cast defensive magics and took up the other sword to avenge himself.  In the ensuing battle, Ornadyn was hacked apart, but one of the blades exploded, destroying the apprentice utterly.
+     The surviving sword was found and passed into the possession of the Netherese archwizard Alados Sorngol, who dubbed it the Sword of Dreams because of the visions handling it brought.  These images were sourced in the blade's enchantments and the revenant spirit of Ornadyn, who sent phantoms to frighten Alados ant to wrest control of the blade from him.  Their success was such that the terrified Alados bound new spells into the blade to make it a destroyer of undead- but died anyway when Ornadyn sent a last "blood spell" through the blade, searing the vitality of Alados with Ornadyn's own unlife, so that the essences of the two mages destroyed each other.
+
+POWERS:
+     Only magic can make the invisible blade of Zeladazar visible.  Whenever it is drawn, its wielder is immune to paralysis, energy drain, as well as enjoying the benefits of a Ring of Free Action.  Its wielder is able to move and attack freely and normally, even when attacked by a Web, Hold, or Slow spell (which Zeladazar gives its wielder complete immunity to) or when underwater (though the sword does not empower an air-breathing being to breathe under water).
+     The Ghost Sword does 1d12 points of damage to all living creatures (regardless of size), and 4d12 points per successful strike to all undead creatures.  The touch of the blade destroys ghosts upon contact.
+
+STATISTICS:
+
+Damage:  1D12, 4D12 vs Undead
+Equipped Abilities:   
+  Immune to Paralysis
+  Immune to Level Drain
+  Free Action
+Damage type:  slashing
+Weight: 2
+Speed Factor: 0
+Proficiency Type: Long Sword
+Type:  1-handed
+Requires: 6 Strength~
+@20664 = ~The ranger Dzance found this shield in a chest in the depths of Gauntlgrym, The Lost City; its origin is unknown but thought to be of dwarven manufacture.  Dzance's Journals tell us of the properties of this item.  When he retired from adventuring to live in the Lady's Court at Silverymoon, Dzance gave the Guardian to Belpir, a young knight of that city.  The new owner forthwith went adventuring and has not been seen since.  The fates of Belpir and the Guardian are yet a mystery.
+
+FUNCTION:
+
+The Guardian is a "+0 Shield":  magical in nature but conferring no armor class bonus to its bearer besides the one-place benifit provided by any shield.  However, it has a special defensive power:  when worn, it radiates an insubstantial magical energy field that envelopes its bearer, and only the bearer, like an aura.  Any Magic Missile directed at the Guardian's bearer from any direction- not just ahead- strikes this field and is reflected unerringly back at the sender with no damage to the shieldbearer.  The field also absorbs all electrical discharges of natural or magical origin, such as shocking grasp, lightning bolt, or chain lightning, without harm to the bearer.  These attacks dissipate gradually and harmlessly if the shield is taken off, but if the shieldbearer can bring the shield into physical contact with a foe, the entire stored electrical energy of the field can be transmitted to the foe (save vs. paralyzation for half damage).  When this discharge is activated by the bearer's will, there is a 30% chance that the bearer and shield (but not any companion creatures or foes, will be Plane Shifted to a random known plane of existance.
+~
+@20666 = ~This armor was devised by the wizardess for whom it is named.  She devised several sets for champions of her far northern kingdom.  The secret of making it died with her, though mages of the North have been trying for centuries.   Of the dozen or so sets created, two have been known to be destroyed, and three others are being used in the North.  The other seven have disappeared, and it is not known whether they are still in existence.
+
+FUNCTION:
+
+Storm armor is Full Plate Armor, +2, of a peculiar non-metallic alloy.  It does not conduct electricity, and has the power to transfer heat to and from the surrounding air, so the wearer remains comfortable in a freezing gale or under the hot desert sun.  The wearer is thus largely unaffected by Fireball and Ice Storm or Cone Of Cold spells, and immune to electrical damage of any type.  The wearer can stand securely, or move in a normal speed, in the face of even the most powerful winds.
+
+STATISTICS:
+
+Armor Class:  -1
+Equipped Abilities:
+  Free Action
+  100% Electrical, Fire, and Cold Resistance
+Weight: 70
+Requires: 17 Strength, 17 Intelligence~
+@20670 = ~Brooch of Guardianship
+
+All the fashion rage of early and modern Myth Drannor, these elaborate brooches are worn as amulets and neck jewelry, cameo breastpins, and cloak-fastening pins.  While each is distinct and unique in ists decoration, detail, and materials, all share a basic form: an oval-shaped ivory cameo, a large metal pin attached to the cameo's back, a recess within the pin's setting for a necklace chain, mementos, or secret items, and a basic enchantment.
+
+When the giiraegisir is grasped and pulled down along its setting (sliding with a soft click in the setting but not pulling it out of its fastening), the base magic is activated: An invisible field of energy surrounds the wearer, providing Armor Class 0 for three rounds.  The giiraegis' magic is usable once per day, after which the pin is dormant and powerless for 24 hours.
+
+Many giiraegisir are designed to bear special symbols, such as House seals or wizards' sigils, or include elaborate embellishments to make them major pieces of jewelry designed to display the opulence of the elf rather than boast of power.  They can appear as innate parts of an intricate stomacher on a noblewoman's gown, a belt buckle, over large earrings, or even an ornament on an armored bracer.
+
+These giiraegisir are also adapted magically, and additional minor enchantments can be placed in them.  However, all the powers of a giiraegis are activated by whatever trigger is set within the cameo, whether it is shifted in its setting, rubbed sunwise twic, or simply tapped three times.
+~
+@20672 = ~This belt appears to be like any other magical girdle when first encountered.  When it is put on, the wearer gains several special abilities.  Wearing a Girdle of Lions enables one to speak with felines in such a way as to summon the nearest feline (normally a lion) which can give advice or obey reasonable commands.
+
+The wearer also gains the ability to land after a fall in such a way as to minimize physical damage.
+
+The Girdle enables the wearer to Move Silently as per the thief ability, with a minimum 50% chance of success.  If the wearer is a thief, assassin, monk, or other character or creature who already has the ability to move silently, then the chance of success is adjusted upward by +50%, to a maximum of 99%.
+
+Finally, the Girdle confers a sort of night vision similar to that possessed by cats.  If any light source is within view of the wearer, he can see in the dark as clearly as if he were in broad daylight.
+~
+@20674 = ~This wand emits a Wizard Eye upon command; each use drains 1 charge.  The range and duration of the Eye is as if cast by a 6th level magic user, regardless of the level of the wand wielder.  Any user who has never employed a wizard eye spell before typically requires 1-2 rounds to master movement about, focussing, and comprehension of what is seen by the Eye.  The wand can also Cure Blindness by touch and command.  If touched to the eyes of any one creature and properly commanded, the Wand can confer the ability to see invisible creatures and objects within the affected creatures normal range of vision for the following round only.  Note that this ability is not X-Ray vision; items and beings concealed behind solid barriers cannot be discerned.  This wand functions only once in a round regardless of how it is weilded, and not once for each of its functions.  No known method of recharging the wand has been perfected.
+~
+@20676 = ~Much like a Ring of Wizardry, this powerful staff normally carried by wizards of great power allows the wielder to memorize more spells than are normal for a wizard of their level.  This staff has been enchanted by a mage of some power for the number of spell slots it awards is indeed great.
+
+STATISTICS:
+
+Additional Spells/Levels:
+  1st Level: 4
+  2nd Level: 4
+  3rd Level: 4
+  4th Level: 4
+  5th Level: 4
+  6th Level: 1
+
+Damage:  1D6 + 2
+THAC0:  +2
+Damage type:  crushing
+Weight: 3
+Speed Factor: 2
+Proficiency Type: Staff
+Type:  2-handed
+Requires: 5 Strength
+~
+@20680 = ~A school staff incorporates a suite of spells from a given school of magic.  Such items are particularly useful to specialist wizards and casters.
+
+STATISTICS:
+
+Casts Abjuration Spells
+
+Damage:  1D6 + 2
+Damage type:  crushing
+Weight: 4
+Speed Factor: 2
+Proficiency Type: Staff
+Type: Two-handed
+Requires: 5 Strength~
+@20681 = ~A school staff incorporates a suite of spells from a given school of magic.  Such items are particularly useful to specialist wizards and casters.
+
+STATISTICS:
+
+Casts Conjuration Spells
+
+Damage:  1D6 + 2
+Damage type:  crushing
+Weight: 4
+Speed Factor: 2
+Proficiency Type: Staff
+Type: Two-handed
+Requires: 5 Strength~
+@20682 = ~A school staff incorporates a suite of spells from a given school of magic.  Such items are particularly useful to specialist wizards and casters.
+
+STATISTICS:
+
+Casts Divination Spells
+
+Damage:  1D6 + 2
+Damage type:  crushing
+Weight: 4
+Speed Factor: 2
+Proficiency Type: Staff
+Type: Two-handed
+Requires: 5 Strength~
+@20683 = ~A school staff incorporates a suite of spells from a given school of magic.  Such items are particularly useful to specialist wizards and casters.
+
+STATISTICS:
+
+Casts Enchantment Spells
+
+Damage:  1D6 + 2
+Damage type:  crushing
+Weight: 4
+Speed Factor: 2
+Proficiency Type: Staff
+Type: Two-handed
+Requires: 5 Strength~
+@20684 = ~A school staff incorporates a suite of spells from a given school of magic.  Such items are particularly useful to specialist wizards and casters.
+
+STATISTICS:
+
+Casts Evocation Spells
+
+Damage:  1D6 + 2
+Damage type:  crushing
+Weight: 4
+Speed Factor: 2
+Proficiency Type: Staff
+Type: Two-handed
+Requires: 5 Strength~
+@20685 = ~A school staff incorporates a suite of spells from a given school of magic.  Such items are particularly useful to specialist wizards and casters.
+
+STATISTICS:
+
+Casts Illusion Spells
+
+Damage:  1D6 + 2
+Damage type:  crushing
+Weight: 4
+Speed Factor: 2
+Proficiency Type: Staff
+Type: Two-handed
+Requires: 5 Strength~
+@20686 = ~A school staff incorporates a suite of spells from a given school of magic.  Such items are particularly useful to specialist wizards and casters.
+
+STATISTICS:
+
+Casts Necromancy Spells
+
+Damage:  1D6 + 2
+Damage type:  crushing
+Weight: 4
+Speed Factor: 2
+Proficiency Type: Staff
+Type: Two-handed
+Requires: 5 Strength~
+@20687 = ~A school staff incorporates a suite of spells from a given school of magic.  Such items are particularly useful to specialist wizards and casters.
+
+STATISTICS:
+
+Casts Alteration Spells
+
+Damage:  1D6 + 2
+Damage type:  crushing
+Weight: 4
+Speed Factor: 2
+Proficiency Type: Staff
+Type: Two-handed
+Requires: 5 Strength~
+@20697 = ~After defeating the bandit leader, Rolf Sureblade in his fortification north of Soubar, you recovered this shield of awesome defense.  This shield is truly an item that you should treasure, as it is bound to save your life more than once as you adventure throughout Faerûn.  This shield decreases AC by 6 and adds 3 to all saving throws.  In addition, Sureblade's shield allows the you to move so quickly that your movement rate is increased by 2 and normal missiles have no chance of striking him. 
+
+STATISTICS:
+
+Armor Class Bonus: 6
+Special:
+  Missile Weapons ineffective
+  Movement Rate Increased
+Weight: 10
+Requires: 16 Strength~
+@20699 = ~After defeating the bandit leader, Rolf Sureblade in his fortification north of Soubar, you recovered this sword of great power that he wielded against you in that horrific battle for your life.  This sword is truly a weapon worthy of your skills, as it allows you to cut through the defenses of most other creatures.  Upon a successful hit against a target of 18th level of less, the creature is instantly killed when struck, an ability which can be quite useful when forced to fight powerful enemies.
+
+STATISTICS:
+
+Slays enemies lower than 18th level upon successful hit.  The target receives a save vs. death at -2 penalty.
+
+Damage:  2D6 + 3
+THACO:  +3 bonus
+Damage type:  slashing
+Weight:  8
+Speed Factor: 4
+Proficiency Type: Bastard Sword
+Type:  1-handed
+Requires: 15 Strength~
+@20704 = ~This is one of many pipes that perform the same function:  that of leading rats to wherever the pipe player plays this flute.  Upon blowing the flute normally, the strangly hypnotic music will draw regular rats from the surrounding areas as they become pleasantly soothed by the music.  This can be a blessing for some, a curse to others as the rats will of course mob an area where the pipe is played.
+
+STATISTICS:
+
+When played, this instrument summons up to 25 rats at a time.
+~
+@20714 = ~This staff, usable by all classes, can animate skeletal remains.  Each such operation, triggered by the word "Arise!", drains one charge.  Animated skeletons are under control of the wielder of the staff (cf. animate dead spell).  If the staff changes hands, control of the skeletons goes with it.  Skeletons need not be complete, but the skulls must be present, and skeletons lacking the parts of course have their actions and/or their mobility impaired.  Such animation is permanent, lasting until the magic is dispelled or the skeletons destroyed.
+
+Twenty five percent of these staffs staves have a secondary function:  mending broken bones of both living and dead creatures.  This takes one charge, and in a round will reattach a severed limb or digit, or cure lost HP due to wounds.  Limbs or bones not belonging to the recipient may be used; thus a heap of bones can serve as "spare parts" for a guard of skeletons.  Typically, these staves are of ebony topped with an ivory skull, or constructed of a smooth polished skull and a thighbone of giant size.
+
+STATISTICS:
+
+Damage: 1D6 + 2
+THAC0:  +2
+Special:
+  Can summon a skeletons per the Animate Dead spell, draining one charge
+  Can cure serious wounds per the clerical spell
+Weight: 3
+Speed Factor: 1
+Proficiency Type: Staff
+Type: Two-handed
+Requires: 5 Strength~
+@20718 = ~You pulled this heart from the carcass of a tremor worm.  Berserkers have commonly eaten the hearts of their enemies, hoping to gain strength and wisdom from their foes.  This heart will do much the same, increasing strength and constitution by 1 statistic point for 2 hours, while at the same time making the eater slightly sick from the taste (10 points damage).
+~
+@20720 = ~This exquisitely crafted suit of plate mail has been blessed by Torm and his clergy.  The breastplate is adorned with a relief of Torm's holy symbol and the engraving below the symbol, just above the bottom edge of the breastplate reads "IRNI", a word you are unfamiliar with.
+
+Although the suit is non-magical, it is a holy suit and care must be taken with it.  While worn, it protects the wearer from certain negative energy effects like level-drain as well as conferring similar bonuses as per the Boon of Torm.
+
+STATISTICS:
+
+Armor Class: 3
+Weight: 18
+Requires: 12 Strength~
+@20722 = ~This weapon has been blessed by the almighty Torm.  It confers effects upon the weilder only when unsheathed.  If a successful hit is made upon a demonic creature, that creature is petrified (unless save vs. spells is made).
+
+When unsheathed, the sword will give its weilder a bonus 6th and 7th level priest spell.  It grants a 5% bonus to magic resistance, and awards a +1 to the users Strength ability.
+
+STATISTICS:
+
+Damage:  1D10 + 3
+THAC0: +3 bonus
+Combat Abilities:
+  All demonic creatures, when hit, must save vs. spells at -2 or be petrified
+Special Abilities:
+  5% magic resistance when equipped
+  Bonus 6th, 7th level priest spell when equipped
+  +1 Strength when equipped.
+Damage type:  slashing
+Weight:  10
+Speed Factor: 7
+Proficiency Type: Two handed sword
+Type:  2-handed
+Requires: 14 Strength~

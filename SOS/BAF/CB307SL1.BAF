@@ -1,0 +1,36 @@
+IF
+  RandomNum(3,1)
+  OnCreation()
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbLeaderCallsForRein","LOCALS",150)
+    CreateCreature("CB4300OR",[-1.-1],0)  // ~Bandit Orc~
+    CreateCreature("CB4300OR",[-1.-1],0)  // ~Bandit Orc~
+    CreateCreature("CB4300AR",[-1.-1],0)  // ~Bandit Archer~
+    CreateCreature("CB4300HB",[-1.-1],0)  // ~Bandit~
+END
+
+IF
+  RandomNum(3,2)
+  OnCreation()
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbLeaderCallsForRein","LOCALS",150)
+    CreateCreature("CB4300AR",[-1.-1],0)  // ~Bandit Archer~
+    CreateCreature("CB4300AR",[-1.-1],0)  // ~Bandit Archer~
+    CreateCreature("CB4300HB",[-1.-1],0)  // ~Bandit~
+    CreateCreature("CB4300HB",[-1.-1],0)  // ~Bandit~
+END
+
+IF
+  RandomNum(3,3)
+  OnCreation()
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbLeaderCallsForRein","LOCALS",150)
+    CreateCreature("CB4300HB",[-1.-1],0)  // ~Bandit~
+    CreateCreature("CB4300AR",[-1.-1],0)  // ~Bandit Archer~
+    CreateCreature("CB4300OR",[-1.-1],0)  // ~Bandit Orc~
+    CreateCreature("CB4300OR",[-1.-1],0)  // ~Bandit Orc~
+END
+

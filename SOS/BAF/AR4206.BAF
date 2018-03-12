@@ -1,0 +1,23 @@
+IF
+  OnCreation()
+  !Global("CbCreatedArea4206","AR4206",1)
+THEN
+  RESPONSE #100
+    CreateCreature("CBSWPIPE",[705.377],0)  // ~Sewer Pipe~
+    CreateCreature("CBLDBUCK",[611.989],12)  // ~Lord Bucko~
+    CreateCreature("CBLYBUCK",[536.932],12)  // ~Leeta Bucko~
+    CreateCreature("CBSNBUCK",[527.961],12)  // ~Abor Bucko~
+    CreateCreature("CBSTBUCK",[583.971],12)  // ~Korhun Bucko~
+    SetGlobal("CbCreatedArea4206","AR4206",1)
+END
+
+IF
+  Dead("CBBUCKMO")  // ~Master Werewolf~
+THEN
+  RESPONSE #100
+    ActionOverride("CBLDBUCK",EscapeArea())
+    ActionOverride("CBLYBUCK",EscapeArea())
+    ActionOverride("CBSNBUCK",EscapeArea())
+    ActionOverride("CBSTBUCK",EscapeArea())
+END
+

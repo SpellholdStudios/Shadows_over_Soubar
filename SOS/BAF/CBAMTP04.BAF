@@ -1,0 +1,12 @@
+IF
+  OR(2)
+    Entered([ANYONE])
+    Opened([ANYONE])
+THEN
+  RESPONSE #100
+    DisplayString(LastTrigger,14381)  // ~Trap Sprung~ [AMB_D05C]
+    CreateCreature("JUGMIM01",[692.382],6)  // ~Killer Mimic~
+    TriggerActivation(Myself,FALSE)
+    CreateCreature("CBMMOUTH",[681.400],0)  // ~Magic Mouth~
+END
+

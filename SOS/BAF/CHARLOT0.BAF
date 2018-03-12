@@ -1,0 +1,195 @@
+IF
+  Global("Charlotte","GLOBAL",1)
+  InParty(Myself)
+  Global("CbCharlotteChangedAssociations","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbCharlotteChangedAssociations","LOCALS",1)
+    ChangeAIScript("CHARLOTT",OVERRIDE)
+    ChangeAIScript("",CLASS)
+    ChangeAIScript("CHARLOTT",RACE)
+    ChangeAIScript("DEFAULT",GENERAL)
+    ChangeAIScript("DPLAYER2",DEFAULT)
+END
+
+IF
+  Global("CbCharlotteAttacksNarulf","LOCALS",1)
+  AreaCheck("AR4220")
+  !Range("CBNARULF",5)  // ~Narulf~
+THEN
+  RESPONSE #100
+    MoveToObject("CbWayPointOne")
+    SetGlobal("CbCharlotteAttacksNarulf","AR4220",1)
+    SetGlobal("CbCharlotteAttacksNarulf","LOCALS",2)
+END
+
+IF
+  Global("CbCharlotteAttacksNarulf","LOCALS",2)
+  AreaCheck("AR4220")
+  !Range("CBNARULF",5)  // ~Narulf~
+THEN
+  RESPONSE #100
+    MoveToObject("CbWayPointTwo")
+    SetGlobal("CbCharlotteAttacksNarulf","LOCALS",3)
+END
+
+IF
+  Global("CbCharlotteAttacksNarulf","LOCALS",3)
+  AreaCheck("AR4220")
+  !Range("CBNARULF",5)  // ~Narulf~
+THEN
+  RESPONSE #100
+    MoveToObject("CbWayPointThree")
+    SetGlobal("CbCharlotteAttacksNarulf","LOCALS",4)
+END
+
+IF
+  Global("CbCharlotteAttacksNarulf","LOCALS",4)
+  AreaCheck("AR4220")
+  !Range("CBNARULF",5)  // ~Narulf~
+THEN
+  RESPONSE #100
+    MoveToObject("CbWayPointFive")
+    SetGlobal("CbCharlotteAttacksNarulf","LOCALS",5)
+END
+
+IF
+  Global("CbCharlotteAttacksNarulf","LOCALS",5)
+  AreaCheck("AR4220")
+  !Dead("CBNARULF")  // ~Narulf~
+THEN
+  RESPONSE #100
+    SetGlobal("CbCharlotteAttacksNarulf","LOCALS",6)
+    Attack("CBNARULF")
+END
+
+IF
+  Global("CbCharlotteAttacksNarulf","AR4220",1)
+  HPPercentLT(Myself,40)
+  AreaCheck("AR4220")
+  !Dead("CBNARULF")  // ~Narulf~
+THEN
+  RESPONSE #100
+    GiveItemCreate("potn55",Myself,1,0,0)  // ~Potion of Superior Healing~
+    UseItem("potn55",Myself)  // ~Potion of Superior Healing~
+END
+
+IF
+  Global("CbCharlotteAttacksNarulf","AR4220",1)
+  AreaCheck("AR4220")
+  Dead("CBNARULF")  // ~Narulf~
+THEN
+  RESPONSE #100
+    SetGlobal("CbCharlotteAttacksNarulf","AR4220",2)
+END
+
+IF
+  AttackedBy([ANYONE],DEFAULT)
+  InParty(LastAttackerOf(Myself))
+  StateCheck(LastAttackerOf(Myself),STATE_CHARMED)
+THEN
+  RESPONSE #100
+    Shout(22)
+    EquipMostDamagingMelee()
+    AttackReevaluate(LastAttackerOf(Myself),20)
+    Continue()
+END
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  !Allegiance(Myself,ENEMY)
+  !StateCheck(LastAttackerOf(Myself),STATE_CHARMED)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+IF
+  Heard([ANYONE],22)
+THEN
+  RESPONSE #100
+    MoveToObject(LastHeardBy(Myself))
+    Continue()
+END
+
+IF
+  AttackedBy([ENEMY],DEFAULT)
+  !StateCheck(LastAttackerOf(Myself),STATE_PANIC)
+THEN
+  RESPONSE #100
+    Shout(23)
+    EquipMostDamagingMelee()
+    AttackReevaluate(LastAttackerOf(Myself),30)
+    Continue()
+END
+
+IF
+  Heard([ANYONE],23)
+THEN
+  RESPONSE #100
+    MoveToObject(LastHeardBy(Myself))
+    EquipMostDamagingMelee()
+    AttackReevaluate(LastAttackerOf(LastHeardBy(Myself)),30)
+END
+
+IF
+  See([ENEMY])
+  !InParty(LastSeenBy(Myself))
+  !StateCheck(LastSeenBy(Myself),STATE_PANIC)
+THEN
+  RESPONSE #100
+    Shout(24)
+    EquipMostDamagingMelee()
+    AttackReevaluate(LastSeenBy(Myself),30)
+    Continue()
+END
+
+IF
+  Heard([ANYONE],24)
+  InParty(LastHeardBy(Myself))
+  See(LastTargetedBy(LastHeardBy(Myself)))
+  !InParty(LastTargetedBy(LastHeardBy(Myself)))
+  !StateCheck(LastTargetedBy(LastHeardBy(Myself)),STATE_PANIC)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    AttackReevaluate(LastTargetedBy(LastHeardBy(Myself)),30)
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !Range(NearestEnemyOf(Myself),5)
+  !General(LastSeenBy(Myself),ANIMAL)
+THEN
+  RESPONSE #100
+    EquipRanged()
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Range(NearestEnemyOf(Myself),5)
+  !General(LastSeenBy(Myself),ANIMAL)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  General(LastSeenBy(Myself),ANIMAL)
+  AttackedBy(LastSeenBy(Myself),DEFAULT)
+THEN
+  RESPONSE #100
+    RunAwayFrom(LastSeenBy,20)
+END
+
+IF
+  AttackedBy([ANYONE],DEFAULT)
+THEN
+  RESPONSE #100
+    AttackReevaluate(LastAttackerOf(Myself),30)
+END
+

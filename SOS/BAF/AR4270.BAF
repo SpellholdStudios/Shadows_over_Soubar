@@ -1,0 +1,19 @@
+IF
+  Global("CbDartPlayerCreated","AR4270",0)
+THEN
+  RESPONSE #100
+    CreateCreature("CBDRT70a",[535.980],3)  // ~Dart Player~
+    CreateCreature("CBDRT70b",[305.1021],0)  // ~Dart Board~
+    ActionOverride("CBDRT70a",FaceObject("CBDRT70b"))
+    ActionOverride("CBDRT70a",GiveItemCreate("DART01",Myself,40,0,0))  // ~Dart~
+    SetGlobal("CbDartPlayerCreated","AR4270",1)
+END
+
+IF
+  Global("CbWineBrokerCreated","AR4270",0)
+THEN
+  RESPONSE #100
+    CreateCreature("CB4270WB",[714.673],13)  // ~Wine Broker~
+    SetGlobal("CbWineBrokerCreated","AR4270",1)
+END
+

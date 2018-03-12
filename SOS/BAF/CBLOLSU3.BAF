@@ -1,0 +1,250 @@
+IF
+  Detect([GOODCUTOFF])
+  Allegiance(Myself,ENEMY)
+  Global("CbLolthThreeStoppedTime","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbLolthThreeStoppedTime","LOCALS",1)
+    ReallyForceSpell(Myself,WIZARD_TIME_STOP)
+END
+
+IF
+  Detect([GOODCUTOFF])
+  Allegiance(Myself,ENEMY)
+  Global("CbLolthThreeContingency1","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbLolthThreeContingency1","LOCALS",1)
+    DisplayString(Myself,73139)  // ~Contingency - Fired~
+    ReallyForceSpell(Myself,WIZARD_GLOBE_OF_INVULNERABILITY)
+    ReallyForceSpell(Myself,1730)
+    ReallyForceSpell(Myself,CLERIC_IRONSKIN)
+END
+
+IF
+  Detect(NearestEnemyOf(Myself))
+  Global("CbLolthThreeStoppedTime","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbLolthThreeStoppedTime","LOCALS",2)
+    SetGlobalTimer("CbLolthThreeSumReinf","LOCALS",3)
+    DisplayStringHead(Myself,70999)  // ~Now you will pay, foolish mortals!~
+    ReallyForceSpell(NearestEnemyOf(Myself),3549)
+END
+
+IF
+  Detect([GOODCUTOFF.0.DEMONIC.TANARI])
+  !GlobalTimerNotExpired("CbLolthThreeCharmDemon","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbLolthThreeCharmDemon","LOCALS",6)
+    DisplayStringHead(Myself,71008)  // ~No!  You shall not use my own against me!!~
+    ReallyForceSpellRES("demochm",[GOODCUTOFF.0.DEMONIC.TANARI])  // ~Domination~
+END
+
+IF
+  Global("CbLolthThreeStoppedTime","LOCALS",2)
+  Detect(NearestEnemyOf(Myself))
+  NumDead("demosum1",2)
+  !NumCreatureVsPartyGT("demosum3",0)  // ~Glabrezu~
+  !GlobalTimerNotExpired("CbLolthThreeSumReinf","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbLolthThreeSumReinf","LOCALS",6)
+    DisplayStringHead(Myself,70998)  // ~Come, my minions!~
+    ForceSpell(Myself,3548)
+END
+
+IF
+  HaveSpell(CLERIC_GATE)
+  GlobalGT("ProtectionFromEvilOn","LOCALS",0)
+  !NumCreatureGT([EVILCUTOFF.0.0.0.0.SUMMONED],0)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_GATE)
+END
+
+IF
+  HaveSpell(CLERIC_AERIAL_SERVANT)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_AERIAL_SERVANT)
+END
+
+IF
+  HaveSpell(CLERIC_ANIMATE_DEAD)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_ANIMATE_DEAD)
+END
+
+IF
+  HaveSpell(CLERIC_ANIMAL_SUMMONING_3)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_ANIMAL_SUMMONING_3)
+END
+
+IF
+  HaveSpell(CLERIC_CONJURE_FIRE_ELEMENTAL)
+  !Range(NearestEnemyOf(Myself),15)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_CONJURE_FIRE_ELEMENTAL)
+END
+
+IF
+  HaveSpell(CLERIC_CONJURE_EARTH_ELEMENTAL)
+  !Range(NearestEnemyOf(Myself),15)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_CONJURE_EARTH_ELEMENTAL)
+END
+
+IF
+  HaveSpell(CLERIC_CALL_WOODLAND_BEINGS)
+  !Range(NearestEnemyOf(Myself),15)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_CALL_WOODLAND_BEINGS)
+END
+
+IF
+  HaveSpell(CLERIC_CONJURE_ANIMALS)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_CONJURE_ANIMALS)
+END
+
+IF
+  HaveSpell(WIZARD_CARRION)
+  !Range(LastSeenBy(Myself),10)
+  NumCreatureLT([EVILCUTOFF.0.0.0.0.SUMMONED],7)
+  RandomNum(4,1)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_CARRION)
+END
+
+IF
+  HaveSpell(WIZARD_SUMMON_HAKEASHAR)
+  !Range(LastSeenBy(Myself),10)
+  NumCreatureLT([EVILCUTOFF.0.0.0.0.SUMMONED],7)
+  RandomNum(4,1)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_SUMMON_HAKEASHAR)
+END
+
+IF
+  HaveSpell(WIZARD_SUMMON_NISHRUU)
+  !Range(LastSeenBy(Myself),10)
+  NumCreatureLT([EVILCUTOFF.0.0.0.0.SUMMONED],7)
+  RandomNum(4,1)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_SUMMON_NISHRUU)
+END
+
+IF
+  HaveSpell(WIZARD_SUMMON_DJINNI)
+  !Range(LastSeenBy(Myself),10)
+  NumCreatureLT([EVILCUTOFF.0.0.0.0.SUMMONED],7)
+  RandomNum(4,1)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_SUMMON_DJINNI)
+END
+
+IF
+  HaveSpell(WIZARD_SUMMON_EFREET)
+  !Range(LastSeenBy(Myself),10)
+  NumCreatureLT([EVILCUTOFF.0.0.0.0.SUMMONED],7)
+  RandomNum(4,1)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_SUMMON_EFREET)
+END
+
+IF
+  HaveSpell(WIZARD_SPIDER_SPAWN)
+  !Range(LastSeenBy(Myself),10)
+  NumCreatureLT([EVILCUTOFF.0.0.0.0.SUMMONED],7)
+  RandomNum(4,1)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_SPIDER_SPAWN)
+END
+
+IF
+  !Range(LastSeenBy(Myself),20)
+  HaveSpell(WIZARD_CONJURE_EARTH_ELEMENTAL)
+  NumCreatureLT([EVILCUTOFF.0.0.0.0.SUMMONED],7)
+  !NumCreatureVsPartyLT([ENEMY],-1)
+  RandomNum(4,1)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_CONJURE_EARTH_ELEMENTAL)
+END
+
+IF
+  !Range(LastSeenBy(Myself),20)
+  HaveSpell(WIZARD_CONJURE_AIR_ELEMENTAL)
+  NumCreatureLT([EVILCUTOFF.0.0.0.0.SUMMONED],7)
+  !NumCreatureVsPartyLT([ENEMY],-1)
+  RandomNum(4,1)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_CONJURE_AIR_ELEMENTAL)
+END
+
+IF
+  !Range(LastSeenBy(Myself),20)
+  HaveSpell(WIZARD_CONJURE_FIRE_ELEMENTAL)
+  NumCreatureLT([EVILCUTOFF.0.0.0.0.SUMMONED],7)
+  !NumCreatureVsPartyLT([ENEMY],-1)
+  RandomNum(4,1)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_CONJURE_FIRE_ELEMENTAL)
+END
+
+IF
+  HaveSpell(WIZARD_MONSTER_SUMMONING_4)
+  !Range(LastSeenBy(Myself),10)
+  NumCreatureLT([EVILCUTOFF.0.0.0.0.SUMMONED],7)
+  RandomNum(4,1)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_MONSTER_SUMMONING_4)
+END
+
+IF
+  HaveSpell(WIZARD_MONSTER_SUMMONING_3)
+  !Range(LastSeenBy(Myself),10)
+  NumCreatureLT([EVILCUTOFF.0.0.0.0.SUMMONED],7)
+  RandomNum(4,1)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_MONSTER_SUMMONING_3)
+END
+
+IF
+  HaveSpell(WIZARD_ANIMATE_DEAD)
+  !Range(LastSeenBy(Myself),10)
+  NumCreatureLT([EVILCUTOFF.0.0.0.0.SUMMONED],7)
+  RandomNum(4,1)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_ANIMATE_DEAD)
+END
+
+IF
+  Global("CbLolthThreeStoppedTime","LOCALS",2)
+  Detect(NearestEnemyOf(Myself))
+  !NumCreatureVsPartyGT("demosum3",0)  // ~Glabrezu~
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+

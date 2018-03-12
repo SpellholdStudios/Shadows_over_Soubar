@@ -1,0 +1,17 @@
+IF
+  Global("CbReadingBookOfRoses","GLOBAL",7)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    SetInterrupt(TRUE)
+END
+
+IF
+  GlobalLT("CbReadingBookOfRoses","GLOBAL",8)
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    DayNight(MIDNIGHT)
+    IncrementGlobal("CbReadingBookOfRoses","GLOBAL",1)
+END
+

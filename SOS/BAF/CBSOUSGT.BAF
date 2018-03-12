@@ -1,0 +1,50 @@
+IF
+  AreaCheck("AR4286")
+  Global("CbMajorWantsStuffInBag","AR4286",2)
+  Detect([PC])
+THEN
+  RESPONSE #100
+    MoveToObject(Player1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  AreaCheck("AR4286")
+  Global("CbPartyIsInSoubarMilitia","GLOBAL",1)
+  Global("CbPartyStartsRoadPatrol","LOCALS",0)
+  Detect([PC])
+THEN
+  RESPONSE #100
+    MoveToObject(Player1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  AreaCheck("AR4230")
+  Global("CbPartyStartsRoadPatrol","LOCALS",3)
+  !See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    MoveToObject(Player1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  AreaCheck("AR4286")
+  Global("CbPartyStartsRoadPatrol","LOCALS",4)
+  See([PC])
+THEN
+  RESPONSE #100
+    SetGlobal("CbPartyStartsRoadPatrol","LOCALS",5)
+    StartDialogNoSet(LastSeenBy(Myself))
+END
+
+IF
+  Global("CbFarmPatrolDuty","AR4286",3)
+  Global("CbSargeTakesAllToFarms","LOCALS",4)
+  GlobalTimerExpired("CbSargePromotesParty","LOCALS")
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Player1)
+END
+

@@ -1,0 +1,16 @@
+IF
+  GlobalTimerExpired("CbThisCreatureWalksAndEscapes","LOCALS")
+THEN
+  RESPONSE #100
+    EscapeArea()
+END
+
+IF
+  OnCreation()
+  AreaCheck("AR4270")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbThisCreatureWalksAndEscapes","LOCALS",260)
+    RandomWalkContinuous()
+END
+

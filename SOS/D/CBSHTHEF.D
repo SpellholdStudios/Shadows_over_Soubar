@@ -1,0 +1,58 @@
+BEGIN ~CBSHTHEF~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 1
+  IF ~~ THEN REPLY @2  GOTO 4
+  IF ~~ THEN REPLY @3 GOTO 5
+  IF ~~ THEN REPLY @4 GOTO 6
+  IF ~~ THEN REPLY @5 GOTO 7
+  IF ~~ THEN REPLY @6 GOTO 8
+  IF ~~ THEN REPLY @7 GOTO 1
+  IF ~~ THEN REPLY @8 GOTO 4
+  IF ~~ THEN REPLY @9 GOTO 1
+  IF ~~ THEN REPLY @10 GOTO 2
+  IF ~~ THEN REPLY @11 GOTO 4
+  IF ~~ THEN REPLY @12 GOTO 1
+  IF ~~ THEN REPLY @13 GOTO 4
+END
+
+IF ~~ THEN BEGIN 1 // from: 0.11 0.8 0.6 0.0
+  SAY @14
+  IF ~~ THEN DO ~SetGlobal("CbSendaiSpoke","AR4210",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN 2 // from: 0.9
+  SAY @15
+  IF ~~ THEN GOTO 3
+END
+
+IF ~~ THEN BEGIN 3 // from: 2.0
+  SAY @16
+  IF ~~ THEN DO ~SetGlobal("CbSendaiSpoke","AR4210",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN 4 // from: 0.12 0.10 0.7 0.1
+  SAY @17
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 5 // from: 0.2
+  SAY @18
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 6 // from: 0.3
+  SAY @19
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 7 // from: 0.4
+  SAY @20
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 8 // from: 0.5
+  SAY @17
+  IF ~~ THEN EXIT
+END

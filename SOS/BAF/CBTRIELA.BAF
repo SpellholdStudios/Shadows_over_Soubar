@@ -1,0 +1,184 @@
+IF
+  AreaCheck("AR4288")
+THEN
+  RESPONSE #100
+    ChangeAIScript("CBTRIELB",RACE)
+    ChangeAIScript("",CLASS)
+    ChangeAIScript("",GENERAL)
+END
+
+IF
+  Delay(25)
+  Global("CbBarBrawl","AR4264",0)
+THEN
+  RESPONSE #100
+    ClearActions([ANYONE])
+END
+
+IF
+  Global("CbBarBrawl","AR4264",0)
+  Delay(20)
+THEN
+  RESPONSE #6
+    DisplayStringHead(Myself,4562)  // ~ -hiccup-  I's thinks I hads too much to drinks.~ [HUSAM04]
+    RandomWalk()
+  RESPONSE #6
+    DisplayStringHead(Myself,5792)  // ~My name's Dunkin, and I like to drink and stuff.~
+    RandomWalk()
+  RESPONSE #6
+    DisplayStringHead(Myself,14481)  // ~My new babe's gone and gotten the croup.  I 'ave to drink good an' well just t' get to sleep.  At least, that's wot I tells me wife.~
+  RESPONSE #6
+    DisplayStringHead(Myself,15153)  // ~Hey, there, big fella.  Why don't ye put yer feet to a rest an' lets me buy ye a drink, aye?~
+  RESPONSE #6
+    DisplayStringHead(Myself,23456)  // ~I'd like a drink.~
+    RandomWalk()
+  RESPONSE #6
+    DisplayStringHead(Myself,25590)  // ~I cannot stand this!  This flagon has a speck of dirt on it...how am I expected to drink this?~
+  RESPONSE #6
+    DisplayStringHead(Myself,25679)  // ~Can't talk.  (glug)  Drinking.  (glug-glug)~
+    RandomWalk()
+  RESPONSE #6
+    DisplayStringHead(Myself,44390)  // ~Aaahhh... lemme alone... (hic)  ...can't a man drink in peace, aye?  (hic)~
+  RESPONSE #6
+    DisplayStringHead(Myself,4972)  // ~ I needs somes ale -buuurrpp-.~ [DRUNK04]
+    RandomWalk()
+  RESPONSE #6
+    DisplayStringHead(Myself,44382)  // ~There was this one time... (hic) ...my party and I were travelin' through the elven woods down in, uh, Tethyr.  (hic)  We got drunk with a whole group o' elves... (hic)~
+    RandomWalk()
+  RESPONSE #6
+    DisplayStringHead(Myself,44811)  // ~Hmph.  As is well an' good, I suppose.  (hic!)  With all th' bloody murderin's out there, a town drunk doesn't want t' be sleepin' in the road anymore, now, does he?  (hic!)  I'll be right here, yessir!~
+  RESPONSE #6
+    DisplayStringHead(Myself,48071)  // ~What do ya do wit' a drunken sailor?What do ya do wit' a drunken sailor?What do ya do wit' a drunken sailor,Er-lye in the marnin'?~
+    Wait(2)
+    DisplayStringHead(Myself,48072)  // ~Put 'im in the lockup til 'e's sober!Put 'im in the lockup til 'e's sober!Put 'im in the lockup til 'e's sober,Er-lye in the marnin'!~
+    Wait(3)
+    DisplayStringHead(Myself,48073)  // ~Strap 'im to the anchor an' throw 'im over!Strap 'im to the anchor an' throw 'im over!Strap 'im to the anchor an' throw 'im over,Er-lye in the marnin'!~
+    Wait(3)
+    DisplayStringHead(Myself,48074)  // ~Strip 'im to 'is skivvies an' piss all over!Strip 'im to 'is skivvies an' piss all over!Strip 'im to 'is skivvies an' piss all over,Er-lye in the marnin'!~
+    Wait(3)
+    DisplayStringHead(Myself,48075)  // ~Stuff 'im in a crate an' send 'im to 'is mother!Stuff 'im in a crate an' send 'im to 'is mother!Stuff 'im in a crate an' send 'im to 'is motherEr-lye in the marnin'!~
+    Wait(2)
+  RESPONSE #6
+    DisplayStringHead(Myself,5162)  // ~ All the guys pick on me cause I'm only 6'8"...~ [OGRIL02]
+    RandomWalk()
+  RESPONSE #6
+    DisplayStringHead(Myself,6106)  // ~Was not unlike kindling cracklin', and he whined fer his legs all night..."Me legs are gone! Ah, me precious legs!"  I chopped some peg-legs, but he'd not have it.~
+  RESPONSE #6
+    DisplayStringHead(Myself,7473)  // ~"I once knew a Red Mage of Thay Who dreamed of lichdom some day. He said he knew how to do it But he still managed to screw it up in the funniest way"~ [HAERDA55]
+  RESPONSE #6
+    DisplayStringHead(Myself,48076)  // ~Fer 'e's a jolly good fellow,Fer 'e's a jolly good fellow,Fer 'e's a jolly good felloooow...Dat nobody can deny!~
+    Wait(3)
+    DisplayStringHead(Myself,48077)  // ~Dat nobody can deny!Dat nobody can deny!Ooohhh.......~
+    RandomWalk()
+END
+
+IF
+  Range("CBTRIEL0",10)  // ~Triel Villager~
+  Global("CbImovedToFight","LOCALS",1)
+THEN
+  RESPONSE #100
+    ClearActions(Myself)
+    SetGlobal("CbImovedToFight","LOCALS",2)
+END
+
+IF
+  Range("CBTRIEL1",10)  // ~Triel Villager~
+  Global("CbImovedToFight","LOCALS",1)
+THEN
+  RESPONSE #100
+    ClearActions(Myself)
+    SetGlobal("CbImovedToFight","LOCALS",2)
+END
+
+IF
+  Global("CbBarBrawl","AR4264",1)
+  Global("CbImovedToFight","LOCALS",0)
+  RandomNum(2,1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbImovedToFight","LOCALS",1)
+    MoveToObject("CBTRIEL0")
+END
+
+IF
+  Global("CbBarBrawl","AR4264",1)
+  Global("CbImovedToFight","LOCALS",0)
+  RandomNum(2,2)
+THEN
+  RESPONSE #100
+    SetGlobal("CbImovedToFight","LOCALS",1)
+    MoveToObject("CBTRIEL1")
+END
+
+IF
+  Global("CbBarBrawl","AR4264",1)
+  !Global("CbImovedToFight","LOCALS",2)
+THEN
+  RESPONSE #20
+    Wait(0)
+    DisplayStringHead(Myself,42976)  // ~Fight! Kill him! ~
+    SetGlobal("CbImovedToFight","LOCALS",2)
+  RESPONSE #20
+    Wait(1)
+    DisplayStringHead(Myself,44735)  // ~I can face any danger! I will win any fight!~
+    SetGlobal("CbImovedToFight","LOCALS",2)
+  RESPONSE #20
+    Wait(2)
+    DisplayStringHead(Myself,62845)  // ~Well, I'm not going down without a fight!! ~
+    SetGlobal("CbImovedToFight","LOCALS",2)
+  RESPONSE #20
+    Wait(3)
+    DisplayStringHead(Myself,62932)  // ~Less talk - more fight!  Time to die.~
+    SetGlobal("CbImovedToFight","LOCALS",2)
+  RESPONSE #20
+    Wait(4)
+    DisplayStringHead(Myself,16413)  // ~Ye hears 'at, boys?  Looks like <PRO_HESHE> wants t' fight!~
+    SetGlobal("CbImovedToFight","LOCALS",2)
+END
+
+IF
+  Global("CbImovedToFight","LOCALS",2)
+  !HasItemEquiped("CBMANCL2",Myself)
+THEN
+  RESPONSE #10
+    DisplayStringHead(Myself,46150)  // ~quaffs a potion~
+    UseItem("POTN05",Myself)  // ~Potion of Fire Giant Strength~
+    AttackReevaluate(NearestMyGroupOfType,20)
+  RESPONSE #10
+    DisplayStringHead(Myself,46150)  // ~quaffs a potion~
+    UseItem("POTN11",Myself)  // ~Potion of Invulnerability~
+    AttackReevaluate(NearestMyGroupOfType,20)
+  RESPONSE #10
+    DisplayStringHead(Myself,72936)  // ~Hyo-o-cha!~
+    Spell(Myself,4811)
+    AttackReevaluate(NearestMyGroupOfType,20)
+  RESPONSE #10
+    DisplayStringHead(Myself,72937)  // ~Kyai-ya!~
+    Spell(Myself,4820)
+    AttackReevaluate(NearestMyGroupOfType,20)
+  RESPONSE #10
+    DisplayStringHead(Myself,46150)  // ~quaffs a potion~
+    UseItem("POTN05",Myself)  // ~Potion of Fire Giant Strength~
+    AttackReevaluate(NearestMyGroupOfType,20)
+  RESPONSE #10
+    DisplayStringHead(Myself,46150)  // ~quaffs a potion~
+    UseItem("POTN11",Myself)  // ~Potion of Invulnerability~
+    AttackReevaluate(NearestMyGroupOfType,20)
+  RESPONSE #10
+    DisplayStringHead(Myself,72936)  // ~Hyo-o-cha!~
+    Spell(Myself,4820)
+    AttackReevaluate(NearestMyGroupOfType,20)
+  RESPONSE #10
+    DisplayStringHead(Myself,72937)  // ~Kyai-ya!~
+    Spell(Myself,4811)
+    AttackReevaluate(NearestMyGroupOfType,20)
+  RESPONSE #10
+    DisplayStringHead(Myself,72936)  // ~Hyo-o-cha!~
+    Spell(Myself,4811)
+    AttackReevaluate(NearestMyGroupOfType,20)
+  RESPONSE #10
+    DisplayStringHead(Myself,72937)  // ~Kyai-ya!~
+    Spell(Myself,4820)
+    AttackReevaluate(NearestMyGroupOfType,20)
+END
+

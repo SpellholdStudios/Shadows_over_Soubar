@@ -1,0 +1,128 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+    FadeToColor([20.0],0)
+    Wait(2)
+    StorePartyLocations()
+    LeaveAreaLUAPanic("AR4365","",[1255.940],0)
+    LeaveAreaLUA("AR4365","",[1255.940],0)
+    ActionOverride(Player2,LeaveAreaLUA("AR4365","",[1255.905],0))
+    ActionOverride(Player3,LeaveAreaLUA("AR4365","",[1225.905],0))
+    ActionOverride(Player4,LeaveAreaLUA("AR4365","",[1190.905],0))
+    ActionOverride(Player5,LeaveAreaLUA("AR4365","",[1190.940],0))
+    ActionOverride(Player6,LeaveAreaLUA("AR4365","",[1160.940],0))
+    Explore()
+    CreateCreature("CBMARCH1",[247.740],0)  // CBMARCH1
+    CreateCreature("CBMARCH1",[259.879],0)  // CBMARCH1
+    CreateCreature("CBMARCH1",[656.688],0)  // CBMARCH1
+    CreateCreature("CBMARCH1",[553.211],0)  // CBMARCH1
+    CreateCreature("CBMARCH1",[1095.283],0)  // CBMARCH1
+    CreateCreature("CBCUTDF1",[289.602],11)  // ~Soubar Guard~
+    CreateCreature("CBCUTDF2",[129.585],9)  // ~Soubar Guard~
+    CreateCreature("CBCUTDF3",[259.702],13)  // ~Soubar Guard~
+    CreateCreature("CBCUTDF4",[364.879],11)  // ~Soubar Guard~
+    CreateCreature("CBCUTAT0",[860.250],0)  // ~Bandit~
+    CreateCreature("CBCUTAT1",[840.250],0)  // ~Bandit~
+    CreateCreature("CBCUTAT2",[860.230],0)  // ~Bandit~
+    CreateCreature("CBCUTAT3",[840.230],0)  // ~Bandit~
+    CreateCreature("CBCUTAT4",[860.210],0)  // ~Bandit~
+    CreateCreature("CBCUTAT5",[840.210],0)  // ~Bandit~
+    CreateCreature("CBCUTAT6",[860.190],0)  // ~Bandit~
+    CreateCreature("CBCUTAT7",[840.190],0)  // ~Bandit~
+    CreateCreature("CBCUTAT8",[860.170],0)  // ~Bandit~
+    CreateCreature("CBCUTAT9",[840.170],0)  // ~Bandit~
+    CreateCreature("CBCUTATA",[860.150],0)  // ~Bandit~
+    CreateCreature("CBCUTATB",[840.150],0)  // ~Bandit~
+    CreateCreature("CBCUTATC",[860.130],0)  // ~Bandit~
+    CreateCreature("CBCUTATD",[840.130],0)  // ~Bandit~
+    MoveViewPoint([230.742],INSTANT)
+    Wait(2)
+    FadeFromColor([20.0],0)
+    Wait(6)
+    SetGlobal("CbCut4982","GLOBAL",0)
+    ActionOverride("CBCUTDF1",DisplayStringHead("CBCUTDF1",@10044)
+    Wait(7)
+    SetGlobal("CbCut4982","GLOBAL",1)
+    ActionOverride("CBCUTDF2",DisplayStringHead("CBCUTDF2",@10045)
+    Wait(4)
+    SetGlobal("CbCut4982","GLOBAL",2)
+    ActionOverride("CBCUTDF1",DisplayStringHead("CBCUTDF1",@10046)
+    SmallWait(15)
+    MoveViewPoint([815.212],INSTANT)
+    ActionOverride("CBCUTAT0",MoveToPoint([840.470]))
+    ActionOverride("CBCUTAT1",MoveToPoint([820.470]))
+    ActionOverride("CBCUTAT2",MoveToPoint([840.450]))
+    ActionOverride("CBCUTAT3",MoveToPoint([820.450]))
+    ActionOverride("CBCUTAT4",MoveToPoint([840.430]))
+    ActionOverride("CBCUTAT5",MoveToPoint([820.430]))
+    ActionOverride("CBCUTAT6",MoveToPoint([840.410]))
+    ActionOverride("CBCUTAT7",MoveToPoint([820.410]))
+    ActionOverride("CBCUTAT8",MoveToPoint([840.390]))
+    ActionOverride("CBCUTAT9",MoveToPoint([820.390]))
+    ActionOverride("CBCUTATA",MoveToPoint([840.370]))
+    ActionOverride("CBCUTATB",MoveToPoint([820.370]))
+    ActionOverride("CBCUTATC",MoveToPoint([840.350]))
+    ActionOverride("CBCUTATD",MoveToPoint([820.350]))
+    Wait(3)
+    MoveViewPoint([230.742],INSTANT)
+    Wait(1)
+    SetGlobal("CbCut4982","GLOBAL",3)
+    ActionOverride("CBCUTDF2",DisplayStringHead("CBCUTDF2",@10047)
+    SmallWait(5)
+    SetGlobal("CbCut4982","GLOBAL",4)
+    ActionOverride("CBCUTDF1",DisplayStringHead("CBCUTDF1",@10048)
+    Wait(1)
+    MoveViewPoint([540.504],VERY_FAST)
+    SmallWait(10)
+    ActionOverride("CBCUTDF1",AttackOneRound("CBCUTAT1"))
+    SmallWait(4)
+    ActionOverride("CBCUTDF2",AttackOneRound("CBCUTAT5"))
+    SmallWait(6)
+    ActionOverride("CBCUTDF3",AttackOneRound("CBCUTAT2"))
+    SmallWait(3)
+    ActionOverride("CBCUTDF4",AttackOneRound("CBCUTAT1"))
+    Wait(1)
+    ActionOverride("CBCUTAT1",ClearActions("CBCUTAT1"))
+    ActionOverride("CBCUTAT1",SmallWait(3))
+    ActionOverride("CBCUTAT1",DisplayStringHead("CBCUTAT1",54407))
+    ActionOverride("CBCUTAT1",SmallWait(3))
+    ActionOverride("CBCUTDF4",Kill("CBCUTAT1"))
+    Wait(1)
+    SetGlobal("CbCut4982","GLOBAL",5)
+    ActionOverride("CBCUTDF2",DisplayStringHead("CBCUTDF2",@10049)
+    ActionOverride("CBCUTDF1",MoveToPoint([138.917]))
+    ActionOverride("CBCUTDF2",MoveToPoint([138.917]))
+    ActionOverride("CBCUTDF3",MoveToPoint([138.917]))
+    ActionOverride("CBCUTDF4",MoveToPoint([138.917]))
+    ActionOverride("CBCUTDF1",EscapeArea())
+    ActionOverride("CBCUTDF2",EscapeArea())
+    ActionOverride("CBCUTDF3",EscapeArea())
+    ActionOverride("CBCUTDF4",EscapeArea())
+    Wait(3)
+    ActionOverride("CBCUTAT0",MoveToPoint([100.920]))
+    ActionOverride("CBCUTAT1",MoveToPoint([100.920]))
+    ActionOverride("CBCUTAT2",MoveToPoint([100.920]))
+    ActionOverride("CBCUTAT3",MoveToPoint([100.920]))
+    ActionOverride("CBCUTAT4",MoveToPoint([100.920]))
+    ActionOverride("CBCUTAT5",MoveToPoint([100.920]))
+    ActionOverride("CBCUTAT6",MoveToPoint([100.920]))
+    ActionOverride("CBCUTAT7",MoveToPoint([100.920]))
+    ActionOverride("CBCUTAT8",MoveToPoint([100.920]))
+    ActionOverride("CBCUTAT9",MoveToPoint([100.920]))
+    ActionOverride("CBCUTATA",MoveToPoint([100.920]))
+    ActionOverride("CBCUTATB",MoveToPoint([100.920]))
+    ActionOverride("CBCUTATC",MoveToPoint([100.920]))
+    ActionOverride("CBCUTATD",MoveToPoint([100.920]))
+    SetGlobal("CbCanSpawnFence","GLOBAL",1)
+    MultiPlayerSync()
+    RestorePartyLocations()
+    MultiPlayerSync()
+    UnhideGUI()
+    EndCutSceneMode()
+    MoveViewObject(Player1,INSTANT)
+    Wait(1)
+    SaveGame(0)
+END
+

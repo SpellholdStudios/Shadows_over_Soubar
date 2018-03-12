@@ -1,0 +1,10 @@
+IF
+  Global("CbPlayerMetSirrus","AR4289",1)
+  Global("CbIMoved","LOCALS",0)
+THEN
+  RESPONSE #100
+    MoveToPointNoInterrupt([726.213])
+    Face(9)
+    SetGlobal("CbIMoved","LOCALS",1)
+END
+

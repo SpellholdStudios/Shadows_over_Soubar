@@ -1,0 +1,31 @@
+IF
+  Global("CbRecruiting","GLOBAL",2)
+  Global("CbTrielMenCreated","AR4264",0)
+THEN
+  RESPONSE #100
+    CreateCreature("CBTRIEL1",[350.819],14)  // ~Triel Villager~
+    CreateCreature("CBTRIEL2",[229.985],4)  // ~Triel Villager~
+    CreateCreature("CBTRIEL3",[402.1005],12)  // ~Triel Villager~
+    CreateCreature("CBTRIEL4",[592.961],14)  // ~Triel Villager~
+    CreateCreature("CBTRIEL5",[656.797],5)  // ~Triel Villager~
+    CreateCreature("CBTRIEL6",[680.687],2)  // ~Triel Villager~
+    CreateCreature("CBTRIEL7",[725.491],6)  // ~Triel Villager~
+    CreateCreature("CBTRIEL8",[441.888],2)  // ~Triel Villager~
+    CreateCreature("CBTRIEL9",[226.770],6)  // ~Triel Villager~
+    CreateCreature("CBTRIEL0",[684.259],2)  // ~Triel Villager~
+    SetGlobalTimer("CbBarBrawlCloser","AR4264",120)
+    SetGlobal("CbTrielMenCreated","AR4264",1)
+END
+
+IF
+  GlobalTimerExpired("CbBarBrawlCloser","AR4264")
+  Global("CbTrielMenCreated","AR4264",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbTrielMenCreated","AR4264",2)
+    ActionOverride("CBTRIEL0",JumpToPoint([539.962]))
+    ClearAllActions()
+    StartCutSceneMode()
+    StartCutScene("CBNRWHAL")
+END
+

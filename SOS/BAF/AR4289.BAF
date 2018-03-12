@@ -1,0 +1,89 @@
+IF
+  OnCreation()
+  Global("CbGuardsCreatedHere","AR4289",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbGuardsCreatedHere","AR4289",1)
+    CreateCreature("CBSOBGRD",[737.502],0)  // ~Soubar Guard~
+    CreateCreature("CBSOBGRD",[598.627],9)  // ~Soubar Guard~
+    CreateCreature("CBSOBGRD",[492.428],13)  // ~Soubar Guard~
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4289",0)
+  Global("CbHaerInteractMayor","GLOBAL",0)
+  InParty("HaerDalis")  // HaerDalis
+  Delay(3)
+  !StateCheck(Player1,STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("CbHaerInteractMayor","GLOBAL",1)
+    SetGlobal("CbOriginalPeopleInteract","AR4289",1)
+    ActionOverride("HaerDalis",StartDialogNoSet(Player1))
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4289",0)
+  Global("CbImoenInteractMayor","GLOBAL",0)
+  InParty("Imoen2")  // Imoen2
+  Delay(3)
+  !StateCheck(Player1,STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("CbImoenInteractMayor","GLOBAL",1)
+    SetGlobal("CbOriginalPeopleInteract","AR4289",1)
+    ActionOverride("Imoen2",StartDialogNoSet(Player1))
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4289",0)
+  Global("CbJanInteractMayor","GLOBAL",0)
+  InParty("Jan")  // Jan
+  Delay(3)
+  !StateCheck(Player1,STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("CbJanInteractMayor","GLOBAL",1)
+    SetGlobal("CbOriginalPeopleInteract","AR4289",1)
+    ActionOverride("Jan",StartDialogNoSet(Player1))
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4289",0)
+  Global("CbMazzyInteractMayor","GLOBAL",0)
+  InParty("Mazzy")  // Mazzy
+  Delay(3)
+  !StateCheck(Player1,STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("CbMazzyInteractMayor","GLOBAL",1)
+    SetGlobal("CbOriginalPeopleInteract","AR4289",1)
+    ActionOverride("Mazzy",StartDialogNoSet(Player1))
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4289",0)
+  Global("CbViccyInteractMayor","GLOBAL",0)
+  InParty("Viconia")  // Viconia
+  Delay(3)
+  !StateCheck(Player1,STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("CbViccyInteractMayor","GLOBAL",1)
+    SetGlobal("CbOriginalPeopleInteract","AR4289",1)
+    ActionOverride("Viconia",StartDialogNoSet(Player1))
+END
+
+IF
+  Global("CbOriginalPeopleInteract","AR4289",0)
+  Global("CbYoshimoInteractMayor","GLOBAL",0)
+  InParty("Yoshimo")  // Yoshimo
+  Delay(3)
+  !StateCheck(Player1,STATE_SLEEPING)
+THEN
+  RESPONSE #100
+    SetGlobal("CbYoshimoInteractMayor","GLOBAL",1)
+    SetGlobal("CbOriginalPeopleInteract","AR4289",1)
+    ActionOverride("Yoshimo",StartDialogNoSet(Player1))
+END
+

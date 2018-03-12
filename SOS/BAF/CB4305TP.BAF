@@ -1,0 +1,11 @@
+IF
+  OR(2)
+    Entered([ANYONE])
+    Opened([ANYONE])
+THEN
+  RESPONSE #100
+    DisplayString(LastTrigger,14381)  // ~Trap Sprung~ [AMB_D05C]
+    CreateCreature("CB4305SN",[1840.700],0)  // ~Snake~
+    CreateCreature("CB4305SN",[1835.725],0)  // ~Snake~
+END
+

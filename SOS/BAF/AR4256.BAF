@@ -1,0 +1,16 @@
+IF
+  Global("CbPartySpokeWithSoubarThief","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ContainerEnable("CbLongChest",FALSE)
+    ContainerEnable("CbStairChest",FALSE)
+END
+
+IF
+  GlobalGT("CbPartySpokeWithSoubarThief","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ContainerEnable("CbLongChest",TRUE)
+    ContainerEnable("CbStairChest",TRUE)
+END
+

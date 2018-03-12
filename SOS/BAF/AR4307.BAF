@@ -1,0 +1,20 @@
+IF
+  GlobalLT("CbPartyHasKilledAllBandits","GLOBAL",3)
+  OnCreation()
+THEN
+  RESPONSE #100
+    CloseDoor("Door06")
+    Lock("Door06")
+    CloseDoor("Door07")
+    Lock("Door07")
+END
+
+IF
+  GlobalGT("CbPartyHasKilledAllBandits","GLOBAL",2)
+  OnCreation()
+THEN
+  RESPONSE #100
+    Unlock("Door07")
+    OpenDoor("Door07")
+END
+

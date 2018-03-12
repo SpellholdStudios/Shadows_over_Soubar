@@ -1,0 +1,16 @@
+IF
+  OR(2)
+    Entered([ANYONE])
+    Opened([ANYONE])
+THEN
+  RESPONSE #100
+    ForceSpellPoint([601.904],TRAP_FIREBALL)
+    SmallWait(5)
+    ForceSpellPoint([608.1018],TRAP_FIREBALL)
+    SmallWait(5)
+    ForceSpellPoint([530.964],TRAP_FIREBALL)
+    SmallWait(5)
+    ForceSpellPoint([450.1027],TRAP_FIREBALL)
+    SmallWait(5)
+END
+

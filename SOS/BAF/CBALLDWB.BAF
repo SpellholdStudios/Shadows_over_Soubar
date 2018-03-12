@@ -1,0 +1,49 @@
+IF
+  See([GOODCUTOFF])
+  Global("CbStopPartyFromCheating","AR4211",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbStopPartyFromCheating","AR4211",1)
+END
+
+IF
+  Global("CbLolthTheGoddessFinishedSpeaking","AR4211",1)
+  !Allegiance(Myself,ENEMY)
+  Global("CbIAmEnemyNow","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbIAmEnemyNow","LOCALS",1)
+    Enemy()
+END
+
+IF
+  HPLT(Myself,1) 
+  Global("CbThisDrowDiedAndCounted","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbThisDrowDiedAndCounted","LOCALS",1)
+    IncrementGlobal("CbLolthsProtectorsDied","AR4211",1)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  See([GOODCUTOFF])
+  !GlobalTimerNotExpired("CbMyDrowShoutedOrders","LOCALS")
+THEN
+  RESPONSE #20
+    SetGlobalTimer("CbMyDrowShoutedOrders","LOCALS",18)
+    DisplayStringHead(Myself,@10039)
+  RESPONSE #20
+    SetGlobalTimer("CbMyDrowShoutedOrders","LOCALS",12)
+    DisplayStringHead(Myself,@10040)
+  RESPONSE #20
+    SetGlobalTimer("CbMyDrowShoutedOrders","LOCALS",24)
+    DisplayStringHead(Myself,@10041)
+  RESPONSE #20
+    SetGlobalTimer("CbMyDrowShoutedOrders","LOCALS",30)
+    DisplayStringHead(Myself,@10042)
+  RESPONSE #20
+    SetGlobalTimer("CbMyDrowShoutedOrders","LOCALS",12)
+    DisplayStringHead(Myself,@10043)
+END
+

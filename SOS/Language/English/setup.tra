@@ -1,0 +1,3041 @@
+/////////////////////////////////////////////////////////////////////////////////////
+// Scripts - unified Journal entries
+/////////////////////////////////////////////////////////////////////////////////////
+//SELENCE.BAF
+@5090 = ~Selence Hillstar:  Owed Money
+
+It seems that my newest contact, a thief in Athkatla, knows something about who has been looking for me.  She has struck a deal with these people but won't tell me who just yet, and thinks she needs to test me first.  I'm not sure what its all about yet, but she says some Amnish noble owes her money.  I'm to retrieve the gold from his safe at this noble's home in the government district of Athkatla.~
+
+//CBPROM06.BAF
+@5091 = ~No More Shadows Over Soubar
+
+After defeating Rolf Sureblade and his bandits in Lyrar's Hold, I returned triumphantly to Soubar.  It was a warm reception, and I was offered the honorable position as Mayor of Soubar.  I couldn't accept it, however, and must continue on with my career as an adventurer.  The folk here are too busy rebuilding their homes, farms, or other property destroyed in the raids, and deserve a leader that they can count on.~
+@5092 = ~Chief Lieutenant Promotion
+
+The mayor of Soubar has rewarded me with the promotion to Chief Lieutenant.  Imagine, me, a simple <PRO_GIRLBOY> from Candlekeep becoming the <PRO_SONDAUGHTER> of a dead god and even rising high in the ranks of a Chief Lieutenant!~
+@5093 = ~Chief Lieutenant Promotion
+
+Gaius, the Paladin of Soubar has rewarded me with the promotion to Chief Lieutenant, in the absence of an elected official.  Imagine, me, a simple <PRO_GIRLBOY> from Candlekeep becoming the <PRO_SONDAUGHTER> of a dead god and even rising high in the ranks of a Chief Lieutenant!~
+@5094 = ~Assault on Lyrar's Hold
+
+After the assault the bandits perpetrated against Soubar, I have been authorized to use whatever force is necessary to defeat the bandits, including my own attack on their stronghold.  I've discussed the options of such an attack with the Major, but many of his men were wounded or killed in the bandit raid and he cannot afford to send men to assist me.  I will have to do it alone.  He has shown me two ways into the Keep:  an overland route which would force me to seige the castle's bailey walls, or a network of tunnels running below ground from Soubar to the Hold.  I do not know which way I will take, but both will be dangerous in their own ways.  Major has wished me good luck in my mission, and I hope to return to Soubar soon.~
+
+//CBPROM05.BAF
+@5095 = ~No More Shadows Over Soubar
+
+After defeating Rolf Sureblade and his bandits in Lyrar's Hold, I returned triumphantly to Soubar.  It was a warm reception, and I have taken over the honorable position as Mayor of Soubar.  I don't expect that there will be much to do, as many of the folk are too busy rebuilding thier homes, farms, or other property destroyed in the raids.  For now, I think I will settle down for a while.~
+
+/////////////////////////////////////////////////////////////////////////////////////
+// Dialogues - unified Journal entries
+/////////////////////////////////////////////////////////////////////////////////////
+
+//CBSBIN75.D
+@50100 = ~Spy in Soubar!
+
+Unconfirmed reports from the Mayor's office and the Major show that the bandits may be getting some information about Soubar, it's resources, defenses, and the like from an inside man.  I do not know who this could be, but I will root out the spy, if one does exist.  He will pay for his treachery.~
+@50101 = ~Possible Spy Suspects
+
+I've spoken with my old friend Winthrop about some of the happenings in Soubar which could hint at the fact that there is, or could be, a spy in Soubar.  A ranger who was visiting Winthrop's inn at the time overheard our conversation, and helped me to work out who could possibly be the spy.   We made a list of these suspects, and I will investigate each of them.
+*Ranger in Winthrop's Inn
+*Winthrop himself
+*The Mayor of Soubar, Sirrus Melandor
+*Someone who bought A. Miller's house
+*Someone, or someones, in the Soubar Social Club
+*The boy I rescued from the farm, Charlie
+*Displaced farmers fighting in an old warehouse.~
+@50120 = ~Spy in Soubar?
+
+I believe that I may have solved the mystery of a spy in Soubar.  I think that it is Winthrop, the man I thought was my freind, but he pleads innocence.  I have jailed him below the Guard Barracks where he will have to await trial.~
+@50121 = ~Spy In Soubar:
+
+It seems that the Major's suspicions have proved true.  There was a spy in Soubar, and it turned out to be, of all people, my old friend Winthrop.  Rolf Sureblade rescued him and I was ambushed during the melee.~
+
+//CB285FTX.D
+@50122 = ~Spy In Soubar:
+
+It seems that the Major's suspicions have proved true.  There was a spy in Soubar, and it turned out to be the fighters who used to be farmers in outlying farms near Soubar.  Rolf Sureblade rescued them and I was ambushed during the melee.~
+@50123 = ~Spy in Soubar?
+
+I believe that I may have solved the mystery of a spy in Soubar.  I think that it is the fighters who were displaced from their farms near Soubar, but they plead innocence.  I have jailed them below the Guard Barracks where they will have to await trial.~
+
+//CB428MJ.D
+@50103 = ~Promotion
+
+Major has promoted me to the rank of Staff Sergeant for the work I've done in the Soubar Militia.  I expect that with this rank comes greater responsibility, but also greater rewards.~
+@50105 = ~Soubar Militia Promotion!
+
+Once again, the Major was quite pleased with my completion of the missions he ordered me to perform.  He has awarded me a promotion, that to rank of Captain.  I am pleased with this, because it means that I will no longer need to use Soubar issued equipment and can use my own weapons and armor.~
+
+//CBCHRRAN.D
+@50124 = ~Spy in Soubar?
+
+I believe that I may have solved the mystery of a spy in Soubar.  I think that it is the Ranger who was staying at Winthrop's inn, but he pleads innocence.  I have jailed him below the Guard Barracks where he will have to await trial.~
+
+//CBISSON2.D
+@50125 = ~Spy In Soubar:
+
+It seems that the Major's suspicions have proved true.  There was a spy in Soubar, and it turned out to be the man who I had originally met back in Trademeet, Ceeb Isson.  Rolf Sureblade rescued the man and I was ambushed during the melee.~
+
+//CBSIRRUS.D
+@50126 = ~Soubar Attacked!
+
+Soubar was attacked by a small contingent of bandits earlier, and the death toll could not even be calculated.  I do not know how many Soubarians or guardsmen lost their lives to the bandits, but I am becoming increasingly upset that Major will not allow me to attack the keep known as Lyrar's Hold.  Something must be done for the town, and I feel that I am wasting my time by defending it.~
+@50127 = ~Spy In Soubar:
+
+It seems that the Major's suspicions have proved true.  There was a spy in Soubar, and it turned out to be, of all people, the Mayor of Soubar himself, Sirrus Melandor.  Rolf Sureblade rescued the Mayor and I was ambushed during the melee.~
+@50106 = ~Arrived in Soubar
+
+We've finally arrived in the town of Soubar.  I've met with the mayor of the town, a man by the name of Sirrus Melandor.  He seems to be quite concerned about his town and the consequences it would face if the bandits were able to take control of the community.  Melandor is reluctant to send me straight out to do battle with the bandits harrassing the communities in the Chionthar Valley, and I agree with him.  Violence is not always the answer, and we all feel that if violence can be avoided, it would be best.  He has asked me to join up with the Soubar Militia, hoping that I will be able to defend the town and at the same time earn the respect of the villagers.  This I will do, and indeed, I will strive to make a difference within Soubar and defend its populous with my life.~
+
+//CBSOUMJ1.D
+@50107 = ~Enlisted
+
+I've met with the leader of the Soubar Militia, the Major.  I've enlisted as a private in the military, and was forced to turn over all my personal belongings to the militia.  I am told, however, that they will be kept safe and that once I am released from my duties or promoted to an enlisted officer, all my belongings will be returned.  But for now, I will remain a private in the Guard.~
+@50108 = ~Road Patrol
+
+The Major has given me my first mission as a Private.  I am to report to the sergeant on the northern edge of Soubar where I will begin a tour of guard duty.  I do not know if the bandits will attempt to break through into town, but with me on the watch, I will do all that I can to prevent the death of innocent villagers in Soubar.~
+@50102 = ~Rescue Scouts
+
+Major has given me another mission.  Along with a sergeant, we'll be heading up to an outlying farm north of Soubar.  He has reported that a scouting party was ordered into that area to observe the tactical movements of the bandits.  Unfortunately, they did not return from their own mission, and Major wants me to find out what has happened to them.~
+
+//CBSOUMJ2.D
+@50104 = ~Displaced Villagers
+
+Major has assigned me a mission in which he wants me to police the town.  As the bandits have sacked the village of Triel, west of Soubar, many of the refugees who escaped that town have migrated to Soubar.  Major is afraid that they will cause problems for Soubarians or the businesses, and asked that I spend time at the Narwhal, a posh inn/tavern on the west side of Soubar.  ~
+@50109 = ~Training Militia Men
+
+Since the incident at the Narwhal, Major has ordered me to begin the training of the Triel prisoners in hopes that they will be able to assist Soubar against the bandits.  This I will have to do, but Major has hinted that he is pleased with my performance and will promote me once again if the men are trained properly.~
+
+//CBSOUMJ3.D
+@50111 = ~Messenger Boy
+
+I thought that becoming a Captain would give me certain privileges in the Soubar militia, but apparently not.  Major has requested that I deliver two letters to the leaders of powerful organizations in Amn.  One letter needs to go to Prelate Wessalen, leader of the Order of the Most Radiant Heart.  The other will be brought to Trademeet and delivered to Lord Logan Coprith.~
+@50128 = ~Assault on Soubar!
+
+The bandits, in retribution for the trouble I have caused Rolf Sureblade, have made an all out assault on Soubar.  Many, many villagers, guard, and others have died or gone missing in the attack.  I was able to beat off the bandits, but some happened to escape.  For this outrage, I shall hunt each bandit which has caused this trouble to the ends of Faerûn if I have to.  I have told the Major what occured, and he has told me that his Chief Lieutenant was slain while fighting the bandits.  He wants me to take the position, and I would be pleased to take over that coveted post.~
+@50110 = ~Captain of a Company
+
+The Major has assigned me a company of Soubar guards.  He has asked that I order the men to do the tasks that I used to do, guarding and patrolling the town, and to use my own judgement in doing so.  Major told me that the company was assemble outside the guard barracks and awaited me there.~
+
+//CHARLOTJ.D
+@50113 = ~Ranger Status:  Charlotte
+
+As a ranger, Charlotte seems to know quite a bit about the region near Soubar, especially the woodlands south of Soubar and west of Baldur's Gate.  It is indeed fortunate that she was helping us, as we had to cross the mighty River Chionthar.  The point where we crossed had some swift undercurrents and was indeed COLD!  Thankfully, Charlotte told us all what to do, and we were able to get from the southeast bank to the northwest bank with little trouble.
+And Charlotte is becoming more and more like a ranger again.  Hopefully, she'll regain her status soon.~
+@50114 = ~Ranger Status:  Charlotte
+
+Charlotte the fallen ranger and I have returned for a quick check on the River Chionthar's headwaters.  Things look like they are just about back to normal there.  It is good, and we think that the belladonna poison dumped in the waterway was not in large quanities, so the impact on wildlife and communities downstream will be minimal.
+And Charlotte is closer still to understanding how she has fallen from grace as a ranger, and has taken a step closer to regaining the respect of others as a true Ranger.~
+@50208 = ~Ranger Status:  Charlotte
+
+Charlotte has recovered her ranger status.  It is good to see her happy once again.~
+
+//CHARLOT0.D
+@50115 = ~River Chionthar Cleaned Again!
+
+After encountering a fallen ranger and her pet lion, we found that the mighty Chionthar running down to Baldur's Gate had been poisoned by an unwitting ogre.  The ogre, Narulf by name, had been instructed by his boss to toss a number of bottles of belladona juice into the river.  The ranger had been attempting to help a number of wild beasts who became ill and rabid from the belladona.   It was indeed lucky that we came upon the ogre before the enviornment took to much damage and may have been unable to heal itself naturally.  As we did discover the acts of Narulf in time, the river will of course clean itself as it runs its course; no pun intended.  Perhaps we'll return to see how well nature is recovering in a few days.~
+
+//CB232CLU.D
+@50200 = ~Spy In Soubar:
+
+It seems that the Major's suspicions have proved true.  There was a spy in Soubar, and it turned out to be the boy I rescued from a farm, Charlie.  Rolf Sureblade rescued the boy and I was ambushed during the melee.~
+@50202 = ~Burning Farms
+
+While fighting bandits at a farmstead north of Soubar, I found a young boy by the name of Charlie.  He was able to escape the bandits and avoided his own death by hiding within the apple orchard.  He has told me that he saw what happened to his family when the bandits attacked the farm, but did not happen to see any Soubar scouts in the area.  I do not know if they had actually passed through the farm, nor if they themselves had been ambushed and killed by the bandits.  I will return to Soubar and report this to the Major.~
+
+//CBWILLMA.D
+@50201 = ~Sir William's Man Troubles
+
+It seems that Selence Hillstar caught one of Athkatla's more prominent nobles in a compromising situation.  I'm not sure how he will resolve it for himself, but as far as I am concerned, I've got the key to his safe and am now going to get his money for Selence as a bribe to keep her quiet about Sir William's bedroom affairs.~
+
+//CBLDBUCK.D
+@50203 = ~Lord Hammerhand Bucko's Mansion
+
+I was successfully able to clear out Bucko's mansion from the werebeast's infestation.  I don't think that they will return, but I may visit him again just to be sure.~
+
+//CBISSON1.D
+//CBCUTDF2.D
+@50204 = ~A Lesser Bhaalspawn?
+
+Could it be true?  I met a sorcerer today at Vyatri's in Trademeet.  He seemed a bit off his nut, but knew about me.  He said that he also had the blood of Bhaal in his veins, but whether through birth or vile experiments like what Irenicus conducts, I do not know.  It matters not either way.  Ceeb Isson, the powerful and god-like Bhaalspawn sorcerer, told me that there were some folks looking for me.  He did not know if they wanted me for good or ill, but I have a feeling I will meet them, and find out.
+
+Hopefully, I will also have the chance to test my mettle against Ceeb, for I suppose there can only be one by the time I am finished.~
+
+//TOMASTOJ.D
+@50205 = ~Rats Rats Rats
+
+A professional in Athkatla had taken the afternoon off from his trade and must have unwittingly acquired a Pipe of the Sewer.  He had been playing it for quite some time, and drew hundreds of rats to the city.  I was able to persuade him to stop playing the pipe, and he retired back to his trade.  The rats have lost the attraction they had for this Piper, and eventually will find other areas to infest.~
+
+//TOMASTO1.D
+@50206 = ~Tomas hunts after a half-orc named Sureblade.  He has told us that Sureblade has killed someone close to him.~
+
+//SELENCE.D
+@50207 = ~Selence Finally Gave Me Something Useful
+
+Selence Hillstar, the smuggler/fence in Athkatla, has finally told me what I need to know.  She gave me a key which will open a locked door in an inn someplace in the city.  She said it was a popular inn, and there's only two major inns here in Athkatla.  The Five Flagons, where I met her earlier, would be a good choice, but on the other hand, the Copper Coronet is another popular tavern.  It must be one of those.  From there, she said I would find something to lead me to those men that have been looking to meet with me.  I shall have to go to one of those taverns and see if I can find any clues.~
+
+//////////////////////////////////////////////////////////
+// Fixing invalid dialog.tlk strings (BG1 part mostly)
+//////////////////////////////////////////////////////////
+@9048 = ~Ahh yes, the... ahh... tab.  Um... another ale young miss, and I'll be sure to have your funds ready.~ [VOLOO01]
+@9087 = ~You're rather outlandish folk to be wanderin' 'round here.~ [HALFL02]
+@9088 = ~I wish I had me old tobacco pipe. ~ [HALFL04]
+@9089 = ~Me temper's bad enough without ye botherin' me!~ [DWARF03]
+@9090 = ~I gotta stop dippin' in me own ale.~ [BARTN03]
+@9091 = ~You're not mercenaries, are ya?  I hate those money grubbin' scum.~ [INNKE04]
+@9112 = ~Touch me not... you are unclean.~ [NOBw202]
+@9131 = ~I AM the law!~ [FLAMN02]
+
+
+//////////////////////////////////////////////////////////
+// SCRIPTS
+//////////////////////////////////////////////////////////
+
+@10000 = ~You have tied both ends of the hemp rope around the tree trunks.  A makeshift "bridge" now crosses the river.  You can make your way across the Chionthar now without losing your footing or being affected by the current.~
+@10001 = ~Catapult crew begins loading burning pitch.~
+@10002 = ~Catapult crew tightens winch, cocking the catapult arm.~
+@10003 = ~Catapult crew launches burning pitch.~
+@10004 = ~Don't leave your flank exposed!~
+@10005 = ~Downward cuts!  Follow through!~
+@10006 = ~Watch your blade's angle of contact.~
+@10007 = ~Not bad.~
+@10008 = ~Aim for just above your target, lest the arrow drop too low.~
+@10009 = ~Notch the arrows faster, men.~
+@10010 = ~Keep the string against your cheek.~
+@10011 = ~Good job, men.~
+@10012 = ~Slash at a horizontal level.~
+@10013 = ~Keep your elbow bent.~
+@10014 = ~Hold the blade steady and follow through.~
+@10015 = ~Nicely done.~
+@10016 = ~Thrust straight at the target!~
+@10017 = ~Choke down on your grip, soldier!~
+@10018 = ~Aim for chinks in the armor!~
+@10019 = ~After you turn the corner, the hallway leads down into near pitch-darkness.  Your adventuring experiences have taught you to dread places like this.~
+@10020 = ~You look at your companions with a knowing look, and nod.  Each of you have faced death before, and are sure you will again.  The entire group has the same unspoken thought: this could be the end.~
+@10021 = ~But there is no need to stop now.  Either you continue on, bravely facing whatever challanges lie ahead, or turn tail and retreat.~
+@10022 = ~Too much work here.  We should have more help.~
+@10023 = ~A few of the tables have been cleared Oscar.  You can sit people over here.~
+@10024 = ~The tables all cleared, Oscar.  You can get people to sit down if they want.~
+@10025 = ~Oscar, the dishes are all done being washed and dried.  I'm going on break.~
+@10026 = ~Can I get you anything?~
+@10027 = ~Some whitefish, a platter of cheese, some bread, and a beer.~
+@10028 = ~I'll let Oscar know.  Be back with it in a minute.~
+@10029 = ~Beef ribs and some wine, if you please.~
+@10030 = ~More dirty dishes for ya.  Here~
+@10031 = ~Just great.  You wash 'em.~
+@10032 = ~Attack!  Keep Firing!~
+@10033 = ~Keep shooting and they'll not get in!~
+@10034 = ~Don't worry, boys.  We built her strong.  She'll hold!~
+@10035 = ~Men!  We have them where we want them!  They can't break in!~
+@10036 = ~Men!  We need to shore up the gate!  Get some men on the machinations!~
+@10037 = ~She's weakening!  Notch and let fly faster, boys!~
+@10038 = ~The gate!  She's going to collapse!  Archers, to the rear!  Halbardiers!  FORWARD!~
+@10039 = ~Oloth plynn dos!~
+@10040 = ~Hlaund ulu usstan!~
+@10041 = ~Khaless nau uss!~
+@10042 = ~For Quarval-sharess!~
+@10043 = ~Usstan streea!~
+@10044 = ~Soldier!...hush yourself.  I heard noises yonder.~
+@10045 = ~What?  Where?~
+@10046 = ~Over the ridge there?  See it?~
+@10047 = ~Bandits!  We must warn the others!  There's not many, but well armed.~
+@10048 = ~Shoot as many as you can, but if they get too close, we'll displace and return back to the village!~
+@10049 = ~Retreat!  Come... hide in the brush!  Get back to Soubar!~
+@10050 = ~The tunnels are collapsing!  You run for your life!~
+@10051 = ~The east bank of the River Chionthar is steep, but there are plenty of exposed roots and crumbling rock that if you wanted to climb down, you can scale the cliff with little trouble.~
+@10052 = ~You try to climb down the east bank of the Chionthar, but lose your hand-hold and slip down.~
+@10053 = ~The east bank of the River Chionthar is steep, but there are plenty of exposed roots and crumbling rock that if you wanted to climb up, you can scale the cliff with little trouble.~
+@10054 = ~You try to climb up the bank of the Chionthar, but slip and fall back down into the cold waters.~
+@10055 = ~joins your network of thieves.~
+@10056 = ~Once again, your power in the underground black market has influenced a fellow thief.  You gain an additional contact in your network of thieves.  Your new contact is an ally of yours, but will not remain loyal if mistreat this follower of yours.  In addition, your latest contact will not follow you from region to region, but will however help you out if he notices you need help.~
+@10057 = ~It seems Ribald Barterman has discovered his shop has been broken into through this part of the foundation of the Adventurer's Mart.  He has hired masons, and the hole has been sealed up with heavy concrete blocks and cement.  You cannot climb up into the basement without a Stone to Mud spell, a Passwall spell, a similar magical spell, or excavating equipment.  Besides, there seems to be no point in returning to the scene of the crime.~
+@10058 = ~SARN!  SREEN!  THALACKZ'HIND!  QUARVAL-SHARESS ORTHAE SSUSSUN ELGG!~
+@10059 = ~Agreed, gentlemen.  We need to get the Lord's Alliance to help us.~ [CB_74163]
+@10060 = ~Without thier support, we cannot possibly hold out for long against the bandits up at Lyrar's.~ [CB_74164]
+@10061 = ~We have contacted Piergeron and the Lords of Waterdeep, Mayor.  They do nothing.~ [CB_74165]
+@10062 = ~No, Gaius, that's not completely true.  They cannot do anything as they are bound to protect their own interests.  Rumors of war in the south keep them from acting.~ [CB_74166]
+@10063 = ~Then we must find someone unfettered by such political restraints.~ [CB_74167]
+@10064 = ~Can the city coffers afford to hire more soldiers?  Mercenaries?~ [CB_74168]
+@10065 = ~Mayor, there is no way that Soubar can afford such contracts with mercenary companies.~ [CB_74169]
+@10066 = ~There is no way Soubar can survive if we do not.~ [CB_74170]
+@10067 = ~Then what do you suggest we do, Mayor Melandor?~ [CB_74171]
+@10068 = ~Truly, I do not know.  Arvin, my friend.  Do you have any suggestions?~ [CB_74172]
+@10069 = ~Why not one of the Bhaalspawn from Tethyr themselves?~ [CB_74173]
+@10070 = ~Are you mad?  A Bhaalspawn?  From Saradush?  In Soubar?~ [CB_74174]
+@10071 = ~No, we cannot.  We must not bring a Bhaalspawn here.  It would be worse than the bandits.~ [CB_74175]
+@10072 = ~Ah, my good "mayor."  How good to see you once again.~
+@10073 = ~You!  Why do you come here?  You are not welcome in our town!~ [CB_74177]
+@10074 = ~But I will be.  To answer your question:  to give you another chance.  I wish no violence.  You know that.  We can settle this in other, more civilized ways.~
+@10075 = ~Surrender this town to me now, and the city shall be spared.  Unlike Triel.~
+@10076 = ~Never!  I could not do that.  I will not!  And you are most certainly not civilized.~ [CB_74180]
+@10077 = ~Sirrus, you make a grave mistake.  One you and your town shall regret.~
+@10078 = ~Get your bastard orcan stench out of here!  You shall not intimidate us.  You are nothing more than a spineless half-breed *atchimeyr*.~ [CB_74182]
+@10079 = ~Gaius, calm yourself.  We will remain civil while in this Hall.~ [CB_74183]
+@10080 = ~Mayor, Arvin was right.  I have reconsidered.  I think his suggestion earlier was valid.  We must do it.~ [CB_74184]
+@10081 = ~Thank you, Lord Varros.  I appreciate your support.  We shall leave tomorrow to bring one here then.~ [CB_74185]
+@10082 = ~Very well.  Now, get this... this thing out of my town.  You are not welcome here.~ [CB_74186]
+@10083 = ~Be careful on your journey, Arvin.  We cannot afford to fail.  For all of Soubar, we must succeed.~ [CB_74187]
+@10084 = ~Besheba's Breasts!  Where are my men?!?~
+@10085 = ~<CHARNAME>, you shall not leave my castle alive!~
+@10086 = ~Come, you Bhaalspawn, and meet me in my private quarters!~
+@10087 = ~Reinforcements! Forward!~
+@10088 = ~Soldier, get some reinforcements!~
+@10089 = ~Where is the one called <CHARNAME>?~
+@10090 = ~If you turn <CHARNAME> in, the town will not be punished any further!~
+@10091 = ~Sureblade wants the head of <CHARNAME>!~
+@10092 = ~Ten-thousand gold to he who gives us <CHARNAME>!~
+@10093 = ~Unless you turn over <CHARNAME> to us, we will kill every man, woman and child!~
+@10094 = ~Give us <CHARNAME> now!~
+@10095 = ~Cover me!  Kill them!~
+@10096 = ~I'll find our men.~
+@10097 = ~Hang on.  We'll have you out of there in no time.~
+@10098 = ~Let's go.  Sureblade wants a word with you.~
+@10099 = ~Good day to you.  If you need anything while here at The Singing Sword, just let me know.~
+@10100 = ~Welcome to The Singing Sword.  If you need anything, just call out.~
+@10101 = ~Where are all the Soubar Guard?~
+@10102 = ~We need more supplies and soldiers.~
+@10103 = ~May the Gods protect us all.~
+@10104 = ~Hopefully this will be over soon.~
+@10105 = ~The bandits have sacked Triel.~
+@10106 = ~Hope the bandits don't come here anymore.~
+@10107 = ~Sure hope food and more supplies come soon.~
+@10108 = ~What is Melandor doing?  Why isn't he getting more guards?~
+@10109 = ~Where in Hades are all these rats coming from?~
+@10110 = ~Talona has sent her servants to Athkatla!  The Mistress of Disease is coming!~
+@10111 = ~Damn rats are everywhere!~
+@10112 = ~If only someone would clean up the city, we wouldn't have so many rats in the gutters.~
+@10113 = ~Click the tree trunk again to tie one end of the rope around it to begin making a temporary bridge to assist in crossing the River Chionthar.~
+@10114 = ~You tied one end of the hemp rope around the tree trunk on the east bank.  Now you must tie the other end.~
+@10115 = ~Thief!  You dare steal from me?  I shall take what is rightfully mine!~
+@10116 = ~What?  Steal from you?  What could you have that possibly would be of value to me?  Bugger off before I call the guard.~
+@10117 = ~You lie!  I shall inform the authorities myself.  You shall not get away with this.~
+@10118 = ~Like they'll listen to a simple peasant.  Fool.~
+@10119 = ~Hmm, you can't trust the military. Best if we stash our gear somewhere safe before we join up, or they'll confiscate all our good stuff.~
+
+
+////////////////////////////////////////////////////////////////////////
+// TP2
+///////////////////////////////////////////////////////////////////////
+@20000 = ~Shadows Over Soubar~
+@20001 = ~Registering GUI...~
+
+@20003 = ~ Baldur's Gate<TM> and the Tales of the Sword Coast<TM> or play ~
+@20004 = ~"Tortured Souls"~
+@20005 = ~%separator%"The Darkest Day"~
+@20006 = ~%separator%"Shadows Over Soubar"~
+@20007 = ~ with the new expansion(s): ~
+@20008 = ~%separator%"Neverending Journey"~
+@20009 = ~%separator%"Big Picture"~
+@20010 = ~%separator%"Check The Bodies"~
+@200101 = ~%separator%"Region Of Terror"~
+@20011 = ~Play%bgt%Shadows of Amn<TM>%separator2%%ts%%tdd%%sos%%nej%%bp%%ctb%%rot%~
+@20012 = ~Fixing incorrect strings......~
+@20013 = ~Updating Worldmap...~
+@20014 = ~Snake Woods~
+@20015 = ~Troll Mountains~
+@20016 = ~Eshpurta~
+@20017 = ~Hall of Knowledge Entrance~
+@20018 = ~Riatavin~
+@20019 = ~Deep Mir Forest~
+@20020 = ~Haunted Forest~
+@20021 = ~Trollford~
+@20022 = ~Orgoth's Tower~
+@20023 = ~Purskal~
+@20024 = ~Rusted Scabbard Entrance~
+@20025 = ~River Chionthar~
+@20026 = ~Patching rulesets (2DA, IDS)...~
+
+@20028 = ~Amaunator's Legacy~
+@20029 = ~Sunray~
+@20030 = ~Breath of Auril~
+@20031 = ~Cone of Cold~
+@20032 = ~Cynicism~
+@20033 = ~Find Traps~
+@20034 = ~Knock~
+@20035 = ~Kiss of the Gloomfrost~
+@20036 = ~Storm of Vengeance~
+@20037 = ~Free Action~
+@20038 = ~Blur~
+@20039 = ~Mirror Image~
+@20040 = ~Blindness~
+@20041 = ~Color Spray~
+@20042 = ~Cloak of Fear~
+@20043 = ~Demon Staff~
+@20044 = ~Summon Tanar'ri~
+@20045 = ~Slayer Change~
+@20046 = ~Hellblade:  Lifeeater~
+@20047 = ~Haste~
+@20048 = ~Hellblade:  Souldrainer~
+@20049 = ~Negative Plane Protection~
+@20050 = ~Hellblade:  Souldevourer~
+@20051 = ~Tenser's Transformation~
+@20052 = ~Hellblade:  Soulsucker~
+@20053 = ~Minor Globe of Invulnerability~
+@20054 = ~Hellblade:  Soulskinner~
+@20055 = ~Stoneskin~
+@20056 = ~Hellblade:  Soulzapper~
+@20057 = ~Mist Horror~
+@20058 = ~Hungersword~
+@20059 = ~Symbol of Death~
+@20060 = ~Barbarian Rage~
+@20061 = ~Wizard Eye~
+@20062 = ~Cure Blindness~
+@20063 = ~Detect Invisibility~
+@20064 = ~Staff of Skills~
+@20065 = ~Cure Serious Wounds~
+@20066 = ~Animate Dead~
+@20067 = ~     The farms north of Soubar are normally quiet and peaceful places.  One could relax under a large oak tree or stretch under the sun besides a small pond under normal circumstances.  Unfortunately, with the troubles in the Chionthar Valley, the rolling hills on which large tracts of plowed vegetable plots, livestock pastures, or great apple orchads are worked are not a pleasant place to visit.  Bandits from Lyrar's Hold have ransacked more than one small farm, and on your day's journey north of the town, you can see the black smoke smoldering from a burned farmhouse.  
+     As you enter the field of one such farm, the stench of decaying animals is noticable.  In the distance, from your hiding place over a ridge, you can see a number of bandits still roaming the farm.  There are no farmers in sight, but you pray to your gods that at least a few survived the attack.~
+@20068 = ~SUREBLADE DEFEATED:
+
+   You heave a sigh and briefly survey the damage of the tower's upper floor in Lyrar's Hold.  The room is a mess: stains of splattered blood- both Rolf's and your own- create random patterns of death on the walls, furnishings are scratched, sliced, and crushed to kindling, and metal plates of broken armor litter the floor.
+   It was a monumental battle, one you will remember for all your days as an adventurer.  The battle with Rolf Sureblade, who lies dead at your feet, ranks as high in your mind as such battles as that you have had with foes like Sarevok below the city of Baldur's Gate, the first time you encountered a hostile gnoll, the battle you had against a Demon Knight deep in the dungeons of Durlag's Tower, the first time you slew a dragon, battling against fighters and mages of the Cult of the Dragon, and fighting your way out of the Underdark with drow at your heels.
+   Your quests as an adventurer have taken you to many exotic places, many fantastic worlds, and allowed you to meet all types of folk- both good and bad- from Faerûn and other worlds too.  But, by the same token, your adventurers have taken their toll on you, soul and body, and you are tired.  
+   Leaning heavily on the grip of your weapon, Rolf lies dead at your feet.  With his death, Soubar and the entire River Chionthar Valley can return once again to its peaceful state.  Without a leader to guide them in acts of oppression, the remaining brigands and bandits still holed up in Lyrar's are bound to disperse.  Yet you still have one more task to take care of to finish this business, clearing the Shadows Over Soubar: reporting your success to the Major of Soubar.  It will not take you long to return there, and you hope that with the completion of these missions, the Major will see fit to release you from the militia, where you can choose to continue your adventures in Amn or Tethyr, or settle down to a nice fireplace hearth at a home-like inn.~
+@20069 = ~Installing dialogues...~
+@20070 = ~Patching original BG2 areas and scripts...~
+@20071 = ~The Adventurer's Mart is closed for the night.  You will have to wait until morning when Ribald opens shop.~
+@20072 = ~Installing new scripts...~
+@20073 = ~Installing new areas...~
+@20074 = ~The cobwebs, both natural and unnatural, make access to this oubliette not only difficult, but messy.~
+@20075 = ~Soubar Social Club~
+@20076 = ~The Narwhal~
+@20077 = ~Soubar Guard Barracks~
+@20078 = ~Soubar Town Hall~
+@20079 = ~Chauntean Science Reading Room~
+@20080 = ~North To Lyrar's Hold~
+@20081 = ~South To The River Chionthar~
+@20082 = ~Night~
+@20083 = ~Red Dragon Over Ansalon~
+@20084 = ~The Fall of Istar~
+@20085 = ~Abstract Art~
+@20086 = ~These are sacks, barrels, and containers of various foodstuffs and non-perishable goods.  Apparently, this lower section of the Soubar Prison is also used as storeroom for emergency rations for the town.~
+@20087 = ~Lyrar's Hold~
+@20088 = ~This is a statue of Tyche or perhaps an even older version of the goddess of luck, presides over the casket of Lyrar.~
+@20089 = ~These towering stone statues all bear the likeness of the same stern-faced, robed figure.~
+@20090 = ~Installing creatures...~
+@20091 = ~Bolivar~
+@20092 = ~Aye?~ [CBBOL_16]
+@20093 = ~We're done fer.~ [CBBOL_01]
+@20094 = ~Wot?  Do ya 'xpect our enemies ta come to us?~ [CBBOL_13]
+@20095 = ~I'll be doin' the leadin', now.~ [CBBOL_09]
+@20096 = ~I've 'ad enough fun fer one day.  Time ta sleep now.~ [CBBOL_11]
+@20097 = ~Enough of this.  Let's get to work.~ [CBBOL_12]
+@20098 = ~I'll split ya in two.~ [CBBOL_04]
+@20099 = ~Come 'ere, ya wretch.~ [CBBOL_05]
+@20100 = ~Die!~ [CBBOL_06]
+@20101 = ~I'll wash me beard in your blood.~ [CBBOL_07]
+
+@20103 = ~Cannot... go.. on.....~ [CBBOL_15]
+@20104 = ~I'm needin' a healer.~ [CBBOL_14]
+@20105 = ~Oh, when all else fails, put the dwarf up front.~ [CBBOL_08]
+@20106 = ~You really have no clue, do ya?~ [CBBOL_30]
+@20107 = ~Wot?~ [CBBOL_17]
+@20108 = ~I'm 'ere.~ [CBBOL_18]
+@20109 = ~mmm?~ [CBBOL_19]
+@20110 = ~Yeah?~ [CBBOL_21]
+@20111 = ~I 'ear ya.~ [CBBOL_22]
+@20112 = ~That's right, keep pushin' it.~ [CBBOL_31]
+@20113 = ~Right then.~ [CBBOL_24]
+@20114 = ~Watch me go.~ [CBBOL_25]
+@20115 = ~Easy as goblin pie.~ [CBBOL_29]
+@20116 = ~Aye.~ [CBBOL_27]
+@20117 = ~Is that all?~ [CBBOL_28]
+@20118 = ~Rest ye now, brave friend.~ [CBBOL_39]
+@20119 = ~Ye shall not be forgotten.~ [CBBOL_40]
+@20120 = ~Is that the best ya can do?~ [CBBOL_34]
+
+@20122 = ~Hope ya choke on that thing.~ [CBBOL_33]
+@20123 = ~Damn your eyes.~ [CBBOL_32]
+@20124 = ~It's no use... flee!~ [CBBOL_02]
+@20125 = ~BOLIVAR is a dwarf of average dwarven build, height, and weight.  He is not particularly a talker, and any questions about his past result in a gruff and drunken 'bugger off', usually followed by a thrown rock to the back of the asker's head.  
+Bolivar's past may not be particularly clear, but his personality is.  Bolivar is the archetypical dwarf: gruff, short, rude, and drunk.  Bolivar will drink anything he can find,  and if the beverage has been fermented, all the better for him.  His temper is quite short, and whether from being a dwarf, being short, being drunk, or just being, you can't quite tell.  But it may be better not to find out why he's so mean.~
+@20126 = ~Bandit Orc~
+@20127 = ~Squad Bandit~
+@20128 = ~Squad Leader~
+@20129 = ~Charlie~
+@20130 = ~Cow~
+@20131 = ~Adventurer~
+@20132 = ~Horse~
+@20133 = ~Halfling Thief~
+@20134 = ~Soubar Villager~
+@20135 = ~Cat~
+@20136 = ~Fighter~
+@20137 = ~Soubar Captain~
+@20138 = ~Catapult Operator (First Squad)~
+@20139 = ~Catapult Operator~
+@20140 = ~Catapult Operator (Second Squad)~
+@20141 = ~Triel Villager~
+@20142 = ~Gnoll~
+@20143 = ~Hobgoblin Warrior~
+@20144 = ~Orc Archer~
+@20145 = ~Troll~
+@20146 = ~Dishwasher~
+@20147 = ~Scullery Maid~
+@20148 = ~Wine Broker~
+@20149 = ~Edward~
+@20150 = ~Erdane~
+@20151 = ~Reyna~
+@20152 = ~Soubar Major~
+@20153 = ~Bandit Archer~
+@20154 = ~Gatekeeper~
+@20155 = ~Gatehouse Porticullis~
+@20156 = ~Bandit Giant~
+@20157 = ~Alduvar Snowbrand:  Sureblade's Mage~
+@20158 = ~Alduvar Snowbrand~
+@20159 = ~Narulf~
+@20160 = ~Lord Arvin Kothonos: Mage of Soubar~
+@20161 = ~Arvin Kothonos~
+@20162 = ~They are too powerful! Retreat!~ [ILLASE06]
+@20163 = ~Die fools!~ [ILLASE02]
+@20164 = ~Red slayers!~ [ILLASE03]
+
+
+@20167 = ~You will not stand in my way.~ [ILLASE01]
+@20168 = ~Amnish Soldier~
+@20169 = ~Amnish Legionary~
+@20170 = ~Well, Yaga-Shura hasn't run into weapons like the ones I wield!~
+@20171 = ~Banedead~
+@20172 = ~Banelich~
+@20173 = ~Undestroyed Banelich~
+@20174 = ~Master Werewolf~
+@20175 = ~Burnbones~
+@20176 = ~Chauntean Pastor~
+@20177 = ~Grizzly Bear~
+@20178 = ~Spotted Lion~
+@20179 = ~Wolf~
+@20180 = ~Ranger~
+@20181 = ~Soubar Guard~
+@20182 = ~Deep Dragon: Drake~
+@20183 = ~Deep Dragon~
+@20184 = ~Deep Dragon: Humaniod~
+@20185 = ~Deep Dragon: Snake~
+@20186 = ~Betra Bucko~
+@20187 = ~Drider Cleric~
+@20188 = ~Drider Fighter~
+@20189 = ~Drider Wizard~
+@20190 = ~Dart Player~
+@20191 = ~Dart Board~
+@20192 = ~Drow Warrior~
+@20193 = ~Drow High Handmaiden of Lolth~
+@20194 = ~High Handmaiden~
+@20195 = ~Drow High Priestess of Lolth~
+@20196 = ~High Priestess~
+@20197 = ~Drow Wizard~
+@20198 = ~Gaius Varros:  Paladin of Soubar~
+@20199 = ~Gaius Varros~
+@20200 = ~Greater Bone Fiend~
+@20201 = ~Bandit~
+@20202 = ~Ceeb Isson~
+@20203 = ~Brothers of the Vigil retreat!~ [ODREN06]
+@20204 = ~For the glory of Helm!~ [ODREN02]
+@20205 = ~Helm guide my hand!~ [ODREN03]
+
+
+@20208 = ~May Helm watch over you.~ [ODREN01]
+@20209 = ~Ken the Baker~
+@20210 = ~Lord Hammerhand Bucko~
+@20211 = ~Lord Bucko~
+@20212 = ~Avatar of Lolth~
+
+
+
+
+@20217 = ~You dare to approach, mortal?~ [DEMOG01]
+@20218 = ~Lolth, the Spider Queen~
+@20219 = ~Lolth~
+@20220 = ~Leeta Bucko~
+@20221 = ~Magic Mouth~
+@20222 = ~Prison Keeper~
+@20223 = ~Rabid Wolf~
+@20224 = ~Rabid Bear~
+@20225 = ~Rabid Deer~
+@20226 = ~Rolf Sureblade:  Bandit Leader~
+@20227 = ~Rolf Sureblade~
+@20228 = ~Good fun! HAH!!~ [GROM02]
+@20229 = ~Fools to face me!~ [GROM03]
+
+@20231 = ~N-not...possible...~ [GROM05]
+@20232 = ~Dawnbringer Alvanna~
+@20233 = ~Piper~
+
+
+
+@20237 = ~Soubar Sergeant~
+@20238 = ~Bathing Woman~
+@20239 = ~Berde Cedmac~
+@20240 = ~Johan Branding~
+@20241 = ~Ludwig Kross~
+@20242 = ~Oscar Kerlin~
+@20243 = ~Marie Moorland~
+@20244 = ~Eryn Lashir~
+@20245 = ~Winthrop~
+@20246 = ~Auberigine~
+@20247 = ~Voron Lashir~
+@20248 = ~Sleeping Soubarian~
+@20249 = ~Forel Lashir~
+@20250 = ~Challot~
+@20251 = ~Gaolla Lashir~
+@20252 = ~Susan Branding~
+@20253 = ~Jill Ann Kross~
+@20254 = ~Laura Kross~
+@20255 = ~Karl Kross~
+@20256 = ~Taxidermist~
+@20257 = ~Soap Maker~
+@20258 = ~Butcher~
+@20259 = ~Wheelwright~
+@20260 = ~Fishmonger~
+@20261 = ~Perfumer~
+@20262 = ~Accountant~
+@20263 = ~Apothecary~
+@20264 = ~Baker~
+@20265 = ~Barber~
+@20266 = ~Brewer~
+@20267 = ~Chandler~
+@20268 = ~Cobbler~
+@20269 = ~Florist~
+@20270 = ~Goldsmith~
+@20271 = ~Healer~
+@20272 = ~Lapidary~
+@20273 = ~Lumber Dealer~
+@20274 = ~Mason~
+@20275 = ~Money Changer~
+@20276 = ~Potter~
+@20277 = ~Sage~
+@20278 = ~Tailor~
+@20279 = ~Tool Maker~
+@20280 = ~Undertaker~
+@20281 = ~Woodcarver~
+@20282 = ~Sendai~
+@20283 = ~Roger the Fence~
+@20284 = ~Sirrus Melandor: Mayor of Soubar~
+@20285 = ~Sirrus Melandor~
+@20286 = ~Abor Bucko~
+@20287 = ~Small Spider~
+@20288 = ~Abominable Snowman~
+@20289 = ~Korhun Bucko~
+@20290 = ~Mummified Banite~
+@20291 = ~Sewer Pipe~
+@20292 = ~Tanar'ri~
+@20293 = ~Adventurer Gaelion~
+@20294 = ~Gaelion~
+@20295 = ~Adventurer Maltanar~
+@20296 = ~Maltanar~
+@20297 = ~Adventurer Mercurial~
+@20298 = ~Mercurial~
+@20299 = ~Honor and glory shall be ours!~ [CBTBGMEA]
+
+@20301 = ~In the name of the Vistani, I curse you!~ [CBTBGME8]
+@20302 = ~Onward then, and into the annals of legend.~ [CBTBGMEB]
+@20303 = ~Best we consider turning in for the night.  My reflexes are not so sharp.~ [CBTBGMEC]
+@20304 = ~If all I wanted from life was to stand about and whistle, I would be doing it in a far safer place than this.~ [CBTBGMED]
+@20305 = ~You'll regret crossing my path.~ [CBTBGME7]
+@20306 = ~I'll have your throat cut sooner than you can blink.~ [CBTBGME9]
+
+
+@20309 = ~As you love compassion, I require aid!~ [CBTBGMEE]
+@20310 = ~As usual, something dangerous behind every tree.~ [CBTBGMEN]
+@20311 = ~The city's many voices; they make a music of their own.~ [CBTBGMEO]
+@20312 = ~Have a care.  The shadows around here, they have, ah, teeth.~ [CBTBGMEP]
+@20313 = ~The daylight hours are so precious.~ [CBTBGMEQ]
+@20314 = ~Danger is always closest in the night.~ [CBTBGMER]
+@20315 = ~You want something?~ [CBTBGMEG]
+@20316 = ~What, precisely, is your desire?~ [CBTBGMEF]
+@20317 = ~What is needed?~ [CBTBGMEH]
+@20318 = ~But ask, and I shall answer.~ [CBTBGMEK]
+@20319 = ~As I am bid.~ [CBTBGME_]
+@20320 = ~This best be good.  I'm looking forward to a decent bottle of wine.~ [CBTBGMEY]
+@20321 = ~Simplier done than said.~ [CBTBGMES]
+@20322 = ~Since you insist.~ [CBTBGMET]
+@20323 = ~This requires special treatment.~ [CBTBGME2]
+@20324 = ~With grace and speed, as always.~ [CBTBGMEV]
+@20325 = ~Is this my lot in life?  To go and fetch and do?~ [CBTBGMEU]
+@20326 = ~This is hardly stuff of legends.~ [CBTBGMEI]
+@20327 = ~Do you think this is as easy as it looks?~ [CBTBGMEJ]
+@20328 = ~This circus will remember your deeds forever!~ [CBTBGMEW]
+@20329 = ~You'll remember that one for a while!~ [CBTBGMEZ]
+@20330 = ~psssah!  I can do better than that.~ [CBTBGME1]
+@20331 = ~My hands are occupied enough as it is.~ [CBTBGME3]
+@20332 = ~As usual, the marks are blind, deaf, and ever so dumb.~ [CBTBGME4]
+@20333 = ~Don't look too closely.  The shadows are friends of mine.~ [CBTBGME5]
+@20334 = ~My focus!  It's shattered!~ [CBTBGME6]
+@20335 = ~Adventurer Potencius~
+@20336 = ~Potencius~
+@20337 = ~Adventurer Te Elle~
+@20338 = ~Te Elle~
+@20339 = ~Baby Tremor Worm~
+@20340 = ~Greater Tremor Worm~
+@20341 = ~Tremor Worm~
+@20342 = ~Greater Werewolf~
+@20343 = ~Sir William~
+@20344 = ~Sleeping Sir William~
+@20345 = ~Servant~
+@20346 = ~Charlotte~
+@20347 = ~I'll do my best to keep myself out of trouble.~ [CHARL_04]
+@20348 = ~This is not going well at all.~ [CHARL_01]
+@20349 = ~I must take my leave.~ [CHARL_02]
+@20350 = ~I will endeavor to be a wise leader.~ [CHARL_08]
+@20351 = ~I can go no further.  I need to sleep before I drop from exhaustion.~ [CHARL_11]
+@20352 = ~Standing here like this is a waste of my talents.~ [CHARL_12]
+@20353 = ~Into the fray!~ [CHARL_05]
+@20354 = ~Time to test my mettle.~ [CHARL_06]
+@20355 = ~Now you shall pay.~ [CHARL_07]
+
+@20357 = ~I must insist on receiving some aid.~ [CHARL_14]
+@20358 = ~I'm really not well at all.~ [CHARL_15]
+@20359 = ~I await your orders.~ [CHARL_19]
+@20360 = ~Go ahead.~ [CHARL_20]
+@20361 = ~Your command?~ [CHARL_21]
+@20362 = ~I think I'm ready.~ [CHARL_22]
+@20363 = ~You have my undivided attention.~ [CHARL_17]
+@20364 = ~Your desire?~ [CHARL_16]
+@20365 = ~Indeed.~ [CHARL_24]
+@20366 = ~That sounds reasonable.~ [CHARL_25]
+@20367 = ~Yes.~ [CHARL_26]
+@20368 = ~Agreed.~ [CHARL_27]
+@20369 = ~As you will it.~ [CHARL_28]
+@20370 = ~Acknowledged.~ [CHARL_29]
+@20371 = ~Yes dear?~ [CHARL_30]
+@20372 = ~I shall light a candle for you.~ [CHARL_39]
+@20373 = ~Oh, you are proving yourself to be most annoying.~ [CHARL_31]
+@20374 = ~I hope you develop a pox in that hand.~ [CHARL_33]
+@20375 = ~CHARLOTTE was raised upon the isolated island of Elves, Evermeet, Charlotte was trained in the classic areas of art, literature, religion, history, music, and drama.  Her studies, while enjoyable, were not something that Charlotte felt would be something that would make her a productive member of her culture.  She may have had the knowledge of other's great work- been able to identify the exact year a painting was originally painted and by whom, but she had not the skill or creative talent to produce her own original works.  It was then that Charlotte decided she needed something else.  Upon completing her studies as a young elf, Charlotte left the island and against her forefather's and family's wishes, traveled to to the mainland while most other Elves were leaving for Evermeet.  
+	Charlotte roamed the woodlands for decades before realizing she was a ranger.  She was never formally trained in the art of being a ranger, it more or less was an epiphany to her.  She took her new found career seriously, and was quite talented.  Whether as an elf or a woman of nature, it matters not how she became talented at the ranger skills.
+	Recently, Charlotte lost her faith for some reason that she is not very forthcoming about, and lost her status as a ranger.  However, she is a ranger at heart, and will regain the status of rangerhood eventually.~
+@20376 = ~Tomas Tomalson~
+@20377 = ~Tomas~
+@20378 = ~Odds are too great... retreating.~ [CBTOM_01]
+@20379 = ~I'm so excited, and I just can't hide it.~ [CBTOM_30]
+@20380 = ~I need some rest, <CHARNAME>.~ [CBTOM_11]
+@20381 = ~Getting pretty tired.~ [CBTOM_10]
+@20382 = ~They're not going anywhere.~ [CBTOM_07]
+@20383 = ~I got 'em.~ [CBTOM_06]
+@20384 = ~I'll take care of it.~ [CBTOM_03]
+@20385 = ~I'll try to keep this short.~ [CBTOM_04]
+@20386 = ~Can't keep fighting if I want to stay alive.~ [CBTOM_02]
+@20387 = ~Damn it... I...ahhh~ [CBTOM_37]
+@20388 = ~Need some help.~ [CBTOM_14]
+@20389 = ~I know a druid who can hook ya up with some good stuff.~ [CBTOM_33]
+@20390 = ~Look out Faerûn.  Here comes the wackiest man alive.  Woah.~ [CBTOM_32]
+@20391 = ~Hmmm.~ [CBTOM_05]
+@20392 = ~That's fine with me.~ [CBTOM_08]
+@20393 = ~I suppose I'm as good as any.~ [CBTOM_09]
+@20394 = ~Ready.~ [CBTOM_19]
+@20395 = ~What?~ [CBTOM_21]
+@20396 = ~Uh huh.~ [CBTOM_24]
+@20397 = ~Can't keep this up.~ [CBTOM_15]
+@20398 = ~Mmm hmmm.~ [CBTOM_16]
+@20399 = ~Yeah.~ [CBTOM_17]
+@20400 = ~Huh?~ [CBTOM_18]
+@20401 = ~Mmmph.~ [CBTOM_20]
+@20402 = ~Can I help?~ [CBTOM_22]
+@20403 = ~Sure.~ [CBTOM_23]
+@20404 = ~A pity, but I must move on.~ [CBTOM_39]
+@20405 = ~Ohhhh...~ [CBTOM_40]
+@20406 = ~'kay.~ [CBTOM_25]
+@20407 = ~Fine.  Fine.~ [CBTOM_27]
+@20408 = ~Asking TOMAS about his past results in a series of sentences (Elvish) that elude your meaning.  Apparently, Tomas just told you his entire past, the past of his father, the past of his mother, the past of his grandfather (paternal and maternal), the past of his grandmother (paternal and maternal), the past of his great-grandmother and great-grandfather (paternal and maternal), the past of his great-great-grandmother and great-great-grandfather (paternal and maternal), more than half a dozen brothers and sisters, more than two dozen aunts and uncles, and more than six dozen cousins, great uncles, great aunts, and over one hundred second, third, and fourth cousins, in the few sentences of Elvish that he spoke.  You simply nod your head and reach into your pack for a potion of healing as your head is pounding.~
+@20409 = ~Installing items...~
+@20410 = ~This is a metal key of unique design. Judging from its shape, the lock that it fits must be impossible to pick.~
+@20411 = ~Crowbar~
+@20412 = ~This is an average steel-forged crowbar, used to pry open boxes or crates.~
+@20413 = ~Vial of Mysterious Liquid~
+@20414 = ~Belladona Potion~
+@20415 = ~This potion contains a strange green substance similar to what you have seen on some types of weapons or daggers. The liquid inside appears to be oily and watery, as if it has been diluted.  It smells odd, but the color is very pretty.~
+@20416 = ~Belladona plants are odd smelling flowering fauna, but are very pretty.  By crushing petals of these flowers into a fine powder and adding small quantities of liquid, commonly the juice of the Belladona plant, thieves or assassins can typically  create a potent and deadly poison.  This poison was given to you by Narulf, whom you met on the banks of the River Chionthar.~
+@20417 = ~Aurora's Whole Realms Catalogue~
+@20418 = ~This encyclopedia describes many, many items which can be bought, stolen, or found at various locales within the Forgotten Realms.  An educated reader may use the information within the book to identify items which he or she finds, typically pinpointing the exact nature of an object.
+
+STATISTICS:
+
+Lore: Raised by 80 points permanently
+Special:  The book is consumed upon use
+Usage:  Place into quick item slot~
+@20419 = ~Lore has been increased by 80 permanently~
+@20420 = ~Fast Current~
+@20421 = ~Chionthar~
+@20422 = ~Amulet of Power Word Pain~
+@20423 = ~All creatures within 20 feet of the target point (within sight of the user) must save vs Wands when the Power Word is intoned, else suffer from wracking pain for 2-8 rounds, causing them to fight at -4 To Hit and making their AC worsen by 1.  The Power Word may only be used once per day and the amulet must be held in the hand for the Power Word to work.
+
+STATISTICS:
+
+Ability:
+  -4 THAC0 and -1 AC for 2-8 rounds
+  Save vs. Wands negates effects
+  Magic resistant creatures unaffected
+
+Usable By: All~
+@20424 = ~Arrow of Healing~
+@20425 = ~These finely made arrows are rare and believed to have been crafted by a sect of priests long dead.  The shaft of an Arrow of Healing is a simple smooth piece of wood.  The fletching is usually very colorful- bright greens, blues, and reds, possibly the feathers of parrots.  The arrowhead is chipped slated enchanted with a powerful healing spell.
+
+When the arrowhead is imbedded into a target, whether by firing the arrow at the target or by thrusting it as a spear or dagger, the arrow causes 1 point of damage.  However, once imbedded, the arrowhead releases a curative spell that heals 2-20 (2d10) points of damage.  The arrowhead is consumed by the spell, and the shaft can easily be removed.
+
+Sages speculate these arrows were fired by reinforcements at fighters who were wounded in battle, helping them stay in the front ranks longer.
+
+STATISTICS:
+
+Special:
+  Heals 2d20 points damage while doing 1 point damage
+Launcher:  Bow~
+@20426 = ~Arrow of Pain~
+@20427 = ~These arrows look much like arrows of healing.  However, close scrutiny reveals razor-sharp, toothy-edged arrowheads.  A creature struck by an arrow of pain suffers 1d6 points damage, making it appear no different from other arrows.  However, if the arrow remains imbedded in the creature, that creature suffers 1-4 points additional damage for the subsequent 3 rounds.
+
+STATISTICS:
+
+Damage:  1D6
+Special:
+  1d4 points damage for 3 rounds after impact with a target
+Damage type:  missile (piercing)
+Launcher:  Bow~
+@20428 = ~Arrows of Stunning~
+@20429 = ~The Arrow of Stunning looks like any other normal arrow other than the fact that it seems to pulse slightly when notched on a bowstring.  The true effects can be seen when one strikes an opponent and they fall to the ground stunned.
+
+STATISTICS:
+
+Damage:  1D6
+Combat Abilities:
+  Target must save vs. petrification or be stunned for 30 seconds
+Damage type:  missile (piercing)
+Speed Factor: 2
+Launcher:  Bow~
+@20430 = ~Bit By A Banedead!~
+@20431 = ~Clawed By A Banedead!~
+@20432 = ~Ceeb Isson's Ecologies~
+@20433 = ~Ceeb Isson's Ecologies: On Burnbones
+
+The early days of the Banedeath did not go well for Cyric, the (then) new God of the Dead, and many of his fledgling clerics were slaughtered at the hands of powerful Banites.  Cyric soon after empowered select members of his clerical faithful with a portion of his power, so much power, in fact, that these clerics mortal forms dissolved into nothing more than mere bones and the fiery power of the Dark Sun.  These new undead, Burnbones, are similar to the Blazing Bones found in the ruins of Myth Drannor in appearance, but that is where the similarity ends.  Burnbones tend to wear the symbol of Cyric on themselves (as a holy symbol, for instance) as a sign of their devotion.~
+@20434 = ~Ceeb Isson's Ecologies: On Baneliches
+
+When Bane, the God of Strife, was first establishing his church long ago, those who worshipped him were hounded to their deaths by the forces of good unless they gathered in significant numbers.  Tired of his faithful becoming victims, every 50-60 years Bane chose the most powerful priest within the ranks of his clerics and revealed to him or her a foul rite that would transform the caster, through force of faith, strength of will, and Bane's divine hand, into a powerful, immortal form-- a lich of Bane, or Banelich.
+
+Baneliches are gaunt, skeletal, rotting humanoid forms with black eye sockets in which burn red pin points of light.  They dress in decaying elegant clerical ceremonial robes and always wear Bane's holy symbol (the black hand of Bane) prominently.
+
+Baneliches are immortal.  The only way a Banelich can be destroyed is by the destruction of the creature's phylactery.  The person who destroys a Banelich's phylactery and anyone within 10 feet (including the Banelich) must make a successful saving throw vs. death magic at -1 or be struck dead by the force of an incredible negative energy explosion generated by its destruction.~
+@20435 = ~Fence Identify~
+@20436 = ~Bracers of Revelation~
+@20437 = ~An individual wearing these highly polished bands can tell much about those he meets.  By shaking the hand of another person and expending a charge by force of will, the wearer can determine the class or occupation of the person.  By expending two charges, the wearer can determine the indviduals alignment.  The bracers will reveal no information if the target is wearing an amulet of proof against detection or is cloaked by similar magic.  The bracers are usually found with 4-40 charges and cannot be recharged.
+
+STATISTICS:
+
+Special:
+   Can reveal Class and Level
+   Can reveal Alignment
+
+Not Usable By:
+   Wizard Slayer
+   Kensai~
+@20438 = ~This shiny brass sword is extremely old, dating back at least three thousand years before Dale Reckoning.  It was created by a Netherese archmage named Pouldinus as a gift to a warrior friend.  This friend, Kalamnin, was a strict devotee of Amaunator, a harsh, unforgiving god now almost forgotten by sages.  Amaunator was the god of law and the god of the sun.  He required his servants to follow his edicts exactly.  Kalamnin did his best to observe Amaunator's laws in his travels.  The blade was lost when Kalamnin was killed in battle by dozens of nycadaemons.  The sorcerer who summoned the creatures, Ylmandi, kept the blade in his family until the fall of Netheril.
+
+STATISTICS:
+
+Damage:  2D4 + 3
+THAC0: +3
+Special:
+  Additional 2d4+3 Fire Damage against Undead
+  5% Chance of Beltyn's Burning Blood on hit
+  Casts Sunray 1/Day
+Damage Type:  Slashing
+Weight:  3
+Speed Factor:  1
+Proficiency Type:  Long Sword
+Type:  1-handed
+Requires: 10 Strength
+
+Not Usable By:
+ Chaotic Creatures
+ Druid
+ Cleric
+ Mage
+ Thief
+ Beast Master~
+@20439 = ~Barrier Amulet~
+@20440 = ~This powerful amulet was crafted by the enchanter Celemon of Calimport in 727 DR.  He crafted ten such amulets on commission before jealous rivals killed him and attempted to duplicate the procedure.  His colleagues were not as talented as Celemon, and destroyed their laboratory and themselves when a mishap occurred.  The formula was destroyed as well.  This particular amulet was owned by the elven warrior-mage Pelan Rainwind.  It was lost when he was killed by giants in the Spine of the World somewhere around 840 DR.
+
+STATISTICS:
+
+Simultaneously casts Stoneskin and Minor Globe of Invulnerability on the user
+
+Usable By:
+  Mage (Single, Dual, and Multi)~
+@20441 = ~Scarab of Defense~
+@20442 = ~This type of amulet takes the form of a sculpted beetle, and is typically only found in areas around Mulhorand.  This particular scarab was crafted in Thay by Gulvak Anrak, a powerful enchanter of magical protective devices.  Gulvak gave this scarab to an apprentice, Alik Banom, who was killed by Cormyrean soldiers in 1021 DR.  According to sages, Alik started a fight with a Cormyrean knight who insulted Thay and the Red Wizards as a whole.  Even though Alik was powerful, he was no match for the throng of Purple Dragons that came to the knight's aid.
+
+STATISTICS:
+
+Gives +2 save vs. Petrification and Polymorph
+
+Usable By: All~
+@20443 = ~Amulet of Dark Flesh~
+@20444 = ~A horrible cursed item crafted by the Calishite necromancer Niri Eddin, the Amulet of Dark Flesh is a token of disease and slow death.  Eddin gave the item to his secret enemies as gifts and reclaimed it through his thief servants when the sickness had run its course.  Niri is believed to still be "alive" somewhere in the realms, despite the fact that he was a human born in 832 DR.
+
+STATISTICS:
+
+Upon donning this amulet, the wearer is paralyzed and diseased
+
+Usable By: All~
+@20445 = ~The Argent Shield~
+@20446 = ~This silver shield once resided in the Hand of the Seldarine, where it was used to protect its bearer from harmful magic and attacks.  Because of its racial attunement, the marauding orcs and goblins left it in the tower.  Maiden Ilmadia grabbed it from the ruins.
+
+STATISTICS:
+
+Armor Class Bonus: 3
+Resistance Bonus: +25% Magic Resistance
+Weight: 5
+Requires: 12 Strength
+
+Only Usable By:
+ Elves
+ Half-Elves
+
+Not Usable By:
+ Druid
+ Thief
+ Mage
+ Bard
+ Monk
+ Kensai~
+@20447 = ~Kontik, servant of Auril, once wielded this blade. It has been enchanted with several beneficial magics.
+
+STATISTICS:
+
+Damage:  1D4 + 3
+THAC0: +3
+Special:
+  Intelligence +1 bonus
+  Charisma -1 penalty
+  100% Cold Resistance
+  -50% Fire Resistance
+  2 charges of Cone of Cold per day
+Damage type:  Piercing
+Weight: 1
+Speed Factor: 2
+Proficiency Type: Daggers
+Type:  1-handed
+Requires: 3 Strength
+
+Not Usable By:
+ Cleric
+ Beast Master~
+@20448 = ~Girdle of Gond~
+@20449 = ~Gond, god of invention and artifice, is a deity rarely worshipped by traditional adventurers.  Some thieves, however, revere Gond for his role in the development of locks, traps, and other complex machines.  One such thief was the burglar Jurmar the Calm, who began his career as a locksmith.  Known for his cool demeanor and steady hand, Jurmar paid priests of Gond to fashion this tool belt for him.  Whenever Jurmar was stuck in a situation where he didn't have the right tool for a job, one of the small pouches on the belt would supply him with what he needed.
+
+STATISTICS:
+
+Special:
+  +10 Open Locks
+  +5 to Find/Remove Traps
+
+Only Usable By:
+  Thief (Single, Dual-, and Multi-Class)~
+@20450 = ~The Love of Black Bess~
+@20451 = ~This fell weapon was crafted by a beautiful and cruel wizardess who worshipped the lady of misfortune, Beshaba.  Her name was Redani, and she was known both for her powers as an enchanter and a seductress.  The Love of Black Bess was always given to her favored consort at any particular time.  Unknown to her lovers, she would place a Ring of Readiness on the mace, saving the matching ring for a special time.  When she grew tired of her consorts, as she always did, she would give the matching ring to a new lover and send the young man out to kill her old paramour.  The new lover would simply call upon the ring and the mace would fly to his hand.
+
+Unfortunately, Redani was done in when she trusted the wrong man to kill her old lover.  Gural of Chessenta, a well-disguised priest of Hoar, took it upon himself to gain vengeance for a man whose skull he had picked up by the side of a road.  Unluckily for Redani, priests of Hoar will go to any length to avenge the dead, even if it means animating all of her dead lovers to tear her limb from limb.
+
+STATISTICS:
+
+Damage:  1D6 + 4
+THAC0:  +3
+Special:
+  10% of all hits cause the target to lose 4 points of Luck
+Damage type:  Crushing
+Weight:  7
+Speed Factor:  5
+Proficiency Type:  Maces
+Type:  1-handed
+Requires: 10 Strength
+
+Not Usable By:
+ Druid
+ Mage
+ Thief
+ Monk
+ Beast Master~
+@20452 = ~Flaming Oil~
+@20453 = ~Inside of this glass pot is an expensive mixture of oil and other chemicals.  When this mixture is set ablaze, it burns for several seconds at a very hot temperature.  Flaming oil is sometimes difficult to use because it takes a long time for the user to properly throw it.  Adventurers often carry oil with them to deal with trolls in the unfortunate event that they are encountered.
+
+STATISTICS:
+
+When thrown at a target, the glass pot breaks, spreading flaming oil over everything within a 5' radius, doing 2-16 points of fire damage.
+
+Usable By: All~
+@20454 = ~Engineering Manual~
+@20455 = ~This ancient work is a treatise on dwarven engineering techniques. Although it is written entirely in the dwarven language, someone has inserted translated notes in several places throughout the book. This particular volume contains a detailed analysis on the construction of suspension bridges. ~
+@20456 = ~Boots of Moander~
+@20457 = ~These patchwork boots of red and black leather were created by cultists of Moander, an ancient god of rot and decay.  The boots were used by a number of the Darkbringer's faithful when they fought against Moander's numerous foes, many of whom worshipped nature deities.  The boots were last claimed by Aldarra of Chauntea, who in turn gave them to a half-elven ranger friend, Liberon Twelvetrees.
+
+STATISTICS:
+
+Weight:  4
+
+Wearer is immune to Entangle~
+@20458 = ~Cairn Blade~
+@20459 = ~Named for its ability to lay warriors low, the Cairn Blade was used by the mercenary Adal Kerrn.  Kerrn was a skilled heavy infantryman.  He and his company, Kerrn's Breakers, hired themselves out to all sorts of warlords, bandits, wizards, and religious leaders.  They were typically placed at the front of the battlefield where they would intercept charging heavy cavalry units and break their formation.  Kerrn died in 1054 DR when he accidentally killed the horse of a heavily armored foe.  The horse fell on top of Kerrn, killing him.  In the madness of the battle that followed, most of his comrades were routed.  Though Kerrn's body was never found, the group that had employed him at the time, the church of Helm, recovered his distinctive sword.
+
+STATISTICS:
+
+Damage:  1D10 + 4
+THAC0:  +4
+Damage type:  Slashing
+Weight: 20
+Speed Factor: 10
+Proficiency Type:  Two Handed sword
+Type:  2-handed
+Requires: 14 Strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief
+ Monk
+ Beast Master~
+@20460 = ~Baleful Mail~
+@20461 = ~This armor was crafted in 1221 DR by a duergar smith working for a vengeful priest of Bane named Alerri of West Waterdeep.  During Alerri's early days in the priesthood, he frequently provoked and attacked agents of Sune.  Unfortunately for Alerri, Lady Firehair's followers employed charm magic to cease the Banite's antics.  Once he had been charmed, Alerri was commanded to perform all sorts of embarrassing actions in the streets of Waterdeep.  After many years, Alerri decided to honor his god of hate by creating a suit of armor that would protect him from charm magic.  He communed with the spiritual minions of Bane to discover the materials and rituals necessary for the suit's creation.  Following his master's instructions, he murdered thirteen married couples and had their wedding rings woven into the hem of the mail.  He then killed thirteen elves and bathed in their blood, uttering prayers for thirteen hours.  When he was finished, his armor protected him from the magic of the Sunites and filled him with irrepressible hate.  Alerri went on a crusade against the agents of Sune, Llira, and Hanali Celanil for three years.  His killing spree ended when elven archers and priests of Corellon Larethian laid a trap for him on a road going north from Waterdeep.
+
+STATISTICS:
+
+Armor Class: 3
+Special:
+  Immune to Dire Charm, Charm Person, Confusion, Command, Rigid Thinking
+   -2 Charisma while worn
+Weight: 45
+Requires: 8 Strength
+
+Not Usable By:
+ Good Characters
+ Druid
+ Mage
+ Thief
+ Monk
+ Shapeshifter
+ Stalker
+ Beast Master
+ Kensai
+ Archer~
+@20462 = ~Mithran's Cloak~
+@20463 = ~This elven cloak, woven from silk and wool, was worn by a powerful wizard from Myth Nantar named Mithran Lightpetal.  Mithran was well known for his love of travel and his acceptance of the "N'TelQuessir," or "not people," the non-elven people of the world.  The cloak was actually the cause of his doom, for it was woven and enchanted by his dark elf lover, Rauva Vrinn.  The style of the black and midnight-blue cloak was so obviously non-elven that his associates became suspicious.
+
+Eventually, an acquaintance of Mithran, an elven drow-hunter named Gaedel, discovered Rauva's secluded hiding spot in the forests surrounding Myth Nantar.  With a small band of warriors, Gaedel stormed her hut and quickly killed her.  When Mithran discovered what had happened, he went berserk with fury.  The mad mage assaulted the hunting lodge of Gaedel and his brothers, killing them all and leveling the lodge.  Gaedel's family eventually attempted to take vengeance for the act, killing Mithran at loss of most of their house.  Mithran's cloak was recovered by his close friend, the dwarven warrior Hael Bronzelake.  Had it not been, it would have been swallowed up under the waves with Myth Nantar when that proud city was drowned in the Sea of Fallen Stars several years later.
+
+STATISTICS:
+
+Armor Class Bonus: 3
+Saving Throw Bonus: +2
+
+Not Usable By:
+  Wizard Slayer~
+@20464 = ~Berduskan Black Brew~
+@20465 = ~This dark drink was named after the merchants from Berdusk, who concocted this brew. Berduskan merchants were always in a hurry to complete their various deals and felt hampered by the effects of fatigue and the need to sleep.  Upon drinking this brew, the effects of fatigue and weariness disappear, letting the drinker continue with whatever he was doing.
+
+STATISTICS:
+
+Removes fatigue as if user has had a full nights sleep
+
+Usable By: All~
+@20466 = ~Gulp!~
+@20467 = ~In 834 DR, a wizard named Legedain the Wiser caught a renowned thief breaking into his tower.  The thief was a cynical burglar named Ilfain Blackfeather.  Legedain was growing old and becoming tired of his frail body.  To remedy the situation, he cast Magic Jar and forced Ilfain's spirit into a host gem.  Legedain then transferred his soul to the young elf's body and left the gem on a shelf nearby.  One hundred years later, Legedain decided to do something with it.  He created a sword for his arrogant bodyguard, Gundak, and transferred Ilfain's spirit from the host gem into the sword.  Ilfain, always highly critical in life, started telepathically criticizing Gundak in combat.  Gundak became annoyed with the sword after two weeks and he threw it into the street.  A series of warriors picked it up and discarded it after short periods of ownership.  Over time, the weapon has simply come to be known by its current name.
+
+STATISTICS:
+
+Damage:  2D4 + 4
+THACO:  +4
+Special:
+  Find Traps 1/Day, Knock 1/Day
+Damage Type: Slashing
+Weight: 4
+Speed Factor: 5
+Proficiency Type: Long Sword
+Type: 1-handed
+Requires: 6 Strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Beast Master~
+@20468 = ~Zilzanzer's Magnificent Dart~
+@20469 = ~The eccentric master wizard Zilzanzer, well known for his Ring of the Gorgon, was also the creator of a number of small magical missile weapons.  "Zilzanzer's Magnificent Darts" were sold to many of the wizards' colleagues.  Unlike many of Zilzanzer's other creations, his darts actually performed as he intended them to.  He created a great number of the darts before his untimely demise.
+
+STATISTICS:
+
+Damage:  1D3 + 2
+Special:
+  User can throw up to five of Zilzanzer's darts in a single round, regardless of class
+Damage type:  Missile (piercing)
+Speed Factor: 1
+Proficiency Type: Missile Weapons
+Type:  1-handed
+
+Not Usable By:
+ Cleric
+ Kensai
+ Cavalier~
+@20470 = ~Spell Diver~
+@20471 = ~The sellsword Naradon of Thesk was known for his ability to quickly and efficiently defeat enemy mages even when outnumbered.  He earned this reputation with the help of three items: Potions of Speed, Boots of Speed, and his trusted short sword, Spell Diver.  Unlike many other magical weapons, Spell Diver does not have a dark, murderous history.  Naradon retired from adventuring when he was thirty-two.  His fondness for Potions of Speed caught up with him when he died of old age four years later.  His only heir had no desires to be an adventurer.  He sold the weapon to a known cat burglar a few years after his father's death.  The sword can be recognized by the kingfisher stamped into the ricasso.
+
+STATISTICS:
+
+Damage:  1D6 + 2
+THAC0:  +2
+Special:
+  50% of all hits nullify the target's ability cast spells for 2 rounds
+  +1 to Save vs. Spells
+  +5% Magic Resistance
+Damage type:  Piercing
+Weight:  1
+Speed Factor:  1
+Proficiency Type:  Small Sword
+Type:  1-handed
+Requires: 5 Strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Beast Master~
+@20472 = ~Elven Healing Wine~
+@20473 = ~This bottle of elven wine also has the properties of a healing potion.  During one of the elven festivals, the priests of the Seldarine's Hand imbibed too much that day and accidentally added a barrel of elven wine to a mixture that was intended for healing potions.
+
+STATISTICS:
+
+Heals 2D8 hit points~
+@20474 = ~Robe of the Hand~
+@20475 = ~Created during the golden age of the elves of the Seldarine's Hand and the dwarves of Dorn's Deep, it was worn by the elven wizards of Hand.  Although a very cumbersome robe, it provided its wearer protection against the elements of Cold, Fire, and Electricity.
+
+STATISTICS:
+
+Armor Class:  9
+Dexterity: -2 penalty
+Resistance Bonuses:
+  +40% Cold Resistance
+  +40% Fire Resistance
+  +40% Electrical Resistance
+Weight:  10
+
+Only usable by:
+ Mage (single, dual, & multi-class)~
+@20476 = ~Goblin Arrows~
+@20477 = ~These arrows are known less for their damaging power than they are for their annoying summoning power.  Invented by a black-hearted gnome named Turbar Talinbar, the Goblin Arrows are commonly found in the quivers of mischievous halflings and elves.  Several adventuring companies use the Goblin Arrows before launching any major attacks.
+
+STATISTICS:
+
+Damage:  1D6 + 1
+THAC0:  +1
+Special:
+  On a successful hit, a goblin is summoned next to the target
+Damage Type:  Missile (Piercing)
+Launcher:  Bow~
+@20478 = ~The Giving Star~
+@20479 = ~This black and silver morning star was created by a Cormyrean necromancer called Dameth the Wan.  Although it appears to be a sinister weapon, the unadorned surfaces of the morning star mask its dreadful power.  The weapon was sold to a priest of Myrkul who put it to good use in his battles against adventurers.  Eventually, however, the priest was overcome by a paladin of Lathander who confiscated the item.  When the mountain temple where the morning star was contained was sacked by giants in 1190 DR, the history of the weapon ended.
+
+STATISTICS:
+
+Damage:  2D4 + 3
+THAC0: +3
+Special:
+  10% of all hits cast Cure Light Wounds on the user and give a +1 bonus to Strength for 5 rounds
+Damage type:  Crushing
+Weight: 9
+Speed Factor: 4
+Proficiency Type:  Flail/Morningstar
+Type:  1-handed
+Requires: 11 Strength
+
+Not Usable By:
+ Good characters
+ Druid
+ Mage
+ Thief
+ Monk
+ Beast Master~
+@20480 = ~Gauntlets of Valor~
+@20481 = ~An extremely valuable magic item on its own, the Gauntlet of Valor is part of one of only three remaining Power Arms made by the elven archmages of Myth Drannor.  The devices were crafted for use by champions defending the ancient elven city on the rare occasions when it was in danger.  This eternally shining gauntlet represents a pinnacle of elven craftsmanship and enchantment.  Adventurers and ambitious villains across the Realms yearn to find the location of all the pieces of the Power Arms.
+
+STATISTICS:
+
+Damage: 1D4 + 1
+THAC0: +1
+Special:
+  Wearer is immune to Charm, Hold, Sleep, and related spells
+  Wearer can invoke the innate powers of the Gauntlet of Valor 3/day to be used as a weapon
+  12% of all hits cause 3D6 points of Crushing damage and Stun the target for 3 seconds
+Damage type:  Crushing
+Weight: 2
+
+Not Usable By:
+  Wizard Slayer
+  Kensai~
+@20482 = ~Helm of the Trusted Defender~
+@20483 = ~This helmet was worn for four hundred years by halflings and gnomes in the small and virtually unknown community called Shepherd's Valley.  Each dawn, the Night Watch captain would hand the helmet over the Day Watch captain.  Each dusk, the Day Watch captain returned the helm.  This cycle continued without fail until Pheldon Tock, a Night Watch captain, decided to trade in the helm for another.  The helmet probably would have remained in Gibling Armstrong's Curious Armor Shoppe for quite some time if a bored dwarf hadn't bought it and set it on his mantle in distant lands.
+
+STATISTICS:
+
+Armor Class Bonus:  3
+Special:
+  User is immune to Sleep and never suffers from Fatigue
+Weight:  2
+
+Not Usable By:
+ Mage
+ Bard
+ Thief
+ Monk
+ Kensai
+
+Only Usable By:
+ Halflings
+ Gnomes~
+@20484 = ~Sune's Laurel of Favor~
+@20485 = ~This wreath of laurel leaves and roses was a gift from the church of Sune to the priestesses of Hanali Celanil at the Hand of the Seldarine.  The representatives of the human goddess of love and beauty were well received and the high priestess of Hanali Celanil wore the laurel whenever humans were visiting the Hand.  The orcs discarded the laurel as useless trash when they sacked the priests' tower.
+
+STATISTICS:
+
+Armor Class Bonus: 1
+Special:  +1 Charisma while worn
+Weight:  1~
+@20486 = ~Holdfast Arrows~
+@20487 = ~Employed almost exclusively by Eldathyn rangers in the western heartlands of Faerun, Holdfast Arrows are prized for their ability to subdue a target with little harm.  The arrows are commonly used on rampaging animals but are quite effective against malicious humanoids.  They are typically adorned with blue and green ribbons and flowers to show that they were created by the peacekeepers of Eldath.  This makes them somewhat less effective in combat.
+
+STATISTICS:
+
+Damage:  1D6 + 1
+THAC0:  +1
+Special:
+  Entangle effect on the target for four rounds
+Damage type:  Missile (Piercing)
+Launcher:  Bow~
+@20488 = ~Winter King's Plate~
+@20489 = ~This armor was crafted from the hide of the most powerful polar worm in Icewind Dale, known by the natives as the "Winter King."  The hide of the creature is extremely thick and tough, but surprisingly light.  It is very unusual in its appearance, colored white with blue accents.
+
+STATISTICS:
+
+Armor Class: 3
+Special:  
+  +25% Resist Cold and Fire
+Weight: 25
+Requires: 12 Strength
+
+Not Usable By:
+ Bard
+ Mage
+ Thief
+ Monk
+ Shapeshifter
+ Barbarian
+ Kensai
+ Archer
+ Beast Master~
+@20490 = ~This weapon was fashioned by your hands, guided by the dwarf, Tiernon.  Forged from ice taken from the walls of the Gloomfrost, this blade has taken some of the glacier and some of your strength into it, creating a formidable weapon. Though made of ice, the weapon is only slightly cold to the touch and does not melt, even when exposed to the hottest flames.
+
+STATISTICS:
+
+Damage:  1D8 + 4
+THAC0: +4
+Special: 
+  +10% Fire Resistance
+  +10% Cold Resistance
+  Storm of Vengeance 1/Day
+  5% Chance of 2-12 Cold Damage
+Damage Type:  Slashing
+Weight: 3
+Speed Factor:  1
+Proficiency Type:  Long Sword
+Type:  1-handed
+Requires: 6 Strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Beast Master~
+@20491 = ~Bone Kris of Black Ichor~
+@20492 = ~Oddly enough, this shard of bone is shaped in a form similar to a Kris.  What is even more unique is that the hilt of the Kris will occasionally secrete a black poisonous ichor.
+
+STATISTICS:
+
+Damage: 1D4 + 2
+THAC0: +2
+Special: 
+  Upon the player scoring a hit with this weapon, there will be a 20% chance that the target will be poisoned (Save vs. paralyze, poison, or death magic to counter effects)
+Damage type: Piercing
+Weight: 3
+Speed Factor: 2
+Proficiency Type: Dagger
+Requires: 3 Strength
+
+Not Usable by:
+ Paladin
+ Ranger
+ Cleric
+ Beast Master~
+@20493 = ~Symbol of Labelas Enoreth~
+@20494 = ~Created during the golden age between of the elves of the Seldarine's Hand and the dwarves of Dorn's Deep. This ring was created to empower young wizards with greater focus to cast their spells more effectively. Although the elder wizards of the Hand were some of the most powerful in the realm, they were always involved in various research or experiments that prevented them from joining less critical battles or expeditions.
+
+STATISTICS:
+
+Intelligence: +1 Bonus
+
+Only usable by:
+  Mage (single, dual, & multi-class)~
+@20495 = ~Lonesome Road~
+@20496 = ~This mighty weapon consists of a haft several feet long, topped with a heavy blade.  The axe may be double-bitted, with blades on both sides of the haft, or it may only have a single blade.  It is an unwieldy weapon, but a skilled warrior can strike blows of tremendous strength with it.
+
+STATISTICS:
+
+Damage:  1D10
+Damage type:  Slashing
+Weight:  10
+Speed Factor:  9
+Proficiency Type:  Axe
+Type:  2-handed
+Requires: 10 Strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage 
+ Thief
+ Monk
+ Beast Master~
+@20497 = ~This was the weapon of a cursed soul, doomed to wander the length and breadth of Faerun for his crimes against the elves of Myth Drannor.  Denell Harband was a human involved with the creation of the "Halfaxe Trail."  Under the orders of his commander, Halvan the Dark, he forged ahead through elven forests despite protests and repeated attacks.  When he was finally captured by the elves, he stated emphatically that he was free of guilt because he was just following his orders.  The elven council deemed that Denell be placed under a High Geas to carry his axe from the Sword Coast of Faerun to its borders in the east, and from the Great Glacier to Lurien.  It took Denell thirty years to complete his task.  When he finished, he was an accomplished warrior, weathered and beaten by years on foreign roads.  On his way back to his home, he passed by Harrowdale and saw a wooden statue of Halvan the Dark raised proudly in a small town square.  With a single-handed blow, he lodged his huge axe into Halvan's forehead.  Never breaking stride, he returned to his hut where he lived out the rest of his days as a reclusive farmer.
+
+STATISTICS:
+
+Damage:  1D10 + 3
+THAC0:  +3
+Special:  
+  +1 to Constitution while equipped
+Damage type:  Slashing
+Weight:  10
+Speed Factor:  6
+Proficiency Type:  Axe
+Type:  2-handed
+Requires: 10 Strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief
+ Monk
+ Beast Master~
+@20498 = ~Instrument~
+@20499 = ~Lyre of Progression~
+@20500 = ~A lyre.~
+@20501 = ~The Lyre of Progression was created by the bard Sedini Paletto.  Sedini was a teacher of young aspiring bards during difficult times.  This instrument, held close at all times, helped Sedini fight off those who would attack him or his students.  When Sedini grew old, he passed it on to his best student, Galwen Alaman.  Galwen continued teaching for a few years before setting out into the wilderness on a life of adventure.  It is believed that he lost the lyre when he accidentally dropped it in a marsh.
+
+STATISTICS:
+
+Held under the left arm, this instrument allows a bard to memorize two extra second level spells and an extra third level spell.
+
+Only Usable By:
+  Bard~
+@20502 = ~Mail of Life~
+@20503 = ~This armor was crafted from meteoric iron by dwarven and elven smiths during the Time of Cooperation.  A high priest of Moradin and a high priest of Labelas Enoreth enchanted the armor with its powers.  Unfortunately, no elven or dwarven warrior ever wore the chain mail.  When troubles arose between the Hand of the Seldarine and Dorn's Deep, the dwarves locked the armor in a vault, refusing to use anything the elves had a hand in creating.
+
+STATISTICS:
+
+Armor Class: 2
+Special:
+  +10 Hit Points
+  Wearer Regenerates 1 hit point per turn
+Weight: 40
+Requires: 8 Strength
+
+Not Usable By:
+ Druid
+ Mage
+ Thief
+ Monk
+ Shapeshifter
+ Beast Master
+ Archer
+ Kensai
+ Stalker~
+@20504 = ~Mantle of the Coming Storm~
+@20505 = ~This simple cloak has been imbued with some small magical properties to help protect its wearer. It does so by affecting both saving throws and armor class. It is ideal for mages and others who cannot wear bulkier or more restrictive types of armor.
+
+STATISTICS:
+
+Weight:  1
+
+Not usable by:
+  Wizard Slayer~
+@20506 = ~This seemingly threadbare robe had become "dormant" upon Lysan's command, so as not to expose herself as a priestess of Auril. When as much as a single snowflake falls upon the robe, it transforms into a scintillating cloak of white that allows the wielder to float above snow drifts and walk through even raging rivers with ease. Most merchants will not wish to purchase this item, or will do so at a very low price, as they see it as a sacred item of Auril the Frost-Maiden and likely to attract her followers... and her displeasure.
+
+Created during the ceremonies of the Coming Storm (the onset of winter) to Auril, these robes are specially created to resist flames and allow the wearer to resist any attempt to stop or hold them. Although the priestesses of Auril are naturally resistant to cold and can move through snow and icy rivers with ease, these cloaks amplify the protection of the goddess, allowing the wearer additional cold resistance (which allows a wearer already immune to cold to absorb its power) and even goes so far as to leach the heat from fire attacks directed at the wearer. In addition, the robe may be invoked to allow the wearer to pass over or through any obstacle designed to hold them, whether Web spells, ghoul paralyzation, Hold Person spells and the like.
+
+STATISTICS:
+
+Special: Casts 'Free Action' (3 Charges)
+Armor Class Bonus: 1
+Resistance Bonuses:
+  +1 Save vs. Paralyzation
+  +30% Cold Resistance
+  +30% Fire Resistance
+Weight:  1
+
+Not usable by: 
+  Wizard Slayer~
+@20507 = ~Mirror of Black Ice~
+@20508 = ~Wrapped with serpentine twine around its corners and tapped in place by Tiernon's hands, this mirror of black ice may now be worn around the neck.  It still serves the same function as the original black ice mirror, but it feels much lighter now, and the reflections within the mirror seem both sharper and duller at the same time.
+
+The power of the Mirror of Black Ice lies in its ability to confound the sight of an attacker.  Merely wearing it provides a boon to the wearer's defenses, as attackers will discover the wearer suddenly isn't where they thought he was when they first attacked.  By concentrating on the mirror, however, the wearer may alter what others see when they look at him, distorting his image to make him harder to hit, or splitting his image into several reflections of himself, further confusing attackers.  The mirror contains only a limited number amount of energy to perform these greater feats, but when the Blur and Mirror Image powers are gone, the passive defenses will remain.
+
+STATISTICS:
+
+Armor Class Bonus: 
+  3 vs. Missile Attacks
+  2 vs. All Physical Melee Attacks except Crushing Attacks
+Special:
+ +3 to Saving Throws vs. Spells and Wands, Staves, Rods
+ Cast Blur
+ Cast Mirror Image~
+@20509 = ~The Sword of Myrloch Vale~
+@20510 = ~It is believed that fae creatures helped create this beautiful sword, and legends say that it was forged in the cool depths of Myrloch, the large lake at the center of Gwynneth in the Moonshaes.  The weapon has an unearthly look to it, and it is believed to be quite old.  The only individual known to have carried the weapon was a half-elven bard named Daen Winterbrush.  It is said by some that after he found the sword, quite by accident, that he was blessed with exceptional creativity and powerful sensitivity to the world around him.  He traveled for forty years and is known for some of the most unique, haunting melodies in Faerun.  It is believed that Daen eventually became too melancholy at the sights of misery and oppression that he encountered in his travels, and that the fae smiths of the Moonshae Isles welcomed him into the breast of Myrloch.
+
+STATISTICS:
+
+Damage:  1D8 + 3
+THACO:  +3
+Special:  
+  +20 to Lore skill while equipped
+Damage Type:  Slashing
+Weight:  4
+Speed Factor:  4
+Proficiency Type:  Long Swords
+Type:  1-handed
+Requires: 6 Strength
+
+Not Usable By:
+ Evil Creatures
+ Druid
+ Cleric
+ Mage
+ Beast Master~
+@20511 = ~Mystery of the Dead~
+@20512 = ~This front of this huge steel shield is decorated with black enameled patterns and a single skull set in the center.  The interior of the shield is etched with encrypted ancient writings.  The only legible words are at the top, and read, "AND WHAT OF THE DEAD?"  The history of the item is completely hidden from divination.
+
+STATISTICS:
+
+Armor Class Bonus: 4
+Special:
+  +1 vs. Missile Weapons
+  Bearer is immune to Finger of Death and Power Word: Kill
+Weight: 20
+Requires: 15 Strength
+
+Only Usable By:
+ Humans
+ Half-Elves
+
+Not Usable By:
+ Druid
+ Thief
+ Mage
+ Bard
+ Monk
+ Kensai~
+@20513 = ~Ogi-Luc's Great Robe~
+@20514 = ~This robe was fashioned from strong fabric and dyed dark blue, the favorite color of its proud owner, the archmage Ogi-Luc.  A Sembian by birth, Ogi-Luc was a powerful man, as strong in body as he was in mind.  However, Ogi-Luc wasn't content to merely be strong.  He wanted to be exceptionally strong.  When he put on these robes, proud men stood aside and braggarts stilled their tongues.  For all of Ogi-Luc's pride and prowess, he was unable to defeat the Red Wizard abjurer Nesk Vhaltim.  Nesk took the robes as a prize.  They were later stolen and sold by a daring rogue.
+
+STATISTICS:
+
+Armor Class:  4
+Special:  
+  Grants 18/99 Strength
+  +2 to Con
+Weight:  5
+
+Only Usable By:
+  Mage (Single Class)~
+@20515 = ~Lute~
+@20516 = ~The Dire Old Lute of Pellon Kay~
+@20517 = ~A musical lute.~
+@20518 = ~Pellon Kay would never appear in history books for his musical talents.  If it wasn't for his famous lute, no one would have remembered him at all.  Born in Sembia and raised in a musical family, Pellon Kay never took his performances seriously.  Kay made dozens of enemies everywhere he went because of his acidic wit and appetite for confrontation.  Sages believe that Milil frowned upon Pellon's antics, but that Talos found Pellon's attitude to be quite amusing.  The avatar of Talos watched Pellon start a fight with over twenty men in a bar one night.  As a gift for such destructive entertainment, Talos touched the lute that was laying next to Pellon's unconscious body.  After that night, Pellon discovered that he could make men go berserk just by playing his lute in their direction.  He took great delight in setting mercenaries and sailors against each other for several weeks.  Eventually, Pellon Kay was laid low by a grim-featured warrior with a crossbow who didn't let Pellon get close enough to employ his magical lute.  The unknown warrior threw the lute into the Sea of Fallen Stars.
+
+STATISTICS:
+
+When played at a target, this lute casts Dire Charm.
+
+Only Usable By:
+  Bard~
+@20519 = ~Potion of Clear Purpose~
+@20520 = ~Very few of these potions were ever manufactured, and the methods by which they were has been lost.  Created during the times of Netheril for the upper echelons of the churches, these potions would strip one of fortitude for an increase in priestly abilities.
+
+STATISTICS:
+
+Constitution: -2
+Wisdom: +1
+Duration:  Permanent
+
+Only usable by:
+ Clerics and Cleric Sub-Classes~
+@20521 = ~The Snow Maiden's Reaver~
+@20522 = ~The only material parts of this icy weapon are the hilt, grip, and pommel, wrought from shining silver and steel.  It was created in 1099 DR by the chosen of Auril, Ihanora the Merciful.  Ihanora roamed the north, leading ruthless attacks against all those who attempted to find solace from the cold or fight its effects.  She traveled with a motley crew of yetis, polar worms, frost giants, and a white dragon, freezing everything in her wake.  Ihanora was defeated in 1108 DR by the notorious Red Mask Brigade, headed by the ruthless killer known as Bitter Harley.
+
+STATISTICS:
+
+Damage:  2D4 + 2
+THAC0: +2
+Special: 
+  2% chance of turning the target to solid ice
+Damage Type:  Cold
+Weight:  10
+Speed Factor:  6
+Proficiency Type:  Bastard Sword
+Type:  1-handed
+Requires: 11 Strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief
+ Monk
+ Beast Master~
+@20523 = ~Edion's Ring of Wizardry~
+@20524 = ~Edion, a dying necromancer from Sembia, was the recent owner of this powerful ring.  He crafted the ring himself for his private use.  In his later years, he became so accustomed to wearing it that he almost never removed it.  He wore it on the same finger that he would wear a wedding ring on, to symbolize his marriage to the Art.
+
+STATISTICS:
+
+Doubles the character's available number of 5th level mage spells.
+
+Only Usable By:
+  Mage (Single, Dual-, and Multi-)~
+@20525 = ~Rogue's Cowl~
+@20526 = ~This dark brown cowl is meant to be worn on the head and over the shoulders as a broad hood.  It was crafted by the gnomish thief and illusionist Brein Chestnut.  Brein used the cowl on his own adventures for several years before his childhood sweetheart convinced him to settle down.  He gave the cowl to his nephew, Chirchet, who in turn sold the item for a large stretch of farmland.
+
+STATISTICS:
+
+Armor Class Bonus:  +2
+Special:  
+  +10% to Stealth
+  Wearer can cast Blindness and Color Spray 1/Day
+Weight:  2
+
+Only Usable By:
+ Thief (Single, Dual-, and Multi-Class)
+ Ranger (Single, Dual-, and Multi-Class)
+ Bard~
+@20527 = ~Shimmering Sash~
+@20528 = ~One of many beautiful enchanted sashes created in the southern reaches of Zakhara, this luxurious silk item was created to aid its wearers in evading attacks.  The Brotherhood of the True Sun, a society of holy slayers, granted these sashes to their most devout servants.  This particular sash was most recently in the possession of the holy slayer Khamu Bedi.  A string of delicate black characters on the red silk read, "Be swift, powerful, and deadly.  But above all else, be moral."
+
+STATISTICS:
+
+Wearer is under the effects of Blur
+Weight: 2
+
+Only Usable By:
+  Good Characters~
+@20529 = ~Bolt of Sekolah's Fire~
+@20530 = ~This long metal tube is fitted with a plunger at one end.  The tube is filled with a viscous jelly-like substance that reeks of fish.  When placed in a crossbow and fired, the plunger ejects the contents in a 40' long stream.  Upon contact with air, the jelly ignites leaving a trail of flame as it flies toward a target.  Any target struck is coated by the jelly and then begins to burn as well.  These bolts are a favored weapon of high ranking Sahuagin.
+
+STATISTICS:
+
+Damage:  3D6 fire damage per combat round for 3 rounds
+Damage Type:  Fire
+Launcher:  Crossbow~
+@20531 = ~Serrated Bone Blade~
+@20532 = ~Emanating a faint blue aura, this gigantic weapon is a serrated two-handed sword made of bone.  It will occasionally strike with a shocking force of cold, chilling the player to the bone.
+
+STATISTICS:
+
+Damage: 1D10 + 3
+THAC0: +3
+Special: 
+  20% chance +1D10 cold damage
+Damage type: Slashing
+Weight: 25
+Speed Factor: 10
+Proficiency Type: Two Handed sword
+Type: 2-Handed
+Requires: 14 Strength
+
+Note Usable By:
+ Cleric
+ Mage
+ Druid
+ Thief
+ Monk
+ Beast Master~
+@20533 = ~Owain's Lullabye~
+@20534 = ~A magical flute.~
+@20535 = ~Owain's Lullabye was created by a disturbed bard named Owain Piper.  Piper was a worshipper of Auril, born in the town of Silverymoon and raised to embrace the frigid environment of his homeland.  He traveled extensively in the Moonsea, where he met a mage named Pelham of the Moor.  Owain and Pelham became good friends and stayed in contact for over a decade.  Pelham eventually enchanted Owain's Lullabye for the bard in exchange for a small sum of money.  Owain rarely used the instrument in battle, typically employing it when he found late-migrating geese lounging on a lake.  He would blow the horn in such a way that the geese heard it as the sound of their cousins heading south for the winter.  As the geese would attempt to take flight, Owain's horn would freeze them in mid-stroke, where he would leave them to die.
+
+STATISTICS:
+
+When played, this instrument casts Cone of Cold for 10d4+10 points of damage.
+
+Only Usable By:
+  Bard~
+@20536 = ~Spendelard's Protector~
+@20537 = ~The wizard Spendelard was famous for his extremely utilitarian spells.  While he was not threatened a great deal during his life, his rare but far-reaching travels often took him into dangerous situations.  A staff of his making protected him on those occasions.  He eventually acquired a staff, which he found more to his liking and sold his worn Protector to a traveling druid of Chauntea.
+
+STATISTICS:
+
+Damage:  1D6 + 1
+THAC0:  +1
+Armor Class Bonus: 1
+Resistance Bonus +1 Save vs. Spells
+Damage type:  Crushing
+Weight:  3
+Speed Factor:  3
+Proficiency Type:  Quarter Staves
+Type:  2-handed
+Requires: 5 Strength
+
+Not Usable By: 
+  Monk~
+@20538 = ~Stomper's Boots~
+@20539 = ~This pair of extremely sturdy boots were owned by the Thentian explorer Bordel "Stomper" Farpath.  Bordel was famed throughout the Moonsea for his hiking contests.  Bordel and a group of fellow explorers would specify a location in Faerun to march to.  The contestants would then hike to the location by the quickest route possible.  Bordel won far more of the competitions than he lost, and he had a reputation for having extremely heavy footsteps.  This earned him the nickname "Stomper."  When Bordel died in a rockslide, he was buried in the wilderness.  Several years after his death, rumors began circulating that Bordel's boots were actually enchanted to make him sound loud when he approached.  This rumor spiraled out of control, eventually going so far as to say that Bordel's boots were capable of shaking down houses with their weight.  By the time thieves stole the boots ten years after Bordel's death, they had taken on the properties that so many people believed they possessed.
+
+STATISTICS:
+
+Allows the wearer to cast Earthquake 1/Day.
+Weight: 4
+
+Not Usable By:
+  Wizard Slayer~
+@20540 = ~Sanctified War Hammer +3~
+@20541 = ~Like others of its type, this warhammer is made entirely of steel, with a bone-crushing hammer mounted upon an 18" shaft.  It has also been bestowed with a small number of magical properties, however, thus making it more effective in combat.
+
+STATISTICS:
+
+Damage:  1D4 + 4
+THAC0:  +3
+Special:
+  Memorize 2 additional 1st level Priest spells
+  Memorize 1 additional 2nd level Priest spell
+  Memorize 1 additional 3rd level Priest spell
+Damage type:  Crushing
+Weight: 6
+Speed Factor: 3
+Proficiency Type: Hammers
+Type:  1-handed
+Requires: 9 Strength
+
+Only usable by:
+ Cleric (single, dual, & multi-class)~
+@20542 = ~War Hammer +5:  Defender~
+@20543 = ~Like others of its type, this warhammer is made entirely of steel, with a bone-crushing hammer mounted upon an 18" shaft.  It has also been bestowed with a small number of magical properties, however, thus making it more effective in combat.
+
+STATISTICS:
+
+Damage:  1D4 + 5
+THAC0:  +5
+Armor Class Bonus: 2
+Resistance Bonuses:
+  +15% Piercing Resistance
+  +15% Slashing Resistance
+  +15% Crushing Resistance
+  +15% Magic Resistance
+  +3 Save vs. Spells
+  20% chance to heal 1d4 HP on bearer upon successful hit
+Damage type:  Crushing
+Weight: 6
+Speed Factor: 3
+Proficiency Type: Hammers
+Type:  1-handed
+Requires: 9 Strength
+
+Not Usable By:
+ Druid
+ Mage
+ Thief
+ Monk
+ Beast Master~
+@20544 = ~Poisonous Battle Axe +2~
+@20545 = ~Besides its superb craftsmanship, tiny runes of power can be seen etched all along the surface. It's obvious a lot of time and effort went into its creation and although not apparent at first, a slight blue glow can be seen emanating from the runes.
+
+STATISTICS:
+
+Damage:  1D8 + 2
+THAC0: +2
+Special: 
+  25% chance target is Poisoned
+Damage type:  Slashing
+Weight: 7
+Speed Factor: 7
+Proficiency Type: Axe
+Type:  1-handed
+Requires: 10 Strength
+
+Not Usable By:
+ Good Alignment
+ Druid
+ Cleric
+ Mage
+ Thief
+ Monk
+ Beast Master~
+@20546 = ~Benorg's Truth~
+@20547 = ~Besides its superb craftsmanship, tiny runes of power can be seen etched all along the surface. It's obvious a lot of time and effort went into its creation and although not apparent at first, a slight blue glow can be seen emanating from the runes.
+
+STATISTICS:
+
+Damage:  1D8 + 4
+THAC0: +4
+Armor Class Bonus: 1
+Special:
+  +1D6 additional crushing damage
+  10% chance target is Stunned
+Damage type:  Slashing
+Weight: 7
+Speed Factor: 7
+Proficiency Type: Axe
+Type:  1-handed
+Requires: 10 Strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief
+ Monk
+ Beast Master~
+@20548 = ~Two-Handed Axe of Resistance +3~
+@20549 = ~This mighty weapon consists of a four- to five-feet haft with a very heavy blade.  The axe may be double-bitted, with blades on both sides of the haft, or it may only have a single blade.  It is an unwieldy weapon, but a skilled warrior can strike blows of tremendous strength with it. Dwarven runes have been etched into the giant blade to further enhance the axe.
+
+STATISTICS:
+
+Damage:  1D10 + 3
+THAC0: +3 bonus
+Resistance Bonuses:
+  +10% Magic Resistance
+  +10% Slashing Resistance
+  +10% Piercing Resistance
+  +10% Crushing Resistance
+  +10% Missile Resistance
+  +2 to all saving throws
+Damage type:  Slashing
+Weight:  10
+Speed Factor:  9
+Proficiency Type:  Axe
+Type:  2-handed
+Requires: 10 Strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief
+ Monk
+ Beast Master~
+@20550 = ~Bastard Sword +3: Defender~
+@20551 = ~Besides its superb craftsmanship, tiny runes of power can be seen etched all along the surface. It's obvious a lot of time and effort went into its creation and although not apparent at first, a slight blue glow can be seen emanating from the runes.
+
+STATISTICS:
+
+Damage:  2D4 + 3
+THAC0: +3
+Armor Class Bonus: 2
+Resistance Bonuses:
+  +10% Slashing Resistance
+  +10% Piercing Resistance
+  +10% Crushing Resistance
+  +10% Missile Resistance
+  +1 to all saving throws
+Damage type:  Slashing
+Weight: 10
+Speed Factor: 8
+Proficiency Type: Bastard Sword
+Type:  1-handed
+Requires: 11 Strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief
+ Monk
+ Beast Master~
+@20552 = ~Valiant~
+@20553 = ~This legendary blade was wielded for a short time by the warrior Ilban of Elturel.  It is from his exploits in Calimshan that the weapon gained its name.  Before Ilban, however, Valiant was in the possession of a holy slayer from distant Zakhara.  According to sages, the light sword was crafted to serve an order of assassins.  Valiant's owners survived through many incredible ordeals, mostly because of the magic of the weapon.  The weapon was lost in Calimshan when a holy slayer pursued a pasha's blasphemous agents to Calimport.  The scimitar remained in the hands of Baris Cabal for about a dozen years before the band was broken up by Ilban and his companions.  Ilban's exploits took Valiant into battle against sandmen, giant scorpions, desert raiders, evil sorcerers and the demonic servants of Celan Harad.
+
+STATISTICS:
+
+Damage:  1D8 + 2
+THAC0:  +2
+Special:
+  Extra Attack Per Round
+Damage type:  Slashing
+Weight:  4
+Proficiency type:  Scimitar/Wakizashi/Ninja-To
+Speed Factor:  0
+Type:  1-handed
+Requires: 8 Strength
+
+Not Usable By:
+  Mage
+  Cleric
+  Beast Master~
+@20554 = ~Wailing of Virgins~
+@20555 = ~This simple cloak has been imbued with some small magical properties to help protect its wearer. It does so by affecting both saving throws and armor class. It is ideal for mages and others who cannot wear bulkier or more restrictive types of armor.
+
+STATISTICS:
+
+Weight:  3~
+@20556 = ~This thin cloak appears frayed at first, but upon closer inspection, the stray threads are actually human hairs from which the cloak is woven.  The cloak twists in torchlight, each strand of hair raveling and unraveling about the others so subtly that it appears as if a light breeze is rippling the cloak.
+
+This cloak is woven from the hair of virgins sent to the Burial Isle to sleep with their dead barbarian lords.  It was the Seer's duty to comfort these women, to soothe their pain - in order to do so, she took a lock of hair from each and wove the strands into a cloak that would draw the spirits of fear from the virgins and steady their hearts.  The result was a cloak that hangs heavy with guilt and does little to shield the wearer from the cold of the North.  
+
+When worn, the hairs weave around the wielder's frame, the long strands lacing together like threads on a loom.  The cloak will not willingly unravel itself from a wearer without being coerced by a Remove Curse spell.
+
+STATISTICS:
+
+Armor Class Bonus: 4 vs. Crushing, Piercing and Missile Attacks
+Armor Class Bonus: 2 vs. Slashing Attacks
+Special: 
+  Wearer is Immune to all Fear-Based Effects and Emotion: Hopelessness
+  Wearer can summon Cloak of Fear 1/Day
+Weight: 1
+
+Only Usable By:
+ Elves
+ Half-Elves~
+@20557 = ~Waukeen's Defender~
+@20558 = ~A number of these shields can be found in Waukeenar temples throughout Faerun.  The church crafts these shields to sell to enterprising adventurers.  In exchange for the powers of the device, the bearer is required to keep the front of the shield uncovered and in its original state.  If the owner does not comply, the shield's powers fail.  In this way, dozens of adventurers walk the realms bearing the golden face of Waukeen on their arm.
+
+STATISTICS:
+
+Armor Class Bonus: 3
+Saving Throw Bonus: 2
+Magic Resistance: 10%
+Weight: 4
+Requires: 4 Strength
+
+Not Usable By:
+ Druid
+ Thief
+ Mage
+ Bard
+ Monk
+ Kensai~
+@20559 = ~Ol'Withery~
+@20560 = ~The original name of this odd blade is lost in the murky depths of the Sea of Swords.  Crafted of magically-strengthened sahuagin bone, the weapon is believed to have been used by kuo-toa in bizarre rituals.  The handle is crafted from coral wrapped in sahuagin skin.  At one time, it was owned by Lockhart, a prominent adventuring thief and smuggler on the Sword Coast.  It was he who gave the blade its current name.
+
+STATISTICS:
+
+Damage:  1D4 + 2
+THAC0:  +2
+Special:
+  2% chance of casting Finger of Death on target, if saved vs. spells - target receives 2d8+1 magic damage
+Damage type:  Piercing
+Weight:  1
+Speed Factor:  1
+Proficiency Type:  Dagger
+Type:  1-handed
+Requires: 4 Strength
+
+Not Usable By:
+ Cleric
+ Beast Master~
+@20561 = ~Young Rage~
+@20562 = ~This axe was crafted for a powerful young barbarian warrior named Hegelfden.  He was born into the Tribe of the Elk and the shamans prophesized that he would be a powerful warrior.  Hegelfden grew up believing that he was special, important, and somehow better than those around him.  By the age of seventeen, Hegelfden was an accomplished warrior.  Huge, fast, and cunning, he was more than a match for his kinsmen.  On a journey into the Spine of the World, Hegelfden captured two dwarves that he came across in a cave.  He refused to let the two workers go until they created a magnificent axe for him.  The two dwarves reluctantly agreed, creating a stout battle axe with a keen blade and a thick handle.  When the dwarves asked to be released, Hegelfden denied their request.  He wanted to keep them as servants.  The dwarves then laid a curse upon Hegelfden.  They told him that the fruit of his abuse would be the end of him.  Hegelfden laughed at the dwarves' claim and continued on with his life.  The next day, in a battle with a rival tribe, Hegelfden went berserk with blood lust, slaying every creature he came across.  His kin, convinced that he had gone mad, cut him down where he stood.  The axe was left on the field when the warriors brought Hegelfden's body back to the camp.  When they arrived, the dwarves were nowhere to be found.
+
+STATISTICS:
+
+Damage:  1D8 + 5
+THACO:  +5
+Special:  
+  5% chance per hit that the wielder goes berserk for 10 rounds
+Damage Type: Slashing
+Weight: 6
+Speed Factor: 3
+Proficiency Type: Axe
+Type:  1-handed
+Requires: 10 Strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief
+ Monk
+ Beast Master~
+@20563 = ~This is a black leather like staff, very stron, and carved with disqusting scenes and vile runes.  It allows the wielder to cause fear in whomever it touches-- no saving throw, inflict 4-24 HP of damage which can only be healed by clerical magic, potions, or the passage of one full day of rest.  It may also be used to call forth a Type I demon (Tanar'ri) and/or turn the holder into a Type III (Slayer-like) demon for one turn.  Each of these functions operates but once per day.
+
+STATISTICS:
+
+Combat Abilites:
+   4d6 HP Damage and Fear (no save)
+   Can summon a Tanar'ri once per day
+   Can change the wielder into a Slayer once per day
+
+Weight: 3
+Speed Factor: 1
+Proficiency Type: Staff
+Type: Two-handed
+Requires: 5 Strength
+
+Not Usable By:
+ Monk~
+@20564 = ~Ring of the Drow~
+@20565 = ~This ring is made of eight strands of different unique metals entwined to form a ring.  The drow found it troublesome when their magical items deteriorated upon leaving their underground homeland for long periods of time; to combat this, they created this ring.  The Ring of the Drow is only made in the drow homelands by clerics of Lolth.  Its purpose is to keep drow-made items the wearer possesses from deteriorating.  To do so, the ring radiates an aura of magical energy that duplicates the underground radiations deep in the drow homelands.  As a side effect of the ring's magical aura, a detect magic spell reveals the wearer to radiate magic strongly.  In addition, a detect evil shows the wearer of one of these rings as evil, and a know alingment indicates that the wearer is chaotic evil, regardless of the wearer's true alignment.  If the wearer uses a psionic power of aura alteration to change the aura, the wearer must save vs. spells or else change alignment to chaotic evil.  If the wearer saves, or if the wearer fails to save but is already chaotic-evil, the psionic power functions normally, and the ring's aura is temporarily changed.
+  
+  To possess one of these rings is considered an honor among the drow, because it signifies that the wearer has traveled far from the homeland, and that he or she was aided by a cleric favored of Lolth.  Drow will kill any creature other than a drow that possesses one of these rings.~
+@20566 = ~Field Glasses~
+@20567 = ~Field glasses are normally carried by scouts or sentries in mercenary companies or national armies.  The benefits of sighting and monitoring one's enemies, without the use of magic to alert enemy mages, far outweigh the disadvantages which a lone scout has against greater numbers.
+
+This pair of field glasses was given to you by the Major of the Soubar Guard.  They will reveal a small area on a map from far away, per the spell Farsight, without the use of magic.  The Major suggested that you use them to scout the bandits at the farms north of Soubar, so it would be wise to hold on to these until your mission there is completed.
+
+STATISTICS:
+
+Ability:  Farsight, 3x per day
+
+Usable by: 
+   All~
+@20568 = ~Fish Stew~
+@20569 = ~Any of Oscar's dinners provide for sustanance.  Foods will increase strength, constitution, and intelligence by one point for a period of four hours.  Just place the item in a quick slot as with a potion.~
+@20570 = ~Seafood Chowder~
+@20571 = ~Corn Biscuits~
+@20572 = ~Mahi Mahi~
+@20573 = ~Flounder~
+@20574 = ~Whitefish~
+@20575 = ~Grouper~
+@20576 = ~Halibut~
+@20577 = ~Fish of the Day~
+@20578 = ~Beef Ribs~
+@20579 = ~Beef Steaks~
+@20580 = ~Haggis~
+@20581 = ~Lizard Steaks~
+@20582 = ~Mutton~
+@20583 = ~Roast Chicken~
+@20584 = ~Snake Stew~
+@20585 = ~Rabbit Stew~
+@20586 = ~Beef Stew~
+@20587 = ~Vegetables~
+@20588 = ~Venison Steaks~
+@20589 = ~Roast Turkey~
+@20590 = ~Loaf of Rye Bread~
+@20591 = ~Chicken Eggs~
+@20592 = ~Snake Eggs~
+@20593 = ~Apple Pie~
+@20594 = ~Any of Oscar's dinners provide for sustanance.  Foods will increase strength, constitution, and intelligence by one point for a period of four hours.  Just place the item in a quick slot as with a potion.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+My grandmother makes better apple pie than Oscar-- cbisson~
+@20595 = ~Cheese Platter~
+@20596 = ~Ghost Bane~
+@20597 = ~Usually found in small jars of vials, Ghost Bane is a rare magical powder valued highly by adventurers and necromancers.  When mixed with water and consumed, it protects the imbiber for 24 hours from being aged by a ghost (negative plane protection).  It is sought after by those who specialize in fighting undead.
+
+STATISTICS:
+
+Protects drinker from Level Drain for 24 hours.
+
+Not Usable By:
+  Wizard Slayer~
+@20598 = ~Ceeb Isson's Ecologies: On Hellblades
+
+It was rumored many a year ago that during the great wars when the Elves united to battle the Dark Elves and to cause them to flee to the vast underground, Gulgaraith, a well-experienced fighter/mage Dark Elf, forged numerous swords of great power to help in those wars.  This is how the Hellblades came to surface on the mortal world of man.  Nobody knows how many blades were actually forged and enchanted and how many still exist after so many centuries.  All that is known is that the Hellblades are weapons of quite evil power.
+
+Overall Effects:  Each Hellblade functions as a modified Sword of Sharpness, they are all +3 weapons and can sever a random limb on a natural roll of 20.  These weapons are so powerful and evilly enchanted that if broken they will simply reform themselves and if ever torn away from their owner they will simple slide closer to get within the presense of their owner, distance not being a factor, though it may take some time to get to its owner if the distance is very great.  However, their most known power is the ability, on a natural 20, to instantly kill a target.  Those slain by a Hellblade are dead, and cannot be raised or resurrected.  Each Hellblade also has an ego, Intelligence, and a defensive power to help its owner.  Hellblades cannot, however, talk, use Telepathy, and the like.
+
+Hellblades can be dangerous for both the target and the wielder.  When a Hellblade chooses a new owner, the Hellblade will try with all its might to stay with the owner.  If a Hellblade is seperated from the owner, it will return.  If the Hellblade is sold away from the owner, it will return.  As the bond between the Hellblade and the owner becomes stronger, the owner will begin to change alignment.  A stronger bond between a Hellblade and owner will cause the owner to do things that the Hellblade wishes, i.e., if the owner drops a Hellblade, the Hellblade will "instruct" the owner to pick it up, regardless of the owners rational wishes.
+
+Take care when looking at a particular Hellblade's functions, for knowing the functions may cause the Hellblade to "choose" the identifier as its new owner.
+
+STATISTICS:
+
+Adds 1 Wisdom permanently~
+@20599 = ~Wisdom has been raised by 1 permanently~
+@20600 = ~On Hellblades:
+
+It was rumored many a year ago that during the great wars when the Elves united to battle the Dark Elves and to cause them to flee to the vast underground, Gulgaraith, a well-experienced fighter/mage Dark Elf, forged numerous swords of great power to help in those wars.  This is how the Hellblades came to surface on the mortal world of man.  Nobody knows how many blades were actually forged and enchanted and how many still exist after so many centuries.  All that is known is that the Hellblades are weapons of quite evil power.
+
+Overall Effects:  Each Hellblade functions as a modified Sword of Sharpness, they are all +3 weapons and can sever a random limb on a natural roll of 20.  These weapons are so powerful and evilly enchanted that if broken they will simply reform themselves and if ever torn away from their owner they will simple slide closer to get within the presense of their owner, distance not being a factor, though it may take some time to get to its owner if the distance is very great.  However, their most known power is the ability, on a natural 20, to instantly kill a target.  Those slain by a Hellblade are dead, and cannot be raised or resurrected.  Each Hellblade also has an ego, Intelligence, and a defensive power to help its owner.  Hellblades cannot, however, talk, use Telepathy, and the like.
+-----------------------------------
+
+Hellblade:  Lifeeater
+
+A scimitar that glows with a pure ruby radiance and can Haste its possessor thrice per day at the 12th level of casting.   It has an intelligence of 17 and an ego of 10.
+
+STATISTICS:
+
+Damage:  1D6 + 3
+Damage type:  slashing
+Weight: 5
+Speed Factor: 5
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 10 Strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Beast Master~
+@20601 = ~On Hellblades:
+
+It was rumored many a year ago that during the great wars when the Elves united to battle the Dark Elves and to cause them to flee to the vast underground, Gulgaraith, a well-experienced fighter/mage Dark Elf, forged numerous swords of great power to help in those wars.  This is how the Hellblades came to surface on the mortal world of man.  Nobody knows how many blades were actually forged and enchanted and how many still exist after so many centuries.  All that is known is that the Hellblades are weapons of quite evil power.
+
+Overall Effects:  Each Hellblade functions as a modified Sword of Sharpness, they are all +3 weapons and can sever a random limb on a natural roll of 20.  These weapons are so powerful and evilly enchanted that if broken they will simply reform themselves and if ever torn away from their owner they will simple slide closer to get within the presense of their owner, distance not being a factor, though it may take some time to get to its owner if the distance is very great.  However, their most known power is the ability, on a natural 20, to instantly kill a target.  Those slain by a Hellblade are dead, and cannot be raised or resurrected.  Each Hellblade also has an ego, Intelligence, and a defensive power to help its owner.  Hellblades cannot, however, talk, use Telepathy, and the like.
+-----------------------------------
+
+Hellblade:  Souldrainer
+
+A long sword that glows with a sickly purplish/yellowish radiance.  This sword has the ability to Negative Plane Protection its possesser thrice per day at the 12 level of ability.  It has an intelligence of 17 and an ego of 12.
+
+STATISTICS:
+
+Damage:  1D8 + 3
+Damage type:  slashing
+Weight: 5
+Speed Factor: 5
+Proficiency Type: Long Sword
+Type:  1-handed
+Requires: 6 Strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Beast Master~
+@20602 = ~On Hellblades:
+
+It was rumored many a year ago that during the great wars when the Elves united to battle the Dark Elves and to cause them to flee to the vast underground, Gulgaraith, a well-experienced fighter/mage Dark Elf, forged numerous swords of great power to help in those wars.  This is how the Hellblades came to surface on the mortal world of man.  Nobody knows how many blades were actually forged and enchanted and how many still exist after so many centuries.  All that is known is that the Hellblades are weapons of quite evil power.
+
+Overall Effects:  Each Hellblade functions as a modified Sword of Sharpness, they are all +3 weapons and can sever a random limb on a natural roll of 20.  These weapons are so powerful and evilly enchanted that if broken they will simply reform themselves and if ever torn away from their owner they will simple slide closer to get within the presense of their owner, distance not being a factor, though it may take some time to get to its owner if the distance is very great.  However, their most known power is the ability, on a natural 20, to instantly kill a target.  Those slain by a Hellblade are dead, and cannot be raised or resurrected.  Each Hellblade also has an ego, Intelligence, and a defensive power to help its owner.  Hellblades cannot, however, talk, use Telepathy, and the like.
+-----------------------------------
+
+Hellblade:  Souldevourer
+
+A scimitar that glows with a grayish radiance.  The sword can only do once per day Tenser's Transformation on its possessor but at the 13th level of casting.   It has an intelligence of 16 and an ego of 13.
+
+STATISTICS:
+
+Damage:  1D6 + 3
+Damage type:  slashing
+Weight: 5
+Speed Factor: 5
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 10 Strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Beast Master~
+@20603 = ~On Hellblades:
+
+It was rumored many a year ago that during the great wars when the Elves united to battle the Dark Elves and to cause them to flee to the vast underground, Gulgaraith, a well-experienced fighter/mage Dark Elf, forged numerous swords of great power to help in those wars.  This is how the Hellblades came to surface on the mortal world of man.  Nobody knows how many blades were actually forged and enchanted and how many still exist after so many centuries.  All that is known is that the Hellblades are weapons of quite evil power.
+
+Overall Effects:  Each Hellblade functions as a modified Sword of Sharpness, they are all +3 weapons and can sever a random limb on a natural roll of 20.  These weapons are so powerful and evilly enchanted that if broken they will simply reform themselves and if ever torn away from their owner they will simple slide closer to get within the presense of their owner, distance not being a factor, though it may take some time to get to its owner if the distance is very great.  However, their most known power is the ability, on a natural 20, to instantly kill a target.  Those slain by a Hellblade are dead, and cannot be raised or resurrected.  Each Hellblade also has an ego, Intelligence, and a defensive power to help its owner.  Hellblades cannot, however, talk, use Telepathy, and the like.
+-----------------------------------
+
+Hellblade:  Soulsucker
+
+A long sword that glows with a sickly greenish/yellowish radiance.  This sword grants its possessor 37% Magic Resistance when held and has the ability to Minor Globe of Invulnerability its owner thrice per day at the 12 level of ability.  It has an intelligence of 17 and an ego of 12.
+
+STATISTICS:
+
+Damage:  1D8 + 3
+Damage type:  slashing
+Weight: 5
+Speed Factor: 5
+Proficiency Type: Long Sword
+Type:  1-handed
+Requires: 6 Strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Beast Master~
+@20604 = ~On Hellblades:
+
+It was rumored many a year ago that during the great wars when the Elves united to battle the Dark Elves and to cause them to flee to the vast underground, Gulgaraith, a well-experienced fighter/mage Dark Elf, forged numerous swords of great power to help in those wars.  This is how the Hellblades came to surface on the mortal world of man.  Nobody knows how many blades were actually forged and enchanted and how many still exist after so many centuries.  All that is known is that the Hellblades are weapons of quite evil power.
+
+Overall Effects:  Each Hellblade functions as a modified Sword of Sharpness, they are all +3 weapons and can sever a random limb on a natural roll of 20.  These weapons are so powerful and evilly enchanted that if broken they will simply reform themselves and if ever torn away from their owner they will simple slide closer to get within the presense of their owner, distance not being a factor, though it may take some time to get to its owner if the distance is very great.  However, their most known power is the ability, on a natural 20, to instantly kill a target.  Those slain by a Hellblade are dead, and cannot be raised or resurrected.  Each Hellblade also has an ego, Intelligence, and a defensive power to help its owner.  Hellblades cannot, however, talk, use Telepathy, and the like.
+-----------------------------------
+
+Hellblade:  Soulskinner
+
+A short sword that glows with a yellowish radiance, it has the ability to stoneskin its possessor thrice per day at the 12 level of ability.  It has an intelligence of 17 and an ego of 12.
+
+STATISTICS:
+
+Damage:  1D6 + 3
+Damage type:  slashing
+Weight: 5
+Speed Factor: 5
+Proficiency Type: Short Sword
+Type:  1-handed
+Requires: 5 Strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Beast Master~
+@20605 = ~On Hellblades:
+
+It was rumored many a year ago that during the great wars when the Elves united to battle the Dark Elves and to cause them to flee to the vast underground, Gulgaraith, a well-experienced fighter/mage Dark Elf, forged numerous swords of great power to help in those wars.  This is how the Hellblades came to surface on the mortal world of man.  Nobody knows how many blades were actually forged and enchanted and how many still exist after so many centuries.  All that is known is that the Hellblades are weapons of quite evil power.
+
+Overall Effects:  Each Hellblade functions as a modified Sword of Sharpness, they are all +3 weapons and can sever a random limb on a natural roll of 20.  These weapons are so powerful and evilly enchanted that if broken they will simply reform themselves and if ever torn away from their owner they will simple slide closer to get within the presense of their owner, distance not being a factor, though it may take some time to get to its owner if the distance is very great.  However, their most known power is the ability, on a natural 20, to instantly kill a target.  Those slain by a Hellblade are dead, and cannot be raised or resurrected.  Each Hellblade also has an ego, Intelligence, and a defensive power to help its owner.  Hellblades cannot, however, talk, use Telepathy, and the like.
+-----------------------------------
+
+Hellblade:  Soulzapper
+
+A scimitar of pure black steel, it glows with a bright red radiance of the fires of hell itself.  It grants its user Fire Resistance (100%) and has the power to Mirror Image its possessor thrice per day at the 12 level of ability.  It has an intelligence of 17 and an ego of 12.
+
+STATISTICS:
+
+Damage:  1D8 + 3
+Damage type:  slashing
+Weight: 5
+Speed Factor: 5
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 10 Strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Beast Master~
+@20606 = ~Urn~
+@20607 = ~Phylactery~
+@20608 = ~This is a golden urn with a strange substance coating the rim and interior.  The substance is almost like a liquid ash, quite fine in texture as if something had been burnt at extremely high temperatures.~
+@20609 = ~This is quite obviously a phylactery of a lich.  You have had enough experience to know that the only way to completely destroy a lich is by destroying its phylactery when it is near.  If the phylactery is not destroyed, a hurt lich will reform itself in less than twenty days.  Destroying the phylactery immediately kills the lich.~
+@20610 = ~Soubar Chief Lieutenant~
+@20611 = ~Soubar Lieutenant~
+@20612 = ~Foot Locker~
+@20613 = ~The Soubar Major gave you this bag to put all your personal belongings in.  If you do not place ALL your stuff in the bag, it may get lost.  The bag will be returned to you once you become a commissioned officer, but while enlisted, you must wear the uniform of the Soubar Guard.  When you've got all your stuff in the bag, give it to the Major.~
+@20614 = ~This letter is addressed to High Merchant Logan Coprith in Trademeet.  You are to deliver it to him for the Major of Soubar.
+
+Greetings to an old friend-
+
+Well met, Logan.  I apologize for the briefness of this missive, but I am in dire need of any assistance you can provide my home town and the region itself.  As I explained in my last letter to you, the region has suffered greatly at the hands of a renegade half-orc by the name of Sureblade.  His bandit legions have sacked the nearby village of Triel, and are attempting conquest of Soubar.  We are in desperate straights, and cannot hold against them for long.  Please, Logan, if you can spare any men, supplies, or financing, I would be in your debt.  
+
+May Helm watch over you-
+
+(the signature is scribbled and you cannot make out the name)
+Major of Soubar
+
+Post-Script:  Sabby sends her love to you and yours.~
+@20615 = ~Holy Symbol of Lolth~
+@20616 = ~Only those most worthy and devoted servants of the Spider Queen are granted these powerful holy symbols.
+
+STATISTICS:
+
+ Grants two additional 6th and one additional 7th level clerical spell
+ 5% Magic Resistance while worn
+ +1 to Strength while worn
+
+Usable By:
+  Elven Clerics~
+@20617 = ~Letter of Introduction~
+@20618 = ~Child of Bhaal-
+
+Forgive the manner in which we contact you.  We have been searching throughout Amn and along the Sword Coast for someone powerful enough, and with enough skills and influence to assist us in the region of our home villages.
+
+Know then, that if you decide to help us, please do not fail to bring this letter of introduction, along with the sealed letter accompaning it, to the Umar Hills Inn.  Do not unseal the following letter, for if you do unseal it before meeting with us, our homes may be jeapordized with the words we have written.
+
+Truly, we hope to meet with you soon, as what we have heard about your abilities, compassion, and doings have pleased us and given hope to our villages and hearts.
+
+Respectfully,
+
+GV & AK~
+@20619 = ~Sealed Letter~
+@20620 = ~Broken-Sealed Letter~
+@20621 = ~This is the sealed letter which accompanied the letter of introduction you found in the Copper Coronet.
+
+It has been sealed with a wax, and embossed with a crest which you do not recognize.
+
+As you were instructed to bring the letter of introduction and this sealed letter to the Umar Hills Inn, it would probably be unwise of you to unseal it at this point.~
+@20622 = ~This is the letter which had an impressed seal of a crest which you did not recognize over the edges of the parchment.  You were instructed not to unseal the letter prior to meeting with the contacts at the Umar Hills Inn.  Now that you have unsealed it, you can see that there are black and red runes written in a flowing script and block runes that you can read to the left.~
+@20623 = ~Lyrar's Mace~
+@20624 = ~Lyrar's Mace is a powerful weapon you found while sieging his hold north of Soubar.  This weapon will protect the wielder from level drain, as well as increasing the user's strength to 22.
+
+STATISTICS:
+
+Damage:  1D6 + 6
+THACO:  +5 bonus
+Equipped Abilities:
+  Strength set to 22
+  Negative Plane Protection
+Damage type:  crushing
+Weight: 4
+Speed Factor: 2
+Proficiency Type: Mace
+Type:  1-handed
+Requires: 10 Strength
+
+Not Usable By:
+ Druid
+ Mage
+ Thief
+ Monk
+ Beast Master~
+@20625 = ~Lyrar's Plate~
+@20626 = ~While seiging the ancient castle of Lyrar's Hold, you found this suit of armor in fairly good condition in the tomb of Lyrar.  It is a heavy and old suit of plate mail armor.  This suit was made with antiquated methods of construction, and when worn will slow the wearer slightly when performing quick movements such as attacking, but not in normal actions like walking.  The hefty and strong plates make up for this by protecting the wearer, awarding a 50% bonus to damage versus Crushing, Slashing, Piercing, and Missile types of attacks.
+
+STATISTICS:
+
+Armor Class: -1
+Specific:
+  AC bonus of 4 vs Slashing
+  Decreases Attacks by 33%
+  Awards 50% resistance to physical damage
+  30% bonus to magic damage resistance
+Weight: 35
+Requires: 12 Strength
+
+Not Usable By:
+ Bard 
+ Druid
+ Mage
+ Thief
+ Monk
+ Shapeshifter
+ Barbarian
+ Archer
+ Stalker
+ Beast Master
+ Kensai~
+@20627 = ~Lyrar's Shield~
+@20628 = ~You found this shield and other accoutrements of Lyrar in his castle north of Soubar.  Upon identification, this sheild proves to protect its wearer from evil, as the spell, while worn on the arm.  It also provides a greater armor class bonus than normal large shields.
+
+STATISTICS:
+
+Armor Class Bonus: 4
+Special: 
+  +2 vs. Missile Weapons
+  Grants protection from Demons
+Weight: 15
+Requires: 15 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai~
+@20629 = ~Manacles~
+@20630 = ~These manacles have been placed upon your wrists for a crime you may or may not have committed.  You cannot remove the manacles without a key, nor can you make large movements.~
+@20631 = ~Manacles are simple devices made of forged iron.  Once placed upon a prisoner's hands and feet, the prisoner's movement is restricted to small movements.  These are normally used by jailors or executioners to prevent a criminal from running, attacking, or performing any other action that could cause harm to the jailor or the prisoner.
+
+To use manacles, all one needs to do is "place" the manacles upon a criminal's wrists and ankles by making a successful attack.  Once the manacles are in place, the prisoner cannot move, and is 'cursed' to prevent the manacles from being removed without a key.~
+@20632 = ~Has been placed in manacles~
+@20633 = ~Mayor of Soubar~
+@20634 = ~Soubar Town Council Member~
+@20635 = ~<CLASS>~
+@20636 = ~This letter is addressed to Prelate Wessalen, the leader of the  Order of the Most Radiant Heart in Athkatla.  You are to deliver it to him for the Major of Soubar.
+
+
+My most noble Prelate-
+I trust this missive finds you in good health and in the gayest of spirits.  I fear all is not well in Soubar, as we have been besieged by the most violent bandits to have attacked any innocent village since before the Fall of the Gods.  Please, Prelate, in Torm's good name, we beg your assistance.  Any of the Order who would help us combat this threat are more than welcome to come to Soubar.  We await your assistance and pray that Torm delivers help to us.
+
+With Torm's Blessing-
+(the signature is scribbled and you cannot make out the name)
+Major of Soubar~
+@20637 = ~Vanshir's Warblade~
+@20638 = ~The warrior Vanshir travelled for a great time with an mercenary party, some of whom he did not trust as to their greed and selfish acts, yet he fought valiantly to keep them safe.  After a great battle, with the company weakened, a thief decided to make his life easy and lay claim to other's belongings.  He started witht he first and most powerful warrior, Vanshir.  The foul man stuck a poison dagger in his back and went to work on the rest of the party.  Vanshir survived and made his way to a nearby city to rest and heal, and three years later, without the aid of magic to get him home, he made his way to his estates.  It was here that he became obsessed with revenge and sold all that he owned, called in all of his favors, and alienated most of his friends.  He used this money to pay off a wizard to craft an enchanted blade that he would use to hunt down and kill thieves.
+
+The Warblade is a +3 longsword that grants immunity to fear, +3 to AC, and +1 to saving throws.  It glows a sickly green and throbs.
+
+STATISTICS:
+
+Damage:  1D8 + 3
+THAC0 Bonus: +3
+Specific:
+  Grants weilder immunity to fear/panic/confusion
+  Awards +3 Armor Class and +1 to all Saving Throws
+Damage type:  slashing
+Weight: 4
+Speed Factor: 5
+Proficiency Type: Long Sword
+Type:  1-handed
+Requires: 6 Strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief
+ Beast Master~
+@20639 = ~Amulet of the Arcanist~
+@20640 = ~This silver medallion adds +2 to all the saving throws of arcane spells cast at the wearer.
+
+STATISTICS:
+
+Save vs. Spells Bonus: +2
+Weight:  3
+
+Not Usable by: 
+  Wizard Slayer~
+@20641 = ~Sword of Nazger~
+@20642 = ~This magical item is a long sword made of what appears to be dull, unpolished (and unpolishable) reddish tinted silver.  The blade is regular length for such a weapon, though slightly slimmer than what is normal for a long sword.  The hilt is a seperate piece and of regular steel.  The cross piece looks like two crescent moons each overlapping the other, similar to () overcrossing each other at the ends and the blade coming through the middle gap.  The hilt is also wrapped in a cross-hatched pattern of blue and green wire threads.
+
+The blade was constructed some one-hundred-fifty years ago by a human ranger turned mage from the Archwood area, named Frasfer the Brown.  He and a few companions were keeping guard in the Archwood, when an influx of werewolves caused him to attempt the creation of a magical means to making their elimination easier.  One of his companions was a druid, and the mixing of druidic magic and wizard magic created a blade reknowned for a later owner.
+
+That later owner was Nazger, a soldier of Sembia who found the sword fifty years ago.  He used it to find wererats that were murdering people in Highmoon, a city just northwest of the Archwood.  So Nazger exposed the wererats and killed most of them off.  However, while fighting in the sewers of the city he disappeared.  Nothing was ever again found of Nazger, except his sword.  It was later recognized in the market, but reported too late.  It was sold to a caravan heading to Ordulin.
+
+As Nazgar had no immediate family the city guard did little investigation.  All that was turned up was that a street beggar found the blade in the sewers and thought to sell it for food in the market.  The begger claimed to know nothing else.
+
+The powers of the blade may have become revealed to the caravan and thus kept, or may have remained unknown and sold as merely a silver sword.
+
+The Sword of Nazger is an unintelligent magic blade that is normally +1 to hit/damage, but gives a +3 bonus to hit/damage versus werecreatures of all types.  It also gives the wielder a tingling sensation similar to when one's hand falls asleep when werecreatures are within 60' of the user, though it won't indicate who it is that is a werecreature, nor get more powerful if the werebeast gets closer.   The blade will also appear to have a set of glyphs along the blade if viewed under a full moon.
+
+STATISTICS:
+
+Damage:  1D6 + 1, +3 vs. lycanthropes
+THAC0:  +1 bonus, +3 vs. lycanthropes
+Damage type:  slashing
+Weight: 6
+Speed Factor: 1
+Proficiency Type: Long Sword
+Type:  1-handed
+Requires: 6 Strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Beast Master~
+@20643 = ~Glass of Mist~
+@20644 = ~An elegant, gold-framed mirror. This mirror exudes an aura of power.~
+@20645 = ~This small hand mirror can call forth a mist (as Mist Horror) three times per day and can be used to Mirror Image the user once per day.
+  
+Not Usable By:
+  Wizard Slayer~
+@20646 = ~Ring of Silence~
+@20647 = ~This black band makes it impossible for the wearer to speak or make any vocalization; spells with verbal components, bardic songs, and singing-related spell-like abilities (like a harpy's) become impossible.  Further, the effect cannot be removed unless a Remove Curse is applied successfully or the wearer dies.~
+@20648 = ~Book of Roses~
+@20649 = ~This magical tome affects a single reader.  It takes one full week of uninterrupted study to read and comprehend.  The reader gains the permanent, inherent spell-like ability of freedom of movement.  This ability is lost forever if the character should ever cause the death of a rose plant, even inadvertently.
+
+STATISTICS:
+
+Permanent Free Action
+
+Usable By:
+ Any, of at least 10th level.~
+@20650 = ~One week passes as you commit your energy to the reading of the Book of Roses.~
+@20651 = ~Beltyn's Burning Blood~
+@20652 = ~Beltyn's Burning Blood (Necromancy)
+Level: 4
+Range: Sight of caster
+Duration: 2 rounds
+Casting Time: 4
+Area of Effect: 1 Target
+Saving Throw: Special
+
+This spell turns a target's blood to flame, doing 3-12 hit points of damage every round.  The target gets to save vs. spell every round at -3; if successful, the spell is cancelled.  If the targeted creature is resistant to fire, this resistance will lower or nullify the damage from this spell.~
+@20653 = ~It is said that six of these swords exist.  They are all +5 Unholy Longswords, made of black iron with bone hilts and pommels.  Each grants its wielder Symbol of Death once per day.  The sword absorbs spells and spells from clerics and mages alike as per a rod of absorption, with no maximum amount of absorption.  In combat, these evil swords bestow a negative level with every successive strike, which lasts only a day.
+
+STATISTICS:
+
+Damage:  1D10 + 5
+THAC0: +5 bonus
+Special Abilities: 
+  Can cast Symbol of Death once per day
+  One level lost on successful hit
+  Bearer is immune to any spell
+Damage type:  slashing
+Weight:  5
+Speed Factor: 5
+Proficiency Type: Two Handed sword
+Type:  2-handed
+Requires: 14 Strength, 19th level
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief
+ Monk
+ Beast Master
+ Good/Lawful characters~
+@20654 = ~Amulet of Spirit Storing~
+@20655 = ~The amulet of Spirit Storing is a gold or silver amulet set with a gem or crystal in the center, suspended from a chain so it can be worn around the neck.  If the wearer falls to -1 HP while wearing the amulet, the character's spirit is automatically transferred into the crystal as if he had cast a Magic Jar spell, including possing nearby creatures.
+
+If the wearer's body is slain, the spirit is stored in the amulet until the body can be restored (through a Heal or True Resurrection spell).
+
+STATISTICS:
+
+Abilities: Protects the wearer from permanent death, but not from death itself.
+
+Not Usable By:
+  Wizard Slayer~
+@20656 = ~Mantle of Rage~
+@20657 = ~The Mantle of Rage is a cloak made of fur, usually from the hide of a strong, fierce animal like a bear or lion.  When worn it gives the wearer the ability to rage as a 1st level barbarian and gain all the normal benefits and restrictions.  Note that the Mantle does not impart any additional proficiency with weapons or other combat abilities, just the benefits of barbarian rage.  If the wearer of the Mantle is a barbarian, the character can use it to rage additional times each day.
+
+STATISTICS:
+
+Grants Innate ability Barbarian Rage
+
+Usable by:
+ All, at least 11th level~
+@20658 = ~Volumes such as this one come along but once in a life-time.  You are wise indeed to have opened this tome after, I hope, laying down good coin for it, for your eyes now look upon more lore useful to spellcasters than can now look upon more lore useful to spellcasters than can be found anywhere else in all Faerûn. Oh, there are more powerful spells, and books that bristle with more of them, but this is the place where lore about the use of such magic appears. The reader of Volo's Guide to All Things Magical can gain a brief taste of the rich variety and manyfold complexity of the Art of wielding magic, at least, as human mages outside of secretive Thay and Halruaa practice it.
+
+Writing this book almost got me killed, or worse, transformed into a helpless shape and placed in a spell-governed situation of endless torment where death would remain forever elusive, but the raw pain would make it desirable (or so a certain Catanarla the Crimson Cloaked, a sorceress of Telflamm, promised me). Many mages, it seemed, objected to my revelations of their pet spells, past peccadilloes, secret words, and names of power.  Elminster and Khelben between them saw to it that I lived though not before amusing themselves by delivering me into the claw- er, graceful hands of the Simbul, Witch-Queen of Aglarond, who demonstrated upon
+my person what the consequences of future unauthorized sorcerous journalism would be. It is not much fun to be thrust into bird form and forced to fly full-tilt into a stone wall, not to mention smelling all the hair burnt out of my head, along with other more- horrific-  experiences.
+
+I will not even open the subject of all the curses that are riding upon me as we speak, ready to strike if I do delve further into any means of revealing the secrets of sorcery. Suffice it to say that I am going to be a very good boy where dealings with wizards are concerned for a long time to come. They have promised me that.
+This book of mine, however (suitably butcher- er, revised and embellished by the vigilant Elminster), will now see a wider audience than I had ever hoped it would, and some, at least, of the juicy secrets I uncovered will be shared with readers who are not all (I hope) crotchety old archwizards or liches already.  So welcome, and read on: magnificent power and fascinating lore about it awaits thee, as old Elminster might say. 
+
+This spot is perhaps the best place to touch on a few odd topics that do not fit anywhere else in this dissertation. They are but a few of the fascinating things I have learned about sorcery in Faerûn. Read on, and discover a whole book of them. It is my hope that my Faerûnian readers find this work both enjoyable and practical and that it goads them into at least investigating magic. Life for all in the Realms can only become richer and better if there are many folk who can wield a modest amount of magic rather than a few stunted old graybeards who wield a lot!
+
+-Volothamp Geddarm~
+@20659 = ~Scepter of Savras~
+@20660 = ~The Scepter of Savras is a four foot long staff of carved, smoky grey duskwood inlaid with nine star sapphires along the shaft.  A one inch diameter diamond engraved with the symbol of Savras the All-Seeing caps the base of the scepter, and a three-inch diameter diamond (reputed to have 1000 facets) that is engraved with the symbol of Azuth tops the staff.
+
+HISTORY:
+     After the fall of Netheril and before the founding of Myth Drannor, the gods of the Realms battled in the Dawn Cataclysm, foreshadowing the destruction that would occur as a result of the Fall of the Gods in the Year of Shadows.  Gods were slain in battles that shook the Realms, new dieties were created, and Tyche was sundered into Tymora and Beshaba.  During this time of turmoil, two gods elevated by Mystra at different times to aid her by overseeing the porfolio of wizards battled for supremacy.  Azuth defeated Savras the All-Seeing and imprisoned his essence within a powerful artifact he had constructed prior to the conflict.
+     The Lord of Spells, as Azuth was thereafter known, intended to keep the scepter in which Savras was imprisoned as his staff of office.  Although reduced to demipower status as a result of the conflict, Savras was still powerful enough to Teleport his prison into the Realms where it passed beyond Azuth's reach.  (As the All-Seeing One and Lord of Divination Magics, Savras could just barely block even Azuth's divination abilities.)  The Scepter of Savras, as the artifact came to be known, passed through the hands of countless archmages over the centuries.  Savras was always seeking to break free of his prison, and he subliminally (as the Spirit of the Scepter) influenced many a wizard to assist him in reaching his goal.
+     Before Savras could break free, however, the Scepter came into the hands of Syluné Silverhand, one of the Seven Sisters.  Savras permanently granted her the abilities of a weredragon, enabling her to take the shape of a mature adult silver dragon at will.  The All-Seeing One hoped to convince Syluné to free him from his ancient prison, believing that she had the power to do so as one of Mystra's Chosen.
+     Syluné turned a deaf ear to Savras's entreaties, as she did not trust the fallen god, and instead used her formidable powers and the Scepter during numerous adventures.  Eventually she willingly surrendered the Scepter to Azuth upon his request.  (Word of the artifact's location finally reached the Lord of Mages by roundabout ways in time for him to recover it.)  Syluné had used the Scepter to uncover some secrets of the doings of the powers (gods) of the Realms that Mystra deemed it better for mortals not to know.
+     Once Azuth finally reaquired the Scepter of Savras, he found himself troubled by the long imprisonment the All-Seeing One had endured at his hand.  Following the Time of Troubles, the Patron of Wizards agreed to Savras's request to be released in exchange for a pledge of fealty by Savras to the High One.
+     Today Savras is a demipower who serves Azuth, albeit uneasily, and whose portfolio encompasses all divinations and divination magic.  The two deities seem to be cautiously working toward friendship and a formal division of portfolios.  Some sages speculate that the All-Seeing One is attemptingb to widen his portfolio to include the idiosyncrasies of fate since he can see the future as well as the past.  These inclinations will likely come to naught, since Tymora and Beshaba would definately find such a move not to their liking.  The Scepter of Savras abruptly vanished during the god's release from his imprisonment.  Like the Cyrinishad, the Scepter is apparently invisible to all godly purview.  Rumors of its appearence in scattered locations throughout Faerun are increasing, however, suggesting the Scepter is still in the Realms- and still contains much of the power used to create it.
+
+STATISTICS:
+
+Once per day, the wielder can duplicate the effect of each eye of a beholder.  
+These abilities include:
+ Charm Person
+ Charm Monster
+ Sleep
+ Flesh to Stone
+ Disintegrate
+ Fear
+ Slow
+ Cause Serious Wounds 
+ Death Ray
+ Anti-Magic Ray
+
+Usable By:
+ All, at least 14th level~
+@20661 = ~Zeladazar, The Ghost Sword~
+@20662 = ~The Ghost Sword is a long sword whose blade is invisible, though gilimmers of light may sometimes bee seen flashing along the unseen steel when it strikes something- armor for example- that bears an enchantment.  All that is normally visible of Zeladazar is a heavy steal hilt, from quillons to pommel. The pommel nut is a burnished steel sphere as large as a small orange.  The grip is wrapped in black leather, and the visible metal is blued, smooth-worn, and massive.
+
+HISTORY:
+     In the waning, decadent days of Netheril, a peculiar (for his people) sorcerer named Twyluth Ornadyn hit upon the idea that the salvation of the Netherese lay in turning their magical skills and lives back to living in harmorny with nature and other living things.  Ornadyn foresaw the need for battle magic to safeguard the survival of the Netherese as they learned the ways of all life, and he envisaged an armory of enchanted blades whose wielders could communicate with each other over long distances through meditation and the blades' transmission of mental images and audible speech.  He set about making a pair of these blades to test relevant existing magic and to develop new spells as necessary- but was slain by a treacherous apprentics, who snatched up one of the blades in the midst of it being imbued with an enchantment and beheaded Ornadyn.  The headless archmage's body lived on through previously cast defensive magics and took up the other sword to avenge himself.  In the ensuing battle, Ornadyn was hacked apart, but one of the blades exploded, destroying the apprentice utterly.
+     The surviving sword was found and passed into the possession of the Netherese archwizard Alados Sorngol, who dubbed it the Sword of Dreams because of the visions handling it brought.  These images were sourced in the blade's enchantments and the revenant spirit of Ornadyn, who sent phantoms to frighten Alados ant to wrest control of the blade from him.  Their success was such that the terrified Alados bound new spells into the blade to make it a destroyer of undead- but died anyway when Ornadyn sent a last "blood spell" through the blade, searing the vitality of Alados with Ornadyn's own unlife, so that the essences of the two mages destroyed each other.
+
+POWERS:
+     Only magic can make the invisible blade of Zeladazar visible.  Whenever it is drawn, its wielder is immune to paralysis, energy drain, as well as enjoying the benefits of a Ring of Free Action.  Its wielder is able to move and attack freely and normally, even when attacked by a Web, Hold, or Slow spell (which Zeladazar gives its wielder complete immunity to) or when underwater (though the sword does not empower an air-breathing being to breathe under water).
+     The Ghost Sword does 1d12 points of damage to all living creatures (regardless of size), and 4d12 points per successful strike to all undead creatures.  The touch of the blade destroys ghosts upon contact.
+
+STATISTICS:
+
+Damage:  1D12, 4D12 vs Undead
+Equipped Abilities:   
+  Immune to Paralysis
+  Immune to Level Drain
+  Free Action
+Damage type:  slashing
+Weight: 2
+Speed Factor: 0
+Proficiency Type: Long Sword
+Type:  1-handed
+Requires: 6 Strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Beast Master~
+@20663 = ~Dzance's Guardian~
+@20664 = ~The ranger Dzance found this shield in a chest in the depths of Gauntlgrym, The Lost City; its origin is unknown but thought to be of dwarven manufacture.  Dzance's Journals tell us of the properties of this item.  When he retired from adventuring to live in the Lady's Court at Silverymoon, Dzance gave the Guardian to Belpir, a young knight of that city.  The new owner forthwith went adventuring and has not been seen since.  The fates of Belpir and the Guardian are yet a mystery.
+
+FUNCTION:
+
+The Guardian is a "+0 Shield":  magical in nature but conferring no armor class bonus to its bearer besides the one-place benifit provided by any shield.  However, it has a special defensive power:  when worn, it radiates an insubstantial magical energy field that envelopes its bearer, and only the bearer, like an aura.  Any Magic Missile directed at the Guardian's bearer from any direction- not just ahead- strikes this field and is reflected unerringly back at the sender with no damage to the shieldbearer.  The field also absorbs all electrical discharges of natural or magical origin, such as shocking grasp, lightning bolt, or chain lightning, without harm to the bearer.  These attacks dissipate gradually and harmlessly if the shield is taken off, but if the shieldbearer can bring the shield into physical contact with a foe, the entire stored electrical energy of the field can be transmitted to the foe (save vs. paralyzation for half damage).  When this discharge is activated by the bearer's will, there is a 30% chance that the bearer and shield (but not any companion creatures or foes, will be Plane Shifted to a random known plane of existance.
+
+Not Usable By:
+  Bard
+  Mage
+  Thief
+  Druid
+  Monk
+  Kensai~
+@20665 = ~Laeral's Storm Armor~
+@20666 = ~This armor was devised by the wizardess for whom it is named.  She devised several sets for champions of her far northern kingdom.  The secret of making it died with her, though mages of the North have been trying for centuries.   Of the dozen or so sets created, two have been known to be destroyed, and three others are being used in the North.  The other seven have disappeared, and it is not known whether they are still in existence.
+
+FUNCTION:
+
+Storm armor is Full Plate Armor, +2, of a peculiar non-metallic alloy.  It does not conduct electricity, and has the power to transfer heat to and from the surrounding air, so the wearer remains comfortable in a freezing gale or under the hot desert sun.  The wearer is thus largely unaffected by Fireball and Ice Storm or Cone Of Cold spells, and immune to electrical damage of any type.  The wearer can stand securely, or move in a normal speed, in the face of even the most powerful winds.
+
+STATISTICS:
+
+Armor Class:  -1
+Equipped Abilities:
+  Free Action
+  100% Electrical, Fire, and Cold Resistance
+Weight: 70
+Requires: 17 Strength, 17 Intelligence
+
+Only Usable By:
+ Lawful Good or Neutral Good Fighters or Fighter/Mages~
+@20667 = ~Pin~
+@20668 = ~Giiraegisir~
+@20669 = ~A Pin or brooch is a simple adornment to any cloak, cape, or other fashionable clothing.  ~
+@20670 = ~Brooch of Guardianship
+
+All the fashion rage of early and modern Myth Drannor, these elaborate brooches are worn as amulets and neck jewelry, cameo breastpins, and cloak-fastening pins.  While each is distinct and unique in ists decoration, detail, and materials, all share a basic form: an oval-shaped ivory cameo, a large metal pin attached to the cameo's back, a recess within the pin's setting for a necklace chain, mementos, or secret items, and a basic enchantment.
+
+When the giiraegisir is grasped and pulled down along its setting (sliding with a soft click in the setting but not pulling it out of its fastening), the base magic is activated: An invisible field of energy surrounds the wearer, providing Armor Class 0 for three rounds.  The giiraegis' magic is usable once per day, after which the pin is dormant and powerless for 24 hours.
+
+Many giiraegisir are designed to bear special symbols, such as House seals or wizards' sigils, or include elaborate embellishments to make them major pieces of jewelry designed to display the opulence of the elf rather than boast of power.  They can appear as innate parts of an intricate stomacher on a noblewoman's gown, a belt buckle, over large earrings, or even an ornament on an armored bracer.
+
+These giiraegisir are also adapted magically, and additional minor enchantments can be placed in them.  However, all the powers of a giiraegis are activated by whatever trigger is set within the cameo, whether it is shifted in its setting, rubbed sunwise twic, or simply tapped three times.
+
+Usable Only By:
+  Neutral Half-Elves
+  Bards
+  Figter/Druids~
+@20671 = ~Girdle of Lions~
+@20672 = ~This belt appears to be like any other magical girdle when first encountered.  When it is put on, the wearer gains several special abilities.  Wearing a Girdle of Lions enables one to speak with felines in such a way as to summon the nearest feline (normally a lion) which can give advice or obey reasonable commands.
+
+The wearer also gains the ability to land after a fall in such a way as to minimize physical damage.
+
+The Girdle enables the wearer to Move Silently as per the thief ability, with a minimum 50% chance of success.  If the wearer is a thief, assassin, monk, or other character or creature who already has the ability to move silently, then the chance of success is adjusted upward by +50%, to a maximum of 99%.
+
+Finally, the Girdle confers a sort of night vision similar to that possessed by cats.  If any light source is within view of the wearer, he can see in the dark as clearly as if he were in broad daylight.
+
+Not Usable By:
+  Fighter
+  Cleric
+  Mage
+  Thief
+  Paladin~
+@20673 = ~Wand of Eyes~
+@20674 = ~This wand emits a Wizard Eye upon command; each use drains 1 charge.  The range and duration of the Eye is as if cast by a 6th level magic user, regardless of the level of the wand wielder.  Any user who has never employed a wizard eye spell before typically requires 1-2 rounds to master movement about, focussing, and comprehension of what is seen by the Eye.  The wand can also Cure Blindness by touch and command.  If touched to the eyes of any one creature and properly commanded, the Wand can confer the ability to see invisible creatures and objects within the affected creatures normal range of vision for the following round only.  Note that this ability is not X-Ray vision; items and beings concealed behind solid barriers cannot be discerned.  This wand functions only once in a round regardless of how it is weilded, and not once for each of its functions.  No known method of recharging the wand has been perfected.
+  
+Not Usable By:
+  Wizard Slayer~
+@20675 = ~Archmage Staff~
+@20676 = ~Much like a Ring of Wizardry, this powerful staff normally carried by wizards of great power allows the wielder to memorize more spells than are normal for a wizard of their level.  This staff has been enchanted by a mage of some power for the number of spell slots it awards is indeed great.
+
+STATISTICS:
+
+Additional Spells/Levels:
+  1st Level: 4
+  2nd Level: 4
+  3rd Level: 4
+  4th Level: 4
+  5th Level: 4
+  6th Level: 1
+
+Damage:  1D6 + 2
+THAC0:  +2
+Damage type:  crushing
+Weight: 3
+Speed Factor: 2
+Proficiency Type: Staff
+Type:  2-handed
+Requires: 5 Strength
+
+Usable By:
+  Mage (Single, Dual, and Multi)~
+@20677 = ~Staff Case~
+@20678 = ~A staff case is ideal for holding quarter and half-staffs.~
+@20679 = ~School Staff~
+@20680 = ~A school staff incorporates a suite of spells from a given school of magic.  Such items are particularly useful to specialist wizards and casters.
+
+STATISTICS:
+
+Casts Abjuration Spells
+
+Damage:  1D6 + 2
+Damage type:  crushing
+Weight: 4
+Speed Factor: 2
+Proficiency Type: Staff
+Type: Two-handed
+Requires: 5 Strength
+
+Usable By:
+   Mages of the appropriate spell school, at least 13th level~
+@20681 = ~A school staff incorporates a suite of spells from a given school of magic.  Such items are particularly useful to specialist wizards and casters.
+
+STATISTICS:
+
+Casts Conjuration Spells
+
+Damage:  1D6 + 2
+Damage type:  crushing
+Weight: 4
+Speed Factor: 2
+Proficiency Type: Staff
+Type: Two-handed
+Requires: 5 Strength
+
+Usable By:
+   Mages of the appropriate spell school, at least 13th level~
+@20682 = ~A school staff incorporates a suite of spells from a given school of magic.  Such items are particularly useful to specialist wizards and casters.
+
+STATISTICS:
+
+Casts Divination Spells
+
+Damage:  1D6 + 2
+Damage type:  crushing
+Weight: 4
+Speed Factor: 2
+Proficiency Type: Staff
+Type: Two-handed
+Requires: 5 Strength
+
+Usable By:
+   Mages of the appropriate spell school, at least 13th level~
+@20683 = ~A school staff incorporates a suite of spells from a given school of magic.  Such items are particularly useful to specialist wizards and casters.
+
+STATISTICS:
+
+Casts Enchantment Spells
+
+Damage:  1D6 + 2
+Damage type:  crushing
+Weight: 4
+Speed Factor: 2
+Proficiency Type: Staff
+Type: Two-handed
+Requires: 5 Strength
+
+Usable By:
+   Mages of the appropriate spell school, at least 13th level~
+@20684 = ~A school staff incorporates a suite of spells from a given school of magic.  Such items are particularly useful to specialist wizards and casters.
+
+STATISTICS:
+
+Casts Evocation Spells
+
+Damage:  1D6 + 2
+Damage type:  crushing
+Weight: 4
+Speed Factor: 2
+Proficiency Type: Staff
+Type: Two-handed
+Requires: 5 Strength
+
+Usable By:
+   Mages of the appropriate spell school, at least 13th level~
+@20685 = ~A school staff incorporates a suite of spells from a given school of magic.  Such items are particularly useful to specialist wizards and casters.
+
+STATISTICS:
+
+Casts Illusion Spells
+
+Damage:  1D6 + 2
+Damage type:  crushing
+Weight: 4
+Speed Factor: 2
+Proficiency Type: Staff
+Type: Two-handed
+Requires: 5 Strength
+
+Usable By:
+   Mages of the appropriate spell school, at least 13th level~
+@20686 = ~A school staff incorporates a suite of spells from a given school of magic.  Such items are particularly useful to specialist wizards and casters.
+
+STATISTICS:
+
+Casts Necromancy Spells
+
+Damage:  1D6 + 2
+Damage type:  crushing
+Weight: 4
+Speed Factor: 2
+Proficiency Type: Staff
+Type: Two-handed
+Requires: 5 Strength
+
+Usable By:
+   Mages of the appropriate spell school, at least 13th level~
+@20687 = ~A school staff incorporates a suite of spells from a given school of magic.  Such items are particularly useful to specialist wizards and casters.
+
+STATISTICS:
+
+Casts Alteration Spells
+
+Damage:  1D6 + 2
+Damage type:  crushing
+Weight: 4
+Speed Factor: 2
+Proficiency Type: Staff
+Type: Two-handed
+Requires: 5 Strength
+
+Usable By:
+   Mages of the appropriate spell school, at least 13th level~
+@20688 = ~Sureblade's Journal~
+@20689 = ~The rough and quick strokes of a heavy-handed writer line the pages of this book with descriptive images of violence and destruction.  A number of the past few entries reveal what you know of Sureblade's activities; the orders he issued to attack Soubar, the surrounding farms, and earlier entries tell of the conquest of Triel.  There is nothing that you can see in the journal that you already do not know of, and you drop it in your pack as evidence.~
+@20690 = ~The rough and quick strokes of a heavy-handed writer line the pages of this book with descriptive images of violence and destruction.  A number of the past few entries reveal what you know of Sureblade's activities; the orders he issued to attack Soubar, the surrounding farms, and earlier entries tell of the conquest of Triel.  
+
+One entry does, however, catch your attention.  It is undated, but as there is not much writing after the entry, it was written fairly recently:
+
+"The innkeep I bought served his purpose well enough, though I am not happy about his dealings with the Bhaalspawn.  He should not have been exposed by the One, and has paid for his failure.  The fact that he was exposed has forced me to take drastic measures against Soubar, sooner than I had desired, and I expect that by the end of the season, the entire region will finally be under my control."
+
+There is nothing else that you can see in the journal that you already do not know of, and you drop it in your pack as evidence.~
+@20691 = ~The rough and quick strokes of a heavy-handed writer line the pages of this book with descriptive images of violence and destruction.  A number of the past few entries reveal what you know of Sureblade's activities; the orders he issued to attack Soubar, the surrounding farms, and earlier entries tell of the conquest of Triel.  
+
+One entry does, however, catch your attention.  It is undated, but as there is not much writing after the entry, it was written fairly recently:
+
+"The mage I had bribed to assist me has served his purpose well enough, though I am not happy about his dealings with the Bhaalspawn.  He should not have been exposed by the One, and has paid for his failure.  The fact that he was exposed has forced me to take drastic measures against Soubar, sooner than I had desired, and I expect that by the end of the season, the entire region will finally be under my control."
+
+There is nothing else that you can see in the journal that you already do not know of, and you drop it in your pack as evidence.~
+@20692 = ~The rough and quick strokes of a heavy-handed writer line the pages of this book with descriptive images of violence and destruction.  A number of the past few entries reveal what you know of Sureblade's activities; the orders he issued to attack Soubar, the surrounding farms, and earlier entries tell of the conquest of Triel.
+
+One entry does, however, catch your attention.  It is undated, but as there is not much writing after the entry, it was written fairly recently:
+
+"The little boy, a local farmer's son, was an excellent choice of one to infiltrate the town of Soubar without being a suspect.  He has served his purpose well enough, though I am not happy about his dealings with the Bhaalspawn.  He should not have been exposed by the One, and has paid for his failure.  The fact that he was exposed has forced me to take drastic measures against Soubar, sooner than I had desired, and I expect that by the end of the season, the entire region will finally be under my control."
+
+There is nothing else that you can see in the journal that you already do not know of, and you drop it in your pack as evidence.~
+@20693 = ~The rough and quick strokes of a heavy-handed writer line the pages of this book with descriptive images of violence and destruction.  A number of the past few entries reveal what you know of Sureblade's activities; the orders he issued to attack Soubar, the surrounding farms, and earlier entries tell of the conquest of Triel.
+
+One entry does, however, catch your attention.  It is undated, but as there is not much writing after the entry, it was written fairly recently:
+
+"The farmers I had chosen to betray their folk were an excellent choice of one to infiltrate the town of Soubar without being a suspect.  They have served my purpose well enough, though I am not happy about the dealings they had with the Bhaalspawn.  I would rather that they had not have been exposed by the One, and has paid for this failure.  The fact that these farmers were exposed has forced me to take drastic measures against Soubar, sooner than I had desired, and I expect that by the end of the season, the entire region will finally be under my control."
+
+There is nothing else that you can see in the journal that you already do not know of, and you drop it in your pack as evidence.~
+@20694 = ~The rough and quick strokes of a heavy-handed writer line the pages of this book with descriptive images of violence and destruction.  A number of the past few entries reveal what you know of Sureblade's activities; the orders he issued to attack Soubar, the surrounding farms, and earlier entries tell of the conquest of Triel.
+
+One entry does, however, catch your attention.  It is undated, but as there is not much writing after the entry, it was written fairly recently:
+
+"The mayor of Soubar was bought for far less than I had expected.  He was an excellent choice to get me the intelligence that I needed about the town and had served my purpose well enough, though I am not happy about the dealings he had with the Bhaalspawn.  I would rather that Melandor had not have been exposed by the One, and has paid for this failure.  The fact that he was exposed has forced me to take drastic measures against Soubar, sooner than I had desired, and I expect that by the end of the season, the entire region will finally be under my control."
+
+There is nothing else that you can see in the journal that you already do not know of, and you drop it in your pack as evidence.~
+@20695 = ~The rough and quick strokes of a heavy-handed writer line the pages of this book with descriptive images of violence and destruction.  A number of the past few entries reveal what you know of Sureblade's activities; the orders he issued to attack Soubar, the surrounding farms, and earlier entries tell of the conquest of Triel.
+
+One entry does, however, catch your attention.  It is undated, but as there is not much writing after the entry, it was written fairly recently:
+
+"The Ranger that I had persuaded to infiltrate the town of Soubar performed better than I had expected.  He was an excellent choice to get me the intelligence that I needed about the town and had served my purpose well enough, though I am not happy about the dealings he had with the Bhaalspawn.  I would rather that this ranger was not exposed by the One, and has paid for this failure.  The fact that he was exposed has forced me to take drastic measures against Soubar, sooner than I had desired, and I expect that by the end of the season, the entire region will finally be under my control."
+
+There is nothing else that you can see in the journal that you already do not know of, and you drop it in your pack as evidence.~
+@20696 = ~Rolf Sureblade's Shield~
+@20697 = ~After defeating the bandit leader, Rolf Sureblade in his fortification north of Soubar, you recovered this shield of awesome defense.  This shield is truly an item that you should treasure, as it is bound to save your life more than once as you adventure throughout Faerûn.  This shield decreases AC by 6 and adds 3 to all saving throws.  In addition, Sureblade's shield allows the you to move so quickly that your movement rate is increased by 2 and normal missiles have no chance of striking him. 
+
+STATISTICS:
+
+Armor Class Bonus: 6
+Special:
+  Missile Weapons ineffective
+  Movement Rate Increased
+Weight: 10
+Requires: 16 Strength
+
+Usable By:
+  Fighters~
+@20698 = ~Rolf Sureblade's Sword~
+@20699 = ~After defeating the bandit leader, Rolf Sureblade in his fortification north of Soubar, you recovered this sword of great power that he wielded against you in that horrific battle for your life.  This sword is truly a weapon worthy of your skills, as it allows you to cut through the defenses of most other creatures.  Upon a successful hit against a target of 18th level of less, the creature is instantly killed when struck, an ability which can be quite useful when forced to fight powerful enemies.
+
+STATISTICS:
+
+Slays enemies lower than 18th level upon successful hit.  The target receives a save vs. death at -2 penalty.
+
+Damage:  2D6 + 3
+THACO:  +3 bonus
+Damage type:  slashing
+Weight:  8
+Speed Factor: 4
+Proficiency Type: Bastard Sword
+Type:  1-handed
+Requires: 15 Strength
+
+Usable By:
+  Fighters~
+@20700 = ~Hemp Rope~
+@20701 = ~This length of rope is long enough to be used to assist you and your party in crossing the mighty River Chionthar.  By tying each end of the rope to both sides of the river, you can cross the river without being swept away by the strong current.~
+@20702 = ~Flute~
+@20703 = ~Pipe of the Sewers~
+@20704 = ~This is one of many pipes that perform the same function:  that of leading rats to wherever the pipe player plays this flute.  Upon blowing the flute normally, the strangly hypnotic music will draw regular rats from the surrounding areas as they become pleasantly soothed by the music.  This can be a blessing for some, a curse to others as the rats will of course mob an area where the pipe is played.
+
+STATISTICS:
+
+When played, this instrument summons up to 25 rats at a time.
+
+Usable By:
+  All~
+@20705 = ~This is the key that you took from Selence Hillstar.  She did not tell you what it could be used for, but did tell you that when you found the locked room that the key will open, you would find more information to lead you to her contacts who have been seeking you.~
+@20706 = ~Knap Sack~
+@20707 = ~Selence's Knap Sack~
+@20708 = ~Typically carried by travellers, scholars, and adventurers, this leather sack can be worn over one or both shoulders, or it can be carried by the reinforced leather handle above the flap.  It can be tied closed, preventing the contents from spilling out during travel.  The sack has numerous smaller pouches sewn along the outside to keep smaller items like writing quills, bottles of ink, or loaves of bread from making a mess of the inside compartment.  There are also leather thongs for safe storage during travel.
+
+STATISTICS:
+
+Weight: 2~
+@20709 = ~This is the knap sack in which Selence Hillstar carries most of her items to sell.  She will not let you have it while she is alive.  You can however, look inside to pick items that you may want, though Selence will not back down on the price of her fenced goods.~
+@20710 = ~On Shadows Over Soubar:
+
+As it is customary for unofficial expansions to Infinity Engine games (TDSotSC, TDD) to include a book about the expansion, I thought I should put in one as well.  So here goes:
+
+First, I am cbisson, the creator of SoS.  I want to thank you all for playing my little (300MB isn't really little) expansion, and hope you enjoy it.  I can tell you that I had a lot of fun making it, despite the number of problems I had during the construction, if you will.  I went through two notebook hard drives and more CD-R's for backups than I can count.  Despite my forethought of backing up the files, I still managed to delete the graveyard areas and all the quest stuff relating to robbing the Adventurer's Mart for Selence.  It wasn't too difficult to re-make those files, but it did set me back two or three weeks.
+
+Second, I realize that the main quest of the adventure isn't really spectacular by any means, I mean, how original is a bunch of bandits attacking a town?  Well, be that as it may, I think I did a pretty good job with most of the scripting individual parts to all the quests.  For example, I truly enjoy scripting the behind the scenes stuff, like Selence and her attempts at pickpocketing.  Scripting Hellblades to work almost just right was a trick too, and it's a lot of fun to see it work the way it was intended, if not a bit mechanical.  So I hope you get a chance to sit back and watch some of those things.
+
+Next, I think I want to say something about the creation itself.  None of this would have been at all possible without the indirect efforts of so many people.  Most of those are the members of TeamBG.  Ken Baker, TL, Cat, Gorin, Gaelion and PatternStorm, gafman, Theo, Manveru, Maltanar, and Jon.  Forgive me if I left anyone out... and tell me to add it in a patch!  Without their skill at making the number of programs I've used for Shadows Over Soubar, you wouldn't be reading this now as I would never have attempted to even begin such a task.  So, with the greatest appreciation to those programmers, I say thank you and well done.  
+
+Finally, as I am writing this text, Shadows of Soubar's completion draws ever nearer.  What I had thought would be about 150MB of an expansion with only about 40 extra areas, turned into about 300MBs and close to 100 extra areas; 3 brand new ones.  What I had thought would be a four or five month project just took up the last nine months of my life.  Hey, I could have had a baby in that amount of time.  No, wait, I can't have a baby, but I had a lot of fun trying during the last nine months, and that has nothing to do with this expansion, if ya know what I mean, (wink wink, nudge nudge).
+
+Seriously though, I am quite pleased at the result.  Shadows Over Soubar is an accomplishment of mine, and with you all playing it, perhaps it will be another successful accomplishment.
+
+Thank You,
+All My Best,
+God Bless,
+
+CBisson
+
+(**** several bloody stains go below the main text with some Horrific letters saying "King was there" ****)~
+@20711 = ~Identification~
+@20712 = ~These papers are your orders and identification as a member of the Soubar Guard.  You should carry with them at all times while on duty in the Guard.~
+@20713 = ~Soubar Private~
+@20714 = ~This staff, usable by all classes, can animate skeletal remains.  Each such operation, triggered by the word "Arise!", drains one charge.  Animated skeletons are under control of the wielder of the staff (cf. animate dead spell).  If the staff changes hands, control of the skeletons goes with it.  Skeletons need not be complete, but the skulls must be present, and skeletons lacking the parts of course have their actions and/or their mobility impaired.  Such animation is permanent, lasting until the magic is dispelled or the skeletons destroyed.
+
+Twenty five percent of these staffs staves have a secondary function:  mending broken bones of both living and dead creatures.  This takes one charge, and in a round will reattach a severed limb or digit, or cure lost HP due to wounds.  Limbs or bones not belonging to the recipient may be used; thus a heap of bones can serve as "spare parts" for a guard of skeletons.  Typically, these staves are of ebony topped with an ivory skull, or constructed of a smooth polished skull and a thighbone of giant size.
+
+STATISTICS:
+
+Damage: 1D6 + 2
+THAC0:  +2
+Special:
+  Can summon a skeletons per the Animate Dead spell, draining one charge
+  Can cure serious wounds per the clerical spell
+Weight: 3
+Speed Factor: 1
+Proficiency Type: Staff
+Type: Two-handed
+Requires: 5 Strength
+
+Usable By:
+  All~
+@20715 = ~Travel Bag~
+@20716 = ~This bag is a simple carry sack which the Major of the Soubar Guard gave you.  It has a few items which you can take with you up to the outlying farms of Soubar.~
+@20717 = ~Tremor Worm Heart~
+@20718 = ~You pulled this heart from the carcass of a tremor worm.  Berserkers have commonly eaten the hearts of their enemies, hoping to gain strength and wisdom from their foes.  This heart will do much the same, increasing strength and constitution by 1 statistic point for 2 hours, while at the same time making the eater slightly sick from the taste (10 points damage).
+
+Not Usable By:
+  Wizard Slayer~
+@20719 = ~Holy Armor of Torm~
+@20720 = ~This exquisitely crafted suit of plate mail has been blessed by Torm and his clergy.  The breastplate is adorned with a relief of Torm's holy symbol and the engraving below the symbol, just above the bottom edge of the breastplate reads "IRNI", a word you are unfamiliar with.
+
+Although the suit is non-magical, it is a holy suit and care must be taken with it.  While worn, it protects the wearer from certain negative energy effects like level-drain as well as conferring similar bonuses as per the Boon of Torm.
+
+STATISTICS:
+
+Armor Class: 3
+Weight: 18
+Requires: 12 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Shapeshifter
+ Barbarian
+ Archer
+ Stalker
+ Beast Master
+ Kensai
+ Evil or Chaotic creatures~
+@20721 = ~Holy Sword of Torm~
+@20722 = ~This weapon has been blessed by the almighty Torm.  It confers effects upon the weilder only when unsheathed.  If a successful hit is made upon a demonic creature, that creature is petrified (unless save vs. spells is made).
+
+When unsheathed, the sword will give its weilder a bonus 6th and 7th level priest spell.  It grants a 5% bonus to magic resistance, and awards a +1 to the users Strength ability.
+
+STATISTICS:
+
+Damage:  1D10 + 3
+THAC0: +3 bonus
+Combat Abilities:
+  All demonic creatures, when hit, must save vs. spells at -2 or be petrified
+Special Abilities:
+  5% magic resistance when equipped
+  Bonus 6th, 7th level priest spell when equipped
+  +1 Strength when equipped.
+Damage type:  slashing
+Weight:  10
+Speed Factor: 7
+Proficiency Type: Two handed sword
+Type:  2-handed
+Requires: 14 Strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief
+ Beast Master~
+@20723 = ~Has been infected with lycanthropy!!!~
+@20724 = ~Wine~
+@20725 = ~Winter Wine~
+@20726 = ~This is a normal bottle of wine.  You can open the bottle and drink it if you wish, or you can save it and hope that it ages more.  If you want to learn more about wines, wine making, and particular vintages of wines, try tasting some of the wines available from the wine broker at Oscar's tavern in Soubar.~
+@20727 = ~Arabellan Wine~
+@20728 = ~Berduskan Wine~
+@20729 = ~Blood Wine~
+@20730 = ~Saerloonian Wine~
+@20731 = ~Alurlyath Wine~
+@20732 = ~Westgate Wine~
+@20733 = ~White Wine~
+@20734 = ~Red Wine~
+@20735 = ~Murann Wine~
+@20736 = ~Corwellian Wine~
+@20737 = ~Thayvian Wine~
+@20738 = ~Vintage 1369 DR
+
+This is a normal bottle of wine.  You can open the bottle and drink it if you wish, or you can save it and hope that it ages more.  If you want to learn more about wines, wine making, and particular vintages of wines, try tasting some of the wines available from the wine broker at Oscar's tavern in Soubar.~
+@20739 = ~Vintage 1358 DR
+
+This is a normal bottle of wine.  You can open the bottle and drink it if you wish, or you can save it and hope that it ages more.  If you want to learn more about wines, wine making, and particular vintages of wines, try tasting some of the wines available from the wine broker at Oscar's tavern in Soubar.~
+@20740 = ~Vintage 1314 DR
+
+This is a normal bottle of wine.  You can open the bottle and drink it if you wish, or you can save it and hope that it ages more.  If you want to learn more about wines, wine making, and particular vintages of wines, try tasting some of the wines available from the wine broker at Oscar's tavern in Soubar.~
+@20741 = ~Vintage 1290 DR
+
+This is a normal bottle of wine.  You can open the bottle and drink it if you wish, or you can save it and hope that it ages more.  If you want to learn more about wines, wine making, and particular vintages of wines, try tasting some of the wines available from the wine broker at Oscar's tavern in Soubar.~
+@20742 = ~Vintage 1288 DR
+
+This is a normal bottle of wine.  You can open the bottle and drink it if you wish, or you can save it and hope that it ages more.  If you want to learn more about wines, wine making, and particular vintages of wines, try tasting some of the wines available from the wine broker at Oscar's tavern in Soubar.~
+@20743 = ~Vintage 1266 DR
+
+This is a normal bottle of wine.  You can open the bottle and drink it if you wish, or you can save it and hope that it ages more.  If you want to learn more about wines, wine making, and particular vintages of wines, try tasting some of the wines available from the wine broker at Oscar's tavern in Soubar.~
+@20744 = ~Turmish Wine~
+@20745 = ~Lantanese Wine~
+@20746 = ~Vintage 1342 DR
+
+This is a normal bottle of wine.  You can open the bottle and drink it if you wish, or you can save it and hope that it ages more.  If you want to learn more about wines, wine making, and particular vintages of wines, try tasting some of the wines available from the wine broker at Oscar's tavern in Soubar.~
+@20747 = ~Vintage 1338 DR
+
+This is a normal bottle of wine.  You can open the bottle and drink it if you wish, or you can save it and hope that it ages more.  If you want to learn more about wines, wine making, and particular vintages of wines, try tasting some of the wines available from the wine broker at Oscar's tavern in Soubar.~
+@20748 = ~LanteneseWine~
+@20749 = ~Vintage 1304 DR
+
+This is a normal bottle of wine.  You can open the bottle and drink it if you wish, or you can save it and hope that it ages more.  If you want to learn more about wines, wine making, and particular vintages of wines, try tasting some of the wines available from the wine broker at Oscar's tavern in Soubar.~
+@20750 = ~Shou Lung Wine~
+@20751 = ~Vintage 1360 DR
+
+This is a normal bottle of wine.  You can open the bottle and drink it if you wish, or you can save it and hope that it ages more.  If you want to learn more about wines, wine making, and particular vintages of wines, try tasting some of the wines available from the wine broker at Oscar's tavern in Soubar.~
+@20752 = ~Sir William's Safe Key~
+@20753 = ~This is the key which will open the safe hidden behind a wall tapestry in Sir William's hom in Athkatla.  Apparently, Sir William never paid for services that Selence Hillstar performed for him and the money that he owes her.  It served him right for asking Selence to do anything he knew was illegal, if he did not want it to be made public in the first place.~
+@20754 = ~William's Note~
+@20755 = ~<<<There should be some text that is missed completely...>>>~
+@20756 = ~Installing spells...~
+@20757 = ~Know Class And Level~
+@20758 = ~Burning Pitch~
+@20759 = ~Fierce Current~
+@20760 = ~The fast moving waters of the River Chionthar sweep you downstream.  You bump your head and body more times than you can count.~
+@20761 = ~Stinking Cloud~
+@20762 = ~Cold Water~
+@20763 = ~The melting snow from the mountains makes the fast moving waters of the Chionthar very cold.  It chills you just standing in it.~
+@20764 = ~Installing stores...~
+@20765 = ~Soubar Dispensary~
+@20766 = ~Crazy Eddie's~
+@20767 = ~Erdane's Store~
+@20768 = ~Reyna's Shop~
+@20769 = ~Berde's Inn~
+@20770 = ~Narwhal Inn and Tavern~
+@20771 = ~The Splintered Stair~
+@20772 = ~Marie's~
+@20773 = ~Oscar's Tavern~
+@20774 = ~Jill Ann's Fashions~
+@20775 = ~Dalesman's Breakfast~
+@20776 = ~Luskan Clam Chowder~
+@20777 = ~Sirloin Tips~
+@20778 = ~Vegetable Side Dish~
+@20779 = ~Tuna Platter~
+@20780 = ~Rolls of Bread~
+@20781 = ~Cormyr Broil~
+@20782 = ~Shrimp Platter~
+@20783 = ~Iriaeboran Sausage~
+@20784 = ~Waterdeep Clam Chowder~
+@20785 = ~Westgate Smoked Ham~
+@20786 = ~Selence Hillstar's Fenced Goods~
+@20787 = ~Wine Broker Sales~
+@20788 = ~Thayvian Wine - 1358 DR~
+@20789 = ~Thayvian Wine - 1369 DR~
+@20790 = ~Lantanese Wine - 1338 DR~
+@20791 = ~Thayvian Wine - 1266 DR~
+@20792 = ~Lantenese Wine - 1304 DR~
+@20793 = ~Lantanese Wine - 1369 DR~
+@20794 = ~Shou Lung Wine - 1360 DR~
+@20795 = ~Lantanese Wine - 1342 DR~
+@20796 = ~Thayvian Wine - 1314 DR~
+@20797 = ~Thayvian Wine - 1290 DR~
+@20798 = ~Shou Lung Wine - 1342 DR~
+@20799 = ~Thayvian Wine - 1288 DR~
+@20800 = ~Installing FENCE kit...~
+
+@20802 = ~FENCE:
+  The Fence is a black marketeer, a seller of stolen or otherwise illegal goods. He is almost always found in a city setting, where there are large numbers of people to serve as customers as well as prey for the thieves who supply him.  A good Fence needs a sharp mind to appraise people as well as goods, and to stay ahead of the law. To take this kit, therefore, a thief needs a minimum Intelligence of 12.
+
+Role: The Fence is the linchpin in the complicated web of the black market. Thieves sell their illicit acquisitions to the Fence, for some amount of money below their actual value. The Fence then resells the "hot" goods on the black market. If the city in which he operates is large and the goods are minor enough (not the crown jewels of the local royalty), they may be sold directly to local buyers. If the Fence thinks they're "too hot," though, he will probably arrange to have them smuggled and sold elsewhere.
+     Power for Fences is rarely measured in terms of character level. Instead, it is a matter of the breadth of the Fence's network and the reliability of his contacts. Of course, to acquire or retain an extensive network, a Fence needs much cunning and experience which may coincidentally result in a high character level.
+     Fences may be of any social background, though wealthy and noble Fences are rare.   Certainly those that do exist diligently keep their identities well-hidden, for obvious reasons. The stakes must be high to claim the attention of the socially and financially elevated.
+     The black market network transfers information as well as goods. Fences are probably the best-informed figures of the underworld. 
+
+Weapon Proficiencies: Any.
+
+Skill Progression: Less powerful Fences (that is, those lower in the network hierarchy, with fewer contacts) may need to make use of thiefly skills. Picking pockets may provide a little income when business is slow; its use for sleight-of-hand may also have value (though it is dangerous to cheat clients). Opening locks and finding and removing traps are useful skills for inspecting merchandise. It is not unknown for Burglars, unable to open a strongbox, to simply cart off the whole thing and hope their Fence can get it open. Read languages is also sometimes useful in examining merchandise. The stealth skills (move silently, etc.) have some value on the street; Fences who have direct contact with their clients may put some time into cultivating them, but more powerful Fences often neglect them.
+
+Special Benefits: Because of his contacts, a Fence is probably the best person for locating and hiring thieves and smugglers, especially in territory not claimed by a guild.
+     Also, Fences generally command a lot of respect from the underworld in their home territory. Unless a thief has a serious vendetta, he will probably court a Fence's favor for business reasons. Fences receive a bonus of +3 on reactions with NPC thieves if their profession is recognized.
+
+Special Hindrances: Fences are relatively prominent in the underworld. And, unlike freelance burglars and smugglers who can move from place to place, the Fences' black market network requires a stable home locale, so that they can stay in touch with their contacts. This also means that the local authorities may be aware of a Fence's identity and activities. These authorities may periodically harass a minor Fence, or demand bribes, or may shake him up for information every once in a while.
+
+Races: Fences may be of any race. Some demihuman Fences prefer to deal only in certain goods. Dwarf and gnome Fences, for instance, are known as shrewd appraisers of stolen gems and jewelry.~
+@20803 = ~Fence Charm~
+@20804 = ~Selence Hillstar~
+@20805 = ~Selence~
+@20806 = ~SELENCE grew up on the city streets of Athkatla, which was not the most appropriate place for a young girl.  Selence never really had the chance to be a child.  Her circumstances of being a young street thug may not have been the most pleasant, but she'll never admit that she secretly wishes her life could have been different.  As it is, Selence has become quite a thief, and hopes to eventually run an underground network of spies, smugglers, and robbers.  Selence has a plan, which is more than most others in Faerûn can admit to, and she will do all that she can to make her dreams come true, even if her dreams are not the most ethical of dreams.~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

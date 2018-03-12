@@ -1,0 +1,10 @@
+@0    = ~You look up at the sewer pipe.  It is covered with a brownish-green slime and a horrific odor surrounds the area.  Perhaps this is due to the pile of decomposing garbage, refuse, and sludge directly below the pipe.~
+@1    = ~The pipe itself is about four feet in diameter and slants upward at about a 50° angle.  It is dark inside, but a faint light shines from the other end; your best guess is that it is about thirty feet from where you are standing.~
+@2    = ~The edge of the pipe is slightly corroded and looks quite sharp, if you are careful you could climb up into the pipe with little trouble with the help of your companions.~
+@3    = ~Do you wish to attempt to climb into the pipe and pull yourself and your companions along to the opposite end?~
+@4    = ~Yes, we will try to climb up with my companions to find out where the pipe leads.~
+@5    = ~No, we will not climb into any dirty sewer pipes.~
+@6    = ~The edges of the pipe are rusted and sharp, and may cause you serious lacerations if you tried to climb up alone.  Looking at the outlet, you figure that if you had some help, it wouldn't be difficult of dangerous to scramble into the pipe without injury.~
+@7    = ~Do you wish to attempt to climb into the pipe and pull yourself along to the opposite end?~
+@8    = ~Yes, I will climb up into the pipe.~
+@9    = ~No, I do not wish to climb into any sewer pipes.~

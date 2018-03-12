@@ -1,0 +1,30 @@
+IF
+  OnCreation()
+  Global("CbBigEarthquake","AR4325",0)
+THEN
+  RESPONSE #100
+    OpenDoor("Door01")
+    ScreenShake([20.20],3)
+    CreateCreature("CB325EQK",[1430.700],0)
+END
+
+IF
+  GlobalGT("CbBigEarthquake","AR4325",0)
+  RandomNum(2,1)
+  Delay(30)
+THEN
+  RESPONSE #100
+    ScreenShake([20.20],5)
+    ActionOverride("CB325EQK",StartDialogNoSet(Player1))
+END
+
+IF
+  GlobalGT("CbBigEarthquake","AR4325",0)
+  RandomNum(2,2)
+  Delay(60)
+THEN
+  RESPONSE #100
+    ScreenShake([20.20],10)
+    ActionOverride("CB325EQK",StartDialogNoSet(Player1))
+END
+

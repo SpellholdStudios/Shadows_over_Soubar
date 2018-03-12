@@ -1,0 +1,34 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)  // 
+    SmallWait(7)
+    CreateCreatureDoor("CBSPYBAN",[330.909],0)
+    CreateCreatureDoor("CBSPYBAN",[362.957],2)
+    CreateCreatureDoor("CBSPYBAN",[400.957],14)
+    CreateCreatureDoor("CBSPYBAN",[459.946],4)
+    CreateCreatureDoor("CBSPYBAN",[296.815],8)
+    CreateCreatureDoor("CBSPYBAN",[325.732],0)
+    CreateCreatureDoor("CBSPYBAN",[602.959],2)
+    CreateCreatureDoor("CBSPYBAN",[694.936],14)
+    CreateCreatureDoor("CBSPYRLF",[506.874],4)
+    ActionOverride("CB285FT1",GiveItemCreate("MINHP1",Myself,1,0,0)) 
+    ActionOverride("CB285FT1",EquipItem("MINHP1"))
+    ActionOverride("CB285FT1",Enemy())
+    ActionOverride("CB285FT2",GiveItemCreate("MINHP1",Myself,1,0,0)) 
+    ActionOverride("CB285FT2",EquipItem("MINHP1"))
+    ActionOverride("CB285FT2",Enemy())
+    ActionOverride("CB285FT3",GiveItemCreate("MINHP1",Myself,1,0,0)) 
+    ActionOverride("CB285FT3",EquipItem("MINHP1"))
+    ActionOverride("CB285FT3",Enemy())
+    ActionOverride("CB285FT4",GiveItemCreate("MINHP1",Myself,1,0,0)) 
+    ActionOverride("CB285FT4",EquipItem("MINHP1"))
+    ActionOverride("CB285FT4",Enemy())
+    ActionOverride("CB285FT5",GiveItemCreate("MINHP1",Myself,1,0,0))
+    ActionOverride("CB285FT5",EquipItem("MINHP1"))
+    ActionOverride("CB285FT5",Enemy())
+    Wait(1)
+    ActionOverride("CBSPYRLF",StartDialogNoSet(Player1))
+END
+

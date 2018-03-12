@@ -1,0 +1,41 @@
+IF
+  HPLT(Myself,2)
+  Global("CbLolthChanging","AR4211",2)
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    SetGlobal("CbLolthChanging","AR4211",3)
+    SetGlobal("CbLolthChanging","AR4211",4)
+    StartDialogNoSet(Player1)
+    SetInterrupt(TRUE)
+END
+
+IF
+  Delay(12)
+  GlobalLT("CbLolthSummonedASpider","LOCALS",16)
+THEN
+  RESPONSE #100
+    CreateCreature("CBSPLLTH",[-1.-1],0)  // ~Small Spider~
+    DisplayString(Myself,71992)  // ~Summon Spider~
+    IncrementGlobal("CbLolthSummonedASpider","LOCALS",1)
+END
+
+IF
+  Delay(60)
+  GlobalLT("CbLolthSummonedAnIllithid","LOCALS",3)
+THEN
+  RESPONSE #100
+    CreateCreature("MINDFL01",[-1.-1],0)  // ~Mind Flayer~
+    IncrementGlobal("CbLolthSummonedAnIllithid","LOCALS",1)
+END
+
+IF
+  HPLT(Myself,80)
+  !HaveSpell(CLERIC_HEAL)
+  GlobalLT("CbLolthOneHeals","LOCALS",3)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,CLERIC_HEAL)
+    IncrementGlobal("CbLolthOneHeals","LOCALS",1)
+END
+

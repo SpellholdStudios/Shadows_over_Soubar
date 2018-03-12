@@ -1,0 +1,9 @@
+IF
+  HPLT(Myself,10)
+  Global("CbRolfEscapes","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbRolfEscapes","LOCALS",1)
+    StartDialogNoSet(Player1)
+END
+

@@ -1,0 +1,8 @@
+IF
+  Global("CbTownCouncilWithPlayer","GLOBAL",11)
+  AreaCheck("AR4219")
+THEN
+  RESPONSE #100
+    StartDialogNoSet("CBVINNIE")
+END
+

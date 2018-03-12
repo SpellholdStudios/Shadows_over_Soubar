@@ -1,0 +1,35 @@
+IF
+  TimeGT(20)
+  TimeLT(MIDNIGHT)
+  OnCreation()
+THEN
+  RESPONSE #100
+    Deactivate(Myself)
+END
+
+IF
+  Time(MIDNIGHT)
+  OnCreation()
+THEN
+  RESPONSE #100
+    Deactivate(Myself)
+END
+
+IF
+  TimeGT(MIDNIGHT)
+  TimeLT(8)
+  OnCreation()
+THEN
+  RESPONSE #100
+    Deactivate(Myself)
+END
+
+IF
+  TimeGT(DAWN_END)
+  TimeLT(DUSK_START)
+  OnCreation()
+THEN
+  RESPONSE #100
+    Activate(Myself)
+END
+

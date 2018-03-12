@@ -1,0 +1,50 @@
+IF
+  OnCreation()
+  Global("CbPorticullisDestroyed","AR4370",0)
+THEN
+  RESPONSE #100
+    CloseDoor("Door03")
+    Lock("Door03")
+    SetGlobal("CbPorticullisDestroyed","AR4370",1)
+    Continue()
+END
+
+IF
+  GlobalGT("CbPartyHasKilledAllBandits","GLOBAL",0)
+  Global("CbPorticullisDestroyed","AR4370",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbPorticullisDestroyed","AR4370",1)
+    ActionOverride("CB4300GH",DestroySelf())
+    Unlock("Door03")
+    ActionOverride("CB430SCD",DestroySelf())
+    ActionOverride("CB430SCE",DestroySelf())
+    ActionOverride("CB430SCF",DestroySelf())
+    ActionOverride("CB4300CO1",DestroySelf())
+    ActionOverride("CB4300CO2",DestroySelf())
+    ActionOverride("CB4300CT",DestroySelf())
+    SpawnPtDeactivate("CbBanditSpawn1")
+    SpawnPtDeactivate("CbBanditSpawn2")
+    SpawnPtDeactivate("CbBanditSpawn3")
+    SpawnPtDeactivate("CbBanditSpawn4")
+    SetGlobal("CbPorticullisDestroyed","AR4370",2)
+    SetGlobal("CbPorticullisAlmostDestroyed","AR4370",1)
+END
+
+IF
+  Dead("CB4300GH")  // ~Gatehouse Porticullis~
+  Global("CbPorticullisDestroyed","AR4370",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbPorticullisDestroyed","AR4370",2)
+    Unlock("Door03")
+END
+
+IF
+  Global("CbPorticullisDestroyed","AR4370",2)
+  Delay(10)
+THEN
+  RESPONSE #100
+    CloseDoor("Door03")
+END
+

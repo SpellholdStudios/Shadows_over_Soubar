@@ -1,0 +1,21 @@
+
+//SOS-RoT Cross Links Table
+SRC_AREA  SRC_NWSE  TARGET_ARE  ENTRY_NAME  TRV_TIME  DEF_ENTRY  ENC1     ENC2     ENC3     ENC4     ENC5     ENC_PROB
+
+RA4900    S         AR4220      ExitS       24        1          AR0042   AR0044   N        N        N        30
+AR4220    S         RA4900      ExitS       24        4          AR0042   AR0044   N        N        N        30
+AR4220    W         RA4900      ExitS       24        4          AR0042   AR0044   N        N        N        30
+
+RR3400    N         AR4220      ExitS       22        1          AR0042   AR0044   N        N        N        30
+AR4220    S         RR3400      ExitS       22        4          AR0042   AR0044   N        N        N        30
+AR4220    W         RR3400      ExitS       22        4          AR0042   AR0044   N        N        N        30
+
+RR3450    S         AR4220      ExitS       23        1          AR0042   AR0044   N        N        N        35
+RR3450    E         AR4220      ExitS       23        1          AR0042   AR0044   N        N        N        35
+AR4220    S         RR3450      ExitSE      23        1          AR0042   AR0044   N        N        N        35
+AR4220    W         RR3450      ExitSE      23        1          AR0042   AR0044   N        N        N        35
+
+RR3300    E         AR4220      ExitS       22        1          AR0042   AR0044   N        N        N        35
+AR4220    S         RR3300      ExitE       22        1          AR0042   AR0044   N        N        N        35
+AR4220    W         RR3300      ExitE       22        1          AR0042   AR0044   N        N        N        35
+

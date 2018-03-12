@@ -1,0 +1,37 @@
+IF
+  OnCreation()
+  Global("CbSoubarianRandomWalks","LOCALS",0)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    SetGlobal("CbSoubarianRandomWalks","LOCALS",1)
+END
+
+IF
+  Global("CbSoubarianRandomWalks","LOCALS",2)
+  GlobalTimerExpired("CbSoubarianRandomWalkTimer","LOCALS")
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    SetGlobal("CbSoubarianRandomWalks","LOCALS",0)
+END
+
+IF
+  Global("CbSoubarianRandomWalks","LOCALS",1)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbSoubarianRandomWalkTimer","LOCALS",30)
+    SetGlobal("CbSoubarianRandomWalks","LOCALS",2)
+    RandomWalk()
+END
+
+IF
+  Delay(15)
+  Global("CbSoubarianRandomWalks","LOCALS",0)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    SetGlobal("CbSoubarianRandomWalks","LOCALS",1)
+END
+

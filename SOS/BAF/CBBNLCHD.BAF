@@ -1,0 +1,238 @@
+IF
+  NumInPartyAliveGT(4)
+  HaveSpell(CLERIC_MENTAL_DOMINATION)
+  See(ThirdNearestEnemyOf(Myself))
+  !StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+  OR(6)
+    !StateCheck(LastSeenBy(Myself),STATE_STUNNED)
+    !StateCheck(LastSeenBy(Myself),STATE_PANIC)
+    !StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
+    !StateCheck(LastSeenBy(Myself),STATE_CHARMED)
+    !StateCheck(LastSeenBy(Myself),STATE_FEEBLEMINDED)
+    !StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
+THEN
+  RESPONSE #100
+    Spell(ThirdNearestEnemyOf(Myself),CLERIC_MENTAL_DOMINATION)
+END
+
+IF
+  NumInPartyAliveGT(2)
+  HaveSpell(CLERIC_MENTAL_DOMINATION)
+  See(SecondNearestEnemyOf(Myself))
+  !StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+  OR(6)
+    !StateCheck(LastSeenBy(Myself),STATE_STUNNED)
+    !StateCheck(LastSeenBy(Myself),STATE_PANIC)
+    !StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
+    !StateCheck(LastSeenBy(Myself),STATE_CHARMED)
+    !StateCheck(LastSeenBy(Myself),STATE_FEEBLEMINDED)
+    !StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
+THEN
+  RESPONSE #100
+    Spell(SecondNearestEnemyOf(Myself),CLERIC_MENTAL_DOMINATION)
+END
+
+IF
+  HaveSpell(CLERIC_MENTAL_DOMINATION)
+  !StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+  OR(6)
+    !StateCheck(LastSeenBy(Myself),STATE_STUNNED)
+    !StateCheck(LastSeenBy(Myself),STATE_PANIC)
+    !StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
+    !StateCheck(LastSeenBy(Myself),STATE_CHARMED)
+    !StateCheck(LastSeenBy(Myself),STATE_FEEBLEMINDED)
+    !StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),CLERIC_MENTAL_DOMINATION)
+END
+
+IF
+  NumInPartyAliveGT(4)
+  HaveSpell(CLERIC_RIGID_THINKING)
+  See(ThirdNearestEnemyOf(Myself))
+  !StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+  OR(6)
+    !StateCheck(LastSeenBy(Myself),STATE_STUNNED)
+    !StateCheck(LastSeenBy(Myself),STATE_PANIC)
+    !StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
+    !StateCheck(LastSeenBy(Myself),STATE_CHARMED)
+    !StateCheck(LastSeenBy(Myself),STATE_FEEBLEMINDED)
+    !StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
+THEN
+  RESPONSE #100
+    Spell(ThirdNearestEnemyOf(Myself),CLERIC_RIGID_THINKING)
+END
+
+IF
+  NumInPartyAliveGT(2)
+  HaveSpell(CLERIC_RIGID_THINKING)
+  See(SecondNearestEnemyOf(Myself))
+  !StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+  OR(6)
+    !StateCheck(LastSeenBy(Myself),STATE_STUNNED)
+    !StateCheck(LastSeenBy(Myself),STATE_PANIC)
+    !StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
+    !StateCheck(LastSeenBy(Myself),STATE_CHARMED)
+    !StateCheck(LastSeenBy(Myself),STATE_FEEBLEMINDED)
+    !StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
+THEN
+  RESPONSE #100
+    Spell(SecondNearestEnemyOf(Myself),CLERIC_RIGID_THINKING)
+END
+
+IF
+  NumInPartyAliveGT(0)
+  HaveSpell(CLERIC_RIGID_THINKING)
+  See(NearestEnemyOf(Myself))
+  !StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+  OR(6)
+    !StateCheck(LastSeenBy(Myself),STATE_STUNNED)
+    !StateCheck(LastSeenBy(Myself),STATE_PANIC)
+    !StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
+    !StateCheck(LastSeenBy(Myself),STATE_CHARMED)
+    !StateCheck(LastSeenBy(Myself),STATE_FEEBLEMINDED)
+    !StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),CLERIC_RIGID_THINKING)
+END
+
+IF
+  NumInPartyAliveGT(4)
+  HaveSpell(CLERIC_HOLD_PERSON)
+  See(ThirdNearestEnemyOf(Myself))
+  !StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+  OR(6)
+    !StateCheck(LastSeenBy(Myself),STATE_STUNNED)
+    !StateCheck(LastSeenBy(Myself),STATE_PANIC)
+    !StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
+    !StateCheck(LastSeenBy(Myself),STATE_CHARMED)
+    !StateCheck(LastSeenBy(Myself),STATE_FEEBLEMINDED)
+    !StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
+THEN
+  RESPONSE #100
+    Spell(ThirdNearestEnemyOf(Myself),CLERIC_HOLD_PERSON)
+END
+
+IF
+  NumInPartyAliveGT(2)
+  HaveSpell(CLERIC_HOLD_PERSON)
+  See(SecondNearestEnemyOf(Myself))
+  !StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+  OR(6)
+    !StateCheck(LastSeenBy(Myself),STATE_STUNNED)
+    !StateCheck(LastSeenBy(Myself),STATE_PANIC)
+    !StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
+    !StateCheck(LastSeenBy(Myself),STATE_CHARMED)
+    !StateCheck(LastSeenBy(Myself),STATE_FEEBLEMINDED)
+    !StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
+THEN
+  RESPONSE #100
+    Spell(SecondNearestEnemyOf(Myself),CLERIC_HOLD_PERSON)
+END
+
+IF
+  NumInPartyAliveGT(0)
+  HaveSpell(CLERIC_HOLD_PERSON)
+  See(NearestEnemyOf(Myself))
+  !StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+  OR(6)
+    !StateCheck(LastSeenBy(Myself),STATE_STUNNED)
+    !StateCheck(LastSeenBy(Myself),STATE_PANIC)
+    !StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
+    !StateCheck(LastSeenBy(Myself),STATE_CHARMED)
+    !StateCheck(LastSeenBy(Myself),STATE_FEEBLEMINDED)
+    !StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),CLERIC_HOLD_PERSON)
+END
+
+IF
+  NumInPartyAliveGT(4)
+  HaveSpell(CLERIC_COMMAND)
+  See(ThirdNearestEnemyOf(Myself))
+  !StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+  OR(6)
+    !StateCheck(LastSeenBy(Myself),STATE_STUNNED)
+    !StateCheck(LastSeenBy(Myself),STATE_PANIC)
+    !StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
+    !StateCheck(LastSeenBy(Myself),STATE_CHARMED)
+    !StateCheck(LastSeenBy(Myself),STATE_FEEBLEMINDED)
+    !StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
+THEN
+  RESPONSE #100
+    Spell(ThirdNearestEnemyOf(Myself),CLERIC_COMMAND)
+END
+
+IF
+  NumInPartyAliveGT(2)
+  HaveSpell(CLERIC_COMMAND)
+  See(SecondNearestEnemyOf(Myself))
+  !StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+  OR(6)
+    !StateCheck(LastSeenBy(Myself),STATE_STUNNED)
+    !StateCheck(LastSeenBy(Myself),STATE_PANIC)
+    !StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
+    !StateCheck(LastSeenBy(Myself),STATE_CHARMED)
+    !StateCheck(LastSeenBy(Myself),STATE_FEEBLEMINDED)
+    !StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
+THEN
+  RESPONSE #100
+    Spell(SecondNearestEnemyOf(Myself),CLERIC_COMMAND)
+END
+
+IF
+  NumInPartyAliveGT(0)
+  HaveSpell(CLERIC_COMMAND)
+  See(NearestEnemyOf(Myself))
+  !StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+  OR(6)
+    !StateCheck(LastSeenBy(Myself),STATE_STUNNED)
+    !StateCheck(LastSeenBy(Myself),STATE_PANIC)
+    !StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
+    !StateCheck(LastSeenBy(Myself),STATE_CHARMED)
+    !StateCheck(LastSeenBy(Myself),STATE_FEEBLEMINDED)
+    !StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),CLERIC_COMMAND)
+END
+
+IF
+  HaveSpell(CLERIC_CHANT)
+  !StateCheck(Myself,STATE_CHANT)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_CHANT)
+END
+
+IF
+  HaveSpell(CLERIC_GLYPH_OF_WARDING)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),CLERIC_GLYPH_OF_WARDING)
+END
+
+IF
+  HaveSpell(CLERIC_ANIMATE_DEAD)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_ANIMATE_DEAD)
+END
+
+IF
+  HaveSpell(CLERIC_FLAME_STRIKE)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),CLERIC_FLAME_STRIKE)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(LastSeenBy(Myself),15)
+END
+

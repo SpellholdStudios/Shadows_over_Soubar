@@ -1,0 +1,64 @@
+IF
+  Global("CbPorticullisAlmostDestroyed","AR4370",1)
+  Range("CB4300GH",20)  // ~Gatehouse Porticullis~
+  Global("CbArcherRetreatedFromGate","LOCALS",0)
+THEN
+  RESPONSE #10
+    MoveToPointNoInterrupt([1627.2660])
+    SetGlobal("CbArcherRetreatedFromGate","LOCALS",1)
+  RESPONSE #10
+    MoveToPointNoInterrupt([1670.2680])
+    SetGlobal("CbArcherRetreatedFromGate","LOCALS",1)
+  RESPONSE #10
+    MoveToPointNoInterrupt([1710.2710])
+    SetGlobal("CbArcherRetreatedFromGate","LOCALS",1)
+  RESPONSE #10
+    MoveToPointNoInterrupt([1750.2740])
+    SetGlobal("CbArcherRetreatedFromGate","LOCALS",1)
+  RESPONSE #10
+    MoveToPointNoInterrupt([1790.2770])
+    SetGlobal("CbArcherRetreatedFromGate","LOCALS",1)
+  RESPONSE #10
+    MoveToPointNoInterrupt([1600.2660])
+    SetGlobal("CbArcherRetreatedFromGate","LOCALS",1)
+  RESPONSE #10
+    MoveToPointNoInterrupt([1640.2680])
+    SetGlobal("CbArcherRetreatedFromGate","LOCALS",1)
+  RESPONSE #10
+    MoveToPointNoInterrupt([1670.2710])
+    SetGlobal("CbArcherRetreatedFromGate","LOCALS",1)
+  RESPONSE #10
+    MoveToPointNoInterrupt([1710.2740])
+    SetGlobal("CbArcherRetreatedFromGate","LOCALS",1)
+  RESPONSE #10
+    MoveToPointNoInterrupt([1750.2770])
+    SetGlobal("CbArcherRetreatedFromGate","LOCALS",1)
+END
+
+IF
+  Global("CbPorticullisAlmostDestroyed","AR4370",0)
+  !HasItem("AROW11",Myself)  // ~Arrow +2~
+THEN
+  RESPONSE #100
+    GiveItemCreate("AROW11",Myself,30,0,0)  // ~Arrow +2~
+    EquipItem("AROW11")
+END
+
+IF
+  !HasItem("AROW11",Myself)  // ~Arrow +2~
+  Global("CbPorticullisAlmostDestroyed","AR4370",1)
+THEN
+  RESPONSE #34
+    GiveItemCreate("AROW11",Myself,10,0,0)  // ~Arrow +2~
+    GiveItemCreate("sw1h29",Myself,1,0,0)  // ~Short Sword +2~
+    EscapeAreaMove("AR4302",540,280,0)
+  RESPONSE #33
+    GiveItemCreate("AROW11",Myself,10,0,0)  // ~Arrow +2~
+    GiveItemCreate("sw1h14",Myself,1,0,0)  // ~Short Sword +1~
+    EscapeAreaMove("AR4301",380,230,0)
+  RESPONSE #33
+    GiveItemCreate("AROW11",Myself,7,0,0)  // ~Arrow +2~
+    GiveItemCreate("sw1h07",Myself,1,0,0)  // ~Short Sword ~
+    EscapeAreaMove("AR4303",340,280,0)
+END
+

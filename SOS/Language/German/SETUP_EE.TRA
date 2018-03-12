@@ -1,0 +1,1204 @@
+@20423 = ~Alle Wesen im Umkreis von 9 m des Zielpunkts (in Sichtweite des Benutzers) mÃ¼ssen einen Rettungswurf gegen ZauberstÃ¤be ausfÃ¼hren, wenn das Wort der Macht angestimmt wird, sonst leiden sie zerstÃ¶rerische Qualen fÃ¼r 2-8 Runden, die sie veranlassen, mit -4 auf Ihre Treffer zu kÃ¤mpfen, und verschlechtern ihre RÃ¼stungsklasse um 1. Das Wort der Macht kann nur einmal pro Tag verwendet werden, und das Amulett muss in der Hand gehalten werden, damit das Wort der Macht wirkt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+FÃ¤higkeiten:
+-4 ETW0 und -1 RÃ¼stungsklasse fÃ¼r 2-8 Runden
+  Rettungswurf gegen ZauberstÃ¤be macht die Wirkungen zunichte
+
+  Magieresistente Wesen werden nicht beeintrÃ¤chtigt~
+@20437 = ~Ein Wesen, das diese auf Hochglanz polierten BÃ¤nder trÃ¤gt, kann viel Ã¼ber diejenigen erzÃ¤hlen, die er trifft. Indem er die Hand einer anderen Person schÃ¼ttelt und die Ladung durch die Kraft des Willens vergrÃ¶ÃŸert, kann der TrÃ¤ger die Klasse oder den Beruf der Person bestimmen. Bei der VergrÃ¶ÃŸerung auf zwei Ladungen kann der TrÃ¤ger die Einstellung der Personen bestimmen. Die Armschienen offenbaren keine Information, wenn das Ziel ein Schutzamulett gegen Entdeckung trÃ¤gt oder durch Ã¤hnliche Magie verhÃ¼llt ist. Die Armschienen werden gewÃ¶hnlich mit 4-40 Ladungen gefunden und kÃ¶nnen nicht wieder geladen werden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit:
+ Kann Klasse und Erfahrungsstufe offenbaren
+ Kann Gesinnung offenbaren~
+@20438 = ~Dieses glÃ¤nzende Messingschwert ist Ã¤uÃŸerst alt, mindestens dreitausend Jahre vor der Taliser Zeitrechnung. Es wurde von einem Erzmagier der Nesseril namens Pouldinus als Geschenk an einen Krieger-Freund geschaffen. Dieser Freund, Kalamnin, war ein strenger AnhÃ¤nger von Amaunator, einem von den Weisen jetzt fast vergessenem unnachsichtigen, unversÃ¶hnlichen Gott. Amaunator war der Gott des Gesetzes und der Gott der Sonne. Er verlangte, dass seine Diener seinen Erlassen genau folgten. Kalamnin tat sein Bestes, die Gesetze von Amaunator bei seinen Reisen zu befolgen. Die Klinge ging verloren, als Kalamnin im Kampf durch Dutzende von NycadÃ¤monen getÃ¶tet wurde. Der Zauberer, der die Wesen herbeirief, Ylmandi, behielt die Klinge in seiner Familie bis zum Fall von Netheril.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W4 +3
+ETW0: +3
+Besonderheit:
+ ZusÃ¤tzlich 2W4 +3 Feuerschaden gegen Untote
+ Chance von 5 % von Beltyns Brennendem Blut bei einem Treffer
+ Wirft Sonnenstrahl einmal am Tag
+Schadensart: aufschlitzen
+Gewicht: 3
+Geschwindigkeitsfaktor: 1
+Waffenfertigkeit: Langschwert
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 10~
+@20440 = ~Dieses starke Amulett wurde vom Zauberer Celemon aus Calimport im Jahr 727 DR gefertigt. Er fertigte zehn solcher Amulette im Auftrag, bevor ihn eifersÃ¼chtige Rivalen tÃ¶teten und versuchten, das Verfahren zu kopieren. Seine Kollegen waren nicht so talentiert wie Celemon, und zerstÃ¶rten ihr Laboratorium und sich selbst, als sich ein Missgeschick ereignete. Die Formel wurde ebenso zerstÃ¶rt. Dieses besondere Amulett hatte der elfische Kriegermagier Pelan Rainwind besessen. Es ging verloren, als er von Riesen vom Grat der Welt irgendwann um 840 DR getÃ¶tet wurde.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Wirft gleichzeitig Steinhaut und Kleinere Kugel der Unverwundbarkeit (Bannzauber) auf den Benutzer
+~
+@20442 = ~Diese Art Amulett nimmt die Form eines geformten KÃ¤fers an, und ist Ã¼blicherweise nur in der Gegend von Mulhorand zu finden. Dieser besondere MistkÃ¤fer wurde in Thay von Gulvak Anrak gefertigt, einem mÃ¤chtigen Hexenmeister magischer SchutzgerÃ¤te. Gulvak gab diesen MistkÃ¤fer einem Lehrling, Alik Banom, der von Soldaten aus Cormyrean im Jahre 1021 DR getÃ¶tet wurde. GemÃ¤ÃŸ den Weisen fing Alik einen Kampf mit einem Cormyrean-Ritter an, der die Thay und die Roten Zauberer insgesamt beleidigte. Wenn auch Alik stark war, war er kein gleichwertiger Gegner fÃ¼r die Menge purpurroter Drachen, die dem Ritter zu Hilfe kamen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gibt +2 RettungswÃ¼rfe gegen Versteinerung und Vielgestaltige~
+@20444 = ~Ein schrecklicher verfluchter Gegenstand ist das Amulett des Dunklen Fleisches, ein Zeichen der Krankheit und des langsamen Todes, gefertigt von Nekromant Niri Eddin aus Calimshan. Eddin gab den Gegenstand seinen heimlichen Feinden als Geschenk und forderte es durch seine Diebesdienern zurÃ¼ck, als die Krankheit ihren Verlauf genommen hatte. Es wird angenommen, dass Niri noch irgendwo in den Reichen "lebendig" ist, ungeachtet der Tatsache, dass er ein im Jahre 832 DR geborener Mensch war.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Indem er dieses Amulett umhÃ¤ngt, wird der TrÃ¤ger krank und gelÃ¤hmt.~
+@20446 = ~Dieser silberne Schild war einmal in Seldarines Obhut angesiedelt, wo er verwendet wurde, um seinen TrÃ¤ger vor schÃ¤dlicher Magie und Angriffen zu schÃ¼tzen. Wegen seiner rassischen Einstellung lieÃŸen die plÃ¼ndernden Orks und Pucks ihn im Turm zurÃ¼ck. Jungfrau Ilmadia nahm ihn in den Ruinen an sich.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+RÃ¼stungsklassebonus: 3
+Widerstandsbonus: Magischer Widerstand von +25 %
+Gewicht: 5
+MindeststÃ¤rke: 12~
+@20447 = ~Kontik, Diener von Auril, verwendete einst diese Klinge. Sie wurde mit verschiedener vorteilhafter Magie verzaubert.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4 +3
+ETW0: +3
+Besonderheit:
+ Intelligenz +1 Bonus
+ Charisma -1 Strafe
+ KÃ¤ltewiderstand: 100 %
+ Feuerwiderstand: -50 %
+ 2 Ladungen KÃ¤ltekegel pro Tag
+Schadensart: durchbohren
+Gewicht: 1
+Geschwindigkeitsfaktor: 2
+Waffenfertigkeit: Dolche
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 3~
+@20449 = ~Gond, Gott der Erfindung und des Geschickes, ist eine von traditionellen Abenteurern selten angebetete Gottheit. Einige Diebe verehren jedoch Gond fÃ¼r seine Rolle in der Entwicklung von SchlÃ¶ssern, Fallen, und anderen komplizierten Maschinen. Ein solcher Dieb war der Einbrecher Jurmar der Ruhige, der seine Karriere als Schlosser begann. Bekannt fÃ¼r sein kÃ¼hles Verhalten und seine ruhige Hand, bezahlte Jurmar die Priester von Gond, um diesen WerkzeuggÃ¼rtel fÃ¼r ihn zu gestalten. Wann auch immer Jurmar in einer Situation stecken blieb, in der er nicht das richtige Werkzeug fÃ¼r ein Problem hatte, wÃ¼rde einer der kleinen Beutel an diesem GÃ¼rtel ihm das liefern, was er brauchte.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit:
+SchlÃ¶sser Ã¶ffnen: +10
+Fallen finden/entschÃ¤rfen: +5 ~
+@20451 = ~Diese fÃ¼rchterliche Waffe wurde von einer schÃ¶nen und grausamen Zauberin gefertigt, die die Dame des UnglÃ¼cks, Beshaba, anbetete. Ihr Name war Redani, und sie war sowohl fÃ¼r ihre MÃ¤chte als Zauberin als auch VerfÃ¼hrerin bekannt. Die Liebe der schwarzen Bess wurde ihrem bevorzugtem GefÃ¤hrten immer zu einem bestimmten Zeitpunkt gegeben. Ohne dass es ihre Liebhaber wissen, wÃ¼rde sie einen Ring der Bereitschaft an der Keule anbringen und den passenden Ring fÃ¼r einen besonderen Zeitpunkt aufheben. Wenn sie ihres GefÃ¤hrtens Ã¼berdrÃ¼ssig wurde, wie sie es immer tat, wÃ¼rde sie einem neuen Liebhaber den passenden Ring geben und den jungen Mann ausschicken, um ihren alten Liebhaber zu tÃ¶ten. Der neue Liebhaber wÃ¼rde den Ring einfach aufrufen, und die Keule wÃ¼rde in seine Hand fliegen.
+
+Leider war Redani erledigt, als sie dem falschen Mann vertraute, um ihren alten Geliebten zu tÃ¶ten. Gural von Chessenta, ein gut verkleideter Priester aus Hoar, nahm es selbst auf sich, Rache fÃ¼r einen Mann zu verÃ¼ben, dessen SchÃ¤del er neben einer StraÃŸe aufgehoben hatte. UnglÃ¼cklicherweise fÃ¼r Redani tun Priester von Hoar alles nur Erdenkliche, um die Toten zu rÃ¤chen, selbst wenn es die Wiederbelebung von allen ihren toten Geliebten bedeutet, um ihr Glied fÃ¼r Glied abzureiÃŸen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 +4
+ETW0: +3
+Besonderheit:
+ 10 % aller Treffer veranlassen das Ziel, 4 Punkte des GlÃ¼cks zu verlieren
+Schadensart: zertrÃ¼mmern
+Gewicht: 7
+Geschwindigkeitsfaktor: 5
+Waffenfertigkeit: Streitkolben
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 10~
+
+@20453 = ~In diesem Glastopf ist eine teure Mischung von Ã–l und anderen Chemikalien. Wenn diese Mischung entflammt wird, brennt sie fÃ¼r mehrere Sekunden bei sehr heiÃŸer Temperatur. Brennendes Ã–l ist manchmal schwierig zu verwenden, weil es fÃ¼r den Benutzer lange Zeit dauert, um es richtig zu werfen. Abenteurer tragen hÃ¤ufig Ã–l mit sich, um mit Trollen in dem unglÃ¼cklichen Fall zu fertig zu werden, dass sie mit ihnen zusammenstoÃŸen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Wenn es auf ein Ziel geworfen wird, zerbricht der Glastopf, und breitet brennendes Ã–l Ã¼ber alles innerhalb eines Radius von 1,5 m aus, und verursacht dabei 2-16 Punkte Feuerschaden.
+~
+@20459 = ~Benannt nach seiner FÃ¤higkeit, Krieger stapelweise umzulegen, wurde die Stapelklinge vom SÃ¶ldner Adal Kerrn verwendet. Kerrn war ein erfahrener Infanterist. Er und seine Begleiter, Kerrns Brecher, vermieteten sich selbst allen Arten von Kriegsherren, Banditen, Zauberern und religiÃ¶sen FÃ¼hrern. Sie wurden gewÃ¶hnlich an der Front des Schlachtfeldes aufgestellt, wo sie die Belastung schwerer Kavallerie-Einheiten abfangen und ihre Einheiten aufbrechen wÃ¼rden. Kerrn starb im Jahr 1054 DR, als er versehentlich das Pferd eines schwer gepanzerten Feinds tÃ¶tete. Das Pferd fiel auf Kerrn drauf und tÃ¶tete ihn. Im Wahnsinn des Kampfs, der folgte, wurden die meisten seiner Kameraden aufgerieben. Obwohl der KÃ¶rper von Kerrn nie gefunden wurde, erlangte die Gruppe, die ihn zu dieser Zeit beschÃ¤ftigt hatte, die Kirche von Helm, sein charakteristisches Schwert wieder.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W10 +4
+ETW0: +4
+Schadensart: aufschlitzen
+Gewicht: 20
+Geschwindigkeitsfaktor: 10
+Waffenfertigkeit: ZweihÃ¤nder
+Waffentyp: beidhÃ¤ndig
+MindeststÃ¤rke: 14~
+@20461 = ~Diese RÃ¼stung wurde im Jahre 1221 DR von einem Schmied der Duergar gefertigt, der fÃ¼r einen rachsÃ¼chtigen Priester des Verderbens namens Alerri aus dem westlichem Tiefwasser arbeitete. WÃ¤hrend seiner frÃ¼hen Tage im Priestertum provozierte Alerri oft und griff Agenten von Sune an. Zum Pech fÃ¼r Alerri setzten die AnhÃ¤nger Lady Feuerhaars Zaubermagie ein, um die MÃ¤tzchen von Banite zu beenden. Sobald er bezaubert worden war, wurde Alerri befohlen, alle Arten von peinlichen Handlungen auf den StraÃŸen von Tiefwasser durchzufÃ¼hren. Nach vielen Jahren entschied sich Alerri dafÃ¼r, seinen Gott des Hasses zu ehren, indem er einen Harnisch schuf, der ihn vor der Zaubermagie schÃ¼tzen wÃ¼rde. Er besprach sich mit den geistigen GÃ¼nstlingen von Bane, um die Materialien und die fÃ¼r die Entwicklung des Anzugs notwendigen Rituale zu entdecken. Die Anweisungen seines Meisters befolgend ermordete er dreizehn Ehepaare und lieÃŸ ihre Eheringe in den Saum des Hemdes weben. Er tÃ¶tete dann dreizehn Elfen und badete in ihrem Blut, dreizehn Stunden lang Gebete aussprechend. Als er fertig war, schÃ¼tzte ihn seine RÃ¼stung vor der Magie der Sunen und fÃ¼llte ihn mit unbezÃ¤hmbaren Hass. Alerri fÃ¼hrte seinen Kreuzzug gegen die Agenten von Sune, Llira, und Hanali Celanil drei Jahren lang weiter. Sein Blutrausch endete, als elfische BogenschÃ¼tzen und Priester aus Corellon Larethian ihm auf einer StraÃŸe, die in den Norden von Tiefwasser fÃ¼hrt, eine Falle stellten.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+RÃ¼stungsklasse: 3
+Besonderheit:
+ImmunitÃ¤t gegen Schrecklichen Zauber, Person bezaubern, Verwirrung, Befehl, Starres Denken
+-2 Charisma, wÃ¤hrend es getragen wird 
+Gewicht: 45
+MindeststÃ¤rke: 8~
+@20463 = ~Dieser elfische Umhang, gewebt aus Seide und Wolle, wurde von einem starken Zauberer aus Myth Nantar namens Mithran Blumenblatt getragen. Mithran war fÃ¼r seine Vorliebe fÃ¼r Reisen und seiner Billigung der "N'TelQuessir", oder "Nicht-Leute," die nicht-elfischen Leute der Welt, weithin bekannt. Der Umhang war wirklich die Ursache seines Schicksals, weil er von seiner Geliebten, der Dunkelelfin Rauva Vrinn, gewebt und verzaubert wurde. Der Stil des schwarzen und mitternachtsblauen Umhangs war so offensichtlich nicht-elfisch, dass seine GefÃ¤hrten misstrauisch wurden.
+
+SchlieÃŸlich entdeckte ein Bekannter von Mithran, ein elfischer Drow-JÃ¤ger namens Gaedel, Rauva's abgelegenen Schlupfwinkel in den WÃ¤ldern, die Myth Nantar umgeben. Mit einer kleinen Bande von Kriegern stÃ¼rmte Gaedel ihre HÃ¼tte und tÃ¶tete sie schnell. Als Mithran entdeckte, was geschehen war, wurde er rasend vor Wut. Der verrÃ¼ckte Magier griff die JagdhÃ¼tte von Gaedel und seinen BrÃ¼dern an, tÃ¶tete sie alle und ebnete die HÃ¼tte ein. Die Familie von Gaedel versuchte schlieÃŸlich, Rache fÃ¼r die Tat zu nehmen, indem sie Mithran wegen dem Verlust des grÃ¶ÃŸten Teiles ihres Hauses tÃ¶teten. Mithrans Umhang wurde von seinem engen Freund, dem Zwergenkrieger Hael Bronzelake wieder erlangt. WÃ¤re es nicht so geschehen, wÃ¤re er zusammen mit Myth Nantar von den Wellen verschlungen worden, als diese stolze Stadt mehrere Jahre spÃ¤ter im Meer der gefallenen Sternen ertrÃ¤nkt wurde.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+RÃ¼stungsklassebonus: 3
+Rettungswurf-Bonus: +2~
+@20465 = ~Dieses dunkle GetrÃ¤nk wurde nach den GroÃŸhÃ¤ndlern aus Berdusk benannt, die dieses GebrÃ¤u zusammenbrauten. GroÃŸhÃ¤ndler aus Berduskan hatten es immer eilig, um ihre verschiedenen GeschÃ¤fte zu abzuschlieÃŸen, und fÃ¼hlten sich behindert durch die Auswirkungen der ErschÃ¶pfung und des BedÃ¼rfnisses zu schlafen. Beim Trinken dieses GebrÃ¤ues verschwinden die Auswirkungen der MÃ¼digkeit und ErschÃ¶pfung, und der Trinker kann mit dem weitermachen, was auch immer er gerade tat.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Beseitigt ErschÃ¶pfung, als ob Benutzer einen vollen Nachtschlaf gehabt hat
+~
+@20467 = ~Im Jahre 834 DR fing ein Zauberer, genannt Legedain der KlÃ¼gere, einen berÃ¼hmten Dieb, als er in seinen Turm einbrach. Der Dieb war ein zynischer Einbrecher namens Ilfain Schwarzfeder. Legedain war alt und wurde durch seinen zerbrechlichen KÃ¶rper mÃ¼de. Um die Lage zu bereinigen, warf er den Zauber Magisches Glas und zwang Ilfains Geist in einen Gastgeber-Edelstein. Legedain Ã¼bertrug dann seine Seele dem KÃ¶rper des jungen Elfen und lieÃŸ den Edelstein auf einem nahe gelegenem Regalbrett. Einhundert Jahre spÃ¤ter entschied sich Legedain, etwas damit zu tun. Er schuf ein Schwert fÃ¼r seinen arroganten LeibwÃ¤chter, Gundak, und Ã¼bertrug den Geist von Ilfain vom Gastgeber-Edelstein auf das Schwert. Ilfain, immer Ã¤uÃŸerst kritisch im Leben, begann damit, Gundak telepathisch im Kampf zu kritisieren. Gundak Ã¤rgerte sich nach zwei Wochen Ã¼ber das Schwert, und warf es auf die StraÃŸe. Eine Reihe von Kriegern nahm es auf und warf es nach kurzer Zeit des Besitzes wieder weg. Im Laufe der Zeit wurde die Waffe einfach unter ihrem gegenwÃ¤rtigen Namen bekannt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W4 +4
+THACO: +4
+Besonderheit:
+ Fallen finden einmal tÃ¤glich, Klopfen einmal tÃ¤glich
+Schadensart: aufschlitzen
+Gewicht: 4
+Geschwindigkeitsfaktor: 5
+Waffenfertigkeit: Langschwert
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 6~
+@20469 = ~Der exzentrische Meister-Zauberer Zilzanzer, weithin bekannt fÃ¼r seinen Ring der Gorgonen, war auch der SchÃ¶pfer mehrerer kleiner magischer Fernkampfwaffen. "Zilzanzers groÃŸartige Wurfpfeile" wurden an viele Kollegen des Zauberers verkauft. Anders als viele der anderen Entwicklungen Zilzanzers, leisteten sein Pfeile wirklich das, wozu sie bestimmt waren. Er schuf eine groÃŸe Zahl von Pfeilen vor seinem vorzeitigen Ableben.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W3 +2
+Besonderheit:
+ Der Benutzer kann bis zu fÃ¼nf von Zilzanzers Pfeilen in einer einzelnen Runde werfen, unabhÃ¤ngig von der Klasse
+Schadensart: durchbohren (Fernkampf)
+Geschwindigkeitsfaktor: 1
+Waffenfertigkeit: Fernkampfwaffen
+Waffentyp: einhÃ¤ndig~
+@20471 = ~Der SÃ¶ldner Naradon Thesk war fÃ¼r seine FÃ¤higkeit bekannt, schnell und wirksam feindliche Magier zu bezwingen, selbst wenn sie zahlenmÃ¤ÃŸig Ã¼berlegen waren. Er verdiente diesen Ruf mit Hilfe von drei GegenstÃ¤nden: dem Trank der Geschwindigkeit, Stiefeln der Geschwindigkeit, und seinem vertrauten Kurzschwert, HineinstÃ¼rzer. Anders als viele andere magische Waffen, hat HineinstÃ¼rzer keine dunkle, mÃ¶rderische Geschichte. Naradon zog sich aus Abenteuern zurÃ¼ck, als er zweiunddreiÃŸig war. Seine Vorliebe fÃ¼r den Trank der Geschwindigkeit holte ihn ein, als er vier Jahre spÃ¤ter an AltersschwÃ¤che starb. Sein einziger Erbe hatte kein Verlangen danach, Abenteurer zu sein. Er verkaufte die Waffe an einen bekannten Einbrecher ein paar Jahre nach dem Tod seines Vaters. Das Schwert kann an dem in das Ricasso {dem auch FehlschÃ¤rfe genannten nicht geschliffenen Teil der Klinge zwischen Griff und Schneide} eingeprÃ¤gten Eisvogel erkannt werden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 +2
+ETW0: +2
+Besonderheit:
+ 50 % aller Treffer machen die FÃ¤higkeit des Ziels Zauber zu wirken fÃ¼r 2 Runden ungÃ¼ltig
+Rettungswurf gegen Zauber: +1, 
+Magiewiderstand: +5 %
+Schadensart: durchbohren
+Gewicht: 1
+Geschwindigkeitsfaktor: 1
+Waffenfertigkeit: Kleines Schwert
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 5~
+@20475 = ~Hergestellt wÃ¤hrend des Goldenen Zeitalters der Elfen von Seldarines Obhut und den Zwergen aus Dorns Tiefe, wurde sie von den elfischen Zauberern der Obhut getragen. Obwohl sie eine sehr unhandliche Robe ist, bietet sie ihrem TrÃ¤ger Schutz gegen die Elemente der KÃ¤lte, des Feuers und der ElektrizitÃ¤t.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+RÃ¼stungsklasse: 9
+Geschicklichkeitsmalus: -2
+Widerstand-Bonus:
+ KÃ¤ltewiderstand: +40 %
+ Feuerwiderstand: +40 %
+ ElektrizitÃ¤tswiderstand: +40 %
+Gewicht: 10~
+@20479 = ~Dieser schwarze und silberne Morgenstern wurde von einem cormyrschen Nekromant namens Dameth der Blasse geschaffen. Obwohl es eine unheilvolle Waffe zu sein scheint, verschleiert die schmucklose OberflÃ¤che des Morgensterns seine schreckliche Macht. Die Waffe wurde an einen Priester von Myrkul verkauft, der ihn in seinen KÃ¤mpfen gegen Abenteurer gut verwenden konnte. SchlieÃŸlich jedoch wurde der Priester durch einen Paladin aus Lathander Ã¼berwunden, der den Gegenstand beschlagnahmte. Als der Bergtempel, wo der Morgenstern enthalten war, von Riesen in 1190 DR geplÃ¼ndert wurde, endete die Geschichte der Waffe.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W4 +3
+ETW0: +3
+Besonderheit:
+ 10 % aller Treffer bewirken "Leichte Wunden Heilen" bei dem Benutzer und geben einen StÃ¤rkebonus von +1 fÃ¼r 5 Runden
+Schadensart: zertrÃ¼mmern
+Gewicht: 9
+Geschwindigkeitsfaktor: 4
+Waffenfertigkeit: Flegel/Morgenstern
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 11~
+@20481 = ~FÃ¼r sich allein ein Ã¤uÃŸerst wertvoller magischer Gegenstand, ist der Panzerhandschuh des Mutes Teil einer von nur drei restlichen Machtvollen Bewaffnungen, gefertigt von dem elfischen Erzmagier von Myth Drannor. Die GerÃ¤te wurden fÃ¼r den Gebrauch durch Champions gefertigt, die die uralte Stadt der Elfen bei den seltenen Gelegenheiten verteidigten, dass sie in Gefahr war. Dieser ewig leuchtende Panzerhandschuh stellt einen HÃ¶hepunkt fachmÃ¤nnischer Arbeit und der Bezauberung der Elfen dar. Abenteurer und ehrgeizige BÃ¶sewichte aus allen Reichen sehnen sich danach, die Lage aller StÃ¼cke der Machtvollen Bewaffnung zu finden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4 +1
+ETW0: +1
+Besonderheit:
+Der TrÃ¤ger ist gegen Bezauberung, Festhalten, Schlafen und verwandte Zauber immun. 
+Der TrÃ¤ger kann die eigenen MÃ¤chte des Handschuhs des Mutes 3 mal tÃ¤glich anrufen, um sie als Waffe zu verwenden.
+12 % aller Treffer verursachen 3W6 Punkte Schaden durch zertrÃ¼mmern und betÃ¤uben das Ziel fÃ¼r 3 Sekunden
+Schadensart: zertrÃ¼mmern
+Gewicht: 2~
+@20483 = ~Dieser Helm wurde seit vierhundert Jahren von Halblingen und Zwergen der kleinen und eigentlich unbekannten Gemeinschaft im Tal des Hirten getragen. Bei jeder MorgendÃ¤mmerung hat der Hauptmann der Nachtwache den Helm an den Hauptmann der Tagwache Ã¼bergeben. Bei jeder AbenddÃ¤mmerung gab der Hauptmann der Tagwache den Helm zurÃ¼ck. Dieser Kreislauf wurde beibehalten, bis Pheldon Tock, ein Hauptmann der Nachtwache, sich dafÃ¼r entschied, den Helm gegen einen anderen zu einzutauschen. Der Helm wÃ¤re wahrscheinlich eine Zeit lang in Gibling Armstrongs Laden fÃ¼r Seltsame RÃ¼stungen geblieben, wenn ihn nicht ein gelangweilter Zwerg gekauft und in entfernten LÃ¤ndern auf seinem Kaminsims aufgestellt hÃ¤tte.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+RÃ¼stungsklassebonus: 3
+Besonderheit:
+Der Benutzer ist vor Schlaf geschÃ¼tzt und leidet nie unter der ErschÃ¶pfung
+Gewicht: 2~
+@20489 = ~Diese RÃ¼stung wurde aus der Haut des stÃ¤rksten polaren Wurmes im Eiswindtal gefertigt, bei den Eingeborenen als der "WinterkÃ¶nig" bekannt. Die Haut des Wesens ist Ã¤uÃŸerst dick und zÃ¤h, aber Ã¼berraschend leicht. Sie ist mit ihrem weiÃŸen, mit blauen Akzenten gefÃ¤rbten Aussehen sehr ungewÃ¶hnlich.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+RÃ¼stungsklasse: 3
+Besonderheit: 
+ KÃ¤ltewiderstand: +25 %
+ Feuerwiderstand: +25 %  
+Gewicht: 25
+MindeststÃ¤rke: 12~
+@20490 = ~Diese Waffe wurde durch Eure HÃ¤nde hergestellt, gefÃ¼hrt von dem Zwerg Tiernon. Geschmiedet aus dem Eis der WÃ¤nde des Dunkelfrostes hat diese Klinge etwas vom Gletscher und etwas von Eurer inneren Kraft in sich aufgenommen, eine Furcht erregende Waffe erzeugend. Obwohl aus Eis gemacht, ist die Waffe bei BerÃ¼hrung nur ein bisschen kalt und schmilzt nicht, selbst wenn sie den heiÃŸesten Flammen ausgesetzt ist.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 +4
+ETW0: +4
+Besonderheit: 
+ Feuerwiderstand: +10 %
+ KÃ¤ltewiderstand: +10 %
+ Sturm der Rache einmal am Tag
+ 5 % Wahrscheinlichkeit eines KÃ¤lteschadens 2-12 
+Schadensart: aufschlitzen
+Gewicht: 3
+Geschwindigkeitsfaktor: 1
+Waffenfertigkeit: Langschwert
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 6~
+@20492 = ~Seltsamerweise ist dieser Knochensplitter einem Kris {zweischneidiger Dolch mit gewellter Klinge und verziertem Griff} Ã¤hnlich geformt. Noch einzigartiger ist, dass das Heft des Kris gelegentlich ein schwarzes giftiges Wundsekret absondert.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4 +2
+ETW0: +2
+Besonderheit: 
+Der Spieler, der einen Treffer mit dieser Waffe erzielt, erhÃ¤lt eine Chance von 20 %, dass das Ziel vergiftet wird (Rettungswurf gegen LÃ¤hmung, Vergiftung oder Todesmagie, um der Wirkung zu entgehen)
+Schadensart: durchbohren
+Gewicht: 3
+Geschwindigkeitsfaktor: 2
+Waffenfertigkeit: Dolch
+MindeststÃ¤rke: 3~
+@20494 = ~Erschaffen wÃ¤hrend des Goldenen Zeitalters zwischen den Elfen von Seldarines Obhut und den Zwergen von Dorns Tiefe. Dieser Ring wurde geschaffen, um jungen Zauberern durch einem grÃ¶ÃŸeren Fokus mehr Macht zu geben, um ihre Zauber wirkungsvoller zu wirken. Obwohl die Ã¤lteren Zauberer der Obhut einige der stÃ¤rksten in den Reichen waren, waren sie immer mit verschiedenen Forschungen oder Experimenten befasst, die sie davor bewahrten, sich an weniger kritischen KÃ¤mpfen oder Entdeckungsreisen zu beteiligen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Intelligenzbonus: +1~
+@20496 = ~Diese mÃ¤chtige Waffe besteht aus einem Ã¼ber einen Meter langem Griff, der in eine schwere Klinge Ã¼bergeht. Die Axt kann doppelschneidig sein, mit Klingen an beiden Seiten des Stiels, oder sie kann nur eine einzelne Klinge haben. Es ist eine unhandliche Waffe, aber ein geschickter Krieger kann SchlÃ¤ge von ungeheurer StÃ¤rke damit austeilen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W10
+Schadensart: aufschlitzen
+Gewicht: 10
+Geschwindigkeitsfaktor: 9
+Waffenfertigkeit: Axt
+Waffentyp: beidhÃ¤ndig
+MindeststÃ¤rke: 10~
+@20497 = ~Dies war die Waffe einer verfluchten Seele, dazu verdammt, die LÃ¤nge und Breite von FaerÃ»n wegen ihrer Verbrechen gegen die Elfen von Myth Drannor zu durchwandern. Denell Harband war ein Mensch, der an der Herstellung des "Halbaxt-Weges" beteiligt war. Unter dem Befehl seines Kommandanten, Halvan der Dunkle, bahnte er trotz Protesten und wiederholten Angriffen einen Weg durch WÃ¤lder der Elfen. Als er schlieÃŸlich von den Elfen festgenommen wurde, stellte er nachdrÃ¼cklich fest, dass er frei von jeder Schuld war, weil er nur seinen Befehlen folgte. Der Rat der Elfen befand, dass Denell dafÃ¼r mit einem Hohen Geas {eine Art magischer Verpflichtung, die jemandem auferlegt wird, um ihn daran zu hindern, etwas zu tun} belegt werden mÃ¼sse, und seine Axt von der SchwertkÃ¼ste von FaerÃ»n bis zu seinen Grenzen im Osten, und vom GroÃŸen Gletscher bis nach Lurien zu tragen hat. Es kostete Denell dreiÃŸig Jahre, um seine Aufgabe zu vollenden. Als er fertig war, war er ein vollendeter Krieger, wettergegerbt und ausgelaugt von den Jahren auf auslÃ¤ndischen StraÃŸen. Auf seinem Weg zurÃ¼ck nach Hause ging er durch das Eggental und sah eine HolzbildsÃ¤ule von Halvan dem Dunklen stolz erhoben auf einem kleinen Stadtplatz. Mit einem einhÃ¤ndigen Schlag hieb er seine riesige Axt in Halvans Stirn. Nie seinen Schritt unterbrechend, kehrte er zu seiner HÃ¼tte zurÃ¼ck, wo er den Rest seiner Tage als zurÃ¼ckgezogener Bauer lebte.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W1 +3
+ETW0: +3
+Besonderheit:  
+Konstitution: +1, solange der TrÃ¤ger damit ausgestattet ist 
+Schadensart: aufschlitzen
+Gewicht: 10
+Geschwindigkeitsfaktor: 6
+Waffenfertigkeit: Axt
+Waffentyp: beidhÃ¤ndig
+MindeststÃ¤rke: 10~
+@20501 = ~Die Leier des Fortschritts wurde vom Barden Sedini Paletto geschaffen. 
+Sedini war ein Lehrer junger aufstrebender Barden wÃ¤hrend schwieriger Zeiten. Dieses Instrument, zu jeder Zeit verborgen gehalten, half Sedini, diejenigen zu bekÃ¤mpfen, die ihn oder seine Studenten angreifen wÃ¼rden. Als Sedini alt wurde, gab er sie seinem besten Studenten weiter, Galwen Alaman. Galwen fuhr fÃ¼r einige Jahre fort, zu lehren, bevor er damit begann, das Leben eines Abenteuers in der Wildnis zu fÃ¼hren. Es wird angenommen, dass er die Leier verlor, als er sie zufÃ¤llig in einen Sumpf fallen lieÃŸ.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Unter dem linken Arm gehalten, erlaubt dieses Instrument einem Barden, sich zwei zusÃ¤tzliche Zauber der zweiten Stufe und einen weiteren Zauberer der dritten Stufe einzuprÃ¤gen.
+~
+@20503 = ~Diese RÃ¼stung wurde aus Meteoreisen von zwergischen und elfischen Schmieden wÃ¤hrend der Zeit der Zusammenarbeit gefertigt. Ein Hohepriester aus Moradin und ein Hohepriester aus Labelas Enoreth verzauberten die RÃ¼stung mit ihren MÃ¤chten. Leider trug kein elfischer oder zwergischer Krieger jemals den Kettenpanzer. Als Schwierigkeiten zwischen Seldarines Obhut und Dorns Tiefe auftraten, schlossen die Zwerge die RÃ¼stung in einem GewÃ¶lbe ein und weigerten sich, irgendetwas zu verwenden, bei dem die Elfen bei der Herstellung die HÃ¤nde im Spiel hatten.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+RÃ¼stungsklasse: 2
+Besonderheit:
+ +10 Trefferpunkte
+ TrÃ¤ger regeneriert 1 Trefferpunkt pro Runde
+Gewicht: 40
+MindeststÃ¤rke: 8~
+@20505 = ~Dieser einfache Umhang wurde mit einigen magischen FÃ¤higkeiten versehen, um den Schutz seines TrÃ¤gers zu erhÃ¶hen. Das geschieht, indem der Umhang RettungswÃ¼rfe und RÃ¼stungsklasse entsprechend verÃ¤ndert. Er ist ideal fÃ¼r Magier und andere Zeitgenossen, die keine schweren oder einengenden RÃ¼stungen tragen kÃ¶nnen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht: 1~
+@20506 = ~Diese scheinbar abgetragene Robe war auf Lysans Befehl "unwirksam" geworden, um sie nicht als Priesterin von Auril zu entlarven. Wenn so viel wie eine einzelne Schneeflocke auf die Robe fÃ¤llt, verwandelt sie sich zu einem funkelnden weiÃŸen Umhang, der es dem TrÃ¤ger erlaubt, Ã¼ber Schneeverwehungen zu gleiten und sogar durch tobende FlÃ¼sse mit Leichtigkeit zu gehen. Die meisten GroÃŸhÃ¤ndler werden diesen Artikel nicht kaufen wollen, oder werden es zu einem sehr niedrigen Preis tun, weil sie darin einen heiligen Artikel von Auril der Frost-Jungfrau sehen,der wahrscheinlich ihre AnhÃ¤nger... und ihr Missfallen auf sich zieht.
+
+WÃ¤hrend der Zeremonien des Kommenden Sturms (der Beginn des Winters) fÃ¼r Auril angefertigt, sind diese Roben besonders geschaffen, um Flammen zu widerstehen und dem TrÃ¤ger zu erlauben, jedem Versuch zu widerstehen, anzuhalten oder sie festzuhalten. Obwohl die Priesterinnen von Auril gegen KÃ¤lte von Natur aus widerstandsfÃ¤hig sind und sich durch den Schnee und eisige FlÃ¼sse mit Leichtigkeit bewegen kÃ¶nnen, verstÃ¤rken diese UmhÃ¤nge den Schutz der GÃ¶ttin, indem sie dem TrÃ¤ger zusÃ¤tzlichen KÃ¤ltewiderstand erlauben (der einem gegen KÃ¤lte bereits geschÃ¼tzten TrÃ¤ger erlaubt, seine Macht zu fesseln), und sogar so weit gehen, dass sie die Hitze von auf den TrÃ¤ger gerichteten Feuerangriffen ausfiltern. AuÃŸerdem kann die Robe beschworen werden, dem TrÃ¤ger zu erlauben, Ã¼ber oder durch jedes Hindernis zu gehen, das dafÃ¼r entworfen ist, ihn festzuhalten, ob es nun Netzzauber, LÃ¤hmung durch Ghuls (Leichen fressende DÃ¤monen), "Person festhalten" oder Ã¤hnliches ist.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit: Wirft "Freie Handlung" (3 Ladungen)
+RÃ¼stungsklassebonus: 1
+Widerstandsbonus:
+ Rettungswurf gegen LÃ¤hmung +1 
+ KÃ¤ltewiderstand: +30 %
+ Feuerwiderstand: +30 %
+Gewicht: 1~
+@20510 = ~Es wird angenommen, dass Feen Wesen halfen, dieses schÃ¶ne Schwert zu schaffen, und Legenden sagen, dass es in den kÃ¼hlen Tiefen von Myrloch, dem groÃŸen See im Zentrum von Gwynneth auf den Mondschein-Inseln, geschmiedet wurde. Die Waffe hat ein Ã¼berirdisches Aussehen, und wie man glaubt, ist es ziemlich alt. Die einzige Person, von der man weiÃŸ, dass sie die Waffe getragen hat, war ein halbelfischer Barde namens Daen Winterbesen. Es wird von einigen gesagt, dass er mit auÃŸergewÃ¶hnlicher SchÃ¶pferkraft und starker Empfindlichkeit gegenÃ¼ber der Welt um sich gesegnet war, nachdem er das Schwert ganz zufÃ¤llig fand. Er reiste vierzig Jahre lang und ist fÃ¼r einige der einzigartigsten, unvergesslich Melodien in FaerÃ»n bekannt. Man geglaubt, dass Daen schlieÃŸlich beim Anblick des Elends und der Beklemmung, auf die er bei seinem Reisen stieÃŸ, zu melancholisch wurde und dass die Feenschmiede der Mondschein-Inseln ihn an den Busen des Myrloch aufnahmen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 +3
+THACO: +3
+Besonderheit:  
+ +20 Kenntnis der Ãœberlieferungen, solange der TrÃ¤ger damit ausgestattet ist. 
+Schadensart: aufschlitzen
+Gewicht: 4
+Geschwindigkeitsfaktor: 4
+Waffenfertigkeit: Langschwerter
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 6~
+@20512 = ~Die Vorderseite dieses riesigen Stahlschildes ist mit schwarzen emaillierten Mustern und einem einzelnen SchÃ¤del in der Mitte geschmÃ¼ckt. Auf die Innenseite des Schildes sind verschlÃ¼sselte alten Schriften geÃ¤tzt. Die einzigen leserlichen WÃ¶rter sind oben, und Ihr lest "UND WAS IST MIT DEN TOTEN?" Die Geschichte des Gegenstandes ist vor der Wahrsagung vÃ¶llig verborgen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+RÃ¼stungsklassebonus: 4
+Besonderheit:
+ +1 gegen Fernkampfwaffen
+ TrÃ¤ger ist immun gegen "Finger des Todes" und dem "Wort der Macht: Tod"
+Gewicht: 20
+MindeststÃ¤rke: 15~
+@20514 = ~Diese Robe wurde aus starkem Stoff hergestellt und dunkelblau gefÃ¤rbt, der Lieblingsfarbe seines stolzen EigentÃ¼mers, dem Erzmagier Ogi-Luc. Ein Sembian von Geburt, war Ogi-Luc ein starker Mann, ebenso stark im KÃ¶rper wie im Geiste. Jedoch war Ogi-Luc nicht damit zufrieden, bloÃŸ stark zu sein. Er wollte auÃŸergewÃ¶hnlich stark sein. Wenn er diese Roben anzog, standen stolze MÃ¤nner beiseite und Aufschneider hÃ¼teten ihre Zungen. Trotz all seinem Stolz und seiner Tapferkeit, war Ogi-Luc auÃŸer Stande, Nesk Vhaltim abzuwehren, der den Roten Zauberern abgeschworen hat. Nesk nahm die Robe als Preis. Sie wurde spÃ¤ter gestohlen und von einem mutigen Schurken verkauft.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+RÃ¼stungsklasse: 4
+Besonderheit:  
+  Bewilligt 18/99 StÃ¤rke
+  BetrÃ¼gerei: +2
+Gewicht: 5~
+@20518 = ~Pellon Kay wÃ¼rde niemals wegen seinen musikalischen Talenten in den GeschichtsbÃ¼chern erscheinen. Wenn es nicht wegen seiner berÃ¼hmten Laute wÃ¤re, hÃ¤tte sich Ã¼berhaupt niemand an ihn erinnert. Geboren in Sembia und aufgewachsen in einer Musikerfamilie, nahm Pellon Kay nie seine AuffÃ¼hrungen ernst. Kay machte sich Ã¼berall wo er war Dutzende von Feinden wegen seines sÃ¤uerlichen Witzes und seiner Lust auf Konfrontation. Weise glauben, dass Milil die MÃ¤tzchen von Pellon missbilligte, aber dass Talos die Meinung von Pellon ziemlich amÃ¼sant fand. Die Offenbarung von Talos sah, dass Pellon eines Nachts einen Kampf mit mehr als zwanzig MÃ¤nnern in einer Bar anfing. Als Geschenk fÃ¼r solch zerstÃ¶rerische Unterhaltung berÃ¼hrte Talos die Laute, die neben Pellons bewusstlosen KÃ¶rper lag. Nach dieser Nacht entdeckte Pellon, dass er MÃ¤nner alleine dadurch wÃ¼tend machen konnte, indem er mit seiner Laute in ihre Richtung spielte. Er hatte groÃŸe Freude daran, mehrere Wochen lang SÃ¶ldner und Seeleute gegen einander aufzuhetzen. SchlieÃŸlich wurde Pellon Kay von einem grimmig aussehenden Krieger mit einer Armbrust niedergestreckt, der Pellon nicht nahe genug kommen lieÃŸ, um seine magische Laute zu verwenden. Der unbekannte Krieger warf die Laute ins Meer der Gefallenen Sterne.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Wenn sie gespielt wird, wirft diese Laute Schreckenszauber.~
+@20520 = ~Sehr wenige dieser TrÃ¤nke wurden jemals hergestellt, und ihre Herstellungsverfahren sind verloren gegangen. Geschaffen wÃ¤hrend der Zeiten von Netheril fÃ¼r die die hÃ¶heren RÃ¤nge der Kirchen, wÃ¼rden diese TrÃ¤nke die innere Kraft fÃ¼r eine Zunahme der priesterlichen FÃ¤higkeiten rauben.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Konstitution: -2
+Verstand: +1
+Dauer: Permanent~
+@20522 = ~Die einzigen materiellen Teile dieser eisigen Waffe sind der Griff und der Knauf, gefertigt aus poliertem Silber und Stahl. Sie wurde im Jahr 1099 DR von der AuserwÃ¤hlten von Auril, Ihanora der Barmherzigen, geschaffen. Ihanora durchstreifte den Norden, unbarmherzige Angriffe gegen all diejenigen fÃ¼hrend, die versuchten, Trost vor der KÃ¤lte zu finden oder ihre Auswirkungen zu bekÃ¤mpfen. Sie reiste mit einer bunten Mannschaft von Yetis, PolarwÃ¼rmern, Frostriesen, und einem weiÃŸen Drachen, alles in ihrem Kielwasser einfrierend. Ihanora wurde in 1108 DR von der berÃ¼chtigten Truppe der Roten Maske besiegt, angefÃ¼hrt von dem unbarmherzigen, als Bitterer Harley bekannten MÃ¶rder.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W4 +2
+ETW0: +2
+Besonderheit: 
+ Chance von 2 %, das Ziel zum festen Eis zu verwandeln
+Schadensart: KÃ¤lte
+Gewicht: 10
+Geschwindigkeitsfaktor: 6
+Waffenfertigkeit: Bastardschwert
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 11~
+@20524 = ~Edion, ein sterbender Nekromant aus Sembia, war der frische EigentÃ¼mer dieses starken Rings. Er fertigte den Ring selbst fÃ¼r seinen privaten Gebrauch. In seinen spÃ¤teren Jahren war er so an das Tragen gewÃ¶hnt, dass er ihn fast nie entfernte. Er trug ihn an demselben Finger, an dem er einen Ehering tragen wÃ¼rde, um seine Ehe mit der Kunst zu symbolisieren.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Verdoppelt die verfÃ¼gbare Anzahl an Magiezaubern der 5. Stufe.~
+@20526 = ~Diese dunkelbraune Kutte ist dafÃ¼r gedacht, um sie Ã¼ber dem Kopf und Ã¼ber den Schultern als eine breite Kapuze zu tragen. Sie wurde von dem gnomischen Dieb und ZauberkÃ¼nstler Brein Kastanie gefertigt. Brein verwendete die Kutte mehrere Jahren lang bei seinen eigenen Abenteuern, bevor ihn sein Liebling aus der Kindheit Ã¼berzeugte, sich niederzulassen. Er gab die Kutte seinem Neffen, Chirchet, der wiederum den Gegenstand fÃ¼r ein groÃŸes Gebiet Ackerboden verkaufte.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+RÃ¼stungsklassebonus: +2
+Besonderheit:  
+ +10 % zur Heimlichkeit
+ TrÃ¤ger kann einmal am Tag Blindheit und "SprÃ¼hende Farben" wirken
+Gewicht: 2~
+@20528 = ~Als eine von vielen schÃ¶nen verzauberten SchÃ¤rpen, hergestellt in den sÃ¼dlichen Gegenden von Zakhara, wurde dieser luxuriÃ¶se Seidenartikel geschaffen, um seinen TrÃ¤gern beim Ausweichen von Angriffen zu helfen. Die Bruderschaft der Wahren Sonne, eine Gesellschaft von heiligen MÃ¶rdern, gewÃ¤hrte diese SchÃ¤rpen ihren frÃ¶mmsten Dienern. Diese besondere SchÃ¤rpe war kÃ¼rzlich im Besitz des heiligen MÃ¶rders Khamu Bedi. Eine Zeichenfolge von feinen schwarzen Buchstaben auf der roten Seide heiÃŸt: "Sei schnell, stark und tÃ¶dlich. Aber vor allem anderen, sei moralisch."
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+TrÃ¤ger steht unter der Auswirkungen der UnschÃ¤rfe
+Gewicht: 2~
+@20532 = ~Eine schwache blaue Aura ausstrahlend, ist diese riesige Waffe ein zweihÃ¤ndiges, aus Knochen gefertigtes Schwert mit SÃ¤gezahnklinge. Es wird gelegentlich mit einer schockierenden Kraft der KÃ¤lte schlagen, die den Spieler bis auf die Knochen erstarren lÃ¤sst.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W10 +3
+ETW0: +3
+Besonderheit: 
+ Wahrscheinlichkeit von 20% +1W10 KÃ¤lteschaden
+Schadensart: aufschlitzen
+Gewicht: 25
+Geschwindigkeitsfaktor: 10
+Waffenfertigkeit: ZweihÃ¤nder
+Waffentyp: beidhÃ¤ndig
+MindeststÃ¤rke: 14~
+@20535 = ~Owains Wiegenlied wurde von einem gestÃ¶rten Barden, genannt Owain der Pfeifer, geschaffen. Pfeifer war ein Anbeter von Auril, geboren in der Stadt Silbermond und erzogen, sich die kalte Umgebung seines Heimatlandes zu Eigen zu machen. Er reiste umfassend in der Mondsee, wo er einen Magier traf, der Pelham aus dem Moor genannt wurde. Owain und Pelham wurden gute Freunde und blieben fÃ¼r Ã¼ber ein Jahrzehnt in Kontakt. Pelham verzauberte schlieÃŸlich Owains Wiegenlied fÃ¼r den Barden im Tausch gegen einen kleinen Geldbetrag. Owain verwendete selten das Instrument im Kampf, Ã¼blicherweise setzte er es ein, wenn er verspÃ¤tet wandernde GÃ¤nse fand, die auf einem See faulenzten. Er wÃ¼rde die FlÃ¶te auf solche Art und Weise spielen, dass die GÃ¤nse es als den Ton ihrer Vetter hÃ¶rten, die fÃ¼r den Winter in SÃ¼den ziehen. Wenn die GÃ¤nse versuchen wÃ¼rden, wegzufliegen, wÃ¼rde Owains FlÃ¶te sie auf halber Strecke erfrieren lassen, wo er sie zum sterben zurÃ¼cklassen wÃ¼rde.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Wenn sie gespielt wird, wirft dieses Instrument einen KÃ¤ltekegel fÃ¼r 10d4 +10 Schadenspunkte.
+~
+@20537 = ~Der Zauberer Spendelard war wegen seiner den Nutzen Ã¤uÃŸerst maximierenden Zauber berÃ¼hmt. WÃ¤hrend er wÃ¤hrend seines Lebens nicht viel bedroht wurde, brachten ihn seine seltene aber weit reichende Reisen hÃ¤ufig in gefÃ¤hrliche Situationen. Ein von ihm geschaffener Stab schÃ¼tzte ihn bei jenen Gelegenheiten. Er erwarb schlieÃŸlich einen Stab, der mehr nach seinem Geschmack war und verkaufte seinen abgenutzten BeschÃ¼tzer an einen reisenden Druiden aus Chauntea.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 +1
+ETW0: +1
+RÃ¼stungsklassebonus: 1
+Widerstandsbonus +1 Rettungswurf gegen Zauber
+Schadensart: zertrÃ¼mmern
+Gewicht: 3
+Geschwindigkeitsfaktor: 3
+Waffenfertigkeit: Kampfstab
+Waffentyp: beidhÃ¤ndig
+MindeststÃ¤rke: 5~
+@20539 = ~Dieses Paar Ã¤uÃŸerst krÃ¤ftiger Stiefel gehÃ¶rte dem thentianischen Forscher Bordel "Stampfer" Weitweg. Bordel war Ã¼berall im Mondsee wegen seiner WanderwettkÃ¤mpfe berÃ¼hmt. Bordel und eine Gruppe von Mitforschern gaben eine Position in FaerÃ»n an, um dorthin zu marschieren. Die Wettbewerber wanderten dann auf dem schnellsten mÃ¶glichen Weg zu der Position hin. Bordel gewann viel mehr der Wettbewerbe, als er verlor, und er hatte den Ruf, Ã¤uÃŸerst schwere Schritte zu haben. Das brachte ihm der Spitzname "Stampfer" ein. Als Bordel in einem Steinschlag starb, wurde er in der Wildnis begraben. Mehrere Jahre nach seinem Tod kamen GerÃ¼chte in Umlauf, Bordels Stiefel wÃ¤ren sogar verzaubert, um ihn laut klingen zu lassen, wenn er sich nÃ¤herte. Dieses GerÃ¼cht kam auÃŸer Kontrolle und ging schlieÃŸlich soweit zu sagen, dass Bordels Stiefel dazu fÃ¤hig waren, HÃ¤user durch ihr Gewicht zu erschÃ¼ttern. Als Diebe die Stiefel zehn Jahre nach Bordels Tod stahlen, hatten sie die Eigenschaften angenommen, von dem so viele Menschen glaubten, dass sie diese besÃ¤ÃŸen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Erlaubt dem TrÃ¤ger, einmal am Tag Erdbeben zu wirken.
+Gewicht: 4~
+@20541 = ~Wie andere seiner Art besteht dieser Kriegshammer vollstÃ¤ndig aus Stahl mit einem Knochen brechenden Kopf auf einem 45 cm langen Schaft. Er wurde jedoch auch mit einigen magischen Eigenschaften versehen, so dass er im Kampf wirkungsvoller ist.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4 +4
+ETW0: +3
+Besonderheit:
+ EinprÃ¤gen von 2 zusÃ¤tzlichen PriestersprÃ¼chen der 1. Erfahrungsstufe
+ EinprÃ¤gen von 1 zusÃ¤tzlichen PriestersprÃ¼chen der 2. Erfahrungsstufe
+ EinprÃ¤gen von 1 zusÃ¤tzlichen Priesterspruch der 3. Erfahrungsstufe
+Schadensart: zertrÃ¼mmern
+Gewicht: 6
+Geschwindigkeitsfaktor: 3
+Waffenfertigkeit: HÃ¤mmer
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 9~
+@20543 = ~Wie andere seiner Art besteht dieser Kriegshammer vollstÃ¤ndig aus Stahl mit einem Knochen brechenden Kopf auf einem 45 cm langen Schaft. Er wurde jedoch auch mit einigen magischen Eigenschaften versehen, so dass er im Kampf wirkungsvoller ist.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4 +5
+ETW0: +5
+RÃ¼stungsklassebonus: 2
+Widerstand-Bonus:
+ Widerstand gegen Durchbohren +15 % 
+ Widerstand gegen Aufschlitzen +15 % 
+ Widerstand gegen ZertrÃ¼mmern
+ +15 % 
+ Magiewiderstand von +15 %
+ Rettungswurf gegen Zauber +3 
+ Chance von 20 %, 1W4 Schadenspunkte bei dem TrÃ¤ger nach einem
+ erfolgreichen Treffer zu heilen
+Schadensart: zertrÃ¼mmern
+Gewicht: 6
+Geschwindigkeitsfaktor: 3
+Waffenfertigkeit: HÃ¤mmer
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 9~
+@20545 = ~Neben seiner vorzÃ¼glichen Handwerkskunst sind entlang der ganzen OberflÃ¤che winzige Runen der Macht zu erkennen. Es wurde offensichtlich eine Menge Zeit und Anstrengung fÃ¼r seine Herstellung aufgebracht. Auch wenn es zuerst nicht auffÃ¤llt, kann man erkennen, dass ein schwaches blaues Glimmen von den Runen ausgeht.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 +2
+ETW0: +2
+Besonderheit: 
+ Wahrscheinlichkeit von 25 %, dass das Ziel vergiftet wird
+Schadensart: aufschlitzen
+Gewicht: 7
+Geschwindigkeitsfaktor: 7
+Waffenfertigkeit: Axt
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 10~
+@20547 = ~Neben seiner vorzÃ¼glichen Handwerkskunst sind entlang der ganzen OberflÃ¤che winzige Runen der Macht zu erkennen. Es wurde offensichtlich eine Menge Zeit und Anstrengung fÃ¼r seine Herstellung aufgebracht. Auch wenn es zuerst nicht auffÃ¤llt, kann man erkennen, dass ein schwaches blaue Glimmen von den Runen ausgeht.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 +4
+ETW0: +4
+RÃ¼stungsklassebonus: 1
+Besonderheit:
+ +1W6 zusÃ¤tzlicher Schaden durch zertrÃ¼mmern
+ Wahrscheinlichkeit von 10 %, dass das Ziel betÃ¤ubt wird
+Schadensart: aufschlitzen
+Gewicht: 7
+Geschwindigkeitsfaktor: 7
+Waffenfertigkeit: Axt
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 10~
+@20549 = ~Diese mÃ¤chtige Waffe besteht aus einem 1,2 m - 1,5 m langem Stiel mit einer sehr schweren Klinge. Die Axt kann doppelschneidig sein, mit Klingen an beiden Seiten des Stiels, oder sie kann nur eine einzelne Klinge haben. Es ist eine unhandliche Waffe, aber ein geschickter Krieger kann SchlÃ¤ge von ungeheurer StÃ¤rke damit austeilen. Zwergen-Runen sind in die riesige Klinge geÃ¤tzt worden, um die Axt weiter zu verstÃ¤rken.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W10 +3
+ETW0: +3 Bonus
+Widerstandsbonus:
+ Magiewiderstand von +10 %
+ Widerstand gegen Aufschlitzen +10 %
+
+ Widerstand gegen Durchbohren +10 % 
+ Widerstand gegen ZertrÃ¼mmern +10 % 
+ Widerstand gegen Fernkampfwaffen +10 % 
+ alle RettungswÃ¼rfe werden um +2 erhÃ¶ht
+Schadensart: aufschlitzen
+Gewicht: 10
+Geschwindigkeitsfaktor: 9
+Waffenfertigkeit: Axt
+Waffentyp: beidhÃ¤ndig
+MindeststÃ¤rke: 10~
+@20551 = ~Neben seiner vorzÃ¼glichen Handwerkskunst sind entlang der ganzen OberflÃ¤che winzige Runen der Macht zu erkennen. Es wurde offensichtlich eine Menge Zeit und Anstrengung fÃ¼r seine Herstellung aufgebracht. Auch wenn es zuerst nicht auffÃ¤llt, kann man erkennen, dass ein schwaches blaue Glimmen von den Runen ausgeht.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W4 +3
+ETW0: +3
+RÃ¼stungsklassebonus: 2
+Widerstand-Bonus:
+ Widerstand gegen Aufschlitzen +10 %
+ Widerstand gegen Durchbohren +10 % 
+ Widerstand gegen ZertrÃ¼mmern +10 % 
+ Widerstand gegen Fernkampfwaffen +10 % 
+ alle RettungswÃ¼rfe werden um +1 erhÃ¶ht
+Schadensart: aufschlitzen
+Gewicht: 10
+Geschwindigkeitsfaktor: 8
+Waffenfertigkeit: Bastardschwert
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 11~
+@20553 = ~Diese legendÃ¤re Klinge wurde fÃ¼r eine kurze Zeit vom Krieger Ilban von Elturel benutzt. Die Waffe bekam ihren Namen von seinen Heldentaten in Calimshan. Vor Ilban war Tapferer jedoch im Besitz eines heiligen MÃ¶rders aus dem entferntem Zakhara. GemÃ¤ÃŸ den Weisen wurde das leichte Schwert gefertigt, um einem Kommando von MÃ¶rdern zu dienen. Die EigentÃ¼mer von Tapferer Ã¼berlebten durch viele unglaubliche Gottesurteile grÃ¶ÃŸtenteils durch die Magie der Waffe. Die Waffe ging in Calimshan verloren, als ein heiliger MÃ¶rder gotteslÃ¤sterliche Agenten eines Paschas nach Calimport verfolgte. Der KrummsÃ¤bel blieb ungefÃ¤hr ein Dutzend Jahre lang in den HÃ¤nden von Baris Cabal, bevor das Band von Ilban und seinen Begleitern aufgelÃ¶st wurde. Ilbans Heldentaten nahmen Tapfer in den Kampf gegen SandmÃ¤nner, riesige Skorpione, WÃ¼stenrÃ¤uber, bÃ¶se Zauberer und die dÃ¤monischen Diener von Celan Harad.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 +2
+ETW0: +2
+Besonderheit:
+ Extraangriff pro Runde
+Schadensart: aufschlitzen
+Gewicht: 4
+Waffenfertigkeit: Scimitar/Wakizashi/Ninja-To
+Geschwindigkeitsfaktor: 0
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 8~
+@20556 = ~Dieser dÃ¼nne Umhang scheint auf den ersten Blick durchgescheuert zu sein, aber bei nÃ¤herer Betrachtung erweisen sich die wirren FÃ¤den tatsÃ¤chlich als menschliche Haare, aus denen der Umhang gewebt ist. Der Umhang verflechtet sich im Fackelschein, jede HaarstrÃ¤hne fast unmerklich so Ã¼ber die anderen verwirrend und entwirrend, dass es scheint, als ob eine leichte Brise den Umhang krÃ¤uselt.
+
+Dieser Umhang ist aus dem Haar der Jungfrauen gewebt, die zur BegrÃ¤bnis-Insel gesandt wurden, um bei ihren toten barbarischen Herren zu schlafen. Es war die Aufgabe der Hellseherin, diese Frauen zu trÃ¶sten, ihren Schmerz zu besÃ¤nftigen - um das zu tun, nahm sie von jeder eine Locke und webte die StrÃ¤hnen in einen Umhang, der die Geister der Angst von den Jungfrauen wegziehen und ihre Herzen festigen wÃ¼rde. Das Ergebnis war ein Umhang, der schwer mit Schuld beladen ist und wenig tut, um den TrÃ¤ger vor der KÃ¤lte des Nordens zu beschirmen.  
+
+Wenn er getragen wird, weben sich die Haare um den KÃ¶rper des TrÃ¤gers, die langen HaarstrÃ¤hnen wie FÃ¤den auf einem Webstuhl verflechtend. Der Umhang wird sich von einem TrÃ¤ger nicht bereitwillig entwirren, ohne durch einem Entfernen Zauber gezwungen zu werden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+RÃ¼stungsklassebonus: 4 gegen ZertrÃ¼mmern, Durchbohren und Fernwaffen
+RÃ¼stungsklassebonus: 2 gegen Aufschlitzen
+Besonderheit: 
+TrÃ¤ger ist immun gegen alle auf Angst gegrÃ¼ndeten Wirkungen und dem GefÃ¼hl der Hoffnungslosigkeit geschÃ¼tzt.
+TrÃ¤ger kann Umhang der Angst einmal am Tag auffordern
+Gewicht: 1~
+@20558 = ~Etliche dieser Schilde sind in Waukeens Tempeln Ã¼berall in FaerÃ»n zu finden. Die Kirchen stellten diese Schilde her, um sie unternehmungslustigen Abenteurern zu verkaufen. Als Entgelt fÃ¼r die MÃ¤chte des Gergenstands wird vom TrÃ¤ger verlangt, die Vorderseite des Schildes unbedeckt und in seinem ursprÃ¼nglichen Zustand zu halten. Wenn der EigentÃ¼mer das nicht befolgt, versagen die MÃ¤chte des Schildes. Auf diese Weise gehen Dutzende von Abenteurern den Reichen spazieren, die das goldene Gesicht von Waukeen an ihrem Arm tragen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+RÃ¼stungsklassebonus: 3
+Rettungswurf-Bonus: 2
+Magiewiderstand: 10 %
+Gewicht: 4
+MindeststÃ¤rke: 4~
+@20560 = ~Der ursprÃ¼ngliche Name dieser sonderbaren Klinge ging in den dunklen Tiefen des Meeres der Schwerter verloren. Gefertigt aus magisch gestÃ¤rkten Sahuagin Knochen, glaubt man, dass die Waffe von Kuo-Toas bei bizarren Ritualen verwendet wurde. Der Griff ist aus mit Sahuagin-Haut umwickelter Koralle gefertigt. Einmal besaÃŸ sie Lockhart, ein prominenter wagemutiger Dieb und Schmuggler an der SchwertkÃ¼ste. Er war es, der der Klinge seinen gegenwÃ¤rtigen Namen gab.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4 +2
+ETW0: +2
+Besonderheit:
+ Chance von 2 %, den Fingers des Todes auf das Ziel zu wirken. Wenn Rettungswurf gegen Zauber gelingt, erhÃ¤lt das Ziel 2W8 +1 Magieschaden
+Schadensart: Durchbohren
+Gewicht: 1
+Geschwindigkeitsfaktor: 1
+Waffenfertigkeit: Dolch
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 4~
+@20562 = ~Diese Axt wurde fÃ¼r einen starken jungen barbarischen Krieger namens Hegelfden gefertigt. Er wurde im Stamm der Elche geboren und die Schamanen sagten voraus, dass er ein starker Krieger werden wÃ¼rde. Hegelfden wuchs auf im Glauben, dass er besonders, wichtig, und irgendwie besser als diejenigen um ihn herum war. Im Alter von siebzehn war Hegelfden ein vollendeter Krieger. Riesig, schnell und gerissen, war er mehr als seinen AngehÃ¶rigen ebenbÃ¼rtig. Auf einer Reise zu dem RÃ¼cken der Welt nahm Hegelfden zwei Zwerge gefangen, auf die er in einer HÃ¶hle stieÃŸ. Er weigerte sich, die zwei Arbeiter gehen zu lassen, bis sie eine groÃŸartige Axt fÃ¼r ihn schufen. Die zwei Zwerge stimmten widerwillig zu, eine dicke Streitaxt mit einer scharfen Klinge und einem dicken Griff zu schaffen. Als die Zwerge baten, freigelassen zu werden, verneinte Hegelfden ihre Bitte. Er wollte sie als Diener behalten. Die Zwerge legten dann einen Fluch auf Hegelfden. Sie sagten ihm, dass die Frucht seines Missbrauchs sein Ende sein wÃ¼rde. Hegelfden lachte Ã¼ber die Behauptung der Zwerge und fÃ¼hrte sein Leben weiter. Am nÃ¤chsten Tag, in einem Kampf mit einem rivalisierenden Stamm, wurde Hegelfden rasend vor Blutlust, jedes Wesen ermordend, auf das er stieÃŸ. Seine Verwandtschaft, Ã¼berzeugt, dass er verrÃ¼ckt geworden war, fÃ¤llten ihn um, wo er stand. Die Axt wurde auf dem Feld zurÃ¼ckgelassen, als die Krieger Hegelfdens KÃ¶rper ins Lager zurÃ¼ckbrachten. Als sie ankamen, waren die Zwerge nirgends zu finden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 +5
+THACO: +5
+Besonderheit:  
+ Chance von 5 % pro Treffer, dass der TrÃ¤ger fÃ¼r 10 Runden rasend wird
+Schadensart: aufschlitzen
+Gewicht: 6
+Geschwindigkeitsfaktor: 3
+Waffenfertigkeit: Axt
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 10~
+@20563 = ~Dies ist ein schwarzem Leder Ã¤hnlicher Stab, sehr stark, in den widerwÃ¤rtige Szenen und abscheuliche Runen geschnitzt sind. Es erlaubt dem TrÃ¤ger, Angst zu verursachen, wen auch immer er berÃ¼hrt - kein Rettungswurf, fÃ¼gt 4-24 Schadenspunkte zu, der nur durch die klerikale Magie, ArzneitrÃ¤nke, oder einem vollen Tag Ruhe geheilt werden kann. Er kann auch verwendet werden, um einen DÃ¤mon Typ I (Tanar'ri) hervorzurufen und/oder den Halter in einen DÃ¤mon der Gattung III (MÃ¶rdermÃ¤ÃŸige) fÃ¼r eine Runde zu verwandeln. Jede dieser Funktionen wirkt aber nur einmal am Tag.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+KampffÃ¤higkeiten:
+ 4W6 Schadenspunkte und Angst (kein Rettungswurf)
+ Kann einen Tanar'ri einmal pro Tag auffordern
+ Kann den TrÃ¤ger einmal am Tag in einen MÃ¶rder verwandeln
+
+Gewicht: 3
+Geschwindigkeitsfaktor: 1
+Waffenfertigkeit: Kampfstab
+Waffentyp: zweihÃ¤ndig
+MindeststÃ¤rke: 5~
+@20567 = ~FernglÃ¤ser werden normalerweise von Kundschaftern oder Wachtposten in SÃ¶ldnergruppen oder nationalen Armeen getragen. Die Vorteile des Sichtens und der Beobachtung der Feinde von jemandem, ohne den Gebrauch von Magie, die den feindlichen Magier zu alarmiert, Ã¼berwiegen weit die Nachteile, die ein einsamer SpÃ¤her gegenÃ¼ber grÃ¶ÃŸeren Gruppen hat.
+
+Dieses Paar von FernglÃ¤sern wurde Euch vom Major der Soubar-Wachen gegeben. Sie werden ein kleines Gebiet auf einer Karte weit weg aufdecken, durch den Zauber Fernsicht ohne den Gebrauch von Magie. Der Major schlug vor, dass Ihr sie verwendet, um die Banditen bei den Farmen im Norden von Soubar auszuspÃ¤hen, so dass es klug wÃ¤re, daran festzuhalten, bis Eure Mission dort vollendet ist.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+FÃ¤higkeit: Fernsicht, 3 mal pro Tag~
+
+@20597 = ~GewÃ¶hnlich in kleinen GlasflÃ¤schchen zu finden, ist Geisterverderben ein seltenes magisches Puder, hoch geschÃ¤tzt von Abenteurern und Nekromantikern. Wenn es mit Wasser gemischt und eingenommen wird, schÃ¼tzt es den Trinker 24 Stunden lang davor, durch einen Geist gealtert zu werden (Schutz vor Negativer Ebene). Es ist begehrt von denjenigen, die sich darauf spezialisieren, Untote zu bekÃ¤mpfen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+SchÃ¼tzt den Trinker fÃ¼r 24 Stunden vor der Abnahme der Erfahrungsstufe.
+~
+
+@20600 = ~Ã¼ber HÃ¶llenklingen:
+
+Es wurde vor vielen Jahren gemunkelt, dass wÃ¤hrend der groÃŸen Kriege, als sich die Elfen vereinigten, um die Dunkelelfen zu bekÃ¤mpfen und sie zu veranlassen, in den ausgedehnten Untergrund zu fliehen, Gulgaraith, ein sehr erfahrener Dunkelelf KÃ¤mpfer/Magier, zahlreiche Schwerter der GroÃŸen Macht schmiedete, um in jenen Kriegen zu helfen. So kam die HÃ¶llenklinge auf die OberflÃ¤che der sterblichen Welt der Menschen. Niemand weiÃŸ, wie viele Klingen wirklich geschmiedet und verzaubert wurden, und wie viele noch nach so vielen Jahrhunderten bestehen. Alles, was man weiÃŸ, ist, dass die HÃ¶llenklingen Waffen von ganz bÃ¶ser Macht sind.
+
+Allgemeine Auswirkungen: Jede HÃ¶llenklinge wirkt wie ein abgewandeltes Schwert der SchÃ¤rfe, sie alle sind +3 Waffen und kÃ¶nnen ein wahlloses KÃ¶rperglied beim WÃ¼rfeln einer natÃ¼rlichen 20 abtrennen. Diese Waffen sind so stark und bÃ¶se verzaubert, dass sie sich, wenn sie zerbrochen sind, einfach umformen werden, und wenn sie jemals von ihrem EigentÃ¼mer weggerissen werden, werden sie einfach in die NÃ¤he Ihres Besitzers gleiten, wobei die Entfernung keine Rolle spielt, obwohl es einige Zeit dauern kann, zu seinem EigentÃ¼mer zu kommen, wenn die Entfernung sehr groÃŸ ist. Ihre bekannteste Macht ist jedoch die FÃ¤higkeit, bei einer natÃ¼rlichen 20 augenblicklich ein Ziel zu tÃ¶ten. Diejenigen, die durch eine HÃ¶llenklinge getÃ¶tet wurden, sind tot, und kÃ¶nnen nicht auferweckt oder wieder belebt werden. Jede HÃ¶llenklinge hat auch ein Selbstbewusstsein, Intelligenz, und eine abwehrende Kraft, um seinem EigentÃ¼mer zu helfen. HÃ¶llenklingen kÃ¶nnen jedoch nicht reden, verwendet GedankenÃ¼bertragung und Ã¤hnliches.
+-----------------------------------
+
+HÃ¶llenklinge: Lebensfresser
+
+Ein KrummsÃ¤bel, der mit einem reinen rubinroten Strahlen glÃ¼ht und seinen Besitzer dreimal pro Tag auf 12. Zauberstufe vorantreiben kann. Er hat eine Intelligenz von 17 und ein Selbstbewusstsein von 10.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 +3
+Schadensart: aufschlitzen
+Gewicht: 5
+Geschwindigkeitsfaktor: 5
+Waffenfertigkeit: Scimitar/Wakizashi/Ninja-To
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 10~
+@20601 = ~Ã¼ber HÃ¶llenklingen:
+
+Es wurde vor vielen Jahren gemunkelt, dass wÃ¤hrend der groÃŸen Kriege, als sich die Elfen vereinigten, um die Dunkelelfen zu bekÃ¤mpfen und sie zu veranlassen, in den ausgedehnten Untergrund zu fliehen, Gulgaraith, ein sehr erfahrener Dunkelelf KÃ¤mpfer/Magier, zahlreiche Schwerter der GroÃŸen Macht schmiedete, um in jenen Kriegen zu helfen. So kam die HÃ¶llenklinge auf die OberflÃ¤che der sterblichen Welt der Menschen. Niemand weiÃŸ, wie viele Klingen wirklich geschmiedet und verzaubert wurden, und wie viele noch nach so vielen Jahrhunderten bestehen. Alles, was man weiÃŸ, ist, dass die HÃ¶llenklingen Waffen von ganz bÃ¶ser Macht sind.
+
+Allgemeine Auswirkungen: Jede HÃ¶llenklinge wirkt wie ein abgewandeltes Schwert der SchÃ¤rfe, sie alle sind +3 Waffen und kÃ¶nnen ein wahlloses KÃ¶rperglied beim WÃ¼rfeln einer natÃ¼rlichen 20 abtrennen. Diese Waffen sind so stark und bÃ¶se verzaubert, dass sie sich, wenn sie zerbrochen sind, einfach umformen werden, und wenn sie jemals von ihrem EigentÃ¼mer weggerissen werden, werden sie einfach in die NÃ¤he Ihres Besitzers gleiten, wobei die Entfernung keine Rolle spielt, obwohl es einige Zeit dauern kann, zu seinem EigentÃ¼mer zu kommen, wenn die Entfernung sehr groÃŸ ist. Ihre bekannteste Macht ist jedoch die FÃ¤higkeit, bei einer natÃ¼rlichen 20 augenblicklich ein Ziel zu tÃ¶ten. Diejenigen, die durch eine HÃ¶llenklinge getÃ¶tet wurden, sind tot, und kÃ¶nnen nicht auferweckt oder wieder belebt werden. Jede HÃ¶llenklinge hat auch ein Selbstbewusstsein, Intelligenz, und eine abwehrende Kraft, um seinem EigentÃ¼mer zu helfen. HÃ¶llenklingen kÃ¶nnen jedoch nicht reden, verwendet GedankenÃ¼bertragung und Ã¤hnliches.
+-----------------------------------
+
+HÃ¶llenklinge: Seelenableiter
+
+Ein Langschwert, das mit einem krÃ¤nklichen purpurfarbigen/gelblichen Strahlen glÃ¼ht. Dieses Schwert hat die FÃ¤higkeit, seinem Besitzer dreimal pro Tag in HÃ¶he der 12. FÃ¤higkeitsstufe "Schutz vor Lebenskraftentzug" zu bieten. Es hat eine Intelligenz von 17 und ein Selbstbewusstsein von 12.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 +3
+Schadensart: aufschlitzen
+Gewicht: 5
+Geschwindigkeitsfaktor: 5
+Waffenfertigkeit: Langschwert
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 6~
+@20602 = ~Ã¼ber HÃ¶llenklingen:
+
+Es wurde vor vielen Jahren gemunkelt, dass wÃ¤hrend der groÃŸen Kriege, als sich die Elfen vereinigten, um die Dunkelelfen zu bekÃ¤mpfen und sie zu veranlassen, in den ausgedehnten Untergrund zu fliehen, Gulgaraith, ein sehr erfahrener Dunkelelf KÃ¤mpfer/Magier, zahlreiche Schwerter der GroÃŸen Macht schmiedete, um in jenen Kriegen zu helfen. So kam die HÃ¶llenklinge auf die OberflÃ¤che der sterblichen Welt der Menschen. Niemand weiÃŸ, wie viele Klingen wirklich geschmiedet und verzaubert wurden, und wie viele noch nach so vielen Jahrhunderten bestehen. Alles, was man weiÃŸ, ist, dass die HÃ¶llenklingen Waffen von ganz bÃ¶ser Macht sind.
+
+Allgemeine Auswirkungen: Jede HÃ¶llenklinge wirkt wie ein abgewandeltes Schwert der SchÃ¤rfe, sie alle sind +3 Waffen und kÃ¶nnen ein wahlloses KÃ¶rperglied beim WÃ¼rfeln einer natÃ¼rlichen 20 abtrennen. Diese Waffen sind so stark und bÃ¶se verzaubert, dass sie sich, wenn sie zerbrochen sind, einfach umformen werden, und wenn sie jemals von ihrem EigentÃ¼mer weggerissen werden, werden sie einfach in die NÃ¤he Ihres Besitzers gleiten, wobei die Entfernung keine Rolle spielt, obwohl es einige Zeit dauern kann, zu seinem EigentÃ¼mer zu kommen, wenn die Entfernung sehr groÃŸ ist. Ihre bekannteste Macht ist jedoch die FÃ¤higkeit, bei einer natÃ¼rlichen 20 augenblicklich ein Ziel zu tÃ¶ten. Diejenigen, die durch eine HÃ¶llenklinge getÃ¶tet wurden, sind tot, und kÃ¶nnen nicht auferweckt oder wieder belebt werden. Jede HÃ¶llenklinge hat auch ein Selbstbewusstsein, Intelligenz, und eine abwehrende Kraft, um seinem EigentÃ¼mer zu helfen. HÃ¶llenklingen kÃ¶nnen jedoch nicht reden, verwendet GedankenÃ¼bertragung und Ã¤hnliches.
+-----------------------------------
+
+HÃ¶llenklinge: Seelenverzehrer
+
+Ein KrummsÃ¤bel, der mit fahlgrauen Strahlen glÃ¼ht. Das Schwert kann nur einmal pro Tag Tensers Umwandlung auf seinem Besitzer anwenden, allerdings bis zur 13. Zauberstufe. Es hat eine Intelligenz von 16 und ein Selbstbewusstsein von 13.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 +3
+Schadensart: aufschlitzen
+Gewicht: 5
+Geschwindigkeitsfaktor: 5
+Waffenfertigkeit: Scimitar/Wakizashi/Ninja-To
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 10~
+@20603 = ~Ã¼ber HÃ¶llenklingen:
+
+Es wurde vor vielen Jahren gemunkelt, dass wÃ¤hrend der groÃŸen Kriege, als sich die Elfen vereinigten, um die Dunkelelfen zu bekÃ¤mpfen und sie zu veranlassen, in den ausgedehnten Untergrund zu fliehen, Gulgaraith, ein sehr erfahrener Dunkelelf KÃ¤mpfer/Magier, zahlreiche Schwerter der GroÃŸen Macht schmiedete, um in jenen Kriegen zu helfen. So kam die HÃ¶llenklinge auf die OberflÃ¤che der sterblichen Welt der Menschen. Niemand weiÃŸ, wie viele Klingen wirklich geschmiedet und verzaubert wurden, und wie viele noch nach so vielen Jahrhunderten bestehen. Alles, was man weiÃŸ, ist, dass die HÃ¶llenklingen Waffen von ganz bÃ¶ser Macht sind.
+
+Allgemeine Auswirkungen: Jede HÃ¶llenklinge wirkt wie ein abgewandeltes Schwert der SchÃ¤rfe, sie alle sind +3 Waffen und kÃ¶nnen ein wahlloses KÃ¶rperglied beim WÃ¼rfeln einer natÃ¼rlichen 20 abtrennen. Diese Waffen sind so stark und bÃ¶se verzaubert, dass sie sich, wenn sie zerbrochen sind, einfach umformen werden, und wenn sie jemals von ihrem EigentÃ¼mer weggerissen werden, werden sie einfach in die NÃ¤he Ihres Besitzers gleiten, wobei die Entfernung keine Rolle spielt, obwohl es einige Zeit dauern kann, zu seinem EigentÃ¼mer zu kommen, wenn die Entfernung sehr groÃŸ ist. Ihre bekannteste Macht ist jedoch die FÃ¤higkeit, bei einer natÃ¼rlichen 20 augenblicklich ein Ziel zu tÃ¶ten. Diejenigen, die durch eine HÃ¶llenklinge getÃ¶tet wurden, sind tot, und kÃ¶nnen nicht auferweckt oder wieder belebt werden. Jede HÃ¶llenklinge hat auch ein Selbstbewusstsein, Intelligenz, und eine abwehrende Kraft, um seinem EigentÃ¼mer zu helfen. HÃ¶llenklingen kÃ¶nnen jedoch nicht reden, verwendet GedankenÃ¼bertragung und Ã¤hnliches.
+-----------------------------------
+
+HÃ¶llenklinge: Seelensauger
+
+Ein Langschwert, das mit krÃ¤nklichen grÃ¼nlichen/gelblichen Strahlen glÃ¼ht. Dieses Schwert gewÃ¤hrt seinem Besitzer 37 % Magiewiderstand, wenn es gehalten wird, und hat die FÃ¤higkeit, seinem EigentÃ¼mer dreimal pro Tag zur Geringeren Kugel der Unverwundbarkeit auf der 12. FÃ¤higkeitsstufe zu verhelfen. Es hat eine Intelligenz von 17 und ein Selbstbewusstsein von 12.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 +3
+Schadensart: aufschlitzen
+Gewicht: 5
+Geschwindigkeitsfaktor: 5
+Waffenfertigkeit: Langschwert
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 6~
+@20604 = ~ Ã¼ber HÃ¶llenklingen:
+
+Es wurde vor vielen Jahren gemunkelt, dass wÃ¤hrend der groÃŸen Kriege, als sich die Elfen vereinigten, um die Dunkelelfen zu bekÃ¤mpfen und sie zu veranlassen, in den ausgedehnten Untergrund zu fliehen, Gulgaraith, ein sehr erfahrener Dunkelelf KÃ¤mpfer/Magier, zahlreiche Schwerter der GroÃŸen Macht schmiedete, um in jenen Kriegen zu helfen. So kam die HÃ¶llenklinge auf die OberflÃ¤che der sterblichen Welt der Menschen. Niemand weiÃŸ, wie viele Klingen wirklich geschmiedet und verzaubert wurden, und wie viele noch nach so vielen Jahrhunderten bestehen. Alles, was man weiÃŸ, ist, dass die HÃ¶llenklingen Waffen von ganz bÃ¶ser Macht sind.
+
+Allgemeine Auswirkungen: Jede HÃ¶llenklinge wirkt wie ein abgewandeltes Schwert der SchÃ¤rfe, sie alle sind +3 Waffen und kÃ¶nnen ein wahlloses KÃ¶rperglied beim WÃ¼rfeln einer natÃ¼rlichen 20 abtrennen. Diese Waffen sind so stark und bÃ¶se verzaubert, dass sie sich, wenn sie zerbrochen sind, einfach umformen werden, und wenn sie jemals von ihrem EigentÃ¼mer weggerissen werden, werden sie einfach in die NÃ¤he Ihres Besitzers gleiten, wobei die Entfernung keine Rolle spielt, obwohl es einige Zeit dauern kann, zu seinem EigentÃ¼mer zu kommen, wenn die Entfernung sehr groÃŸ ist. Ihre bekannteste Macht ist jedoch die FÃ¤higkeit, bei einer natÃ¼rlichen 20 augenblicklich ein Ziel zu tÃ¶ten. Diejenigen, die durch eine HÃ¶llenklinge getÃ¶tet wurden, sind tot, und kÃ¶nnen nicht auferweckt oder wieder belebt werden. Jede HÃ¶llenklinge hat auch ein Selbstbewusstsein, Intelligenz, und eine abwehrende Kraft, um seinem EigentÃ¼mer zu helfen. HÃ¶llenklingen kÃ¶nnen jedoch nicht reden, verwendet GedankenÃ¼bertragung und Ã¤hnliches.
+-----------------------------------
+
+HÃ¶llenklinge: SeelenhÃ¤uter
+
+Ein Kurzschwert, das mit gelblichen Strahlen glÃ¼ht. Es ist in der Lage, seinem Besitzer dreimal pro Tag Steinhaut der 12. Erfahrungsstufe zu verschaffen. Es hat eine Intelligenz von 17 und ein Selbstbewusstsein von 12.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 +39
+Schadensart: aufschlitzen
+Gewicht: 5
+Geschwindigkeitsfaktor: 5
+Waffenfertigkeit: Kurzschwert
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 5~
+@20605 = ~Ã¼ber HÃ¶llenklingen:
+
+Es wurde vor vielen Jahren gemunkelt, dass wÃ¤hrend der groÃŸen Kriege, als sich die Elfen vereinigten, um die Dunkelelfen zu bekÃ¤mpfen und sie zu veranlassen, in den ausgedehnten Untergrund zu fliehen, Gulgaraith, ein sehr erfahrener Dunkelelf KÃ¤mpfer/Magier, zahlreiche Schwerter der GroÃŸen Macht schmiedete, um in jenen Kriegen zu helfen. So kam die HÃ¶llenklinge auf die OberflÃ¤che der sterblichen Welt der Menschen. Niemand weiÃŸ, wie viele Klingen wirklich geschmiedet und verzaubert wurden, und wie viele noch nach so vielen Jahrhunderten bestehen. Alles, was man weiÃŸ, ist, dass die HÃ¶llenklingen Waffen von ganz bÃ¶ser Macht sind.
+
+Allgemeine Auswirkungen: Jede HÃ¶llenklinge wirkt wie ein abgewandeltes Schwert der SchÃ¤rfe, sie alle sind +3 Waffen und kÃ¶nnen ein wahlloses KÃ¶rperglied beim WÃ¼rfeln einer natÃ¼rlichen 20 abtrennen. Diese Waffen sind so stark und bÃ¶se verzaubert, dass sie sich, wenn sie zerbrochen sind, einfach umformen werden, und wenn sie jemals von ihrem EigentÃ¼mer weggerissen werden, werden sie einfach in die NÃ¤he Ihres Besitzers gleiten, wobei die Entfernung keine Rolle spielt, obwohl es einige Zeit dauern kann, zu seinem EigentÃ¼mer zu kommen, wenn die Entfernung sehr groÃŸ ist. Ihre bekannteste Macht ist jedoch die FÃ¤higkeit, bei einer natÃ¼rlichen 20 augenblicklich ein Ziel zu tÃ¶ten. Diejenigen, die durch eine HÃ¶llenklinge getÃ¶tet wurden, sind tot, und kÃ¶nnen nicht auferweckt oder wieder belebt werden. Jede HÃ¶llenklinge hat auch ein Selbstbewusstsein, Intelligenz, und eine abwehrende Kraft, um seinem EigentÃ¼mer zu helfen. HÃ¶llenklingen kÃ¶nnen jedoch nicht reden, verwendet GedankenÃ¼bertragung und Ã¤hnliches.
+-----------------------------------
+
+HÃ¶llenklinge: SeelenlÃ¶scher
+
+Ein KrummsÃ¤bel aus reinem schwarzem Stahl, es glÃ¼ht mit den hellen roten Strahlen der HÃ¶llenfeuer selbst. Es gewÃ¤hrt seinen Benutzer Feuerwiderstand (100 %) und hat die Macht seinem Besitzer dreimal pro Tag zum Spiegelbild der 12. Erfahrungsstufe zu verhelfen. Es hat eine Intelligenz von 17 und ein Selbstbewusstsein von 12.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 +3
+Schadensart: aufschlitzen
+Gewicht: 5
+Geschwindigkeitsfaktor: 5
+Waffenfertigkeit: Scimitar/Wakizashi/Ninja-To
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 10~
+@20616 = ~Nur den wÃ¼rdigsten und ergebensten Dienern der SpinnenkÃ¶nigin werden diese starken heiligen Symbole gewÃ¤hrt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ GewÃ¤hrt zwei zusÃ¤tzliche Kleriker-Zauber der 6. und einen zusÃ¤tzlichen der 7. Stufe
+ Magiewiderstand von 5 %, so lange sie getragen werden
+; StÃ¤rke +1, so lange sie getragen werden
+~
+@20624 = ~Lyrars Streitkolben ist eine starke Waffe, die Ihr wÃ¤hrend der Belagerung seiner Festung im Norden von Soubar fandet. Diese Waffe schÃ¼tzt den TrÃ¤ger vor Energieverlust, auÃŸerdem erhÃ¶ht er die StÃ¤rke des Benutzers auf 22.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 +6
+THACO: +5 Bonus
+Ausgestattete FÃ¤higkeiten:
+ StÃ¤rke wird auf 22 gesetzt
+ Schutz vor Lebenskraftentzug
+Schadensart: zertrÃ¼mmern
+Gewicht: 4
+Geschwindigkeitsfaktor: 2
+Waffenfertigkeit: Streitkolben
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 10~
+@20626 = ~WÃ¤hrend der Belagerung des uralten Schlosses Lyrars Festung fandet Ihr in der GrabstÃ¤tte von Lyrar diesen Harnisch in ziemlich gutem Zustand. Es ist eine schwere und alte Garnitur einer PlattenrÃ¼stung. Diese Garnitur wurde in einer veralteten Verfahrensweise gefertigt, und wenn sie getragen wird, verlangsamt sie den TrÃ¤ger ein bisschen, wenn er schnelle Bewegungen wie Angriffe ausfÃ¼hrt, aber nicht bei normalen Handlungen wie Wandern. Die krÃ¤ftigen und starken Platten machen das wett, indem sie den TrÃ¤ger schÃ¼tzen und einen Bonus von 50 % gegen ZertrÃ¼mmern, Aufschlitzen, Durchbohren, und Angriffe mit Fernkampfwaffen gewÃ¤hren.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+RÃ¼stungsklasse:-1
+Spezifisch:
+ RÃ¼stungsklasse-Bonus: 4 gegen Aufschlitzen
+ Vermindert Angriffe um 33 %
+ Resistenz gegen kÃ¶rperliche Angriffe: +50%
+ Magiewiderstands-Bonus: 30 %
+Gewicht: 35
+MindeststÃ¤rke: 12~
+@20628 = ~Ihr fandet diesen Schild und andere AusrÃ¼stungen von Lyrar in seinem Schloss im Norden von Soubar. Bei Identifizierung besagt dieser Schild, dass er seinen TrÃ¤ger vor Unheil wie Zauber beschÃ¼tzt, solange er am Arm getragen wird. Er verschafft auch einen grÃ¶ÃŸeren RÃ¼stungsklassbonus als normale groÃŸe Schilder.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+RÃ¼stungsklassebonus: 4
+Besonderheit: 
+ +2 gegen Fernkampfwaffen
+ GewÃ¤hrt Schutz vor DÃ¤monen
+Gewicht: 15
+MindeststÃ¤rke: 15~
+@20638 = ~Der Krieger Vanshir reiste seit langer Zeit mit einer SÃ¶ldnergruppe, von denen er einigen wegen ihrer Habgier und egoistischen Taten nicht traute, doch kÃ¤mpfte er tapfer, um sie in Sicherheit zu bewahren. Nach einem groÃŸen Kampf, mit erschÃ¶pfter Gesellschaft, entschied sich ein Dieb dafÃ¼r, sein Leben zu erleichtern und Anspruch auf den Besitz der anderen zu erheben. Er begann mit dem ersten und stÃ¤rksten Krieger, Vanshir. Der schlechte Mensch stach einen Giftdolch in seinen RÃ¼cken und machte bei dem Rest der Gruppe mit der Arbeit weiter. Vanshir Ã¼berlebte und machte sich auf den Weg zu einer nahe gelegenen Stadt, um sich auszuruhen und auszuheilen, und drei Jahre spÃ¤ter, ohne Hilfe von Magie, die ihn nach Hause zu bringt, machte er sich auf den Weg zu seinen LÃ¤ndereien. Es war hier, dass er von Rache besessen wurde und alles verkaufte, was er besaÃŸ, alle seine Gunst verspielte, und sich die meisten seiner Freunde zum Feind machte. Er verwendete dieses Geld, um einen Zauberer dafÃ¼r zu bezahlen, eine verzauberte Klinge zu gestalten, die er benutzen wÃ¼rde, um Diebe zur Strecke zu bringen und zu tÃ¶ten.
+
+Die Kriegsklinge ist ein Langschwert +3, das ImmunitÃ¤t gegen Furcht, RÃ¼stungsklasse +3, und Rettungswurf +1 gewÃ¤hrt. Sie glimmt in krÃ¤nklichem GrÃ¼n und pocht.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 +3
+ETW0-Bonus: +3
+Besonderheit::
+ Verleiht der TrÃ¤ger ImmunitÃ¤t gegen Angst/Panik/Verwirrung
+ GewÃ¤hrt RÃ¼stungsklasse +3 und allen RettungswÃ¼rfen +1
+Schadensart: aufschlitzen
+Gewicht: 4
+Geschwindigkeitsfaktor: 5
+Waffenfertigkeit: Langschwert
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 6~
+@20640 = ~Dieses Silbermedaillon rechnet dem TrÃ¤ger bei allen RettungswÃ¼rfen vor geheimnisvollen Zaubern +2 zu.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Bonus bei Rettungswurf gegen Zauber: +2
+Gewicht: 3~
+@20642 = ~Dieser magische Gegenstand ist ein Langschwert, das aus mattem, unpolierten (und nicht polierbaren) rÃ¶tlich gefÃ¤rbtem Silber gemacht zu sein scheint. Die Klinge ist von normaler LÃ¤nge fÃ¼r solch eine Waffe, jedoch ein bisschen schlanker, als fÃ¼r ein Langschwert Ã¼blich. Der Griff ist ein eigenes StÃ¼ck und aus normalem Stahl. Das QuerstÃ¼ck sieht wie zwei sich Ã¼berlappende Mondsicheln aus, Ã¤hnlich wie an den Enden einander Ã¼berkreuzende (), durch deren mittlere LÃ¼cke die Klinge durchkommt. Der Griff ist auÃŸerdem in einem kreuzweise schraffierten Muster von blauen und grÃ¼nen DrahtfÃ¤den umwickelt.
+
+Die Klinge wurde vor ungefÃ¤hr einhundertfÃ¼nfzig Jahren von einem zum menschlichen WaldlÃ¤ufers gewandelten Magier, genannt Frasfer der Braune, aus dem Gebiet von Archwood, gebaut. Er und einige Begleiter hielten Wache in Archwood, als ein Zulauf von WerwÃ¶lfen ihn veranlasste, die Entwicklung eines magischen Mittels zu versuchen, um ihre Beseitigung zu erleichtern. Einer seiner Begleiter war ein Druide, und das Vermischen der druidischen Magie mit Zaubermagie schuf eine Klinge, die durch ihren spÃ¤teren EigentÃ¼mer berÃ¼hmt wurde.
+
+Dieser spÃ¤tere EigentÃ¼mer war Nazger, ein Soldat aus Sembia, der das Schwert vor fÃ¼nfzig Jahren fand. Er verwendete es, um Werratten zu finden, die Leute in Hochmond, einer Stadt genau im Nordwesten vom Erzwald, ermordeten. So entlarvte Nazger die Werratten und rottete die meisten von ihnen aus. Jedoch verschwand er, als er in den Abwasserleitungen der Stadt kÃ¤mpfte. Nichts wurde jemals wieder von Nazger auÃŸer seinem Schwert gesehen. Es wurde spÃ¤ter auf dem Markt erkannt, aber zu spÃ¤t gemeldet. Es wurde an eine Karawane verkauft, die nach Ordulin geht.
+
+Da Nazgar keine unmittelbare Familie hatte, machte die Stadtwache kaum Untersuchungen. Alles, was aufgedeckt wurde, war, dass ein StraÃŸenbettler die Klinge in den Abwasserleitungen fand und dachte, sie fÃ¼r Essen auf dem Markt zu verkaufen. Der Bettler behauptete, nichts anderes zu wissen.
+
+Die MÃ¤chte der Klinge kÃ¶nnen sich der Karawane offenbart haben, so dass sie behalten wurde, oder kÃ¶nnen unbekannt geblieben sein, so dass sie bloÃŸ als Silberschwert verkauft wurde.
+
+Das Schwert von Nazger ist eine unintelligente magische Klinge, die normalerweise +1 pro Treffer an Schaden zufÃ¼gt, aber gegen Werwesen aller Arten einen Bonus von +3 pro Treffer an Schaden zufÃ¼gt. Es gibt auch dem Anwender ein prickelndes GefÃ¼hl Ã¤hnlich dem, wenn einem die Hand einschlÃ¤ft, wenn Werwesen im Umkreis von 30 m des Benutzers sind, obwohl es weder anzeigt, wer das Werwesen ist, noch wird es stÃ¤rker werden, wenn das Werbiest nÃ¤her kommt. Die Klinge macht auch eine Reihe von Glyphen entlang der Schneide sichtbar, wenn sie bei Vollmond betrachtet wird.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 +1, +3 gegen WerwÃ¶lfe
+ETW0: +1 Bonus, +3 gegen WerwÃ¶lfe
+Schadensart: aufschlitzen
+Gewicht: 6
+Geschwindigkeitsfaktor: 1
+Waffenfertigkeit: Langschwert
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 6~
+@20645 = ~Dieser kleiner Handspiegel kann einen Nebel (wie Nebelschrecken) dreimal am Tag hervorrufen und kann als Spiegelbild des Benutzers einmal pro Tag verwendet werden.
+~
+@20649 = ~Dieser magischer WÃ¤lzer beeinflusst einen einzelnen Leser. Es benÃ¶tigt eine volle Woche ununterbrochenen Studiums, um es zu lesen und zu begreifen. Der Leser gewinnt die dauerhafte, festwurzelnde zaubermÃ¤ÃŸige FÃ¤higkeit der Bewegungsfreiheit. Diese FÃ¤higkeit ist fÃ¼r immer verloren, wenn der Charakter jemals den Tod einer Rose, selbst versehentlich, herbeifÃ¼hren sollte.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Dauerhafte Bewegungsfreiheit~
+@20653 = ~Es wird gesagt, dass sechs dieser Schwerter bestehen. Es sind alles Unheilige Langschwerter +5 , gefertigt aus schwarzem Eisen mit Knochengriffen und -knÃ¤ufen. Jedes gewÃ¤hrt seinem TrÃ¤ger einmal am Tag das Symbol des Todes. Das Schwert nimmt Zauber von Klerikern und Magiern auf wie eine Zepter der Absorption ohne Begrenzung der Absorptionsmenge. Im Kampf verleihen diese schlechten Schwerter eine negative Erfahrungsstufe bei jedem erfolgreichen Treffer, die nur ein Tag dauert.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W10 +5
+ETW0: +5 Bonus
+Spezielle FÃ¤higkeiten: 
+ Kann das Symbol des Todes einmal pro Tag wirken
+ Verlust einer Erfahrungsstufe bei erfolgreichen Treffer
+ TrÃ¤ger ist zu gegen jeden Zauber geschÃ¼tzt
+Schadensart: aufschlitzen
+Gewicht: 5
+Geschwindigkeitsfaktor: 5
+Waffenfertigkeit: ZweihÃ¤nder
+Waffentyp: beidhÃ¤ndig
+MindeststÃ¤rke: 14, 19. Erfahrungsstufe~
+@20655 = ~Das Amulett der Seelenaufbewahrung ist ein Gold- oder Silberamulett an einer Kette, besetzt mit einem Edelstein oder Kristall in der Mitte, so dass es um den Hals getragen werden kann. Wenn der TrÃ¤ger zu -1 Trefferpunkten abfÃ¤llt, wÃ¤hrend er das Amulett trÃ¤gt, wird die Seele des Charakters automatisch in den Kristall Ã¼bertragen, als ob er einen Magisches Glas-Zauber geworfen hÃ¤tte, einschlieÃŸlich Verwirren nahe stehender Wesen.
+
+Wenn der KÃ¶rper des TrÃ¤gers getÃ¶tet ist, wird die Seele im Amulett aufbewahrt, bis der KÃ¶rper (durch ein Heil- oder Wahren Wiederauflebens-Zauber) wiederhergestellt werden kann.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+FÃ¤higkeiten: SchÃ¼tzt den TrÃ¤ger vor dauerhaftem Tod, aber nicht vor dem Tod an sich.~
+@20657 = ~Der Mantel der Wut ist ein Umhang aus dem Pelz, gewÃ¶hnlich aus der Haut eines starken, wilden Tieres wie einem BÃ¤ren oder LÃ¶wen. Wenn er getragen wird, gibt er dem TrÃ¤ger die FÃ¤higkeit, wie ein Barbar der 1. Erfahrungsstufe zu wÃ¼ten und alle normalen Vorteile und BeschrÃ¤nkungen zu gewinnen. Beachtet, dass der Mantel keine zusÃ¤tzlichen Waffenkenntnisse oder andere KampffÃ¤higkeiten verleiht, sondern nur die Vorteile des Kampfrausches. Wenn der TrÃ¤ger des Mantels ein Barbar ist, kann der Charakter ihn verwenden, um zusÃ¤tzliche Male jeden Tag zu wÃ¼ten.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+GewÃ¤hrt Angeborene FÃ¤higkeit Kampfrausch~
+@20660 = ~Das Zepter von Savras ist ein 1,2 m langer Stab aus geschnitztem, rauchgrauem Holz des DÃ¤mmerungswaldes mit neun entlang des Schaftes eingelegten Sternsaphiren. Ein 2,5 cm groÃŸer Diamant, in den das Symbol von Savras des Allsehenden eingraviert ist, bedeckt die Basis des Zepters, und ein 7,5 cm groÃŸer Diamanten (mit angeblich 1000 Facetten), in den das Symbol von Azuth eingraviert ist, krÃ¶nt die Spitze des Stabes.
+
+GESCHICHTE:
+
+
+Nach dem Fall der Netheril und vor der GrÃ¼ndung von Myth Drannor kÃ¤mpften die GÃ¶tter der Reiche in der Verheerenden MorgendÃ¤mmerung, die VerwÃ¼stung ahnen lassend, die infolge des Falls der GÃ¶tter im Jahr der Schatten stattfinden wÃ¼rde. GÃ¶tter wurden in KÃ¤mpfen ermordet, die die Reiche erschÃ¼tterten, neue Gottheiten wurden erschaffen, und Tyche wurde in Tymora und Beshaba getrennt. WÃ¤hrend dieser Zeit des Aufruhrs wurden zwei GÃ¶tter zu verschiedenen Zeiten durch Mystra erhoben, um ihr zu helfen, indem sie den Wirkungsbereich der Zauberer beaufsichtigten, die wegen ihrer Vormacht bekÃ¤mpft wurden. Azuth bezwang Savras den Allsehenden und sperrte sein inneres Wesen in ein starkes Artefakt ein, das er vor dem Konflikt gebaut hatte.
+
+
+Der Gott der Zauberer, als welcher Azuth danach bekannt war, hatte vor, das Zepter zu behalten, in dem Savras als sein Amtsstab eingesperrt war. Obwohl er infolge des Konflikts auf den Status eines HalbmÃ¤chtigen reduziert wurde, war Savras noch stark genug, sein GefÃ¤ngnis in die Reiche zu teleportieren, wo es auÃŸerhalb Azuths Reichweite war. (Als der Allsehende und Gott der Wahrsagungsmagie konnte sogar Savras kaum Azuths FÃ¤higkeiten der Wahrsagung blockieren). Das Zepter von Savras, als welches dies Artefakt bekannt wurde, wanderte im Laufe der Jahrhunderte durch unzÃ¤hlige HÃ¤nde von Erzmagiern. Savras bemÃ¼hte sich immer, sich aus seinem GefÃ¤ngnis zu befreien, und er beeinflusste unterschwellig (als der Geist des Zepters) manch einen der Zauberer, um ihm beim Erreichen seiner Absicht zu helfen.
+
+
+Bevor Savras sich jedoch befreien konnte, kam das Zepter in die HÃ¤nde von SylunÃ© Silberhand, eine der Sieben Schwestern. Savras gewÃ¤hrte ihr dauerhaft die FÃ¤higkeiten eines Werdrachens, und ermÃ¶glichte ihr, auf Wunsch die Gestalt eines reifen erwachsenen Silberdrachens anzunehmen. Der Allsehende hoffte, SylunÃ© zu Ã¼berzeugen, ihn aus seinem alten GefÃ¤ngnis zu befreien, in der Annahme, dass sie als eine von Mystras AuserwÃ¤hlten die Macht dazu hat.
+
+
+Savras Gesuchen stieÃŸen bei SylunÃ© auf taube Ohren, da sie dem gefallenen Gott nicht vertraute, und verwendete statt dessen ihre Furcht erregenden MÃ¤chte und das Zepter wÃ¤hrend zahlreicher Abenteuer. SchlieÃŸlich Ã¼bergab sie Azuth auf seine Bitte bereitwillig das Zepter. (Nachrichten Ã¼ber den Aufenthaltsort des Artefaktes erreichten schlieÃŸlich den Gott der Magier auf Umwegen rechtzeitig, um es wieder zu erlangen.) SylunÃ© hatte das Zepter verwendet, um einige Geheimnisse der Taten der MÃ¤chte (GÃ¶tter) Reiche aufzudecken, von denen es Mystra fÃ¼r besser hielt, wenn sie Sterbliche nicht kennen.
+
+
+Sobald Azuth schlieÃŸlich das Zepter von Savras zurÃ¼ck erlangte, fand er sich besorgt Ã¼ber die lange Haft, die der Allsehende durch seine Hand durchstanden hat. Nach der Zeit von MÃ¼hen stimmte der Schutzherr der Zauberer der Bitte Savras zu, im Tausch gegen ein Versprechen der Lehenstreue von Savras gegenÃ¼ber dem Hohen befreit zu werden.
+
+
+Heute ist Savras ein HalbmÃ¤chtiger, der Azuth dient, obgleich unbehaglich, und dessen Wirkungsbereich alle Wahrsagungen und Wahrsagungsmagie umfasst. Die zwei Gottheiten scheinen vorsichtig auf eine Freundschaft und eine formelle Aufteilung der Wirkungsbereiche hinzuarbeiten. Einige Weise vermuten, dass der Allsehende versucht, den Wirkungsbereich auszuweiten und die EigentÃ¼mlichkeiten des Schicksals einzuschlieÃŸen, da er sowohl die Zukunft als auch die Vergangenheit sehen kann. Diese Neigungen werden wahrscheinlich zunichte gemacht, da Tymora und Beshaba an solch einem Schritt bestimmt keinen Gefallen finden wÃ¼rden. Das Zepter von Savras verschwand plÃ¶tzlich wÃ¤hrend der Freilassung des Gottes aus seiner Haft. Wie der Cyriniskopf ist das Zepter fÃ¼r den ganzen gottesfÃ¼rchtigen Bereich anscheinend unsichtbar. GerÃ¼chte Ã¼ber sein Erscheinen an verstreuten Stellen Ã¼berall in FaerÃ»n nehmen zu, und behaupten, das Zepter ist noch in den Reichen - und enthÃ¤lt noch viel von der Macht, die verwendet wurde, es zu schaffen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Einmal pro Tag kann der Anwender die Wirkung von jedem Auges eines Betrachters kopieren.  
+Diese FÃ¤higkeiten beinhalten:
+ Person Bezaubern
+ Ungeheuer Bezaubern
+ Schlaf
+ Fleisch zu Stein
+ AuflÃ¶sen
+ Angst
+ Verlangsamen
+ Ernste Wunden Verursachen
+ Todesstrahl
+ Antimagischer Strahl~
+@20662 = ~Das Geisterschwert ist ein Langschwert, dessen Klinge unsichtbar ist, obwohl manchmal Lichtschimmer zu sehen sind, die entlang dem unsichtbarem Stahl aufblitzen, wenn es etwas trifft - zum Beispiel RÃ¼stungen - das eine Bezauberung trÃ¤gt. Alles, was normalerweise von Zeladazar sichtbar ist, ist ein schwerer Stahlgriff vom Handschutz bis zum Knauf. Die Knaufbirne ist ein polierter Stahlbereich so groÃŸ wie eine kleine Orange. Der Griff ist mit schwarzem Leder umwickelt, und das sichtbare Metall ist geblÃ¤ut, abgenutzt, und massiv.
+
+GESCHICHTE:
+
+
+In den schwindenden, verfallenden Zeiten von Netheril, kam ein (fÃ¼r seine Leute) eigenartiger Zauberer namens Twyluth Ornadyn auf die Idee, dass das Heil der Nesseril in der Abkehr von ihren magischen FÃ¤higkeiten und ihrem Leben hin zum Leben in Harmonie mit der Natur und anderen Wesen liegt. Ornadyn sah den Bedarf an Kampfmagie voraus, um das Ãœberleben des Nesseril zu schÃ¼tzen, als sie alle Arten des Lebens lernten, und er stellte sich einen Waffenvorrat von verzauberten Klingen vor, deren TrÃ¤ger Ã¼ber lange Entfernungen durch Meditation und die Ãœbertragung von geistigen Bildern und hÃ¶rbarer Rede Ã¼ber die Klingen miteinander in Verbindung standen. Er begann, ein Paar dieser Klingen zu machen, um passende vorhandene Magie zu prÃ¼fen und um wenn nÃ¶tig, neue ZaubersprÃ¼che zu entwickeln, aber er wurde durch einen heimtÃ¼ckischen Lehrling ermordet, der mittendrin von Zauberei erfÃ¼llt eine der Klingen aufraffte und Ornadyn enthauptete. Der KÃ¶rper des kopflosen Erzmagiers lebte durch die vorher gewirkte Verteidigungsmagie weiter und nahm das andere Schwert auf, um sich zu rÃ¤chen. Im folgenden Kampf wurde Ornadyn in StÃ¼cke zerhackt, aber eine der Klingen explodierte und vernichtete den Lehrling vollkommen.
+
+
+Das erhalten gebliebene Schwert wurde gefunden und ging in den Besitz des nesserilischen Erzmagier Alados Sorngol Ã¼ber, der es wegen der Visionen, die seine Verwendung einbrachte, als das Schwert der TrÃ¤ume bezeichnete. Diese Bilder stammen von der Verzauberung der Klinge und dem zurÃ¼ckgekehrten Geist Ornadyns, der Gespenster sandte, um Alados zu erschrecken und ihm die Kontrolle Ã¼ber die Klinge zu entreiÃŸen. Die Folge war, dass der erschreckte Alados neue Zauber an die Klinge band, um aus ihr einen ZerstÃ¶rer von Untoten zu machen, aber irgendwie starb er, als Ornadyn einen letzten "Blutzauber" durch die Klinge sandte, der Alados Lebenskraft durch Ornadyns eigenes Unleben ausdÃ¶rrte, so dass die Wesen der zwei Magier einander zerstÃ¶rten.
+
+MÃ„CHTE:
+
+
+Nur Magie kann die unsichtbare Klinge Zeladazar sichtbar machen. Wann auch immer es gezogen wird, ist sein TrÃ¤ger gegen LÃ¤hmung und dem Entzug von Lebensenergie geschÃ¼tzt, ebenso genieÃŸt er die Vorteile eines Rings der Freien Handlung. Sein TrÃ¤ger ist in der Lage, sich frei zu bewegen und normalerweise anzugreifen, selbst wenn er durch ein Netz, einen Festhaltezauber oder Verlangsamenzauber angegriffen wird (wodurch Zeladazar seinem TrÃ¤ger vÃ¶llige ImmunitÃ¤t verleiht), oder wenn er unterhalb der Wasserlinie ist (obwohl das Schwert ein Luft atmendes Wesen nicht befÃ¤higt, unter Wasser zu atmen).
+
+
+Das Geisterschwert fÃ¼gt allen Lebewesen (unabhÃ¤ngig von der GrÃ¶ÃŸe) 1W12 Schadenspunkte zu, und 4W12 Punkte pro erfolgreichen Treffer bei allen untoten Wesen. Die BerÃ¼hrung der Klinge zerstÃ¶rt Geister bei Kontakt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W12, 4W12 gegen Untote
+FÃ¤higkeiten:   
+ GeschÃ¼tzt vor LÃ¤hmung
+ GeschÃ¼tzt vor dem Entzug von Lebensenergie
+ Freie Handlung
+Schadensart: aufschlitzen
+Gewicht: 2
+Geschwindigkeitsfaktor: 0
+Waffenfertigkeit: Langschwert
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 6~
+@20664 = ~Der WaldlÃ¤ufer Dzance fand diesen Schild in einer Truhe in den Tiefen von Gauntlgrym, der Verlorene Stadt; sein Ursprung ist unbekannt, aber man glaubt, er sei von Zwergen gefertigt. Dzances TagebÃ¼cher erzÃ¤hlen uns von den Eigenschaften dieses Gegenstandes. Als er sich aus seinem Abenteuerleben zurÃ¼ckzog, um am Hof der Dame Silbermond zu leben, Ã¼bergab Dzance den WÃ¤chter an Belpir, einem jungen Ritter dieser Stadt. Der neue EigentÃ¼mer ging unverzÃ¼glich auf Abenteuer und wurde seitdem nicht wiedergesehen. Die Schicksale von Belpir und dem WÃ¤chter sind noch ein Geheimnis.
+
+FUNKTION:
+
+Der WÃ¤chter ist ein "+0 Schild": von magischer Natur, aber ohne seinem TrÃ¤ger einen RÃ¼stungsklassebonus zu verleihen auÃŸer dem einzigen Vorteil, den jeder Schild bietet. Jedoch hat er eine spezielle Verteidigungsmacht: wenn er getragen wird, strahlt er ein unkÃ¶rperliches magisches Energiefeld aus, das seinen TrÃ¤ger wie eine Aura umhÃ¼llt. Jede aus beliebiger Richtung - nicht nur von vorne - auf den TrÃ¤ger des WÃ¤chters gerichtete magische Fernwaffe trifft dieses Feld und wird mit untrÃ¼glicher Sicherheit an den Absender ohne Schaden fÃ¼r den SchildtrÃ¤ger zurÃ¼ckgeworfen. Das Feld fÃ¤ngt auch alle elektrischen Entladungen natÃ¼rlichen oder magischen Ursprungs wie Schockgriff, Blitzstrahl, oder Kettenblitz ohne Schaden fÃ¼r den TrÃ¤ger ab. Diese Angriffe verbrauchen sich allmÃ¤hlich und unschÃ¤dlich, wenn der Schild weggenommen wird, aber wenn der SchildtrÃ¤ger den Schild in kÃ¶rperlichen Kontakt mit einem Feind bringen kann, kann die komplette gespeicherte elektrische Energie des Feldes an den Feind Ã¼bertragen werden (Rettungswurf gegen LÃ¤hmung fÃ¼r den halben Schaden). Wenn diese Entladung durch den Willen des TrÃ¤gers aktiviert wird, besteht eine Chance von 30 %, dass der TrÃ¤ger und der Schild (aber nicht irgendwelche dazugehÃ¶rigen Wesen oder Feinde) aufs Geratewohl ein Ebenenwechsel zu einer zufÃ¤lligen bekannten Daseinsebene durchgefÃ¼hrt wird.
+~
+@20666 = ~Diese RÃ¼stung wurde von der Magierin entwickelt, nach der sie benannt ist. Sie entwickelte mehrere Garnituren fÃ¼r die Verteidiger ihres fernen nÃ¶rdlichen KÃ¶nigreiches. Das Geheimnis ihrer Herstellung starb mit ihr, obwohl sich Magier des Nordens seit Jahrhunderten bemÃ¼ht haben. Von den ungefÃ¤hr einem Dutzend hergestellten Garnituren ist von zweien bekannt, dass sie zerstÃ¶rt wurden, und drei andere werden im Norden verwendet. Die anderen sieben sind verschwunden, und es ist nicht bekannt, ob sie noch existieren.
+
+FUNKTION:
+
+Die SturmrÃ¼stung ist ein Prunkharnisch +2 aus einer eigenartigen nichtmetallischen Legierung. Sie leitet keine ElektrizitÃ¤t und hat die Macht, Hitze von und auf die Umgebungsluft zu Ã¼bertragen, so bleibt es dem TrÃ¤ger behaglich in einem eiskalten Sturm oder unter der heiÃŸen WÃ¼stensonne. Der TrÃ¤ger ist dadurch grÃ¶ÃŸtenteils unbeeintrÃ¤chtigt von Feuerball- und Eissturm- oder KÃ¤ltekegel-Zaubern und vor allen Arten elektrischen Schadens geschÃ¼tzt. Der TrÃ¤ger kann sogar angesichts der stÃ¤rksten Winde sicher stehen oder sich mit normaler Geschwindigkeit bewegen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+RÃ¼stungsklasse: -1
+FÃ¤higkeiten:
+ Bewegungsfreiheit
+ 100 %  ElektrizitÃ¤ts-, Feuer- und KÃ¤ltewiderstand
+Gewicht: 70
+MindeststÃ¤rke: 17, Intelligenz mindestens 17~
+@20670 = ~Brosche des Schutzes
+
+In er ganzen Modewut des frÃ¼hen und modernen Myth Drannors werden diese wohldurchdachten Broschen ebenso wie Amulette und Halsschmuck, Kameen {Schmucksteine mit erhaben geschnittenem Bild} als Anstecknadel, sowie Befestigungsnadeln fÃ¼r UmhÃ¤nge getragen. WÃ¤hrend jede verschieden und einzigartig in Bezug auf Verzierung, Einzelheiten und Material ist, haben alle eine gemeinsame Form: eine ovale elfenbeinerne Kamee mit einer auf dessen RÃ¼ckseite angebrachter groÃŸen Metallnadel, einem kleinen Hohlraum innerhalb der Fassung fÃ¼r eine Halskette, ein Andenken, eine Erinnerung oder geheime GegenstÃ¤nde, und einen einfachen Zauber.
+
+Wenn der Giiraegisir {Bezeichnung fÃ¼r "Brosche der Vormundschaft" in der Elfensprache} umfasst und zusammen mit seiner Fassung heruntergezogen wird (indem er mit einem weichen Klicken in der Fassung verschoben wird aber ohne ihn aus ihrer Befestigung zu ziehen), wird die Grundmagie aktiviert: Ein unsichtbares Feld von Energie umgibt den TrÃ¤ger, RÃ¼stungsklasse 0 fÃ¼r drei Runden bereit stellend. Die Magie der Giiraegisir ist einmal pro Tag verwendbar, danach ist die Nadel untÃ¤tig und fÃ¼r 24 Stunden kraftlos.
+
+Viele Giiraegisir sind dafÃ¼r entworfen, spezielle Symbole wie Haussiegel oder magische Zeichen von Zauberern zu tragen, oder wohldurchdachte Verzierungen zu umfassen, um sie zu HauptstÃ¼cken von Schmucksachen zu machen, die dafÃ¼r bestimmt sind, den Wohlstand des Elfen, aber nicht den Stolz der Macht zu zeigen. Sie kÃ¶nnen als Teile eines komplizierten Mieders beim Abendkleid einer Adligen, einer Riemen-Schnalle, Ã¼bergroÃŸen Ohrringen, oder sogar als Verzierung eines gepanzerten Armschutzes erscheinen.
+
+Diese Giiraegisir werden auch magisch angepasst, und zusÃ¤tzliche geringe Verzauberungen kÃ¶nnen in sie gelegt werden. Jedoch werden alle MÃ¤chte eines Giiraegis durch einen beliebigen AuslÃ¶ser innerhalb der Kamee aktiviert, ob es in ihrer Fassung verschoben wird, zweimal sonnenwÃ¤rts gerieben, oder einfach dreimal geklopft wird.
+~
+@20672 = ~Dieser GÃ¼rtel scheint im ersten Moment wie jeder andere magische GÃ¼rtel zu sein. Wenn er angelegt wird, gewinnt der TrÃ¤ger mehrere spezielle FÃ¤higkeiten. Das Tragen eines GÃ¼rtels der LÃ¶wen ermÃ¶glicht es, mit Katzen auf diese Weise zu sprechen, dass die nÃ¤chste Katze herbeizurufen wird (normalerweise ein LÃ¶we), die Rat geben oder vernÃ¼nftigen Befehlen folgen kann.
+
+Der TrÃ¤ger gewinnt auch die FÃ¤higkeit, nach einem Sturz auf solche Weise zu landen, um kÃ¶rperlichen Schaden zu verringern.
+
+Der GÃ¼rtel ermÃ¶glicht dem TrÃ¤ger, sich leise zu bewegen wie bei DiebesfÃ¤higkeiten mit einer Erfolgschance von mindestens 50 %. Wenn der TrÃ¤ger ein Dieb, MÃ¶rder, MÃ¶nch, oder anderer Charakter oder Wesen ist, das bereits in der Lage ist, sich leise zu bewegen, dann wird die Erfolgschance von +50 % aufwÃ¤rts bis zu einem Maximum von 99 % erweitert.
+
+SchlieÃŸlich Ã¼bertrÃ¤gt der GÃ¼rtel eine Art Nachtsicht Ã¤hnlich der, Ã¼ber die Katzen verfÃ¼gen. Wenn irgendeine Lichtquelle innerhalb des Sichtbereiches des TrÃ¤gers ist, kann er in der Dunkelheit so deutlich sehen, wie am helllichten Tage.
+~
+@20674 = ~Dieser Zauberstab sendet auf Befehl ein magisches Auge aus; jeder Gebrauch entzieht 1 Ladung. Die Reichweite und Dauer des Auges sind so, als ob sie von einem Benutzer der 6. Magiestufe geworfen wÃ¤ren, unabhÃ¤ngig von der Erfahrungsstufe des Anwenders des Zauberstabes. Jeder Benutzer, der noch nie zuvor den Zauber magisches Auge eingesetzt hat, benÃ¶tigt typischerweise  1-2 Runden, um herumwandern und anvisieren zu beherrschen und um das zu verstehen, was durch das Auge gesehen wird. Der Stab kann auch durch BerÃ¼hrung und Befehl Blindheit heilen. Wenn er von den Augen von irgendeiner Kreatur gestreift und richtig beherrscht wird, kann der Zauberstab die FÃ¤higkeit verleihen, nur fÃ¼r die folgende Runde unsichtbare Kreaturen und Objekte innerhalb des normalen Sichtbereiches der betreffenden Kreaturen zu sehen. Beachtet, dass diese FÃ¤higkeit keine RÃ¶ntgensicht ist; GegenstÃ¤nde und hinter festen WÃ¤nden verborgene Wesen kÃ¶nnen nicht wahrgenommen werden. Dieser Stab funktioniert nur einmal in einer Runde unabhÃ¤ngig davon, wie er gehandhabt wird, und nicht 1 mal fÃ¼r jede seiner Funktionen. Keine bekannte Methode, den Stab wieder zu laden, ist ausgereift.
+~
+@20676 = ~Ganz wie ein Ring der Zauberei erlaubt dieser normalerweise von Zauberern GroÃŸer Macht getragene starke Stab dem TrÃ¤ger, sich mehr Zauber einzuprÃ¤gen, als fÃ¼r einen Zauberer seiner Erfahrungsstufe normal ist. Dieser Stab wurde von einem Magier mit einiger Macht verzaubert, denn die Anzahl an ZaubersprÃ¼chen, die er gewÃ¤hrt, ist tatsÃ¤chlich groÃŸ.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ZusÃ¤tzliche Zauber je Erfahrungsstufe:
+  1. Erfahrungsstufe: 4
+  2. Erfahrungsstufe: 4
+  3. Erfahrungsstufe: 4
+  4. Erfahrungsstufe: 4
+  5. Erfahrungsstufe: 4
+  6. Erfahrungsstufe: 1
+
+Schaden: 1W6 +2
+ETW0: +2
+Schadensart: zertrÃ¼mmern
+Gewicht: 3
+Geschwindigkeitsfaktor: 2
+Waffenfertigkeit: Kampfstab
+Waffentyp: beidhÃ¤ndig
+MindeststÃ¤rke: 5~
+@20680 = ~Ein Schulstab vereinigt eine Folge von Zaubern einer bestimmten Magieschule. Solche GegenstÃ¤nde sind besonders nÃ¼tzlich fÃ¼r Fachzauberer und Zauberwirker.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Wirkt Bannzauber
+
+Schaden: 1W6 +2
+Schadensart: zertrÃ¼mmern
+Gewicht: 4
+Geschwindigkeitsfaktor: 2
+Waffenfertigkeit: Kampfstab
+Waffentyp: zweihÃ¤ndig
+MindeststÃ¤rke: 5 Kraft~
+@20681 = ~Ein Schulstab vereinigt eine Folge von Zaubern einer bestimmten Magieschule. Solche GegenstÃ¤nde sind besonders nÃ¼tzlich fÃ¼r Fachzauberer und Zauberwirker.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Wirkt Herbeirufungszauber
+
+Schaden: 1W6 +2
+Schadensart: zertrÃ¼mmern
+Gewicht: 4
+Geschwindigkeitsfaktor: 2
+Waffenfertigkeit: Kampfstab
+Waffentyp: zweihÃ¤ndig
+MindeststÃ¤rke: 5 Kraft~
+@20682 = ~Ein Schulstab vereinigt eine Folge von Zaubern einer bestimmten Magieschule. Solche GegenstÃ¤nde sind besonders nÃ¼tzlich fÃ¼r Fachzauberer und Zauberwirker.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Wirkt Erkenntniszauber
+
+Schaden: 1W6 +2
+Schadensart: zertrÃ¼mmern
+Gewicht: 4
+Geschwindigkeitsfaktor: 2
+Waffenfertigkeit: Kampfstab
+Waffentyp: zweihÃ¤ndig
+MindeststÃ¤rke: 5 Kraft~
+@20683 = ~Ein Schulstab vereinigt eine Folge von Zaubern einer bestimmten Magieschule. Solche GegenstÃ¤nde sind besonders nÃ¼tzlich fÃ¼r Fachzauberer und Zauberwirker.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Wirkt EntzÃ¼ckungszauber
+
+Schaden: 1W6 +2
+Schadensart: zertrÃ¼mmern
+Gewicht: 4
+Geschwindigkeitsfaktor: 2
+Waffenfertigkeit: Kampfstab
+Waffentyp: zweihÃ¤ndig
+MindeststÃ¤rke: 5 Kraft~
+@20684 = ~Ein Schulstab vereinigt eine Folge von Zaubern einer bestimmten Magieschule. Solche GegenstÃ¤nde sind besonders nÃ¼tzlich fÃ¼r Fachzauberer und Zauberwirker.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Wirkt Hervorrufungszauber
+
+Schaden: 1W6 +2
+Schadensart: zertrÃ¼mmern
+Gewicht: 4
+Geschwindigkeitsfaktor: 2
+Waffenfertigkeit: Kampfstab
+Waffentyp: zweihÃ¤ndig
+MindeststÃ¤rke: 5 Kraft~
+@20685 = ~Ein Schulstab vereinigt eine Folge von Zaubern einer bestimmten Magieschule. Solche GegenstÃ¤nde sind besonders nÃ¼tzlich fÃ¼r Fachzauberer und Zauberwirker.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Wirkt Illusionenzauber
+
+Schaden: 1W6 +2
+Schadensart: zertrÃ¼mmern
+Gewicht: 4
+Geschwindigkeitsfaktor: 2
+Waffenfertigkeit: Kampfstab
+Waffentyp: zweihÃ¤ndig
+MindeststÃ¤rke: 5 Kraft~
+@20686 = ~Ein Schulstab vereinigt eine Folge von Zaubern einer bestimmten Magieschule. Solche GegenstÃ¤nde sind besonders nÃ¼tzlich fÃ¼r Fachzauberer und Zauberwirker.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Wirkt GeisterbeschwÃ¶rungszauber
+
+Schaden: 1W6 +2
+Schadensart: zertrÃ¼mmern
+Gewicht: 4
+Geschwindigkeitsfaktor: 2
+Waffenfertigkeit: Kampfstab
+Waffentyp: zweihÃ¤ndig
+MindeststÃ¤rke: 5 Kraft~
+@20687 = ~Ein Schulstab vereinigt eine Folge von Zaubern einer bestimmten Magieschule. Solche GegenstÃ¤nde sind besonders nÃ¼tzlich fÃ¼r Fachzauberer und Zauberwirker.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Wirkt Wechselzauber
+
+Schaden: 1W6 +2
+Schadensart: zertrÃ¼mmern
+Gewicht: 4
+Geschwindigkeitsfaktor: 2
+Waffenfertigkeit: Kampfstab
+Waffentyp: zweihÃ¤ndig
+MindeststÃ¤rke: 5 Kraft~
+@20697 = ~Nachdem Ihr den AnfÃ¼hrer der Banditen, Rolf Sicherklinge, in seiner Festung nÃ¶rdlich von Soubar besiegt habt, habt Ihr diesen Schild der Ehrfurcht gebietenden Verteidigung erhalten. Dieser Schild ist in der Tat ein Gegenstand, den Ihr hoch schÃ¤tzen solltet, da er verpflichtet ist, Euer Leben mehrfach zu retten, wÃ¤hrend Ihr Ã¼berall in FaerÃ»n Abenteuer wagt. Dieser Schild vermindert die RÃ¼stungsklasse um 6 und addiert 3 zu allen RettungswÃ¼rfen. AuÃŸerdem erlaubt Euch der Schild von Sicherklinge, Euch so schnell zu bewegen, dass Eure Bewegungsrate um 2 vergrÃ¶ÃŸert ist und normale Fernwaffen keine Chance haben, Euch zu treffen. 
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+RÃ¼stungsklassebonus: 6
+Besonderheit:
+ Fernkampfwaffen sind unwirksam
+ VergrÃ¶ÃŸerte Bewegungsrate
+Gewicht: 10
+MindeststÃ¤rke: 16~
+@20699 = ~Nachdem Ihr den AnfÃ¼hrer der Banditen, Rolf Sicherklinge, in seiner Festung nÃ¶rdlich von Soubar besiegt habt, habt Ihr dieses Schwert der GroÃŸen Macht erhalten, das er gegen Euch in diesem schrecklichen Kampf um Euer Leben gefÃ¼hrt hat. Dieses Schwert ist wirklich eine Euren Fertigkeiten angemessene Waffe, da es Euch erlaubt, die Abwehr der meisten anderen Kreaturen zu durchschneiden. Bei einem erfolgreichen Treffer gegen ein Ziel der 18. Erfahrungsstufe oder weniger wird das Wesen sofort getÃ¶tet, wenn esgetroffen wird, eine FÃ¤higkeit, die ziemlich nÃ¼tzlich sein kann, wenn Ihr gezwungen seid, mit starken Feinden zu kÃ¤mpfen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+TÃ¶tet Feinde mit weniger als der 18. Erfahrungsstufe bei erfolgreichem Treffer. Das Ziel erhÃ¤lt einen Rettungswurf bei Tod einem Abzug von -2.
+
+Schaden: 2W6 +3
+THACO: +3 Bonus
+Schadensart: aufschlitzen
+Gewicht: 8
+Geschwindigkeitsfaktor: 4
+Waffenfertigkeit: Bastardschwert
+Waffentyp: einhÃ¤ndig
+MindeststÃ¤rke: 15 Kraft~
+@20704 = ~Diese ist eine von vielen FlÃ¶ten, die dieselbe Funktion durchfÃ¼hren: die der FÃ¼hrung von Ratten, wo auch immer der FlÃ¶tenspieler diese FlÃ¶te spielt. Beim normalen Anblasen der FlÃ¶te wird die merkwÃ¼rdige hypnotische Musik regelmÃ¤ÃŸig Ratten aus der Umgebung anziehen, weil sie durch die Musik angenehm besÃ¤nftigt werden. Das kann ein Segen fÃ¼r die einen, ein Fluch fÃ¼r die anderen sein, weil die Ratten natÃ¼rlich ein Gebiet angreifen werden, wo die Pfeife gespielt wird.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Wenn sie gespielt wird, ruft dieses Instrument bis zu 25 Ratten auf einmal herbei.
+~
+@20714 = ~Dieser Stab, verwendbar von allen Klassen, kann skelettartige Ãœberreste wieder beleben. Jede solche Operation, ausgelÃ¶st durch das Wort "Auferstehen!" verbraucht eine Ladung. Belebte Skelette sind unter der Kontrolle des StabtrÃ¤gers (wie bei dem Zauber "Tote beleben). Wenn der Stab in andere HÃ¤nde gelangt, geht die Kontrolle Ã¼ber die Skelette damit Ã¼ber. Skelette brauchen nicht vollstÃ¤ndig zu sein, aber die SchÃ¤del mÃ¼ssen vorhanden sein, und Skelette, denen Teile fehlen, sind natÃ¼rlich in ihrer HandlungsfÃ¤higkeit oder Beweglichkeit beeintrÃ¤chtigt. Solche Bewegung ist dauerhaft, und hÃ¤lt an, bis die Magie entzaubert wird oder die Skelette zerstÃ¶rt werden.
+
+FÃ¼nfundzwanzig Prozent dieser StÃ¤be haben eine zweite Funktion: das Zusammenflicken gebrochener Knochen sowohl von lebenden als auch von toten Wesen. Das verbraucht eine Ladung, und in einer Runde wird ein abgetrenntes Glied oder Finger wieder angefÃ¼gt, oder heilt durch Wunden verlorene Trefferpunkten. Glieder oder Knochen, die nicht dem EmpfÃ¤nger gehÃ¶ren, kÃ¶nnen verwendet werden; so kann ein Haufen von Knochen als "Ersatzteile" fÃ¼r eine Wache aus Skeletten dienen. GewÃ¶hnlich sind diese StÃ¤be aus Ebenholz gefertigt mit einem elfenbeinernen SchÃ¤del am Kopfende, oder aus einem glatt polierten SchÃ¤del und einem Schenkelknochen von gigantischer GrÃ¶ÃŸe.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 +2
+ETW0: +2
+Besonderheit:
+ Kann Skelette durch den "Tote Beleben" Zauber herbeirufen, eine Ladung verbrauchend
+ Kann ernste Wunden pro klerikalen Zauber heilen
+Gewicht: 3
+Geschwindigkeitsfaktor: 1
+Waffenfertigkeit: Kampfstab
+Waffentyp: zweihÃ¤ndig
+MindeststÃ¤rke: 5 Kraft~
+@20718 = ~Ihr zogt dieses Herz aus dem Kadaver eines Zitterwurmes. Berserker aÃŸen gewÃ¶hnlich die Herzen ihrer Feinde in der Hoffnung, Kraft und Verstand von ihren Feinden zu gewinnen. Dieses Herz wird weitgehend dasselbe tun, und Kraft und kÃ¶rperliche Verfassung um 1 Statistikpunkt fÃ¼r 2 Stunden vergrÃ¶ÃŸern, wÃ¤hrend es gleichzeitig den Esser ein bisschen krank vom Geschmack (10 Schadenspunkte) macht.
+~
+@20720 = ~Dieser exquisit gefertigte Garnitur eines Plattenpanzers wurde von Torm und seinen Klerus gesegnet. Der Brustharnisch ist mit einem Relief des heiligen Symbols von Torm geschmÃ¼ckt, und die Gravur unter dem Symbol, gerade Ã¼ber der Unterkante des Brustharnischs, lautet "IRNI", ein Wort, das Euch fremd ist.
+
+Obwohl die Garnitur nicht magisch ist, ist es eine heilige Garnitur, und Vorsicht muss man damit walten lassen. WÃ¤hrend sie getragen wird, schÃ¼tzt sie den TrÃ¤ger vor bestimmten negativen Energieeinwirkungen wie Entzug von Lebensenergie sowie die Ãœbertragung Ã¤hnlichen Bonuses wie den Segens von Torm.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+RÃ¼stungsklasse: 3
+Gewicht: 18
+MindeststÃ¤rke: 12~
+@20722 = ~Diese Waffe wurde vom allmÃ¤chtigen Torm gesegnet. Sie Ã¼bertrÃ¤gt Wirkungen auf den Anwender nur, wenn sie aus der Scheide gezogen ist. Wenn ein erfolgreicher Treffer bei einem dÃ¤monisches Wesen gelandet wird, wird dieses Wesen versteinert (auÃŸer wenn ein Rettungswurf gegen ZaubersprÃ¼che gelingt).
+
+Wenn es aus der Scheide gezogen ist, ermÃ¶glicht das Schwert seinem TrÃ¤ger als Bonus einen Priesterzauber der 6. und 7. Erfahrungsstufe. Es gewÃ¤hrt einen Bonus von 5 % zum magischen Widerstand, und gewÃ¤hrt +1 an Kraft des Benutzers.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W10 +3
+ETW0: +3 Bonus
+
+Allen dÃ¤monischen Wesen muss ein Rettungswurf gegen Zauber von -2 gelingen, wenn sie getroffen werden, oder sie werden versteinert.
+Spezielle FÃ¤higkeiten:
+ Magiewiderstand von 5 %, wenn damit ausgerÃ¼stet, 
+ Priesterzauber-Bonus der 6. und 7. Erfahrungsstufe, wenn ausgestattet, 
+ StÃ¤rke +1, wenn ausgestattet.
+Schadensart: aufschlitzen
+Gewicht: 10
+Geschwindigkeitsfaktor: 7
+Waffenfertigkeit: ZweihÃ¤nder
+Waffentyp: beidhÃ¤ndig
+MindeststÃ¤rke: 14~

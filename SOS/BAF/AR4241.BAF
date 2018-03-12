@@ -1,0 +1,10 @@
+IF
+  OnCreation()
+  Global("CbVillagersCreated","AR4241",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbVillagersCreated","AR4241",1)
+    CreateCreature("CBSBVLIx",[419.255],0)  // ~Soubar Villager~
+    CreateCreature("CBSBSLP1",[136.279],11)  // ~Sleeping Soubarian~
+END
+

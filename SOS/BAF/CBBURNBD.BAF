@@ -1,0 +1,129 @@
+IF
+  Global("CbBurnbonesHeatGlobal","LOCALS",1)
+  GlobalTimerExpired("CbBurnbonesHeatDamage","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobal("CbBurnbonesHeatGlobal","LOCALS",0)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("CbBurnbonesHeatGlobal","LOCALS",0)
+THEN
+  RESPONSE #100
+    ApplySpell(LastSeenBy(Myself),WIZARD_FIRE_SHIELD_RED)
+    SetGlobal("CbBurnbonesHeatGlobal","LOCALS",1)
+    SetGlobalTimer("CbBurnbonesHeatDamage","LOCALS",70)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !GlobalGT("CbBurnbonesAttacked","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbBurnbonesAttacked","LOCALS",1)
+    AttackReevaluate(LastSeenBy(Myself),6)
+END
+
+IF
+  Global("CbBurnbonesAttacked","LOCALS",1)
+  See(NearestEnemyOf(Myself))
+  HaveSpell(CLERIC_ANIMATE_DEAD)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_ANIMATE_DEAD)
+    SetGlobal("CbBurnbonesAttacked","LOCALS",0)
+END
+
+IF
+  Global("CbBurnbonesAttacked","LOCALS",1)
+  See(NearestEnemyOf(Myself))
+  HaveSpell(CLERIC_FIRE_SEEDS)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_FIRE_SEEDS)
+    EquipItem("FIRESEED")
+    UseItem("FIRESEED",NearestEnemyOf(Myself))  // ~Fire Seed~
+END
+
+IF
+  !HasItem("FIRESEED",Myself)  // ~Fire Seed~
+  !HaveSpell(CLERIC_FIRE_SEEDS)
+THEN
+  RESPONSE #100
+    EquipItem("CBBURNBN")
+    SetGlobal("CbBurnbonesAttacked","LOCALS",0)
+END
+
+IF
+  Global("CbBurnbonesAttacked","LOCALS",1)
+  See(NearestEnemyOf(Myself))
+  HaveSpell(CLERIC_FLAME_STRIKE)
+  !Global("CbBurnbonesFlameStrike","LOCALS",1)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),CLERIC_FLAME_STRIKE)
+    SetGlobal("CbBurnbonesFlameStrike","LOCALS",1)
+    SetGlobal("CbBurnbonesAttacked","LOCALS",0)
+END
+
+IF
+  Global("CbBurnbonesAttacked","LOCALS",1)
+  See(SecondNearestEnemyOf(Myself))
+  HaveSpell(CLERIC_FLAME_STRIKE)
+THEN
+  RESPONSE #100
+    Spell(SecondNearestEnemyOf(Myself),CLERIC_FLAME_STRIKE)
+    SetGlobal("CbBurnbonesAttacked","LOCALS",0)
+END
+
+IF
+  Global("CbBurnbonesAttacked","LOCALS",1)
+  See(NearestEnemyOf(Myself))
+  HaveSpell(1730)
+THEN
+  RESPONSE #100
+    Spell(Myself,1730)
+    SetGlobal("CbBurnbonesAttacked","LOCALS",0)
+END
+
+IF
+  Global("CbBurnbonesAttacked","LOCALS",1)
+  See(NearestEnemyOf(Myself))
+  HaveSpell(CLERIC_CONJURE_FIRE_ELEMENTAL)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_CONJURE_FIRE_ELEMENTAL)
+    SetGlobal("CbBurnbonesAttacked","LOCALS",0)
+END
+
+IF
+  Global("CbBurnbonesAttacked","LOCALS",1)
+  See(NearestEnemyOf(Myself))
+  HaveSpell(CLERIC_HOLY_POWER)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_HOLY_POWER)
+    SetGlobal("CbBurnbonesAttacked","LOCALS",0)
+END
+
+IF
+  Global("CbBurnbonesAttacked","LOCALS",1)
+  See(NearestEnemyOf(Myself))
+  HaveSpell(CLERIC_FIRE_STORM)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),CLERIC_FIRE_STORM)
+    SetGlobal("CbBurnbonesAttacked","LOCALS",0)
+END
+
+IF
+  Global("CbBurnbonesAttacked","LOCALS",1)
+  See(NearestEnemyOf(Myself))
+  HaveSpell(CLERIC_CLOAK_OF_FEAR)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_CLOAK_OF_FEAR)
+    SetGlobal("CbBurnbonesAttacked","LOCALS",0)
+END
+

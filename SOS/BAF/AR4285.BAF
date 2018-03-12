@@ -1,0 +1,9 @@
+IF
+  Global("CbASpyEscaped","GLOBAL",1)
+  Global("CbBigRaidTimerSet","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbBigRaidTimerSet","GLOBAL",1)
+    SetGlobalTimer("CbBigRaid","GLOBAL",ONE_DAY)
+END
+

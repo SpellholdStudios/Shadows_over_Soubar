@@ -1,0 +1,26 @@
+IF
+  Global("CbDeactivateOtherCaptains","GLOBAL",1)
+  AreaCheck("AR4287")
+THEN
+  RESPONSE #100
+    Deactivate(Myself)
+END
+
+IF
+  Global("CbPartyIsInSoubarMilitia","GLOBAL",5)
+  Global("CbPromotedParty","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbPromotedParty","LOCALS",1)
+    StartDialogNoSet([PC])
+END
+
+IF
+  Global("CbPromotedParty","LOCALS",1)
+  Delay(5)
+  AreaCheck("AR4287")
+THEN
+  RESPONSE #100
+    EscapeAreaMove("AR4286",570,280,4)
+END
+

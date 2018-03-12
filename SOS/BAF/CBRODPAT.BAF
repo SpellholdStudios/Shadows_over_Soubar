@@ -1,0 +1,102 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("CBSOUSGT")  // 
+    ActionOverride(Player1,MoveToObjectNoInterrupt("CbWayPoint1"))
+    ActionOverride(Player2,MoveToObjectNoInterrupt("CbWayPoint2"))
+    ActionOverride(Player3,MoveToObjectNoInterrupt("CbWayPoint3"))
+    ActionOverride(Player4,MoveToObjectNoInterrupt("CbWayPoint4"))
+    ActionOverride(Player5,MoveToObjectNoInterrupt("CbWayPoint5"))
+    ActionOverride(Player6,MoveToObjectNoInterrupt("CbWayPoint6"))
+    MoveToPoint([1800.450])
+    Face(7)
+    Wait(9)
+    ActionOverride(Player1,MoveToObjectNoInterrupt("CbWayPoint2"))
+    ActionOverride(Player2,MoveToObjectNoInterrupt("CbWayPoint3"))
+    ActionOverride(Player3,MoveToObjectNoInterrupt("CbWayPoint4"))
+    ActionOverride(Player4,MoveToObjectNoInterrupt("CbWayPoint5"))
+    ActionOverride(Player5,MoveToObjectNoInterrupt("CbWayPoint6"))
+    ActionOverride(Player6,MoveToObjectNoInterrupt("CbWayPoint1"))
+    MoveViewPoint([1295.456],VERY_FAST)
+    Wait(9)
+    ActionOverride(Player1,MoveToObjectNoInterrupt("CbWayPoint3"))
+    ActionOverride(Player2,MoveToObjectNoInterrupt("CbWayPoint4"))
+    ActionOverride(Player3,MoveToObjectNoInterrupt("CbWayPoint5"))
+    ActionOverride(Player4,MoveToObjectNoInterrupt("CbWayPoint6"))
+    ActionOverride(Player5,MoveToObjectNoInterrupt("CbWayPoint1"))
+    ActionOverride(Player6,MoveToObjectNoInterrupt("CbWayPoint2"))
+    MoveViewPoint([1734.395],VERY_FAST)
+    Wait(9)
+    ActionOverride(Player1,MoveToObjectNoInterrupt("CbWayPoint4"))
+    ActionOverride(Player2,MoveToObjectNoInterrupt("CbWayPoint5"))
+    ActionOverride(Player3,MoveToObjectNoInterrupt("CbWayPoint6"))
+    ActionOverride(Player4,MoveToObjectNoInterrupt("CbWayPoint1"))
+    ActionOverride(Player5,MoveToObjectNoInterrupt("CbWayPoint2"))
+    ActionOverride(Player6,MoveToObjectNoInterrupt("CbWayPoint3"))
+    MoveViewPoint([2024.255],VERY_FAST)
+    Wait(9)
+    ActionOverride(Player1,MoveToObjectNoInterrupt("CbWayPoint5"))
+    ActionOverride(Player2,MoveToObjectNoInterrupt("CbWayPoint6"))
+    ActionOverride(Player3,MoveToObjectNoInterrupt("CbWayPoint1"))
+    ActionOverride(Player4,MoveToObjectNoInterrupt("CbWayPoint2"))
+    ActionOverride(Player5,MoveToObjectNoInterrupt("CbWayPoint3"))
+    ActionOverride(Player6,MoveToObjectNoInterrupt("CbWayPoint4"))
+    MoveViewPoint([2484.191],VERY_FAST)
+    Wait(9)
+    ActionOverride(Player1,MoveToObjectNoInterrupt("CbWayPoint6"))
+    ActionOverride(Player2,MoveToObjectNoInterrupt("CbWayPoint1"))
+    ActionOverride(Player3,MoveToObjectNoInterrupt("CbWayPoint2"))
+    ActionOverride(Player4,MoveToObjectNoInterrupt("CbWayPoint3"))
+    ActionOverride(Player5,MoveToObjectNoInterrupt("CbWayPoint4"))
+    ActionOverride(Player6,MoveToObjectNoInterrupt("CbWayPoint5"))
+    MoveViewPoint([1525.75],VERY_FAST)
+    Wait(9)
+    ActionOverride(Player1,MoveToObjectNoInterrupt("CbWayPoint1"))
+    ActionOverride(Player2,MoveToObjectNoInterrupt("CbWayPoint2"))
+    ActionOverride(Player3,MoveToObjectNoInterrupt("CbWayPoint3"))
+    ActionOverride(Player4,MoveToObjectNoInterrupt("CbWayPoint4"))
+    ActionOverride(Player5,MoveToObjectNoInterrupt("CbWayPoint5"))
+    ActionOverride(Player6,MoveToObjectNoInterrupt("CbWayPoint6"))
+    MoveViewPoint([954.172],VERY_FAST)
+    ClearAllActions()
+    CreateCreature("CBRDPTBD",[1200.50],0)  // ~Bandit~
+    CreateCreature("CBRDPTBD",[1250.50],0)  // ~Bandit~
+    CreateCreature("CBRDPTBD",[1300.50],0)  // ~Bandit~
+    CreateCreature("CBRDPTBD",[1350.50],0)  // ~Bandit~
+    CreateCreature("CBRDPTBD",[1400.50],0)  // ~Bandit~
+    CreateCreature("CBRDPTBD",[1450.50],0)  // ~Bandit~
+    CreateCreature("CBRDPTBD",[1500.50],0)  // ~Bandit~
+    CreateCreature("CBRDPTBD",[1550.50],0)  // ~Bandit~
+    CreateCreature("CBRDPTBD",[1600.50],0)  // ~Bandit~
+    CreateCreature("CBRDPTBD",[1650.50],0)  // ~Bandit~
+    CreateCreature("CBRDPTBD",[1700.50],0)  // ~Bandit~
+    CreateCreature("CBRDPTBD",[1750.50],0)  // ~Bandit~
+    CreateCreature("CBRDPTBD",[1800.50],0)  // ~Bandit~
+    CreateCreature("CBRDPTBD",[1850.50],0)  // ~Bandit~
+    CreateCreature("CBRDPTBD",[1900.50],0)  // ~Bandit~
+    CreateCreature("CBRDPTBD",[1950.50],0)  // ~Bandit~
+    CreateCreature("CBRDPTBD",[2000.50],0)  // ~Bandit~
+    CreateCreature("CBRDPTBD",[2050.50],0)  // ~Bandit~
+    CreateCreature("CBRDPTBD",[2100.50],0)  // ~Bandit~
+    CreateCreature("CBRDPTBD",[2150.50],0)  // ~Bandit~
+    CreateCreature("CBRDPTBD",[2200.50],0)  // ~Bandit~
+    CreateCreature("CBRDPTBD",[2250.50],0)  // ~Bandit~
+    CreateCreature("CBRDPTBD",[2300.50],0)  // ~Bandit~
+    CreateCreature("CBRDPTBD",[2350.50],0)  // ~Bandit~
+    CreateCreature("CBRDPTBD",[2400.50],0)  // ~Bandit~
+    ActionOverride("CBRDPTBD",MoveToObject("CbWayPoint6"))
+    CreateCreature("CBSOUGRD",[-1.-1],0)  // ~Soubar Guard~
+    CreateCreature("CBSOUGRD",[-1.-1],0)  // ~Soubar Guard~
+    CreateCreature("CBSOUGRD",[-1.-1],0)  // ~Soubar Guard~
+    CreateCreature("CBSOUGRD",[-1.-1],0)  // ~Soubar Guard~
+    CreateCreature("CBSOUGRD",[-1.-1],0)  // ~Soubar Guard~
+    CreateCreature("CBSOUGRD",[-1.-1],0)  // ~Soubar Guard~
+    CreateCreature("CBSOUGRD",[-1.-1],0)  // ~Soubar Guard~
+    CreateCreature("CBSOUGRD",[-1.-1],0)  // ~Soubar Guard~
+    CreateCreature("CBSOUGRD",[-1.-1],0)  // ~Soubar Guard~
+    CreateCreature("CBSOUGRD",[-1.-1],0)  // ~Soubar Guard~
+    SetGlobal("CbPartyStartsRoadPatrol","LOCALS",3)
+    EndCutSceneMode()
+END
+

@@ -1,0 +1,51 @@
+IF
+	Global("SIRWILLIAM","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("SIRWILLIAM","GLOBAL",1)
+		CreateCreature("CBWILLMS",[534.174],10)
+END
+
+IF
+	GlobalLT("CbServantToldWilliamsLocation","GLOBAL",1)
+	Global("CbWilliamCanWake","AR1613",0)
+	Global("CbWillamSpawned","AR1613",0)
+	IsActive("CBWILLMs")
+THEN
+	RESPONSE #100
+		Deactivate("CBWILLMs")
+END
+
+IF
+	Global("CbServantToldWilliamsLocation","GLOBAL",1)
+	Global("CbWilliamCanWake","AR1613",0)
+	Global("CbWillamSpawned","AR1613",0)
+THEN
+	RESPONSE #100
+		Activate("CBWILLMs")
+		SetGlobal("CbWilliamCanWake","AR1613",1)
+END
+
+IF
+	Global("CbWilliamCanWake","AR1613",1)
+	Global("CbWillamSpawned","AR1613",0)
+	TimeGT(8)
+	TimeLT(DUSK_START)
+THEN
+	RESPONSE #100
+		SetGlobal("CbWillamSpawned","AR1613",1)
+		CreateCreature("CBWILLMa",[563.266],0)
+		Deactivate("CBWILLMs")
+END
+
+IF
+	Dead("CBWILLMs")
+	Global("CbJournalSet","AR1613",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbJournalSet","AR1613",1)
+		EraseJournalEntry(@5090)
+		AddJournalEntry(@50201,QUEST_DONE)
+END
+
+

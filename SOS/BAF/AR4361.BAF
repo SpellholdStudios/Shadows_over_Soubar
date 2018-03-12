@@ -1,0 +1,79 @@
+IF
+  OnCreation()
+THEN
+  RESPONSE #100
+    TriggerActivation("CbBanditTrap1",FALSE)
+    TriggerActivation("CbBanditTrap2",FALSE)
+    TriggerActivation("CbBanditTrap3",FALSE)
+    TriggerActivation("CbBanditTrap4",FALSE)
+    TriggerActivation("CbBanditTrap5",FALSE)
+    TriggerActivation("CbBanditTrap6",FALSE)
+    TriggerActivation("CbBanditTrap7",FALSE)
+    TriggerActivation("CbBanditTrap8",FALSE)
+    Continue()
+END
+
+IF
+  Global("CbBanditTrap1","AR4261",1)
+THEN
+  RESPONSE #100
+    TriggerActivation("CbBanditTrap1",TRUE)
+    Continue()
+END
+
+IF
+  Global("CbBanditTrap2","AR4261",1)
+THEN
+  RESPONSE #100
+    TriggerActivation("CbBanditTrap2",TRUE)
+    Continue()
+END
+
+IF
+  Global("CbBanditTrap3","AR4261",1)
+THEN
+  RESPONSE #100
+    TriggerActivation("CbBanditTrap3",TRUE)
+    Continue()
+END
+
+IF
+  Global("CbBanditTrap4","AR4261",1)
+THEN
+  RESPONSE #100
+    TriggerActivation("CbBanditTrap4",TRUE)
+    Continue()
+END
+
+IF
+  Global("CbBanditTrap5","AR4261",1)
+THEN
+  RESPONSE #100
+    TriggerActivation("CbBanditTrap5",TRUE)
+    Continue()
+END
+
+IF
+  Global("CbBanditTrap6","AR4261",1)
+THEN
+  RESPONSE #100
+    TriggerActivation("CbBanditTrap6",TRUE)
+    Continue()
+END
+
+IF
+  Global("CbBanditTrap7","AR4261",1)
+THEN
+  RESPONSE #100
+    TriggerActivation("CbBanditTrap7",TRUE)
+    Continue()
+END
+
+IF
+  Global("CbBanditTrap8","AR4261",1)
+THEN
+  RESPONSE #100
+    TriggerActivation("CbBanditTrap8",TRUE)
+    Continue()
+END
+

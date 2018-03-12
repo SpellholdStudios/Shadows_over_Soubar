@@ -1,0 +1,16 @@
+IF
+  Global("CbBarBrawl","AR4264",1)
+  !Dead("CBTRIEL1")  // ~Triel Villager~
+THEN
+  RESPONSE #100
+    Attack("CBTRIEL1")
+END
+
+IF
+  Global("CbBarBrawl","AR4264",1)
+  Dead("CBTRIEL1")  // ~Triel Villager~
+THEN
+  RESPONSE #100
+    SetGlobal("CbBarBrawl","AR4264",2)
+END
+

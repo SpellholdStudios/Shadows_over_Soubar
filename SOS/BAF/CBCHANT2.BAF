@@ -1,0 +1,42 @@
+IF
+  OnCreation()
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbRandomStuff","LOCALS",60)
+    SetGlobal("CbRandomStuff","LOCALS",1)
+END
+
+IF
+  !GlobalTimerExpired("CbRandomStuff","LOCALS")
+  Global("CbRandomStuff","LOCALS",1)
+THEN
+  RESPONSE #100
+    RandomWalk()
+END
+
+IF
+  GlobalTimerExpired("CbRandomStuff","LOCALS")
+  Global("CbRandomStuff","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbRandomStuff","LOCALS",2)
+    SetGlobalTimer("CbRandomStuff","LOCALS",45)
+END
+
+IF
+  !GlobalTimerExpired("CbRandomStuff","LOCALS")
+  Global("CbRandomStuff","LOCALS",2)
+THEN
+  RESPONSE #100
+    RandomTurn()
+END
+
+IF
+  GlobalTimerExpired("CbRandomStuff","LOCALS")
+  Global("CbRandomStuff","LOCALS",2)
+THEN
+  RESPONSE #100
+    SetGlobal("CbRandomStuff","LOCALS",1)
+    SetGlobalTimer("CbRandomStuff","LOCALS",60)
+END
+

@@ -1,0 +1,40 @@
+IF
+  Exists("CBRTRBDd")  // ~Squad Leader~
+  !Dead("CBRTRBDd")  // ~Squad Leader~
+  !See(NearestEnemyOf(Myself))
+  Range("CBRTRBDd",15)  // ~Squad Leader~
+THEN
+  RESPONSE #100
+    ClearActions(Myself)
+END
+
+IF
+  See([ANYONE])
+  !Allegiance(LastSeenBy(Myself),ENEMY)
+  !Range(LastSeenBy(Myself),10)
+THEN
+  RESPONSE #100
+    EquipRanged()
+    AttackReevaluate(LastSeenBy(Myself),20)
+END
+
+IF
+  See([ANYONE])
+  !Allegiance(LastSeenBy(Myself),ENEMY)
+  Range(LastSeenBy(Myself),10)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    AttackReevaluate(LastSeenBy(Myself),20)
+END
+
+IF
+  Exists("CBRTRBDD")  // ~Squad Leader~
+  !Dead("CBRTRBDD")  // ~Squad Leader~
+  !See(NearestEnemyOf(Myself))
+  !Range("CBRTRBDD",35)  // ~Squad Leader~
+THEN
+  RESPONSE #100
+    MoveToObject("CBRTRBDD")
+END
+

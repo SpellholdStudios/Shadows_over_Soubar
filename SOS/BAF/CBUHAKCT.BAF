@@ -1,0 +1,106 @@
+IF
+  AreaCheck("AR1105")
+  GlobalGT("CbPlayerCanGoToSoubar","GLOBAL",2)
+THEN
+  RESPONSE #100
+    DestroySelf()
+END
+
+IF
+  Global("CbSoubarContactsInitiateDialog","AR1105",0)
+  AreaCheck("AR1105")
+  See([GOODCUTOFF])
+THEN
+  RESPONSE #100
+    SetGlobal("CbSoubarContactsInitiateDialog","AR1105",1)
+    SetInterrupt(FALSE)
+    SmallWait(5)
+    StartDialogNoSet("CBUHGVCT")
+END
+
+IF
+  Global("CbSoubarContactsInitiateDialog","AR1105",4)
+  AreaCheck("AR1105")
+THEN
+  RESPONSE #100
+    SetGlobal("CbSoubarContactsInitiateDialog","AR1105",5)
+    StartDialogNoSet("CBUHGVCT")
+END
+
+IF
+  Global("CbSoubarContactsInitiateDialog","AR1105",11)
+  AreaCheck("AR1105")
+THEN
+  RESPONSE #100
+    SetGlobal("CbSoubarContactsInitiateDialog","AR1105",12)
+    MoveToObject([PC])
+    SetInterrupt(TRUE)
+    StartDialogNoSet([PC])
+END
+
+IF
+  Global("CbSoubarContactsInitiateDialog","AR4219",30)
+  AreaCheck("AR4219")
+THEN
+  RESPONSE #100
+    SetGlobal("CbSoubarContactsInitiateDialog","AR4219",31)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("CbSoubarContactsInitiateDialog","AR4219",38)
+  AreaCheck("AR4219")
+THEN
+  RESPONSE #100
+    SetGlobal("CbSoubarContactsInitiateDialog","AR4219",39)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("CbSoubarContactsInitiateDialog","AR4219",42)
+  Global("CbGvAndAkLeave","AR4219",1)
+  AreaCheck("AR4219")
+THEN
+  RESPONSE #100
+    SetGlobal("CbGvAndAkLeave","AR4219",2)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("CbSoubarContactsInitiateDialog","AR4219",42)
+  Global("CbPartyWantsMoneyFromSoubar","AR4219",1)
+  AreaCheck("AR4219")
+THEN
+  RESPONSE #100
+    SetGlobal("CbPartyWantsMoneyFromSoubar","AR4219",2)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("CbSoubarContactsInitiateDialog","AR4219",42)
+  Global("CbPartyHelpsSoubar","AR4219",1)
+  AreaCheck("AR4219")
+THEN
+  RESPONSE #100
+    SetGlobal("CbPartyHelpsSoubar","AR4219",2)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("CbVinnyHasDinner","AR4219",5)
+  Global("CbPartyHelpsSoubar","AR4219",2)
+THEN
+  RESPONSE #100
+    SetGlobal("CbPartyHelpsSoubar","AR4219",3)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  AreaCheck("AR4220")
+  !GlobalGT("CbPartyHelpsSoubar","AR4220",12)
+THEN
+  RESPONSE #100
+    SetGlobal("CbPartyHelpsSoubar","AR4220",12)
+    StartDialogNoSet(Player1)
+END
+

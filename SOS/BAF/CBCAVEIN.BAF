@@ -1,0 +1,16 @@
+IF
+  IsOverMe([ANYONE])
+THEN
+  RESPONSE #100
+    SetGlobal("CbBigEarthquake","AR4325",3)
+    MoveViewObject(Myself,INSTANT)
+    ActionOverride(LastTrigger,JumpToPoint([1058.1359]))
+    PlaySound("EFF_P92")
+    ScreenShake([20.20],10)
+    DisplayStringHead(Myself,@10050)
+    CloseDoor("Door01")
+    Lock("Door01")
+    Wait(1)
+    ScreenShake([10.10],4)
+END
+

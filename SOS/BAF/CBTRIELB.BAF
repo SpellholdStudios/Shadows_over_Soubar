@@ -1,0 +1,44 @@
+IF
+  AreaCheck("AR4288")
+  RandomNum(3,1)
+THEN
+  RESPONSE #50
+    Wait(10)
+    DisplayStringHead(Myself,4891)  // ~ Get me outta this hell hole.~ [SLAVE04]
+  RESPONSE #50
+    Wait(10)
+    DisplayStringHead(Myself,4887)  // ~ I think I'm coughing up blood.~ [MINER03]
+END
+
+IF
+  AreaCheck("AR4288")
+  RandomNum(3,2)
+THEN
+  RESPONSE #50
+    Wait(20)
+    DisplayStringHead(Myself,4891)  // ~ Get me outta this hell hole.~ [SLAVE04]
+  RESPONSE #50
+    Wait(20)
+    DisplayStringHead(Myself,4887)  // ~ I think I'm coughing up blood.~ [MINER03]
+END
+
+IF
+  AreaCheck("AR4288")
+  RandomNum(3,3)
+THEN
+  RESPONSE #50
+    Wait(30)
+    DisplayStringHead(Myself,4891)  // ~ Get me outta this hell hole.~ [SLAVE04]
+  RESPONSE #50
+    Wait(30)
+    DisplayStringHead(Myself,4887)  // ~ I think I'm coughing up blood.~ [MINER03]
+END
+
+IF
+  AreaCheck("AR4351")
+  Class(Myself,MONK)
+THEN
+  RESPONSE #100
+    ChangeClass(Myself,FIGHTER)
+END
+

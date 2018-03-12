@@ -1,0 +1,31 @@
+IF
+  Clicked([ANYONE])
+  HasItem("CBROPEDP",LastTrigger)  // ~Hemp Rope~
+  Global("CbRopeBridgeTiedWest","AR4330",0)
+  Range(LastTrigger,3)
+THEN
+  RESPONSE #100
+    SetGlobal("CbRopeBridgeTiedWest","AR4330",1)
+    DisplayStringHead(Myself,@10113)
+END
+
+IF
+  Clicked([ANYONE])
+  HasItem("CBROPEDP",LastTrigger)  // ~Hemp Rope~
+  Global("CbRopeBridgeTiedWest","AR4330",1)
+  Range(LastTrigger,3)
+THEN
+  RESPONSE #100
+    SetGlobal("CbRopeBridgeTiedWest","AR4330",2)
+    IncrementGlobal("CbRopeBridgeMade","AR4330",1)
+    DisplayStringHead(Myself,@10114)
+END
+
+IF
+  Clicked([ANYONE])
+  !Range(LastTrigger,3)
+THEN
+  RESPONSE #100
+    DisplayStringHead(LastTrigger,14702)
+END
+

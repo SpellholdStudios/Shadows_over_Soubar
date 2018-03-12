@@ -1,0 +1,135 @@
+IF
+  TimeGT(20)
+  See([PC])
+THEN
+  RESPONSE #100
+    SetGlobal("CbTrainingGuardsBedtime","LOCALS",1)
+    StartDialogNoSet(LastSeenBy(Myself))
+END
+
+IF
+  HasItem("CBMILT01",Myself)  // ~Plate Mail Armor~
+THEN
+  RESPONSE #100
+    DestroyItem("CBMILT01")  // ~Plate Mail Armor~
+END
+
+IF
+  HasItem("CBMILT02",Myself)  // ~Helmet~
+THEN
+  RESPONSE #100
+    DestroyItem("CBMILT02")  // ~Helmet~
+END
+
+IF
+  HasItem("CBMILT03",Myself)  // ~Large Shield +1~
+THEN
+  RESPONSE #100
+    DestroyItem("CBMILT03")  // ~Large Shield +1~
+END
+
+IF
+  HasItem("CBMILT04",Myself)  // ~Long Sword +1~
+THEN
+  RESPONSE #100
+    DestroyItem("CBMILT04")  // ~Long Sword +1~
+END
+
+IF
+  HasItem("CBMILT11",Myself)  // ~Plate Mail Armor~
+THEN
+  RESPONSE #100
+    DestroyItem("CBMILT11")  // ~Plate Mail Armor~
+END
+
+IF
+  HasItem("CBMILT12",Myself)  // ~Helmet~
+THEN
+  RESPONSE #100
+    DestroyItem("CBMILT12")  // ~Helmet~
+END
+
+IF
+  HasItem("CBMILT13",Myself)  // ~Large Shield +1~
+THEN
+  RESPONSE #100
+    DestroyItem("CBMILT13")  // ~Large Shield +1~
+END
+
+IF
+  HasItem("CBMILT14",Myself)  // ~Long Sword +1~
+THEN
+  RESPONSE #100
+    DestroyItem("CBMILT14")  // ~Long Sword +1~
+END
+
+IF
+  HasItem("B1-2",Myself)  // ~Skull~
+THEN
+  RESPONSE #100
+    DestroyItem("B1-2")  // ~Skull~
+END
+
+IF
+  TimeGT(20)
+  TimeLT(MIDNIGHT)
+  OnCreation()
+THEN
+  RESPONSE #100
+    Deactivate(Myself)
+END
+
+IF
+  Time(MIDNIGHT)
+  OnCreation()
+THEN
+  RESPONSE #100
+    Deactivate(Myself)
+END
+
+IF
+  TimeGT(MIDNIGHT)
+  TimeLT(8)
+  OnCreation()
+THEN
+  RESPONSE #100
+    Deactivate(Myself)
+END
+
+IF
+  TimeGT(DAWN_END)
+  TimeLT(DUSK_START)
+  OnCreation()
+THEN
+  RESPONSE #100
+    Activate(Myself)
+    SetGlobal("CbTrainingGuardsBedtime","LOCALS",0)
+END
+
+IF
+  Global("CbTrielThrust","AR4351",1)
+  Global("CbTrielSlash","AR4351",1)
+  Global("CbTrielOverhand","AR4351",1)
+  Global("CbTrielRanged","AR4351",1)
+  Global("CbStopInitialTrainingOption","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbStopInitialTrainingOption","LOCALS",1)
+END
+
+IF
+  Global("CbTrainForm4","AR4351",4)
+  Global("CbTrainForm6","AR4351",4)
+  Global("CbTrainForm9","AR4351",4)
+THEN
+  RESPONSE #100
+    SetGlobal("CbStopSecondTrainingOption","LOCALS",1)
+END
+
+IF
+  HasItem("B1-2",Myself)  // ~Skull~
+THEN
+  RESPONSE #100
+    DestroyItem("B1-2")  // ~Skull~
+END
+

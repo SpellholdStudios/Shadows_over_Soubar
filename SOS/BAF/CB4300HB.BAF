@@ -1,0 +1,45 @@
+IF
+  Global("CbPorticullisAlmostDestroyed","AR4370",1)
+  !Range("CB4300GH",20)  // ~Gatehouse Porticullis~
+  Global("CbHalbardierMovedToGate","LOCALS",0)
+THEN
+  RESPONSE #10
+    MoveToPoint([1587.3064])
+    SetGlobal("CbHalbardierMovedToGate","LOCALS",1)
+  RESPONSE #10
+    MoveToPoint([1512.3008])
+    SetGlobal("CbHalbardierMovedToGate","LOCALS",1)
+  RESPONSE #10
+    MoveToPoint([1540.3017])
+    SetGlobal("CbHalbardierMovedToGate","LOCALS",1)
+  RESPONSE #10
+    MoveToPoint([1569.3026])
+    SetGlobal("CbHalbardierMovedToGate","LOCALS",1)
+  RESPONSE #10
+    MoveToPoint([1599.3034])
+    SetGlobal("CbHalbardierMovedToGate","LOCALS",1)
+  RESPONSE #10
+    MoveToPoint([1558.3055])
+    SetGlobal("CbHalbardierMovedToGate","LOCALS",1)
+  RESPONSE #10
+    MoveToPoint([1531.3047])
+    SetGlobal("CbHalbardierMovedToGate","LOCALS",1)
+  RESPONSE #10
+    MoveToPoint([1504.3039])
+    SetGlobal("CbHalbardierMovedToGate","LOCALS",1)
+  RESPONSE #10
+    MoveToPoint([1476.3027])
+    SetGlobal("CbHalbardierMovedToGate","LOCALS",1)
+  RESPONSE #10
+    MoveToPoint([1485.3000])
+    SetGlobal("CbHalbardierMovedToGate","LOCALS",1)
+END
+
+IF
+  GlobalGT("CbBanditsRun","AR4370",0)
+  Global("CbPorticullisAlmostDestroyed","AR4370",0)
+THEN
+  RESPONSE #100
+    Wait(20)
+END
+

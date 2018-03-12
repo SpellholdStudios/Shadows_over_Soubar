@@ -1,0 +1,90 @@
+APPEND VICONIJ
+
+IF ~Global("CbLolthChangedToDrow","AR4211",1)
+Global("CbLolthOneDead","GLOBAL",1)
+Global("CbViconiaInteract","AR4211",0)
+Global("CbOriginalPeopleInteract","AR4211",1)
+AreaCheck("AR4211")~ THEN BEGIN SOS296
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO SOS297
+  IF ~~ THEN REPLY @2 GOTO SOS303
+END
+
+IF ~~ THEN BEGIN SOS297
+  SAY @3
+  IF ~~ THEN REPLY @4 GOTO SOS298
+END
+
+IF ~~ THEN BEGIN SOS298
+  SAY @5
+  IF ~~ THEN REPLY @6 DO ~SetGlobal("CbOriginalPeopleInteract","AR4211",0)
+SetGlobal("CbViconiaInteract","AR4211",1)
+Enemy()~ EXIT
+  IF ~~ THEN REPLY @7 GOTO SOS299
+END
+
+IF ~~ THEN BEGIN SOS299
+  SAY @8
+  IF ~~ THEN REPLY @7 GOTO SOS300
+  IF ~~ THEN REPLY @6 DO ~SetGlobal("CbOriginalPeopleInteract","AR4211",0)
+SetGlobal("CbViconiaInteract","AR4211",1)
+Enemy()~ EXIT
+  IF ~~ THEN REPLY @9 GOTO SOS300
+END
+
+IF ~~ THEN BEGIN SOS300
+  SAY @10
+  IF ~~ THEN GOTO SOS301
+END
+
+IF ~~ THEN BEGIN SOS301
+  SAY @11
+  IF ~~ THEN REPLY @12 GOTO SOS302
+END
+
+IF ~~ THEN BEGIN SOS302
+  SAY @13
+  IF ~~ THEN DO ~SetGlobal("CbOriginalPeopleInteract","AR4211",0)
+SetGlobal("CbViconiaInteract","AR4211",1)
+Enemy()~ EXIT
+END
+
+IF ~~ THEN BEGIN SOS303
+  SAY @14
+  IF ~~ THEN REPLY @15 GOTO SOS304
+  IF ~~ THEN REPLY @4 GOTO SOS298
+END
+
+IF ~~ THEN BEGIN SOS304
+  SAY @16
+  IF ~~ THEN GOTO SOS298
+END
+
+IF ~Global("CbViccyInteractMayor","GLOBAL",1)~ THEN BEGIN SOS305
+  SAY @17
+  IF ~~ THEN REPLY @18 GOTO SOS306
+  IF ~~ THEN REPLY @19 GOTO SOS308
+  IF ~~ THEN REPLY @20 GOTO SOS309
+END
+
+IF ~~ THEN BEGIN SOS306
+  SAY @21
+  IF ~~ THEN GOTO SOS307
+END
+
+IF ~~ THEN BEGIN SOS307
+  SAY @22
+  IF ~~ THEN REPLY @20 GOTO SOS309
+END
+
+IF ~~ THEN BEGIN SOS308
+  SAY @23
+  IF ~~ THEN REPLY @20 GOTO SOS309
+END
+
+IF ~~ THEN BEGIN SOS309
+  SAY @24
+  IF ~~ THEN DO ~SetGlobal("CbViccyInteractMayor","GLOBAL",2)~ EXIT
+END
+
+END

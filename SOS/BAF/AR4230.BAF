@@ -1,0 +1,368 @@
+IF
+  OnCreation()
+  Global("CbEnteredSoubar","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbEnteredSoubar","GLOBAL",1)
+    StartMovie("CBSOUBAR")
+    TriggerActivation("CbGoNorthToAR4350",FALSE)
+    TriggerActivation("CbExitForTrainingTriel",FALSE)
+    TriggerActivation("Door3317",FALSE)
+    TriggerActivation("Door3318",FALSE)
+    TriggerActivation("Door3304",FALSE)
+    Lock("Door3304")
+    Continue()
+END
+
+IF
+  GlobalGT("CbPartyIsInSoubarMilitia","GLOBAL",6)
+  GlobalGT("CbMajorExplainsHowToGetToLyrars","GLOBAL",0)
+THEN
+  RESPONSE #100
+    TriggerActivation("CbGoNorthToAR4350",TRUE)
+    Continue()
+END
+
+IF
+  Global("CbOpenTrainingArea","GLOBAL",1)
+THEN
+  RESPONSE #100
+    TriggerActivation("CbExitForTrainingTriel",TRUE)
+    Continue()
+END
+
+IF
+  Global("CbEntered4230","AR4230",0)
+THEN
+  RESPONSE #100
+    CreateCreature("CBSBVILa",[3723.1803],2)  // ~Soubar Villager~
+    CreateCreature("CBSBVILb",[1867.2005],6)  // ~Soubar Villager~
+    CreateCreature("CBSBVILc",[1632.2731],9)  // ~Soubar Villager~
+    CreateCreature("CBSBVILd",[3157.2496],14)  // ~Soubar Villager~
+    CreateCreature("CBSBVILe",[1707.3285],1)  // ~Soubar Villager~
+    CreateCreature("CBSBVILf",[2635.907],5)  // ~Soubar Villager~
+    CreateCreature("CBSBVILg",[800.1397],10)  // ~Soubar Villager~
+    CreateCreature("CBSBVILh",[3829.2805],12)  // ~Soubar Villager~
+    CreateCreature("CBSBVILi",[2112.1472],3)  // ~Soubar Villager~
+    CreateCreature("CBSBVILj",[1408.3221],6)  // ~Soubar Villager~
+    CreateCreature("CBSBVILa",[3723.1803],2)  // ~Soubar Villager~
+    CreateCreature("CBSBVILb",[1867.2005],6)  // ~Soubar Villager~
+    CreateCreature("CBSBVILc",[1632.2731],9)  // ~Soubar Villager~
+    CreateCreature("CBSBVILd",[3157.2496],14)  // ~Soubar Villager~
+    CreateCreature("CBSBVILe",[1707.3285],1)  // ~Soubar Villager~
+    CreateCreature("CBSBVILf",[2635.907],5)  // ~Soubar Villager~
+    CreateCreature("CBSBVILg",[800.1397],10)  // ~Soubar Villager~
+    CreateCreature("CBSBVILh",[3829.2805],12)  // ~Soubar Villager~
+    CreateCreature("CBSBVILi",[2112.1472],3)  // ~Soubar Villager~
+    CreateCreature("CBSBVILj",[1408.3221],6)  // ~Soubar Villager~
+    CreateCreature("CBSOUGRD",[425.1288],0)  // ~Soubar Guard~
+    CreateCreature("CBSOUGRD",[1874.1288],0)  // ~Soubar Guard~
+    CreateCreature("CBSOUGRD",[3292.2378],0)  // ~Soubar Guard~
+    CreateCreature("CBSOUGRD",[3980.2425],0)  // ~Soubar Guard~
+    CreateCreature("CBSOUGRD",[4779.1666],0)  // ~Soubar Guard~
+    CreateCreature("CBSOUGRD",[4759.1558],0)  // ~Soubar Guard~
+    CreateCreature("CBSOUGRD",[4168.3366],0)  // ~Soubar Guard~
+    CreateCreature("CBSOUGRD",[2596.3379],0)  // ~Soubar Guard~
+    CreateCreature("CBSOUGRD",[1521.3365],0)  // ~Soubar Guard~
+    CreateCreature("CBSOUGRD",[110.2922],0)  // ~Soubar Guard~
+    CreateCreature("CBSOBGRD",[4547.2967],0)  // ~Soubar Guard~
+    CreateCreature("CBSOBGRD",[4672.2967],0)  // ~Soubar Guard~
+    CreateCreature("CBSOBGRD",[3428.2102],13)  // ~Soubar Guard~
+    CreateCreature("CBSOBGRD",[3483.2032],13)  // ~Soubar Guard~
+    CreateCreature("EAGLE",[693.1237],0)  // ~Eagle~
+    CreateCreature("EAGLE",[4555.1696],0)  // ~Eagle~
+    CreateCreature("NCAT",[693.1237],0)  // ~Cat~
+    CreateCreature("NCAT",[4555.1696],0)  // ~Cat~
+    CreateCreature("NDOG",[2187.1035],0)  // ~Dog~
+    CreateCreature("NDOG",[608.2859],0)  // ~Dog~
+    CreateCreature("NDOG",[2784.2987],0)  // ~Dog~
+    CreateCreature("NCHICK",[4248.620],0)  // ~Chicken~
+    CreateCreature("NCHICK",[4091.723],0)  // ~Chicken~
+    CreateCreature("NCHICK",[4321.704],0)  // ~Chicken~
+    CreateCreature("NCHICK",[4262.753],0)  // ~Chicken~
+    CreateCreature("NCHICK",[4135.752],0)  // ~Chicken~
+    CreateCreature("NCHICK",[4348.904],0)  // ~Chicken~
+    CreateCreature("NCHICK",[4097.902],0)  // ~Chicken~
+    CreateCreature("NCOW",[3555.396],0)  // ~Cow~
+    CreateCreature("NCOW",[4278.1048],0)  // ~Cow~
+    CreateCreature("NCOW",[4062.1056],0)  // ~Cow~
+    CreateCreature("NCOW",[4039.386],0)  // ~Cow~
+    CreateCreature("HORSE",[4492.1911],0)  // ~Horse~
+    CreateCreature("HORSE",[4204.2358],0)  // ~Horse~
+    SetGlobal("CbEntered4230","AR4230",1)
+END
+
+IF
+  Global("CbPartySquadCreated","GLOBAL",1)
+THEN
+  RESPONSE #100
+    CreateCreature("CBSOBGR1",[4586.3077],6)  // ~Soubar Guard~
+    CreateCreature("CBSOBGR2",[4647.3073],6)  // ~Soubar Guard~
+    CreateCreature("CBSOBGR3",[4601.3127],6)  // ~Soubar Guard~
+    CreateCreature("CBSOBGR4",[4665.3123],6)  // ~Soubar Guard~
+    CreateCreature("CBSOBGR5",[4613.3187],6)  // ~Soubar Guard~
+    SetGlobal("CbPartySquadCreated","GLOBAL",2)
+END
+
+IF
+  Global("CbTenGuardsCreated4230","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbTenGuardsCreated4230","GLOBAL",2)
+    CreateCreature("CBSOBGRD",[1626.191],8)  // ~Soubar Guard~
+    CreateCreature("CBSOBGRD",[1754.318],7)  // ~Soubar Guard~
+    CreateCreature("CBSOBGRD",[1898.357],5)  // ~Soubar Guard~
+    CreateCreature("CBSOBGRD",[1981.221],3)  // ~Soubar Guard~
+    CreateCreature("CBSOBGRD",[4840.1225],10)  // ~Soubar Guard~
+    CreateCreature("CBSOBGRD",[4755.1364],12)  // ~Soubar Guard~
+    CreateCreature("CBSOBGRD",[4839.1476],8)  // ~Soubar Guard~
+    CreateCreature("CBSOBGRD",[4226.1472],10)  // ~Soubar Guard~
+    CreateCreature("CBSOBGRD",[381.880],4)  // ~Soubar Guard~
+    CreateCreature("CBSOBGRD",[302.986],2)  // ~Soubar Guard~
+END
+
+IF
+  Global("CbPartyIsInSoubarMilitia","GLOBAL",6)
+  GlobalGT("CbDeliveringMissives","GLOBAL",2)
+  Global("CbASpyWasJailed","GLOBAL",1)
+  Global("CbSoubarIsAttacked","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CbSoubarIsAttacked","GLOBAL",2)
+    CreateCreatureOffScreen("CBRTRALT",0)  // ~Soubar Sergeant~
+END
+
+IF
+  Global("CbPartyIsInSoubarMilitia","GLOBAL",6)
+  GlobalGT("CbDeliveringMissives","GLOBAL",2)
+  Global("CbASpyEscaped","GLOBAL",1)
+  Global("CbSoubarIsAttacked","GLOBAL",1)
+  GlobalsGT("CbCompTo_N_E","CbCompTo_N_W")
+THEN
+  RESPONSE #100
+    SetGlobal("CbSoubarIsAttacked","GLOBAL",2)
+    CreateCreatureOffScreen("CBRTRALT",0)  // ~Soubar Sergeant~
+    CreateCreature("CBRTRBDa",[453.945],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDb",[474.1118],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDc",[287.1139],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDd",[220.1035],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDe",[235.868],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDg",[618.869],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDh",[359.653],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDi",[231.661],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDj",[595.586],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDk",[320.800],0)  // ~Squad Leader~
+    CreateCreature("CBSBVILa",[3723.1803],2)  // ~Soubar Villager~
+    CreateCreature("CBSBVILb",[1867.2005],6)  // ~Soubar Villager~
+    CreateCreature("CBSBVILc",[1632.2731],9)  // ~Soubar Villager~
+    CreateCreature("CBSBVILd",[3157.2496],14)  // ~Soubar Villager~
+    CreateCreature("CBSBVILe",[1707.3285],1)  // ~Soubar Villager~
+    CreateCreature("CBSBVILf",[2635.907],5)  // ~Soubar Villager~
+    CreateCreature("CBSBVILg",[800.1397],10)  // ~Soubar Villager~
+    CreateCreature("CBSBVILh",[3829.2805],12)  // ~Soubar Villager~
+    CreateCreature("CBSBVILi",[2112.1472],3)  // ~Soubar Villager~
+    CreateCreature("CBSBVILj",[1408.3221],6)  // ~Soubar Villager~
+    CreateCreature("CBSBVILa",[3723.1803],2)  // ~Soubar Villager~
+    CreateCreature("CBSBVILb",[1867.2005],6)  // ~Soubar Villager~
+    CreateCreature("CBSBVILc",[1632.2731],9)  // ~Soubar Villager~
+    CreateCreature("CBSBVILd",[3157.2496],14)  // ~Soubar Villager~
+    CreateCreature("CBSBVILe",[1707.3285],1)  // ~Soubar Villager~
+    CreateCreature("CBSBVILf",[2635.907],5)  // ~Soubar Villager~
+    CreateCreature("CBSBVILg",[800.1397],10)  // ~Soubar Villager~
+    CreateCreature("CBSBVILh",[3829.2805],12)  // ~Soubar Villager~
+    CreateCreature("CBSBVILi",[2112.1472],3)  // ~Soubar Villager~
+    CreateCreature("CBSBVILj",[1408.3221],6)  // ~Soubar Villager~
+END
+
+IF
+  Global("CbPartyIsInSoubarMilitia","GLOBAL",6)
+  GlobalGT("CbDeliveringMissives","GLOBAL",2)
+  Global("CbASpyEscaped","GLOBAL",1)
+  Global("CbSoubarIsAttacked","GLOBAL",1)
+  GlobalsEqual("CbCompTo_N_E","CbCompTo_N_W")
+THEN
+  RESPONSE #100
+    SetGlobal("CbSoubarIsAttacked","GLOBAL",2)
+    CreateCreatureOffScreen("CBRTRALT",0)  // ~Soubar Sergeant~
+    CreateCreature("CBRTRBDa",[1598.218],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDb",[1810.101],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDc",[2034.244],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDd",[2022.382],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDe",[1812.447],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDg",[1675.533],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDh",[1488.423],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDi",[2105.123],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDj",[2151.428],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDk",[1761.306],0)  // ~Squad Leader~
+    CreateCreature("CBSBVILa",[3723.1803],2)  // ~Soubar Villager~
+    CreateCreature("CBSBVILb",[1867.2005],6)  // ~Soubar Villager~
+    CreateCreature("CBSBVILc",[1632.2731],9)  // ~Soubar Villager~
+    CreateCreature("CBSBVILd",[3157.2496],14)  // ~Soubar Villager~
+    CreateCreature("CBSBVILe",[1707.3285],1)  // ~Soubar Villager~
+    CreateCreature("CBSBVILf",[2635.907],5)  // ~Soubar Villager~
+    CreateCreature("CBSBVILg",[800.1397],10)  // ~Soubar Villager~
+    CreateCreature("CBSBVILh",[3829.2805],12)  // ~Soubar Villager~
+    CreateCreature("CBSBVILi",[2112.1472],3)  // ~Soubar Villager~
+    CreateCreature("CBSBVILj",[1408.3221],6)  // ~Soubar Villager~
+    CreateCreature("CBSBVILa",[3723.1803],2)  // ~Soubar Villager~
+    CreateCreature("CBSBVILb",[1867.2005],6)  // ~Soubar Villager~
+    CreateCreature("CBSBVILc",[1632.2731],9)  // ~Soubar Villager~
+    CreateCreature("CBSBVILd",[3157.2496],14)  // ~Soubar Villager~
+    CreateCreature("CBSBVILe",[1707.3285],1)  // ~Soubar Villager~
+    CreateCreature("CBSBVILf",[2635.907],5)  // ~Soubar Villager~
+    CreateCreature("CBSBVILg",[800.1397],10)  // ~Soubar Villager~
+    CreateCreature("CBSBVILh",[3829.2805],12)  // ~Soubar Villager~
+    CreateCreature("CBSBVILi",[2112.1472],3)  // ~Soubar Villager~
+    CreateCreature("CBSBVILj",[1408.3221],6)  // ~Soubar Villager~
+END
+
+IF
+  Global("CbPartyIsInSoubarMilitia","GLOBAL",6)
+  GlobalGT("CbDeliveringMissives","GLOBAL",2)
+  Global("CbASpyEscaped","GLOBAL",1)
+  Global("CbSoubarIsAttacked","GLOBAL",1)
+  GlobalsGT("CbCompTo_N_W","CbCompTo_N_E")
+THEN
+  RESPONSE #100
+    SetGlobal("CbSoubarIsAttacked","GLOBAL",2)
+    CreateCreatureOffScreen("CBRTRALT",0)  // ~Soubar Sergeant~
+    CreateCreature("CBRTRBDa",[4758.1285],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDb",[4772.1471],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDc",[4918.1664],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDd",[4688.1705],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDe",[4602.1576],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDg",[4445.1429],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDh",[4402.1297],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDi",[4307.1275],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDj",[4389.1460],0)  // ~Squad Leader~
+    CreateCreature("CBRTRBDk",[4430.1641],0)  // ~Squad Leader~
+    CreateCreature("CBSBVILa",[3723.1803],2)  // ~Soubar Villager~
+    CreateCreature("CBSBVILb",[1867.2005],6)  // ~Soubar Villager~
+    CreateCreature("CBSBVILc",[1632.2731],9)  // ~Soubar Villager~
+    CreateCreature("CBSBVILd",[3157.2496],14)  // ~Soubar Villager~
+    CreateCreature("CBSBVILe",[1707.3285],1)  // ~Soubar Villager~
+    CreateCreature("CBSBVILf",[2635.907],5)  // ~Soubar Villager~
+    CreateCreature("CBSBVILg",[800.1397],10)  // ~Soubar Villager~
+    CreateCreature("CBSBVILh",[3829.2805],12)  // ~Soubar Villager~
+    CreateCreature("CBSBVILi",[2112.1472],3)  // ~Soubar Villager~
+    CreateCreature("CBSBVILj",[1408.3221],6)  // ~Soubar Villager~
+    CreateCreature("CBSBVILa",[3723.1803],2)  // ~Soubar Villager~
+    CreateCreature("CBSBVILb",[1867.2005],6)  // ~Soubar Villager~
+    CreateCreature("CBSBVILc",[1632.2731],9)  // ~Soubar Villager~
+    CreateCreature("CBSBVILd",[3157.2496],14)  // ~Soubar Villager~
+    CreateCreature("CBSBVILe",[1707.3285],1)  // ~Soubar Villager~
+    CreateCreature("CBSBVILf",[2635.907],5)  // ~Soubar Villager~
+    CreateCreature("CBSBVILg",[800.1397],10)  // ~Soubar Villager~
+    CreateCreature("CBSBVILh",[3829.2805],12)  // ~Soubar Villager~
+    CreateCreature("CBSBVILi",[2112.1472],3)  // ~Soubar Villager~
+    CreateCreature("CBSBVILj",[1408.3221],6)  // ~Soubar Villager~
+END
+
+IF
+  Global("CbOrderCompanyOfGuard","GLOBAL",1)
+  Global("CbPartyIsInSoubarMilitia","GLOBAL",5)
+  Global("CbRiverOfOrchids","GLOBAL",1)
+  !GlobalGT("CbDeliveringMissives","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbOrderCompanyOfGuard","GLOBAL",2)
+    SetGlobal("CbRiverOfOrchids","GLOBAL",2)
+    CreateCreature("CBCOMP01",[3275.2350],6)  // ~Soubar Guard~
+    CreateCreature("CBCOMP01",[3275.2400],6)  // ~Soubar Guard~
+    CreateCreature("CBCOMP01",[3275.2450],6)  // ~Soubar Guard~
+    CreateCreature("CBCOMP01",[3275.2500],6)  // ~Soubar Guard~
+    CreateCreature("CBCOMP01",[3275.2550],6)  // ~Soubar Guard~
+    CreateCreature("CBCOMP01",[3375.2350],6)  // ~Soubar Guard~
+    CreateCreature("CBCOMP01",[3375.2400],6)  // ~Soubar Guard~
+    CreateCreature("CBCOMP01",[3375.2450],6)  // ~Soubar Guard~
+    CreateCreature("CBCOMP01",[3375.2500],6)  // ~Soubar Guard~
+    CreateCreature("CBCOMP01",[3375.2550],6)  // ~Soubar Guard~
+    CreateCreature("CBCOMP01",[3475.2350],6)  // ~Soubar Guard~
+    CreateCreature("CBCOMP01",[3475.2400],6)  // ~Soubar Guard~
+    CreateCreature("CBCOMP01",[3475.2450],6)  // ~Soubar Guard~
+    CreateCreature("CBCOMP01",[3475.2500],6)  // ~Soubar Guard~
+    CreateCreature("CBCOMP01",[3475.2550],6)  // ~Soubar Guard~
+    CreateCreature("CBCOMP01",[3575.2350],6)  // ~Soubar Guard~
+    CreateCreature("CBCOMP01",[3575.2400],6)  // ~Soubar Guard~
+    CreateCreature("CBCOMP01",[3575.2450],6)  // ~Soubar Guard~
+    CreateCreature("CBCOMP01",[3575.2500],6)  // ~Soubar Guard~
+    CreateCreature("CBCOMP01",[3575.2550],6)  // ~Soubar Guard~
+END
+
+IF
+  Global("CbRecruiting","GLOBAL",4)
+  Global("CbBanditRaidOnSoubar","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbBanditRaidOnSoubar","GLOBAL",1)
+    SetGlobal("CbRecruiting","GLOBAL",5)
+    CreateCreature("CBSOBANN",[2180.2220],0)  // ~Soubar Villager~
+    CreateCreature("CB230BLA",[4739.1428],0)  // ~Squad Leader~
+    CreateCreature("CB230BLB",[2350.460],0)  // ~Squad Leader~
+    CreateCreature("CB230BLC",[433.1261],0)  // ~Squad Leader~
+    CreateCreature("CB230BLD",[4380.1370],0)  // ~Squad Leader~
+END
+
+IF
+  Global("CbSpyIsNotSSC","GLOBAL",1)
+  Global("CbCounted_SSC","AR4230",0)
+THEN
+  RESPONSE #100
+    IncrementGlobal("CbOneSpyDown","GLOBAL",1)
+    SetGlobal("CbCounted_SSC","AR4230",1)
+END
+
+IF
+  Global("CbSpyIsNotCharlie","GLOBAL",1)
+  Global("CbCounted_Charlie","AR4230",0)
+THEN
+  RESPONSE #100
+    IncrementGlobal("CbOneSpyDown","GLOBAL",1)
+    SetGlobal("CbCounted_Charlie","AR4230",1)
+END
+
+IF
+  Global("CbSpyIsNotMayor","GLOBAL",1)
+  Global("CbCounted_Mayor","AR4230",0)
+THEN
+  RESPONSE #100
+    IncrementGlobal("CbOneSpyDown","GLOBAL",1)
+    SetGlobal("CbCounted_Mayor","AR4230",1)
+END
+
+IF
+  Global("CbSpyIsNotRanger","GLOBAL",1)
+  Global("CbCounted_Ranger","AR4230",0)
+THEN
+  RESPONSE #100
+    IncrementGlobal("CbOneSpyDown","GLOBAL",1)
+    SetGlobal("CbCounted_Ranger","AR4230",1)
+END
+
+IF
+  Global("CbSpyIsNotFighter","GLOBAL",1)
+  Global("CbCounted_Fighter","AR4230",0)
+THEN
+  RESPONSE #100
+    IncrementGlobal("CbOneSpyDown","GLOBAL",1)
+    SetGlobal("CbCounted_Fighter","AR4230",1)
+END
+
+IF
+  Global("CbSpyIsNotMiller","GLOBAL",1)
+  Global("CbCounted_Miller","AR4230",0)
+THEN
+  RESPONSE #100
+    IncrementGlobal("CbOneSpyDown","GLOBAL",1)
+    SetGlobal("CbCounted_Miller","AR4230",1)
+END
+
+IF
+  Global("CbSpyIsNotWinthrop","GLOBAL",1)
+  Global("CbCounted_Winthrop","AR4230",0)
+THEN
+  RESPONSE #100
+    IncrementGlobal("CbOneSpyDown","GLOBAL",1)
+    SetGlobal("CbCounted_Winthrop","AR4230",1)
+END
+

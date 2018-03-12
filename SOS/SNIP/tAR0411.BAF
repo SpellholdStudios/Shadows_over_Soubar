@@ -1,0 +1,10 @@
+IF
+	OnCreation()
+	Global("CbSomeoneEnteredPlanerSphere","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSomeoneEnteredPlanerSphere","GLOBAL",1)
+ 	        Continue()
+END
+
+

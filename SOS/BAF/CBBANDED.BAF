@@ -1,0 +1,69 @@
+IF
+  See([ANYONE])
+  !Allegiance(LastSeenBy(Myself),ENEMY)
+  OR(3)
+    Class(LastSeenBy(Myself),PALADIN_ALL)
+    Class(LastSeenBy(Myself),CLERIC_ALL)
+    Class(LastSeenBy(Myself),DRUID_ALL)
+  StateCheck(LastSeenBy(Myself),STATE_NORMAL)
+THEN
+  RESPONSE #100
+    Attack(LastSeenBy(Myself))
+END
+
+IF
+  See([ANYONE])
+  HasItem("MISC04",LastSeenBy(Myself))  // ~Bassilus' Holy Symbol~
+THEN
+  RESPONSE #100
+    Attack(LastSeenBy(Myself))
+END
+
+//IF
+//  See("DCLERIC")  // ~Mad Cleric~
+//THEN
+//  RESPONSE #100
+//    Attack("DCLERIC")
+//END
+
+IF
+  See([PC])
+  CharName("Cyric",Player1)
+THEN
+  RESPONSE #100
+    Attack(Player1)
+END
+
+IF
+  See([ANYONE])
+  !Allegiance(LastSeenBy(Myself),ENEMY)
+  OR(3)
+    Class(LastSeenBy(Myself),PALADIN_ALL)
+    Class(LastSeenBy(Myself),CLERIC_ALL)
+    Class(LastSeenBy(Myself),DRUID_ALL)
+  Alignment(LastSeenBy(Myself),MASK_GOOD)
+THEN
+  RESPONSE #100
+    Attack(LastSeenBy(Myself))
+END
+
+IF
+  See([ANYONE])
+  !Allegiance(LastSeenBy(Myself),ENEMY)
+  OR(3)
+    Class(LastSeenBy(Myself),PALADIN_ALL)
+    Class(LastSeenBy(Myself),CLERIC_ALL)
+    Class(LastSeenBy(Myself),DRUID_ALL)
+THEN
+  RESPONSE #100
+    Attack(LastSeenBy(Myself))
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  ActionListEmpty()
+THEN
+  RESPONSE #100
+    AttackReevaluate(LastSeenBy(Myself),10)
+END
+

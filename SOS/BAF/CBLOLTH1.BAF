@@ -1,0 +1,75 @@
+IF
+  Global("CbLolthIntroducesHerself","LOCALS",0)
+  See([GOODCUTOFF])
+  NumberOfTimesTalkedTo(0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbLolthIntroducesHerself","LOCALS",1)
+    StartDialogNoSet([GOODCUTOFF])
+END
+
+IF
+  HPLT(Myself,2)
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    SetGlobal("CbLolthChanging","AR4211",1)
+    StartDialogNoSet(Player1)
+    SetInterrupt(TRUE)
+END
+
+IF
+  See([PC.0.0.MAGE])
+  OR(10)
+    See([PC.0.0.CLERIC])
+    See([PC.0.0.FIGHTER_MAGE])
+    See([PC.0.0.FIGHTER_CLERIC])
+    See([PC.0.0.FIGHTER_MAGE_THIEF])
+    See([PC.0.0.MAGE_THIEF])
+    See([PC.0.0.CLERIC_MAGE])
+    See([PC.0.0.CLERIC_THIEF])
+    See([PC.0.0.FIGHTER_MAGE_CLERIC])
+    See([PC.0.0.CLERIC_RANGER])
+    See([PC.0.0.SORCERER])
+  Global("CbLolthOneAppliedProtection","LOCALS",0)
+THEN
+  RESPONSE #100
+    ApplySpell(Myself,WIZARD_SPELL_TURNING)
+    SetGlobal("CbLolthOneAppliedProtection","LOCALS",1)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Delay(20)
+THEN
+  RESPONSE #100
+    ReallyForceSpell(Myself,3575)
+END
+
+IF
+  HPLT(Myself,100)
+  !See("CBSPLLTH")  // ~Small Spider~
+  GlobalLT("CbLolthSummonedASpider","LOCALS",11)
+THEN
+  RESPONSE #100
+    CreateCreature("CBSPLLTH",[-1.-1],0)  // ~Small Spider~
+    DisplayString(Myself,71992)  // ~Summon Spider~
+    IncrementGlobal("CbLolthSummonedASpider","LOCALS",1)
+END
+
+IF
+  HPLT(Myself,80)
+  GlobalLT("CbLolthOneHeals","LOCALS",2)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,CLERIC_HEAL)
+    IncrementGlobal("CbLolthOneHeals","LOCALS",1)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),9)
+END
+

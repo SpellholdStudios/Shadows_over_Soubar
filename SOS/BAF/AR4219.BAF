@@ -1,0 +1,31 @@
+IF
+  OnCreation()
+  Global("CbProblemsWithContacts","AR4219",0)
+THEN
+  RESPONSE #100
+    CreateCreature("CBUHAKCT",[882.171],5)  // ~Arvin Kothonos~
+    CreateCreature("CBUHGVCT",[920.230],6)  // ~Gaius Varros~
+    SetGlobal("CbProblemsWithContacts","AR4219",1)  //**********************************
+END
+
+IF
+  !Exists("CBUHAKCT")  // ~Arvin Kothonos~
+  GlobalLT("CbPartyHelpsSoubar","AR4219",9)
+THEN
+  RESPONSE #100
+    CreateCreature("CBUHAKCT",[882.171],5)  // ~Arvin Kothonos~
+END
+
+IF
+  Global("CbGvAndAkLeave","AR4219",3)
+  Global("CbGvAndAkLeaveKDCheck","AR4219",0)
+THEN
+  RESPONSE #100
+    ActionOverride("CBUHGVCT",MoveToObject("UHINN01"))
+    ActionOverride("CBUHAKCT",Wait(1))
+    ActionOverride("CBUHAKCT",MoveToObject("UHINN01"))
+    ActionOverride("CBUHAKCT",EscapeArea())
+    ActionOverride("CBUHGVCT",EscapeArea())
+    SetGlobal("CbGvAndAkLeaveKDCheck","AR4219",1)   //**********************************
+END
+

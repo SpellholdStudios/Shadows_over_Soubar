@@ -1,0 +1,11 @@
+IF
+  Allegiance(Myself,ENEMY)
+  !HasItemEquiped("HALB11",Myself)
+THEN
+  RESPONSE #100
+    GiveItemCreate("HALB11",Myself,1,0,0)  // ~Ravager +6~
+    FillSlot(SLOT_WEAPON0)
+    EquipItem("HALB11")
+    EquipMostDamagingMelee()
+END
+

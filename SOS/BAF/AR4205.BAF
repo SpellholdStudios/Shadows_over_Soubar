@@ -1,0 +1,14 @@
+IF
+  OnCreation()
+  Global("CbCreatedArea4205","AR4205",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbCreatedArea4205","AR4205",1)
+    CreateCreature("CBDRBUCK",[826.362],0)  // ~Betra Bucko~
+    CreateCreature("CBBUCKMO",[828.438],12)  // ~Master Werewolf~
+    CreateCreature("WEREGR01",[897.556],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[818.526],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[714.467],12)  // ~Greater Werewolf~
+    CreateCreature("WEREGR01",[502.628],12)  // ~Greater Werewolf~
+END
+

@@ -1,0 +1,116 @@
+IF
+  TimeGT(20)
+  TimeLT(MIDNIGHT)
+  OnCreation()
+THEN
+  RESPONSE #100
+    Deactivate(Myself)
+END
+
+IF
+  Time(MIDNIGHT)
+  OnCreation()
+THEN
+  RESPONSE #100
+    Deactivate(Myself)
+END
+
+IF
+  TimeGT(MIDNIGHT)
+  TimeLT(8)
+  OnCreation()
+THEN
+  RESPONSE #100
+    Deactivate(Myself)
+END
+
+IF
+  TimeGT(DAWN_END)
+  TimeLT(DUSK_START)
+  OnCreation()
+THEN
+  RESPONSE #100
+    Activate(Myself)
+END
+
+IF
+  Global("CbTrielThrust","AR4351",1)
+  Global("CbTrainThrust","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbTrainThrust","LOCALS",1)
+    StartDialogNoSet("CB351GD3")
+END
+
+IF
+  Global("CbTrielSlash","AR4351",1)
+  Global("CbTrainSlash","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbTrainSlash","LOCALS",1)
+    StartDialogNoSet("CB351GD3")
+END
+
+IF
+  Global("CbTrielOverhand","AR4351",1)
+  Global("CbTrainOverhand","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbTrainOverhand","LOCALS",1)
+    StartDialogNoSet("CB351GD3")
+END
+
+IF
+  Global("CbTrielRanged","AR4351",1)
+  Global("CbTrainRanged","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbTrainRanged","LOCALS",1)
+    StartDialogNoSet("CB351GD3")
+END
+
+IF
+  Global("CbTrielForm4","AR4351",1)
+  Global("CbTrainForm4","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbTrainForm4","LOCALS",1)
+    StartDialogNoSet("CB351GD3")
+END
+
+IF
+  Global("CbTrielForm6","AR4351",1)
+  Global("CbTrainForm6","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbTrainForm6","LOCALS",1)
+    StartDialogNoSet("CB351GD3")
+END
+
+IF
+  Global("CbTrielForm9","AR4351",1)
+  Global("CbTrainForm9","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbTrainForm9","LOCALS",1)
+    StartDialogNoSet("CB351GD3")
+END
+
+IF
+  Global("CbTrielPatrolTown","AR4351",1)
+  Global("CbTrielPatrolTown","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbTrielPatrolTown","LOCALS",1)
+    StartDialogNoSet("CB351GD3")
+END
+
+IF
+  Global("CbTrielStandGuard","AR4351",1)
+  Global("CbTrielStandGuard","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbTrielStandGuard","LOCALS",1)
+    StartDialogNoSet("CB351GD3")
+END
+

@@ -1,0 +1,233 @@
+IF
+  Global("CbCharlotteLeaves","GLOBAL",2)
+THEN
+  RESPONSE #100
+    DestroySelf()
+    Continue()
+END
+
+IF
+  !InMyArea("CHARLOTT")  // CHARLOTT
+THEN
+  RESPONSE #100
+    DestroySelf()
+    Continue()
+END
+
+IF
+  Dead("CHARLOTT")  // CHARLOTT
+  !Exists(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+//    ForceSpell(Myself,118)
+    Wait(5)
+    DestroySelf()
+    Continue()
+END
+
+IF
+  !InParty("CHARLOTT")  // CHARLOTT
+  Allegiance("CHARLOTT",ENEMY)  // CHARLOTT
+THEN
+  RESPONSE #100
+    Enemy()
+    EquipMostDamagingMelee()
+    AttackReevaluate(LastTargetedBy("CHARLOTT"),30)
+    Continue()
+END
+
+//IF
+//  Detect([ENEMY])
+//  StateCheck([ENEMY],STATE_INVISIBLE)
+//  HaveSpell(601)
+//THEN
+//  RESPONSE #100
+//    Spell(Myself,601)
+//    Continue()
+//END
+
+//IF
+//  See([ENEMY])
+//  NumCreatureGT([ENEMY],5)
+//  HaveSpell(602)
+//THEN
+//  RESPONSE #20
+//    Spell(NearestEnemyOf(Myself),602)
+//    Continue()
+//END
+
+IF
+  HitBy([ANYONE],POISON)
+THEN
+  RESPONSE #100
+    Shout(1)
+    Continue()
+END
+
+/*IF
+  HPPercentLT(Myself,35)
+  HaveSpell(101)
+THEN
+  RESPONSE #100
+    Spell(Myself,101)
+    Continue()
+END*/
+
+IF
+  Delay(2)
+  HPPercentLT(Myself,35)
+THEN
+  RESPONSE #95
+    Shout(2)
+    Continue()
+  RESPONSE #5
+    VerbalConstant(Myself,HURT)
+    Shout(2)
+    Continue()
+END
+
+/*IF
+  Heard([PC],2)
+  HaveSpell(101)
+THEN
+  RESPONSE #100
+    Spell(LastHeardBy(Myself),101)
+    Continue()
+END*/
+
+IF
+  AttackedBy([ANYONE],DEFAULT)
+  InParty(LastAttackerOf(Myself))
+  StateCheck(LastAttackerOf(Myself),STATE_CHARMED)
+THEN
+  RESPONSE #100
+    RunAwayFrom(LastAttackerOf(Myself),75)
+    Continue()
+END
+
+IF
+  AttackedBy([ANYONE],DEFAULT)
+  InParty(LastAttackerOf(Myself))
+  !StateCheck(LastAttackerOf(Myself),STATE_CHARMED)
+THEN
+  RESPONSE #100
+    Shout(3)
+    EquipMostDamagingMelee()
+    AttackReevaluate(LastAttackerOf(Myself),30)
+    Continue()
+END
+
+IF
+  AttackedBy([ENEMY],DEFAULT)
+  Range(LastAttackerOf(Myself),5)
+  !StateCheck(LastAttackerOf(Myself),STATE_PANIC)
+THEN
+  RESPONSE #100
+    Shout(3)
+    EquipMostDamagingMelee()
+    AttackReevaluate(LastAttackerOf(Myself),30)
+    Continue()
+END
+
+IF
+  Heard([PC],3)
+  See(LastAttackerOf(LastHeardBy(Myself)))
+  !InParty(LastAttackerOf(LastHeardBy(Myself)))
+  Range(LastAttackerOf(LastHeardBy(Myself)),5)
+  !StateCheck(LastAttackerOf(LastHeardBy(Myself)),STATE_PANIC)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    AttackReevaluate(LastAttackerOf(LastHeardBy(Myself)),30)
+    Continue()
+END
+
+IF
+  See([ENEMY])
+  !InParty([ENEMY])
+  Range([ENEMY],5)
+  !StateCheck([ENEMY],STATE_PANIC)
+THEN
+  RESPONSE #100
+    Shout(4)
+    EquipMostDamagingMelee()
+    AttackReevaluate([ENEMY],30)
+    Continue()
+END
+
+IF
+  Heard([PC],4)
+  See(LastTargetedBy(LastHeardBy(Myself)))
+  !InParty(LastTargetedBy(LastHeardBy(Myself)))
+  Range(LastTargetedBy(LastHeardBy(Myself)),5)
+  !StateCheck(LastTargetedBy(LastHeardBy(Myself)),STATE_PANIC)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    AttackReevaluate(LastTargetedBy(LastHeardBy(Myself)),30)
+    Continue()
+END
+
+IF
+  !See([ENEMY])
+  Help([PC])
+  !Range(LastHelp(Myself),5)
+THEN
+  RESPONSE #100
+    MoveToObject(LastHelp(Myself))
+    Continue()
+END
+
+IF
+  HPPercentLT("CHARLOTT",100)  // CHARLOTT
+  Exists(LastAttackerOf("CHARLOTT"))  // CHARLOTT
+THEN
+  RESPONSE #100
+    AttackReevaluate(LastAttackerOf("CHARLOTT"),10)
+    Continue()
+END
+
+IF
+  Exists("CHARLOTT")  // CHARLOTT
+  Global("CbCharlotteBear","GLOBAL",2)
+  Global("CbCharlotteBearClaw","GLOBAL",0)
+THEN
+  RESPONSE #100
+//    ForceSpell(Myself,603)
+    SetGlobal("CbCharlotteBearClaw","GLOBAL",1)
+    SetGlobal("CbCharlotteBearGrowlEvil","GLOBAL",0)
+    Continue()
+END
+
+IF
+  Exists("CHARLOTT")  // CHARLOTT
+  !Exists(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    Formation("CHARLOTT",[2.4])
+    Continue()
+END
+
+IF
+  !Exists(NearestEnemyOf(Myself))
+  !Range("CHARLOTT",10)  // CHARLOTT
+  Delay(10)
+THEN
+  RESPONSE #100
+    DestroySelf()
+    SetGlobal("CbCharlotteBearClaw","GLOBAL",0)
+    SetGlobal("CbCharlotteBear","GLOBAL",1)
+    Continue()
+END
+
+IF
+  Die()
+THEN
+  RESPONSE #100
+//    ReallyForceSpell(Myself,118)
+    Wait(5)
+    DestroySelf()
+    SetGlobalTimer("CbCharlotteBearDie","GLOBAL",ONE_DAY)
+    Continue()
+END
+

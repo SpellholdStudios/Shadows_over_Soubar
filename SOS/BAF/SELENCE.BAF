@@ -1,0 +1,209 @@
+IF
+  Global("CbSelenceGaveFirstJob","LOCALS",1)
+  Global("CbSelenceHiddenJournal","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceHiddenJournal","LOCALS",1)
+    AddJournalEntry(@5090,QUEST)
+END
+
+IF
+  See([PC])
+  InParty(Myself)
+  Global("CbSelenceInteractsStronghold","LOCALS",0)
+  !AreaCheck("AR0313")
+  !See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceInteractsStronghold","LOCALS",1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  See([PC])
+  InParty(Myself)
+  Global("CbSelenceInteractsStronghold","LOCALS",2)
+  AreaCheck("AR0800")
+  !See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceInteractsStronghold","LOCALS",3)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  See([PC])
+  InParty(Myself)
+  Global("SPRITE_IS_DEADCBBNELCH","GLOBAL",1)
+  Global("CbSelenceInteractsStronghold","LOCALS",4)
+  !See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceInteractsStronghold","LOCALS",5)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  See([PC])
+  InParty(Myself)
+  GlobalGT("SPRITE_IS_DEADCBBNELCH","GLOBAL",3)
+  Global("CbSelenceInteractsStronghold","LOCALS",6)
+  !See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceInteractsStronghold","LOCALS",7)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  AreaCheck("AR4211")
+  GlobalLT("CbSelenceInteractsStronghold","LOCALS",8)
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceInteractsStronghold","LOCALS",8)
+END
+
+IF
+  AreaCheck("AR4211")
+  Global("CbLolthChanging","AR4211",2)
+  Global("CbSelenceInteractsStronghold","LOCALS",8)
+  !See(NearestEnemyOf(Myself))
+  CombatCounter(0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceInteractsStronghold","LOCALS",9)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  AreaCheck("AR4211")
+  Global("SPRITE_IS_DEADCBLOLTH3","GLOBAL",1)
+  Global("CbSelenceInteractsStronghold","LOCALS",10)
+  Global("CbHeresAnotherClueForYouAll","GLOBAL",0)
+  !See(NearestEnemyOf(Myself))
+  CombatCounter(0)
+THEN
+  RESPONSE #100
+    IncrementGlobal("CbSelenceHappyAboutStronghold","LOCALS",1)
+    SetGlobal("CbHeresAnotherClueForYouAll","GLOBAL",1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  AreaCheck("AR4212")
+  Global("SPRITE_IS_DEADCBDRAGDP","GLOBAL",1)
+  Global("CbTheWalrusWasPaul","GLOBAL",0)
+  Global("CbSelenceInteractsStronghold","LOCALS",10)
+  !See(NearestEnemyOf(Myself))
+  CombatCounter(0)
+THEN
+  RESPONSE #100
+    IncrementGlobal("CbSelenceHappyAboutStronghold","LOCALS",1)
+    SetGlobal("CbTheWalrusWasPaul","GLOBAL",1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("CbSelenceCantSayThisOneAgain","LOCALS",1)
+  Global("CbSelenceCantSayThisTwice","LOCALS",1)
+  Global("CbSelenceInteractsStronghold","LOCALS",10)
+  Delay(20)
+THEN
+  RESPONSE #100
+    SetGlobal("CbSelenceInteractsStronghold","LOCALS",15)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("CbSelenceGetsSmuggling","GLOBAL",2)
+  !GlobalTimerExpired("CbSelenceReturns","GLOBAL")
+  AreaCheck("AR4210")
+THEN
+  RESPONSE #100
+    Deactivate(Myself)
+    SetGlobal("CbSelenceGetsSmuggling","GLOBAL",3)
+END
+
+IF
+  Global("CbSelenceGetsSmuggling","GLOBAL",3)
+  GlobalTimerExpired("CbSelenceReturns","GLOBAL")
+  AreaCheck("AR4210")
+THEN
+  RESPONSE #100
+    Activate(Myself)
+    CreateCreature("CBSHTHIF",[2894.2184],12)  // ~Roger the Fence~
+    SetGlobal("CbSelenceGetsSmuggling","GLOBAL",4)
+END
+
+IF
+  GlobalTimerExpired("CbSelenceSmugglesTimer","GLOBAL")
+  Global("CbSelenceSmuggles","GLOBAL",1)
+  Global("CbSelenceReportsIncome01","LOCALS",0)
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("CbSelenceSmuggles","GLOBAL",3)
+  GlobalTimerExpired("CbSelenceSmugglesTimer","GLOBAL")
+  Global("CbSelenceReportsIncome02","LOCALS",0)
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("CbSelenceSmuggles","GLOBAL",5)
+  GlobalTimerExpired("CbSelenceSmugglesTimer","GLOBAL")
+  Global("CbSelenceReportsIncome03","LOCALS",0)
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("CbSelenceSmuggles","GLOBAL",7)
+  GlobalTimerExpired("CbSelenceSmugglesTimer","GLOBAL")
+  Global("CbSelenceReportsIncome04","LOCALS",0)
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("CbSelenceSmuggles","GLOBAL",9)
+  GlobalTimerExpired("CbSelenceSmugglesTimer","GLOBAL")
+  Global("CbSelenceReportsIncome05","LOCALS",0)
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("CbSelenceSmuggles","GLOBAL",11)
+  GlobalTimerExpired("CbSelenceSmugglesTimer","GLOBAL")
+  Global("CbSelenceReportsIncome06","LOCALS",0)
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("CbSelenceSmuggles","GLOBAL",13)
+  GlobalTimerExpired("CbSelenceSmugglesTimer","GLOBAL")
+  Global("CbSelenceReportsIncome07","LOCALS",0)
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Player1)
+END
+
+IF
+  Global("CbSelenceSmuggles","GLOBAL",15)
+  GlobalTimerExpired("CbSelenceSmugglesTimer","GLOBAL")
+  Global("CbSelenceReportsIncome08","LOCALS",0)
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Player1)
+END
+

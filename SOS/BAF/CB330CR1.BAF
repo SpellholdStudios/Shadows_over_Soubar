@@ -1,0 +1,102 @@
+IF
+  !StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+  OR(1)
+    !StateCheck(Myself,STATE_INVISIBLE)
+THEN
+  RESPONSE #100
+    ApplySpell(Myself,WIZARD_INVISIBILITY)
+END
+
+IF
+  See([ANYONE])
+  Range(LastSeenBy(Myself),10)
+  GlobalGT("CbTriggerFailedChecks","LOCALS",2)
+  !Global("CbRopeBridgeMade","AR4330",3)
+THEN
+  RESPONSE #100
+    GiveItemCreate("CB4330CT",Myself,1,0,0)  // ~Fast Current~
+    UseItem("CB4330CT",LastSeenBy(Myself))  // ~Fast Current~
+    ApplySpell(Myself,WIZARD_INVISIBILITY)
+    Wait(8)
+    SetGlobal("CbStrTriggerCheck","LOCALS",0)
+    SetGlobal("CbConTriggerCheck","LOCALS",0)
+    SetGlobal("CbFatigueTriggerCheck","LOCALS",0)
+    SetGlobal("CbDrunkTriggerCheck","LOCALS",0)
+    SetGlobal("CbColdResistTriggerCheck","LOCALS",0)
+    SetGlobal("CbHasteTriggerCheck","LOCALS",0)
+    SetGlobal("CbTriggerFailedChecks","LOCALS",0)
+    Continue()
+END
+
+IF
+  See([ANYONE])
+  Range(LastSeenBy(Myself),25)
+  CheckStatLT(LastSeenBy(Myself),17,STR)
+  Global("CbStrTriggerCheck","LOCALS",0)
+  !Global("CbRopeBridgeMade","AR4330",3)
+THEN
+  RESPONSE #100
+    SetGlobal("CbStrTriggerCheck","LOCALS",1)
+    IncrementGlobal("CbTriggerFailedChecks","LOCALS",1)
+END
+
+IF
+  See([ANYONE])
+  Range(LastSeenBy(Myself),25)
+  CheckStatLT(LastSeenBy(Myself),17,CON)
+  Global("CbConTriggerCheck","LOCALS",0)
+  !Global("CbRopeBridgeMade","AR4330",3)
+THEN
+  RESPONSE #100
+    SetGlobal("CbConTriggerCheck","LOCALS",1)
+    IncrementGlobal("CbTriggerFailedChecks","LOCALS",1)
+END
+
+IF
+  See([ANYONE])
+  Range(LastSeenBy(Myself),25)
+  CheckStatGT(LastSeenBy(Myself),0,FATIGUE)
+  Global("CbFatigueTriggerCheck","LOCALS",0)
+  !Global("CbRopeBridgeMade","AR4330",3)
+THEN
+  RESPONSE #100
+    SetGlobal("CbFatigueTriggerCheck","LOCALS",1)
+    IncrementGlobal("CbTriggerFailedChecks","LOCALS",1)
+END
+
+IF
+  See([ANYONE])
+  Range(LastSeenBy(Myself),25)
+  CheckStatGT(LastSeenBy(Myself),0,INTOXICATION)
+  Global("CbDrunkTriggerCheck","LOCALS",0)
+  !Global("CbRopeBridgeMade","AR4330",3)
+THEN
+  RESPONSE #100
+    SetGlobal("CbDrunkTriggerCheck","LOCALS",1)
+    IncrementGlobal("CbTriggerFailedChecks","LOCALS",1)
+END
+
+IF
+  See([ANYONE])
+  Range(LastSeenBy(Myself),25)
+  CheckStatLT(LastSeenBy(Myself),25,RESISTCOLD)
+  Global("CbColdResistTriggerCheck","LOCALS",0)
+  !Global("CbRopeBridgeMade","AR4330",3)
+THEN
+  RESPONSE #100
+    SetGlobal("CbColdResistTriggerCheck","LOCALS",1)
+    IncrementGlobal("CbTriggerFailedChecks","LOCALS",1)
+END
+
+IF
+  See([ANYONE])
+  Range(LastSeenBy(Myself),25)
+  CheckStatLT(LastSeenBy(Myself),1,IMPROVEDHASTE)
+  Global("CbHasteTriggerCheck","LOCALS",0)
+  !Global("CbRopeBridgeMade","AR4330",3)
+THEN
+  RESPONSE #100
+    SetGlobal("CbHasteTriggerCheck","LOCALS",1)
+    IncrementGlobal("CbTriggerFailedChecks","LOCALS",1)
+END
+

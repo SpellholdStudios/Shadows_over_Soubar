@@ -1,0 +1,32 @@
+IF
+  OnCreation()
+THEN
+  RESPONSE #100
+    ApplySpell(Myself,TROLL_SETHP1)
+    SetGlobal("CbBanelichFakeDeath","LOCALS",1)
+    PlayDead(3000)
+END
+
+IF
+  HPLT(Myself,12)
+  See(NearestEnemyOf(Myself))
+  Range(LastSeenBy(Myself),25)
+  Global("CbBanelichFakeDeath","LOCALS",1)
+  HasItem("CBKILLCH",LastSeenBy(Myself))  // ~Phylactery~
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    TakePartyItemNum("CBKILLCH",1)
+    DestroyItem("CBKILLCH")  // ~Phylactery~
+    UseItem("CBBNLCH0",Myself)  // ~Oil of Fiery Burning~
+    CreateVisualEffectObject("SPFIREPI",Myself)
+    Wait(1)
+    CreateVisualEffectObject("SPFIRSD2",Myself)
+    Wait(1)
+    DisplayString(Myself,14026)  // ~Death~
+    DestroySelf()
+    SetInterrupt(TRUE)
+    IncrementGlobal("SPRITE_IS_DEADCBBNELCH","GLOBAL",1)
+    AddexperienceParty(26000)
+END
+

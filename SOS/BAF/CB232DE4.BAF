@@ -1,0 +1,9 @@
+IF
+  Entered([GOODCUTOFF])
+THEN
+  RESPONSE #100
+    IncrementGlobal("CbPartyFoundDeadBody","AR4232",1)
+    DisplayStringHead(Myself,19344)  // ~This is a dead body.~
+    Deactivate(Myself)
+END
+

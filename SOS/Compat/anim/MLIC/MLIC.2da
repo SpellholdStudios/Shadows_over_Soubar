@@ -1,0 +1,41 @@
+MLIC/yeti (SoS)
+***
+						SOUND
+ATTACK          		yeti02 nosound nosound
+ATTACK          		0 0 0
+AWAKE           		***
+AWAKE           		0
+CAST            		***
+CAST            		0
+CONJURE         		***
+CONJURE         		0
+DAMAGE          		yeti08
+DAMAGE          		0
+DIE             		yeti10 yeti09
+DIE             		0 0
+HEAD_TURN       		yeti11
+HEAD_TURN       		0
+READY           		***
+READY           		0
+SHOOT           		***
+SHOOT           		0
+TWITCH          		***
+TWITCH          		0
+WALK            		yeti02
+WALK            		0
+ATTACK_SLASH    		yeti03 nosound nosound
+ATTACK_SLASH    		0 0 0
+ATTACK_BACKSLASH		yeti04 nosound nosound
+ATTACK_BACKSLASH		0 0 0
+ATTACK_JAB      		yeti07 nosound nosound
+ATTACK_JAB      		0 0 0
+EMERGE          		***
+EMERGE          		0
+HIDE            		***
+HIDE            		0
+SLEEP                           ***
+SLEEP                           0
+Battle_Cry			yeti01 yeti02
+Battle_Cry			0 0
+Selection                       yeti12
+Selection                       0

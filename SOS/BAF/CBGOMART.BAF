@@ -1,0 +1,81 @@
+IF
+  Clicked([ANYONE])
+  !Range(LastTrigger,10)
+THEN
+  RESPONSE #100
+    DisplayString(Myself,14702)
+END
+
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  Global("CbGoingToMartOnce","AR4201",1)
+  GlobalTimerExpired("CbGoMyMartTimer","AR4201")
+THEN
+  RESPONSE #100
+    DisplayStringNoName(Myself,@10057)
+END
+
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  TimeGT(DAWN_END)
+  TimeLT(DUSK_START)
+THEN
+  RESPONSE #100
+    ActionOverride(LastTrigger,LeaveAreaLUAPanic("AR0702","",[422.356],15))
+    ActionOverride(LastTrigger,LeaveAreaLUA("AR0702","",[422.356],15))
+END
+
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  Global("CbGoingToMartOnce","AR4201",1)
+  !GlobalTimerExpired("CbGoMyMartTimer","AR4201")
+  TimeGT(DUSK_START)
+  TimeLT(MIDNIGHT)
+THEN
+  RESPONSE #100
+    ActionOverride(LastTrigger,LeaveAreaLUAPanic("AR4202","",[422.356],15))
+    ActionOverride(LastTrigger,LeaveAreaLUA("AR4202","",[422.356],15))
+END
+
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  Global("CbGoingToMartOnce","AR4201",1)
+  !GlobalTimerExpired("CbGoMyMartTimer","AR4201")
+  TimeGT(MIDNIGHT)
+  TimeLT(DAWN_END)
+THEN
+  RESPONSE #100
+    ActionOverride(LastTrigger,LeaveAreaLUAPanic("AR4202","",[422.356],15))
+    ActionOverride(LastTrigger,LeaveAreaLUA("AR4202","",[422.356],15))
+END
+
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  TimeGT(DUSK_START)
+  TimeLT(MIDNIGHT)
+THEN
+  RESPONSE #100
+    SetGlobal("CbGoingToMartOnce","AR4201",1)
+    SetGlobalTimer("CbGoMyMartTimer","AR4201",2400)
+    ActionOverride(LastTrigger,LeaveAreaLUAPanic("AR4202","",[422.356],15))
+    ActionOverride(LastTrigger,LeaveAreaLUA("AR4202","",[422.356],15))
+END
+
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,10)
+  TimeGT(MIDNIGHT)
+  TimeLT(DAWN_END)
+THEN
+  RESPONSE #100
+    SetGlobal("CbGoingToMartOnce","AR4201",1)
+    SetGlobalTimer("CbGoMyMartTimer","AR4201",2400)
+    ActionOverride(LastTrigger,LeaveAreaLUAPanic("AR4202","",[422.356],15))
+    ActionOverride(LastTrigger,LeaveAreaLUA("AR4202","",[422.356],15))
+END
+

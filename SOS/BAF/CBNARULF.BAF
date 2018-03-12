@@ -1,0 +1,84 @@
+IF
+  HPPercentLT(Myself,80)
+  GlobalLT("CbNarulfStoppedPoisoningRiver","AR4220",1)
+  !Global("CbCharlotteAttacksNarulf","AR4220",1)
+  AreaCheck("AR4220")
+THEN
+  RESPONSE #100
+    GiveItemCreate("potn55",Myself,1,0,0)  // ~Potion of Superior Healing~
+    UseItem("potn55",Myself)  // ~Potion of Superior Healing~
+END
+
+IF
+  AttackedBy([ANYONE],DEFAULT)
+  HPGT(LastAttackerOf(Myself),0)
+THEN
+  RESPONSE #100
+    Attack(LastAttackerOf(Myself))
+END
+
+IF
+  Global("CbCharlotteAttacksNarulf","AR4220",1)
+THEN
+  RESPONSE #100
+    MoveToPoint([1700.1650])
+    Face(10)
+END
+
+IF
+  GlobalLT("CbNarulfStoppedPoisoningRiver","AR4220",1)
+  !Global("CbCharlotteAttacksNarulf","AR4220",1)
+  HasItem("CB4220PS",Myself)  // ~Belladona Potion~
+  AreaCheck("AR4220")
+THEN
+  RESPONSE #34
+    MoveToPoint([1712.1653])
+    GiveItemCreate("CBPS4220",Myself,1,0,0)  // ~Energy Blade~
+    Face(8)
+    Wait(1)
+    UseItemPoint("CBPS4220",[1602.1546],1)
+    Wait(1)
+  RESPONSE #33
+    MoveToPoint([1970.1710])
+    GiveItemCreate("CBPS4220",Myself,1,0,0)  // ~Energy Blade~
+    Face(6)
+    Wait(1)
+    UseItemPoint("CBPS4220",[2008.1537],1)
+    Wait(1)
+  RESPONSE #33
+    MoveToPoint([2310.1708])
+    GiveItemCreate("CBPS4220",Myself,1,0,0)  // ~Energy Blade~
+    Face(5)
+    Wait(1)
+    UseItemPoint("CBPS4220",[2300.1540],1)
+    Wait(1)
+END
+
+IF
+  GlobalLT("CbNarulfStoppedPoisoningRiver","AR4220",1)
+  AreaCheck("AR4220")
+  !HasItem("CB4220PS",Myself)  // ~Belladona Potion~
+THEN
+  RESPONSE #100
+    GiveItemCreate("CB4220PS",Myself,1,0,0)  // ~Belladona Potion~
+END
+
+IF
+  Global("CbNarulfGoesFindBoss","GLOBAL",1)
+  Global("CbNarulfEscaping","LOCALS",0)
+  AreaCheck("AR4220")
+THEN
+  RESPONSE #100
+    MoveToPoint([140.420])
+    SetGlobal("CbNarulfEscaping","LOCALS",1)
+END
+
+IF
+  Global("CbNarulfGoesFindBoss","GLOBAL",1)
+  Global("CbNarulfEscaping","LOCALS",1)
+  AreaCheck("AR4220")
+THEN
+  RESPONSE #100
+    EscapeArea()
+END
+

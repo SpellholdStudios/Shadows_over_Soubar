@@ -1,0 +1,163 @@
+IF
+  AreaCheck("AR4313")
+THEN
+  RESPONSE #100
+    ChangeAIScript("CBROLFSD",OVERRIDE)
+END
+
+IF
+  StateCheck(Myself,STATE_PANIC)
+THEN
+  RESPONSE #100
+    ApplySpell(Myself,CLERIC_REMOVE_FEAR)
+END
+
+IF
+  HP(Myself,1)
+  !HasItem("POTN52",Myself)  // ~Potion of Extra Healing~
+  Global("CbRolfGivesHimselfPotions","LOCALS",1)
+  TookDamage()
+  GlobalLT("CbRolfResetsGlobals","LOCALS",3)
+THEN
+  RESPONSE #100
+    SetGlobal("CbRolfResetsGlobals","LOCALS",3)
+END
+
+IF
+  !HasItem("POTN52",Myself)  // ~Potion of Extra Healing~
+  Global("CbRolfGivesHimselfPotions","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CbRolfGivesHimselfPotions","LOCALS",1)
+    SetGlobal("CbRolfsFightingSkills","LOCALS",0)
+    SetGlobal("CbRolfResetsGlobals","LOCALS",0)
+    SetGlobalTimer("CbRolfsSkills","LOCALS",1)
+    GiveItemCreate("POTN52",Myself,4,0,0)  // ~Potion of Extra Healing~
+END
+
+IF
+  HPPercentLT(Myself,80)
+  See(NearestEnemyOf(Myself))
+  !HasItem("POTN52",Myself)  // ~Potion of Extra Healing~
+  GlobalGT("CbRolfResetsGlobals","LOCALS",2)
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    DisplayStringHead(Myself,@10084)
+    Wait(3)
+    DisplayStringHead(Myself,@10085)
+    Wait(3)
+    DisplayStringHead(Myself,@10086)
+    Wait(3)
+    MoveToPoint([2094.974])
+    OpenDoor("Door04")
+    MoveToPoint([2129.1030])
+    CloseDoor("Door04")
+    Lock("Door04")
+    MoveToPoint([2106.1413])
+    Unlock("Door06")
+    OpenDoor("Door06")
+    Lock("Door06")
+    MoveToPoint([1783.1415])
+    ApplySpell(Myself,HEAL_NO_VISUAL)
+    EscapeAreaMove("AR4313",178,178,1)
+    SetInterrupt(TRUE)
+END
+
+IF
+  HPPercentLT(Myself,80)
+  See(NearestEnemyOf(Myself))
+  HasItem("POTN52",Myself)  // ~Potion of Extra Healing~
+  !GlobalTimerNotExpired("DrankPotionTimer","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("DrankPotionTimer","LOCALS",18)
+    UseItem("POTN52",Myself)  // ~Potion of Extra Healing~
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HasItem("POTN34",Myself)  // ~Potion of Magic Protection~
+  !GlobalTimerNotExpired("DrankMagicPotionTimer","LOCALS")
+  CheckStatLT(Myself,40,RESISTMAGIC)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("DrankMagicPotionTimer","LOCALS",6)
+    UseItem("POTN34",Myself)  // ~Potion of Magic Protection~
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !GlobalTimerNotExpired("CbRolfsSkills","LOCALS")
+  Global("CbRolfsFightingSkills","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbRolfsSkills","LOCALS",20)
+    IncrementGlobal("CbRolfsFightingSkills","LOCALS",1)
+    SpellNoDec(Myself,BARBARIAN_RAGE)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  GlobalTimerExpired("CbRolfsSkills","LOCALS")
+  Global("CbRolfsFightingSkills","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbRolfsSkills","LOCALS",10)
+    IncrementGlobal("CbRolfsFightingSkills","LOCALS",1)
+    ForceSpell(Myself,4903)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  GlobalTimerExpired("CbRolfsSkills","LOCALS")
+  Global("CbRolfsFightingSkills","LOCALS",2)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbRolfsSkills","LOCALS",10)
+    IncrementGlobal("CbRolfsFightingSkills","LOCALS",1)
+    ForceSpell(Myself,4901)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  GlobalTimerExpired("CbRolfsSkills","LOCALS")
+  Global("CbRolfsFightingSkills","LOCALS",3)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbRolfsSkills","LOCALS",10)
+    IncrementGlobal("CbRolfsFightingSkills","LOCALS",1)
+    ForceSpell(Myself,4906)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  GlobalTimerExpired("CbRolfsSkills","LOCALS")
+  Global("CbRolfsFightingSkills","LOCALS",4)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("CbRolfsSkills","LOCALS",20)
+    IncrementGlobal("CbRolfsFightingSkills","LOCALS",1)
+    ForceSpell(Myself,4909)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("CbRolfsFightingSkills","LOCALS",5)
+  GlobalLT("CbRolfResetsGlobals","LOCALS",3)
+  GlobalTimerExpired("CbRolfsSkills","LOCALS")
+THEN
+  RESPONSE #100
+    IncrementGlobal("CbRolfResetsGlobals","LOCALS",1)
+    SetGlobalTimer("CbRolfsSkills","LOCALS",10)
+    SetGlobal("CbRolfsFightingSkills","LOCALS",0)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  ActionListEmpty()
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),20)
+END
+
