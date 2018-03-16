@@ -355,7 +355,8 @@ BEGIN
   ACTION_IF (DIRECTORY_EXISTS ~%input_path%~) BEGIN
     // processing directory content
     ACTION_BASH_FOR ~%input_path%~ ~.+\.[mt]bc$~ BEGIN
-      OUTER_TEXT_SPRINT bc_folder ~%output_path%/%folder_prefix%%BASH_FOR_RES%~
+      //OUTER_TEXT_SPRINT bc_folder ~%output_path%/%folder_prefix%%BASH_FOR_RES%~
+	  OUTER_TEXT_SPRINT bc_folder ~%output_path%/SOS-TIS~
       ACTION_IF (~%BASH_FOR_EXT%~ STRING_EQUAL_CASE ~tbc~ && convert_tbc) BEGIN
         OUTER_TEXT_SPRINT bc_file ~%bc_folder%/%BASH_FOR_RES%.tis~
       END ELSE ACTION_IF (~%BASH_FOR_EXT%~ STRING_EQUAL_CASE ~mbc~ && convert_mbc) BEGIN
@@ -385,14 +386,15 @@ BEGIN
           COPY ~%bc_file%~ ~%output_path%~
           DELETE + ~%bc_file%~
         END
-        DELETE + ~%bc_folder%~
+       // DELETE + ~%bc_folder%~
       END
     END
   END ELSE ACTION_IF (FILE_EXISTS ~%input_path%~) BEGIN
     // processing single file
     LAF RES_OF_FILESPEC STR_VAR filespec = EVAL ~%input_path%~ RET res END
     LAF EXT_OF_FILESPEC STR_VAR filespec = EVAL ~%input_path%~ RET ext END
-    OUTER_TEXT_SPRINT bc_folder ~%output_path%/%folder_prefix%%res%~
+	//OUTER_TEXT_SPRINT bc_folder ~%output_path%/%folder_prefix%%res%~
+    OUTER_TEXT_SPRINT bc_folder ~%output_path%/SOS-TIS~
     ACTION_IF (~%ext%~ STRING_EQUAL_CASE ~tbc~) BEGIN
       OUTER_TEXT_SPRINT bc_file ~%bc_folder%/%res%.tis~
     END ELSE ACTION_IF (~%ext%~ STRING_EQUAL_CASE ~mbc~) BEGIN
@@ -420,7 +422,7 @@ BEGIN
       COPY ~%bc_file%~ ~%output_path%~
       DELETE + ~%bc_file%~
     END
-    DELETE + ~%bc_folder%~
+  //  DELETE + ~%bc_folder%~
   END ELSE BEGIN
     FAIL ~ERROR: Path does not exist: %input_path%~
   END
@@ -506,7 +508,8 @@ BEGIN
         FAIL ~ERROR: Current pvrz index is out of range: %min_pvrz_index%~
       END
 
-      OUTER_TEXT_SPRINT folder ~%output_path%/%folder_prefix%%BASH_FOR_RES%~
+      //OUTER_TEXT_SPRINT folder ~%output_path%/%folder_prefix%%BASH_FOR_RES%~
+	  OUTER_TEXT_SPRINT folder ~%output_path%/SOS-TIS~
       OUTER_TEXT_SPRINT file ~%folder%/%BASH_FOR_FILE%~
       OUTER_TEXT_SPRINT arg_output ~-o %quote%%file%%quote%~
       OUTER_TEXT_SPRINT arg_input ~%quote%%BASH_FOR_FILESPEC%%quote%~
@@ -527,8 +530,8 @@ BEGIN
       END
       ACTION_IF (FILE_EXISTS ~%file%~) BEGIN
         OUTER_SET num_converted = num_converted + 1
-        COPY ~%file%~ ~%output_path%~
-        DELETE + ~%file%~
+        //COPY ~%file%~ ~%output_path%~
+        //DELETE + ~%file%~
         ACTION_BASH_FOR ~%folder%~ ~.+\.pvrz$~ BEGIN
           COPY ~%BASH_FOR_FILESPEC%~ ~%output_path%~
           DELETE + ~%BASH_FOR_FILESPEC%~
@@ -553,7 +556,7 @@ BEGIN
           DELETE + ~%BASH_FOR_FILESPEC%~
         END
       END
-      DELETE + ~%folder%~
+//      DELETE + ~%folder%~
     END
   END ELSE ACTION_IF (FILE_EXISTS ~%input_path%~) BEGIN
     // processing single file
@@ -567,7 +570,8 @@ BEGIN
 
     LAF FILE_OF_FILESPEC STR_VAR filespec = EVAL ~%input_path%~ RET file END
     LAF RES_OF_FILESPEC STR_VAR filespec = EVAL ~%input_path%~ RET res END
-    OUTER_TEXT_SPRINT folder ~%output_path%/%folder_prefix%%res%~
+	//OUTER_TEXT_SPRINT folder ~%output_path%/%folder_prefix%%BASH_FOR_RES%~
+	  OUTER_TEXT_SPRINT folder ~%output_path%/SOS-TIS~
     OUTER_TEXT_SPRINT outfile ~%folder%/%file%~
     OUTER_TEXT_SPRINT arg_output ~-o %quote%%outfile%%quote%~
     OUTER_TEXT_SPRINT arg_input ~%quote%%input_path%%quote%~
@@ -603,7 +607,7 @@ BEGIN
         DELETE + ~%BASH_FOR_FILESPEC%~
       END
     END
-    DELETE + ~%folder%~
+ //   DELETE + ~%folder%~
   END ELSE BEGIN
     FAIL ~ERROR: Path does not exist: %input_path%~
   END

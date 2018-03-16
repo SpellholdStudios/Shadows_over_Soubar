@@ -112,7 +112,7 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	OUTER_SPRINT SOS-RULE   ~SoS/SOS-RULE~
 	OUTER_SPRINT SOS-SPL    ~SoS/SOS-SPL~
 	
-	INCLUDE ~MOD_FOLDER%/lib/install-guititle.tpa~
+	INCLUDE ~%MOD_FOLDER%/lib/install-guititle.tpa~
 END 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 	OUTER_SPRINT SOS-ARE 	~override~
@@ -882,13 +882,13 @@ COPY + ~SoS/CRE/SELENC07.cre~         ~%SOS-CRE%~
         FOR( cnt=0; cnt<"%rows_cnt%"; cnt=cnt+1 ) BEGIN
           READ_2DA_ENTRY cnt 1 9 "kit_name"
           PATCH_IF( ("%kit_name%" STRING_COMPARE_CASE "Fence")=0 ) BEGIN
-            SET bm_idx = idx
+            SET bm_idx = cnt
           END
         END
-   END
-   PATCH_IF( bm_idx>=0 ) BEGIN
-	 WRITE_LONG 0x244 ((0x4000 | bm_idx) * 0x10000)
-   END
+    END
+    PATCH_IF( bm_idx>=0 ) BEGIN
+      WRITE_LONG 0x244 ((0x4000 | bm_idx) * 0x10000)
+    END
   END
 
 //////////////////////////////
@@ -943,7 +943,10 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
     OUTER_SET skipped = 87 - num_converted
     FAIL ~Error: Failed to convert %skipped% out of 87 graphics files.~
   END
-
+MAKE_BIFF ~SoS-TIS~ BEGIN
+	~override/SOS-TIS~ ~^.*$~
+END
+DELETE + ~override/SOS-TIS~
 END
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
    COPY ~SOS\Pvrz~ ~override~
@@ -975,7 +978,7 @@ MAKE_BIFF ~SoS~ BEGIN
 	~SoS/biff~ ~^.*$~
 END
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-MAKE_BIFF ~SoS~ BEGIN
+MAKE_BIFF ~SoS-1~ BEGIN
 	~SoS/SOS-ARE~ ~^.*$~
 	~SoS/SOS-BAM~ ~^.*$~
 	~SoS/SOS-CRE~ ~^.*$~
