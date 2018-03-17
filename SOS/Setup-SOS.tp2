@@ -1,6 +1,6 @@
 BACKUP ~SOS/BACKUP~
 
-AUTHOR ~Charles Bisson, Horred The Plague (WeiDU), King Diamond (WeiDU revision)~  NO_IF_EVAL_BUG
+AUTHOR ~Charles Bisson, Horred The Plague (WeiDU), King Diamond (WeiDU revision), Weigo (WeiDU EE revision)~  NO_IF_EVAL_BUG
 
 VERSION ~1.14~
 
@@ -759,7 +759,7 @@ COPY + ~SoS/CRE/CBSSYETI.cre~         ~%SOS-CRE%~
   WRITE_LONG 0x28 0xE060   //IC_LICH
 END
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-  COPY ~SOS/Compat\anim\MLIC~ ~override~	
+  COPY ~SOS/Compat/anim\MLIC~ ~override~	
 
   COPY + ~SoS/CRE/CBSSYETI.cre~         ~%SOS-CRE%~
     SAY NAME1 @20288
@@ -951,21 +951,6 @@ END
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
    COPY ~SOS\Pvrz~ ~override~
 
-/*	//Nightmap for AR4370
-	ACTION_IF FILE_EXISTS_IN_GAME ~BG2300.are~ BEGIN
-		COPY_EXISTING ~AR4370.are~ ~override~
-		PATCH_IF SOURCE_SIZE > 0x48 BEGIN
-			WRITE_BYTE 0x48 (THIS BOR 0b01000000)
-		END
-		COPY_EXISTING ~AR4370.wed~ ~override\AR4370N.wed~
-		PATCH_IF SOURCE_SIZE > 0x11b BEGIN
-			READ_LONG 0x10 over_offset
-			WRITE_ASCII "%over_offset%"+0x4 ~AR4370N~ #8
-		END
-		COPY_EXISTING_REGEXP ~BG2300N.MOS~ ~override/AR4370N.MOS~
-							 ~BG2300N.TIS~ ~override/AR4370N.TIS~
-							 ~B2300N\([0-9][0-9]\).PVRZ~ ~override/A4370N\1.PVRZ~
-	END */
 END
 
 
@@ -978,15 +963,27 @@ MAKE_BIFF ~SoS~ BEGIN
 	~SoS/biff~ ~^.*$~
 END
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-MAKE_BIFF ~SoS-1~ BEGIN
-	~SoS/SOS-ARE~ ~^.*$~
-	~SoS/SOS-BAM~ ~^.*$~
-	~SoS/SOS-CRE~ ~^.*$~
-	~SoS/SOS-ITM~ ~^.*$~
-	~SoS/SOS-MOS~ ~^.*$~
-	~SoS/SOS-RULE~ ~^.*$~
-	~SoS/SOS-SPL~ ~^.*$~
-END
+	MAKE_BIFF ~SOS-ARE~ BEGIN
+		~SoS/SOS-ARE~ ~^.*$~
+	END
+	MAKE_BIFF ~SOS-BAM~ BEGIN
+		~SoS/SOS-BAM~ ~^.*$~
+	END
+	MAKE_BIFF ~SOS-CRE~ BEGIN
+		~SoS/SOS-CRE~ ~^.*$~
+	END
+	MAKE_BIFF ~SOS-ITM~ BEGIN
+		~SoS/SOS-ITM~ ~^.*$~
+	END
+	MAKE_BIFF ~SOS-MOS~ BEGIN
+		~SoS/SOS-MOS~ ~^.*$~
+	END
+	MAKE_BIFF ~SOS-RULE~ BEGIN
+		~SoS/SOS-RULE~ ~^.*$~
+	END
+	MAKE_BIFF ~SOS-SPL~ BEGIN
+		~SoS/SOS-SPL~ ~^.*$~
+	END
 END
 
 
