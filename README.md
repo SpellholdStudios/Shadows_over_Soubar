@@ -4,17 +4,27 @@
 ***                  V1.14 (WeiDU v244)                    ***
 **************************************************************
 Original version   :  Charles Bisson
+
 WeiDU version 1.01 :  Horred The Plague
+
 WeiDU version 1.02 :  Revision by King Diamond,
                       logo screen by Yovaneth
+                      
 WeiDU version 1.03 :  Additions from the BP package,
                       fixes and enhancements by Horred the Plague
+                      
 WeiDU version 1.04 :  Fixes and enhancements, by King Diamond
+
 WeiDU version 1.05 :  Fixes and enhancements, by King Diamond
+
 WeiDU version 1.10 :  Fixes, multilanguage support, by King Diamond
+
 WeiDU version 1.11 :  Worldmap v6, sounds, by King Diamond
+
 WeiDU version 1.12 :  fixes and enhancements, by King Diamond
+
 WeiDU version 1.13 :  WeiDU v206, fixes and enhancements, by King Diamond
+
 WeiDU version 1.14 :  EE&EET compatibility, by Weigo
 
 
