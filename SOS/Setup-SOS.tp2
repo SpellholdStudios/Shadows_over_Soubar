@@ -808,7 +808,7 @@ ADD_KIT ~FENCE~
 ~FENCE                   0       1       1       1       1       1       1       1       1~
 ~FENCE                   1       0       1       1       0       0~
 ~SOS/RULE/CLABFNCE.2DA~
-~ K_T_D  K_T_E  K_T_G  K_T_H  K_T_HE  K_T_HL  K_T_HO ~
+//~ K_T_D  K_T_E  K_T_G  K_T_H  K_T_HE  K_T_HL  K_T_HO ~
 ~0x00080000 4~
 ~Th0~
 ~ LEAT14  *  *  BAG28  RING06  RING05,10  *  BOOT02  AMUL19  BRAC16  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  DAGG12  SW1H28  STAF08 ~
