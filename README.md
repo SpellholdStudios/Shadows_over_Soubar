@@ -25,7 +25,7 @@ WeiDU version 1.12 :  fixes and enhancements, by King Diamond
 
 WeiDU version 1.13 :  WeiDU v206, fixes and enhancements, by King Diamond
 
-WeiDU version 1.14 :  EE&EET compatibility, by Weigo
+WeiDU version 1.14 :  EE&EET compatibility, by Weigo & Jastey
 
 
 ********************************
