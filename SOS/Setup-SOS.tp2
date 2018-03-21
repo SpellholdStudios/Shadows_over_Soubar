@@ -48,6 +48,7 @@ ALWAYS
 				"polish" => "CP1250"
 				"russian" => "CP1251"
 				"castilian" => "CP1252"
+				"spanish" => "CP1252"
 			END
 			ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup END
 			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN setup-ee END
