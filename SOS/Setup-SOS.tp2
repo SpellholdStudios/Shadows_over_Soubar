@@ -71,21 +71,21 @@ LANGUAGE ~English~
          ~English~
          ~SOS/Language/English/setup.tra~
 
-/*LANGUAGE ~Russian (by aerie-ru.info team)~
+LANGUAGE ~Russian (by aerie-ru.info team)~
          ~Russian~
-         ~SOS/Language/Russian/setup.tra~*/
+         ~SOS/Language/Russian/setup.tra~
 
 LANGUAGE ~German (by Leonardo Watson)~
          ~German~
          ~SOS/Language/German/setup.tra~
 
-/*LANGUAGE ~Spanish (by SirLancelot & Co)~
+LANGUAGE ~Spanish (by SirLancelot & Co)~
          ~Spanish~
          ~SOS/Language/Spanish/setup.tra~
 
 LANGUAGE ~Italian (Ilot & Co)~
          ~Italian~
-         ~SOS/Language/Italian/setup.tra~*/
+         ~SOS/Language/Italian/setup.tra~
 
 BEGIN @20000
 
