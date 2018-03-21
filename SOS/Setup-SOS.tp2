@@ -922,7 +922,7 @@ END
 LAF HANDLE_AUDIO  // With no configuration, HANDLE_AUDIO expects your audio, oggdec.exe and SoX to be located in mymod/audio
   STR_VAR
     audio_path = ~SoS/ogg2~
-    oggdec_path = ~SoSSoS/bin/win32~
+    oggdec_path = ~SoS/bin/win32~
 	sox_path = ~SoS/bin/osx~
 	output_path = ~SoS/biff~
 END
