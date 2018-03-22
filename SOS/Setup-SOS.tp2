@@ -576,6 +576,13 @@ END
 PRINT @20070
 
 INCLUDE ~%MOD_FOLDER%/lib/install-arescripts.tpa~
+
+ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
+  ACTION_IF NOT FILE_EXISTS ~AR1004.WED~ BEGIN
+   COPY ~SOS/WED/BG2/AR1004.WED~ ~override~
+  END
+END
+
 INCLUDE ~%MOD_FOLDER%/lib/install-wed.tpa~
 
 //******************************************************************
@@ -911,12 +918,15 @@ ACTION_BASH_FOR ~SoS/language/english/ogg1~ ~^.+\.ogg$~ BEGIN
 	END
 END
 
+/*COPY ~SoS/language/%LANGUAGE%/ogg1~ ~SoS/biff~
+	 ~SoS/ogg2~ ~SoS/biff~*/
+
 LAF HANDLE_AUDIO
 	STR_VAR
 	audio_path = EVAL ~SoS/language/%LANGUAGE%/ogg1~
 	oggdec_path = ~SoS/bin/win32~
 	sox_path = ~SoS/bin/osx~
-	output_path = ~SoS/biff~
+	output_path = ~override~
 END
 
 LAF HANDLE_AUDIO  // With no configuration, HANDLE_AUDIO expects your audio, oggdec.exe and SoX to be located in mymod/audio
@@ -924,7 +934,7 @@ LAF HANDLE_AUDIO  // With no configuration, HANDLE_AUDIO expects your audio, ogg
     audio_path = ~SoS/ogg2~
     oggdec_path = ~SoS/bin/win32~
 	sox_path = ~SoS/bin/osx~
-	output_path = ~SoS/biff~
+	output_path = ~override~
 END
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
