@@ -487,8 +487,21 @@ COPY ~SoS/ARE/AR4340.are~           ~%SOS-ARE%~
 
 COPY ~SoS/ARE/AR4350.are~           ~%SOS-ARE%~
 COPY ~SoS/ARE/AR4351.are~           ~%SOS-ARE%~
+
+ACTION_IF GAME_IS ~eet~ BEGIN
+   OUTER_SPRINT "NBaldursGate_RinniesHouse_L2" "BG0007"
+END ELSE ACTION_IF GAME_IS ~bg2 tob bg2ee~ BEGIN
+   OUTER_SPRINT "NBaldursGate_RinniesHouse_L2" "AR0007"
+END ELSE ACTION_IF GAME_IS ~bgt~ BEGIN
+   OUTER_SPRINT "NBaldursGate_RinniesHouse_L2" "ARA007"
+END
 COPY ~SoS/ARE/AR4360.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4365.are~           ~%SOS-ARE%~
+    WRITE_ASCII 0x0018 ~%NBaldursGate_RinniesHouse_L2%~ #8
+    WRITE_ASCII 0x0024 ~%NBaldursGate_RinniesHouse_L2%~ #8
+    WRITE_ASCII 0x0030 ~%NBaldursGate_RinniesHouse_L2%~ #8
+    WRITE_ASCII 0x003c ~%NBaldursGate_RinniesHouse_L2%~ #8
+
+	COPY ~SoS/ARE/AR4365.are~           ~%SOS-ARE%~
 
 //**************************************************
 //  WORLDMAP

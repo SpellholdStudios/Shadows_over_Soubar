@@ -1,7 +1,7 @@
 IF
   OnCreation()
-  TimeGT(DAWN_END)
-  TimeLT(DUSK_START)
+  TimeLT(7)
+  TimeGT(21)
   !Dead("CBBUCKMO")  // ~Master Werewolf~
 THEN
   RESPONSE #100
@@ -17,8 +17,8 @@ END
 
 IF
   OnCreation()
-  TimeLT(DAWN_END)
-  TimeGT(DUSK_START)
+  TimeLT(7)
+  TimeGT(21)
   !Dead("CBBUCKMO")  // ~Master Werewolf~
 THEN
   RESPONSE #100

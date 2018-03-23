@@ -98,7 +98,7 @@ END
 
 IF ~~ THEN BEGIN 20 // from: 6.0
   SAY @29
-  IF ~~ THEN DO ~GivePartyGold(16000)
+  IF ~~ THEN DO ~GiveGoldForce(16000)
 AddXPObject(Player1,10000)
 AddXPObject(Player2,10000)
 AddXPObject(Player3,10000)
