@@ -116,6 +116,7 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	INCLUDE ~%MOD_FOLDER%/lib/install-guititle.tpa~
 END 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+	COPY_EXISTING ~misc01.itm~ ~override/sos.mrk~
 	OUTER_SPRINT SOS-ARE 	~override~
 	OUTER_SPRINT SOS-CRE    ~override~
 	OUTER_SPRINT SOS-ITM    ~override~
