@@ -116,7 +116,6 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	INCLUDE ~%MOD_FOLDER%/lib/install-guititle.tpa~
 END 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-	COPY_EXISTING ~misc01.itm~ ~override/sos.mrk~
 	OUTER_SPRINT SOS-ARE 	~override~
 	OUTER_SPRINT SOS-CRE    ~override~
 	OUTER_SPRINT SOS-ITM    ~override~
@@ -125,6 +124,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 	OUTER_SPRINT SOS-MOS    ~override~
 	OUTER_SPRINT SOS-RULE   ~override~
 END
+
+COPY_EXISTING ~misc01.itm~ ~override/sos.mrk~
 
 COPY ~SOS/SFX~  ~override~   //to overwrite files there!!!
 COPY ~SOS/RULE~ ~%SOS-RULE%~   //to overwrite files there!!!
@@ -515,13 +516,13 @@ ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ THEN BEGIN
 
   COPY ~Worldmap/map_mods_links.tbl~  ~Worldmap~
    APPEND_FILE ~SOS/Worldmap/links.tbl~
-   PATCH_IF (FILE_EXISTS ~data/ROT-RULE.BIF~) BEGIN
+   PATCH_IF (FILE_EXISTS ~data/ROT-RULE.BIF~) OR (FILE_EXISTS ~rot.mrk~) BEGIN
      APPEND_FILE ~SOS/Worldmap/rot_links.tbl~
    END
-   PATCH_IF (FILE_EXISTS ~data/TDD-RULE.BIF~) BEGIN
+   PATCH_IF (FILE_EXISTS ~data/TDD-RULE.BIF~) OR (FILE_EXISTS ~tdd.mrk~) BEGIN
      APPEND_FILE ~SOS/Worldmap/tdd_links.tbl~
    END
-   PATCH_IF (FILE_EXISTS ~data/CTB-RULE.BIF~) BEGIN
+   PATCH_IF (FILE_EXISTS ~data/CTB-RULE.BIF~) OR (FILE_EXISTS ~ctb.mrk~) BEGIN
      APPEND_FILE ~SOS/Worldmap/ctb_links.tbl~
    END
 
