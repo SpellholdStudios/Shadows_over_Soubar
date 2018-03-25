@@ -639,7 +639,7 @@ INCLUDE ~%MOD_FOLDER%/lib/install-itm.tpa~
 //******************************************************************
 PRINT @20756
 
-ACTION_IF NOT FILE_EXISTS ~data/TDD-RULE.BIF~ OR GAME_IS ~bg2ee eet~
+ACTION_IF NOT FILE_EXISTS ~data/TDD-RULE.BIF~ AND NOT FILE_EXISTS ~tdd.mrk~ OR GAME_IS ~bg2ee eet~
 THEN BEGIN
 COPY + ~SoS/Compat/SoS/SPWI429.spl~          ~%SOS-SPL%~
   SAY NAME1 @20651
@@ -775,7 +775,7 @@ COPY + ~SoS/STO/CBWBTEST.sto~         ~override~
 //**************************************************************************
 // Animations
 //**************************************************************************
-ACTION_IF NOT FILE_EXISTS ~data/ROT-RULE.BIF~   // Compatibility with RoT
+ACTION_IF (NOT FILE_EXISTS ~data/ROT-RULE.BIF~) AND  (NOT FILE_EXISTS ~rot.mrk~)  // Compatibility with RoT
 THEN BEGIN
   COPY ~SOS/Compat/anim/MLIC~ ~override~       //YETI animation
 END
