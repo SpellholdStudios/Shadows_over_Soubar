@@ -343,13 +343,17 @@ APPEND ~SPELL.IDS~ ~2429 BELTYNS_BURNING_BLOOD~
 UNLESS ~2429 BELTYNS_BURNING_BLOOD~
 
 
-/*ACTION_IF FILE_EXISTS ~script compiler/AICOMPILE.exe~
-THEN BEGIN
-COPY_EXISTING   //~ANISND.IDS~   ~script compiler~
-                //~ANIMATE.IDS~  ~script compiler~
-                ~KIT.IDS~      ~script compiler~
-                ~SPELL.IDS~    ~script compiler~
-END*/
+ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
+	COPY ~SOS/Rule/Ids/ANISND.IDS~ ~override~
+		 ~SOS/Rule/Ids/ANIMATE.IDS~ ~override~
+	ACTION_IF FILE_EXISTS ~script compiler/AICOMPILE.exe~
+	THEN BEGIN
+	COPY_EXISTING   ~ANISND.IDS~   ~script compiler~
+					~ANIMATE.IDS~  ~script compiler~
+					~KIT.IDS~      ~script compiler~
+					~SPELL.IDS~    ~script compiler~
+	END
+END
 
 //******************************************************************
 //  AREAS - before scripts (to avoid unnecessary WeiDU warnings
