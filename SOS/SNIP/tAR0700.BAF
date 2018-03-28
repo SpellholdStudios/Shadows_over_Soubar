@@ -16,7 +16,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("CbSpawnGaelan","AR0700",1)
-		CreateCreatureOffScreen("CBGAELAN",0)
+		CreateCreature("CBGAELAN",[1682.2982],8)
  	        Continue()
 END
 
