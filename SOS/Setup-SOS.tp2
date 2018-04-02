@@ -520,13 +520,13 @@ ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ THEN BEGIN
 
   COPY ~Worldmap/map_mods_links.tbl~  ~Worldmap~
    APPEND_FILE ~SOS/Worldmap/links.tbl~
-   PATCH_IF (FILE_EXISTS ~data/ROT-RULE.BIF~) OR (FILE_EXISTS ~rot.mrk~) BEGIN
+   PATCH_IF (FILE_EXISTS ~data/ROT-RULE.BIF~) OR (FILE_EXISTS_IN_GAME ~rot.mrk~) BEGIN
      APPEND_FILE ~SOS/Worldmap/rot_links.tbl~
    END
-   PATCH_IF (FILE_EXISTS ~data/TDD-RULE.BIF~) OR (FILE_EXISTS ~tdd.mrk~) BEGIN
+   PATCH_IF (FILE_EXISTS ~data/TDD-RULE.BIF~) OR (FILE_EXISTS_IN_GAME ~tdd.mrk~) BEGIN
      APPEND_FILE ~SOS/Worldmap/tdd_links.tbl~
    END
-   PATCH_IF (FILE_EXISTS ~data/CTB-RULE.BIF~) OR (FILE_EXISTS ~ctb.mrk~) BEGIN
+   PATCH_IF (FILE_EXISTS ~data/CTB-RULE.BIF~) OR (FILE_EXISTS_IN_GAME ~ctb.mrk~) BEGIN
      APPEND_FILE ~SOS/Worldmap/ctb_links.tbl~
    END
 
@@ -643,7 +643,7 @@ INCLUDE ~%MOD_FOLDER%/lib/install-itm.tpa~
 //******************************************************************
 PRINT @20756
 
-ACTION_IF NOT FILE_EXISTS ~data/TDD-RULE.BIF~ AND NOT FILE_EXISTS ~tdd.mrk~ OR GAME_IS ~bg2ee eet~
+ACTION_IF NOT FILE_EXISTS ~data/TDD-RULE.BIF~ AND NOT FILE_EXISTS_IN_GAME ~tdd.mrk~ OR GAME_IS ~bg2ee eet~
 THEN BEGIN
 COPY + ~SoS/Compat/SoS/SPWI429.spl~          ~%SOS-SPL%~
   SAY NAME1 @20651
@@ -779,7 +779,7 @@ COPY + ~SoS/STO/CBWBTEST.sto~         ~override~
 //**************************************************************************
 // Animations
 //**************************************************************************
-ACTION_IF (NOT FILE_EXISTS ~data/ROT-RULE.BIF~) AND  (NOT FILE_EXISTS ~rot.mrk~)  // Compatibility with RoT
+ACTION_IF (NOT FILE_EXISTS ~data/ROT-RULE.BIF~) AND  (NOT FILE_EXISTS_IN_GAME ~rot.mrk~)  // Compatibility with RoT
 THEN BEGIN
   COPY ~SOS/Compat/anim/MLIC~ ~override~       //YETI animation
 END
