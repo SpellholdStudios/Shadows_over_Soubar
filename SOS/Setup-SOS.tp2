@@ -884,6 +884,10 @@ ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
 		WRITE_LONG 0x28 0xE253   //REMORHAZ
 END
 
+//////////////////////////////
+// bgee.lua cheat table
+//////////////////////////////
+INCLUDE ~%MOD_FOLDER%/lib/cheat_var.tph~
 	
 //**************************************************************************
 // A single SoS Kit
