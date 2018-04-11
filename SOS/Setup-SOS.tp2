@@ -27,12 +27,10 @@ ALWAYS
 		OUTER_SPRINT os_slash ~\~
 		OUTER_SPRINT exe ~.exe~
 		OUTER_SPRINT WEIDU_EXECUTABLE ~setup-SoS.exe~
-		OUTER_SPRINT bash_debug ~ 2>&1|SoS\bin\win32\mtee.exe SoS\bash.debug /A~
 	END ELSE ACTION_IF ~%WEIDU_OS%~ STRING_EQUAL_CASE ~osx~ BEGIN
 		OUTER_SPRINT os_slash ~/~
 		OUTER_SPRINT exe ~~
 		OUTER_SPRINT WEIDU_EXECUTABLE ~./SoS/weidu~
-		OUTER_SPRINT bash_debug ~ 2>>SoS/bash.debug | tee -a SoS/bash.debug~
 	END
 	OUTER_SPRINT ~tileconv~ ~SoS%os_slash%bin%os_slash%%WEIDU_OS%%os_slash%tileconv%exe%~
 	
@@ -63,6 +61,7 @@ ALWAYS
 				noconvert_array = charsetsNoConvertArray
 			END
 		END
+		COPY ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/fl#utf8_worldmap.tra~ ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
 		LOAD_TRA ~SoS/language/%LANGUAGE%/setup-ee.tra~
 	END
 	INCLUDE ~SoS/lib/a7_tools.tpa~
@@ -523,7 +522,7 @@ ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ THEN BEGIN
    PATCH_IF (FILE_EXISTS ~data/ROT-RULE.BIF~) OR (FILE_EXISTS_IN_GAME ~rot.mrk~) BEGIN
      APPEND_FILE ~SOS/Worldmap/rot_links.tbl~
    END
-   PATCH_IF (FILE_EXISTS ~data/TDD-RULE.BIF~) OR (FILE_EXISTS_IN_GAME ~tdd.mrk~) BEGIN
+   PATCH_IF (FILE_EXISTS ~data/TDD-RULE.BIF~) OR (FILE_EXISTS_IN_GAME ~tdd.mrk~) OR  (MOD_IS_INSTALLED "setup-TDDz.tp2" "0") BEGIN
      APPEND_FILE ~SOS/Worldmap/tdd_links.tbl~
    END
    PATCH_IF (FILE_EXISTS ~data/CTB-RULE.BIF~) OR (FILE_EXISTS_IN_GAME ~ctb.mrk~) BEGIN
@@ -543,15 +542,25 @@ ELSE BEGIN
 END
 
 ACTION_IF GAME_IS ~eet~ BEGIN
+	COPY ~%MOD_FOLDER%/Worldmap/eet/eet-links.tbl~  ~%MOD_FOLDER%/Worldmap/eet~
+		PATCH_IF (FILE_EXISTS_IN_GAME ~rot.mrk~)  OR (FILE_EXISTS ~data/ROT-RULE.BIF~) BEGIN
+			APPEND_FILE ~SoS/Worldmap/eet/sos_links.tbl~                        
+		END                                                                    
+		PATCH_IF (FILE_EXISTS_IN_GAME ~ctb.mrk~)  OR (FILE_EXISTS ~data/CTB-RULE.BIF~) BEGIN
+			APPEND_FILE ~SoS/Worldmap/eet/ctb_links.tbl~                        
+		END                                                                    
+		PATCH_IF (FILE_EXISTS_IN_GAME ~tdd.mrk~)  OR (FILE_EXISTS ~data/TDD-RULE.BIF~) OR  (MOD_IS_INSTALLED "setup-TDDz.tp2" "0") BEGIN
+			APPEND_FILE ~SoS/Worldmap/eet/tdd_links.tbl~
+		END
 	INCLUDE ~%MOD_FOLDER%/lib/add_worldmap_tbl.tpa~
 	LAF ADD_WORLDMAP_TBL
 		INT_VAR
 		verbose = 1
 		inclSv = 0
 		STR_VAR
-		path_to_areas = EVAL ~%MOD_FOLDER%/Worldmap/eet/areas.tbl~
+		path_to_areas = EVAL ~%MOD_FOLDER%/Worldmap/eet/eet-areas.tbl~
 		//path_to_areas_bp = EVAL ~%MOD_FOLDER%/Worldmap/areas.tbl~
-		path_to_links = EVAL ~%MOD_FOLDER%/Worldmap/eet/links.tbl~
+		path_to_links = EVAL ~%MOD_FOLDER%/Worldmap/eet/eet-links.tbl~
 		path_to_trans = EVAL ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
 	END
 END
@@ -779,52 +788,103 @@ COPY + ~SoS/STO/CBWBTEST.sto~         ~override~
 //**************************************************************************
 // Animations
 //**************************************************************************
-ACTION_IF (NOT FILE_EXISTS ~data/ROT-RULE.BIF~) AND  (NOT FILE_EXISTS_IN_GAME ~rot.mrk~)  // Compatibility with RoT
-THEN BEGIN
-  COPY ~SOS/Compat/anim/MLIC~ ~override~       //YETI animation
-END
 
-ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-COPY + ~SoS/CRE/CBSSYETI.cre~         ~%SOS-CRE%~
-  SAY NAME1 @20288
-  SAY NAME2 @20288
-  WRITE_LONG 0x28 0xE060   //IC_LICH
-END
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-  COPY ~SOS/Compat/anim\MLIC~ ~override~	
-
+//***********************************************************************************
+// YETI animation
+//***********************************************************************************
+ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
+	ACTION_IF (NOT FILE_EXISTS ~data/ROT-RULE.BIF~) AND	(NOT FILE_EXISTS_IN_GAME ~rot.mrk~) AND	(NOT FILE_EXISTS_IN_GAME ~TT0025.ARE~) BEGIN
+		ACTION_FOR_EACH var IN 2da bam BEGIN
+			ACTION_BASH_FOR ~SoS/anim/Yeti~ ~^.+\.%var%$~ BEGIN
+				COPY ~%BASH_FOR_FILESPEC%~ ~override~
+			END
+		END
+	END
+	ACTION_BASH_FOR ~SoS/anim/Yeti~ ~^.+\.ogg$~ BEGIN
+		ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~SoS/ogg2~
+		END
+	END
   COPY + ~SoS/CRE/CBSSYETI.cre~         ~%SOS-CRE%~
-    SAY NAME1 @20288
-    SAY NAME2 @20288
-    WRITE_LONG 0x28 0xE25D   //TUNDRA YETI
+		SAY NAME1 @20288
+		SAY NAME2 @20288
+		WRITE_LONG 0x28 0xE060   //IC_LICH
+	BUT_ONLY_IF_IT_CHANGES
+END
+
+ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
+	ACTION_FOR_EACH var IN bam BEGIN
+		ACTION_BASH_FOR ~SoS/anim/Yeti~ ~^.+\.%var%$~ BEGIN
+			OUTER_PATCH_SAVE newname ~%BASH_FOR_FILE%~ BEGIN
+				REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~MLIC~ ~MYET~
+			END
+			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%newname%~ BEGIN
+				COPY ~%BASH_FOR_FILESPEC%~ ~override/%newname%~
+			END
+		END
+	END
+	ACTION_BASH_FOR ~SoS/anim/Yeti~ ~^.+\.ogg$~ BEGIN
+		ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~SoS/ogg2~
+		END
+	END
+  COPY + ~SoS/CRE/CBSSYETI.cre~         ~%SOS-CRE%~
+		SAY NAME1 @20288
+		SAY NAME2 @20288
+		WRITE_LONG 0x28 0xE25D   //IC_LICH          0xE25D TUNDRA_YETI with EE    0xe25D IC_TUNDRA_YETI with EXTENDED ANIMATION
+	BUT_ONLY_IF_IT_CHANGES
 END
 
 //**************************************************************************
-COPY ~SOS/anim/MBRH~   ~override~              //REMORHAZ animation
+ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
+	ACTION_FOR_EACH var IN 2da bam BEGIN
+		ACTION_BASH_FOR ~Sos/anim/Remorhaz~ ~^.+\.%var%$~ BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~override~
+		END
+	END
+	ACTION_BASH_FOR ~SoS/anim/Remorhaz~ ~^.+\.ogg$~ BEGIN
+		ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~SoS/ogg2~
+		END
+	END
+	COPY + ~SoS/CRE/CBTWRMGR.cre~         ~%SOS-CRE%~
+		SAY NAME1 @20340
+		SAY NAME2 @20340
+		WRITE_LONG 0x28 0xE230   //IC_BEETLE_RHINOCEROS
 
-ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-COPY + ~SoS/CRE/CBTWRMGR.cre~         ~%SOS-CRE%~
-  SAY NAME1 @20340
-  SAY NAME2 @20340
-  WRITE_LONG 0x28 0xE230   //IC_BEETLE_RHINOCEROS
-
-COPY + ~SoS/CRE/CBTWRMLS.cre~         ~%SOS-CRE%~
-  SAY NAME1 @20341
-  SAY NAME2 @20341
-  WRITE_LONG 0x28 0xE230   //IC_BEETLE_RHINOCEROS
-END 
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-COPY + ~SoS/CRE/CBTWRMGR.cre~         ~%SOS-CRE%~
-  SAY NAME1 @20340
-  SAY NAME2 @20340
-  WRITE_LONG 0x28 0xE253   //REMORHAZ
-
-COPY + ~SoS/CRE/CBTWRMLS.cre~         ~%SOS-CRE%~
-  SAY NAME1 @20341
-  SAY NAME2 @20341
-  WRITE_LONG 0x28 0xE253   //REMORHAZ
+	COPY + ~SoS/CRE/CBTWRMLS.cre~         ~%SOS-CRE%~
+		SAY NAME1 @20341
+		SAY NAME2 @20341
+		WRITE_LONG 0x28 0xE230   //IC_BEETLE_RHINOCEROS
+END
+ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
+	ACTION_FOR_EACH var IN bam BEGIN
+		ACTION_BASH_FOR ~Sos/anim/Remorhaz~ ~^.+\.%var%$~ BEGIN
+			OUTER_PATCH_SAVE newname ~%BASH_FOR_FILE%~ BEGIN
+				REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~MBRH~ ~MREM~
+			END
+			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%newname%~ BEGIN
+				COPY ~%BASH_FOR_FILESPEC%~ ~override/%newname%~
+			END
+		END
+	END
+	ACTION_BASH_FOR ~Sos/anim/Remorhaz~ ~^.+\.ogg$~ BEGIN
+		ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~SoS/ogg2~
+		END
+	END
+	COPY + ~SoS/CRE/CBTWRMGR.cre~         ~%SOS-CRE%~
+		SAY NAME1 @20340
+		SAY NAME2 @20340
+		WRITE_LONG 0x28 0xE253   //REMORHAZ
+	
+	COPY + ~SoS/CRE/CBTWRMLS.cre~         ~%SOS-CRE%~
+		SAY NAME1 @20341
+		SAY NAME2 @20341
+		WRITE_LONG 0x28 0xE253   //REMORHAZ
 END
 
+	
 //**************************************************************************
 // A single SoS Kit
 //**************************************************************************
@@ -957,36 +1017,16 @@ LAF HANDLE_AUDIO  // With no configuration, HANDLE_AUDIO expects your audio, ogg
 END
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-  LAF GET_TOOL_BINARY
-    STR_VAR
-      tool_name = ~tile2ee~
-    RET
-      tool_binary
-  END
-
-  LAF HANDLE_TILE2EE
-//   INT_VAR
-//      pvrz_index    = free_index
-    STR_VAR
-      input_path    = ~SOS\Pvrz~
-      // can be skipped if tile2ee is located in default path (see above)
-      tile2ee_path  = EVAL ~%tool_binary%~
-      output_path   = ~override~
-    RET
-      num_converted
-  END
-  ACTION_IF (num_converted < 87) BEGIN
-    OUTER_SET skipped = 87 - num_converted
-    FAIL ~Error: Failed to convert %skipped% out of 87 graphics files.~
-  END
-MAKE_BIFF ~SoS-TIS~ BEGIN
-	~override/SOS-TIS~ ~^.*$~
+LAF HANDLE_AUDIO
+  STR_VAR
+    audio_path = ~SoS/ogg2~
+    oggdec_path = ~SoS/bin/win32~
+	sox_path = ~SoS/bin/osx~
+	output_path = ~override~
 END
-DELETE + ~override/SOS-TIS~
 END
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
    COPY ~SOS\Pvrz~ ~override~
-
 END
 
 
