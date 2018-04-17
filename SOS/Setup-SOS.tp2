@@ -64,7 +64,6 @@ ALWAYS
 		COPY ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/fl#utf8_worldmap.tra~ ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
 		LOAD_TRA ~SoS/language/%LANGUAGE%/setup-ee.tra~
 	END
-	INCLUDE ~SoS/lib/a7_tools.tpa~
 END
 
 LANGUAGE ~English~
@@ -93,44 +92,24 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	COPY + ~Setup-SoS.exe~ ~WeiDU.exe~
 	
 	COPY + ~chitin.key~ ~SOS/chitin.sos~
-	COPY_LARGE + ~dialog.tlk~ ~SOS/dialog.sos~
+	ACTION_FOR_EACH var IN ~~ F BEGIN
+		ACTION_IF FILE_EXISTS ~dialog%var%.tlk~ BEGIN
+			COPY_LARGE + ~dialog%var%.tlk~ ~SOS/dialog%var%.sos~
+		END
+	END
 	MKDIR ~SOS/over.bak~
 	COPY_LARGE + ~override~ ~SOS/over.bak~
-	MKDIR ~SoS/SOS-ARE~
-	MKDIR ~SoS/SOS-BAM~
-	MKDIR ~SoS/SOS-CRE~
-	MKDIR ~SoS/SOS-ITM~
-	MKDIR ~SoS/SOS-MOS~
-	MKDIR ~SoS/SOS-RULE~
-	MKDIR ~SoS/SOS-SPL~
-	
-	OUTER_SPRINT SOS-ARE 	~SoS/SOS-ARE~
-	OUTER_SPRINT SOS-BAM    ~SoS/SOS-BAM~
-	OUTER_SPRINT SOS-CRE    ~SoS/SOS-CRE~
-	OUTER_SPRINT SOS-ITM    ~SoS/SOS-ITM~
-	OUTER_SPRINT SOS-MOS    ~SoS/SOS-MOS~
-	OUTER_SPRINT SOS-RULE   ~SoS/SOS-RULE~
-	OUTER_SPRINT SOS-SPL    ~SoS/SOS-SPL~
 	
 	INCLUDE ~%MOD_FOLDER%/lib/install-guititle.tpa~
 END 
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-	OUTER_SPRINT SOS-ARE 	~override~
-	OUTER_SPRINT SOS-CRE    ~override~
-	OUTER_SPRINT SOS-ITM    ~override~
-	OUTER_SPRINT SOS-SPL    ~override~
-	OUTER_SPRINT SOS-BAM    ~override~
-	OUTER_SPRINT SOS-MOS    ~override~
-	OUTER_SPRINT SOS-RULE   ~override~
-END
 
 COPY_EXISTING ~misc01.itm~ ~override/sos.mrk~
 
 COPY ~SOS/SFX~  ~override~   //to overwrite files there!!!
-COPY ~SOS/RULE~ ~%SOS-RULE%~   //to overwrite files there!!!
-COPY ~SOS/BAM~  ~%SOS-BAM%~   //to overwrite files there!!!
-COPY ~SOS/MOS~  ~%SOS-MOS%~   //to overwrite files there!!!
-COPY ~SOS/WED~  ~%SOS-ARE%~   //to overwrite files there!!!
+COPY ~SOS/RULE~ ~override~   //to overwrite files there!!!
+COPY ~SOS/BAM~  ~override~   //to overwrite files there!!!
+COPY ~SOS/MOS~  ~override~   //to overwrite files there!!!
+COPY ~SOS/WED~  ~override~   //to overwrite files there!!!
 //MKDIR ~SOSDLG~
 
 /////                                                  \\\\\
@@ -359,22 +338,22 @@ END
 //******************************************************************
 PRINT @20073
 
-COPY ~SoS/ARE/AR4201.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4202.ARE~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4203.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4204.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4205.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4206.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4210.are~           ~%SOS-ARE%~
+COPY ~SoS/ARE/AR4201.are~           ~override~
+COPY ~SoS/ARE/AR4202.ARE~           ~override~
+COPY ~SoS/ARE/AR4203.are~           ~override~
+COPY ~SoS/ARE/AR4204.are~           ~override~
+COPY ~SoS/ARE/AR4205.are~           ~override~
+COPY ~SoS/ARE/AR4206.are~           ~override~
+COPY ~SoS/ARE/AR4210.are~           ~override~
 
-COPY ~SoS/ARE/AR4211.ARE~           ~%SOS-ARE%~
+COPY ~SoS/ARE/AR4211.ARE~           ~override~
   SAY 0x11a8 @20074
 
-COPY ~SoS/ARE/AR4212.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4219.ARE~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4220.are~           ~%SOS-ARE%~
+COPY ~SoS/ARE/AR4212.are~           ~override~
+COPY ~SoS/ARE/AR4219.ARE~           ~override~
+COPY ~SoS/ARE/AR4220.are~           ~override~
 
-COPY ~SoS/ARE/AR4230.are~           ~%SOS-ARE%~
+COPY ~SoS/ARE/AR4230.are~           ~override~
   SAY 0x1b88 @20075
   SAY 0x1c4c @20076
   SAY 0x1d10 @20077
@@ -389,109 +368,109 @@ COPY ~SoS/ARE/AR4230.are~           ~%SOS-ARE%~
   SAY 0x64a8 @20076
   SAY 0x64dc @20082
 
-COPY ~SoS/ARE/AR4232.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4240.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4241.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4242.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4243.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4244.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4245.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4246.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4247.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4248.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4249.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4250.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4251.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4252.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4253.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4254.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4255.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4256.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4257.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4258.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4259.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4260.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4261.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4262.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4263.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4264.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4265.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4266.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4267.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4268.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4269.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4270.ARE~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4271.are~           ~%SOS-ARE%~
+COPY ~SoS/ARE/AR4232.are~           ~override~
+COPY ~SoS/ARE/AR4240.are~           ~override~
+COPY ~SoS/ARE/AR4241.are~           ~override~
+COPY ~SoS/ARE/AR4242.are~           ~override~
+COPY ~SoS/ARE/AR4243.are~           ~override~
+COPY ~SoS/ARE/AR4244.are~           ~override~
+COPY ~SoS/ARE/AR4245.are~           ~override~
+COPY ~SoS/ARE/AR4246.are~           ~override~
+COPY ~SoS/ARE/AR4247.are~           ~override~
+COPY ~SoS/ARE/AR4248.are~           ~override~
+COPY ~SoS/ARE/AR4249.are~           ~override~
+COPY ~SoS/ARE/AR4250.are~           ~override~
+COPY ~SoS/ARE/AR4251.are~           ~override~
+COPY ~SoS/ARE/AR4252.are~           ~override~
+COPY ~SoS/ARE/AR4253.are~           ~override~
+COPY ~SoS/ARE/AR4254.are~           ~override~
+COPY ~SoS/ARE/AR4255.are~           ~override~
+COPY ~SoS/ARE/AR4256.are~           ~override~
+COPY ~SoS/ARE/AR4257.are~           ~override~
+COPY ~SoS/ARE/AR4258.are~           ~override~
+COPY ~SoS/ARE/AR4259.are~           ~override~
+COPY ~SoS/ARE/AR4260.are~           ~override~
+COPY ~SoS/ARE/AR4261.are~           ~override~
+COPY ~SoS/ARE/AR4262.are~           ~override~
+COPY ~SoS/ARE/AR4263.are~           ~override~
+COPY ~SoS/ARE/AR4264.are~           ~override~
+COPY ~SoS/ARE/AR4265.are~           ~override~
+COPY ~SoS/ARE/AR4266.are~           ~override~
+COPY ~SoS/ARE/AR4267.are~           ~override~
+COPY ~SoS/ARE/AR4268.are~           ~override~
+COPY ~SoS/ARE/AR4269.are~           ~override~
+COPY ~SoS/ARE/AR4270.ARE~           ~override~
+COPY ~SoS/ARE/AR4271.are~           ~override~
 
-COPY ~SoS/ARE/AR4272.are~           ~%SOS-ARE%~
+COPY ~SoS/ARE/AR4272.are~           ~override~
   SAY 0xda8 @20083
   SAY 0xe6c @20084
   SAY 0xf30 @20085
 
-COPY ~SoS/ARE/AR4273.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4274.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4275.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4276.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4277.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4278.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4279.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4280.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4281.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4282.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4283.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4284.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4285.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4286.are~           ~%SOS-ARE%~
+COPY ~SoS/ARE/AR4273.are~           ~override~
+COPY ~SoS/ARE/AR4274.are~           ~override~
+COPY ~SoS/ARE/AR4275.are~           ~override~
+COPY ~SoS/ARE/AR4276.are~           ~override~
+COPY ~SoS/ARE/AR4277.are~           ~override~
+COPY ~SoS/ARE/AR4278.are~           ~override~
+COPY ~SoS/ARE/AR4279.are~           ~override~
+COPY ~SoS/ARE/AR4280.are~           ~override~
+COPY ~SoS/ARE/AR4281.are~           ~override~
+COPY ~SoS/ARE/AR4282.are~           ~override~
+COPY ~SoS/ARE/AR4283.are~           ~override~
+COPY ~SoS/ARE/AR4284.are~           ~override~
+COPY ~SoS/ARE/AR4285.are~           ~override~
+COPY ~SoS/ARE/AR4286.are~           ~override~
 
-COPY ~SoS/ARE/AR4287.are~           ~%SOS-ARE%~
+COPY ~SoS/ARE/AR4287.are~           ~override~
   SAY 0x528 @20086
   SAY 0x5ec @20086
   SAY 0x6b0 @20086
 
-COPY ~SoS/ARE/AR4288.ARE~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4289.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4290.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4291.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4292.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4293.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4294.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4295.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4296.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4298.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4299.are~           ~%SOS-ARE%~
+COPY ~SoS/ARE/AR4288.ARE~           ~override~
+COPY ~SoS/ARE/AR4289.are~           ~override~
+COPY ~SoS/ARE/AR4290.are~           ~override~
+COPY ~SoS/ARE/AR4291.are~           ~override~
+COPY ~SoS/ARE/AR4292.are~           ~override~
+COPY ~SoS/ARE/AR4293.are~           ~override~
+COPY ~SoS/ARE/AR4294.are~           ~override~
+COPY ~SoS/ARE/AR4295.are~           ~override~
+COPY ~SoS/ARE/AR4296.are~           ~override~
+COPY ~SoS/ARE/AR4298.are~           ~override~
+COPY ~SoS/ARE/AR4299.are~           ~override~
 
-COPY ~SoS/ARE/AR4370.are~           ~%SOS-ARE%~
+COPY ~SoS/ARE/AR4370.are~           ~override~
   SAY 0x3808 @20087
   SAY 0x38cc @20087
 
-COPY ~SoS/ARE/AR4301.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4302.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4303.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4304.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4305.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4306.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4307.are~           ~%SOS-ARE%~
+COPY ~SoS/ARE/AR4301.are~           ~override~
+COPY ~SoS/ARE/AR4302.are~           ~override~
+COPY ~SoS/ARE/AR4303.are~           ~override~
+COPY ~SoS/ARE/AR4304.are~           ~override~
+COPY ~SoS/ARE/AR4305.are~           ~override~
+COPY ~SoS/ARE/AR4306.are~           ~override~
+COPY ~SoS/ARE/AR4307.are~           ~override~
 
-COPY ~SoS/ARE/AR4308.are~           ~%SOS-ARE%~
+COPY ~SoS/ARE/AR4308.are~           ~override~
   SAY 0xfc8 @20088
 
-COPY ~SoS/ARE/AR4309.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4310.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4311.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4312.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4313.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4320.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4325.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4330.are~           ~%SOS-ARE%~
+COPY ~SoS/ARE/AR4309.are~           ~override~
+COPY ~SoS/ARE/AR4310.are~           ~override~
+COPY ~SoS/ARE/AR4311.are~           ~override~
+COPY ~SoS/ARE/AR4312.are~           ~override~
+COPY ~SoS/ARE/AR4313.are~           ~override~
+COPY ~SoS/ARE/AR4320.are~           ~override~
+COPY ~SoS/ARE/AR4325.are~           ~override~
+COPY ~SoS/ARE/AR4330.are~           ~override~
 
-COPY ~SoS/ARE/AR4340.are~           ~%SOS-ARE%~
+COPY ~SoS/ARE/AR4340.are~           ~override~
   SAY 0x968 @20089
   SAY 0xa2c @20089
   SAY 0xaf0 @20089
   SAY 0xbb4 @20089
 
-COPY ~SoS/ARE/AR4350.are~           ~%SOS-ARE%~
-COPY ~SoS/ARE/AR4351.are~           ~%SOS-ARE%~
+COPY ~SoS/ARE/AR4350.are~           ~override~
+COPY ~SoS/ARE/AR4351.are~           ~override~
 
 ACTION_IF GAME_IS ~eet~ BEGIN
     OUTER_SPRINT "NBaldursGate_RinniesHouse_L2" "BG0007"
@@ -500,13 +479,13 @@ END ELSE ACTION_IF GAME_IS ~bg2 tob bg2ee~ BEGIN
 END ELSE ACTION_IF GAME_IS ~bgt~ BEGIN
     OUTER_SPRINT "NBaldursGate_RinniesHouse_L2" "ARA007"
 END
-COPY ~SoS/ARE/AR4360.are~           ~%SOS-ARE%~
+COPY ~SoS/ARE/AR4360.are~           ~override~
     WRITE_ASCIIE 0x0018 ~%NBaldursGate_RinniesHouse_L2%~ #8
     WRITE_ASCIIE 0x0024 ~%NBaldursGate_RinniesHouse_L2%~ #8
     WRITE_ASCIIE 0x0030 ~%NBaldursGate_RinniesHouse_L2%~ #8
     WRITE_ASCIIE 0x003c ~%NBaldursGate_RinniesHouse_L2%~ #8
 
-	COPY ~SoS/ARE/AR4365.are~           ~%SOS-ARE%~
+	COPY ~SoS/ARE/AR4365.are~           ~override~
 
 //**************************************************
 //  WORLDMAP
@@ -654,35 +633,35 @@ PRINT @20756
 
 ACTION_IF NOT FILE_EXISTS ~data/TDD-RULE.BIF~ AND NOT FILE_EXISTS_IN_GAME ~tdd.mrk~ OR GAME_IS ~bg2ee eet~
 THEN BEGIN
-COPY + ~SoS/Compat/SoS/SPWI429.spl~          ~%SOS-SPL%~
+COPY + ~SoS/Compat/SoS/SPWI429.spl~          ~override~
   SAY NAME1 @20651
   SAY UNIDENTIFIED_DESC @20652
 
-COPY + ~SoS/Compat/SoS/SPRB005A.bam~          ~%SOS-BAM%~
-       ~SoS/Compat/SoS/SPRB005B.bam~          ~%SOS-BAM%~
-       ~SoS/Compat/SoS/SPRB005C.bam~          ~%SOS-BAM%~
+COPY + ~SoS/Compat/SoS/SPRB005A.bam~          ~override~
+       ~SoS/Compat/SoS/SPRB005B.bam~          ~override~
+       ~SoS/Compat/SoS/SPRB005C.bam~          ~override~
 END
 
-COPY + ~SoS/SPL/Copy~                 ~%SOS-SPL%~
+COPY + ~SoS/SPL/Copy~                 ~override~
 
-COPY + ~SoS/SPL/CBBRCRVA.spl~         ~%SOS-SPL%~
+COPY + ~SoS/SPL/CBBRCRVA.spl~         ~override~
 
-COPY + ~SoS/SPL/CBBRCRVB.spl~         ~%SOS-SPL%~
+COPY + ~SoS/SPL/CBBRCRVB.spl~         ~override~
   SAY NAME1 @20757
 
-COPY + ~SoS/SPL/CBBRNOIL.spl~         ~%SOS-SPL%~
+COPY + ~SoS/SPL/CBBRNOIL.spl~         ~override~
 
-COPY + ~SoS/SPL/CB300SLT.spl~         ~%SOS-SPL%~
+COPY + ~SoS/SPL/CB300SLT.spl~         ~override~
   SAY NAME1 @20758
 
-COPY + ~SoS/SPL/CB4330CT.spl~         ~%SOS-SPL%~
+COPY + ~SoS/SPL/CB4330CT.spl~         ~override~
   SAY NAME1 @20759
   SAY 0xfe @20760
 
-COPY + ~SoS/SPL/CBDRGDP1.spl~         ~%SOS-SPL%~
+COPY + ~SoS/SPL/CBDRGDP1.spl~         ~override~
   SAY NAME1 @20761
 
-COPY + ~SoS/SPL/CBRVCH.spl~           ~%SOS-SPL%~
+COPY + ~SoS/SPL/CBRVCH.spl~           ~override~
   SAY NAME1 @20762
   SAY 0xce @20763 
 
@@ -805,7 +784,7 @@ ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
 			COPY ~%BASH_FOR_FILESPEC%~ ~SoS/ogg2~
 		END
 	END
-  COPY + ~SoS/CRE/CBSSYETI.cre~         ~%SOS-CRE%~
+  COPY + ~SoS/CRE/CBSSYETI.cre~         ~override~
 		SAY NAME1 @20288
 		SAY NAME2 @20288
 		WRITE_LONG 0x28 0xE060   //IC_LICH
@@ -828,7 +807,7 @@ ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
 			COPY ~%BASH_FOR_FILESPEC%~ ~SoS/ogg2~
 		END
 	END
-  COPY + ~SoS/CRE/CBSSYETI.cre~         ~%SOS-CRE%~
+  COPY + ~SoS/CRE/CBSSYETI.cre~         ~override~
 		SAY NAME1 @20288
 		SAY NAME2 @20288
 		WRITE_LONG 0x28 0xE25D   //IC_LICH          0xE25D TUNDRA_YETI with EE    0xe25D IC_TUNDRA_YETI with EXTENDED ANIMATION
@@ -847,12 +826,12 @@ ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
 			COPY ~%BASH_FOR_FILESPEC%~ ~SoS/ogg2~
 		END
 	END
-	COPY + ~SoS/CRE/CBTWRMGR.cre~         ~%SOS-CRE%~
+	COPY + ~SoS/CRE/CBTWRMGR.cre~         ~override~
 		SAY NAME1 @20340
 		SAY NAME2 @20340
 		WRITE_LONG 0x28 0xE230   //IC_BEETLE_RHINOCEROS
 
-	COPY + ~SoS/CRE/CBTWRMLS.cre~         ~%SOS-CRE%~
+	COPY + ~SoS/CRE/CBTWRMLS.cre~         ~override~
 		SAY NAME1 @20341
 		SAY NAME2 @20341
 		WRITE_LONG 0x28 0xE230   //IC_BEETLE_RHINOCEROS
@@ -873,12 +852,12 @@ ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
 			COPY ~%BASH_FOR_FILESPEC%~ ~SoS/ogg2~
 		END
 	END
-	COPY + ~SoS/CRE/CBTWRMGR.cre~         ~%SOS-CRE%~
+	COPY + ~SoS/CRE/CBTWRMGR.cre~         ~override~
 		SAY NAME1 @20340
 		SAY NAME2 @20340
 		WRITE_LONG 0x28 0xE253   //REMORHAZ
 	
-	COPY + ~SoS/CRE/CBTWRMLS.cre~         ~%SOS-CRE%~
+	COPY + ~SoS/CRE/CBTWRMLS.cre~         ~override~
 		SAY NAME1 @20341
 		SAY NAME2 @20341
 		WRITE_LONG 0x28 0xE253   //REMORHAZ
@@ -936,18 +915,18 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 /*COPY_EXISTING ~K_T_H.2da~ ~Override/K_T_H.2da~    - WHAT IS THIS? shall we care about that here? let other mods do that.....
   REPLACE_TEXTUALLY ~5          32~ ~~ */
 
-COPY + ~SoS/SPL/CBFENCE5.spl~         ~%SOS-SPL%~
-       ~SoS/SPL/CBFNCE2.spl~          ~%SOS-SPL%~
-       ~SoS/SPL/CBFNCE3.spl~          ~%SOS-SPL%~
+COPY + ~SoS/SPL/CBFENCE5.spl~         ~override~
+       ~SoS/SPL/CBFNCE2.spl~          ~override~
+       ~SoS/SPL/CBFNCE3.spl~          ~override~
 
-COPY + ~SoS/SPL/CBFNCE4.spl~          ~%SOS-SPL%~
+COPY + ~SoS/SPL/CBFNCE4.spl~          ~override~
   SAY NAME1 @20803
 
 //Here we should determine a REAL ID of FENCE kit and set it for CREs
-COPY + ~SoS/CRE/SELENC07.cre~         ~%SOS-CRE%~
-       ~SoS/CRE/SELENC09.cre~         ~%SOS-CRE%~
-       ~SoS/CRE/SELENC12.cre~         ~%SOS-CRE%~
-       ~SoS/CRE/SELENC17.cre~         ~%SOS-CRE%~
+COPY + ~SoS/CRE/SELENC07.cre~         ~override~
+       ~SoS/CRE/SELENC09.cre~         ~override~
+       ~SoS/CRE/SELENC12.cre~         ~override~
+       ~SoS/CRE/SELENC17.cre~         ~override~
    SAY NAME1 @20804
    SAY NAME2 @20805
    SAY 0x1cc @20806
@@ -1021,14 +1000,13 @@ LAF HANDLE_AUDIO  // With no configuration, HANDLE_AUDIO expects your audio, ogg
 END
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-LAF HANDLE_AUDIO
-  STR_VAR
-    audio_path = ~SoS/ogg2~
-    oggdec_path = ~SoS/bin/win32~
-	sox_path = ~SoS/bin/osx~
-	output_path = ~override~
+	LAF HANDLE_TILESETS
+		STR_VAR
+		tiz_path = ~SoS/Tiz~
+		tisunpack_path = ~SoS/bin~
+	END	 
 END
-END
+
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
    COPY ~SOS\Pvrz~ ~override~
 END
@@ -1039,32 +1017,53 @@ COPY ~SoS/MVE~ ~SoS/biff~
 
 PRINT ~Biffing files....~
 
-MAKE_BIFF ~SoS~ BEGIN
-	~SoS/biff~ ~^.*$~
+//////////////////////////////
+// biffing
+//////////////////////////////
+
+MAKE_BIFF ~SoS-MVE~ BEGIN
+	~SoS/MVE~ ~^.*$~
 END
-ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-	MAKE_BIFF ~SOS-ARE~ BEGIN
-		~SoS/SOS-ARE~ ~^.*$~
-	END
-	MAKE_BIFF ~SOS-BAM~ BEGIN
-		~SoS/SOS-BAM~ ~^.*$~
-	END
-	MAKE_BIFF ~SOS-CRE~ BEGIN
-		~SoS/SOS-CRE~ ~^.*$~
-	END
-	MAKE_BIFF ~SOS-ITM~ BEGIN
-		~SoS/SOS-ITM~ ~^.*$~
-	END
-	MAKE_BIFF ~SOS-MOS~ BEGIN
-		~SoS/SOS-MOS~ ~^.*$~
-	END
+
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN		//older mods use SOS-RULE
 	MAKE_BIFF ~SOS-RULE~ BEGIN
-		~SoS/SOS-RULE~ ~^.*$~
-	END
-	MAKE_BIFF ~SOS-SPL~ BEGIN
-		~SoS/SOS-SPL~ ~^.*$~
+		~override~ ~SOS.mrk~
 	END
 END
+
+ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
+	MAKE_BIFF ~SOS-RULE~ BEGIN
+		~override~ ~^.*\.2da$~
+	END
+	
+	ACTION_DEFINE_ASSOCIATIVE_ARRAY table_SOS_biff BEGIN
+		~SOS-TIS~ , ~override~ , ~^.*\.tis$~ => 100000000 //150 MB
+		~SOS-WAV~ , ~override~ , ~^.*\.wav$~ => 100000000 //150 MB
+		~SOS-RES~ , ~override~ , ~^.*$~ => 50000000 //50 MB
+	END
+	
+	ACTION_PHP_EACH table_SOS_biff AS biff => size BEGIN
+		OUTER_SET totalSize = 0
+		OUTER_SET index = 0
+		MKDIR ~%MOD_FOLDER%/%biff%%index%~
+		ACTION_BASH_FOR ~%biff_1%~ ~%biff_2%~ BEGIN
+			ACTION_IF ( BASH_FOR_SIZE + totalSize > size ) AND ( totalSize > 0 ) BEGIN
+				MAKE_BIFF ~%biff%%index%~ BEGIN ~%MOD_FOLDER%/%biff%%index%~ ~^.*$~ END
+				OUTER_SET index = index + 1
+				OUTER_SET totalSize = 0
+				MKDIR ~%MOD_FOLDER%/%biff%%index%~
+			END
+			MOVE + ~%BASH_FOR_FILESPEC%~ ~%MOD_FOLDER%/%biff%%index%~
+			OUTER_SET totalSize = totalSize + BASH_FOR_SIZE
+		END
+		ACTION_IF ( totalSize > 0 ) BEGIN
+			MAKE_BIFF ~%biff%%index%~ BEGIN ~%MOD_FOLDER%/%biff%%index%~ ~^.*$~ END
+		END
+	END
+END
+
+COPY_EXISTING ~misc01.itm~ ~override/sos.mrk~
+
 
 BEGIN ~Selence comes to Waukeens Promenade, after the first meeting with Gaelan Bayle in the slums~
 REQUIRE_COMPONENT "Setup-SoS.tp2"      "0"  ~You must have SoS mod installed~

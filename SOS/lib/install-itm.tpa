@@ -1,1193 +1,1193 @@
-COPY + ~SoS/ITM/CB285KY.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CB285KY.itm~          ~override~
   SAY UNIDENTIFIED_DESC @20410
 
-COPY + ~SoS/ITM/CB287BAR.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CB287BAR.itm~         ~override~
   SAY NAME1 @20411
   SAY NAME2 @20411
   SAY UNIDENTIFIED_DESC @20412
 
-COPY + ~SoS/ITM/CB300SLT.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CB351G01.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CB351G02.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CB351G03.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CB351G04.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CB300SLT.itm~         ~override~
+       ~SoS/ITM/CB351G01.itm~         ~override~
+       ~SoS/ITM/CB351G02.itm~         ~override~
+       ~SoS/ITM/CB351G03.itm~         ~override~
+       ~SoS/ITM/CB351G04.itm~         ~override~
 
-COPY + ~SoS/ITM/CB4220PS.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CB4220PS.itm~         ~override~
   SAY NAME1 @20413
   SAY NAME2 @20414
   SAY UNIDENTIFIED_DESC @20415
   SAY DESC @20416
 
-COPY + ~SoS/ITM/CB4307MG.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CB4307MG.itm~         ~override~
 
-COPY + ~SoS/ITM/CB4313BK.ITM~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CB4313BK.ITM~         ~override~
   SAY NAME2 @20417
   SAY DESC @20418
   SAY 0x10e @20419
 
-COPY + ~SoS/ITM/CB4330CT.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CB4330CT.itm~         ~override~
   SAY NAME1 @20420
   SAY NAME2 @20420
   SAY UNIDENTIFIED_DESC @20421
   SAY DESC @20421
 
-COPY + ~SoS/ITM/CBAMULPW.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBAMULPW.itm~         ~override~
   SAY NAME2 @20422
   SAY DESC @20423
 
-COPY + ~SoS/ITM/CBAROWHL.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBAROWHL.itm~         ~override~
   SAY NAME2 @20424
   SAY DESC @20425
 
-COPY + ~SoS/ITM/CBAROWPN.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBAROWPN.itm~         ~override~
   SAY NAME2 @20426
   SAY DESC @20427
 
-COPY + ~SoS/ITM/CBAROWST.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBAROWST.itm~         ~override~
   SAY NAME2 @20428
   SAY DESC @20429
 
-COPY + ~SoS/ITM/CBBANDW1.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBBANDW1.itm~         ~override~
   SAY 0x10e @20430
 
-COPY + ~SoS/ITM/CBBANDW2.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBBANDW2.itm~         ~override~
   SAY 0x10e @20431
 
-COPY + ~SoS/ITM/CBBKBNBN.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBBKBNBN.itm~         ~override~
   SAY NAME1 @20432
   SAY NAME2 @20432
   SAY UNIDENTIFIED_DESC @20433
 
-COPY + ~SoS/ITM/CBBKBNLH.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBBKBNLH.itm~         ~override~
   SAY NAME1 @20432
   SAY NAME2 @20432
   SAY UNIDENTIFIED_DESC @20434
 
-COPY + ~SoS/ITM/CBBLKCHN.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBBLKHLM.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBBNEL20.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBBNEL30.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBBLKCHN.itm~         ~override~
+       ~SoS/ITM/CBBLKHLM.itm~         ~override~
+       ~SoS/ITM/CBBNEL20.itm~         ~override~
+       ~SoS/ITM/CBBNEL30.itm~         ~override~
 
-COPY + ~SoS/ITM/CBBNEL31.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBBNEL31.itm~         ~override~
   SAY UNIDENTIFIED_DESC @20435
 
-COPY + ~SoS/ITM/CBBNLCH0.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBBNLCH1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBBNLCH2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBBNLCH3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBBNLCH4.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBBNLCH5.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBBNLCH8.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBBNLCH0.itm~         ~override~
+       ~SoS/ITM/CBBNLCH1.itm~         ~override~
+       ~SoS/ITM/CBBNLCH2.itm~         ~override~
+       ~SoS/ITM/CBBNLCH3.itm~         ~override~
+       ~SoS/ITM/CBBNLCH4.itm~         ~override~
+       ~SoS/ITM/CBBNLCH5.itm~         ~override~
+       ~SoS/ITM/CBBNLCH8.itm~         ~override~
 
-COPY + ~SoS/ITM/CBBRACRV.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBBRACRV.itm~         ~override~
   SAY NAME2 @20436
   SAY DESC @20437
 
-COPY + ~SoS/ITM/CBBURNBN.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBCHARNL.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBBURNBN.itm~         ~override~
+       ~SoS/ITM/CBCHARNL.itm~         ~override~
 
-COPY + ~SoS/ITM/CBCAPT01.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCAPT01.itm~         ~override~
   SAY 0xae @20137
 
-COPY + ~SoS/ITM/CBCL001.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL001.itm~          ~override~
   SAY NAME2 @20028
   SAY DESC @20438
 
-COPY + ~SoS/ITM/CBCL002.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL002.itm~          ~override~
   SAY NAME2 @20439
   SAY DESC @20440
 
-COPY + ~SoS/ITM/CBCL003.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL003.itm~          ~override~
   SAY NAME2 @20441
   SAY DESC @20442
 
-COPY + ~SoS/ITM/CBCL004.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL004.itm~          ~override~
   SAY NAME2 @20443
   SAY DESC @20444
 
-COPY + ~SoS/ITM/CBCL005.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL005.itm~          ~override~
   SAY NAME2 @20445
   SAY DESC @20446
 
-COPY + ~SoS/ITM/CBCL006.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL006.itm~          ~override~
   SAY NAME2 @20030
   SAY DESC @20447
 
-COPY + ~SoS/ITM/CBCL007.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL007.itm~          ~override~
   SAY NAME2 @20448
   SAY DESC @20449
 
-COPY + ~SoS/ITM/CBCL008.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL008.itm~          ~override~
   SAY NAME2 @20450
   SAY DESC @20451
 
-COPY + ~SoS/ITM/CBCL009.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL009.itm~          ~override~
   SAY NAME1 @20452
   SAY NAME2 @20452
   SAY UNIDENTIFIED_DESC @20453
 
-COPY + ~SoS/ITM/CBCL010.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL010.itm~          ~override~
   SAY NAME1 @20454
   SAY NAME2 @20454
   SAY UNIDENTIFIED_DESC @20455
 
-COPY + ~SoS/ITM/CBCL011.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL011.itm~          ~override~
   SAY NAME2 @20456
   SAY DESC @20457
 
-COPY + ~SoS/ITM/CBCL012.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL012.itm~          ~override~
   SAY NAME2 @20458
   SAY DESC @20459
 
-COPY + ~SoS/ITM/CBCL013.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL013.itm~          ~override~
   SAY NAME2 @20460
   SAY DESC @20461
 
-COPY + ~SoS/ITM/CBCL014.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL014.itm~          ~override~
   SAY NAME2 @20462
   SAY DESC @20463
 
-COPY + ~SoS/ITM/CBCL015.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL015.itm~          ~override~
   SAY NAME2 @20464
   SAY DESC @20465
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBCL016.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL016.itm~          ~override~
   SAY NAME2 @20032
   SAY DESC @20467
 
-COPY + ~SoS/ITM/CBCL017.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL017.itm~          ~override~
   SAY NAME2 @20468
   SAY DESC @20469
 
-COPY + ~SoS/ITM/CBCL018.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL018.itm~          ~override~
   SAY NAME2 @20470
   SAY DESC @20471
 
-COPY + ~SoS/ITM/CBCL019.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL019.itm~          ~override~
   SAY NAME2 @20472
   SAY UNIDENTIFIED_DESC @20473
   SAY 0x10e @20466
 
-COPY + ~SoS/ITM/CBCL020.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL020.itm~          ~override~
   SAY NAME2 @20474
   SAY DESC @20475
 
-COPY + ~SoS/ITM/CBCL021.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL021.itm~          ~override~
   SAY NAME2 @20476
   SAY DESC @20477
 
-COPY + ~SoS/ITM/CBCL022.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL022.itm~          ~override~
   SAY NAME2 @20478
   SAY DESC @20479
 
-COPY + ~SoS/ITM/CBCL023A.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBCL023B.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL023A.itm~         ~override~
+       ~SoS/ITM/CBCL023B.itm~         ~override~
   SAY NAME2 @20480
   SAY DESC @20481
 
-COPY + ~SoS/ITM/CBCL024.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL024.itm~          ~override~
   SAY NAME2 @20482
   SAY DESC @20483
 
-COPY + ~SoS/ITM/CBCL025.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL025.itm~          ~override~
   SAY NAME2 @20484
   SAY DESC @20485
 
-COPY + ~SoS/ITM/CBCL026.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL026.itm~          ~override~
   SAY NAME2 @20486
   SAY DESC @20487
 
-COPY + ~SoS/ITM/CBCL027.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL027.itm~          ~override~
   SAY NAME2 @20488
   SAY DESC @20489
 
-COPY + ~SoS/ITM/CBCL028.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL028.itm~          ~override~
   SAY NAME2 @20035
   SAY DESC @20490
 
-COPY + ~SoS/ITM/CBCL029.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL029.itm~          ~override~
   SAY NAME2 @20491
   SAY DESC @20492
 
-COPY + ~SoS/ITM/CBCL030.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL030.itm~          ~override~
   SAY NAME2 @20493
   SAY DESC @20494
 
-COPY + ~SoS/ITM/CBCL031.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL031.itm~          ~override~
   SAY NAME2 @20495
   SAY UNIDENTIFIED_DESC @20496
   SAY DESC @20497
 
-COPY + ~SoS/ITM/CBCL032.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL032.itm~          ~override~
   SAY NAME1 @20498 
   SAY NAME2 @20499
   SAY UNIDENTIFIED_DESC @20500 
   SAY DESC @20501
 
-COPY + ~SoS/ITM/CBCL033.ITM~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL033.ITM~          ~override~
   SAY NAME2 @20502
   SAY DESC @20503
 
-COPY + ~SoS/ITM/CBCL034.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL034.itm~          ~override~
   SAY NAME2 @20504
   SAY UNIDENTIFIED_DESC @20505
   SAY DESC @20506
 
-COPY + ~SoS/ITM/CBCL035.ITM~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL035.ITM~          ~override~
   SAY NAME2 @20507
   SAY DESC @20508 
 
-COPY + ~SoS/ITM/CBCL036.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL036.itm~          ~override~
   SAY NAME2 @20509
   SAY DESC @20510
 
-COPY + ~SoS/ITM/CBCL037.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL037.itm~          ~override~
   SAY NAME2 @20511
   SAY DESC @20512
 
-COPY + ~SoS/ITM/CBCL038.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL038.itm~          ~override~
   SAY NAME2 @20513
   SAY DESC @20514 
 
-COPY + ~SoS/ITM/CBCL039.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL039.itm~          ~override~
   SAY NAME1 @20515 
   SAY NAME2 @20516
   SAY UNIDENTIFIED_DESC @20517 
   SAY DESC @20518 
 
-COPY + ~SoS/ITM/CBCL040.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL040.itm~          ~override~
   SAY NAME2 @20519
   SAY DESC @20520 
   SAY 0x13e @20466 
 
-COPY + ~SoS/ITM/CBCL041.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL041.itm~          ~override~
   SAY NAME2 @20521
   SAY DESC @20522
 
-COPY + ~SoS/ITM/CBCL042.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL042.itm~          ~override~
   SAY NAME2 @20523
   SAY DESC @20524
 
-COPY + ~SoS/ITM/CBCL043.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL043.itm~          ~override~
   SAY NAME2 @20525
   SAY DESC @20526
 
-COPY + ~SoS/ITM/CBCL044.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL044.itm~          ~override~
   SAY NAME2 @20527
   SAY DESC @20528
 
-COPY + ~SoS/ITM/CBCL045.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL045.itm~          ~override~
   SAY NAME2 @20529
   SAY DESC @20530
 
-COPY + ~SoS/ITM/CBCL046.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL046.itm~          ~override~
   SAY NAME2 @20531
   SAY DESC @20532
 
-COPY + ~SoS/ITM/CBCL047.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL047.itm~          ~override~
   SAY NAME2 @20533
   SAY UNIDENTIFIED_DESC @20534 
   SAY DESC @20535 
 
-COPY + ~SoS/ITM/CBCL048.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL048.itm~          ~override~
   SAY NAME2 @20536
   SAY DESC @20537
 
-COPY + ~SoS/ITM/CBCL049.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL049.itm~          ~override~
   SAY NAME2 @20538
   SAY DESC @20539
 
-COPY + ~SoS/ITM/CBCL050.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL050.itm~          ~override~
   SAY NAME2 @20540
   SAY DESC @20541 
 
-COPY + ~SoS/ITM/CBCL051.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL051.itm~          ~override~
   SAY NAME2 @20542
   SAY DESC @20543
 
-COPY + ~SoS/ITM/CBCL052.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL052.itm~          ~override~
   SAY NAME2 @20544
   SAY DESC @20545
 
-COPY + ~SoS/ITM/CBCL053.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL053.itm~          ~override~
   SAY NAME2 @20546
   SAY DESC @20547
 
-COPY + ~SoS/ITM/CBCL054.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL054.itm~          ~override~
   SAY NAME2 @20548
   SAY UNIDENTIFIED_DESC @20496
   SAY DESC @20549
 
-COPY + ~SoS/ITM/CBCL055.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL055.itm~          ~override~
   SAY NAME2 @20550
   SAY DESC @20551
 
-COPY + ~SoS/ITM/CBCL056.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL056.itm~          ~override~
   SAY NAME2 @20552
   SAY DESC @20553
 
-COPY + ~SoS/ITM/CBCL057.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL057.itm~          ~override~
   SAY NAME2 @20554
   SAY UNIDENTIFIED_DESC @20555
   SAY DESC @20556
 
-COPY + ~SoS/ITM/CBCL058.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL058.itm~          ~override~
   SAY NAME2 @20557
   SAY DESC @20558
 
-COPY + ~SoS/ITM/CBCL059.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL059.itm~          ~override~
   SAY NAME2 @20559
   SAY DESC @20560
 
-COPY + ~SoS/ITM/CBCL060.itm~          ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCL060.itm~          ~override~
   SAY NAME2 @20561
   SAY DESC @20562
 
-COPY + ~SoS/ITM/CBCTWBOW.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBCTWDOV.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBCTWDSL.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBCTWDTT.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBCTWBOW.itm~         ~override~
+       ~SoS/ITM/CBCTWDOV.itm~         ~override~
+       ~SoS/ITM/CBCTWDSL.itm~         ~override~
+       ~SoS/ITM/CBCTWDTT.itm~         ~override~
 
-COPY + ~SoS/ITM/CBDMNSTF.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBDMNSTF.itm~         ~override~
   SAY NAME2 @20043
   SAY DESC @20563
 
-COPY + ~SoS/ITM/CBDRGDP1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBDRGSW1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBDRT70A.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBDRT70B.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBDRGDP1.itm~         ~override~
+       ~SoS/ITM/CBDRGSW1.itm~         ~override~
+       ~SoS/ITM/CBDRT70A.itm~         ~override~
+       ~SoS/ITM/CBDRT70B.itm~         ~override~
 
-COPY + ~SoS/ITM/CBDRWRNG.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBDRWRNG.itm~         ~override~
   SAY NAME2 @20564
   SAY DESC @20565
 
-COPY + ~SoS/ITM/CBFLDGLS.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFLDGLS.itm~         ~override~
   SAY NAME2 @20566
   SAY DESC @20567
 
-COPY + ~SoS/ITM/CBFOOD01.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD01.itm~         ~override~
   SAY NAME1 @20568 
   SAY NAME2 @20568 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD02.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD02.itm~         ~override~
   SAY NAME1 @20570 
   SAY NAME2 @20570 
   SAY UNIDENTIFIED_DESC @20569
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD03.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD03.itm~         ~override~
   SAY NAME1 @20571 
   SAY NAME2 @20571 
   SAY UNIDENTIFIED_DESC @20569
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD04.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD04.itm~         ~override~
   SAY NAME1 @20572 
   SAY NAME2 @20572 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD05.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD05.itm~         ~override~
   SAY NAME1 @20573 
   SAY NAME2 @20573 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD06.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD06.itm~         ~override~
   SAY NAME1 @20574 
   SAY NAME2 @20574 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD07.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD07.itm~         ~override~
   SAY NAME1 @20575 
   SAY NAME2 @20575 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD08.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD08.itm~         ~override~
   SAY NAME1 @20576
   SAY NAME2 @20576
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD09.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD09.itm~         ~override~
   SAY NAME1 @20577 
   SAY NAME2 @20577 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD10.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD10.itm~         ~override~
   SAY NAME1 @20578
   SAY NAME2 @20578 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD11.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD11.itm~         ~override~
   SAY NAME1 @20579 
   SAY NAME2 @20579 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD12.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD12.itm~         ~override~
   SAY NAME1 @20580
   SAY NAME2 @20580 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD13.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD13.itm~         ~override~
   SAY NAME1 @20581 
   SAY NAME2 @20581 
   SAY UNIDENTIFIED_DESC @20569
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD14.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD14.itm~         ~override~
   SAY NAME1 @20582 
   SAY NAME2 @20582 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD15.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD15.itm~         ~override~
   SAY NAME1 @20583 
   SAY NAME2 @20583 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD16.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD16.itm~         ~override~
   SAY NAME1 @20584 
   SAY NAME2 @20584 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD17.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD17.itm~         ~override~
   SAY NAME1 @20585 
   SAY NAME2 @20585 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD18.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD18.itm~         ~override~
   SAY NAME1 @20586 
   SAY NAME2 @20586 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD19.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD19.itm~         ~override~
   SAY NAME1 @20587 
   SAY NAME2 @20587 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD20.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD20.itm~         ~override~
   SAY NAME1 @20588 
   SAY NAME2 @20588 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD21.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD21.itm~         ~override~
   SAY NAME1 @20589 
   SAY NAME2 @20589
   SAY UNIDENTIFIED_DESC @20569
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD22.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD22.itm~         ~override~
   SAY NAME1 @20590 
   SAY NAME2 @20590 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD23.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD23.itm~         ~override~
   SAY NAME1 @20591 
   SAY NAME2 @20591 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD24.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD24.itm~         ~override~
   SAY NAME1 @20592 
   SAY NAME2 @20592 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD25.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD25.itm~         ~override~
   SAY NAME1 @20593 
   SAY NAME2 @20593
   SAY UNIDENTIFIED_DESC @20594 
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFOOD26.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFOOD26.itm~         ~override~
   SAY NAME1 @20595 
   SAY NAME2 @20595 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBFXMNK1.ITM~         ~%SOS-ITM%~
-       ~SoS/ITM/CBFXMNKA.ITM~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBFXMNK1.ITM~         ~override~
+       ~SoS/ITM/CBFXMNKA.ITM~         ~override~
 
-COPY + ~SoS/ITM/CBGHSTBN.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBGHSTBN.itm~         ~override~
   SAY NAME2 @20596
   SAY DESC @20597
 
-COPY + ~SoS/ITM/CBGRBON2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBGRBONE.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBGRBON2.itm~         ~override~
+       ~SoS/ITM/CBGRBONE.itm~         ~override~
 
-COPY + ~SoS/ITM/CBHBBOOK.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBHBBOOK.itm~         ~override~
   SAY NAME1 @20432 
   SAY NAME2 @20432 
   SAY UNIDENTIFIED_DESC @20598
   SAY 0x10e @20599
 
-COPY + ~SoS/ITM/CBHBLFET.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBHBLFET.itm~         ~override~
   SAY NAME2 @20046
   SAY DESC @20600
 
-COPY + ~SoS/ITM/CBHBSLDR.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBHBSLDR.itm~         ~override~
   SAY NAME2 @20048
   SAY DESC @20601
 
-COPY + ~SoS/ITM/CBHBSLDV.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBHBSLDV.itm~         ~override~
   SAY NAME2 @20050
   SAY DESC @20602
 
-COPY + ~SoS/ITM/CBHBSLSK.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBHBSLSK.itm~         ~override~
   SAY NAME2 @20052
   SAY DESC @20603
 
-COPY + ~SoS/ITM/CBHBSLSN.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBHBSLSN.itm~         ~override~
   SAY NAME2 @20054
   SAY DESC @20604
 
-COPY + ~SoS/ITM/CBHBSLZP.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBHBSLZP.itm~         ~override~
   SAY NAME2 @20056
   SAY DESC @20605
 
-COPY + ~SoS/ITM/CBKILLCH.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBKILLCH.itm~         ~override~
   SAY NAME1 @20606
   SAY NAME2 @20607
   SAY UNIDENTIFIED_DESC @20608
   SAY DESC @20609
 
-COPY + ~SoS/ITM/CBHMSOUB.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBLARSOB.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBLLTH3A.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBHMSOUB.itm~         ~override~
+       ~SoS/ITM/CBLARSOB.itm~         ~override~
+       ~SoS/ITM/CBLLTH3A.itm~         ~override~
 
-COPY + ~SoS/ITM/CBLIEUT1.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBLIEUT1.itm~         ~override~
   SAY 0xae @20610
 
-COPY + ~SoS/ITM/CBLIEUT2.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBLIEUT2.itm~         ~override~
   SAY 0xae @20611
 
-COPY + ~SoS/ITM/CBLOCKER.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBLOCKER.itm~         ~override~
   SAY NAME1 @20612 
   SAY NAME2 @20612 
   SAY UNIDENTIFIED_DESC @20613
 
-COPY + ~SoS/ITM/CBLOGMSS.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBLOGMSS.itm~         ~override~
   SAY UNIDENTIFIED_DESC @20614 
 
-COPY + ~SoS/ITM/CBLOLTH1.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBLOLTH1.itm~         ~override~
 
-COPY + ~SoS/ITM/CBLOLTH3.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBLOLTH3.itm~         ~override~
   SAY NAME2 @20615
   SAY DESC @20616
 
-COPY + ~SoS/ITM/CBLTCNT1.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBLTCNT1.itm~         ~override~
   SAY NAME1 @20617 
   SAY NAME2 @20617 
   SAY UNIDENTIFIED_DESC @20618 
 
-COPY + ~SoS/ITM/CBLTCNT2.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBLTCNT2.itm~         ~override~
   SAY NAME1 @20619 
   SAY NAME2 @20620 
   SAY UNIDENTIFIED_DESC @20621
   SAY DESC @20622
 
-COPY + ~SoS/ITM/CBLYMACE.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBLYMACE.itm~         ~override~
   SAY NAME2 @20623 
   SAY DESC @20624
 
-COPY + ~SoS/ITM/CBLYPLAT.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBLYPLAT.itm~         ~override~
   SAY NAME2 @20625 
   SAY DESC @20626
 
-COPY + ~SoS/ITM/CBLYSHLD.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBLYSHLD.itm~         ~override~
   SAY NAME2 @20627 
   SAY DESC @20628
 
-COPY + ~SoS/ITM/CBMANCL2.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBMANCL2.itm~         ~override~
   SAY NAME1 @20629 
   SAY NAME2 @20629 
   SAY UNIDENTIFIED_DESC @20630 
 
-COPY + ~SoS/ITM/CBMANCLE.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBMANCLE.itm~         ~override~
   SAY NAME1 @20629 
   SAY NAME2 @20629 
   SAY UNIDENTIFIED_DESC @20631 
   SAY 0xde @20632
 
-COPY + ~SoS/ITM/CBMAYRSB.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBMAYRSB.itm~         ~override~
   SAY 0xae @20633
-COPY + ~SoS/ITM/CBMAYRSC.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBMAYRSC.itm~         ~override~
   SAY 0xae @20634
-COPY + ~SoS/ITM/CBMAYRSD.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBMAYRSD.itm~         ~override~
   SAY 0xae @20635
 
-COPY + ~SoS/ITM/CBMILT01.ITM~         ~%SOS-ITM%~
-       ~SoS/ITM/CBMILT02.ITM~         ~%SOS-ITM%~
-       ~SoS/ITM/CBMILT03.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBMILT04.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBMILT11.ITM~         ~%SOS-ITM%~
-       ~SoS/ITM/CBMILT12.ITM~         ~%SOS-ITM%~
-       ~SoS/ITM/CBMILT13.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBMILT14.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBMILT21.ITM~         ~%SOS-ITM%~
-       ~SoS/ITM/CBMILT22.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBMINBOO.ITM~         ~%SOS-ITM%~
-       ~SoS/ITM/CBNALRNG.ITM~         ~%SOS-ITM%~
-       ~SoS/ITM/CBPARSOB.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBMILT01.ITM~         ~override~
+       ~SoS/ITM/CBMILT02.ITM~         ~override~
+       ~SoS/ITM/CBMILT03.itm~         ~override~
+       ~SoS/ITM/CBMILT04.itm~         ~override~
+       ~SoS/ITM/CBMILT11.ITM~         ~override~
+       ~SoS/ITM/CBMILT12.ITM~         ~override~
+       ~SoS/ITM/CBMILT13.itm~         ~override~
+       ~SoS/ITM/CBMILT14.itm~         ~override~
+       ~SoS/ITM/CBMILT21.ITM~         ~override~
+       ~SoS/ITM/CBMILT22.itm~         ~override~
+       ~SoS/ITM/CBMINBOO.ITM~         ~override~
+       ~SoS/ITM/CBNALRNG.ITM~         ~override~
+       ~SoS/ITM/CBPARSOB.itm~         ~override~
 
-COPY + ~SoS/ITM/CBPREMSS.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBPREMSS.itm~         ~override~
   SAY UNIDENTIFIED_DESC @20636 
 
-COPY + ~SoS/ITM/CBPS4220.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBPS4220.itm~         ~override~
 
-COPY + ~SoS/ITM/CBRJR001.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR001.itm~         ~override~
   SAY NAME2 @20637
   SAY DESC @20638
 
-COPY + ~SoS/ITM/CBRJR002.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR002.itm~         ~override~
   SAY NAME2 @20639
   SAY DESC @20640
 
-COPY + ~SoS/ITM/CBRJR004.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR004.itm~         ~override~
   SAY NAME2 @20641
   SAY DESC @20642
 
-COPY + ~SoS/ITM/CBRJR005.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR005.itm~         ~override~
   SAY NAME2 @20643
   SAY UNIDENTIFIED_DESC @20644
   SAY DESC @20645
 
-COPY + ~SoS/ITM/CBRJR006.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR006.itm~         ~override~
   SAY NAME2 @20646
   SAY DESC @20647
 
-COPY + ~SoS/ITM/CBRJR007.ITM~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR007.ITM~         ~override~
   SAY NAME2 @20648
   SAY DESC @20649 
   SAY 0x43e @20650 
 
-COPY + ~SoS/ITM/CBRJR008.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR008.itm~         ~override~
   SAY NAME2 @20651
   SAY DESC @20652
 
-COPY + ~SoS/ITM/CBRJR009.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR009.itm~         ~override~
   SAY NAME2 @20058
   SAY DESC @20653
 
-COPY + ~SoS/ITM/CBRJR010.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR010.itm~         ~override~
   SAY NAME2 @20654
   SAY DESC @20655
 
-COPY + ~SoS/ITM/CBRJR011.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR011.itm~         ~override~
   SAY NAME2 @20656
   SAY DESC @20657
 
-COPY + ~SoS/ITM/CBRJR012.ITM~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR012.ITM~         ~override~
   SAY UNIDENTIFIED_DESC @20658 
 
-COPY + ~SoS/ITM/CBRJR013.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR013.itm~         ~override~
   SAY NAME2 @20659
   SAY DESC @20660
 
-COPY + ~SoS/ITM/CBRJR014.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR014.itm~         ~override~
   SAY NAME2 @20661
   SAY DESC @20662
 
-COPY + ~SoS/ITM/CBRJR015.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR015.itm~         ~override~
   SAY NAME2 @20663
   SAY DESC @20664
 
-COPY + ~SoS/ITM/CBRJR017.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR017.itm~         ~override~
   SAY NAME2 @20665
   SAY DESC @20666
 
-COPY + ~SoS/ITM/CBRJR018.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR018.itm~         ~override~
   SAY NAME1 @20667
   SAY NAME2 @20668 
   SAY UNIDENTIFIED_DESC @20669 
   SAY DESC @20670
 
-COPY + ~SoS/ITM/CBRJR019.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR019.itm~         ~override~
   SAY NAME2 @20671
   SAY DESC @20672
 
-COPY + ~SoS/ITM/CBRJR020.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR020.itm~         ~override~
   SAY NAME2 @20673
   SAY DESC @20674
 
-COPY + ~SoS/ITM/CBRJR021.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR021.itm~         ~override~
   SAY NAME2 @20675
   SAY DESC @20676
 
-COPY + ~SoS/ITM/CBRJR03A.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR03A.itm~         ~override~
   SAY NAME1 @20677
   SAY NAME2 @20677
   SAY UNIDENTIFIED_DESC @20678
 
-COPY + ~SoS/ITM/CBRJR03B.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR03B.itm~         ~override~
   SAY NAME2 @20679
   SAY DESC @20680
 
-COPY + ~SoS/ITM/CBRJR03C.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR03C.itm~         ~override~
   SAY NAME2 @20679
   SAY DESC @20681
 
-COPY + ~SoS/ITM/CBRJR03D.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR03D.itm~         ~override~
   SAY NAME2 @20679
   SAY DESC @20682
 
-COPY + ~SoS/ITM/CBRJR03E.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR03E.itm~         ~override~
   SAY NAME2 @20679
   SAY DESC @20683
 
-COPY + ~SoS/ITM/CBRJR03F.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR03F.itm~         ~override~
   SAY NAME2 @20679
   SAY DESC @20684
 
-COPY + ~SoS/ITM/CBRJR03G.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR03G.itm~         ~override~
   SAY NAME2 @20679
   SAY DESC @20685
 
-COPY + ~SoS/ITM/CBRJR03H.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR03H.itm~         ~override~
   SAY NAME2 @20679
   SAY DESC @20686
 
-COPY + ~SoS/ITM/CBRJR03I.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRJR03I.itm~         ~override~
   SAY NAME2 @20679
   SAY DESC @20687
 
-COPY + ~SoS/ITM/CBRNGLOP.ITM~         ~%SOS-ITM%~
-       ~SoS/ITM/CBROLFCR.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRNGLOP.ITM~         ~override~
+       ~SoS/ITM/CBROLFCR.itm~         ~override~
 
-COPY + ~SoS/ITM/CBROLFJA.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBROLFJA.itm~         ~override~
   SAY NAME1 @20688
   SAY NAME2 @20688
   SAY UNIDENTIFIED_DESC @20689
 
-COPY + ~SoS/ITM/CBROLFJB.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBROLFJB.itm~         ~override~
   SAY NAME1 @20688
   SAY NAME2 @20688
   SAY UNIDENTIFIED_DESC @20690
 
-COPY + ~SoS/ITM/CBROLFJC.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBROLFJC.itm~         ~override~
   SAY NAME1 @20688
   SAY NAME2 @20688 
   SAY UNIDENTIFIED_DESC @20691
 
-COPY + ~SoS/ITM/CBROLFJD.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBROLFJD.itm~         ~override~
   SAY NAME1 @20688
   SAY NAME2 @20688 
   SAY UNIDENTIFIED_DESC @20692
 
-COPY + ~SoS/ITM/CBROLFJE.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBROLFJE.itm~         ~override~
   SAY NAME1 @20688
   SAY NAME2 @20688
   SAY UNIDENTIFIED_DESC @20693
 
-COPY + ~SoS/ITM/CBROLFJF.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBROLFJF.itm~         ~override~
   SAY NAME1 @20688 
   SAY NAME2 @20688
   SAY UNIDENTIFIED_DESC @20694
 
-COPY + ~SoS/ITM/CBROLFJG.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBROLFJG.itm~         ~override~
   SAY NAME1 @20688
   SAY NAME2 @20688
   SAY UNIDENTIFIED_DESC @20695
 
-COPY + ~SoS/ITM/CBROLFSB.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBROLFSB.itm~         ~override~
 
-COPY + ~SoS/ITM/CBROLFSH.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBROLFSH.itm~         ~override~
   SAY NAME2 @20696 
   SAY DESC @20697
 
-COPY + ~SoS/ITM/CBROLFSW.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBROLFSW.itm~         ~override~
   SAY NAME2 @20698
   SAY DESC @20699
 
-COPY + ~SoS/ITM/CBROPEDP.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBROPEDP.itm~         ~override~
   SAY NAME1 @20700 
   SAY NAME2 @20700 
   SAY UNIDENTIFIED_DESC @20701
 
-COPY + ~SoS/ITM/CBRRRPIP.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBRRRPIP.itm~         ~override~
   SAY NAME1 @20702
   SAY NAME2 @20703 
   SAY UNIDENTIFIED_DESC @20534 
   SAY DESC @20704
 
-COPY + ~SoS/ITM/CBSBMLT1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLT2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLT3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLT4.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLT5.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLT6.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLT7.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLT8.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTA.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTB.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTC.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTD.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTE.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTF.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTG.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTH.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTI.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTJ.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTK.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTL.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTM.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTN.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTO.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTP.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTQ.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTR.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTS.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTT.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTU.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTV.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTW.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTX.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTY.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSBMLTZ.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBSBMLT1.itm~         ~override~
+       ~SoS/ITM/CBSBMLT2.itm~         ~override~
+       ~SoS/ITM/CBSBMLT3.itm~         ~override~
+       ~SoS/ITM/CBSBMLT4.itm~         ~override~
+       ~SoS/ITM/CBSBMLT5.itm~         ~override~
+       ~SoS/ITM/CBSBMLT6.itm~         ~override~
+       ~SoS/ITM/CBSBMLT7.itm~         ~override~
+       ~SoS/ITM/CBSBMLT8.itm~         ~override~
+       ~SoS/ITM/CBSBMLTA.itm~         ~override~
+       ~SoS/ITM/CBSBMLTB.itm~         ~override~
+       ~SoS/ITM/CBSBMLTC.itm~         ~override~
+       ~SoS/ITM/CBSBMLTD.itm~         ~override~
+       ~SoS/ITM/CBSBMLTE.itm~         ~override~
+       ~SoS/ITM/CBSBMLTF.itm~         ~override~
+       ~SoS/ITM/CBSBMLTG.itm~         ~override~
+       ~SoS/ITM/CBSBMLTH.itm~         ~override~
+       ~SoS/ITM/CBSBMLTI.itm~         ~override~
+       ~SoS/ITM/CBSBMLTJ.itm~         ~override~
+       ~SoS/ITM/CBSBMLTK.itm~         ~override~
+       ~SoS/ITM/CBSBMLTL.itm~         ~override~
+       ~SoS/ITM/CBSBMLTM.itm~         ~override~
+       ~SoS/ITM/CBSBMLTN.itm~         ~override~
+       ~SoS/ITM/CBSBMLTO.itm~         ~override~
+       ~SoS/ITM/CBSBMLTP.itm~         ~override~
+       ~SoS/ITM/CBSBMLTQ.itm~         ~override~
+       ~SoS/ITM/CBSBMLTR.itm~         ~override~
+       ~SoS/ITM/CBSBMLTS.itm~         ~override~
+       ~SoS/ITM/CBSBMLTT.itm~         ~override~
+       ~SoS/ITM/CBSBMLTU.itm~         ~override~
+       ~SoS/ITM/CBSBMLTV.itm~         ~override~
+       ~SoS/ITM/CBSBMLTW.itm~         ~override~
+       ~SoS/ITM/CBSBMLTX.itm~         ~override~
+       ~SoS/ITM/CBSBMLTY.itm~         ~override~
+       ~SoS/ITM/CBSBMLTZ.itm~         ~override~
 
-COPY + ~SoS/ITM/CBSHCCKY.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBSHCCKY.itm~         ~override~
   SAY DESC @20705
 
-COPY + ~SoS/ITM/CBSHGOLD.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSHSOUB.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBSHGOLD.itm~         ~override~
+       ~SoS/ITM/CBSHSOUB.itm~         ~override~
 
-COPY + ~SoS/ITM/CBSLENCE.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBSLENCE.itm~         ~override~
   SAY NAME1 @20706 
   SAY NAME2 @20707
   SAY UNIDENTIFIED_DESC @20708
   SAY DESC @20709 
 
-COPY + ~SoS/ITM/CBSOSBOK.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBSOSBOK.itm~         ~override~
   SAY NAME1 @20432 
   SAY NAME2 @20432 
   SAY UNIDENTIFIED_DESC @20710
 
-COPY + ~SoS/ITM/CBSOUBID.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBSOUBID.itm~         ~override~
   SAY NAME1 @20711 
   SAY NAME2 @20711 
   SAY UNIDENTIFIED_DESC @20712
 
-COPY + ~SoS/ITM/CBSOUSG1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSOUSG3.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBSOUSG1.itm~         ~override~
+       ~SoS/ITM/CBSOUSG3.itm~         ~override~
 
-COPY + ~SoS/ITM/CBSOUSG2.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBSOUSG2.itm~         ~override~
   SAY 0xae @20713
-COPY + ~SoS/ITM/CBSOUSG4.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBSOUSG4.itm~         ~override~
   SAY 0xae @20237
 
-COPY + ~SoS/ITM/CBSSYETI.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBSPYHP1.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBSSYETI.itm~         ~override~
+       ~SoS/ITM/CBSPYHP1.itm~         ~override~
 
-COPY + ~SoS/ITM/CBSTFSKL.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBSTFSKL.itm~         ~override~
   SAY NAME2 @20064
   SAY DESC @20714
 
-COPY + ~SoS/ITM/CBTN2HS1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTN2HS2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTN2HS3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTN2HS4.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTN2HS5.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTN2HW1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTN2HW2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTN2HW3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNAXE1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNAXE2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNAXE3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNAXE4.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNAXE5.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNBSD1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNBSD2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNBSD3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNBSD4.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNBSD5.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNCLB1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNCLB2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNCLB3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNCLB4.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNCLB5.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNDGR1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNDGR2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNDGR3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNDGR4.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNDGR5.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNDRT1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNDRT2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNDRT3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNDRT4.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNDRT5.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNHAL1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNHAL2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNHAL3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNHAL4.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNHAL5.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNKAT1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNKAT2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNKAT3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNKAT4.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNKAT5.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNLBW1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNLBW2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNLBW3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNLBW4.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNLBW5.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNLSD1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNLSD2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNLSD3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNLSD4.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNLSD5.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNMCE1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNMCE2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNMCE3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNMCE4.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNMCE5.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNMST1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNMST2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNMST3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNMST4.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNMST5.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNQSF1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNQSF2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNQSF3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNQSF4.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNQSF5.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSBW1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSBW2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSBW3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSBW4.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSBW5.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSCM1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSCM2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSCM3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSCM4.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSCM5.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSLG1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSLG2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSLG3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSLG4.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSLG5.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSPR1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSPR2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSPR3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSPR4.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSPR5.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSSD1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSSD2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSSD3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSSD4.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSSD5.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSSS1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSSS2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSSS3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSWS1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSWS2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNSWS3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNTWS1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNTWS2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNTWS3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNWHR1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNWHR2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNWHR3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNWHR4.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNWHR5.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNXBW1.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNXBW2.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNXBW3.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNXBW4.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTNXBW5.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBTN2HS1.itm~         ~override~
+       ~SoS/ITM/CBTN2HS2.itm~         ~override~
+       ~SoS/ITM/CBTN2HS3.itm~         ~override~
+       ~SoS/ITM/CBTN2HS4.itm~         ~override~
+       ~SoS/ITM/CBTN2HS5.itm~         ~override~
+       ~SoS/ITM/CBTN2HW1.itm~         ~override~
+       ~SoS/ITM/CBTN2HW2.itm~         ~override~
+       ~SoS/ITM/CBTN2HW3.itm~         ~override~
+       ~SoS/ITM/CBTNAXE1.itm~         ~override~
+       ~SoS/ITM/CBTNAXE2.itm~         ~override~
+       ~SoS/ITM/CBTNAXE3.itm~         ~override~
+       ~SoS/ITM/CBTNAXE4.itm~         ~override~
+       ~SoS/ITM/CBTNAXE5.itm~         ~override~
+       ~SoS/ITM/CBTNBSD1.itm~         ~override~
+       ~SoS/ITM/CBTNBSD2.itm~         ~override~
+       ~SoS/ITM/CBTNBSD3.itm~         ~override~
+       ~SoS/ITM/CBTNBSD4.itm~         ~override~
+       ~SoS/ITM/CBTNBSD5.itm~         ~override~
+       ~SoS/ITM/CBTNCLB1.itm~         ~override~
+       ~SoS/ITM/CBTNCLB2.itm~         ~override~
+       ~SoS/ITM/CBTNCLB3.itm~         ~override~
+       ~SoS/ITM/CBTNCLB4.itm~         ~override~
+       ~SoS/ITM/CBTNCLB5.itm~         ~override~
+       ~SoS/ITM/CBTNDGR1.itm~         ~override~
+       ~SoS/ITM/CBTNDGR2.itm~         ~override~
+       ~SoS/ITM/CBTNDGR3.itm~         ~override~
+       ~SoS/ITM/CBTNDGR4.itm~         ~override~
+       ~SoS/ITM/CBTNDGR5.itm~         ~override~
+       ~SoS/ITM/CBTNDRT1.itm~         ~override~
+       ~SoS/ITM/CBTNDRT2.itm~         ~override~
+       ~SoS/ITM/CBTNDRT3.itm~         ~override~
+       ~SoS/ITM/CBTNDRT4.itm~         ~override~
+       ~SoS/ITM/CBTNDRT5.itm~         ~override~
+       ~SoS/ITM/CBTNHAL1.itm~         ~override~
+       ~SoS/ITM/CBTNHAL2.itm~         ~override~
+       ~SoS/ITM/CBTNHAL3.itm~         ~override~
+       ~SoS/ITM/CBTNHAL4.itm~         ~override~
+       ~SoS/ITM/CBTNHAL5.itm~         ~override~
+       ~SoS/ITM/CBTNKAT1.itm~         ~override~
+       ~SoS/ITM/CBTNKAT2.itm~         ~override~
+       ~SoS/ITM/CBTNKAT3.itm~         ~override~
+       ~SoS/ITM/CBTNKAT4.itm~         ~override~
+       ~SoS/ITM/CBTNKAT5.itm~         ~override~
+       ~SoS/ITM/CBTNLBW1.itm~         ~override~
+       ~SoS/ITM/CBTNLBW2.itm~         ~override~
+       ~SoS/ITM/CBTNLBW3.itm~         ~override~
+       ~SoS/ITM/CBTNLBW4.itm~         ~override~
+       ~SoS/ITM/CBTNLBW5.itm~         ~override~
+       ~SoS/ITM/CBTNLSD1.itm~         ~override~
+       ~SoS/ITM/CBTNLSD2.itm~         ~override~
+       ~SoS/ITM/CBTNLSD3.itm~         ~override~
+       ~SoS/ITM/CBTNLSD4.itm~         ~override~
+       ~SoS/ITM/CBTNLSD5.itm~         ~override~
+       ~SoS/ITM/CBTNMCE1.itm~         ~override~
+       ~SoS/ITM/CBTNMCE2.itm~         ~override~
+       ~SoS/ITM/CBTNMCE3.itm~         ~override~
+       ~SoS/ITM/CBTNMCE4.itm~         ~override~
+       ~SoS/ITM/CBTNMCE5.itm~         ~override~
+       ~SoS/ITM/CBTNMST1.itm~         ~override~
+       ~SoS/ITM/CBTNMST2.itm~         ~override~
+       ~SoS/ITM/CBTNMST3.itm~         ~override~
+       ~SoS/ITM/CBTNMST4.itm~         ~override~
+       ~SoS/ITM/CBTNMST5.itm~         ~override~
+       ~SoS/ITM/CBTNQSF1.itm~         ~override~
+       ~SoS/ITM/CBTNQSF2.itm~         ~override~
+       ~SoS/ITM/CBTNQSF3.itm~         ~override~
+       ~SoS/ITM/CBTNQSF4.itm~         ~override~
+       ~SoS/ITM/CBTNQSF5.itm~         ~override~
+       ~SoS/ITM/CBTNSBW1.itm~         ~override~
+       ~SoS/ITM/CBTNSBW2.itm~         ~override~
+       ~SoS/ITM/CBTNSBW3.itm~         ~override~
+       ~SoS/ITM/CBTNSBW4.itm~         ~override~
+       ~SoS/ITM/CBTNSBW5.itm~         ~override~
+       ~SoS/ITM/CBTNSCM1.itm~         ~override~
+       ~SoS/ITM/CBTNSCM2.itm~         ~override~
+       ~SoS/ITM/CBTNSCM3.itm~         ~override~
+       ~SoS/ITM/CBTNSCM4.itm~         ~override~
+       ~SoS/ITM/CBTNSCM5.itm~         ~override~
+       ~SoS/ITM/CBTNSLG1.itm~         ~override~
+       ~SoS/ITM/CBTNSLG2.itm~         ~override~
+       ~SoS/ITM/CBTNSLG3.itm~         ~override~
+       ~SoS/ITM/CBTNSLG4.itm~         ~override~
+       ~SoS/ITM/CBTNSLG5.itm~         ~override~
+       ~SoS/ITM/CBTNSPR1.itm~         ~override~
+       ~SoS/ITM/CBTNSPR2.itm~         ~override~
+       ~SoS/ITM/CBTNSPR3.itm~         ~override~
+       ~SoS/ITM/CBTNSPR4.itm~         ~override~
+       ~SoS/ITM/CBTNSPR5.itm~         ~override~
+       ~SoS/ITM/CBTNSSD1.itm~         ~override~
+       ~SoS/ITM/CBTNSSD2.itm~         ~override~
+       ~SoS/ITM/CBTNSSD3.itm~         ~override~
+       ~SoS/ITM/CBTNSSD4.itm~         ~override~
+       ~SoS/ITM/CBTNSSD5.itm~         ~override~
+       ~SoS/ITM/CBTNSSS1.itm~         ~override~
+       ~SoS/ITM/CBTNSSS2.itm~         ~override~
+       ~SoS/ITM/CBTNSSS3.itm~         ~override~
+       ~SoS/ITM/CBTNSWS1.itm~         ~override~
+       ~SoS/ITM/CBTNSWS2.itm~         ~override~
+       ~SoS/ITM/CBTNSWS3.itm~         ~override~
+       ~SoS/ITM/CBTNTWS1.itm~         ~override~
+       ~SoS/ITM/CBTNTWS2.itm~         ~override~
+       ~SoS/ITM/CBTNTWS3.itm~         ~override~
+       ~SoS/ITM/CBTNWHR1.itm~         ~override~
+       ~SoS/ITM/CBTNWHR2.itm~         ~override~
+       ~SoS/ITM/CBTNWHR3.itm~         ~override~
+       ~SoS/ITM/CBTNWHR4.itm~         ~override~
+       ~SoS/ITM/CBTNWHR5.itm~         ~override~
+       ~SoS/ITM/CBTNXBW1.itm~         ~override~
+       ~SoS/ITM/CBTNXBW2.itm~         ~override~
+       ~SoS/ITM/CBTNXBW3.itm~         ~override~
+       ~SoS/ITM/CBTNXBW4.itm~         ~override~
+       ~SoS/ITM/CBTNXBW5.itm~         ~override~
 
-COPY + ~SoS/ITM/CBTRMWRM.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBTRMWRM.itm~         ~override~
 
-COPY + ~SoS/ITM/CBTRVBAG.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBTRVBAG.itm~         ~override~
   SAY NAME1 @20715
   SAY NAME2 @20715
   SAY UNIDENTIFIED_DESC @20716
 
-COPY + ~SoS/ITM/CBTWORM0.itm~         ~%SOS-ITM%~
-       ~SoS/ITM/CBTWORM1.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBTWORM0.itm~         ~override~
+       ~SoS/ITM/CBTWORM1.itm~         ~override~
 
-COPY + ~SoS/ITM/CBTWRMHT.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBTWRMHT.itm~         ~override~
   SAY NAME1 @20717
   SAY NAME2 @20717 
   SAY UNIDENTIFIED_DESC @20718
 
-COPY + ~SoS/ITM/CBUHGVAR.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBUHGVAR.itm~         ~override~
   SAY NAME2 @20719
   SAY DESC @20720
 
-COPY + ~SoS/ITM/CBUHGVSD.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBUHGVSD.itm~         ~override~
   SAY NAME2 @20721
   SAY DESC @20722
 
-COPY + ~SoS/ITM/CBWEREGD.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWEREGD.itm~         ~override~
   SAY 0x10e @20723
 
-COPY + ~SoS/ITM/CBWINE01.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWINE01.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20725
   SAY UNIDENTIFIED_DESC @20726
   SAY 0xde @20466 
 
-COPY + ~SoS/ITM/CBWINE02.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWINE02.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20727
   SAY UNIDENTIFIED_DESC @20726
   SAY 0xde @20466 
 
-COPY + ~SoS/ITM/CBWINE03.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWINE03.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20728
   SAY UNIDENTIFIED_DESC @20726
   SAY 0xde @20466 
 
-COPY + ~SoS/ITM/CBWINE04.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWINE04.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20729
   SAY UNIDENTIFIED_DESC @20726
   SAY 0xde @20466 
 
-COPY + ~SoS/ITM/CBWINE05.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWINE05.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20730
   SAY UNIDENTIFIED_DESC @20726
   SAY 0xde @20466 
 
-COPY + ~SoS/ITM/CBWINE06.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWINE06.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20731
   SAY UNIDENTIFIED_DESC @20726
   SAY 0xde @20466 
 
-COPY + ~SoS/ITM/CBWINE07.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWINE07.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20732
   SAY UNIDENTIFIED_DESC @20726
   SAY 0xde @20466 
 
-COPY + ~SoS/ITM/CBWINE08.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWINE08.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20733
   SAY UNIDENTIFIED_DESC @20726
   SAY 0xde @20466 
 
-COPY + ~SoS/ITM/CBWINE09.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWINE09.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20734
   SAY UNIDENTIFIED_DESC @20726
   SAY 0xde @20466 
 
-COPY + ~SoS/ITM/CBWINE10.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWINE10.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20735
   SAY UNIDENTIFIED_DESC @20726
   SAY 0xde @20466 
 
-COPY + ~SoS/ITM/CBWINE11.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWINE11.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20736
   SAY UNIDENTIFIED_DESC @20726
   SAY 0xde @20466 
 
-COPY + ~SoS/ITM/CBWINE12.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWINE12.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20737
   SAY UNIDENTIFIED_DESC @20738
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBWINE13.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWINE13.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20737
   SAY UNIDENTIFIED_DESC @20739
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBWINE14.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWINE14.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20737
   SAY UNIDENTIFIED_DESC @20740
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBWINE15.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWINE15.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20737
   SAY UNIDENTIFIED_DESC @20741
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBWINE16.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWINE16.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20737
   SAY UNIDENTIFIED_DESC @20742
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBWINE17.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWINE17.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20737
   SAY UNIDENTIFIED_DESC @20743
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBWINE18.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWINE18.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20744
   SAY UNIDENTIFIED_DESC @20726
   SAY 0xde @20466 
 
-COPY + ~SoS/ITM/CBWINE19.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWINE19.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20745
   SAY UNIDENTIFIED_DESC @20738
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBWINE20.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWINE20.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20745
   SAY UNIDENTIFIED_DESC @20746
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBWINE21.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWINE21.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20745
   SAY UNIDENTIFIED_DESC @20747
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBWINE22.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWINE22.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20748
   SAY UNIDENTIFIED_DESC @20749
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBWINE23.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWINE23.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20750
   SAY UNIDENTIFIED_DESC @20751
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBWINE24.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWINE24.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20750
   SAY UNIDENTIFIED_DESC @20746
   SAY 0xde @20466
 
-COPY + ~SoS/ITM/CBWLKEY1.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWLKEY1.itm~         ~override~
   SAY NAME1 @20752
   SAY NAME2 @20752
   SAY UNIDENTIFIED_DESC @20753
 
-COPY + ~SoS/ITM/CBWLSERV.itm~         ~%SOS-ITM%~
+COPY + ~SoS/ITM/CBWLSERV.itm~         ~override~
   SAY NAME1 @20754
   SAY NAME2 @20754 
   SAY UNIDENTIFIED_DESC @20755
