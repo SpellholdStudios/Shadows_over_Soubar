@@ -99,8 +99,9 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	END
 	MKDIR ~SOS/over.bak~
 	COPY_LARGE + ~override~ ~SOS/over.bak~
-	
+
 	INCLUDE ~%MOD_FOLDER%/lib/install-guititle.tpa~
+
 END 
 
 COPY_EXISTING ~misc01.itm~ ~override/sos.mrk~
@@ -110,7 +111,6 @@ COPY ~SOS/RULE~ ~override~   //to overwrite files there!!!
 COPY ~SOS/BAM~  ~override~   //to overwrite files there!!!
 COPY ~SOS/MOS~  ~override~   //to overwrite files there!!!
 COPY ~SOS/WED~  ~override~   //to overwrite files there!!!
-//MKDIR ~SOSDLG~
 
 /////                                                  \\\\\
 ///// install journal strings                          \\\\\
@@ -1012,7 +1012,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 END
 
 
-COPY ~SoS/MVE~ ~SoS/biff~
+COPY ~SoS/MVE~ ~override~
 
 
 PRINT ~Biffing files....~
@@ -1021,9 +1021,6 @@ PRINT ~Biffing files....~
 // biffing
 //////////////////////////////
 
-MAKE_BIFF ~SoS-MVE~ BEGIN
-	~SoS/MVE~ ~^.*$~
-END
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN		//older mods use SOS-RULE
 	MAKE_BIFF ~SOS-RULE~ BEGIN
@@ -1032,40 +1029,49 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN		//older mods use SOS-RULE
 END
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
+	ACTION_IF ~%WEIDU_OS%~ STR_EQ ~win32~ BEGIN
+		AT_UNINSTALL ~rmdir /s /q %MOD_FOLDER%\temp~ EXACT
+	END ELSE BEGIN //osx, unix
+		AT_UNINSTALL ~rm -rf %MOD_FOLDER%/temp~ EXACT
+	END
+
+	
 	MAKE_BIFF ~SOS-RULE~ BEGIN
 		~override~ ~^.*\.2da$~
 	END
 	
 	ACTION_DEFINE_ASSOCIATIVE_ARRAY table_SOS_biff BEGIN
-		~SOS-TIS~ , ~override~ , ~^.*\.tis$~ => 100000000 //150 MB
-		~SOS-WAV~ , ~override~ , ~^.*\.wav$~ => 100000000 //150 MB
-		~SOS-RES~ , ~override~ , ~^.*$~ => 50000000 //50 MB
+		~SOS-TIS~ , ~override~ , ~^.*\.tis$~ => 150000000 //150 MB
+		~SOS-WAV~ , ~override~ , ~^.*\.wav$~ => 150000000 //150 MB
+		~SOS-RES~ , ~override~ , ~^.*$~ => 100000000 //50 MB
 	END
 	
 	ACTION_PHP_EACH table_SOS_biff AS biff => size BEGIN
 		OUTER_SET totalSize = 0
 		OUTER_SET index = 0
-		MKDIR ~%MOD_FOLDER%/%biff%%index%~
+		MKDIR ~%MOD_FOLDER%/temp/%biff%%index%~
 		ACTION_BASH_FOR ~%biff_1%~ ~%biff_2%~ BEGIN
 			ACTION_IF ( BASH_FOR_SIZE + totalSize > size ) AND ( totalSize > 0 ) BEGIN
-				MAKE_BIFF ~%biff%%index%~ BEGIN ~%MOD_FOLDER%/%biff%%index%~ ~^.*$~ END
+				MAKE_BIFF ~%biff%%index%~ BEGIN ~%MOD_FOLDER%/temp/%biff%%index%~ ~^.*$~ END
 				OUTER_SET index = index + 1
 				OUTER_SET totalSize = 0
-				MKDIR ~%MOD_FOLDER%/%biff%%index%~
+				MKDIR ~%MOD_FOLDER%/temp/%biff%%index%~
 			END
-			MOVE + ~%BASH_FOR_FILESPEC%~ ~%MOD_FOLDER%/%biff%%index%~
+			MOVE ~%BASH_FOR_FILESPEC%~ ~%MOD_FOLDER%/temp/%biff%%index%~
 			OUTER_SET totalSize = totalSize + BASH_FOR_SIZE
 		END
 		ACTION_IF ( totalSize > 0 ) BEGIN
-			MAKE_BIFF ~%biff%%index%~ BEGIN ~%MOD_FOLDER%/%biff%%index%~ ~^.*$~ END
+			MAKE_BIFF ~%biff%%index%~ BEGIN ~%MOD_FOLDER%/temp/%biff%%index%~ ~^.*$~ END
 		END
 	END
 END
 
 COPY_EXISTING ~misc01.itm~ ~override/sos.mrk~
 
-
-BEGIN ~Selence comes to Waukeens Promenade, after the first meeting with Gaelan Bayle in the slums~
+//////////////////////////////
+// Selence arrives to Waukeens Promenade after the meeting with Gaelan in the slums
+//////////////////////////////
+BEGIN ~Selence arrives to Waukeens Promenade after the meeting with Gaelan in the slums~
 REQUIRE_COMPONENT "Setup-SoS.tp2"      "0"  ~You must have SoS mod installed~
 
 COPY_EXISTING ~Gaelan.dlg~ ~override~
