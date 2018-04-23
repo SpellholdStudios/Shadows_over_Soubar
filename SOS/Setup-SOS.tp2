@@ -523,7 +523,7 @@ END
 ACTION_IF GAME_IS ~eet~ BEGIN
 	COPY ~%MOD_FOLDER%/Worldmap/eet/eet-links.tbl~  ~%MOD_FOLDER%/Worldmap/eet~
 		PATCH_IF (FILE_EXISTS_IN_GAME ~rot.mrk~)  OR (FILE_EXISTS ~data/ROT-RULE.BIF~) BEGIN
-			APPEND_FILE ~SoS/Worldmap/eet/sos_links.tbl~                        
+			APPEND_FILE ~SoS/Worldmap/eet/rot_links.tbl~                        
 		END                                                                    
 		PATCH_IF (FILE_EXISTS_IN_GAME ~ctb.mrk~)  OR (FILE_EXISTS ~data/CTB-RULE.BIF~) BEGIN
 			APPEND_FILE ~SoS/Worldmap/eet/ctb_links.tbl~                        
