@@ -1037,13 +1037,13 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 
 	
 	MAKE_BIFF ~SOS-RULE~ BEGIN
-		~override~ ~^.*\.2da$~
+		~override~ ~SOS.mrk~
 	END
 	
 	ACTION_DEFINE_ASSOCIATIVE_ARRAY table_SOS_biff BEGIN
 		~SOS-TIS~ , ~override~ , ~^.*\.tis$~ => 150000000 //150 MB
 		~SOS-WAV~ , ~override~ , ~^.*\.wav$~ => 150000000 //150 MB
-		~SOS-RES~ , ~override~ , ~^.*$~ => 100000000 //50 MB
+//		~SOS-RES~ , ~override~ , ~^.*$~ => 100000000 
 	END
 	
 	ACTION_PHP_EACH table_SOS_biff AS biff => size BEGIN
