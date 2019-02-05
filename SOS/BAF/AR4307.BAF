@@ -1,8 +1,9 @@
 IF
   GlobalLT("CbPartyHasKilledAllBandits","GLOBAL",3)
-  OnCreation()
+  Global("Towershut","ar4307",0)
 THEN
   RESPONSE #100
+  SetGlobal("Towershut","ar4307",1)
     CloseDoor("Door06")
     Lock("Door06")
     CloseDoor("Door07")
@@ -11,9 +12,10 @@ END
 
 IF
   GlobalGT("CbPartyHasKilledAllBandits","GLOBAL",2)
-  OnCreation()
+  Global("Toweropen","ar4307",0)
 THEN
   RESPONSE #100
+  SetGlobal("Toweropen","ar4307",1)
     Unlock("Door07")
     OpenDoor("Door07")
 END
