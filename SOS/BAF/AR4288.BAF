@@ -1,8 +1,19 @@
 IF
-  OnCreation()
-  GlobalLT("CbPartyHuntsSpy","GLOBAL",2)
+GlobalLT("CbPartyHuntsSpy","GLOBAL",2)
+Global("NoDown","ar4288",0)
 THEN
-  RESPONSE #100
-    TriggerActivation("Tran5000",FALSE)
+RESPONSE #100
+SetGlobal("NoDown","ar4288",1)
+TriggerActivation("Tran5000",FALSE)
 END
 
+IF
+Global("DownOn","ar4288",0)
+OR(2)
+Global("CbPartyIsInSoubarMilitia","GLOBAL",7)
+Global("CbPartyHuntsSpy","GLOBAL",2)
+THEN
+RESPONSE #100
+SetGlobal("DownOn","ar4288",1)
+TriggerActivation("Tran5000",TRUE)
+END
