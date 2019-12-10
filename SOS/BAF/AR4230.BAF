@@ -366,3 +366,12 @@ THEN
     SetGlobal("CbCounted_Winthrop","AR4230",1)
 END
 
+IF
+GlobalGT("CbPartyTrainedOneNewGuard","GLOBAL",8)
+Global("CbTenGuardsCreated4230","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("CbTenGuardsCreated4230","GLOBAL",1)
+SetGlobal("CbPartyTrainedTriel","GLOBAL",2)
+END
+
