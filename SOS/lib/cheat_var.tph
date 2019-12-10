@@ -94,7 +94,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	{"AR4340", "From Soubar to Lyrar 1"},
 	{"AR4350", "From Soubar to Lyrar 2"},
 	{"AR4351", "SOS Training with Guards"},
-	{"AR4370", "SOS Lyrar's Hold""},
+	{"AR4370", "SOS Lyrar's Hold"},
 		
 	{"BD0010", "Test"},
 ~
