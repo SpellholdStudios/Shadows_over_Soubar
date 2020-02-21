@@ -1,5 +1,5 @@
 
-![Latest Release](https://img.shields.io/static/v1?label=release&message=v1.0.0&color=darkred)<a name="top" id="top">
+![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/Shadows_over_Soubar?include_prereleases&color=darkred)<a name="top" id="top"> </a>
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20Mac%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20German%20%7C%20Italian%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
 
@@ -17,7 +17,7 @@
 
 [Read the mod's readme](http://spellholdstudios.github.io/readmes/sos-readme-english.html).
 
-[Download the mod at Spellhold Studios](http://www.shsforums.net/files/category/40-shadows-over-soubar/).
+[Download the mod at Spellhold Studios](http://www.shsforums.net/files/category/40-shadows-over-soubar/).<br>
 
 
 <div align="center">
@@ -44,9 +44,6 @@ So our story begins in Trademeet, where our hero learns that some mysterious men
 - More than 400 new items.
 - More than 20 new stores.
 - More than 30 mini quests and 2 major quests.
-
-<ins>Tip to underline text</ins>
-
 </p>
 </details><br>
 <div align="right"><a href="#top">Back to top</a></div>
@@ -148,7 +145,7 @@ This component requires the main component to be installed.</br>
 #### 2. Remorhaz walking speed adjustment (for ENGLISH version .EXE ONLY!!!)
 
 This component requires the main component to be installed. It patches BGmain.exe to reduce MBRH moving speed.</br>
-:warning: **WARNING!** It is only valid only for an ENGLISH version, for non-EE games and for non-Mac OS.</br></br>
+:warning: **WARNING!** It is only valid for an ENGLISH version, for non-EE games and for non-Mac OS.</br></br>
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -168,7 +165,7 @@ This component requires the main component to be installed. It patches BGmain.ex
 - Italian translation: Ilot in collaboration with Mother Anorexia, Hicarus87, Giuseppe, Bhoo the hero.
 - Spanish translation: SirLancelot's Team.
 - Russian translation: aerie-ru.info team.
-- German translation: Leonardo Watson)~
+- German translation: Leonardo Watson.
 - Everyone else from the <a href="http://gibberlings3.net/forums/">The Gibberlings Three</a>, <a href="http://www.shsforums.net/">Spellhold Studios</a> forums, and the other Infinity Engine gaming and modding communities who offered their help and support.
 
 ## 
@@ -188,8 +185,6 @@ This component requires the main component to be installed. It patches BGmain.ex
 ## 
 
 #### Copyright Information
-
-Pick what you think insightful:
 
 ###### Shadows over Soubar is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by AUTHOR, based on material from the game Baldur's Gate II and its expansion.
 ###### All mod content is &copy;AUTHOR.
@@ -215,7 +210,7 @@ Pick what you think insightful:
 
 - Added *sos.ini* metadata file to support AL|EN's "Project Infinity".
 - Added OS control to avoid installing component *Remorhaz walking speed adjustment* on Mac OS.
-- Components: added `DESIGNATED` numbers and "*shadows_over_soubar*", "*sos_selence_at_waukeens_promenade_after_meeting_Gaelan*" and "*sos_remorhaz_walking_speed_adjustment*"`LABELS`.
+- Added `DESIGNATED` numbers and "*shadows_over_soubar*", "*sos_selence_at_waukeens_promenade_after_meeting_Gaelan*" and "*sos_remorhaz_walking_speed_adjustment*" component `LABELS`.
 - So many fixes to be described. :wink:
 - Added `README` command in tp2.
 - Wrote a new *sos-readme-english.html* readme file and moved all readme files into new readme folder.</li>
@@ -241,15 +236,15 @@ Pick what you think insightful:
 #### Version 1.12
 
 - <ins>Fixes and enhancements, by King Diamond</ins>:
-	- 1) Silence's script updated (DisplayStringHead()'s). Now she starts her default pickpocketing only when the party is nearby.
-	- 2) bAR1105.baf, bRIBALD.baf modified for a better performance.
-	- 3) AR4286.baf restored (known undroppable items will be returned to their owners - for most NPCs).<br>
+	- 1. Silence's script updated (DisplayStringHead()'s). Now she starts her default pickpocketing only when the party is nearby.
+	- 2. bAR1105.baf, bRIBALD.baf modified for a better performance.
+	- 3. AR4286.baf restored (known undroppable items will be returned to their owners - for most NPCs).<br>
 		AR4361.baf - many Continue()'s added<br>
 		AR4330.baf - possible deadlock removed (necessary creatures couldn't be created and Hemp Rope couldn't be found)<br>
 		AR4219.baf - restored<br>
 		AR4240, AR4242, AR4244, AR4246, AR4251, AR4252, AR4253, AR4254, AR4255, AR4258, AR4259.BAF - spawning method optimized
-	- 4) Continue() issue fix: tAR1100.BAF divided into 2 parts for E_T and E_B
-	- 5) rebelst's forum post fixes:<br>
+	- 4. Continue() issue fix: tAR1100.BAF divided into 2 parts for E_T and E_B
+	- 5. rebelst's forum post fixes:<br>
 		- tNALIA.BAF: "Myself" should have no quotes<br>
 		- AR4370.BAF: CB300CO[1-2] should be CB4300CO[1-2]<br>
 		- CB421012.BAF: CBRJR003, CBRJR016, CBRJR02[2-5] don't exist, lines should be removed<br>
