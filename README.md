@@ -12,7 +12,7 @@
 
 
 **Author:** Charles Bisson  
-**Mod Website:** <a href="http://www.spellholdstudios.net/ie/">Spellhold Studios</a>  
+**Mod Website:** <a href="http://www.spellholdstudios.net/ie/sos/">Spellhold Studios</a>  
 **Mod Forum:** <a href="http://www.shsforums.net/forum/195-Shadows-over-soubar/">Shadows over Soubar</a>  
 
 [Read the mod's readme](http://spellholdstudios.github.io/readmes/sos-readme-english.html).
@@ -35,7 +35,7 @@ We know that war is brewing in Tethyr, and that the Sword Coast has experienced 
 
 So our story begins in Trademeet, where our hero learns that some mysterious men from the north are looking for them. What those men want, we are not sure. But after a time of searching Amn, our great hero finds a sneaky thief who '*employs*' us to do some '*work*'. After completing the jobs, the sneaky thief will finally tell our hero what needs to be done to move on. And our hero does indeed move on, finding some letters which leads them to the mysterious men. These mysterious men will explain the entire situation, and the hero can accept (continue the mod) or decline to help.
 
-<details><summary>Key contents</summary>
+<details><summary>Key features</summary>
 <p>
 
 - More than 100 new areas, new as well as changed.
@@ -211,9 +211,9 @@ This component requires the main component to be installed. It patches BGmain.ex
 - Added *sos.ini* metadata file to support AL|EN's "Project Infinity".
 - Added OS control to avoid installing component *Remorhaz walking speed adjustment* on Mac OS.
 - Added `DESIGNATED` numbers and "*shadows_over_soubar*", "*sos_selence_at_waukeens_promenade_after_meeting_Gaelan*" and "*sos_remorhaz_walking_speed_adjustment*" component `LABELS`.
-- So many fixes to be described. :wink:
+- Various bugfixes, as listed in the GitHub commits. :wink:
 - Added `README` command in tp2.
-- Wrote a new *sos-readme-english.html* readme file and moved all readme files into new readme folder.</li>
+- Wrote a new *sos-readme-english.html* readme file and moved all readme files into new readme folder.
 - Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
 - Uploaded mod to official SpellHold Studios GitHub mirror account.
 
@@ -301,8 +301,8 @@ This component requires the main component to be installed. It patches BGmain.ex
 		0xEC20 MWI3 CGAMEANIMATIONTYPE_WIGHT3 animation is not used by mod, so its TP2 installation is removed (BAMs).
 	3. CBBANDEAD.CRE - animation fixed: IC_LICHBLACK instead of IC_MYCONID2.
 	4. Yeti animation is being installed into '0xE060 MLIC IC_LICH' slot (I hope we'll deal with NEJ later... and CtB). Corresponding creature files updated.
-	5. Remorhaz animation moved to 0xE230 MBRH IC_BEETLE_RHINOCEROS slot. English version BGmain.exe patch added to reduce MBRH moving speed.
-	:warning: ATTENTION! That could be valid only for an ENGLISH version<br>
+	5. Remorhaz animation moved to 0xE230 MBRH IC_BEETLE_RHINOCEROS slot. English version BGmain.exe patch added to reduce MBRH moving speed.<br>
+	:warning: ATTENTION! That could be valid only for an ENGLISH version.<br>
 	For other version it's necessary to search for C6 42 06 0A 8B 85 9C FB FF FF C6 40 07 0A and patch both 0A at found offsets with 6 : ------------^^----------------------------^^
 	6. Missed sound scheme 2DAs for MBRH and MLIC slots added + all necessary WAVs.
 	7. TS compatibility added (several dialogues).
