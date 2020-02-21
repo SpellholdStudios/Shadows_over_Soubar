@@ -311,7 +311,7 @@ This component requires the main component to be installed. It patches BGmain.ex
 #### Version 1.0.4
 
 - <ins>Fixes and enhancements, by King Diamond</ins>:
-	1.) INTERDIA.2DA patching removed completely because of none of the joinable NPCs have banter dialogues.
+	1. INTERDIA.2DA patching removed completely because of none of the joinable NPCs have banter dialogues.
 	2. AR4235 is not used: ARE, WED, TIS, MOS, BMPs.<br>
 		AR4361 is not used: ARE.
 	3. Movie moved to a separate MVE folder/BIFF.
