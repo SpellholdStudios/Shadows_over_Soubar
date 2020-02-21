@@ -2,7 +2,9 @@ BACKUP ~SOS/BACKUP~
 
 AUTHOR ~Charles Bisson, Horred The Plague (WeiDU), King Diamond (WeiDU revision), Weigo (WeiDU EE revision)~  NO_IF_EVAL_BUG
 
-VERSION ~1.14~
+VERSION ~1.15~
+
+README ~sos/readme/sos-readme-%LANGUAGE%.html~ ~sos/readme/sos-readme-readme-english.html~
 
 AUTO_TRA ~SOS/Language/%s~
 
@@ -70,23 +72,27 @@ LANGUAGE ~English~
          ~English~
          ~SOS/Language/English/setup.tra~
 
-LANGUAGE ~Russian (by aerie-ru.info team)~
+LANGUAGE ~Russian (translation by aerie-ru.info team)~
          ~Russian~
          ~SOS/Language/Russian/setup.tra~
 
-LANGUAGE ~German (by Leonardo Watson)~
+LANGUAGE ~Deutsch (Uebersetzung von Leonardo Watson)~
          ~German~
          ~SOS/Language/German/setup.tra~
 
-LANGUAGE ~Spanish (by SirLancelot & Co)~
+LANGUAGE ~Spanish (traduccion por SirLancelot & Co)~
          ~Spanish~
          ~SOS/Language/Spanish/setup.tra~
 
-LANGUAGE ~Italian (Ilot & Co)~
+LANGUAGE ~Italiano (traduzione di Ilot & Co)~
          ~Italian~
          ~SOS/Language/Italian/setup.tra~
 
+/* ====================================== *
+ *  Shadows over Soubar : main component  *
+ * ====================================== */
 BEGIN @20000
+DESIGNATED 0 LABEL ~shadows_over_soubar~
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	COPY + ~Setup-SoS.exe~ ~WeiDU.exe~
@@ -1068,10 +1074,12 @@ END
 
 COPY_EXISTING ~misc01.itm~ ~override/sos.mrk~
 
-//////////////////////////////
-// Selence arrives to Waukeens Promenade after the meeting with Gaelan in the slums
-//////////////////////////////
+
+/* ================================================================================== *
+ *  Selence arrives to Waukeens Promenade after the meeting with Gaelan in the slums  *
+ * ================================================================================== */
 BEGIN ~Selence arrives to Waukeens Promenade after the meeting with Gaelan in the slums~
+DESIGNATED 1 LABEL ~sos_selence_at_waukeens_promenade_after_meeting_Gaelan~
 REQUIRE_COMPONENT "Setup-SoS.tp2"      "0"  ~You must have SoS mod installed~
 
 COPY_EXISTING ~Gaelan.dlg~ ~override~
@@ -1087,26 +1095,29 @@ COPY_EXISTING ~AR0700.bcs~ ~override~
 						  Global("CBGaelanafterSlum","GLOBAL",1)~
 	END
 
-	
-	
-	
-	//***********************************************************************************
-	//***********************************************************************************
-	BEGIN ~Remorhaz walking speed adjustment (for ENGLISH version .EXE ONLY!!!)~
-	
-	REQUIRE_COMPONENT "Setup-SoS.tp2"      "0"  ~You must have SoS mod installed~
-	REQUIRE_PREDICATE (!GAME_IS ~bg2ee eet~) ~Not for EET and BG2EE~
+
+/* ====================================================================== *
+ *  Remorhaz walking speed adjustment (for ENGLISH version .EXE ONLY!!!)  *
+ * ====================================================================== */
+BEGIN ~Remorhaz walking speed adjustment (for ENGLISH version .EXE ONLY!!!)~
+DESIGNATED 2 LABEL ~sos_remorhaz_walking_speed_adjustment~	
+REQUIRE_COMPONENT "Setup-SoS.tp2"      "0"  ~You must have SoS mod installed~
+REQUIRE_PREDICATE (!GAME_IS ~bg2ee eet~) ~Not for EET and BG2EE~
+
+ACTION_IF (~%WEIDU_OS%~ STRING_EQUAL_CASE ~osx~ = 1) BEGIN
+	FAIL ~This component is not currently compatible with OS X...~
+END
 		
-	//patching speed of MBRH slot ************************************************************
-	//ATTENTION! That could be valid only for an ENGLISH version
-	//for other version it's necessary to search for C6 42 06 0A 8B 85 9C FB FF FF C6 40 07 0A
-	//and patch both 0A at found offsets with 6 : ------------^^----------------------------^^
-	COPY_EXISTING ~bgmain.exe~  ~bgmain.exe~
+//patching speed of MBRH slot ************************************************************
+//ATTENTION! That could be valid only for an ENGLISH version
+//for other version it's necessary to search for C6 42 06 0A 8B 85 9C FB FF FF C6 40 07 0A
+//and patch both 0A at found offsets with 6 : ------------^^----------------------------^^
+COPY_EXISTING ~bgmain.exe~  ~bgmain.exe~
 	READ_BYTE 0x0041D40E   byte1
 	READ_BYTE 0x0041D40E+1 byte2
 	READ_BYTE 0x0041D40E+2 byte3
 	PATCH_IF( "%byte1%"=0xC6 AND "%byte2%"=0x42 AND "%byte3%"=0x06 ) BEGIN
-	WRITE_BYTE 0x0041D40E+3 6 //was 0x0A
-	WRITE_BYTE 0x0041D418+3 6 //was 0x0A
+		WRITE_BYTE 0x0041D40E+3 6 //was 0x0A
+		WRITE_BYTE 0x0041D418+3 6 //was 0x0A
 	END
-	BUT_ONLY_IF_IT_CHANGES
+BUT_ONLY_IF_IT_CHANGES
