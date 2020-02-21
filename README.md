@@ -214,6 +214,8 @@ This component requires the main component to be installed. It patches BGmain.ex
 - So many fixes to be described. :wink:
 - Added `README` command in tp2.
 - Wrote a new *sos-readme-english.html* readme file and moved all readme files into new readme folder.</li>
+- Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
+- Uploaded mod to official SpellHold Studios GitHub mirror account.
 
 ## 
 
