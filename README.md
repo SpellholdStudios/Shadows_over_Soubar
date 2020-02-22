@@ -15,10 +15,12 @@
 **Mod Website:** <a href="http://www.spellholdstudios.net/ie/sos/">Spellhold Studios</a>  
 **Mod Forum:** <a href="http://www.shsforums.net/forum/195-Shadows-over-soubar/">Shadows over Soubar</a>  
 
+
 [Read the mod's readme](http://spellholdstudios.github.io/readmes/sos-readme-english.html).
 
 [Download the mod at Spellhold Studios](http://www.shsforums.net/files/category/40-shadows-over-soubar/).<br>
 
+&nbsp;
 
 <div align="center">
 <a href="#intro">Overview</a> &#8226; <a href="#compat">Compatibility</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#components">Components</a> &#8226; <a href="#credits">Credits and Acknowledgements</a> &#8226; <a href="#versions">Version History</a></br>
