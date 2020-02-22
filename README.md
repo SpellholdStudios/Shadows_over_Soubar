@@ -127,7 +127,7 @@ In addition to the methods above for removing individual components, you can com
 ## <a name="components" id="components"></a>Components
 
 The installer includes the following components. The number of each is the component *DESIGNATED* number which gives it a fixed install position, lets other components and mods detect it and allows automated installers to specify component choices.  
-All optional subcomponents require the main component (they need to since it's the one that installs new content).<br /><br />
+All optional components require the main component (they need to since it's the one that installs new content).<br /><br />
 
 
 #### 0. Main component
