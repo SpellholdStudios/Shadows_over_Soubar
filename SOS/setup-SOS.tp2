@@ -2,7 +2,7 @@ BACKUP ~SOS/BACKUP~
 
 AUTHOR ~Charles Bisson, Horred The Plague (WeiDU), King Diamond (WeiDU revision), Weigo (WeiDU EE revision)~  NO_IF_EVAL_BUG
 
-VERSION ~1.15~
+VERSION ~1.16~
 
 README ~sos/readme/sos-readme-%LANGUAGE%.html~ ~sos/readme/sos-readme-readme-english.html~
 
@@ -769,6 +769,11 @@ COPY + ~SoS/STO/CBWBTEST.sto~         ~override~
   SAY 0x248 @20736
   SAY 0x25c @20734
   SAY 0x270 @20732
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~Inn2616.sto~ THEN BEGIN 
+  COPY + ~SoS/STO/bgee/Inn2616.sto~         ~override~
+    SAY NAME2 #11676 //Candlekeep Inn
+END
 
 //**************************************************************************
 // Animations
