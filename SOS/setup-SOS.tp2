@@ -1083,7 +1083,7 @@ COPY_EXISTING ~misc01.itm~ ~override/sos.mrk~
 /* ================================================================================== *
  *  Selence arrives to Waukeens Promenade after the meeting with Gaelan in the slums  *
  * ================================================================================== */
-BEGIN ~Selence arrives to Waukeens Promenade after the meeting with Gaelan in the slums~
+BEGIN @20002 /* ~Selence arrives to Waukeens Promenade after the meeting with Gaelan in the slums~ */
 DESIGNATED 1 LABEL ~sos_selence_at_waukeens_promenade_after_meeting_Gaelan~
 REQUIRE_COMPONENT "Setup-SoS.tp2"      "0"  ~You must have SoS mod installed~
 
