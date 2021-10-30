@@ -591,9 +591,7 @@ PRINT @20070
 INCLUDE ~%MOD_FOLDER%/lib/install-arescripts.tpa~
 
 ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
-  ACTION_IF NOT FILE_EXISTS ~AR1004.WED~ BEGIN
    COPY ~SOS/WED/BG2/AR1004.WED~ ~override~
-  END
 END
 
 INCLUDE ~%MOD_FOLDER%/lib/install-wed.tpa~
