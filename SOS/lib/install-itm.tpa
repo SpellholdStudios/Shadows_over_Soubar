@@ -585,6 +585,7 @@ COPY + ~SoS/ITM/CBLOCKER.itm~         ~override~
 
 COPY + ~SoS/ITM/CBLOGMSS.itm~         ~override~
   SAY UNIDENTIFIED_DESC @20614 
+  SAY IDENTIFIED_DESC @20614
 
 COPY + ~SoS/ITM/CBLOLTH1.itm~         ~override~
 
@@ -648,7 +649,8 @@ COPY + ~SoS/ITM/CBMILT01.ITM~         ~override~
        ~SoS/ITM/CBPARSOB.itm~         ~override~
 
 COPY + ~SoS/ITM/CBPREMSS.itm~         ~override~
-  SAY UNIDENTIFIED_DESC @20636 
+  SAY UNIDENTIFIED_DESC @20636
+  SAY IDENTIFIED_DESC @20636
 
 COPY + ~SoS/ITM/CBPS4220.itm~         ~override~
 
