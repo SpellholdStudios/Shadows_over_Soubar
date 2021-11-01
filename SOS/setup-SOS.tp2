@@ -899,8 +899,8 @@ ADD_KIT ~FENCE~
 ~0x00080000 4~
 ~Th0~
 ~ LEAT14  *  *  BAG28  RING06  RING05,10  *  BOOT02  AMUL19  BRAC16  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  DAGG12  SW1H28  STAF08 ~
-SAY ~Fence~
-SAY ~Fence~
+SAY @21000
+SAY @21001
 SAY @20802
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
@@ -1037,12 +1037,12 @@ COPY_EXISTING ~misc01.itm~ ~override/sos.mrk~
  *  Biffing *
  * ======== */
 
-BEGIN ~Shadows over Soubar: Resource biffing~
+BEGIN @21002
 	DESIGNATED 3 LABEL ~sos_resource_biffing~
-	REQUIRE_COMPONENT "Setup-SoS.tp2" "0" ~You must have SoS mod installed~
-	REQUIRE_PREDICATE (!GAME_IS ~bg2ee eet~) ~Not for EET and BG2EE~
+	REQUIRE_COMPONENT "Setup-SoS.tp2" "0" @21003
+	REQUIRE_PREDICATE (!GAME_IS ~bg2ee eet~) @21004
 
-	PRINT ~Biffing files....~
+	PRINT @21005
 
 	ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 		ACTION_IF ~%WEIDU_OS%~ STR_EQ ~win32~ BEGIN
@@ -1085,7 +1085,7 @@ BEGIN ~Shadows over Soubar: Resource biffing~
  * ================================================================================== */
 BEGIN @20002 /* ~Selence arrives to Waukeens Promenade after the meeting with Gaelan in the slums~ */
 DESIGNATED 1 LABEL ~sos_selence_at_waukeens_promenade_after_meeting_Gaelan~
-REQUIRE_COMPONENT "Setup-SoS.tp2"      "0"  ~You must have SoS mod installed~
+REQUIRE_COMPONENT "Setup-SoS.tp2" "0" @21003
 
 COPY_EXISTING ~Gaelan.dlg~ ~override~
 	DECOMPILE_AND_PATCH BEGIN
@@ -1104,13 +1104,13 @@ COPY_EXISTING ~AR0700.bcs~ ~override~
 /* ====================================================================== *
  *  Remorhaz walking speed adjustment (for ENGLISH version .EXE ONLY!!!)  *
  * ====================================================================== */
-BEGIN ~Remorhaz walking speed adjustment (for ENGLISH version .EXE ONLY!!!)~
+BEGIN @21006
 DESIGNATED 2 LABEL ~sos_remorhaz_walking_speed_adjustment~	
-REQUIRE_COMPONENT "Setup-SoS.tp2"      "0"  ~You must have SoS mod installed~
-REQUIRE_PREDICATE (!GAME_IS ~bg2ee eet~) ~Not for EET and BG2EE~
+REQUIRE_COMPONENT "Setup-SoS.tp2" "0" @21003
+REQUIRE_PREDICATE (!GAME_IS ~bg2ee eet~) @21004
 
 ACTION_IF (~%WEIDU_OS%~ STRING_EQUAL_CASE ~osx~ = 1) BEGIN
-	FAIL ~This component is not currently compatible with OS X...~
+	FAIL @21007
 END
 		
 //patching speed of MBRH slot ************************************************************
