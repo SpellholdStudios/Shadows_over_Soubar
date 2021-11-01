@@ -1023,7 +1023,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 END
 
 
-COPY ~SoS/MVE~ ~override~
+COPY ~SoS/Language/English/MVE~ ~override~
+COPY ~SoS/Language/%LANGUAGE%/MVE~ ~override~
 
 
 PRINT ~Biffing files....~
