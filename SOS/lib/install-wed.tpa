@@ -84,3 +84,4 @@ COPY_EXISTING ~AR1004.wed~ ~override~
     WRITE_LONG (sec_hdr + 0x10) (poly_table + 0x1a + 0x24)
   END
 BUT_ONLY
+
