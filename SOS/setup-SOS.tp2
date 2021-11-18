@@ -508,7 +508,7 @@ COPY ~SoS/ARE/AR4360.are~           ~override~
     WRITE_ASCIIE 0x0030 ~%NBaldursGate_RinniesHouse_L2%~ #8
     WRITE_ASCIIE 0x003c ~%NBaldursGate_RinniesHouse_L2%~ #8
 
-	COPY ~SoS/ARE/AR4365.are~           ~override~
+COPY ~SoS/ARE/AR4365.are~           ~override~
 
 //**************************************************
 //  WORLDMAP
