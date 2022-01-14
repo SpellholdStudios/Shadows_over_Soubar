@@ -16,6 +16,8 @@ AR4220    W         AR1300      N           24        1          AR0042   AR0043
 AR4220    W         AR1304      N           24        1          AR0043   AR0044   AR0042   N        N        65
 AR4220    W         AR1400      ExitSE      24        1          AR0044   AR0042   AR0043   N        N        65
 AR4220    W         AR1404      ExitSE      24        1          AR0043   AR0044   AR0042   N        N        65
+AR4220    W         AR4230      Exit3800    4         1          N        N        N        N        N        0     // Chionthar -> Soubar
+AR4230    N         AR4370      Exit2800    4         1          N        N        N        N        N        0     // Soubar -> Lyrar's Hold
 
 AR0020    N         AR4220      ExitS       28        4          AR0042   AR0043   AR0044   N        N        75
 AR0020    E         AR4220      ExitS       28        4          AR0042   AR0043   AR0044   N        N        75
@@ -31,5 +33,5 @@ AR1400    N         AR4220      ExitS       24        4          AR0044   AR0042
 AR1400    W         AR4220      ExitS       24        4          AR0044   AR0042   AR0043   N        N        65
 AR1404    N         AR4220      ExitS       24        4          AR0044   AR0042   AR0043   N        N        65
 AR1404    W         AR4220      ExitS       24        4          AR0044   AR0042   AR0043   N        N        65
-
-
+AR4230    S         AR4220      Exit4330    4         4          N        N        N        N        N        0     // Soubar -> Chionthar
+AR4370    S         AR4230      Exit4350    4         4          N        N        N        N        N        0     // Lyrar's Hold -> Soubar
