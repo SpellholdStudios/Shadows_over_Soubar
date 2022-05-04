@@ -1054,13 +1054,58 @@ COPY_EXISTING ~misc01.itm~ ~override/sos.mrk~
  *  Alternative Soubar area *
  * ======================== */
 
-BEGIN @21012
+BEGIN @21011
 	DESIGNATED 4 LABEL ~sos_alternative_soubar_cuttooth~
 	REQUIRE_COMPONENT "Setup-SoS.tp2" "0" @21003
-	REQUIRE_PREDICATE (!GAME_IS ~bg2ee eet~) @21004
 
-	COPY_LARGE	~SOS/TIZ/ALT/AR4230.TIS~ ~override~
-				~SOS/TIZ/ALT/AR4230N.TIS~ ~override~
+	ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+   		COPY	~SOS/PVRZ/ALT/AR4230.TIS~ ~override~
+				~SOS/PVRZ/ALT/A423000.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A423001.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A423002.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A423003.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A423004.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A423005.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A423006.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A423007.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A423008.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A423009.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A423010.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A423011.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A423012.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A423013.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A423014.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A423015.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A423016.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A423017.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A423018.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A423019.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/AR4230N.TIS~ ~override~
+				~SOS/PVRZ/ALT/A4230N00.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A4230N01.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A4230N02.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A4230N03.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A4230N04.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A4230N05.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A4230N06.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A4230N07.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A4230N08.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A4230N09.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A4230N10.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A4230N11.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A4230N12.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A4230N13.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A4230N14.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A4230N15.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A4230N16.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A4230N17.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A4230N18.PVRZ~ ~override~
+				~SOS/PVRZ/ALT/A4230N19.PVRZ~ ~override~
+	END
+	ELSE BEGIN
+		COPY_LARGE	~SOS/TIZ/ALT/AR4230.TIS~ ~override~
+					~SOS/TIZ/ALT/AR4230N.TIS~ ~override~
+	END
 
 	COPY	~SOS/MOS/ALT/AR4230.MOS~ ~override~
 			~SOS/MOS/ALT/AR4230N.MOS~ ~override~
