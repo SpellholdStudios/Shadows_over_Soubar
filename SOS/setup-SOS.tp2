@@ -1042,59 +1042,59 @@ END
 
 COPY ~SoS/MVE~ ~override~
 
-
-PRINT ~Biffing files....~
-
-//////////////////////////////
-// biffing
-//////////////////////////////
-
-
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN		//older mods use SOS-RULE
-	MAKE_BIFF ~SOS-RULE~ BEGIN
-		~override~ ~SOS.mrk~
-	END
-END
-
-ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-	ACTION_IF ~%WEIDU_OS%~ STR_EQ ~win32~ BEGIN
-		AT_UNINSTALL ~rmdir /s /q %MOD_FOLDER%\temp~ EXACT
-	END ELSE BEGIN //osx, unix
-		AT_UNINSTALL ~rm -rf %MOD_FOLDER%/temp~ EXACT
-	END
-
-	
-	MAKE_BIFF ~SOS-RULE~ BEGIN
-		~override~ ~SOS.mrk~
-	END
-	
-	ACTION_DEFINE_ASSOCIATIVE_ARRAY table_SOS_biff BEGIN
-		~SOS-TIS~ , ~override~ , ~^.*\.tis$~ => 150000000 //150 MB
-		~SOS-WAV~ , ~override~ , ~^.*\.wav$~ => 150000000 //150 MB
-//		~SOS-RES~ , ~override~ , ~^.*$~ => 100000000 
-	END
-	
-	ACTION_PHP_EACH table_SOS_biff AS biff => size BEGIN
-		OUTER_SET totalSize = 0
-		OUTER_SET index = 0
-		MKDIR ~%MOD_FOLDER%/temp/%biff%%index%~
-		ACTION_BASH_FOR ~%biff_1%~ ~%biff_2%~ BEGIN
-			ACTION_IF ( BASH_FOR_SIZE + totalSize > size ) AND ( totalSize > 0 ) BEGIN
-				MAKE_BIFF ~%biff%%index%~ BEGIN ~%MOD_FOLDER%/temp/%biff%%index%~ ~^.*$~ END
-				OUTER_SET index = index + 1
-				OUTER_SET totalSize = 0
-				MKDIR ~%MOD_FOLDER%/temp/%biff%%index%~
-			END
-			MOVE ~%BASH_FOR_FILESPEC%~ ~%MOD_FOLDER%/temp/%biff%%index%~
-			OUTER_SET totalSize = totalSize + BASH_FOR_SIZE
-		END
-		ACTION_IF ( totalSize > 0 ) BEGIN
-			MAKE_BIFF ~%biff%%index%~ BEGIN ~%MOD_FOLDER%/temp/%biff%%index%~ ~^.*$~ END
-		END
-	END
+// older mods use SOS-RULE	
+MAKE_BIFF ~SOS-RULE~ BEGIN
+	~override~ ~sos.mrk~
 END
 
 COPY_EXISTING ~misc01.itm~ ~override/sos.mrk~
+
+
+/* ======== *
+ *  Biffing *
+ * ======== */
+
+BEGIN ~Shadows over Soubar: Resource biffing~
+	DESIGNATED 3 LABEL ~sos_resource_biffing~
+	REQUIRE_COMPONENT "Setup-SoS.tp2" "0" ~You must have SoS mod installed~
+	REQUIRE_PREDICATE (!GAME_IS ~bg2ee eet~) ~Not for EET and BG2EE~
+
+	PRINT ~Biffing files....~
+
+	ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
+		ACTION_IF ~%WEIDU_OS%~ STR_EQ ~win32~ BEGIN
+			AT_UNINSTALL ~rmdir /s /q %MOD_FOLDER%\temp~ EXACT
+		END ELSE BEGIN //osx, unix
+			AT_UNINSTALL ~rm -rf %MOD_FOLDER%/temp~ EXACT
+		END
+
+		ACTION_DEFINE_ASSOCIATIVE_ARRAY table_SOS_biff BEGIN
+			~SOS-TIS~ , ~override~ , ~^.*\.tis$~ => 150000000 //150 MB
+			~SOS-WAV~ , ~override~ , ~^.*\.wav$~ => 150000000 //150 MB
+	//		~SOS-RES~ , ~override~ , ~^.*$~ => 100000000 
+		END
+		
+		ACTION_PHP_EACH table_SOS_biff AS biff => size BEGIN
+			OUTER_SET totalSize = 0
+			OUTER_SET index = 0
+			MKDIR ~%MOD_FOLDER%/temp/%biff%%index%~
+			ACTION_BASH_FOR ~%biff_1%~ ~%biff_2%~ BEGIN
+				ACTION_IF ( BASH_FOR_SIZE + totalSize > size ) AND ( totalSize > 0 ) BEGIN
+					MAKE_BIFF ~%biff%%index%~ BEGIN ~%MOD_FOLDER%/temp/%biff%%index%~ ~^.*$~ END
+					OUTER_SET index = index + 1
+					OUTER_SET totalSize = 0
+					MKDIR ~%MOD_FOLDER%/temp/%biff%%index%~
+				END
+				MOVE ~%BASH_FOR_FILESPEC%~ ~%MOD_FOLDER%/temp/%biff%%index%~
+				OUTER_SET totalSize = totalSize + BASH_FOR_SIZE
+			END
+			ACTION_IF ( totalSize > 0 ) BEGIN
+				MAKE_BIFF ~%biff%%index%~ BEGIN ~%MOD_FOLDER%/temp/%biff%%index%~ ~^.*$~ END
+			END
+		END
+	END
+
+	COPY_EXISTING ~misc01.itm~ ~override/sos.mrk~
 
 
 /* ================================================================================== *
