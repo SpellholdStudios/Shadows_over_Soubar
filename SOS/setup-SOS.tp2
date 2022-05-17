@@ -340,7 +340,7 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 END
 
 //******************************************************************
-//  AREAS - before scripts (to avoid unnecessary WeiDU warnings
+//  AREAS - before scripts (to avoid unnecessary WeiDU warnings)
 //******************************************************************
 PRINT @20073
 
@@ -395,8 +395,25 @@ COPY ~SoS/ARE/AR4256.are~           ~override~
 COPY ~SoS/ARE/AR4257.are~           ~override~
 COPY ~SoS/ARE/AR4258.are~           ~override~
 COPY ~SoS/ARE/AR4259.are~           ~override~
+
 COPY ~SoS/ARE/AR4260.are~           ~override~
+// Decompress files from BIFC to prevent oBG2 from crashing
+ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
+	COPY_EXISTING
+		~AM1101.WAV~ ~override~
+		~AM1101A.WAV~ ~override~
+		~AM1101A.BAM~ ~override~
+END
+
 COPY ~SoS/ARE/AR4261.are~           ~override~
+// Decompress files from BIFC to prevent oBG2 from crashing
+ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
+	COPY_EXISTING
+		~AM1103.WAV~ ~override~
+		~AM1103A.WAV~ ~override~
+		~AM1104A.BAM~ ~override~
+END
+
 COPY ~SoS/ARE/AR4262.are~           ~override~
 COPY ~SoS/ARE/AR4263.are~           ~override~
 COPY ~SoS/ARE/AR4264.are~           ~override~
@@ -491,7 +508,7 @@ COPY ~SoS/ARE/AR4360.are~           ~override~
     WRITE_ASCIIE 0x0030 ~%NBaldursGate_RinniesHouse_L2%~ #8
     WRITE_ASCIIE 0x003c ~%NBaldursGate_RinniesHouse_L2%~ #8
 
-	COPY ~SoS/ARE/AR4365.are~           ~override~
+COPY ~SoS/ARE/AR4365.are~           ~override~
 
 //**************************************************
 //  WORLDMAP
