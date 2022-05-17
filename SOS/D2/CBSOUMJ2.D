@@ -100,7 +100,7 @@ GlobalLT("CbPartyTrainedOneNewGuard","GLOBAL",4)~ THEN REPLY @28 DO ~Addexperien
   IF ~GlobalGT("CbPartyTrainedOneNewGuard","GLOBAL",3)
 GlobalLT("CbPartyTrainedOneNewGuard","GLOBAL",7)~ THEN REPLY @29 DO ~AddexperienceParty(6000)~ GOTO 19
   IF ~GlobalGT("CbPartyTrainedOneNewGuard","GLOBAL",6)
-GlobalLT("CbPartyTrainedOneNewGuard","GLOBAL",9)~ THEN REPLY @30 DO ~AddexperienceParty(8000)~ GOTO 19
+GlobalLT("CbPartyTrainedOneNewGuard","GLOBAL",10)~ THEN REPLY @30 DO ~AddexperienceParty(8000)~ GOTO 19
   IF ~GlobalGT("CbPartyTrainedOneNewGuard","GLOBAL",9)~ THEN REPLY @31 DO ~AddexperienceParty(10000)~ GOTO 19
   IF ~GlobalLT("CbPartyTrainedOneNewGuard","GLOBAL",1)~ THEN REPLY @32 GOTO 22
   IF ~~ THEN REPLY @33 GOTO 42
