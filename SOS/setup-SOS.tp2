@@ -1040,7 +1040,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 END
 
 
-COPY ~SoS/MVE~ ~override~
+COPY ~SoS/Language/English/MVE~ ~override~
+COPY ~SoS/Language/%LANGUAGE%/MVE~ ~override~
 
 // older mods use SOS-RULE	
 MAKE_BIFF ~SOS-RULE~ BEGIN
