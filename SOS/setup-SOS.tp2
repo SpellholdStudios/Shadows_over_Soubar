@@ -372,7 +372,7 @@ COPY ~SoS/ARE/AR4230.are~           ~override~
   SAY 0x6440 @20075
   SAY 0x6474 @20079
   SAY 0x64a8 @20076
-  SAY 0x64dc @20082
+  SAY 0x64dc @20771
 
 COPY ~SoS/ARE/AR4232.are~           ~override~
 COPY ~SoS/ARE/AR4240.are~           ~override~
