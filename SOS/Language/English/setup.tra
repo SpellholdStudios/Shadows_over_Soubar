@@ -3008,35 +3008,15 @@ Races: Fences may be of any race. Some demihuman Fences prefer to deal only in c
 @20805 = ~Selence~
 @20806 = ~SELENCE grew up on the city streets of Athkatla, which was not the most appropriate place for a young girl.  Selence never really had the chance to be a child.  Her circumstances of being a young street thug may not have been the most pleasant, but she'll never admit that she secretly wishes her life could have been different.  As it is, Selence has become quite a thief, and hopes to eventually run an underground network of spies, smugglers, and robbers.  Selence has a plan, which is more than most others in Faerûn can admit to, and she will do all that she can to make her dreams come true, even if her dreams are not the most ethical of dreams.~
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@21000 = ~fence~
+@21001 = ~Fence~
+@21002 = ~Shadows over Soubar Resource biffing~
+@21003 = ~You must have SoS mod installed~
+@21004 = ~Not for EET and BG2EE~
+@21005 = ~Biffing files....~
+@21006 = ~Remorhaz walking speed adjustment (for ENGLISH version .EXE ONLY!!!)~
+@21007 = ~This component is not currently compatible with OS X...~
+@21008 = ~"Original SoA/ToB"~
+@21009 = ~"Shadows Over Soubar"~
+@21010 = ~Game Graphical User Interface (GUI)~
 

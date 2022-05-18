@@ -22,8 +22,8 @@ RESERVED9                    -1
 >>>>>>>>
 <<<<<<<< orig_gui.tp2
 //***********************************************************************************
-BEGIN ~"Original SoA/ToB"~
-SUBCOMPONENT ~Game Graphical User Interface (GUI)~
+BEGIN @21008
+SUBCOMPONENT @21010
 
 COPY_EXISTING ~GUI_Mods/GUI_Mods.2DA~ ~GUI_Mods~
  SET_2DA_ENTRY  1 1 2    0   //CURRENT_ACTIVE_MOD_GUI
@@ -32,8 +32,8 @@ AT_EXIT ~Setup-GUI.exe --uninstall~
 >>>>>>>>
 <<<<<<<< mod_gui.tp2
 //***********************************************************************************
-BEGIN ~"Shadows Over Soubar"~
-SUBCOMPONENT ~Game Graphical User Interface (GUI)~
+BEGIN @21009
+SUBCOMPONENT @21010
 
 COPY_EXISTING ~GUI_Mods/GUI_Mods.2DA~ ~GUI_Mods~
  SET_2DA_ENTRY  1 1 2   "%gui_slot_name%"  //CURRENT_ACTIVE_MOD_GUI

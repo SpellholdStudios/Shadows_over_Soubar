@@ -2710,3 +2710,15 @@ Razas: Los peristas pueden ser de cualquier raza. Los peristas de algunas razas 
 @20806 = ~SELENCE nació y creció en las populosas calles de Athkatla, cuna de pícaros y maleantes, lugar totalmente inapropiado para la educación de una niña. Vivió una infancia difícil que pronto la convirtió en una joven ladronzuela; por ello, la perista a menudo desea desahogarse sobre su pasado, pero bien sea por su orgullo ó por otro motivo, nunca te lo reconoce abiertamente.
 
 Selence se ha convertido en una profesional entregada y ambiciosa que aspira a formar una red extensísima de contrabandistas, espías y atracadores. Su mente alberga un plan maestro para conseguirlo, algo infrecuente en los rateros ordinarios de Faerûn. Hará todo cuanto esté en su mano para alcanzar sus sueños.~
+
+@21000 = ~fence~
+@21001 = ~Fence~
+@21002 = ~Shadows over Soubar Resource biffing~
+@21003 = ~You must have SoS mod installed~
+@21004 = ~Not for EET and BG2EE~
+@21005 = ~Biffing files....~
+@21006 = ~Remorhaz walking speed adjustment (for ENGLISH version .EXE ONLY!!!)~
+@21007 = ~This component is not currently compatible with OS X...~
+@21008 = ~"Original SoA/ToB"~
+@21009 = ~"Shadows Over Soubar"~
+@21010 = ~Game Graphical User Interface (GUI)~
