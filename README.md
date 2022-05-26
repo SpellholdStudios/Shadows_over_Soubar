@@ -136,15 +136,27 @@ All optional components require the main component (they need to since it's the 
 
 This component installs the mod itself.</br>
 
-## 
+##
 
-#### 1. Selence arrives to Waukeens Promenade after the meeting with Gaelan in the slums
+#### 1. Alternative Soubar area
+
+We all know that the original Soubar was built by the same construction company as Beregost. This component installs brand new Soubar location created by Cuttooth. This component requires the main component to be installed.</br>
+
+##
+
+#### 2. Biffing
+
+This component requires the main component to be installed. Compress files for better game performance. Only valid for classic (BG2:ToB or BGT) game.</br>
+
+##
+
+#### 3. Selence arrives to Waukeens Promenade after the meeting with Gaelan in the slums
 
 This component requires the main component to be installed.</br>
 
 ## 
 
-#### 2. Remorhaz walking speed adjustment (for ENGLISH version .EXE ONLY!!!)
+#### 4. Remorhaz walking speed adjustment (for ENGLISH version .EXE ONLY!!!)
 
 This component requires the main component to be installed. It patches BGmain.exe to reduce MBRH moving speed.</br>
 :warning: **WARNING!** It is only valid for an ENGLISH version, for non-EE games and for non-Mac OS.</br></br>
@@ -207,6 +219,31 @@ This component requires the main component to be installed. It patches BGmain.ex
 
 
 ## <a name="versions" id="versions"></a>Version History
+
+#### Version 2.0 (Upcoming version)
+
+- Alternative Soubar area from "World of Baldur's Gate" modification - desined & modelled by Cuttooth, effects enrichment & ideas by Dradiel, integrated to the mod by Roberciiik.
+- Biffing is now an optional installation component.
+- Fixed militia training quest when only 9 new guard are trained.
+- Fixed CTDs in AR4261, AR4260 and AR4258 areas.
+- Restored TIS and MOS files of Soubar for oBG2.
+- Fixed oBG2 visual bug in sir Williams house (AR1004).
+- Updated worldmap position of areas for Chionthar, Soubar and Lyrar's Hold.
+- Corrected automap notes in Soubar and Soubar prison.
+- Traified missing lines (setup, kit name, debug prints).
+- Added missing identified description to some letters.
+- Moved movies to language directory so they can be replaced by local language version.
+- Moved some NPC sounds files to language directory - now can be replaced by local language version.
+
+##
+
+#### Version 1.16 (September 28, 2021)
+
+- Fixed install error for non-English versions: Added needed dlls for iconv.exe.
+- Added inn2616.sto in case it is not existent ingame (BGII:EE).
+- Added install order syntax and globally unique labelling to .ini to support Project Infinity.
+
+##
 
 #### Version 1.15 (February 21, 2020)
 
