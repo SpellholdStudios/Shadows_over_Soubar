@@ -325,10 +325,6 @@ APPEND ~SPELL.IDS~ ~2326 WIZARD_DISPEL_MAGIC~
 UNLESS ~2326 WIZARD_DISPEL_MAGIC~
 END
 
-APPEND ~SPELL.IDS~ ~2429 BELTYNS_BURNING_BLOOD~
-UNLESS ~2429 BELTYNS_BURNING_BLOOD~
-
-
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	COPY ~SOS/Rule/Ids/ANISND.IDS~ ~override~
 		 ~SOS/Rule/Ids/ANIMATE.IDS~ ~override~
@@ -654,15 +650,28 @@ INCLUDE ~%MOD_FOLDER%/lib/install-itm.tpa~
 //******************************************************************
 PRINT @20756
 
+// TO-DO This should be fixed in TDD and/or TDDz, SoS doesn't use this at all.
 ACTION_IF NOT FILE_EXISTS ~data/TDD-RULE.BIF~ AND NOT FILE_EXISTS_IN_GAME ~tdd.mrk~ OR GAME_IS ~bg2ee eet~
 THEN BEGIN
-COPY + ~SoS/Compat/SoS/SPWI429.spl~          ~override~
-  SAY NAME1 @20651
-  SAY UNIDENTIFIED_DESC @20652
+OUTER_SET beltyn_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_BELTYNS_BURNING_BLOOD~)
+	ACTION_IF (beltyn_num > 0) THEN BEGIN
+		LAF RES_NUM_OF_SPELL_NAME
+			STR_VAR spell_name = ~WIZARD_BELTYNS_BURNING_BLOOD~
+			RET spell_num = spell_num spell = spell_res
+		END
+		APPEND ~SPELL.IDS~ ~%spell_num% BELTYNS_BURNING_BLOOD~
+	END ELSE BEGIN
+	APPEND ~SPELL.IDS~ ~2429 BELTYNS_BURNING_BLOOD~
+		UNLESS ~2429 BELTYNS_BURNING_BLOOD~
 
-COPY + ~SoS/Compat/SoS/SPRB005A.bam~          ~override~
-       ~SoS/Compat/SoS/SPRB005B.bam~          ~override~
-       ~SoS/Compat/SoS/SPRB005C.bam~          ~override~
+	COPY + ~SoS/Compat/SoS/SPWI429.spl~          ~override~
+	  SAY NAME1 @20651
+	  SAY UNIDENTIFIED_DESC @20652
+
+	COPY + ~SoS/Compat/SoS/SPRB005A.bam~          ~override~
+	       ~SoS/Compat/SoS/SPRB005B.bam~          ~override~
+	       ~SoS/Compat/SoS/SPRB005C.bam~          ~override~
+	END
 END
 
 COPY + ~SoS/SPL/Copy~                 ~override~
