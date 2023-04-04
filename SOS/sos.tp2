@@ -1032,7 +1032,9 @@ END
 
 
 COPY ~%MOD_FOLDER%/Language/English/MVE~ ~override~
-COPY ~%MOD_FOLDER%/Language/%LANGUAGE%/MVE~ ~override~
+ACTION_IF DIRECTORY_EXISTS ~%MOD_FOLDER%/Language/%LANGUAGE%/MVE~ BEGIN
+    COPY ~%MOD_FOLDER%/Language/%LANGUAGE%/MVE~ ~override~
+END
 
 // older mods use SoS-RULE	
 MAKE_BIFF ~%MOD_FOLDER%-RULE~ BEGIN
