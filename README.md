@@ -224,8 +224,8 @@ This component requires the main component to be installed. It patches BGmain.ex
 
 - Alternative Soubar area from the "World of Baldur's Gate" modification - designed and modeled by Cuttooth, with effects enrichment and ideas by Dradiel, and integrated into the mod by Roberciiik.
 - Biffing is now an optional installation component.
-- Fixed militia training quest when only 9 new guard are trained.
-- Fixed CTDs in AR4261, AR4260 and AR4258 areas.
+- Fixed militia training quest when only 9 new guards are trained.
+- Fixed CTDs in AR4261, AR4260, and AR4258 areas.
 - Restored TIS and MOS files of Soubar for oBG2 nad Lyrar's Castle TIS for BG2:EE.
 - Fixed a visual bug in Sir William's house (AR1004) in oBG2.
 - Updated the worldmap position of areas for Chionthar, Soubar, and Lyrar's Hold.
