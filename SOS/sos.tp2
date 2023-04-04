@@ -515,7 +515,7 @@ ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ THEN BEGIN
    PATCH_IF (FILE_EXISTS ~data/ROT-RULE.BIF~) OR (FILE_EXISTS_IN_GAME ~rot.mrk~) BEGIN
      APPEND_FILE ~%MOD_FOLDER%/Worldmap/rot_links.tbl~
    END
-   PATCH_IF (FILE_EXISTS ~data/TDD-RULE.BIF~) OR (FILE_EXISTS_IN_GAME ~tdd.mrk~) OR  (MOD_IS_INSTALLED "setup-TDDz.tp2" "0") BEGIN
+   PATCH_IF (FILE_EXISTS ~data/TDD-RULE.BIF~) OR (FILE_EXISTS_IN_GAME ~tdd.mrk~) OR  (MOD_IS_INSTALLED "TDDz" "0") BEGIN
      APPEND_FILE ~%MOD_FOLDER%/Worldmap/tdd_links.tbl~
    END
    PATCH_IF (FILE_EXISTS ~data/CTB-RULE.BIF~) OR (FILE_EXISTS_IN_GAME ~ctb.mrk~) BEGIN
@@ -542,7 +542,7 @@ ACTION_IF GAME_IS ~eet~ BEGIN
 		PATCH_IF (FILE_EXISTS_IN_GAME ~ctb.mrk~)  OR (FILE_EXISTS ~data/CTB-RULE.BIF~) BEGIN
 			APPEND_FILE ~%MOD_FOLDER%/Worldmap/eet/ctb_links.tbl~                        
 		END                                                                    
-		PATCH_IF (FILE_EXISTS_IN_GAME ~tdd.mrk~)  OR (FILE_EXISTS ~data/TDD-RULE.BIF~) OR  (MOD_IS_INSTALLED "setup-TDDz.tp2" "0") BEGIN
+		PATCH_IF (FILE_EXISTS_IN_GAME ~tdd.mrk~)  OR (FILE_EXISTS ~data/TDD-RULE.BIF~) OR  (MOD_IS_INSTALLED "TDDz" "0") BEGIN
 			APPEND_FILE ~%MOD_FOLDER%/Worldmap/eet/tdd_links.tbl~
 		END
 	INCLUDE ~%MOD_FOLDER%/lib/add_worldmap_tbl.tpa~
@@ -1045,7 +1045,7 @@ COPY_EXISTING ~misc01.itm~ ~override/%MOD_FOLDER%.mrk~
 
 BEGIN @21011
 	DESIGNATED 4 LABEL ~sos_alternative_soubar_cuttooth~
-	REQUIRE_COMPONENT "Setup-SoS.tp2" "0" @21003
+	REQUIRE_COMPONENT "SoS.tp2" "0" @21003
 
 	ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
    		COPY	~%MOD_FOLDER%/PVRZ/ALT/AR4230.TIS~ ~override~
@@ -1305,7 +1305,7 @@ BEGIN @21011
 
 BEGIN @21002
 	DESIGNATED 3 LABEL ~sos_resource_biffing~
-	REQUIRE_COMPONENT "Setup-SoS.tp2" "0" @21003
+	REQUIRE_COMPONENT "SoS.tp2" "0" @21003
 	REQUIRE_PREDICATE (!GAME_IS ~bg2ee eet~) @21004
 
 	PRINT @21005
@@ -1351,7 +1351,7 @@ BEGIN @21002
  * ================================================================================== */
 BEGIN @20002 /* ~Selence arrives to Waukeens Promenade after the meeting with Gaelan in the slums~ */
 DESIGNATED 1 LABEL ~sos_selence_at_waukeens_promenade_after_meeting_Gaelan~
-REQUIRE_COMPONENT "Setup-SoS.tp2" "0" @21003
+REQUIRE_COMPONENT "SoS.tp2" "0" @21003
 
 COPY_EXISTING ~Gaelan.dlg~ ~override~
 	DECOMPILE_AND_PATCH BEGIN
@@ -1372,7 +1372,7 @@ COPY_EXISTING ~AR0700.bcs~ ~override~
  * ====================================================================== */
 BEGIN @21006
 DESIGNATED 2 LABEL ~sos_remorhaz_walking_speed_adjustment~	
-REQUIRE_COMPONENT "Setup-SoS.tp2" "0" @21003
+REQUIRE_COMPONENT "SoS.tp2" "0" @21003
 REQUIRE_PREDICATE (!GAME_IS ~bg2ee eet~) @21004
 
 ACTION_IF (~%WEIDU_OS%~ STRING_EQUAL_CASE ~osx~ = 1) BEGIN
