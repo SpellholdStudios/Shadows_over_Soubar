@@ -222,18 +222,29 @@ This component requires the main component to be installed. It patches BGmain.ex
 
 #### Version 2.0 (Upcoming version)
 
-- Alternative Soubar area from "World of Baldur's Gate" modification - desined & modelled by Cuttooth, effects enrichment & ideas by Dradiel, integrated to the mod by Roberciiik.
+- Alternative Soubar area from the "World of Baldur's Gate" modification - designed and modeled by Cuttooth, with effects enrichment and ideas by Dradiel, and integrated into the mod by Roberciiik.
 - Biffing is now an optional installation component.
 - Fixed militia training quest when only 9 new guard are trained.
 - Fixed CTDs in AR4261, AR4260 and AR4258 areas.
 - Restored TIS and MOS files of Soubar for oBG2 nad Lyrar's Castle TIS for BG2:EE.
-- Fixed oBG2 visual bug in sir Williams house (AR1004).
-- Updated worldmap position of areas for Chionthar, Soubar and Lyrar's Hold.
+- Fixed a visual bug in Sir William's house (AR1004) in oBG2.
+- Updated the worldmap position of areas for Chionthar, Soubar, and Lyrar's Hold.
 - Corrected automap notes in Soubar and Soubar prison.
 - Traified missing lines (setup, kit name, debug prints).
 - Added missing identified description to some letters.
-- Moved movies to language directory so they can be replaced by local language version.
-- Moved some NPC sounds files to language directory - now can be replaced by local language version.
+- Moved movies to the language directory so they can be replaced by the local language version.
+- Moved some NPC sound files to the language directory - they can now be replaced by the local language version.
+- Fixed copying of the MVE folder.
+- Uses the %MOD_FOLDER% automatic variable.
+- Uses labels for component requirements statements.
+- Simplified the mod ID where possible.
+- Renamed the mod folder from "SOS" to "SoS" to match the mod name.
+- Renamed "setup-SOS.tp2" to "sos.tp2".
+- Updated iconv and replaced it with a static build.
+- Updated the readme file to use the latest templates.
+- Updated the metadata file to use the latest template.
+- Removed redundant files.
+- Made cosmetic changes to the readme files.
 
 ##
 
