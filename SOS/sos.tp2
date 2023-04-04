@@ -46,6 +46,8 @@ ALWAYS
 			ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup END
 			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN setup-ee END
 			LAF ~HANDLE_CHARSETS~
+                INT_VAR
+                infer_charsets = 1
 				STR_VAR
 				tra_path = EVAL "%MOD_FOLDER%/language"
 				iconv_path = EVAL "%MOD_FOLDER%/bin/win32/iconv" //available as part of the base system on OS X and GNU/Linux
