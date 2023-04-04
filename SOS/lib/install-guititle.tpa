@@ -67,11 +67,11 @@ COPY_EXISTING ~Setup-GUI.tp2~ ~Setup-GUI.tp2~
  APPEND_FILE_EVALUATE ~mod_gui.tp2~
 
 MKDIR ~GUI_Mods/%gui_slot_name%~
-COPY ~SoS/gui~ ~GUI_Mods/%gui_slot_name%~
+COPY ~%MOD_FOLDER%/gui~ ~GUI_Mods/%gui_slot_name%~
 //*****************************************************************************************
 //*****************************************************************************************
 
-COPY_EXISTING + ~SoS/title.tr~ ~SoS/title.tra~
+COPY_EXISTING + ~%MOD_FOLDER%/title.tr~ ~%MOD_FOLDER%/title.tra~
  SPRINT bgt " "
  SPRINT tdd ""
  SPRINT sos ""
@@ -114,5 +114,5 @@ COPY_EXISTING + ~SoS/title.tr~ ~SoS/title.tra~
  SPRINT str @20011
  REPLACE_TEXTUALLY ~game prompt~ "%str%"
 
- STRING_SET ~73245~ @123456789 USING ~SoS/title.tra~
+ STRING_SET ~73245~ @123456789 USING ~%MOD_FOLDER%/title.tra~
 ///////////////////////////////////////////////////////////////////////////////
