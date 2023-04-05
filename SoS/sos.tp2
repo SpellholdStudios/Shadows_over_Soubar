@@ -103,7 +103,7 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 
 END 
 
-COPY_EXISTING ~misc01.itm~ ~override/%MOD_FOLDER%.mrk~
+COPY_EXISTING ~misc01.itm~ ~override/sos.mrk~
 
 COPY ~%MOD_FOLDER%/SFX~  ~override~   //to overwrite files there!!!
 COPY ~%MOD_FOLDER%/RULE~ ~override~   //to overwrite files there!!!
