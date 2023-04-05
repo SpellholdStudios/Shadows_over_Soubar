@@ -112,7 +112,7 @@ Since the incident at the Narwhal, Major has ordered me to begin the training of
 I thought that becoming a Captain would give me certain privileges in the Soubar militia, but apparently not.  Major has requested that I deliver two letters to the leaders of powerful organizations in Amn.  One letter needs to go to Prelate Wessalen, leader of the Order of the Most Radiant Heart.  The other will be brought to Trademeet and delivered to Lord Logan Coprith.~
 @50128 = ~Assault on Soubar!
 
-The bandits, in retribution for the trouble I have caused Rolf Sureblade, have made an all out assault on Soubar.  Many, many villagers, guard, and others have died or gone missing in the attack.  I was able to beat off the bandits, but some happened to escape.  For this outrage, I shall hunt each bandit which has caused this trouble to the ends of Faerûn if I have to.  I have told the Major what occured, and he has told me that his Chief Lieutenant was slain while fighting the bandits.  He wants me to take the position, and I would be pleased to take over that coveted post.~
+The bandits, in retribution for the trouble I have caused Rolf Sureblade, have made an all out assault on Soubar.  Many, many villagers, guard, and others have died or gone missing in the attack.  I was able to beat off the bandits, but some happened to escape.  For this outrage, I shall hunt each bandit which has caused this trouble to the ends of Faerun if I have to.  I have told the Major what occured, and he has told me that his Chief Lieutenant was slain while fighting the bandits.  He wants me to take the position, and I would be pleased to take over that coveted post.~
 @50110 = ~Captain of a Company
 
 The Major has assigned me a company of Soubar guards.  He has asked that I order the men to do the tasks that I used to do, guarding and patrolling the town, and to use my own judgement in doing so.  Major told me that the company was assemble outside the guard barracks and awaited me there.~
@@ -391,7 +391,7 @@ Selence Hillstar, the smuggler/fence in Athkatla, has finally told me what I nee
 
    You heave a sigh and briefly survey the damage of the tower's upper floor in Lyrar's Hold.  The room is a mess: stains of splattered blood- both Rolf's and your own- create random patterns of death on the walls, furnishings are scratched, sliced, and crushed to kindling, and metal plates of broken armor litter the floor.
    It was a monumental battle, one you will remember for all your days as an adventurer.  The battle with Rolf Sureblade, who lies dead at your feet, ranks as high in your mind as such battles as that you have had with foes like Sarevok below the city of Baldur's Gate, the first time you encountered a hostile gnoll, the battle you had against a Demon Knight deep in the dungeons of Durlag's Tower, the first time you slew a dragon, battling against fighters and mages of the Cult of the Dragon, and fighting your way out of the Underdark with drow at your heels.
-   Your quests as an adventurer have taken you to many exotic places, many fantastic worlds, and allowed you to meet all types of folk- both good and bad- from Faerûn and other worlds too.  But, by the same token, your adventurers have taken their toll on you, soul and body, and you are tired.  
+   Your quests as an adventurer have taken you to many exotic places, many fantastic worlds, and allowed you to meet all types of folk- both good and bad- from Faerun and other worlds too.  But, by the same token, your adventurers have taken their toll on you, soul and body, and you are tired.  
    Leaning heavily on the grip of your weapon, Rolf lies dead at your feet.  With his death, Soubar and the entire River Chionthar Valley can return once again to its peaceful state.  Without a leader to guide them in acts of oppression, the remaining brigands and bandits still holed up in Lyrar's are bound to disperse.  Yet you still have one more task to take care of to finish this business, clearing the Shadows Over Soubar: reporting your success to the Major of Soubar.  It will not take you long to return there, and you hope that with the completion of these missions, the Major will see fit to release you from the militia, where you can choose to continue your adventures in Amn or Tethyr, or settle down to a nice fireplace hearth at a home-like inn.~
 @20069 = ~Installing dialogues...~
 @20070 = ~Patching original BG2 areas and scripts...~
@@ -717,7 +717,7 @@ Bolivar's past may not be particularly clear, but his personality is.  Bolivar i
 @20387 = ~Damn it... I...ahhh~ [CBTOM_37]
 @20388 = ~Need some help.~ [CBTOM_14]
 @20389 = ~I know a druid who can hook ya up with some good stuff.~ [CBTOM_33]
-@20390 = ~Look out Faerûn.  Here comes the wackiest man alive.  Woah.~ [CBTOM_32]
+@20390 = ~Look out Faerun.  Here comes the wackiest man alive.  Woah.~ [CBTOM_32]
 @20391 = ~Hmmm.~ [CBTOM_05]
 @20392 = ~That's fine with me.~ [CBTOM_08]
 @20393 = ~I suppose I'm as good as any.~ [CBTOM_09]
@@ -2395,7 +2395,7 @@ Grants Innate ability Barbarian Rage
 
 Usable by:
  All, at least 11th level~
-@20658 = ~Volumes such as this one come along but once in a life-time.  You are wise indeed to have opened this tome after, I hope, laying down good coin for it, for your eyes now look upon more lore useful to spellcasters than can now look upon more lore useful to spellcasters than can be found anywhere else in all Faerûn. Oh, there are more powerful spells, and books that bristle with more of them, but this is the place where lore about the use of such magic appears. The reader of Volo's Guide to All Things Magical can gain a brief taste of the rich variety and manyfold complexity of the Art of wielding magic, at least, as human mages outside of secretive Thay and Halruaa practice it.
+@20658 = ~Volumes such as this one come along but once in a life-time.  You are wise indeed to have opened this tome after, I hope, laying down good coin for it, for your eyes now look upon more lore useful to spellcasters than can now look upon more lore useful to spellcasters than can be found anywhere else in all Faerun. Oh, there are more powerful spells, and books that bristle with more of them, but this is the place where lore about the use of such magic appears. The reader of Volo's Guide to All Things Magical can gain a brief taste of the rich variety and manyfold complexity of the Art of wielding magic, at least, as human mages outside of secretive Thay and Halruaa practice it.
 
 Writing this book almost got me killed, or worse, transformed into a helpless shape and placed in a spell-governed situation of endless torment where death would remain forever elusive, but the raw pain would make it desirable (or so a certain Catanarla the Crimson Cloaked, a sorceress of Telflamm, promised me). Many mages, it seemed, objected to my revelations of their pet spells, past peccadilloes, secret words, and names of power.  Elminster and Khelben between them saw to it that I lived though not before amusing themselves by delivering me into the claw- er, graceful hands of the Simbul, Witch-Queen of Aglarond, who demonstrated upon
 my person what the consequences of future unauthorized sorcerous journalism would be. It is not much fun to be thrust into bird form and forced to fly full-tilt into a stone wall, not to mention smelling all the hair burnt out of my head, along with other more- horrific-  experiences.
@@ -2403,7 +2403,7 @@ my person what the consequences of future unauthorized sorcerous journalism woul
 I will not even open the subject of all the curses that are riding upon me as we speak, ready to strike if I do delve further into any means of revealing the secrets of sorcery. Suffice it to say that I am going to be a very good boy where dealings with wizards are concerned for a long time to come. They have promised me that.
 This book of mine, however (suitably butcher- er, revised and embellished by the vigilant Elminster), will now see a wider audience than I had ever hoped it would, and some, at least, of the juicy secrets I uncovered will be shared with readers who are not all (I hope) crotchety old archwizards or liches already.  So welcome, and read on: magnificent power and fascinating lore about it awaits thee, as old Elminster might say. 
 
-This spot is perhaps the best place to touch on a few odd topics that do not fit anywhere else in this dissertation. They are but a few of the fascinating things I have learned about sorcery in Faerûn. Read on, and discover a whole book of them. It is my hope that my Faerûnian readers find this work both enjoyable and practical and that it goads them into at least investigating magic. Life for all in the Realms can only become richer and better if there are many folk who can wield a modest amount of magic rather than a few stunted old graybeards who wield a lot!
+This spot is perhaps the best place to touch on a few odd topics that do not fit anywhere else in this dissertation. They are but a few of the fascinating things I have learned about sorcery in Faerun. Read on, and discover a whole book of them. It is my hope that my Faerunian readers find this work both enjoyable and practical and that it goads them into at least investigating magic. Life for all in the Realms can only become richer and better if there are many folk who can wield a modest amount of magic rather than a few stunted old graybeards who wield a lot!
 
 -Volothamp Geddarm~
 @20659 = ~Scepter of Savras~
@@ -2733,7 +2733,7 @@ One entry does, however, catch your attention.  It is undated, but as there is n
 
 There is nothing else that you can see in the journal that you already do not know of, and you drop it in your pack as evidence.~
 @20696 = ~Rolf Sureblade's Shield~
-@20697 = ~After defeating the bandit leader, Rolf Sureblade in his fortification north of Soubar, you recovered this shield of awesome defense.  This shield is truly an item that you should treasure, as it is bound to save your life more than once as you adventure throughout Faerûn.  This shield decreases AC by 6 and adds 3 to all saving throws.  In addition, Sureblade's shield allows the you to move so quickly that your movement rate is increased by 2 and normal missiles have no chance of striking him. 
+@20697 = ~After defeating the bandit leader, Rolf Sureblade in his fortification north of Soubar, you recovered this shield of awesome defense.  This shield is truly an item that you should treasure, as it is bound to save your life more than once as you adventure throughout Faerun.  This shield decreases AC by 6 and adds 3 to all saving throws.  In addition, Sureblade's shield allows the you to move so quickly that your movement rate is increased by 2 and normal missiles have no chance of striking him. 
 
 STATISTICS:
 
@@ -3006,7 +3006,7 @@ Races: Fences may be of any race. Some demihuman Fences prefer to deal only in c
 @20803 = ~Fence Charm~
 @20804 = ~Selence Hillstar~
 @20805 = ~Selence~
-@20806 = ~SELENCE grew up on the city streets of Athkatla, which was not the most appropriate place for a young girl.  Selence never really had the chance to be a child.  Her circumstances of being a young street thug may not have been the most pleasant, but she'll never admit that she secretly wishes her life could have been different.  As it is, Selence has become quite a thief, and hopes to eventually run an underground network of spies, smugglers, and robbers.  Selence has a plan, which is more than most others in Faerûn can admit to, and she will do all that she can to make her dreams come true, even if her dreams are not the most ethical of dreams.~
+@20806 = ~SELENCE grew up on the city streets of Athkatla, which was not the most appropriate place for a young girl.  Selence never really had the chance to be a child.  Her circumstances of being a young street thug may not have been the most pleasant, but she'll never admit that she secretly wishes her life could have been different.  As it is, Selence has become quite a thief, and hopes to eventually run an underground network of spies, smugglers, and robbers.  Selence has a plan, which is more than most others in Faerun can admit to, and she will do all that she can to make her dreams come true, even if her dreams are not the most ethical of dreams.~
 
 @21000 = ~fence~
 @21001 = ~Fence~
