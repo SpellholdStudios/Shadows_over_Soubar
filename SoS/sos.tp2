@@ -1,6 +1,8 @@
 BACKUP ~SoS/backup~
 
-AUTHOR ~Charles Bisson, Horred The Plague (WeiDU), King Diamond (WeiDU revision), Weigo (WeiDU EE revision)~  NO_IF_EVAL_BUG
+AUTHOR ~Charles Bisson, Horred The Plague (WeiDU), King Diamond (WeiDU revision), Weigo (WeiDU EE revision)~ 
+
+NO_IF_EVAL_BUG
 
 VERSION ~1.16~
 
@@ -21,9 +23,6 @@ ALWAYS
     OUTER_SPRINT name_source ~bg2_chapter_%i%~
     OUTER_SET EVAL ~%name_source%~ = bg2_chapter
   END
-  // Convert strings to UTF-8 for Enhanced Edition
-
-  // setup.tra needs to be reloaded after conversion
   
 <<<<<<<< .../blank.txt
 >>>>>>>>
@@ -37,27 +36,28 @@ ALWAYS
 		OUTER_SPRINT WEIDU_EXECUTABLE EVAL ~./%MOD_FOLDER%/weidu~
 	END
 	OUTER_SPRINT ~tileconv~ ~%MOD_FOLDER%%os_slash%bin%os_slash%%WEIDU_OS%%os_slash%tileconv%exe%~
-	
-	ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
-		COPY - ~weidu.conf~ ~.../weidu.conf~
-			READ_2DA_ENTRY 0 2 3 "lang_dir"
-		ACTION_IF NOT ~%LANGUAGE%~ STR_EQ ~english~ BEGIN
 
-			ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup END
-			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN setup-ee END
-			LAF ~HANDLE_CHARSETS~
+    // Convert strings to UTF-8 for Enhanced Edition
+    // setup.tra needs to be reloaded after conversion
+    ACTION_IF NOT ~%LANGUAGE%~ STR_EQ ~English~ BEGIN
+        ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
+            
+            ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup END // List of tra files that contain ONLY strings for the WeiDU installer and NOT game content
+            ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN setup-ee END // List of tra files that need to be reloaded after conversion because they were previously loaded in the LANGUAGE section
+            // On EE games, convert game content tra files to utf-8 so that games don't crash when encountering international characters.
+            LAF HANDLE_CHARSETS
                 INT_VAR
-                infer_charsets = 1
-				STR_VAR
-				tra_path = EVAL "%MOD_FOLDER%/language"
-				iconv_path = EVAL "%MOD_FOLDER%/bin/win32/iconv" //available as part of the base system on OS X and GNU/Linux
-				reload_array = charsetsReloadArray
-				noconvert_array = charsetsNoConvertArray
-			END
-		END
-		COPY ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap-utf8.tra~ ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
-		LOAD_TRA ~%MOD_FOLDER%/language/%LANGUAGE%/setup-ee.tra~
-	END
+                    infer_charsets = 1
+                STR_VAR
+                    tra_path = EVAL "%MOD_FOLDER%/language"
+                    iconv_path = EVAL "%MOD_FOLDER%/bin/win32/iconv" //available as part of the base system on OS X and GNU/Linux
+                    reload_array = charsetsReloadArray
+                    noconvert_array = charsetsNoConvertArray
+            END
+        END
+    END
+    COPY ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap-utf8.tra~ ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
+    LOAD_TRA ~%MOD_FOLDER%/language/%LANGUAGE%/setup-ee.tra~
 END
 
 LANGUAGE ~English~
