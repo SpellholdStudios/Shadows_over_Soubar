@@ -1,209 +1,209 @@
-@0 = ~<CHARNAME>, da wir zusammen reisen und Abenteuer unternehmen, denke ich, dass ich etwas ans Licht bringen muss. Es hat nichts mit uns als Kameraden zu tun, und es geht Euch nichts an, aber ich würde bevorzugen, dass wir keine Geheimnisse voreinander haben. Also, ich denke, dass ich Euch eine Erklärung schulde. ~
-@1 = ~Ja, Charlotte? Was ist es? Ihr könnt es mir erzählen. ~
-@2 = ~Vielleicht ist es besser, wenn Ihr die Details nicht kennt. Es ist ziemlich demütigend. ~
-@3 = ~Wenn Ihr es mir nicht erzählen wollt, Charlotte, ist es für mich ganz in Ordnung. Ihr solltet nur wissen, dass ich für Euch da bin, wenn Ihr sprechen wollt. ~
-@4 = ~Oh erzählt es uns bitte! Wir wollen alle herzhaft lachen. ~
-@5 = ~Charlotte, was immer es ist, wir werden zusammen versuchen, es zu lösen. Warum erklärt Ihr mir nicht, was ist los ist. ~
-@6 = ~Danke, <CHARNAME>. Ich schätze diese Auffassung. Für jetzt vergesst, dass ich irgendetwas erwähnte. Ich werde es Euch eines Tages erzählen. ~
-@7 = ~Es gibt keinen Grund, so zu sein, <CHARNAME>. Ich versuche, Euch etwas Wichtiges zu erzählen, und Ihr erniedrigt mich. Vergesst, dass ich es erwähnte. ~
-@8 = ~Ich danke für Eure freundlichen Worte der Unterstützung. *seufz*. Nun gut. Ich werde es Euch erzählen. Wie Ihr vielleicht bemerkt habt, habe ich die Karriere und den Lebensstil eines Waldläufers verfolgt. ~
-@9 = ~Ich kümmerte mich um die Gesundheit, Reinheit und ursprüngliche Schönheit der Natur - Flora und Fauna - ähnlich wie Druiden. Bis vor einigen Jahreszeiten fand ich in meinem innersten Herzen, dass ich Arbeit tat, die wirklich wichtig war. Wichtig für mich, meine Gefährten, und meine Welt. ~
-@10 = ~Mit dem Auftreten der politischen und sozialen Problemen, die jetzt die Schwertküste umgeben, und den Änderungen, die im Laufe des letzten Jahrzehnts aufgetreten sind, bin ich vom Weg abgekommen. Ich war ernüchtert und konnte anscheinend das Ziel meines Lebenswerkes, die Arbeit, die ich seit fast zwei Jahrhunderten treu getan habe, nicht mehr finden. ~
-@11 = ~Ich versagte bei meiner Arbeit, zog mich aus den Waldgebieten und von den Feldern zurück und verfiel in eine selbstsüchtige innere Einstellung. Ich habe versagt und bin in Ungnade gefallen. ~
-@12 = ~Ich kann Euch nicht sagen, wie sehr es mir weh tut, zu wissen, dass die Arbeit, die ich all diese Jahre zuvor getan habe, als ich jünger, so viel jünger als heute war, sinnlos zu sein schien. ~
-@13 = ~Aber jetzt finde ich, dass ich meine Meinung geändert habe. ~
-@14 = ~Ich habe nicht nur körperlich, sondern auch geistig mit erneuerter Energie an der Wiedererlangung meiner früheren Einstellung gearbeitet, und so viele andere haben mir geholfen, den Nutzen in der Welt zu sehen, den Grund zu sehen, warum ich bestehe. ~
-@15 = ~In den letzten zwei Jahreszeiten finde ich, dass jeder Tag mich einem Schritt oder zwei auf einmal weiter bringt, diesen Grund zu finden. Meine tierischen Freunde genießen meine Gesellschaft mehr; ihre Treue wächst jeden Tag. ~
-@16 = ~Ich bin glücklicher. Ich bin nicht so mürrisch oder deprimiert. Ich habe wieder ein Ziel. ~
-@17 = ~Und werde ich meine Gnade wiedergewinnen. Ich werde noch einmal zum Waldläufer werden. ~
-@18 = ~Das ist eine traurige Geschichte. Aber zusammen, zusammen werden wir helfen, dass sie ein glückliches Ende findet. Lasst uns gehen, und wir lassen Euch die rechte Weise zu leben sehen, auch wenn wir Euch anbinden und sie vor Euch stellen müssen. Auf geht's! ~
-@19 = ~Charlotte, das war der kitschigste Schund, den ich jemals gehört habe. Klingt wie ein Brief an den "Lieben Volo". Warum geht Ihr nicht einfach zurück in Reih und Glied und folgt meinen Anweisungen. ~
+@0 = ~<CHARNAME>, da wir zusammen reisen und Abenteuer unternehmen, denke ich, dass ich etwas ans Licht bringen muss. Es hat nichts mit uns als Kameraden zu tun, und es geht Euch nichts an, aber ich wÃ¼rde bevorzugen, dass wir keine Geheimnisse voreinander haben. Also, ich denke, dass ich Euch eine ErklÃ¤rung schulde. ~
+@1 = ~Ja, Charlotte? Was ist es? Ihr kÃ¶nnt es mir erzÃ¤hlen. ~
+@2 = ~Vielleicht ist es besser, wenn Ihr die Details nicht kennt. Es ist ziemlich demÃ¼tigend. ~
+@3 = ~Wenn Ihr es mir nicht erzÃ¤hlen wollt, Charlotte, ist es fÃ¼r mich ganz in Ordnung. Ihr solltet nur wissen, dass ich fÃ¼r Euch da bin, wenn Ihr sprechen wollt. ~
+@4 = ~Oh erzÃ¤hlt es uns bitte! Wir wollen alle herzhaft lachen. ~
+@5 = ~Charlotte, was immer es ist, wir werden zusammen versuchen, es zu lÃ¶sen. Warum erklÃ¤rt Ihr mir nicht, was ist los ist. ~
+@6 = ~Danke, <CHARNAME>. Ich schÃ¤tze diese Auffassung. FÃ¼r jetzt vergesst, dass ich irgendetwas erwÃ¤hnte. Ich werde es Euch eines Tages erzÃ¤hlen. ~
+@7 = ~Es gibt keinen Grund, so zu sein, <CHARNAME>. Ich versuche, Euch etwas Wichtiges zu erzÃ¤hlen, und Ihr erniedrigt mich. Vergesst, dass ich es erwÃ¤hnte. ~
+@8 = ~Ich danke fÃ¼r Eure freundlichen Worte der UnterstÃ¼tzung. *seufz*. Nun gut. Ich werde es Euch erzÃ¤hlen. Wie Ihr vielleicht bemerkt habt, habe ich die Karriere und den Lebensstil eines WaldlÃ¤ufers verfolgt. ~
+@9 = ~Ich kÃ¼mmerte mich um die Gesundheit, Reinheit und ursprÃ¼ngliche SchÃ¶nheit der Natur - Flora und Fauna - Ã¤hnlich wie Druiden. Bis vor einigen Jahreszeiten fand ich in meinem innersten Herzen, dass ich Arbeit tat, die wirklich wichtig war. Wichtig fÃ¼r mich, meine GefÃ¤hrten, und meine Welt. ~
+@10 = ~Mit dem Auftreten der politischen und sozialen Problemen, die jetzt die SchwertkÃ¼ste umgeben, und den Ã„nderungen, die im Laufe des letzten Jahrzehnts aufgetreten sind, bin ich vom Weg abgekommen. Ich war ernÃ¼chtert und konnte anscheinend das Ziel meines Lebenswerkes, die Arbeit, die ich seit fast zwei Jahrhunderten treu getan habe, nicht mehr finden. ~
+@11 = ~Ich versagte bei meiner Arbeit, zog mich aus den Waldgebieten und von den Feldern zurÃ¼ck und verfiel in eine selbstsÃ¼chtige innere Einstellung. Ich habe versagt und bin in Ungnade gefallen. ~
+@12 = ~Ich kann Euch nicht sagen, wie sehr es mir weh tut, zu wissen, dass die Arbeit, die ich all diese Jahre zuvor getan habe, als ich jÃ¼nger, so viel jÃ¼nger als heute war, sinnlos zu sein schien. ~
+@13 = ~Aber jetzt finde ich, dass ich meine Meinung geÃ¤ndert habe. ~
+@14 = ~Ich habe nicht nur kÃ¶rperlich, sondern auch geistig mit erneuerter Energie an der Wiedererlangung meiner frÃ¼heren Einstellung gearbeitet, und so viele andere haben mir geholfen, den Nutzen in der Welt zu sehen, den Grund zu sehen, warum ich bestehe. ~
+@15 = ~In den letzten zwei Jahreszeiten finde ich, dass jeder Tag mich einem Schritt oder zwei auf einmal weiter bringt, diesen Grund zu finden. Meine tierischen Freunde genieÃŸen meine Gesellschaft mehr; ihre Treue wÃ¤chst jeden Tag. ~
+@16 = ~Ich bin glÃ¼cklicher. Ich bin nicht so mÃ¼rrisch oder deprimiert. Ich habe wieder ein Ziel. ~
+@17 = ~Und werde ich meine Gnade wiedergewinnen. Ich werde noch einmal zum WaldlÃ¤ufer werden. ~
+@18 = ~Das ist eine traurige Geschichte. Aber zusammen, zusammen werden wir helfen, dass sie ein glÃ¼ckliches Ende findet. Lasst uns gehen, und wir lassen Euch die rechte Weise zu leben sehen, auch wenn wir Euch anbinden und sie vor Euch stellen mÃ¼ssen. Auf geht's! ~
+@19 = ~Charlotte, das war der kitschigste Schund, den ich jemals gehÃ¶rt habe. Klingt wie ein Brief an den "Lieben Volo". Warum geht Ihr nicht einfach zurÃ¼ck in Reih und Glied und folgt meinen Anweisungen. ~
 @20 = ~Hey, <CHARNAME>? Ich habe eine kleine Bitte. ~
 @21 = ~Ja, Charlotte? Was ist es? ~
-@22 = ~Wartet einen Moment, Charlotte. Wir sind in diesem Augenblick etwas beschäftigt. ~
-@23 = ~Ich habe für nichts Zeit, Charlotte. Ihr werdet es selbst machen müssen. ~
-@24 = ~Wenn wir ein paar freie Stunden haben, können wir dann eine kurze Reise zum Chionthar unternehmen? Ich will überprüfen und sehen, wie gut sich die Dinge bereinigt haben, seitdem Ihr und ich den Oger hinderten, das Wasser zu vergiften. ~
-@25 = ~Durchaus. Lasst uns nur hier fertig werden, und wir werden später heute dorthin wandern. ~
+@22 = ~Wartet einen Moment, Charlotte. Wir sind in diesem Augenblick etwas beschÃ¤ftigt. ~
+@23 = ~Ich habe fÃ¼r nichts Zeit, Charlotte. Ihr werdet es selbst machen mÃ¼ssen. ~
+@24 = ~Wenn wir ein paar freie Stunden haben, kÃ¶nnen wir dann eine kurze Reise zum Chionthar unternehmen? Ich will Ã¼berprÃ¼fen und sehen, wie gut sich die Dinge bereinigt haben, seitdem Ihr und ich den Oger hinderten, das Wasser zu vergiften. ~
+@25 = ~Durchaus. Lasst uns nur hier fertig werden, und wir werden spÃ¤ter heute dorthin wandern. ~
 @26 = ~Ich habe wirklich keine Zeit, das jetzt zu tun. Erinnert mich in ein paar Tagen. ~
-@27 = ~Danke, ich schätze das. ~
+@27 = ~Danke, ich schÃ¤tze das. ~
 @28 = ~Gut, <CHARNAME>. Ich werde es zu einem besseren Zeitpunkt ansprechen. ~
-@29 = ~<CHARNAME>, wir müssen wirklich die Dinge unten am Chionthar überprüfen. Können wir jetzt gehen? ~
-@30 = ~Ja, wenn ich die Gelegenheit habe, werden wir so bald wie möglich gehen. ~
-@31 = ~Wir werden gehen, wenn ich mich dafür entscheide zu gehen. Geht einfach zurück in Reih und Glied und wartet. ~
-@32 = ~Oh! Oh, <CHARNAME>! Das ist besser als ich oder jeder andere Waldläufer hätten erwarten können! ~
-@33 = ~So weit das Wasser reicht, ist es fast rein. Ich würde die Vermutung wagen, dass die Belladonna, die hier ins Wasser reingeschüttet wurde, entweder inzwischen Baldurs Tor erreicht hat, oder bereits daran vorbei ist. Bei der Menge dessen, was hinein gekippt wurde, bin ich überrascht, dass das Gras und die Bäume noch ziemlich gesund sind. ~
-@34 = ~Offensichtlich wurde das Gebüsch durch die Belladonna nicht betroffen, oder es war nicht genug, um die Wurzeln wirklich zu schädigen. ~
+@29 = ~<CHARNAME>, wir mÃ¼ssen wirklich die Dinge unten am Chionthar Ã¼berprÃ¼fen. KÃ¶nnen wir jetzt gehen? ~
+@30 = ~Ja, wenn ich die Gelegenheit habe, werden wir so bald wie mÃ¶glich gehen. ~
+@31 = ~Wir werden gehen, wenn ich mich dafÃ¼r entscheide zu gehen. Geht einfach zurÃ¼ck in Reih und Glied und wartet. ~
+@32 = ~Oh! Oh, <CHARNAME>! Das ist besser als ich oder jeder andere WaldlÃ¤ufer hÃ¤tten erwarten kÃ¶nnen! ~
+@33 = ~So weit das Wasser reicht, ist es fast rein. Ich wÃ¼rde die Vermutung wagen, dass die Belladonna, die hier ins Wasser reingeschÃ¼ttet wurde, entweder inzwischen Baldurs Tor erreicht hat, oder bereits daran vorbei ist. Bei der Menge dessen, was hinein gekippt wurde, bin ich Ã¼berrascht, dass das Gras und die BÃ¤ume noch ziemlich gesund sind. ~
+@34 = ~Offensichtlich wurde das GebÃ¼sch durch die Belladonna nicht betroffen, oder es war nicht genug, um die Wurzeln wirklich zu schÃ¤digen. ~
 @35 = ~Aber, Charlotte, die Tiere sind alle tot. ~
-@36 = ~Also, was können wir jetzt tun? ~
-@37 = ~Großartig, Charlotte. Können wir jetzt gehen? ~
-@38 = ~Sie sollen so bleiben. Es gibt nichts, das ich oder irgendjemand anderer wegen der toten Tiere tun kann, noch würde ich es versuchen wollen. Das einzige, was ich für die tollwütigen Tiere tun kann, ist, sie von ihrem Leid zu erlösen. ~
-@39 = ~Erinnert Ihr Euch an die Worte des großen Minnesängers, Andy Birnbaum?  
+@36 = ~Also, was kÃ¶nnen wir jetzt tun? ~
+@37 = ~GroÃŸartig, Charlotte. KÃ¶nnen wir jetzt gehen? ~
+@38 = ~Sie sollen so bleiben. Es gibt nichts, das ich oder irgendjemand anderer wegen der toten Tiere tun kann, noch wÃ¼rde ich es versuchen wollen. Das einzige, was ich fÃ¼r die tollwÃ¼tigen Tiere tun kann, ist, sie von ihrem Leid zu erlÃ¶sen. ~
+@39 = ~Erinnert Ihr Euch an die Worte des groÃŸen MinnesÃ¤ngers, Andy Birnbaum?  
 
-"und alles verfällt... alles verfault.
+"und alles verfÃ¤llt... alles verfault.
 
-Wälder stürzen um, um den Boden zu bilden,
+WÃ¤lder stÃ¼rzen um, um den Boden zu bilden,
 
-Planeten fallen auseinander, um die Sterne zu füttern
+Planeten fallen auseinander, um die Sterne zu fÃ¼ttern
 
-und ihre Speisekammern anzufüllen,
+und ihre Speisekammern anzufÃ¼llen,
 
-und was ließ mich denken wäre irgendwie besser,
+und was lieÃŸ mich denken wÃ¤re irgendwie besser,
 
-und was ließ mich uns denken würde für immer währen,
+und was lieÃŸ mich uns denken wÃ¼rde fÃ¼r immer wÃ¤hren,
 
-war ich so einfältig? selbstverständlich entflechtet sich alles....
+war ich so einfÃ¤ltig? selbstverstÃ¤ndlich entflechtet sich alles....
 
 nach Belieben  ~
-@40 = ~alles verfällt... alles verfault.
+@40 = ~alles verfÃ¤llt... alles verfault.
 
-Die Pyramiden und Paläste zu Staub, Reiche zerbröckeln,
+Die Pyramiden und PalÃ¤ste zu Staub, Reiche zerbrÃ¶ckeln,
 
-Hochzeitskuchen fängt an zu verschimmeln und vermodern
+Hochzeitskuchen fÃ¤ngt an zu verschimmeln und vermodern
 
-und was ließ mich denken wäre irgendwie besser,
+und was lieÃŸ mich denken wÃ¤re irgendwie besser,
 
-und was ließ mich uns denken würde für immer währen,
+und was lieÃŸ mich uns denken wÃ¼rde fÃ¼r immer wÃ¤hren,
 
-war ich so einfältig? Es mangelt zu verstehen...~
-@41 = ~Das ist wirklich zutreffend, und ich schätze, dass es sich gerade um einen großen Jahreszeiten-Kreislauf handelt. ~
-@42 = ~Andy Birnbaum? Ich habe nie von ihm gehört. Ist er aus Silbermond? ~
-@43 = ~Gut, gut. Ich bin überrascht, dass Ihr wisst, wer Andy Birnbaum ist. Ich kenne nicht viele Menschen, die von seiner Arbeit hörten. ~
-@44 = ~Ich war zuvor an diesem Abschnitt des mächtigen Chionthar, <CHARNAME>. Wir werden Schwierigkeiten haben, diesen Teil des Flusses zu durchwaten. Es gibt keine Brücke, und wir werden durch das Wasser waten müssen. Die Strömung ist ziemlich stark, und wir können beim Durchqueren verletzt werden. ~
-@45 = ~Wir müssen vorsichtig sein, wenn wir wirklich hindurch waten, aber wenn wir eine Art vorläufige Brücke aufstellen, denke ich nicht, dass es viel Schwierigkeit geben wird, das Wasser zu durchqueren. ~
-@46 = ~Was meint Ihr? Eine vorläufige Brücke? ~
-@47 = ~Nun, wenn einer von uns, wahrscheinlich der stärkste, den Fluss zuerst durchqueren könnte, könnten er ein Ende eines Taues mit sich nehmen. Wir könnten das andere Ende an einen dieser Bäume binden, und dann könnte jeder von uns den Fluss durchqueren, indem er sich am Tau festhält, so dass wir nicht stromabwärts gezogen werden. ~
+war ich so einfÃ¤ltig? Es mangelt zu verstehen...~
+@41 = ~Das ist wirklich zutreffend, und ich schÃ¤tze, dass es sich gerade um einen groÃŸen Jahreszeiten-Kreislauf handelt. ~
+@42 = ~Andy Birnbaum? Ich habe nie von ihm gehÃ¶rt. Ist er aus Silbermond? ~
+@43 = ~Gut, gut. Ich bin Ã¼berrascht, dass Ihr wisst, wer Andy Birnbaum ist. Ich kenne nicht viele Menschen, die von seiner Arbeit hÃ¶rten. ~
+@44 = ~Ich war zuvor an diesem Abschnitt des mÃ¤chtigen Chionthar, <CHARNAME>. Wir werden Schwierigkeiten haben, diesen Teil des Flusses zu durchwaten. Es gibt keine BrÃ¼cke, und wir werden durch das Wasser waten mÃ¼ssen. Die StrÃ¶mung ist ziemlich stark, und wir kÃ¶nnen beim Durchqueren verletzt werden. ~
+@45 = ~Wir mÃ¼ssen vorsichtig sein, wenn wir wirklich hindurch waten, aber wenn wir eine Art vorlÃ¤ufige BrÃ¼cke aufstellen, denke ich nicht, dass es viel Schwierigkeit geben wird, das Wasser zu durchqueren. ~
+@46 = ~Was meint Ihr? Eine vorlÃ¤ufige BrÃ¼cke? ~
+@47 = ~Nun, wenn einer von uns, wahrscheinlich der stÃ¤rkste, den Fluss zuerst durchqueren kÃ¶nnte, kÃ¶nnten er ein Ende eines Taues mit sich nehmen. Wir kÃ¶nnten das andere Ende an einen dieser BÃ¤ume binden, und dann kÃ¶nnte jeder von uns den Fluss durchqueren, indem er sich am Tau festhÃ¤lt, so dass wir nicht stromabwÃ¤rts gezogen werden. ~
 @48 = ~Aber wir haben kein Tau. Gibt es irgendeinen anderen Weg? ~
 @49 = ~Klingt nach einem Plan, Charlotte. Lasst uns auf den Weg machen. ~
-@50 = ~Müssen wir den Fluss durchqueren? ~
-@51 = ~Das könnte ein Problem aufwerfen, den Fluss selbst zu durchqueren. Um nicht zu erwähnen, wenn wir versuchen, die Klippe zum Wasserrand hinabzusteigen, kann es tückisch sein, weil der lose Ton ständig ausgewaschen wird. Übrigens, <CHARNAME>, eine andere Sache, die die Durchquerung des Flusses ohne eine Art befestigten Gegenstand schwierig machen würde, ist die Tatsache, dass die Strömung dazu neigt, seine Richtungen zufällig zu ändern. Es gibt normalerweise keine Möglichkeit vorauszusagen, welcher Weg an diesem Abschnitt des Chionthar tatsächlich abwärts gelegen ist. ~
-@52 = ~Ich habe selbst kein Tau, aber wie ich mich erinnere, ließ ich das letzte Mal, als ich hier war, ein längeres starkes Hanftau zurück. ~
-@53 = ~Unglücklicherweise ließ ich es am Westufer zurück. ~
+@50 = ~MÃ¼ssen wir den Fluss durchqueren? ~
+@51 = ~Das kÃ¶nnte ein Problem aufwerfen, den Fluss selbst zu durchqueren. Um nicht zu erwÃ¤hnen, wenn wir versuchen, die Klippe zum Wasserrand hinabzusteigen, kann es tÃ¼ckisch sein, weil der lose Ton stÃ¤ndig ausgewaschen wird. Ãœbrigens, <CHARNAME>, eine andere Sache, die die Durchquerung des Flusses ohne eine Art befestigten Gegenstand schwierig machen wÃ¼rde, ist die Tatsache, dass die StrÃ¶mung dazu neigt, seine Richtungen zufÃ¤llig zu Ã¤ndern. Es gibt normalerweise keine MÃ¶glichkeit vorauszusagen, welcher Weg an diesem Abschnitt des Chionthar tatsÃ¤chlich abwÃ¤rts gelegen ist. ~
+@52 = ~Ich habe selbst kein Tau, aber wie ich mich erinnere, lieÃŸ ich das letzte Mal, als ich hier war, ein lÃ¤ngeres starkes Hanftau zurÃ¼ck. ~
+@53 = ~UnglÃ¼cklicherweise lieÃŸ ich es am Westufer zurÃ¼ck. ~
 @54 = ~Nun, das war jetzt nicht sehr klug, oder? ~
-@55 = ~Das ist tatsächlich unglücklich. ~
-@56 = ~Wegen Dummheit wird Euch für immer verboten, jemals diese Gruppe zu führen. ~
-@57 = ~Was erwartetet Ihr? Ich habe mir nicht vorgestellt, dass ich auf dieser Seite des Flusses landen und es brauchen würde. ~
+@55 = ~Das ist tatsÃ¤chlich unglÃ¼cklich. ~
+@56 = ~Wegen Dummheit wird Euch fÃ¼r immer verboten, jemals diese Gruppe zu fÃ¼hren. ~
+@57 = ~Was erwartetet Ihr? Ich habe mir nicht vorgestellt, dass ich auf dieser Seite des Flusses landen und es brauchen wÃ¼rde. ~
 @58 = ~Ich veralbere Euch nur. Sorgt Euch nicht deswegen; wir werden ihn lebend durchqueren. ~
-@59 = ~Schon gut, schon gut. Lasst uns versuchen, auf die andere Seite zu gelangen. Wir haben zwei Möglichkeiten, das zu tun: alle gleichzeitig, oder einer nach dem anderen. Wenn nur ein geht, können sie das Tau bekommen und es leichter haben. Sonst werden wir alle der Deich hinuntersteigen müssen. ~
-@60 = ~So oder so, seid vorsichtig, sobald Ihr im Fluss seid. Hoffentlich verkühlt sich keiner, denn das Wasser, kommt aus dem schmelzenden Schnee in den Wolkengipfeln. Sobald Ihr könnt, legt Euren Weg so schnell wie möglich zum anderen Ufer zurück, wo Ihr einen Pfad finden werdet, der bis zum höher gelegenen Land führt. ~
+@59 = ~Schon gut, schon gut. Lasst uns versuchen, auf die andere Seite zu gelangen. Wir haben zwei MÃ¶glichkeiten, das zu tun: alle gleichzeitig, oder einer nach dem anderen. Wenn nur ein geht, kÃ¶nnen sie das Tau bekommen und es leichter haben. Sonst werden wir alle der Deich hinuntersteigen mÃ¼ssen. ~
+@60 = ~So oder so, seid vorsichtig, sobald Ihr im Fluss seid. Hoffentlich verkÃ¼hlt sich keiner, denn das Wasser, kommt aus dem schmelzenden Schnee in den Wolkengipfeln. Sobald Ihr kÃ¶nnt, legt Euren Weg so schnell wie mÃ¶glich zum anderen Ufer zurÃ¼ck, wo Ihr einen Pfad finden werdet, der bis zum hÃ¶her gelegenen Land fÃ¼hrt. ~
 @61 = ~Lasst uns aufbrechen.~
-@62 = ~Ja. Ich habe mir nicht vorgestellt, dass ich möglicherweise das Tau brauchen würde, als ich auf der anderen Seite des Flusses war. ~
+@62 = ~Ja. Ich habe mir nicht vorgestellt, dass ich mÃ¶glicherweise das Tau brauchen wÃ¼rde, als ich auf der anderen Seite des Flusses war. ~
 @63 = ~Ich veralbere Euch nur. Sorgt Euch deswgen nicht; wir werden es gut schaffen, ihn zu durchqueren. ~
-@64 = ~Ja, ich glaube, dass ich das verdiene. Ich dachte nicht wirklich voraus. Aber vielleicht werde ich das nächste Mal an beiden Seiten des Flusses ein Tau zurücklassen. Auf diese Weise werde ich dieses Problem nie wieder haben. ~
-@65 = ~Ihr solltet zufrieden sein, dass Ihr einen fähigen, wenn nicht wahrhaftigen, Waldläufer in Eurer Gruppe habt, der Euch bei solchen Problemen wie die Durchquerung schneller Flüsse in der Wildnis hilft. Das Wasser war tatsächlich kalt, aber wir durchquerten es, ohne eine Unterkühlung zu bekommen. ~
-@66 = ~Tatsächlich macht es mich froh, dass ich im Stande war, Euch bei der Durchquerung zu helfen. Es lässt mich wieder wie einen Waldläufer fühlen. So, wohin werden wir jetzt geführt, <CHARNAME>? ~
-@67 = ~Wir müssen nach Soubar gehen. Ich soll dort einige Menschen treffen. Kommt Ihr mit uns? ~
-@68 = ~Ich habe noch keine Pläne, Charlotte. Gibt es irgendwas, wohin Ihr gehen wollt? ~
-@69 = ~Ich dachte, dass wir nach Baldurs Tor gehen würden. Ist es weit? ~
+@64 = ~Ja, ich glaube, dass ich das verdiene. Ich dachte nicht wirklich voraus. Aber vielleicht werde ich das nÃ¤chste Mal an beiden Seiten des Flusses ein Tau zurÃ¼cklassen. Auf diese Weise werde ich dieses Problem nie wieder haben. ~
+@65 = ~Ihr solltet zufrieden sein, dass Ihr einen fÃ¤higen, wenn nicht wahrhaftigen, WaldlÃ¤ufer in Eurer Gruppe habt, der Euch bei solchen Problemen wie die Durchquerung schneller FlÃ¼sse in der Wildnis hilft. Das Wasser war tatsÃ¤chlich kalt, aber wir durchquerten es, ohne eine UnterkÃ¼hlung zu bekommen. ~
+@66 = ~TatsÃ¤chlich macht es mich froh, dass ich im Stande war, Euch bei der Durchquerung zu helfen. Es lÃ¤sst mich wieder wie einen WaldlÃ¤ufer fÃ¼hlen. So, wohin werden wir jetzt gefÃ¼hrt, <CHARNAME>? ~
+@67 = ~Wir mÃ¼ssen nach Soubar gehen. Ich soll dort einige Menschen treffen. Kommt Ihr mit uns? ~
+@68 = ~Ich habe noch keine PlÃ¤ne, Charlotte. Gibt es irgendwas, wohin Ihr gehen wollt? ~
+@69 = ~Ich dachte, dass wir nach Baldurs Tor gehen wÃ¼rden. Ist es weit? ~
 @70 = ~Wir gehen nach Tiefwasser. Wart Ihr jemals in Tiefwasser, Charlotte? ~
 @71 = ~Sicherlich. Soubar ist von hier nicht allzu weit. Das ist nur eine kurze Wanderung in den Nordwesten dieses Gebietes. Lasst uns aufbrechen. ~
-@72 = ~<CHARNAME>, das hört sich wirklich nicht gut an. Der Major will, dass wir einen Spion in einer Stadt verängstigter Einwohner finden. Wenn wir beginnen, jede Person zu fragen, ob sie der Spion ist, sind wir dabei, mehr Probleme wie eine Panik oder eine gerichtliche Untersuchung zu verursachen, als es die Banditen durch gewaltsame Angriffe könnten. Die Soubarier zu befragen könnte bei den Einwohnern dazu führen, dass sie das Recht selbst in die Hand nehmen. ~
-@73 = ~Charlotte, Ihr seid einsame Spitze. Ich muss zugeben, die Dinge sehen nicht gut für Soubar aus. In den wenigen letzten Tagen haben wir mehr Banditen zurückgeschlagen, als ich unten bei Peldale im Südosten vom Baldurs Tor erledigen musste. ~
-@74 = ~Ich weiß nichts darüber, aber es scheint, dass diese Banditen ziemlich gut ausgebildet, gut ausgestattet, und motiviert sind. Wenn es wahr ist, dass es einen Spion in Soubar gibt, dann muss er, wer auch immer es ist, vom Anführer der Banditen ziemlich gut bezahlt werden. Ich würde auch annehmen, dass die Person, die die Geheimnisse der Stadt weiterleitet, jemand sein müsste, der in Stadt ziemlich vertraut ist. ~
-@75 = ~Das ergibt viel Sinn, Charlotte. Aber ich weiß nicht, wie wir viel über diese Leute herausfinden können, wenn wir nicht einfach jeden fragen können. Besonders, nachdem wir selbst hier Fremde sind. Diese Leute vertrauen uns allen wirklich noch nicht so sehr. Habt Ihr irgendwelche Vorschläge, wie wir anfangen sollen? ~
-@76 = ~Ich kann mir dessen nicht sicher sein, mit wem wir zuerst sprechen sollten, <CHARNAME>, weil ich wirklich nicht weiß, wer das Klatschmaul in der Stadt ist. Wenn es nach meiner Überlegung geht, würde ich ruhig zuerst mit einem Gastwirt oder Ladenbesitzer sprechen. Ich denke, das wäre das Beste, und ist ziemlich unauffällig. ~
-@77 = ~Wir müssen wirklich sicher sein, wen auch immer wir fragen, dass er das was wir erwähnen vertraulich behandelt. Wenn Ihr irgendjemanden kennt, dem  man trauen kann, würde ich mit ihm anfangen. ~
-@78 = ~<CHARNAME>, ich weiß, dass ich Euch sagte, Ihr solltet mit jemandem sprechen, dem Ihr vertrauen könnt, und ich denke, dass Ihr dem Wirt vertrauen könnt, dass er unsere Mission geheim hält, aber es gibt etwas, was ich bei diesem Waldläufer ein wenig falsch finde. Er mag vielleicht ein guter Mann sein, aber er ist über seine eigene Beteiligung an dieser ganzen Verwirrung nicht sehr mitteilsam. ~
+@72 = ~<CHARNAME>, das hÃ¶rt sich wirklich nicht gut an. Der Major will, dass wir einen Spion in einer Stadt verÃ¤ngstigter Einwohner finden. Wenn wir beginnen, jede Person zu fragen, ob sie der Spion ist, sind wir dabei, mehr Probleme wie eine Panik oder eine gerichtliche Untersuchung zu verursachen, als es die Banditen durch gewaltsame Angriffe kÃ¶nnten. Die Soubarier zu befragen kÃ¶nnte bei den Einwohnern dazu fÃ¼hren, dass sie das Recht selbst in die Hand nehmen. ~
+@73 = ~Charlotte, Ihr seid einsame Spitze. Ich muss zugeben, die Dinge sehen nicht gut fÃ¼r Soubar aus. In den wenigen letzten Tagen haben wir mehr Banditen zurÃ¼ckgeschlagen, als ich unten bei Peldale im SÃ¼dosten vom Baldurs Tor erledigen musste. ~
+@74 = ~Ich weiÃŸ nichts darÃ¼ber, aber es scheint, dass diese Banditen ziemlich gut ausgebildet, gut ausgestattet, und motiviert sind. Wenn es wahr ist, dass es einen Spion in Soubar gibt, dann muss er, wer auch immer es ist, vom AnfÃ¼hrer der Banditen ziemlich gut bezahlt werden. Ich wÃ¼rde auch annehmen, dass die Person, die die Geheimnisse der Stadt weiterleitet, jemand sein mÃ¼sste, der in Stadt ziemlich vertraut ist. ~
+@75 = ~Das ergibt viel Sinn, Charlotte. Aber ich weiÃŸ nicht, wie wir viel Ã¼ber diese Leute herausfinden kÃ¶nnen, wenn wir nicht einfach jeden fragen kÃ¶nnen. Besonders, nachdem wir selbst hier Fremde sind. Diese Leute vertrauen uns allen wirklich noch nicht so sehr. Habt Ihr irgendwelche VorschlÃ¤ge, wie wir anfangen sollen? ~
+@76 = ~Ich kann mir dessen nicht sicher sein, mit wem wir zuerst sprechen sollten, <CHARNAME>, weil ich wirklich nicht weiÃŸ, wer das Klatschmaul in der Stadt ist. Wenn es nach meiner Ãœberlegung geht, wÃ¼rde ich ruhig zuerst mit einem Gastwirt oder Ladenbesitzer sprechen. Ich denke, das wÃ¤re das Beste, und ist ziemlich unauffÃ¤llig. ~
+@77 = ~Wir mÃ¼ssen wirklich sicher sein, wen auch immer wir fragen, dass er das was wir erwÃ¤hnen vertraulich behandelt. Wenn Ihr irgendjemanden kennt, dem  man trauen kann, wÃ¼rde ich mit ihm anfangen. ~
+@78 = ~<CHARNAME>, ich weiÃŸ, dass ich Euch sagte, Ihr solltet mit jemandem sprechen, dem Ihr vertrauen kÃ¶nnt, und ich denke, dass Ihr dem Wirt vertrauen kÃ¶nnt, dass er unsere Mission geheim hÃ¤lt, aber es gibt etwas, was ich bei diesem WaldlÃ¤ufer ein wenig falsch finde. Er mag vielleicht ein guter Mann sein, aber er ist Ã¼ber seine eigene Beteiligung an dieser ganzen Verwirrung nicht sehr mitteilsam. ~
 @79 = ~Ja, das bemerkte ich auch. ~
 @80 = ~Habt Ihr diesen Eindruck bekommen, Charlotte? Ich bemerkte es nicht. ~
-@81 = ~Charlotte, ich glaube, dass ich Winthrop vertrauen kann. Aber ich bin bei diesen Waldläufer auch nicht so sicher. Denkt Ihr, dass er derjenige sein könnte, nach dem wir suchen? ~
-@82 = ~Normalerweise sind Waldläufer gute Leute, ehrlich und offen über ihre Tätigkeiten. Das soll jedoch nicht heißen, dass es nicht auch gelegentlich faule Eier im Korb gibt. ~
-@83 = ~Ich weiß nicht. Aber wenn ich eine Vermutung anstellen sollte, würde ich nein sagen. Die meisten Leute, die dem Weg eines Waldläufers folgen, haben nicht viel vor der Welt zu verbergen. Sie sind gewöhnlich offene und ehrliche Leute. ~
-@84 = ~Das soll jedoch nicht heißen, dass es nicht auch gelegentlich faule Eier im Korb gibt. Wir werden ihn im Auge behalten müssen. Lasst uns aufbrechen, und sehen, ob wir sonst noch etwas herausfinden können. ~
-@85 = ~<CHARNAME>, wir kommen hier in Schwierigkeiten. Wenn wir weiterhin Fragen wie diese stellen, wird schließlich jemand Notiz von uns nehmen, und wenn die falschen Ohren davon zu hören bekommen, was wir tun, fürchte ich, dass Soubar mit ernsten Vergeltungsmaßnahmen wegen unseren Fragen rechnen muss. ~
-@86 = ~Aber der Mann dort schien etwas zu verbergen. Wir werden ihn im Auge behalten müssen. Lasst uns aufbrechen, und sehen, ob wir sonst noch etwas herausfinden können. ~
-@87 = ~Ja, ich bekam den Eindruck, dass es vielleicht mehr bei ihm gibt als es auf den ersten Blick scheint. Aber ich könnte mich irren. Gewöhnlicherweise sind diejenigen, die das Leben eines Waldläufers führen, offene und ehrliche Leute, die nichts vor der Welt zu verbergen haben. ~
-@88 = ~Ein Spion, der etwas wert ist, würde uns zweifellos beachten müssen. Wir haben diesen Banditen eine Menge Probleme bereitet, und wenn der Major beabsichtigt, uns zu befördern, wenn wir den Spion aufgestöbert haben, kann ich nicht glauben, dass der Spion davon nichts weiß. ~
-@89 = ~Wenn ich der Anführer der Banditen wäre, würde ich alle meine Truppen gegen uns senden. Das ist nicht gut, <CHARNAME>. Wir müssen deshalb mit Rücksicht darauf viel vorsichtiger sein, mit wem wir sprechen. ~
-@90 = ~<CHARNAME>? Das führt uns wirklich nirgendwo hin. Wir fragen weiterhin nach einem Spion, aber alles, was wir haben, sind Hinweise. Es gibt keine Beweise, dass es wirklich einen Spion gibt. ~
-@91 = ~Ich weiß, Charlotte. Aber wir müssen beweisen, dass es keinen Spion gibt. Zum jetzigen Zeitpunkt habe ich diesen Beweis nicht. ~
+@81 = ~Charlotte, ich glaube, dass ich Winthrop vertrauen kann. Aber ich bin bei diesen WaldlÃ¤ufer auch nicht so sicher. Denkt Ihr, dass er derjenige sein kÃ¶nnte, nach dem wir suchen? ~
+@82 = ~Normalerweise sind WaldlÃ¤ufer gute Leute, ehrlich und offen Ã¼ber ihre TÃ¤tigkeiten. Das soll jedoch nicht heiÃŸen, dass es nicht auch gelegentlich faule Eier im Korb gibt. ~
+@83 = ~Ich weiÃŸ nicht. Aber wenn ich eine Vermutung anstellen sollte, wÃ¼rde ich nein sagen. Die meisten Leute, die dem Weg eines WaldlÃ¤ufers folgen, haben nicht viel vor der Welt zu verbergen. Sie sind gewÃ¶hnlich offene und ehrliche Leute. ~
+@84 = ~Das soll jedoch nicht heiÃŸen, dass es nicht auch gelegentlich faule Eier im Korb gibt. Wir werden ihn im Auge behalten mÃ¼ssen. Lasst uns aufbrechen, und sehen, ob wir sonst noch etwas herausfinden kÃ¶nnen. ~
+@85 = ~<CHARNAME>, wir kommen hier in Schwierigkeiten. Wenn wir weiterhin Fragen wie diese stellen, wird schlieÃŸlich jemand Notiz von uns nehmen, und wenn die falschen Ohren davon zu hÃ¶ren bekommen, was wir tun, fÃ¼rchte ich, dass Soubar mit ernsten VergeltungsmaÃŸnahmen wegen unseren Fragen rechnen muss. ~
+@86 = ~Aber der Mann dort schien etwas zu verbergen. Wir werden ihn im Auge behalten mÃ¼ssen. Lasst uns aufbrechen, und sehen, ob wir sonst noch etwas herausfinden kÃ¶nnen. ~
+@87 = ~Ja, ich bekam den Eindruck, dass es vielleicht mehr bei ihm gibt als es auf den ersten Blick scheint. Aber ich kÃ¶nnte mich irren. GewÃ¶hnlicherweise sind diejenigen, die das Leben eines WaldlÃ¤ufers fÃ¼hren, offene und ehrliche Leute, die nichts vor der Welt zu verbergen haben. ~
+@88 = ~Ein Spion, der etwas wert ist, wÃ¼rde uns zweifellos beachten mÃ¼ssen. Wir haben diesen Banditen eine Menge Probleme bereitet, und wenn der Major beabsichtigt, uns zu befÃ¶rdern, wenn wir den Spion aufgestÃ¶bert haben, kann ich nicht glauben, dass der Spion davon nichts weiÃŸ. ~
+@89 = ~Wenn ich der AnfÃ¼hrer der Banditen wÃ¤re, wÃ¼rde ich alle meine Truppen gegen uns senden. Das ist nicht gut, <CHARNAME>. Wir mÃ¼ssen deshalb mit RÃ¼cksicht darauf viel vorsichtiger sein, mit wem wir sprechen. ~
+@90 = ~<CHARNAME>? Das fÃ¼hrt uns wirklich nirgendwo hin. Wir fragen weiterhin nach einem Spion, aber alles, was wir haben, sind Hinweise. Es gibt keine Beweise, dass es wirklich einen Spion gibt. ~
+@91 = ~Ich weiÃŸ, Charlotte. Aber wir mÃ¼ssen beweisen, dass es keinen Spion gibt. Zum jetzigen Zeitpunkt habe ich diesen Beweis nicht. ~
 @92 = ~Keine Sorge, Charlotte. Wir werden dem auf den Grund gehen. ~
-@93 = ~Dann lasst uns weiterhin nach diesem Beweis suchen. Vielleicht müssen wir niemanden beschuldigen, ein Spion zu sein. ~
-@94 = ~Ich hoffe, dass das früher ist als später. Ich mag wirklich keine Leute beschuldigen, von denen wir nichts wissen. ~
+@93 = ~Dann lasst uns weiterhin nach diesem Beweis suchen. Vielleicht mÃ¼ssen wir niemanden beschuldigen, ein Spion zu sein. ~
+@94 = ~Ich hoffe, dass das frÃ¼her ist als spÃ¤ter. Ich mag wirklich keine Leute beschuldigen, von denen wir nichts wissen. ~
 @95 = ~<CHARNAME>! Ich habe es! Ich denke, dass ich herausgefunden habe, was mit all dem los ist. ~
-@96 = ~Dann bitte, Charlotte, erklärt es der Gruppe. ~
+@96 = ~Dann bitte, Charlotte, erklÃ¤rt es der Gruppe. ~
 @97 = ~Ich bin froh, dass Ihr es habt, weil ich es nicht herausfinden kann. ~
-@98 = ~Ich habe bereits herausgefunden, was wir tun müssen, Charlotte. Beunruhigt nicht Euren hübschen kleinen Kopf. Lasst uns Abenteurer mit dem Rätsel fertig werden. ~
-@99 = ~In Ordnung, schaut. Wir haben mit sieben möglichen Verdächtigen angefangen. Da ist der Waldläufer, der Bürgermeister, der Gastwirt, die Kämpfer, jemand im Sozialen Klub, der kleine Jungen, und jemand an Stelle des alten Müllers, richtig? ~
-@100 = ~Wir haben mit einigen dieser Leute gesprochen, und jedes Mal, wenn wir nach jemand anderem fragen, sagen sie uns Dinge, die irreführend klingen, um uns von ihrer Spur abzulenken. ~
-@101 = ~Nun, angenommen, ich wäre ein Spion und jemand würde mich nach meinen verräterischen Tätigkeiten fragen, würde ich den Fragesteller von meiner Spur abbringen wollen. Wie könnte ich das tun? Indem ich ihn mit irreführenden und belanglosen Tatsachen verwirre. Das denke ich, geschieht hier, <CHARNAME>. Als wir mit dem Waldläufer sprachen, sagte er uns, dass jede Wahl, die wir treffen, uns dem möglichen Spion näher bringen würde. Wir haben viele Möglichkeiten, <CHARNAME>, und alles, was Ihr tun müsst, ist herauszufinden, wen Ihr nach jedem der Verdächtigen befragt habt. ~
-@102 = ~Sobald Ihr herausgefunden habt, wen wir darüber befragt haben, wie den Bürgermeister oder den Waldläufer, müssen wir die anderen Verdächtigen fragen, die wir nicht über die restlichen Verdächtigen auf der Liste befragt haben. Schließlich sollten wir sechs Verdächtige haben, von denen wir WISSEN, dass sie keine Spione sind. Der letzte Verdächtige muss der Spion sein, nach dem wir suchen. ~
-@103 = ~Nun, gut für Euch. Wenn Ihr denkt, dass Ihr das herausgefunden habt, sollten wir uns jetzt beeilen. ~
-@104 = ~Wenn ich einfach meine Gedanken in dieser Sache für einen Moment unterbreiten kann, hoffe ich, dass Ihr meinem Urteil und meiner Erfahrung vertrauen werdet. ~
+@98 = ~Ich habe bereits herausgefunden, was wir tun mÃ¼ssen, Charlotte. Beunruhigt nicht Euren hÃ¼bschen kleinen Kopf. Lasst uns Abenteurer mit dem RÃ¤tsel fertig werden. ~
+@99 = ~In Ordnung, schaut. Wir haben mit sieben mÃ¶glichen VerdÃ¤chtigen angefangen. Da ist der WaldlÃ¤ufer, der BÃ¼rgermeister, der Gastwirt, die KÃ¤mpfer, jemand im Sozialen Klub, der kleine Jungen, und jemand an Stelle des alten MÃ¼llers, richtig? ~
+@100 = ~Wir haben mit einigen dieser Leute gesprochen, und jedes Mal, wenn wir nach jemand anderem fragen, sagen sie uns Dinge, die irrefÃ¼hrend klingen, um uns von ihrer Spur abzulenken. ~
+@101 = ~Nun, angenommen, ich wÃ¤re ein Spion und jemand wÃ¼rde mich nach meinen verrÃ¤terischen TÃ¤tigkeiten fragen, wÃ¼rde ich den Fragesteller von meiner Spur abbringen wollen. Wie kÃ¶nnte ich das tun? Indem ich ihn mit irrefÃ¼hrenden und belanglosen Tatsachen verwirre. Das denke ich, geschieht hier, <CHARNAME>. Als wir mit dem WaldlÃ¤ufer sprachen, sagte er uns, dass jede Wahl, die wir treffen, uns dem mÃ¶glichen Spion nÃ¤her bringen wÃ¼rde. Wir haben viele MÃ¶glichkeiten, <CHARNAME>, und alles, was Ihr tun mÃ¼sst, ist herauszufinden, wen Ihr nach jedem der VerdÃ¤chtigen befragt habt. ~
+@102 = ~Sobald Ihr herausgefunden habt, wen wir darÃ¼ber befragt haben, wie den BÃ¼rgermeister oder den WaldlÃ¤ufer, mÃ¼ssen wir die anderen VerdÃ¤chtigen fragen, die wir nicht Ã¼ber die restlichen VerdÃ¤chtigen auf der Liste befragt haben. SchlieÃŸlich sollten wir sechs VerdÃ¤chtige haben, von denen wir WISSEN, dass sie keine Spione sind. Der letzte VerdÃ¤chtige muss der Spion sein, nach dem wir suchen. ~
+@103 = ~Nun, gut fÃ¼r Euch. Wenn Ihr denkt, dass Ihr das herausgefunden habt, sollten wir uns jetzt beeilen. ~
+@104 = ~Wenn ich einfach meine Gedanken in dieser Sache fÃ¼r einen Moment unterbreiten kann, hoffe ich, dass Ihr meinem Urteil und meiner Erfahrung vertrauen werdet. ~
 @105 = ~Nun, Charlotte, das ist nichts Neues. Was ist es dieses Mal? ~
-@106 = ~Wir haben mit mehreren möglichen Verdächtigen gesprochen, und was wir tun, ist nicht allzu verschieden von dem, was ich im Wald oder in der Wildnis tun würde. Die Jagd nach Hinweisen, um so die Quelle des Problems zu finden. Wenn Ihr mir folgen könnt, würde ich sagen, dass wir zu unseren letzten zwei Verdächtigen kommen. Richtig? ~
-@107 = ~Wenn wir diese letzten beiden Verdächtigen nach ihren Tätigkeiten fragen, sollten wir sicher sein, nach den restlichen Spionen auf unserer Liste zu fragen. Einer von denjenigen muss unser Spion sein, und wir werden bald genug wissen, wer es ist. Wir sind in einer viel besseren Situation, als wir wären, wenn uns der Major diese Anweisung gäbe. ~
-@108 = ~Aber ich denke, dass wir aufpassen müssen, wenn wir uns diesen letzten zwei Verdächtigen nähern. <CHARNAME>, seid sicher, nach den restlichen Spionen auf der Liste zu fragen, da man nicht weiß, welcher der beiden es ist, noch was sie tun werden, sobald wir sie mit ihren Verbrechen konfrontieren. ~
+@106 = ~Wir haben mit mehreren mÃ¶glichen VerdÃ¤chtigen gesprochen, und was wir tun, ist nicht allzu verschieden von dem, was ich im Wald oder in der Wildnis tun wÃ¼rde. Die Jagd nach Hinweisen, um so die Quelle des Problems zu finden. Wenn Ihr mir folgen kÃ¶nnt, wÃ¼rde ich sagen, dass wir zu unseren letzten zwei VerdÃ¤chtigen kommen. Richtig? ~
+@107 = ~Wenn wir diese letzten beiden VerdÃ¤chtigen nach ihren TÃ¤tigkeiten fragen, sollten wir sicher sein, nach den restlichen Spionen auf unserer Liste zu fragen. Einer von denjenigen muss unser Spion sein, und wir werden bald genug wissen, wer es ist. Wir sind in einer viel besseren Situation, als wir wÃ¤ren, wenn uns der Major diese Anweisung gÃ¤be. ~
+@108 = ~Aber ich denke, dass wir aufpassen mÃ¼ssen, wenn wir uns diesen letzten zwei VerdÃ¤chtigen nÃ¤hern. <CHARNAME>, seid sicher, nach den restlichen Spionen auf der Liste zu fragen, da man nicht weiÃŸ, welcher der beiden es ist, noch was sie tun werden, sobald wir sie mit ihren Verbrechen konfrontieren. ~
 @109 = ~<CHARNAME>, ich hoffe, dass Ihr dabei vorsichtig sein werdet. ~
 @110 = ~<CHARNAME>! Es scheint, dass wir jetzt wissen, wer unser Spion ist! Gute Arbeit! ~
-@111 = ~Lasst uns ihn festnehmen, und wir werden dies dem Major berichten, sobald wir diesem Waldläufer gegenüber standen! ~
-@112 = ~Lasst uns den kleinen Kriecher festnehmen! Er dachte, dass er uns für dumm verkaufen könnte! Wir werden es Charlie zeigen! ~
-@113 = ~Lasst uns diese so genannten "Banditen-Bekämpfer" festnehmen! Wir werden dem Major berichten, nachdem wir ihnen gegenüber standen! ~
-@114 = ~Ich kann nicht glauben, dass der Bürgermeister sich in dieser Art gegen seine Stadt gewendet haben soll! Wir müssen ihn schnell aufhalten! ~
+@111 = ~Lasst uns ihn festnehmen, und wir werden dies dem Major berichten, sobald wir diesem WaldlÃ¤ufer gegenÃ¼ber standen! ~
+@112 = ~Lasst uns den kleinen Kriecher festnehmen! Er dachte, dass er uns fÃ¼r dumm verkaufen kÃ¶nnte! Wir werden es Charlie zeigen! ~
+@113 = ~Lasst uns diese so genannten "Banditen-BekÃ¤mpfer" festnehmen! Wir werden dem Major berichten, nachdem wir ihnen gegenÃ¼ber standen! ~
+@114 = ~Ich kann nicht glauben, dass der BÃ¼rgermeister sich in dieser Art gegen seine Stadt gewendet haben soll! Wir mÃ¼ssen ihn schnell aufhalten! ~
 @115 = ~Dieser Magier hat Euch zum Narren gehalten, seitdem er Euch das erste Mal traf, stimmt's? Ich bin sicher, dass Ihr ihm schuldet, es ihm heimzuzahlen! ~
-@116 = ~Ich kann nicht verstehen, wie einer Eurer ältesten Freunde so etwas wie das getan haben könnte! Das ist beschämend. ~
-@117 = ~Ich weiß nicht, wie, oder ob wir in den Sozialen Klub hinein gelangen können, aber vielleicht sollten wir das sofort dem Major melden. Er wird wissen, was zu tun ist. ~
-@118 = ~Ich bin wirklich froh, dass wir dieses Rätsel lösen konnten, <CHARNAME>. Es lässt mich wirklich gut fühlen, zu wissen, dass wir die Arbeit erledigen, die die meisten Menschen nicht erledigen können. ~
+@116 = ~Ich kann nicht verstehen, wie einer Eurer Ã¤ltesten Freunde so etwas wie das getan haben kÃ¶nnte! Das ist beschÃ¤mend. ~
+@117 = ~Ich weiÃŸ nicht, wie, oder ob wir in den Sozialen Klub hinein gelangen kÃ¶nnen, aber vielleicht sollten wir das sofort dem Major melden. Er wird wissen, was zu tun ist. ~
+@118 = ~Ich bin wirklich froh, dass wir dieses RÃ¤tsel lÃ¶sen konnten, <CHARNAME>. Es lÃ¤sst mich wirklich gut fÃ¼hlen, zu wissen, dass wir die Arbeit erledigen, die die meisten Menschen nicht erledigen kÃ¶nnen. ~
 @119 = ~Das stimmt, Charlotte. Wenn Ihr Teil meiner Gruppe seid, sind wir immer erfolgreich. ~
 @120 = ~Danke, dass Ihr mich mit Euch zusammen arbeiten lasst, <CHARNAME>. ~
 @121 = ~<CHARNAME>, ich muss es sagen. Ich habe es wirklich genossen, in  diesen letzten paar Wochen mit Eurer Gruppe zu arbeiten. Es war solch eine Ehre, Euch das tun zu sehen, was Ihr tut. ~
 @122 = ~Und ich denke, dass ich herausgefunden habe, was es war, was ich vor all jenen Jahren verloren hatte. Ich habe begriffen, was es bedeutet, gutes in der Welt zu tun. ~
-@123 = ~Ich danke Euch, dass Ihr mir geholfen habt, mich selbst zu finden, und mich daran zu erinnern, was es bedeutet, ein Waldläufer zu sein. ~
-@124 = ~Ihr habt eine große Sache gemacht, <CHARNAME>, ~
+@123 = ~Ich danke Euch, dass Ihr mir geholfen habt, mich selbst zu finden, und mich daran zu erinnern, was es bedeutet, ein WaldlÃ¤ufer zu sein. ~
+@124 = ~Ihr habt eine groÃŸe Sache gemacht, <CHARNAME>, ~
 @125 = ~Ich bin nicht ganz sicher, ob ich dankbar sein soll, dass Ihr mir auf die Nerven geht. Ich bin auch ein Teil dieser Gruppe, <CHARNAME>, und Ihr solltet mich ein bisschen mehr respektieren. ~
-@126 = ~Nein, er kommt von einem Ort wie Cormyr. Tatsächlich bauten die Zwerge, wo Birnbaum lebt, große Minen und säumten die Straßen mit Gleisen, auf denen sie ihre Bergwerkskarren rollten. Sobald die Menschen einzogen, reisten die Zwerge ab, und alle Schienen wurden aufgegeben. ~
+@126 = ~Nein, er kommt von einem Ort wie Cormyr. TatsÃ¤chlich bauten die Zwerge, wo Birnbaum lebt, groÃŸe Minen und sÃ¤umten die StraÃŸen mit Gleisen, auf denen sie ihre Bergwerkskarren rollten. Sobald die Menschen einzogen, reisten die Zwerge ab, und alle Schienen wurden aufgegeben. ~
 @127 = ~Als die Zwerge abreisten und die Schienen still gelegt wurden, haben sie die Stadt mit Brettern vernagelt? ~
 @128 = ~Das ist eine interessante Geschichte, Charlotte. ~
-@129 = ~Anscheinend wisst Ihr viel mehr darüber, wo mein kleiner Werbespruch hier hinführt, als ich gedacht hätte, <CHARNAME>. Weil Ihr so viel über Andy Birnbaum und Herrn John Johns und Colin wisst, bekommt Ihr Extraerfahrung am Ende dieses Dialog-Baums. ~
-@130 = ~<CHARNAME>, wenn Ihr mehr über die großen Arbeiten von Andy Birnbaum, Sir John Johns und Den Roten Vorhang und auch die anderen lernen wollt, untersucht nur die großen Kalkhügel in der Nähe der Ebene des Weißen Pferdes. ~
-@131 = ~Die Bäume und Büsche werden überleben. Irgendwann einmal werden Tiere in dieses Gebiet zurückkehren, um an den Ufern Wasser zu trinken, und Fische werden zu ihren jahreszeitlich bedingten Laichgründen zurückkehren. Aber für die Tiere, die wegen des Giftes gestorben sind, gibt es nichts, was ich oder irgendjemand anderer tun kann, um zu helfen. Noch kann ich dem Rest der tollwütigen Tiere helfen, sie aus ihrem Leid zu erlösen. ~
-@132 = ~Ja, unsere Arbeit hier ist getan. Vielen Dank dafür, dass Ihr mich habt sehen lassen, was hier geschehen ist. Ich bin froh, dass wir das taten. ~
+@129 = ~Anscheinend wisst Ihr viel mehr darÃ¼ber, wo mein kleiner Werbespruch hier hinfÃ¼hrt, als ich gedacht hÃ¤tte, <CHARNAME>. Weil Ihr so viel Ã¼ber Andy Birnbaum und Herrn John Johns und Colin wisst, bekommt Ihr Extraerfahrung am Ende dieses Dialog-Baums. ~
+@130 = ~<CHARNAME>, wenn Ihr mehr Ã¼ber die groÃŸen Arbeiten von Andy Birnbaum, Sir John Johns und Den Roten Vorhang und auch die anderen lernen wollt, untersucht nur die groÃŸen KalkhÃ¼gel in der NÃ¤he der Ebene des WeiÃŸen Pferdes. ~
+@131 = ~Die BÃ¤ume und BÃ¼sche werden Ã¼berleben. Irgendwann einmal werden Tiere in dieses Gebiet zurÃ¼ckkehren, um an den Ufern Wasser zu trinken, und Fische werden zu ihren jahreszeitlich bedingten LaichgrÃ¼nden zurÃ¼ckkehren. Aber fÃ¼r die Tiere, die wegen des Giftes gestorben sind, gibt es nichts, was ich oder irgendjemand anderer tun kann, um zu helfen. Noch kann ich dem Rest der tollwÃ¼tigen Tiere helfen, sie aus ihrem Leid zu erlÃ¶sen. ~
+@132 = ~Ja, unsere Arbeit hier ist getan. Vielen Dank dafÃ¼r, dass Ihr mich habt sehen lassen, was hier geschehen ist. Ich bin froh, dass wir das taten. ~
 @133 = ~Lasst uns aufbrechen, <CHARNAME>. Es gibt hier nichts mehr zu tun. ~
-@134 = ~Wenn wir versuchen, die Klippe zum Wasserrand hinabzusteigen, kann es tückisch sein, weil der lose Ton ständig ausgewaschen wird. Übrigens, <CHARNAME>, eine andere Sache, die die Durchquerung des Flusses ohne eine Art befestigten Gegenstand schwierig machen würde, ist die Tatsache, dass die Strömung dazu neigt, seine Richtungen zufällig zu wechseln. Es gibt normalerweise keine Möglichkeit vorauszusagen, welcher Weg an diesem Abschnitt des Chionthar tatsächlich abwärts gelegen ist. ~
+@134 = ~Wenn wir versuchen, die Klippe zum Wasserrand hinabzusteigen, kann es tÃ¼ckisch sein, weil der lose Ton stÃ¤ndig ausgewaschen wird. Ãœbrigens, <CHARNAME>, eine andere Sache, die die Durchquerung des Flusses ohne eine Art befestigten Gegenstand schwierig machen wÃ¼rde, ist die Tatsache, dass die StrÃ¶mung dazu neigt, seine Richtungen zufÃ¤llig zu wechseln. Es gibt normalerweise keine MÃ¶glichkeit vorauszusagen, welcher Weg an diesem Abschnitt des Chionthar tatsÃ¤chlich abwÃ¤rts gelegen ist. ~
 @135 = ~Wenn Ihr nach Soubar kommen wollt, tun wir es. ~
-@136 = ~Ich werde Euch folgen, wohin Ihr geht, aber wenn es nach mir ginge, wäre ich hier am Ufer dieses schönen Flusses glücklich. ~
-@137 = ~Baldurs Tor? Es ist eine Reise von ungefähr fünfhundert Wegstunden, aber wenn wir einige Boote hätten, könnten wir es dorthin in ein paar Tagen schaffen. Aber ich möchte viel lieber außerhalb der Großstädte bleiben. ~
-@138 = ~In der Tat war Tiefwasser der erste Hafen, in dem ich anlegte, als ich aus Immerdar nach Faerûn kam. Es war eine laute und schmutzige Stadt. Ich will nie wieder dorthin gehen. ~
-@139 = ~Dann ist es nur eine Sache der Berichterstattung beim Major und der Gegenüberstellung der letzten Verdächtigen. Sollte jetzt nicht zu schwierig sein, also lasst uns aufbrechen. ~
-@140 = ~Oh, das? Es ist nichts. Ich erinnere mich genau nicht, wo ich es her habe, aber ich hatte diese Ausrüstung, bevor ich die Insel der Elfen, Immerdar, verließ. Aber ich danke Euch für das Kompliment. Ich versuche, so gut wie möglich auszusehen. ~
-@141 = ~Cernd, von allen Leuten solltet Ihr wissen, dass dieser Löwe hier ein wildes Tier ist. Normalerweise folgt er mir in der Nähe, aber manchmal kommt er gelegen, wenn ich verletzt bin. ~
+@136 = ~Ich werde Euch folgen, wohin Ihr geht, aber wenn es nach mir ginge, wÃ¤re ich hier am Ufer dieses schÃ¶nen Flusses glÃ¼cklich. ~
+@137 = ~Baldurs Tor? Es ist eine Reise von ungefÃ¤hr fÃ¼nfhundert Wegstunden, aber wenn wir einige Boote hÃ¤tten, kÃ¶nnten wir es dorthin in ein paar Tagen schaffen. Aber ich mÃ¶chte viel lieber auÃŸerhalb der GroÃŸstÃ¤dte bleiben. ~
+@138 = ~In der Tat war Tiefwasser der erste Hafen, in dem ich anlegte, als ich aus Immerdar nach FaerÃ»n kam. Es war eine laute und schmutzige Stadt. Ich will nie wieder dorthin gehen. ~
+@139 = ~Dann ist es nur eine Sache der Berichterstattung beim Major und der GegenÃ¼berstellung der letzten VerdÃ¤chtigen. Sollte jetzt nicht zu schwierig sein, also lasst uns aufbrechen. ~
+@140 = ~Oh, das? Es ist nichts. Ich erinnere mich genau nicht, wo ich es her habe, aber ich hatte diese AusrÃ¼stung, bevor ich die Insel der Elfen, Immerdar, verlieÃŸ. Aber ich danke Euch fÃ¼r das Kompliment. Ich versuche, so gut wie mÃ¶glich auszusehen. ~
+@141 = ~Cernd, von allen Leuten solltet Ihr wissen, dass dieser LÃ¶we hier ein wildes Tier ist. Normalerweise folgt er mir in der NÃ¤he, aber manchmal kommt er gelegen, wenn ich verletzt bin. ~
 @142 = ~Zeitweise tut er nur, was er tun will, und ich kann ihn nicht wirklich im Zaum halten. ~
-@143 = ~Er geht oft selbst auf die Jagd und kehrt manchmal erst ein paar Stunden oder sogar Tage später zurück. Es macht mir wirklich nichts aus, aber er ist ganz der Jäger. ~
-@144 = ~Ich denke nicht, dass sich Tiere darum kümmern, Cernd. Ihr kümmert Euch wirklich nicht um Titel und so; mehr um die Gesinnung, die wir Halbmenschen für die Natur und unseren Umwelt zeigen. ~
-@145 = ~Danke, Liebste. Ich mag wirklich das Starkbier. Es passt gut zu meinem Lebensstil und kann die Betrunkenen im Wirtshaus veranlassen, an jedem meiner Worte zu hängen. ~
-@146 = ~Ich denke nicht, dass ich mich in die mit Perlen versehene Frisur verknallen würde. Auch nicht inHalruaan mit ihren dichten Zöpfen und Schreckenswolf-Locken. ~
+@143 = ~Er geht oft selbst auf die Jagd und kehrt manchmal erst ein paar Stunden oder sogar Tage spÃ¤ter zurÃ¼ck. Es macht mir wirklich nichts aus, aber er ist ganz der JÃ¤ger. ~
+@144 = ~Ich denke nicht, dass sich Tiere darum kÃ¼mmern, Cernd. Ihr kÃ¼mmert Euch wirklich nicht um Titel und so; mehr um die Gesinnung, die wir Halbmenschen fÃ¼r die Natur und unseren Umwelt zeigen. ~
+@145 = ~Danke, Liebste. Ich mag wirklich das Starkbier. Es passt gut zu meinem Lebensstil und kann die Betrunkenen im Wirtshaus veranlassen, an jedem meiner Worte zu hÃ¤ngen. ~
+@146 = ~Ich denke nicht, dass ich mich in die mit Perlen versehene Frisur verknallen wÃ¼rde. Auch nicht inHalruaan mit ihren dichten ZÃ¶pfen und Schreckenswolf-Locken. ~
 @147 = ~Ich kaufte das Barett und den Kilt, als ich noch in Immerdar war, daher glaube ich nicht, dass Ihr jemals im Stande sein werdet, Euch die Preise von Chanel-Immerdar zu erlauben. ~
-@148 = ~Oh mein Gond, Schätzchen! Ihr habt 12.000 für die Besessenheit von Immerdar bezahlt? Was habt Ihr Euch gedacht?? Ich kann wirklich billig Flaschen von Nalia bekommen. Und nicht nur die billigen Kopien aus Niewinter. ~
-@149 = ~Oh mein Gond! Es gibt das süßte Lager in der Nähe von der Errötenden Meerjungfrau im Baldurs Tor, das gerade eröffnete! Ihr müsst es ausprobieren! ~
+@148 = ~Oh mein Gond, SchÃ¤tzchen! Ihr habt 12.000 fÃ¼r die Besessenheit von Immerdar bezahlt? Was habt Ihr Euch gedacht?? Ich kann wirklich billig Flaschen von Nalia bekommen. Und nicht nur die billigen Kopien aus Niewinter. ~
+@149 = ~Oh mein Gond! Es gibt das sÃ¼ÃŸte Lager in der NÃ¤he von der ErrÃ¶tenden Meerjungfrau im Baldurs Tor, das gerade erÃ¶ffnete! Ihr mÃ¼sst es ausprobieren! ~
 @150 = ~Wir sollten einmal dorthin gehen, Nalia. ~
 @151 = ~Jaheira, wenn Ihr einmal mit uns einkaufen gehen wollt, je mehr wir sind, desto lustiger wird es. ~
 @152 = ~Nalia, warum gehen wir nicht einkaufen und kaufen uns neue Kleidung? ~
-@153 = ~Ja, Jaheria, sembische Spitze ist tatsächlich hübsch aber tiefwasseranischer Schmuck ist bei weitem das beste! ~
-@154 = ~Oh mein Gond! Ich hatte gerade eine großartige Idee! ~
+@153 = ~Ja, Jaheria, sembische Spitze ist tatsÃ¤chlich hÃ¼bsch aber tiefwasseranischer Schmuck ist bei weitem das beste! ~
+@154 = ~Oh mein Gond! Ich hatte gerade eine groÃŸartige Idee! ~
 @155 = ~Wir sollten einkaufen gehen, uns aufbrezeln, und zu den Cormyrischen Heilquellen gehen! ~
-@156 = ~Schätzchen, glaubt Ihr wirklich, dass Ihr <CHARNAME> bekommt, wenn Ihr so ausseht? Ich meine, HALLO, wir sind nicht mehr im sechsten Jahrhundert. ~
-@157 = ~Es würde auch nicht schaden, einige Zeit in Calimsham zu verbringen. Ich meine, lasst mich sagen, SONNENLICHT! ~
-@158 = ~Schätzchen, glaubt Ihr wirklich, dass Ihr jemand besseren bekommt als Lord Roenall, wenn Ihr so ausseht? Ich meine, HALLO, wir sind nicht mehr im sechsten Jahrhundert. ~
-@159 = ~Dann ist es abgemacht! Ich werde den Termin mit einem Prominenten aus Athkatla bestimmen. Ihr müsst Euer Aussehen völlig aufmöbeln. Wie lange habt Ihr für diese Frisur gebraucht? ~
-@160 = ~Seit der Zeit er Schwierigkeiten? Es ist durchaus Zeit für ein neues Aussehen. ~
-@161 = ~<CHARNAME> Nalia und ich gehen in die Stadt für einen Tag des Mädchens. Wir werden nach einer Weile zurück sein. ~
+@156 = ~SchÃ¤tzchen, glaubt Ihr wirklich, dass Ihr <CHARNAME> bekommt, wenn Ihr so ausseht? Ich meine, HALLO, wir sind nicht mehr im sechsten Jahrhundert. ~
+@157 = ~Es wÃ¼rde auch nicht schaden, einige Zeit in Calimsham zu verbringen. Ich meine, lasst mich sagen, SONNENLICHT! ~
+@158 = ~SchÃ¤tzchen, glaubt Ihr wirklich, dass Ihr jemand besseren bekommt als Lord Roenall, wenn Ihr so ausseht? Ich meine, HALLO, wir sind nicht mehr im sechsten Jahrhundert. ~
+@159 = ~Dann ist es abgemacht! Ich werde den Termin mit einem Prominenten aus Athkatla bestimmen. Ihr mÃ¼sst Euer Aussehen vÃ¶llig aufmÃ¶beln. Wie lange habt Ihr fÃ¼r diese Frisur gebraucht? ~
+@160 = ~Seit der Zeit er Schwierigkeiten? Es ist durchaus Zeit fÃ¼r ein neues Aussehen. ~
+@161 = ~<CHARNAME> Nalia und ich gehen in die Stadt fÃ¼r einen Tag des MÃ¤dchens. Wir werden nach einer Weile zurÃ¼ck sein. ~
 @162 = ~Bleibt hier, und versucht nicht, irgendetwas kaputtzumachen. ~
-@163 = ~<CHARNAME>, Nalia, Jaheira und ich gehen in die Stadt für einen Tag des Mädchens. Wir werden nach einer Weile zurück sein. ~
-@164 = ~<CHARNAME>, kommt schon! Nalia und ich gehen in die Stadt für einen Tag des Mädchens. ~
+@163 = ~<CHARNAME>, Nalia, Jaheira und ich gehen in die Stadt fÃ¼r einen Tag des MÃ¤dchens. Wir werden nach einer Weile zurÃ¼ck sein. ~
+@164 = ~<CHARNAME>, kommt schon! Nalia und ich gehen in die Stadt fÃ¼r einen Tag des MÃ¤dchens. ~
 @165 = ~Ihr kommt auch! ~
-@166 = ~<CHARNAME>, kommt schon! Nalia, Jaheira und ich gehen in die Stadt für einen Tag des Mädchens. ~
-@167 = ~Schaut, Nalia, ich sagte Euch, dass Ihr großartig aussehen würdet. Natürlich, nicht so gut wie ich. ~
-@168 = ~Nalia, habt Ihr gestern Abend den Bürger in der Taverne gesehen? Diesen Kerl Norman in den Mehrfarbenhosen? Er *hat* Euch völlig unter die Lupe genommen! ~
-@169 = ~Ihr hättet mit ihm sprechen sollen. Ich wette, er hatte nicht einmal Aussatz. ~
+@166 = ~<CHARNAME>, kommt schon! Nalia, Jaheira und ich gehen in die Stadt fÃ¼r einen Tag des MÃ¤dchens. ~
+@167 = ~Schaut, Nalia, ich sagte Euch, dass Ihr groÃŸartig aussehen wÃ¼rdet. NatÃ¼rlich, nicht so gut wie ich. ~
+@168 = ~Nalia, habt Ihr gestern Abend den BÃ¼rger in der Taverne gesehen? Diesen Kerl Norman in den Mehrfarbenhosen? Er *hat* Euch vÃ¶llig unter die Lupe genommen! ~
+@169 = ~Ihr hÃ¤ttet mit ihm sprechen sollen. Ich wette, er hatte nicht einmal Aussatz. ~
 @170 = ~Oh mein Gond! Nalia, Ihr seid schrecklich! ~
-@171 = ~Oh mein Gond! Nalia! Euer Tantchen würde einfach *sterben*, wenn sie Euch das sagen hören würde! ~
-@172 = ~Oh, und habt Ihr diese bedienende Dirne gesehen? Was für ein Bauerngerät! ~
-@173 = ~Das weiße Kleid, das sie trug, war völlig durchsichtig. Und sie trug nicht einmal Unterkleidung darunter! ~
-@174 = ~Oh mein Gond!. Nalia, Schätzchen, Ihr habt SOOOO recht! ~
+@171 = ~Oh mein Gond! Nalia! Euer Tantchen wÃ¼rde einfach *sterben*, wenn sie Euch das sagen hÃ¶ren wÃ¼rde! ~
+@172 = ~Oh, und habt Ihr diese bedienende Dirne gesehen? Was fÃ¼r ein BauerngerÃ¤t! ~
+@173 = ~Das weiÃŸe Kleid, das sie trug, war vÃ¶llig durchsichtig. Und sie trug nicht einmal Unterkleidung darunter! ~
+@174 = ~Oh mein Gond!. Nalia, SchÃ¤tzchen, Ihr habt SOOOO recht! ~
 @175 = ~Das erinnert mich an etwas. Es gibt diese Frau im Markt des Abenteurers in Athkatla. Deidre? Kennt Ihr sie? ~
-@176 = ~Ihr wisst, was ich über sie gehört habe? Sie sammelt Zeug. Spielsachen und große Schwerter, wenn Ihr wisst, was ich meine. ~
-@177 = ~Ich habe sogar gehört, dass sie ein Sensate Amulett hat, und dass sie manchmal ihre Männer einen Helm von Vhailor als Schutz tragen lässt! ~
-@178 = ~Nein, das ist wahr. Ich hörte es von Lady Yuth. ~
+@176 = ~Ihr wisst, was ich Ã¼ber sie gehÃ¶rt habe? Sie sammelt Zeug. Spielsachen und groÃŸe Schwerter, wenn Ihr wisst, was ich meine. ~
+@177 = ~Ich habe sogar gehÃ¶rt, dass sie ein Sensate Amulett hat, und dass sie manchmal ihre MÃ¤nner einen Helm von Vhailor als Schutz tragen lÃ¤sst! ~
+@178 = ~Nein, das ist wahr. Ich hÃ¶rte es von Lady Yuth. ~
 @179 = ~Es geht einfach darum, um Euch, Nalia, Liebste, zu zeigen, dass einige Frauen mehr bekommen wollen als aus der Scheide gezogene Schwerter! ~
-@180 = ~Nalia, wollen wir für immer Freunde sein? ~
+@180 = ~Nalia, wollen wir fÃ¼r immer Freunde sein? ~
 @181 = ~Aber sicher! ~
 @182 = ~Zweifellos! ~
