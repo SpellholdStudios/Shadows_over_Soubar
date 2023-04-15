@@ -1,22 +1,21 @@
 ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
-	REPLACE_TEXTUALLY
-~{"BD0010", "Test"},~
-~--SOS Areas
+	REPLACE_TEXTUALLY ~cheatAreasTutorial = {~
+~cheatAreasSoS = {
 
-	{"AR4201", "SOS Ribald Night"},
-	{"AR4202", "SOS Waukeen Lions Dungeon"},
-	{"AR4203", "SOS L1"},
-	{"AR4204", "SOS L2"},
-	{"AR4205", "SOS L3"},
-	{"AR4206", "SOS Cellar"},
-	{"AR4210", "SOS CBFenceOperation L1"},
-	{"AR4211", "SOS CBFenceOperation L2"},
-	{"AR4212", "SOS CBFenceOperation L3"},
-	{"AR4219", "SOS Inn"},
-	{"AR4220", "SOS River Chiontar 1"},
-	{"AR4230", "SOS Soubar"},
-	{"AR4232", "SOS Farms"},
+	{"AR4201", "SoS Ribald Night"},
+	{"AR4202", "SoS Waukeen Lions Dungeon"},
+	{"AR4203", "SoS L1"},
+	{"AR4204", "SoS L2"},
+	{"AR4205", "SoS L3"},
+	{"AR4206", "SoS Cellar"},
+	{"AR4210", "SoS CBFenceOperation L1"},
+	{"AR4211", "SoS CBFenceOperation L2"},
+	{"AR4212", "SoS CBFenceOperation L3"},
+	{"AR4219", "SoS Inn"},
+	{"AR4220", "SoS River Chiontar 1"},
+	{"AR4230", "SoS Soubar"},
+	{"AR4232", "SoS Farms"},
 	{"AR4240", "Soubar House 1 L1"},
 	{"AR4241", "Soubar House 1 L2"},
 	{"AR4242", "Soubar House 2 L1"},
@@ -74,29 +73,28 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
 	{"AR4294", "Soubar Social Club L3"},
 	{"AR4295", "Soubar Social Club L4"},
 	{"AR4296", "Soubar House 29"},
-	{"AR4299", "SOS Lyrar's Hold (alter) "},
-	{"AR4301", "SOS Lyrar's Hold House 1"},
-	{"AR4302", "SOS Lyrar's Hold House 2"},
-	{"AR4303", "SOS Lyrar's Hold Temple"},
-	{"AR4304", "SOS Lyrar's Hold L0"},
-	{"AR4305", "SOS Lyrar's Hold L1"},
-	{"AR4306", "SOS Lyrar's Hold L1a"},
-	{"AR4307", "SOS Lyrar's Hold L2"},
-	{"AR4308", "SOS Lyrar's Hold L2a"},
-	{"AR4309", "SOS Lyrar's Hold L3"},
-	{"AR4310", "SOS Lyrar's Hold L4"},
-	{"AR4311", "SOS Lyrar's Hold L5"},
-	{"AR4312", "SOS Lyrar's Hold L6"},
-	{"AR4313", "SOS Lyrar's Hold L7"},
+	{"AR4299", "SoS Lyrar's Hold (alter) "},
+	{"AR4301", "SoS Lyrar's Hold House 1"},
+	{"AR4302", "SoS Lyrar's Hold House 2"},
+	{"AR4303", "SoS Lyrar's Hold Temple"},
+	{"AR4304", "SoS Lyrar's Hold L0"},
+	{"AR4305", "SoS Lyrar's Hold L1"},
+	{"AR4306", "SoS Lyrar's Hold L1a"},
+	{"AR4307", "SoS Lyrar's Hold L2"},
+	{"AR4308", "SoS Lyrar's Hold L2a"},
+	{"AR4309", "SoS Lyrar's Hold L3"},
+	{"AR4310", "SoS Lyrar's Hold L4"},
+	{"AR4311", "SoS Lyrar's Hold L5"},
+	{"AR4312", "SoS Lyrar's Hold L6"},
+	{"AR4313", "SoS Lyrar's Hold L7"},
 	{"AR4320", "Soubar Caves 1"},
 	{"AR4325", "Soubar Caves 2"},
 	{"AR4330", "River Chiontar 2"},
 	{"AR4340", "From Soubar to Lyrar 1"},
 	{"AR4350", "From Soubar to Lyrar 2"},
-	{"AR4351", "SOS Training with Guards"},
-	{"AR4370", "SOS Lyrar's Hold"},
-		
-	{"BD0010", "Test"},
+	{"AR4351", "SoS Training with Guards"},
+	{"AR4370", "SoS Lyrar's Hold"}
+}
+cheatAreasTutorial = {
 ~
-
 END
