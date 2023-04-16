@@ -1037,11 +1037,11 @@ ACTION_IF DIRECTORY_EXISTS ~%MOD_FOLDER%/Language/%LANGUAGE%/MVE~ BEGIN
 END
 
 // older mods use SoS-RULE	
-MAKE_BIFF ~%MOD_FOLDER%-RULE~ BEGIN
-	~override~ ~%MOD_FOLDER%.mrk~
+MAKE_BIFF ~SoS-RULE~ BEGIN
+	~override~ ~SoS.mrk~
 END
 
-COPY_EXISTING ~misc01.itm~ ~override/%MOD_FOLDER%.mrk~
+COPY_EXISTING ~misc01.itm~ ~override/SoS.mrk~
 
 /* ======================== *
  *  Alternative Soubar area *
