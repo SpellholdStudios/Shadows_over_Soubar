@@ -865,8 +865,9 @@ SAY @21001
 SAY @20802
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-	INCLUDE ~%MOD_FOLDER%/lib/fl#add_kit_ee.tpa~
-	LAF fl#add_kit_ee
+	
+    INCLUDE ~%MOD_FOLDER%/lib/a7#add_kit_ex.tpa~
+    LAUNCH_ACTION_FUNCTION ADD_KIT_EX
 	INT_VAR
 		briefdesc = RESOLVE_STR_REF (@20802)
 	STR_VAR
@@ -881,8 +882,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 		thiefscl = ~100 100 100 100 100 100 100 0~
 		hpclass  = ~hprog~
 		clsrcreq = ~1 1 1 1 1 1 1~
-	END
- END
+    END
+END
 
 /*COPY_EXISTING ~K_T_H.2da~ ~Override/K_T_H.2da~    - WHAT IS THIS? shall we care about that here? let other mods do that.....
   REPLACE_TEXTUALLY ~5          32~ ~~ */
