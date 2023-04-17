@@ -1275,9 +1275,9 @@ BEGIN @21002
 		END
 
 		ACTION_DEFINE_ASSOCIATIVE_ARRAY table_SOS_biff BEGIN
-			~SOS-TIS~ , ~override~ , ~^.*\.tis$~ => 150000000 //150 MB
-			~SOS-WAV~ , ~override~ , ~^.*\.wav$~ => 150000000 //150 MB
-	//		~SOS-RES~ , ~override~ , ~^.*$~ => 100000000 
+			~SoS-TIS~ , ~override~ , ~^.*\.tis$~ => 150000000 //150 MB
+			~SoS-WAV~ , ~override~ , ~^.*\.wav$~ => 150000000 //150 MB
+	//		~SoS-RES~ , ~override~ , ~^.*$~ => 100000000 
 		END
 		
 		ACTION_PHP_EACH table_SOS_biff AS biff => size BEGIN
