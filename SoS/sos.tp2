@@ -88,20 +88,8 @@ BEGIN @20000
 DESIGNATED 0 LABEL ~shadows_over_soubar~
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-	COPY + ~Setup-%MOD_FOLDER%.exe~ ~WeiDU.exe~
-	
-	COPY + ~chitin.key~ ~%MOD_FOLDER%/chitin.sos~
-	ACTION_FOR_EACH var IN ~~ F BEGIN
-		ACTION_IF FILE_EXISTS ~dialog%var%.tlk~ BEGIN
-			COPY_LARGE + ~dialog%var%.tlk~ ~%MOD_FOLDER%/dialog%var%.sos~
-		END
-	END
-	MKDIR ~%MOD_FOLDER%/over.bak~
-	COPY_LARGE + ~override~ ~%MOD_FOLDER%/over.bak~
-
 	INCLUDE ~%MOD_FOLDER%/lib/install-guititle.tpa~
-
-END 
+END
 
 COPY_EXISTING ~misc01.itm~ ~override/sos.mrk~
 
