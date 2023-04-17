@@ -1,77 +1,77 @@
-COPY + ~%MOD_FOLDER%/ITM/CB285KY.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CB285KY.itm~          ~override~
   SAY UNIDENTIFIED_DESC @20410
 
-COPY + ~%MOD_FOLDER%/ITM/CB287BAR.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CB287BAR.itm~         ~override~
   SAY NAME1 @20411
   SAY NAME2 @20411
   SAY UNIDENTIFIED_DESC @20412
 
-COPY + ~%MOD_FOLDER%/ITM/CB300SLT.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CB300SLT.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CB351G01.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CB351G02.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CB351G03.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CB351G04.itm~         ~override~
 
-COPY + ~%MOD_FOLDER%/ITM/CB4220PS.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CB4220PS.itm~         ~override~
   SAY NAME1 @20413
   SAY NAME2 @20414
   SAY UNIDENTIFIED_DESC @20415
   SAY DESC @20416
 
-COPY + ~%MOD_FOLDER%/ITM/CB4307MG.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CB4307MG.itm~         ~override~
 
-COPY + ~%MOD_FOLDER%/ITM/CB4313BK.ITM~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CB4313BK.ITM~         ~override~
   SAY NAME2 @20417
   SAY DESC @20418
   SAY 0x10e @20419
 
-COPY + ~%MOD_FOLDER%/ITM/CB4330CT.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CB4330CT.itm~         ~override~
   SAY NAME1 @20420
   SAY NAME2 @20420
   SAY UNIDENTIFIED_DESC @20421
   SAY DESC @20421
 
-COPY + ~%MOD_FOLDER%/ITM/CBAMULPW.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBAMULPW.itm~         ~override~
   SAY NAME2 @20422
   SAY DESC @20423
 
-COPY + ~%MOD_FOLDER%/ITM/CBAROWHL.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBAROWHL.itm~         ~override~
   SAY NAME2 @20424
   SAY DESC @20425
 
-COPY + ~%MOD_FOLDER%/ITM/CBAROWPN.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBAROWPN.itm~         ~override~
   SAY NAME2 @20426
   SAY DESC @20427
 
-COPY + ~%MOD_FOLDER%/ITM/CBAROWST.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBAROWST.itm~         ~override~
   SAY NAME2 @20428
   SAY DESC @20429
 
-COPY + ~%MOD_FOLDER%/ITM/CBBANDW1.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBBANDW1.itm~         ~override~
   SAY 0x10e @20430
 
-COPY + ~%MOD_FOLDER%/ITM/CBBANDW2.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBBANDW2.itm~         ~override~
   SAY 0x10e @20431
 
-COPY + ~%MOD_FOLDER%/ITM/CBBKBNBN.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBBKBNBN.itm~         ~override~
   SAY NAME1 @20432
   SAY NAME2 @20432
   SAY UNIDENTIFIED_DESC @20433
 
-COPY + ~%MOD_FOLDER%/ITM/CBBKBNLH.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBBKBNLH.itm~         ~override~
   SAY NAME1 @20432
   SAY NAME2 @20432
   SAY UNIDENTIFIED_DESC @20434
 
-COPY + ~%MOD_FOLDER%/ITM/CBBLKCHN.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBBLKCHN.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBBLKHLM.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBBNEL20.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBBNEL30.itm~         ~override~
 
-COPY + ~%MOD_FOLDER%/ITM/CBBNEL31.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBBNEL31.itm~         ~override~
   SAY UNIDENTIFIED_DESC @20435
 
-COPY + ~%MOD_FOLDER%/ITM/CBBNLCH0.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBBNLCH0.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBBNLCH1.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBBNLCH2.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBBNLCH3.itm~         ~override~
@@ -79,562 +79,562 @@ COPY + ~%MOD_FOLDER%/ITM/CBBNLCH0.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBBNLCH5.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBBNLCH8.itm~         ~override~
 
-COPY + ~%MOD_FOLDER%/ITM/CBBRACRV.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBBRACRV.itm~         ~override~
   SAY NAME2 @20436
   SAY DESC @20437
 
-COPY + ~%MOD_FOLDER%/ITM/CBBURNBN.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBBURNBN.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBCHARNL.itm~         ~override~
 
-COPY + ~%MOD_FOLDER%/ITM/CBCAPT01.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCAPT01.itm~         ~override~
   SAY 0xae @20137
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL001.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL001.itm~          ~override~
   SAY NAME2 @20028
   SAY DESC @20438
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL002.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL002.itm~          ~override~
   SAY NAME2 @20439
   SAY DESC @20440
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL003.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL003.itm~          ~override~
   SAY NAME2 @20441
   SAY DESC @20442
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL004.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL004.itm~          ~override~
   SAY NAME2 @20443
   SAY DESC @20444
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL005.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL005.itm~          ~override~
   SAY NAME2 @20445
   SAY DESC @20446
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL006.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL006.itm~          ~override~
   SAY NAME2 @20030
   SAY DESC @20447
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL007.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL007.itm~          ~override~
   SAY NAME2 @20448
   SAY DESC @20449
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL008.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL008.itm~          ~override~
   SAY NAME2 @20450
   SAY DESC @20451
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL009.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL009.itm~          ~override~
   SAY NAME1 @20452
   SAY NAME2 @20452
   SAY UNIDENTIFIED_DESC @20453
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL010.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL010.itm~          ~override~
   SAY NAME1 @20454
   SAY NAME2 @20454
   SAY UNIDENTIFIED_DESC @20455
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL011.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL011.itm~          ~override~
   SAY NAME2 @20456
   SAY DESC @20457
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL012.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL012.itm~          ~override~
   SAY NAME2 @20458
   SAY DESC @20459
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL013.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL013.itm~          ~override~
   SAY NAME2 @20460
   SAY DESC @20461
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL014.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL014.itm~          ~override~
   SAY NAME2 @20462
   SAY DESC @20463
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL015.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL015.itm~          ~override~
   SAY NAME2 @20464
   SAY DESC @20465
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL016.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL016.itm~          ~override~
   SAY NAME2 @20032
   SAY DESC @20467
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL017.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL017.itm~          ~override~
   SAY NAME2 @20468
   SAY DESC @20469
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL018.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL018.itm~          ~override~
   SAY NAME2 @20470
   SAY DESC @20471
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL019.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL019.itm~          ~override~
   SAY NAME2 @20472
   SAY UNIDENTIFIED_DESC @20473
   SAY 0x10e @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL020.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL020.itm~          ~override~
   SAY NAME2 @20474
   SAY DESC @20475
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL021.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL021.itm~          ~override~
   SAY NAME2 @20476
   SAY DESC @20477
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL022.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL022.itm~          ~override~
   SAY NAME2 @20478
   SAY DESC @20479
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL023A.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL023A.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBCL023B.itm~         ~override~
   SAY NAME2 @20480
   SAY DESC @20481
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL024.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL024.itm~          ~override~
   SAY NAME2 @20482
   SAY DESC @20483
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL025.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL025.itm~          ~override~
   SAY NAME2 @20484
   SAY DESC @20485
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL026.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL026.itm~          ~override~
   SAY NAME2 @20486
   SAY DESC @20487
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL027.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL027.itm~          ~override~
   SAY NAME2 @20488
   SAY DESC @20489
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL028.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL028.itm~          ~override~
   SAY NAME2 @20035
   SAY DESC @20490
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL029.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL029.itm~          ~override~
   SAY NAME2 @20491
   SAY DESC @20492
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL030.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL030.itm~          ~override~
   SAY NAME2 @20493
   SAY DESC @20494
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL031.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL031.itm~          ~override~
   SAY NAME2 @20495
   SAY UNIDENTIFIED_DESC @20496
   SAY DESC @20497
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL032.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL032.itm~          ~override~
   SAY NAME1 @20498 
   SAY NAME2 @20499
   SAY UNIDENTIFIED_DESC @20500 
   SAY DESC @20501
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL033.ITM~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL033.ITM~          ~override~
   SAY NAME2 @20502
   SAY DESC @20503
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL034.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL034.itm~          ~override~
   SAY NAME2 @20504
   SAY UNIDENTIFIED_DESC @20505
   SAY DESC @20506
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL035.ITM~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL035.ITM~          ~override~
   SAY NAME2 @20507
   SAY DESC @20508 
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL036.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL036.itm~          ~override~
   SAY NAME2 @20509
   SAY DESC @20510
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL037.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL037.itm~          ~override~
   SAY NAME2 @20511
   SAY DESC @20512
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL038.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL038.itm~          ~override~
   SAY NAME2 @20513
   SAY DESC @20514 
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL039.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL039.itm~          ~override~
   SAY NAME1 @20515 
   SAY NAME2 @20516
   SAY UNIDENTIFIED_DESC @20517 
   SAY DESC @20518 
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL040.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL040.itm~          ~override~
   SAY NAME2 @20519
   SAY DESC @20520 
   SAY 0x13e @20466 
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL041.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL041.itm~          ~override~
   SAY NAME2 @20521
   SAY DESC @20522
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL042.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL042.itm~          ~override~
   SAY NAME2 @20523
   SAY DESC @20524
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL043.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL043.itm~          ~override~
   SAY NAME2 @20525
   SAY DESC @20526
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL044.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL044.itm~          ~override~
   SAY NAME2 @20527
   SAY DESC @20528
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL045.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL045.itm~          ~override~
   SAY NAME2 @20529
   SAY DESC @20530
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL046.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL046.itm~          ~override~
   SAY NAME2 @20531
   SAY DESC @20532
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL047.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL047.itm~          ~override~
   SAY NAME2 @20533
   SAY UNIDENTIFIED_DESC @20534 
   SAY DESC @20535 
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL048.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL048.itm~          ~override~
   SAY NAME2 @20536
   SAY DESC @20537
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL049.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL049.itm~          ~override~
   SAY NAME2 @20538
   SAY DESC @20539
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL050.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL050.itm~          ~override~
   SAY NAME2 @20540
   SAY DESC @20541 
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL051.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL051.itm~          ~override~
   SAY NAME2 @20542
   SAY DESC @20543
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL052.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL052.itm~          ~override~
   SAY NAME2 @20544
   SAY DESC @20545
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL053.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL053.itm~          ~override~
   SAY NAME2 @20546
   SAY DESC @20547
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL054.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL054.itm~          ~override~
   SAY NAME2 @20548
   SAY UNIDENTIFIED_DESC @20496
   SAY DESC @20549
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL055.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL055.itm~          ~override~
   SAY NAME2 @20550
   SAY DESC @20551
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL056.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL056.itm~          ~override~
   SAY NAME2 @20552
   SAY DESC @20553
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL057.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL057.itm~          ~override~
   SAY NAME2 @20554
   SAY UNIDENTIFIED_DESC @20555
   SAY DESC @20556
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL058.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL058.itm~          ~override~
   SAY NAME2 @20557
   SAY DESC @20558
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL059.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL059.itm~          ~override~
   SAY NAME2 @20559
   SAY DESC @20560
 
-COPY + ~%MOD_FOLDER%/ITM/CBCL060.itm~          ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCL060.itm~          ~override~
   SAY NAME2 @20561
   SAY DESC @20562
 
-COPY + ~%MOD_FOLDER%/ITM/CBCTWBOW.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBCTWBOW.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBCTWDOV.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBCTWDSL.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBCTWDTT.itm~         ~override~
 
-COPY + ~%MOD_FOLDER%/ITM/CBDMNSTF.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBDMNSTF.itm~         ~override~
   SAY NAME2 @20043
   SAY DESC @20563
 
-COPY + ~%MOD_FOLDER%/ITM/CBDRGDP1.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBDRGDP1.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBDRGSW1.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBDRT70A.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBDRT70B.itm~         ~override~
 
-COPY + ~%MOD_FOLDER%/ITM/CBDRWRNG.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBDRWRNG.itm~         ~override~
   SAY NAME2 @20564
   SAY DESC @20565
 
-COPY + ~%MOD_FOLDER%/ITM/CBFLDGLS.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFLDGLS.itm~         ~override~
   SAY NAME2 @20566
   SAY DESC @20567
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD01.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD01.itm~         ~override~
   SAY NAME1 @20568 
   SAY NAME2 @20568 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD02.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD02.itm~         ~override~
   SAY NAME1 @20570 
   SAY NAME2 @20570 
   SAY UNIDENTIFIED_DESC @20569
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD03.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD03.itm~         ~override~
   SAY NAME1 @20571 
   SAY NAME2 @20571 
   SAY UNIDENTIFIED_DESC @20569
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD04.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD04.itm~         ~override~
   SAY NAME1 @20572 
   SAY NAME2 @20572 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD05.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD05.itm~         ~override~
   SAY NAME1 @20573 
   SAY NAME2 @20573 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD06.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD06.itm~         ~override~
   SAY NAME1 @20574 
   SAY NAME2 @20574 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD07.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD07.itm~         ~override~
   SAY NAME1 @20575 
   SAY NAME2 @20575 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD08.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD08.itm~         ~override~
   SAY NAME1 @20576
   SAY NAME2 @20576
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD09.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD09.itm~         ~override~
   SAY NAME1 @20577 
   SAY NAME2 @20577 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD10.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD10.itm~         ~override~
   SAY NAME1 @20578
   SAY NAME2 @20578 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD11.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD11.itm~         ~override~
   SAY NAME1 @20579 
   SAY NAME2 @20579 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD12.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD12.itm~         ~override~
   SAY NAME1 @20580
   SAY NAME2 @20580 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD13.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD13.itm~         ~override~
   SAY NAME1 @20581 
   SAY NAME2 @20581 
   SAY UNIDENTIFIED_DESC @20569
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD14.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD14.itm~         ~override~
   SAY NAME1 @20582 
   SAY NAME2 @20582 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD15.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD15.itm~         ~override~
   SAY NAME1 @20583 
   SAY NAME2 @20583 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD16.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD16.itm~         ~override~
   SAY NAME1 @20584 
   SAY NAME2 @20584 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD17.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD17.itm~         ~override~
   SAY NAME1 @20585 
   SAY NAME2 @20585 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD18.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD18.itm~         ~override~
   SAY NAME1 @20586 
   SAY NAME2 @20586 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD19.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD19.itm~         ~override~
   SAY NAME1 @20587 
   SAY NAME2 @20587 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD20.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD20.itm~         ~override~
   SAY NAME1 @20588 
   SAY NAME2 @20588 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD21.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD21.itm~         ~override~
   SAY NAME1 @20589 
   SAY NAME2 @20589
   SAY UNIDENTIFIED_DESC @20569
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD22.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD22.itm~         ~override~
   SAY NAME1 @20590 
   SAY NAME2 @20590 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD23.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD23.itm~         ~override~
   SAY NAME1 @20591 
   SAY NAME2 @20591 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD24.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD24.itm~         ~override~
   SAY NAME1 @20592 
   SAY NAME2 @20592 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD25.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD25.itm~         ~override~
   SAY NAME1 @20593 
   SAY NAME2 @20593
   SAY UNIDENTIFIED_DESC @20594 
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFOOD26.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFOOD26.itm~         ~override~
   SAY NAME1 @20595 
   SAY NAME2 @20595 
   SAY UNIDENTIFIED_DESC @20569 
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBFXMNK1.ITM~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBFXMNK1.ITM~         ~override~
        ~%MOD_FOLDER%/ITM/CBFXMNKA.ITM~         ~override~
 
-COPY + ~%MOD_FOLDER%/ITM/CBGHSTBN.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBGHSTBN.itm~         ~override~
   SAY NAME2 @20596
   SAY DESC @20597
 
-COPY + ~%MOD_FOLDER%/ITM/CBGRBON2.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBGRBON2.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBGRBONE.itm~         ~override~
 
-COPY + ~%MOD_FOLDER%/ITM/CBHBBOOK.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBHBBOOK.itm~         ~override~
   SAY NAME1 @20432 
   SAY NAME2 @20432 
   SAY UNIDENTIFIED_DESC @20598
   SAY 0x10e @20599
 
-COPY + ~%MOD_FOLDER%/ITM/CBHBLFET.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBHBLFET.itm~         ~override~
   SAY NAME2 @20046
   SAY DESC @20600
 
-COPY + ~%MOD_FOLDER%/ITM/CBHBSLDR.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBHBSLDR.itm~         ~override~
   SAY NAME2 @20048
   SAY DESC @20601
 
-COPY + ~%MOD_FOLDER%/ITM/CBHBSLDV.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBHBSLDV.itm~         ~override~
   SAY NAME2 @20050
   SAY DESC @20602
 
-COPY + ~%MOD_FOLDER%/ITM/CBHBSLSK.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBHBSLSK.itm~         ~override~
   SAY NAME2 @20052
   SAY DESC @20603
 
-COPY + ~%MOD_FOLDER%/ITM/CBHBSLSN.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBHBSLSN.itm~         ~override~
   SAY NAME2 @20054
   SAY DESC @20604
 
-COPY + ~%MOD_FOLDER%/ITM/CBHBSLZP.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBHBSLZP.itm~         ~override~
   SAY NAME2 @20056
   SAY DESC @20605
 
-COPY + ~%MOD_FOLDER%/ITM/CBKILLCH.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBKILLCH.itm~         ~override~
   SAY NAME1 @20606
   SAY NAME2 @20607
   SAY UNIDENTIFIED_DESC @20608
   SAY DESC @20609
 
-COPY + ~%MOD_FOLDER%/ITM/CBHMSOUB.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBHMSOUB.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBLARSOB.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBLLTH3A.itm~         ~override~
 
-COPY + ~%MOD_FOLDER%/ITM/CBLIEUT1.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBLIEUT1.itm~         ~override~
   SAY 0xae @20610
 
-COPY + ~%MOD_FOLDER%/ITM/CBLIEUT2.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBLIEUT2.itm~         ~override~
   SAY 0xae @20611
 
-COPY + ~%MOD_FOLDER%/ITM/CBLOCKER.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBLOCKER.itm~         ~override~
   SAY NAME1 @20612 
   SAY NAME2 @20612 
   SAY UNIDENTIFIED_DESC @20613
 
-COPY + ~%MOD_FOLDER%/ITM/CBLOGMSS.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBLOGMSS.itm~         ~override~
   SAY UNIDENTIFIED_DESC @20614 
   SAY IDENTIFIED_DESC @20614
 
-COPY + ~%MOD_FOLDER%/ITM/CBLOLTH1.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBLOLTH1.itm~         ~override~
 
-COPY + ~%MOD_FOLDER%/ITM/CBLOLTH3.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBLOLTH3.itm~         ~override~
   SAY NAME2 @20615
   SAY DESC @20616
 
-COPY + ~%MOD_FOLDER%/ITM/CBLTCNT1.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBLTCNT1.itm~         ~override~
   SAY NAME1 @20617 
   SAY NAME2 @20617 
   SAY UNIDENTIFIED_DESC @20618 
 
-COPY + ~%MOD_FOLDER%/ITM/CBLTCNT2.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBLTCNT2.itm~         ~override~
   SAY NAME1 @20619 
   SAY NAME2 @20620 
   SAY UNIDENTIFIED_DESC @20621
   SAY DESC @20622
 
-COPY + ~%MOD_FOLDER%/ITM/CBLYMACE.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBLYMACE.itm~         ~override~
   SAY NAME2 @20623 
   SAY DESC @20624
 
-COPY + ~%MOD_FOLDER%/ITM/CBLYPLAT.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBLYPLAT.itm~         ~override~
   SAY NAME2 @20625 
   SAY DESC @20626
 
-COPY + ~%MOD_FOLDER%/ITM/CBLYSHLD.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBLYSHLD.itm~         ~override~
   SAY NAME2 @20627 
   SAY DESC @20628
 
-COPY + ~%MOD_FOLDER%/ITM/CBMANCL2.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBMANCL2.itm~         ~override~
   SAY NAME1 @20629 
   SAY NAME2 @20629 
   SAY UNIDENTIFIED_DESC @20630 
 
-COPY + ~%MOD_FOLDER%/ITM/CBMANCLE.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBMANCLE.itm~         ~override~
   SAY NAME1 @20629 
   SAY NAME2 @20629 
   SAY UNIDENTIFIED_DESC @20631 
   SAY 0xde @20632
 
-COPY + ~%MOD_FOLDER%/ITM/CBMAYRSB.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBMAYRSB.itm~         ~override~
   SAY 0xae @20633
-COPY + ~%MOD_FOLDER%/ITM/CBMAYRSC.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBMAYRSC.itm~         ~override~
   SAY 0xae @20634
-COPY + ~%MOD_FOLDER%/ITM/CBMAYRSD.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBMAYRSD.itm~         ~override~
   SAY 0xae @20635
 
-COPY + ~%MOD_FOLDER%/ITM/CBMILT01.ITM~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBMILT01.ITM~         ~override~
        ~%MOD_FOLDER%/ITM/CBMILT02.ITM~         ~override~
        ~%MOD_FOLDER%/ITM/CBMILT03.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBMILT04.itm~         ~override~
@@ -648,188 +648,188 @@ COPY + ~%MOD_FOLDER%/ITM/CBMILT01.ITM~         ~override~
        ~%MOD_FOLDER%/ITM/CBNALRNG.ITM~         ~override~
        ~%MOD_FOLDER%/ITM/CBPARSOB.itm~         ~override~
 
-COPY + ~%MOD_FOLDER%/ITM/CBPREMSS.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBPREMSS.itm~         ~override~
   SAY UNIDENTIFIED_DESC @20636
   SAY IDENTIFIED_DESC @20636
 
-COPY + ~%MOD_FOLDER%/ITM/CBPS4220.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBPS4220.itm~         ~override~
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR001.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR001.itm~         ~override~
   SAY NAME2 @20637
   SAY DESC @20638
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR002.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR002.itm~         ~override~
   SAY NAME2 @20639
   SAY DESC @20640
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR004.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR004.itm~         ~override~
   SAY NAME2 @20641
   SAY DESC @20642
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR005.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR005.itm~         ~override~
   SAY NAME2 @20643
   SAY UNIDENTIFIED_DESC @20644
   SAY DESC @20645
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR006.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR006.itm~         ~override~
   SAY NAME2 @20646
   SAY DESC @20647
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR007.ITM~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR007.ITM~         ~override~
   SAY NAME2 @20648
   SAY DESC @20649 
   SAY 0x43e @20650 
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR008.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR008.itm~         ~override~
   SAY NAME2 @20651
   SAY DESC @20652
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR009.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR009.itm~         ~override~
   SAY NAME2 @20058
   SAY DESC @20653
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR010.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR010.itm~         ~override~
   SAY NAME2 @20654
   SAY DESC @20655
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR011.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR011.itm~         ~override~
   SAY NAME2 @20656
   SAY DESC @20657
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR012.ITM~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR012.ITM~         ~override~
   SAY UNIDENTIFIED_DESC @20658 
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR013.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR013.itm~         ~override~
   SAY NAME2 @20659
   SAY DESC @20660
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR014.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR014.itm~         ~override~
   SAY NAME2 @20661
   SAY DESC @20662
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR015.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR015.itm~         ~override~
   SAY NAME2 @20663
   SAY DESC @20664
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR017.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR017.itm~         ~override~
   SAY NAME2 @20665
   SAY DESC @20666
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR018.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR018.itm~         ~override~
   SAY NAME1 @20667
   SAY NAME2 @20668 
   SAY UNIDENTIFIED_DESC @20669 
   SAY DESC @20670
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR019.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR019.itm~         ~override~
   SAY NAME2 @20671
   SAY DESC @20672
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR020.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR020.itm~         ~override~
   SAY NAME2 @20673
   SAY DESC @20674
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR021.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR021.itm~         ~override~
   SAY NAME2 @20675
   SAY DESC @20676
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR03A.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR03A.itm~         ~override~
   SAY NAME1 @20677
   SAY NAME2 @20677
   SAY UNIDENTIFIED_DESC @20678
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR03B.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR03B.itm~         ~override~
   SAY NAME2 @20679
   SAY DESC @20680
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR03C.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR03C.itm~         ~override~
   SAY NAME2 @20679
   SAY DESC @20681
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR03D.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR03D.itm~         ~override~
   SAY NAME2 @20679
   SAY DESC @20682
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR03E.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR03E.itm~         ~override~
   SAY NAME2 @20679
   SAY DESC @20683
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR03F.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR03F.itm~         ~override~
   SAY NAME2 @20679
   SAY DESC @20684
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR03G.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR03G.itm~         ~override~
   SAY NAME2 @20679
   SAY DESC @20685
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR03H.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR03H.itm~         ~override~
   SAY NAME2 @20679
   SAY DESC @20686
 
-COPY + ~%MOD_FOLDER%/ITM/CBRJR03I.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRJR03I.itm~         ~override~
   SAY NAME2 @20679
   SAY DESC @20687
 
-COPY + ~%MOD_FOLDER%/ITM/CBRNGLOP.ITM~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRNGLOP.ITM~         ~override~
        ~%MOD_FOLDER%/ITM/CBROLFCR.itm~         ~override~
 
-COPY + ~%MOD_FOLDER%/ITM/CBROLFJA.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBROLFJA.itm~         ~override~
   SAY NAME1 @20688
   SAY NAME2 @20688
   SAY UNIDENTIFIED_DESC @20689
 
-COPY + ~%MOD_FOLDER%/ITM/CBROLFJB.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBROLFJB.itm~         ~override~
   SAY NAME1 @20688
   SAY NAME2 @20688
   SAY UNIDENTIFIED_DESC @20690
 
-COPY + ~%MOD_FOLDER%/ITM/CBROLFJC.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBROLFJC.itm~         ~override~
   SAY NAME1 @20688
   SAY NAME2 @20688 
   SAY UNIDENTIFIED_DESC @20691
 
-COPY + ~%MOD_FOLDER%/ITM/CBROLFJD.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBROLFJD.itm~         ~override~
   SAY NAME1 @20688
   SAY NAME2 @20688 
   SAY UNIDENTIFIED_DESC @20692
 
-COPY + ~%MOD_FOLDER%/ITM/CBROLFJE.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBROLFJE.itm~         ~override~
   SAY NAME1 @20688
   SAY NAME2 @20688
   SAY UNIDENTIFIED_DESC @20693
 
-COPY + ~%MOD_FOLDER%/ITM/CBROLFJF.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBROLFJF.itm~         ~override~
   SAY NAME1 @20688 
   SAY NAME2 @20688
   SAY UNIDENTIFIED_DESC @20694
 
-COPY + ~%MOD_FOLDER%/ITM/CBROLFJG.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBROLFJG.itm~         ~override~
   SAY NAME1 @20688
   SAY NAME2 @20688
   SAY UNIDENTIFIED_DESC @20695
 
-COPY + ~%MOD_FOLDER%/ITM/CBROLFSB.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBROLFSB.itm~         ~override~
 
-COPY + ~%MOD_FOLDER%/ITM/CBROLFSH.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBROLFSH.itm~         ~override~
   SAY NAME2 @20696 
   SAY DESC @20697
 
-COPY + ~%MOD_FOLDER%/ITM/CBROLFSW.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBROLFSW.itm~         ~override~
   SAY NAME2 @20698
   SAY DESC @20699
 
-COPY + ~%MOD_FOLDER%/ITM/CBROPEDP.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBROPEDP.itm~         ~override~
   SAY NAME1 @20700 
   SAY NAME2 @20700 
   SAY UNIDENTIFIED_DESC @20701
 
-COPY + ~%MOD_FOLDER%/ITM/CBRRRPIP.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBRRRPIP.itm~         ~override~
   SAY NAME1 @20702
   SAY NAME2 @20703 
   SAY UNIDENTIFIED_DESC @20534 
   SAY DESC @20704
 
-COPY + ~%MOD_FOLDER%/ITM/CBSBMLT1.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBSBMLT1.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBSBMLT2.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBSBMLT3.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBSBMLT4.itm~         ~override~
@@ -864,44 +864,44 @@ COPY + ~%MOD_FOLDER%/ITM/CBSBMLT1.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBSBMLTY.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBSBMLTZ.itm~         ~override~
 
-COPY + ~%MOD_FOLDER%/ITM/CBSHCCKY.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBSHCCKY.itm~         ~override~
   SAY DESC @20705
 
-COPY + ~%MOD_FOLDER%/ITM/CBSHGOLD.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBSHGOLD.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBSHSOUB.itm~         ~override~
 
-COPY + ~%MOD_FOLDER%/ITM/CBSLENCE.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBSLENCE.itm~         ~override~
   SAY NAME1 @20706 
   SAY NAME2 @20707
   SAY UNIDENTIFIED_DESC @20708
   SAY DESC @20709 
 
-COPY + ~%MOD_FOLDER%/ITM/CBSOSBOK.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBSOSBOK.itm~         ~override~
   SAY NAME1 @20432 
   SAY NAME2 @20432 
   SAY UNIDENTIFIED_DESC @20710
 
-COPY + ~%MOD_FOLDER%/ITM/CBSOUBID.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBSOUBID.itm~         ~override~
   SAY NAME1 @20711 
   SAY NAME2 @20711 
   SAY UNIDENTIFIED_DESC @20712
 
-COPY + ~%MOD_FOLDER%/ITM/CBSOUSG1.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBSOUSG1.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBSOUSG3.itm~         ~override~
 
-COPY + ~%MOD_FOLDER%/ITM/CBSOUSG2.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBSOUSG2.itm~         ~override~
   SAY 0xae @20713
-COPY + ~%MOD_FOLDER%/ITM/CBSOUSG4.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBSOUSG4.itm~         ~override~
   SAY 0xae @20237
 
-COPY + ~%MOD_FOLDER%/ITM/CBSSYETI.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBSSYETI.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBSPYHP1.itm~         ~override~
 
-COPY + ~%MOD_FOLDER%/ITM/CBSTFSKL.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBSTFSKL.itm~         ~override~
   SAY NAME2 @20064
   SAY DESC @20714
 
-COPY + ~%MOD_FOLDER%/ITM/CBTN2HS1.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBTN2HS1.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBTN2HS2.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBTN2HS3.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBTN2HS4.itm~         ~override~
@@ -1014,182 +1014,182 @@ COPY + ~%MOD_FOLDER%/ITM/CBTN2HS1.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBTNXBW4.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBTNXBW5.itm~         ~override~
 
-COPY + ~%MOD_FOLDER%/ITM/CBTRMWRM.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBTRMWRM.itm~         ~override~
 
-COPY + ~%MOD_FOLDER%/ITM/CBTRVBAG.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBTRVBAG.itm~         ~override~
   SAY NAME1 @20715
   SAY NAME2 @20715
   SAY UNIDENTIFIED_DESC @20716
 
-COPY + ~%MOD_FOLDER%/ITM/CBTWORM0.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBTWORM0.itm~         ~override~
        ~%MOD_FOLDER%/ITM/CBTWORM1.itm~         ~override~
 
-COPY + ~%MOD_FOLDER%/ITM/CBTWRMHT.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBTWRMHT.itm~         ~override~
   SAY NAME1 @20717
   SAY NAME2 @20717 
   SAY UNIDENTIFIED_DESC @20718
 
-COPY + ~%MOD_FOLDER%/ITM/CBUHGVAR.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBUHGVAR.itm~         ~override~
   SAY NAME2 @20719
   SAY DESC @20720
 
-COPY + ~%MOD_FOLDER%/ITM/CBUHGVSD.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBUHGVSD.itm~         ~override~
   SAY NAME2 @20721
   SAY DESC @20722
 
-COPY + ~%MOD_FOLDER%/ITM/CBWEREGD.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWEREGD.itm~         ~override~
   SAY 0x10e @20723
 
-COPY + ~%MOD_FOLDER%/ITM/CBWINE01.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWINE01.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20725
   SAY UNIDENTIFIED_DESC @20726
   SAY 0xde @20466 
 
-COPY + ~%MOD_FOLDER%/ITM/CBWINE02.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWINE02.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20727
   SAY UNIDENTIFIED_DESC @20726
   SAY 0xde @20466 
 
-COPY + ~%MOD_FOLDER%/ITM/CBWINE03.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWINE03.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20728
   SAY UNIDENTIFIED_DESC @20726
   SAY 0xde @20466 
 
-COPY + ~%MOD_FOLDER%/ITM/CBWINE04.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWINE04.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20729
   SAY UNIDENTIFIED_DESC @20726
   SAY 0xde @20466 
 
-COPY + ~%MOD_FOLDER%/ITM/CBWINE05.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWINE05.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20730
   SAY UNIDENTIFIED_DESC @20726
   SAY 0xde @20466 
 
-COPY + ~%MOD_FOLDER%/ITM/CBWINE06.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWINE06.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20731
   SAY UNIDENTIFIED_DESC @20726
   SAY 0xde @20466 
 
-COPY + ~%MOD_FOLDER%/ITM/CBWINE07.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWINE07.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20732
   SAY UNIDENTIFIED_DESC @20726
   SAY 0xde @20466 
 
-COPY + ~%MOD_FOLDER%/ITM/CBWINE08.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWINE08.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20733
   SAY UNIDENTIFIED_DESC @20726
   SAY 0xde @20466 
 
-COPY + ~%MOD_FOLDER%/ITM/CBWINE09.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWINE09.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20734
   SAY UNIDENTIFIED_DESC @20726
   SAY 0xde @20466 
 
-COPY + ~%MOD_FOLDER%/ITM/CBWINE10.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWINE10.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20735
   SAY UNIDENTIFIED_DESC @20726
   SAY 0xde @20466 
 
-COPY + ~%MOD_FOLDER%/ITM/CBWINE11.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWINE11.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20736
   SAY UNIDENTIFIED_DESC @20726
   SAY 0xde @20466 
 
-COPY + ~%MOD_FOLDER%/ITM/CBWINE12.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWINE12.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20737
   SAY UNIDENTIFIED_DESC @20738
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBWINE13.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWINE13.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20737
   SAY UNIDENTIFIED_DESC @20739
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBWINE14.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWINE14.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20737
   SAY UNIDENTIFIED_DESC @20740
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBWINE15.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWINE15.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20737
   SAY UNIDENTIFIED_DESC @20741
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBWINE16.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWINE16.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20737
   SAY UNIDENTIFIED_DESC @20742
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBWINE17.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWINE17.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20737
   SAY UNIDENTIFIED_DESC @20743
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBWINE18.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWINE18.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20744
   SAY UNIDENTIFIED_DESC @20726
   SAY 0xde @20466 
 
-COPY + ~%MOD_FOLDER%/ITM/CBWINE19.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWINE19.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20745
   SAY UNIDENTIFIED_DESC @20738
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBWINE20.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWINE20.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20745
   SAY UNIDENTIFIED_DESC @20746
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBWINE21.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWINE21.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20745
   SAY UNIDENTIFIED_DESC @20747
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBWINE22.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWINE22.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20748
   SAY UNIDENTIFIED_DESC @20749
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBWINE23.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWINE23.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20750
   SAY UNIDENTIFIED_DESC @20751
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBWINE24.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWINE24.itm~         ~override~
   SAY NAME1 @20724
   SAY NAME2 @20750
   SAY UNIDENTIFIED_DESC @20746
   SAY 0xde @20466
 
-COPY + ~%MOD_FOLDER%/ITM/CBWLKEY1.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWLKEY1.itm~         ~override~
   SAY NAME1 @20752
   SAY NAME2 @20752
   SAY UNIDENTIFIED_DESC @20753
 
-COPY + ~%MOD_FOLDER%/ITM/CBWLSERV.itm~         ~override~
+COPY ~%MOD_FOLDER%/ITM/CBWLSERV.itm~         ~override~
   SAY NAME1 @20754
   SAY NAME2 @20754 
   SAY UNIDENTIFIED_DESC @20755
