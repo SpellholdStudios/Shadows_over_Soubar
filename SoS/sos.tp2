@@ -634,35 +634,35 @@ PRINT @20756
 
 ACTION_IF NOT FILE_EXISTS ~data/TDD-RULE.BIF~ AND NOT FILE_EXISTS_IN_GAME ~tdd.mrk~ OR GAME_IS ~bg2ee eet~
 THEN BEGIN
-COPY + ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPWI429.spl~          ~override~
+COPY ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPWI429.spl~          ~override~
   SAY NAME1 @20651
   SAY UNIDENTIFIED_DESC @20652
 
-COPY + ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPRB005A.bam~          ~override~
+COPY ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPRB005A.bam~          ~override~
        ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPRB005B.bam~          ~override~
        ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPRB005C.bam~          ~override~
 END
 
-COPY + ~%MOD_FOLDER%/SPL/Copy~                 ~override~
+COPY ~%MOD_FOLDER%/SPL/Copy~                 ~override~
 
-COPY + ~%MOD_FOLDER%/SPL/CBBRCRVA.spl~         ~override~
+COPY ~%MOD_FOLDER%/SPL/CBBRCRVA.spl~         ~override~
 
-COPY + ~%MOD_FOLDER%/SPL/CBBRCRVB.spl~         ~override~
+COPY ~%MOD_FOLDER%/SPL/CBBRCRVB.spl~         ~override~
   SAY NAME1 @20757
 
-COPY + ~%MOD_FOLDER%/SPL/CBBRNOIL.spl~         ~override~
+COPY ~%MOD_FOLDER%/SPL/CBBRNOIL.spl~         ~override~
 
-COPY + ~%MOD_FOLDER%/SPL/CB300SLT.spl~         ~override~
+COPY ~%MOD_FOLDER%/SPL/CB300SLT.spl~         ~override~
   SAY NAME1 @20758
 
-COPY + ~%MOD_FOLDER%/SPL/CB4330CT.spl~         ~override~
+COPY ~%MOD_FOLDER%/SPL/CB4330CT.spl~         ~override~
   SAY NAME1 @20759
   SAY 0xfe @20760
 
-COPY + ~%MOD_FOLDER%/SPL/CBDRGDP1.spl~         ~override~
+COPY ~%MOD_FOLDER%/SPL/CBDRGDP1.spl~         ~override~
   SAY NAME1 @20761
 
-COPY + ~%MOD_FOLDER%/SPL/CBRVCH.spl~           ~override~
+COPY ~%MOD_FOLDER%/SPL/CBRVCH.spl~           ~override~
   SAY NAME1 @20762
   SAY 0xce @20763 
 
@@ -672,50 +672,50 @@ COPY + ~%MOD_FOLDER%/SPL/CBRVCH.spl~           ~override~
 //******************************************************************
 PRINT @20764
 
-COPY + ~%MOD_FOLDER%/STO/CB351GD1.sto~         ~override~
+COPY ~%MOD_FOLDER%/STO/CB351GD1.sto~         ~override~
   SAY NAME2 @20765 
 
-COPY + ~%MOD_FOLDER%/STO/CB4279ST.sto~         ~override~
+COPY ~%MOD_FOLDER%/STO/CB4279ST.sto~         ~override~
   SAY NAME2 @20766 
 
-COPY + ~%MOD_FOLDER%/STO/CB4280ST.sto~         ~override~       
+COPY ~%MOD_FOLDER%/STO/CB4280ST.sto~         ~override~       
   SAY NAME2 @20767 
 
-COPY + ~%MOD_FOLDER%/STO/CB4281ST.sto~         ~override~       
+COPY ~%MOD_FOLDER%/STO/CB4281ST.sto~         ~override~       
   SAY NAME2 @20768 
 
-COPY + ~%MOD_FOLDER%/STO/CBCHANT1.sto~         ~override~
+COPY ~%MOD_FOLDER%/STO/CBCHANT1.sto~         ~override~
   SAY NAME2 @20079 
 
-COPY + ~%MOD_FOLDER%/STO/CBLOCKER.sto~         ~override~
+COPY ~%MOD_FOLDER%/STO/CBLOCKER.sto~         ~override~
   SAY NAME2 @20612 
 
-COPY + ~%MOD_FOLDER%/STO/CBRJR03A.sto~         ~override~
+COPY ~%MOD_FOLDER%/STO/CBRJR03A.sto~         ~override~
   SAY NAME2 @20677 
 
-COPY + ~%MOD_FOLDER%/STO/CBSBIN62.sto~         ~override~
+COPY ~%MOD_FOLDER%/STO/CBSBIN62.sto~         ~override~
   SAY NAME2 @20769 
 
-COPY + ~%MOD_FOLDER%/STO/CBSBIN64.sto~         ~override~       
+COPY ~%MOD_FOLDER%/STO/CBSBIN64.sto~         ~override~       
   SAY NAME2 @20770 
 
-COPY + ~%MOD_FOLDER%/STO/CBSBIN67.sto~         ~override~       
+COPY ~%MOD_FOLDER%/STO/CBSBIN67.sto~         ~override~       
   SAY NAME2 @20771 
 
-COPY + ~%MOD_FOLDER%/STO/CBSBIN71.sto~         ~override~       
+COPY ~%MOD_FOLDER%/STO/CBSBIN71.sto~         ~override~       
   SAY NAME2 @20772 
 
-COPY + ~%MOD_FOLDER%/STO/CBSBIN72.STO~         ~override~
+COPY ~%MOD_FOLDER%/STO/CBSBIN72.STO~         ~override~
   SAY NAME2 @20244 
 
-COPY + ~%MOD_FOLDER%/STO/CBSBIN7A.sto~         ~override~
+COPY ~%MOD_FOLDER%/STO/CBSBIN7A.sto~         ~override~
        ~%MOD_FOLDER%/STO/CBSBIN7B.sto~         ~override~
   SAY NAME2 @20773 
 
-COPY + ~%MOD_FOLDER%/STO/CBSBWT67.sto~         ~override~       
+COPY ~%MOD_FOLDER%/STO/CBSBWT67.sto~         ~override~       
   SAY NAME2 @20774
 
-COPY + ~%MOD_FOLDER%/STO/CBSBWU67.sto~         ~override~       
+COPY ~%MOD_FOLDER%/STO/CBSBWU67.sto~         ~override~       
   SAY NAME2 @20771
   SAY 0xa4 @20775
   SAY 0xb8 @20776
@@ -729,16 +729,16 @@ COPY + ~%MOD_FOLDER%/STO/CBSBWU67.sto~         ~override~
   SAY 0x158 @20784
   SAY 0x16c @20785
 
-COPY + ~%MOD_FOLDER%/STO/CBSLENCE.sto~         ~override~
+COPY ~%MOD_FOLDER%/STO/CBSLENCE.sto~         ~override~
   SAY NAME2 @20786
 
-COPY + ~%MOD_FOLDER%/STO/CBTRVBAG.sto~         ~override~
+COPY ~%MOD_FOLDER%/STO/CBTRVBAG.sto~         ~override~
   SAY NAME2 @20715 
 
-COPY + ~%MOD_FOLDER%/STO/CBWBBUY1.sto~         ~override~
+COPY ~%MOD_FOLDER%/STO/CBWBBUY1.sto~         ~override~
   SAY NAME2 @20787 
 
-COPY + ~%MOD_FOLDER%/STO/CBWBTEST.sto~         ~override~
+COPY ~%MOD_FOLDER%/STO/CBWBTEST.sto~         ~override~
   SAY NAME2 @20787 
   SAY 0xa4 @20729
   SAY 0xb8 @20728
@@ -766,7 +766,7 @@ COPY + ~%MOD_FOLDER%/STO/CBWBTEST.sto~         ~override~
   SAY 0x270 @20732
 
 ACTION_IF NOT FILE_EXISTS_IN_GAME ~Inn2616.sto~ THEN BEGIN 
-  COPY + ~%MOD_FOLDER%/STO/bgee/Inn2616.sto~         ~override~
+  COPY ~%MOD_FOLDER%/STO/bgee/Inn2616.sto~         ~override~
     SAY NAME2 #11676 //Candlekeep Inn
 END
 
@@ -790,7 +790,7 @@ ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
 			COPY ~%BASH_FOR_FILESPEC%~ ~%MOD_FOLDER%/ogg2~
 		END
 	END
-  COPY + ~%MOD_FOLDER%/CRE/CBSSYETI.cre~         ~override~
+  COPY ~%MOD_FOLDER%/CRE/CBSSYETI.cre~         ~override~
 		SAY NAME1 @20288
 		SAY NAME2 @20288
 		WRITE_LONG 0x28 0xE060   //IC_LICH
@@ -813,7 +813,7 @@ ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
 			COPY ~%BASH_FOR_FILESPEC%~ ~%MOD_FOLDER%/ogg2~
 		END
 	END
-  COPY + ~%MOD_FOLDER%/CRE/CBSSYETI.cre~         ~override~
+  COPY ~%MOD_FOLDER%/CRE/CBSSYETI.cre~         ~override~
 		SAY NAME1 @20288
 		SAY NAME2 @20288
 		WRITE_LONG 0x28 0xE25D   //IC_LICH          0xE25D TUNDRA_YETI with EE    0xe25D IC_TUNDRA_YETI with EXTENDED ANIMATION
@@ -832,12 +832,12 @@ ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
 			COPY ~%BASH_FOR_FILESPEC%~ ~%MOD_FOLDER%/ogg2~
 		END
 	END
-	COPY + ~%MOD_FOLDER%/CRE/CBTWRMGR.cre~         ~override~
+	COPY ~%MOD_FOLDER%/CRE/CBTWRMGR.cre~         ~override~
 		SAY NAME1 @20340
 		SAY NAME2 @20340
 		WRITE_LONG 0x28 0xE230   //IC_BEETLE_RHINOCEROS
 
-	COPY + ~%MOD_FOLDER%/CRE/CBTWRMLS.cre~         ~override~
+	COPY ~%MOD_FOLDER%/CRE/CBTWRMLS.cre~         ~override~
 		SAY NAME1 @20341
 		SAY NAME2 @20341
 		WRITE_LONG 0x28 0xE230   //IC_BEETLE_RHINOCEROS
@@ -858,12 +858,12 @@ ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
 			COPY ~%BASH_FOR_FILESPEC%~ ~%MOD_FOLDER%/ogg2~
 		END
 	END
-	COPY + ~%MOD_FOLDER%/CRE/CBTWRMGR.cre~         ~override~
+	COPY ~%MOD_FOLDER%/CRE/CBTWRMGR.cre~         ~override~
 		SAY NAME1 @20340
 		SAY NAME2 @20340
 		WRITE_LONG 0x28 0xE253   //REMORHAZ
 	
-	COPY + ~%MOD_FOLDER%/CRE/CBTWRMLS.cre~         ~override~
+	COPY ~%MOD_FOLDER%/CRE/CBTWRMLS.cre~         ~override~
 		SAY NAME1 @20341
 		SAY NAME2 @20341
 		WRITE_LONG 0x28 0xE253   //REMORHAZ
@@ -921,15 +921,15 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 /*COPY_EXISTING ~K_T_H.2da~ ~Override/K_T_H.2da~    - WHAT IS THIS? shall we care about that here? let other mods do that.....
   REPLACE_TEXTUALLY ~5          32~ ~~ */
 
-COPY + ~%MOD_FOLDER%/SPL/CBFENCE5.spl~         ~override~
+COPY ~%MOD_FOLDER%/SPL/CBFENCE5.spl~         ~override~
        ~%MOD_FOLDER%/SPL/CBFNCE2.spl~          ~override~
        ~%MOD_FOLDER%/SPL/CBFNCE3.spl~          ~override~
 
-COPY + ~%MOD_FOLDER%/SPL/CBFNCE4.spl~          ~override~
+COPY ~%MOD_FOLDER%/SPL/CBFNCE4.spl~          ~override~
   SAY NAME1 @20803
 
 //Here we should determine a REAL ID of FENCE kit and set it for CREs
-COPY + ~%MOD_FOLDER%/CRE/SELENC07.cre~         ~override~
+COPY ~%MOD_FOLDER%/CRE/SELENC07.cre~         ~override~
        ~%MOD_FOLDER%/CRE/SELENC09.cre~         ~override~
        ~%MOD_FOLDER%/CRE/SELENC12.cre~         ~override~
        ~%MOD_FOLDER%/CRE/SELENC17.cre~         ~override~
