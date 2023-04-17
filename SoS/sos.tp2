@@ -6,7 +6,7 @@ NO_IF_EVAL_BUG
 
 VERSION ~1.16~
 
-README ~%MOD_FOLDER%/readme/%MOD_FOLDER%-readme-%LANGUAGE%.html~ ~%MOD_FOLDER%/readme/%MOD_FOLDER%-readme-readme-english.html~
+README ~%MOD_FOLDER%/readme/%MOD_FOLDER%-readme-readme-english.html~ ~%MOD_FOLDER%/readme/%MOD_FOLDER%-readme-%LANGUAGE%.html~
 
 AUTO_TRA ~%MOD_FOLDER%/Language/%s~
 
