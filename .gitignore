@@ -1,8 +1,6 @@
 $RECYCLE.BIN/
 __macosx
-backup/
-temp/
-tmp/
+/temp/
 
 .*
 !/.gitattributes
