@@ -1,7 +1,7 @@
 
-@SOS_780001  =  "River###Chionthar"
-@SOS_780101  =  "River###Chionthar###(SoS)"
-@SOS_780002  =  "Soubar"
-@SOS_780102  =  "Soubar###(SoS)"
-@SOS_780003	 =  "Lyrar's###Hold"
-@SOS_780103  =  "Lyrar's###Hold###(SoS)"
+@SoS_780001  =  "River###Chionthar"
+@SoS_780101  =  "River###Chionthar###(SoS)"
+@SoS_780002  =  "Soubar"
+@SoS_780102  =  "Soubar###(SoS)"
+@SoS_780003	 =  "Lyrar's###Hold"
+@SoS_780103  =  "Lyrar's###Hold###(SoS)"
