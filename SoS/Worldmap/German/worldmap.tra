@@ -1,7 +1,7 @@
 
-@SOS_780001  =  "Chiontharfurt"
-@SOS_780101  =  "Chiontharfurt###(SoS)"
-@SOS_780002  =  "Soubar"
-@SOS_780102  =  "Soubar###(SoS)"
-@SOS_780003	 =  "Lyrars###Festung"
-@SOS_780103  =  "Lyrars###Festung###(SoS)"
+@SoS_780001  =  "Chiontharfurt"
+@SoS_780101  =  "Chiontharfurt###(SoS)"
+@SoS_780002  =  "Soubar"
+@SoS_780102  =  "Soubar###(SoS)"
+@SoS_780003	 =  "Lyrars###Festung"
+@SoS_780103  =  "Lyrars###Festung###(SoS)"
