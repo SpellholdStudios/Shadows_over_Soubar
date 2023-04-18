@@ -13,16 +13,20 @@ AUTO_TRA ~%MOD_FOLDER%/Language/%s~
 ASK_EVERY_COMPONENT
 
 ALWAYS
-  ACTION_IF (GAME_IS ~eet~) BEGIN
-    OUTER_SET bg2_chapter = 12
-  END ELSE BEGIN
-    OUTER_SET bg2_chapter = 0
-  END
-  OUTER_FOR (i=1; i<=10; i=i+1) BEGIN
-    OUTER_SET bg2_chapter = bg2_chapter + 1
-    OUTER_SPRINT name_source ~bg2_chapter_%i%~
-    OUTER_SET EVAL ~%name_source%~ = bg2_chapter
-  END
+
+    OUTER_SPRINT workspace "weidu_external/workspace/%MOD_FOLDER%"
+    MKDIR "%workspace%"
+
+    ACTION_IF (GAME_IS ~eet~) BEGIN
+        OUTER_SET bg2_chapter = 12
+    END ELSE BEGIN
+        OUTER_SET bg2_chapter = 0
+    END
+    OUTER_FOR (i=1; i<=10; i=i+1) BEGIN
+        OUTER_SET bg2_chapter = bg2_chapter + 1
+        OUTER_SPRINT name_source ~bg2_chapter_%i%~
+        OUTER_SET EVAL ~%name_source%~ = bg2_chapter
+    END
   
 <<<<<<<< .../blank.txt
 >>>>>>>>
