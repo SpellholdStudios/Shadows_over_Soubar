@@ -1,4 +1,4 @@
-BACKUP ~SoS/backup~
+BACKUP ~weidu_external/backup/SoS~
 
 AUTHOR ~Charles Bisson, Horred The Plague (WeiDU), King Diamond (WeiDU revision), Weigo (WeiDU EE revision)~ 
 
@@ -757,7 +757,8 @@ ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
 	END
 	ACTION_BASH_FOR ~%MOD_FOLDER%/anim/Yeti~ ~^.+\.ogg$~ BEGIN
 		ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
-			COPY ~%BASH_FOR_FILESPEC%~ ~%MOD_FOLDER%/ogg2~
+            MKDIR ~%workspace%/ogg2~
+            COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/ogg2~
 		END
 	END
   COPY ~%MOD_FOLDER%/CRE/CBSSYETI.cre~         ~override~
@@ -780,7 +781,8 @@ ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
 	END
 	ACTION_BASH_FOR ~%MOD_FOLDER%/anim/Yeti~ ~^.+\.ogg$~ BEGIN
 		ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
-			COPY ~%BASH_FOR_FILESPEC%~ ~%MOD_FOLDER%/ogg2~
+            MKDIR ~%workspace%/ogg2~
+            COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/ogg2~
 		END
 	END
   COPY ~%MOD_FOLDER%/CRE/CBSSYETI.cre~         ~override~
@@ -799,7 +801,8 @@ ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
 	END
 	ACTION_BASH_FOR ~%MOD_FOLDER%/anim/Remorhaz~ ~^.+\.ogg$~ BEGIN
 		ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
-			COPY ~%BASH_FOR_FILESPEC%~ ~%MOD_FOLDER%/ogg2~
+            MKDIR ~%workspace%/ogg2~
+            COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/ogg2~
 		END
 	END
 	COPY ~%MOD_FOLDER%/CRE/CBTWRMGR.cre~         ~override~
@@ -825,7 +828,8 @@ ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
 	END
 	ACTION_BASH_FOR ~%MOD_FOLDER%/anim/Remorhaz~ ~^.+\.ogg$~ BEGIN
 		ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
-			COPY ~%BASH_FOR_FILESPEC%~ ~%MOD_FOLDER%/ogg2~
+            MKDIR ~%workspace%/ogg2~
+            COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/ogg2~
 		END
 	END
 	COPY ~%MOD_FOLDER%/CRE/CBTWRMGR.cre~         ~override~
@@ -948,21 +952,21 @@ COPY ~%MOD_FOLDER%/CRE/SELENC07.cre~         ~override~
 // Decompressing and buffing
 //////////////////////////////
 MKDIR ~%MOD_FOLDER%/biff~
-	  ~%MOD_FOLDER%/language/%LANGUAGE%/ogg1~
+	  ~%workspace%/ogg1~
 
 
 ACTION_BASH_FOR ~%MOD_FOLDER%/language/english/ogg1~ ~^.+\.ogg$~ BEGIN
 	ACTION_IF NOT FILE_EXISTS ~%MOD_FOLDER%/language/%LANGUAGE%/ogg1/%BASH_FOR_FILE%~ BEGIN
-		COPY ~%BASH_FOR_FILESPEC%~ ~%MOD_FOLDER%/language/%LANGUAGE%/ogg1~
+		COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/ogg1~
 	END
 END
 
 /*COPY ~%MOD_FOLDER%/language/%LANGUAGE%/ogg1~ ~%MOD_FOLDER%/biff~
-	 ~%MOD_FOLDER%/ogg2~ ~%MOD_FOLDER%/biff~*/
+	 ~%workspace%/ogg2~ ~%MOD_FOLDER%/biff~*/
 
 LAF HANDLE_AUDIO
 	STR_VAR
-	audio_path = EVAL ~%MOD_FOLDER%/language/%LANGUAGE%/ogg1~
+	audio_path = EVAL ~%workspace%/ogg1~
 	oggdec_path = EVAL ~%MOD_FOLDER%/bin/win32~
 	sox_path = EVAL ~%MOD_FOLDER%/bin/osx~
 	output_path = ~override~
@@ -970,7 +974,7 @@ END
 
 LAF HANDLE_AUDIO  // With no configuration, HANDLE_AUDIO expects your audio, oggdec.exe and SoX to be located in mymod/audio
   STR_VAR
-    audio_path = EVAL ~%MOD_FOLDER%/ogg2~
+    audio_path = EVAL ~%workspace%/ogg2~
     oggdec_path = EVAL ~%MOD_FOLDER%/bin/win32~
 	sox_path = EVAL ~%MOD_FOLDER%/bin/osx~
 	output_path = ~override~
@@ -1273,34 +1277,29 @@ BEGIN @21002
 	PRINT @21005
 
 	ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-		ACTION_IF ~%WEIDU_OS%~ STR_EQ ~win32~ BEGIN
-			AT_UNINSTALL ~rmdir /s /q %MOD_FOLDER%/temp~ EXACT
-		END ELSE BEGIN //osx, unix
-			AT_UNINSTALL ~rm -rf %MOD_FOLDER%/temp~ EXACT
-		END
 
 		ACTION_DEFINE_ASSOCIATIVE_ARRAY table_SOS_biff BEGIN
-			~SoS-TIS~ , ~override~ , ~^.*\.tis$~ => 150000000 //150 MB
-			~SoS-WAV~ , ~override~ , ~^.*\.wav$~ => 150000000 //150 MB
+			~SoS-tis~ , ~override~ , ~^.*\.tis$~ => 150000000 //150 MB
+			~SoS-wav~ , ~override~ , ~^.*\.wav$~ => 150000000 //150 MB
 	//		~SoS-RES~ , ~override~ , ~^.*$~ => 100000000 
 		END
 		
 		ACTION_PHP_EACH table_SOS_biff AS biff => size BEGIN
 			OUTER_SET totalSize = 0
 			OUTER_SET index = 0
-			MKDIR ~%MOD_FOLDER%/temp/%biff%%index%~
+			MKDIR ~%workspace%/%biff%%index%~
 			ACTION_BASH_FOR ~%biff_1%~ ~%biff_2%~ BEGIN
 				ACTION_IF ( BASH_FOR_SIZE + totalSize > size ) AND ( totalSize > 0 ) BEGIN
-					MAKE_BIFF ~%biff%%index%~ BEGIN ~%MOD_FOLDER%/temp/%biff%%index%~ ~^.*$~ END
+					MAKE_BIFF ~%biff%%index%~ BEGIN ~%workspace%/%biff%%index%~ ~^.*$~ END
 					OUTER_SET index = index + 1
 					OUTER_SET totalSize = 0
-					MKDIR ~%MOD_FOLDER%/temp/%biff%%index%~
+					MKDIR ~%workspace%/%biff%%index%~
 				END
-				MOVE ~%BASH_FOR_FILESPEC%~ ~%MOD_FOLDER%/temp/%biff%%index%~
+				MOVE ~%BASH_FOR_FILESPEC%~ ~%workspace%/%biff%%index%~
 				OUTER_SET totalSize = totalSize + BASH_FOR_SIZE
 			END
 			ACTION_IF ( totalSize > 0 ) BEGIN
-				MAKE_BIFF ~%biff%%index%~ BEGIN ~%MOD_FOLDER%/temp/%biff%%index%~ ~^.*$~ END
+				MAKE_BIFF ~%biff%%index%~ BEGIN ~%workspace%/%biff%%index%~ ~^.*$~ END
 			END
 		END
 	END
