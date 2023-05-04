@@ -1,42 +1,41 @@
 IF
-	Global("CbOriginalPeopleInteract","AR1100",0)
-	Global("CbImoenInteract_1100","AR1100",0)
-	GlobalGT("CbPartyHelpsSoubar","GLOBAL",1)
-	InParty("Imoen2")
-	Delay(3)
-	!StateCheck(Player1,STATE_SLEEPING)
+    Global("CbOriginalPeopleInteract","AR1100",0)
+    Global("CbImoenInteract_1100","AR1100",0)
+    GlobalGT("CbPartyHelpsSoubar","GLOBAL",1)
+    InParty("Imoen2")
+    Delay(3)
+    !StateCheck(Player1,STATE_SLEEPING)
 THEN
-	RESPONSE #100
-		SetGlobal("CbImoenInteract_1100","AR1100",1)
-		SetGlobal("CbOriginalPeopleInteract","AR1100",1)
-		ActionOverride("Imoen2",StartDialogueNoSet(Player1))
+    RESPONSE #100
+        SetGlobal("CbImoenInteract_1100","AR1100",1)
+        SetGlobal("CbOriginalPeopleInteract","AR1100",1)
+        ActionOverride("Imoen2",StartDialogueNoSet(Player1))
 END
 
 IF
-	Global("CbOriginalPeopleInteract","AR1100",0)
-	Global("CbJaheiraInteract_1100","AR1100",0)
-	GlobalGT("CbPartyHelpsSoubar","GLOBAL",1)
-	InParty("jaheira")
-	Delay(3)
-	!StateCheck(Player1,STATE_SLEEPING)
+    Global("CbOriginalPeopleInteract","AR1100",0)
+    Global("CbJaheiraInteract_1100","AR1100",0)
+    GlobalGT("CbPartyHelpsSoubar","GLOBAL",1)
+    InParty("jaheira")
+    Delay(3)
+    !StateCheck(Player1,STATE_SLEEPING)
 THEN
-	RESPONSE #100
-		SetGlobal("CbJaheiraInteract_1100","AR1100",1)
-		SetGlobal("CbOriginalPeopleInteract","AR1100",1)
-		ActionOverride("jaheira",StartDialogueNoSet(Player1))
+    RESPONSE #100
+        SetGlobal("CbJaheiraInteract_1100","AR1100",1)
+        SetGlobal("CbOriginalPeopleInteract","AR1100",1)
+        ActionOverride("jaheira",StartDialogueNoSet(Player1))
 END
 
 IF
-	Global("CbOriginalPeopleInteract","AR1100",0)
-	Global("CbMinscInteract_1100","AR1100",0)
-	GlobalGT("CbPartyHelpsSoubar","GLOBAL",1)
-	InParty("Minsc")
-	Delay(3)
-	!StateCheck(Player1,STATE_SLEEPING)
+    Global("CbOriginalPeopleInteract","AR1100",0)
+    Global("CbMinscInteract_1100","AR1100",0)
+    GlobalGT("CbPartyHelpsSoubar","GLOBAL",1)
+    InParty("Minsc")
+    Delay(3)
+    !StateCheck(Player1,STATE_SLEEPING)
 THEN
-	RESPONSE #100
-		SetGlobal("CbMinscInteract_1100","AR1100",1)
-		SetGlobal("CbOriginalPeopleInteract","AR1100",1)
-		ActionOverride("Minsc",StartDialogueNoSet(Player1))
+    RESPONSE #100
+        SetGlobal("CbMinscInteract_1100","AR1100",1)
+        SetGlobal("CbOriginalPeopleInteract","AR1100",1)
+        ActionOverride("Minsc",StartDialogueNoSet(Player1))
 END
-

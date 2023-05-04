@@ -1,86 +1,84 @@
 IF
-	See(NearestEnemyOf(Myself))
-	Global("TimerPrep","LOCALS",0)
+    See(NearestEnemyOf(Myself))
+    Global("TimerPrep","LOCALS",0)
 THEN
-	RESPONSE #100
-		SetGlobal("TimerPrep","LOCALS",1)
-		SetGlobalTimer("DrankPotionTimer","LOCALS",0)
-		SetGlobalTimer("CalledForHealing","LOCALS",0)
-		SetGlobalTimer("GaveAwayPotion","LOCALS",0)
-		SetGlobalTimer("TrueSight_Used","LOCALS",0)
-		SetGlobalTimer("SpecialDefenseUp","LOCALS",0)
-		SetGlobalTimer("SpellDefense1_On","LOCALS",0)
-		SetGlobalTimer("WeaponDefense_On","LOCALS",0)
-		SetGlobalTimer("FireShield_On","LOCALS",0)
-		SetGlobalTimer("Shield_On","LOCALS",0)
-		SetGlobalTimer("TeleportField_On","LOCALS",0)
+    RESPONSE #100
+        SetGlobal("TimerPrep","LOCALS",1)
+        SetGlobalTimer("DrankPotionTimer","LOCALS",0)
+        SetGlobalTimer("CalledForHealing","LOCALS",0)
+        SetGlobalTimer("GaveAwayPotion","LOCALS",0)
+        SetGlobalTimer("TrueSight_Used","LOCALS",0)
+        SetGlobalTimer("SpecialDefenseUp","LOCALS",0)
+        SetGlobalTimer("SpellDefense1_On","LOCALS",0)
+        SetGlobalTimer("WeaponDefense_On","LOCALS",0)
+        SetGlobalTimer("FireShield_On","LOCALS",0)
+        SetGlobalTimer("Shield_On","LOCALS",0)
+        SetGlobalTimer("TeleportField_On","LOCALS",0)
 END
 
 IF
-	OR(5)
-		See(NearestEnemyOfType([PC.0.0.BARD_ALL]))
-		See(NearestEnemyOfType([PC.0.0.DRUID_ALL]))
-		See(NearestEnemyOfType([PC.0.0.CLERIC_ALL]))
-		See(NearestEnemyOfType([PC.0.0.MAGE_ALL]))
-		See(NearestEnemyOfType([PC.0.0.SORCERER]))
-	Global("SpellTrigger1","LOCALS",0)
+    OR(5)
+        See(NearestEnemyOfType([PC.0.0.BARD_ALL]))
+        See(NearestEnemyOfType([PC.0.0.DRUID_ALL]))
+        See(NearestEnemyOfType([PC.0.0.CLERIC_ALL]))
+        See(NearestEnemyOfType([PC.0.0.MAGE_ALL]))
+        See(NearestEnemyOfType([PC.0.0.SORCERER]))
+    Global("SpellTrigger1","LOCALS",0)
 THEN
-	RESPONSE #100
-		SetGlobal("SpellTrigger1","LOCALS",1)
-		SetGlobalTimer("SpellDefense1_On","LOCALS",30)
-		SetGlobalTimer("WeaponDefense_On","LOCALS",24)
-		IncrementGlobal("NumDefenses","LOCALS",1)
-		FaceObject(LastSeenBy(Myself))
-		DisplayString(Myself,39968) // Spell Trigger - Fired
-		ReallyForceSpell(Myself,WIZARD_SPELL_TRAP)
-		ReallyForceSpell(Myself,WIZARD_IMPROVED_MANTLE)
-		ReallyForceSpell(LastSeenBy(Myself),WIZARD_POWER_WORD_SILENCE)
+    RESPONSE #100
+        SetGlobal("SpellTrigger1","LOCALS",1)
+        SetGlobalTimer("SpellDefense1_On","LOCALS",30)
+        SetGlobalTimer("WeaponDefense_On","LOCALS",24)
+        IncrementGlobal("NumDefenses","LOCALS",1)
+        FaceObject(LastSeenBy(Myself))
+        DisplayString(Myself,39968) // Spell Trigger - Fired
+        ReallyForceSpell(Myself,WIZARD_SPELL_TRAP)
+        ReallyForceSpell(Myself,WIZARD_IMPROVED_MANTLE)
+        ReallyForceSpell(LastSeenBy(Myself),WIZARD_POWER_WORD_SILENCE)
 END
 
 IF
-	See(NearestEnemyOf(Myself))
-	RandomNum(2,1)
-	Global("SpellSequencer1","LOCALS",0)
-	ActionListEmpty()
+    See(NearestEnemyOf(Myself))
+    RandomNum(2,1)
+    Global("SpellSequencer1","LOCALS",0)
+    ActionListEmpty()
 THEN
-	RESPONSE #100
-		SetGlobal("SpellSequencer1","LOCALS",1)
-		DisplayString(Myself,39969) // Spell Sequencer - Fired
-		ReallyForceSpell(LastSeenBy(Myself),WIZARD_GREATER_MALISON)
-		ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
-		ReallyForceSpell(LastSeenBy(Myself),WIZARD_SLOW)
+    RESPONSE #100
+        SetGlobal("SpellSequencer1","LOCALS",1)
+        DisplayString(Myself,39969) // Spell Sequencer - Fired
+        ReallyForceSpell(LastSeenBy(Myself),WIZARD_GREATER_MALISON)
+        ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
+        ReallyForceSpell(LastSeenBy(Myself),WIZARD_SLOW)
 END
 
 IF
-	See([PC])
-	Allegiance(Myself,ENEMY)
-	!StateCheck(Myself,STATE_INVISIBLE)
-	!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
-	Global("Contingency1","LOCALS",0)
+    See([PC])
+    Allegiance(Myself,ENEMY)
+    !StateCheck(Myself,STATE_INVISIBLE)
+    !StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+    Global("Contingency1","LOCALS",0)
 THEN
-	RESPONSE #100
-		SetGlobal("Contingency1","LOCALS",1)
-		IncrementGlobal("NumDefenses","LOCALS",1)
-		SetGlobalTimer("SpecialDefenseUp","LOCALS",54)
-		FaceObject(LastSeenBy(Myself))
-		DisplayString(Myself,73139) // Contingency - Fired
-		ReallyForceSpell(Myself,WIZARD_SHADOW_DOOR)
+    RESPONSE #100
+        SetGlobal("Contingency1","LOCALS",1)
+        IncrementGlobal("NumDefenses","LOCALS",1)
+        SetGlobalTimer("SpecialDefenseUp","LOCALS",54)
+        FaceObject(LastSeenBy(Myself))
+        DisplayString(Myself,73139) // Contingency - Fired
+        ReallyForceSpell(Myself,WIZARD_SHADOW_DOOR)
 END
 
 IF
-	See(NearestEnemyOf(Myself))
-	RandomNum(2,1)
-	Global("MinorSequencer1","LOCALS",0)
-	!StateCheck(Myself,STATE_MIRRORIMAGE)
-	!StateCheck(Myself,STATE_BLUR)
-	ActionListEmpty()
+    See(NearestEnemyOf(Myself))
+    RandomNum(2,1)
+    Global("MinorSequencer1","LOCALS",0)
+    !StateCheck(Myself,STATE_MIRRORIMAGE)
+    !StateCheck(Myself,STATE_BLUR)
+    ActionListEmpty()
 THEN
-	RESPONSE #100
-		SetGlobal("MinorSequencer1","LOCALS",1)
-		FaceObject(LastSeenBy(Myself))
-		DisplayString(Myself,8635) // Minor Sequencer Activated
-		ReallyForceSpell(Myself,WIZARD_CHROMATIC_ORB)
-		ReallyForceSpell(LastSeenBy(Myself),WIZARD_MAGIC_MISSILE)
+    RESPONSE #100
+        SetGlobal("MinorSequencer1","LOCALS",1)
+        FaceObject(LastSeenBy(Myself))
+        DisplayString(Myself,8635) // Minor Sequencer Activated
+        ReallyForceSpell(Myself,WIZARD_CHROMATIC_ORB)
+        ReallyForceSpell(LastSeenBy(Myself),WIZARD_MAGIC_MISSILE)
 END
-
-

@@ -1,9 +1,9 @@
 2DA V1.0
 CHPTODRE
-                        0               1    
-SWITCH                  DEFAULT         REPUTATION
-DEFAULT                 -1              -1        
-GOOD_REPUTATION         -1              74351
-BAD_REPUTATION          -1              74351
-GOOD_POWER              NONE            NONE      
-BAD_POWER               NONE            NONE      
+                0          1
+SWITCH          DEFAULT    REPUTATION
+DEFAULT         -1         -1
+GOOD_REPUTATION -1         74351
+BAD_REPUTATION  -1         74351
+GOOD_POWER      NONE       NONE
+BAD_POWER       NONE       NONE

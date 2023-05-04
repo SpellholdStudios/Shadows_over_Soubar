@@ -1,84 +1,82 @@
 IF
-	OnCreation()
+    OnCreation()
 THEN
-	RESPONSE #100
-		CloseDoor("Door0702")
-		Lock("Door0702")
-		TriggerActivation("Tran0702",FALSE)
-		TriggerActivation("CbRibaldShopClosed",TRUE)
-		TriggerActivation("CBDownToCatacombs",FALSE)
-		Continue()
+    RESPONSE #100
+        CloseDoor("Door0702")
+        Lock("Door0702")
+        TriggerActivation("Tran0702",FALSE)
+        TriggerActivation("CbRibaldShopClosed",TRUE)
+        TriggerActivation("CBDownToCatacombs",FALSE)
+        Continue()
 END
 
 IF
-	Global("CbGetGaelanHere","AR0700",1)
-	Global("CbSpawnGaelan","AR0700",0)
+    Global("CbGetGaelanHere","AR0700",1)
+    Global("CbSpawnGaelan","AR0700",0)
 THEN
-	RESPONSE #100
-		SetGlobal("CbSpawnGaelan","AR0700",1)
-		CreateCreature("CBGAELAN",[1682.2982],8)
- 	        Continue()
+    RESPONSE #100
+        SetGlobal("CbSpawnGaelan","AR0700",1)
+        CreateCreature("CBGAELAN",[1682.2982],8)
+             Continue()
 END
 
 IF
-	Global("CbSelenceActivatesLion","AR0700",1)
+    Global("CbSelenceActivatesLion","AR0700",1)
 THEN
-	RESPONSE #100
-		TriggerActivation("CBDownToCatacombs",TRUE)
-		Continue()
+    RESPONSE #100
+        TriggerActivation("CBDownToCatacombs",TRUE)
+        Continue()
 END
 
 IF
-	TimeGT(DAWN_END)
-	TimeLT(DUSK_END)
+    TimeGT(DAWN_END)
+    TimeLT(DUSK_END)
 THEN
-	RESPONSE #100
-		Unlock("Door0702")
-		TriggerActivation("Tran0702",TRUE)
-		TriggerActivation("CbRibaldShopClosed",FALSE)
-		Continue()
+    RESPONSE #100
+        Unlock("Door0702")
+        TriggerActivation("Tran0702",TRUE)
+        TriggerActivation("CbRibaldShopClosed",FALSE)
+        Continue()
 END
 
 IF
-	Global("SELENCE","GLOBAL",0)
-	LevelLT(Player1,10)
+    Global("SELENCE","GLOBAL",0)
+    LevelLT(Player1,10)
 THEN
-	RESPONSE #100
-		SetGlobal("SELENCE","GLOBAL",1)
-		CreateCreature("SELENC07",[1485.2673],10)
- 	        Continue()
+    RESPONSE #100
+        SetGlobal("SELENCE","GLOBAL",1)
+        CreateCreature("SELENC07",[1485.2673],10)
+             Continue()
 END
 
 IF
-	Global("SELENCE","GLOBAL",0)
-	LevelLT(Player1,13)
-	LevelGT(Player1,9)
+    Global("SELENCE","GLOBAL",0)
+    LevelLT(Player1,13)
+    LevelGT(Player1,9)
 THEN
-	RESPONSE #100
-		SetGlobal("SELENCE","GLOBAL",1)
-		CreateCreature("SELENC09",[1485.2673],10)
- 	        Continue()
+    RESPONSE #100
+        SetGlobal("SELENCE","GLOBAL",1)
+        CreateCreature("SELENC09",[1485.2673],10)
+             Continue()
 END
 
 IF
-	Global("SELENCE","GLOBAL",0)
-	LevelLT(Player1,18)
-	LevelGT(Player1,12)
+    Global("SELENCE","GLOBAL",0)
+    LevelLT(Player1,18)
+    LevelGT(Player1,12)
 THEN
-	RESPONSE #100
-		SetGlobal("SELENCE","GLOBAL",1)
-		CreateCreature("SELENC12",[1485.2673],10)
- 	        Continue()
+    RESPONSE #100
+        SetGlobal("SELENCE","GLOBAL",1)
+        CreateCreature("SELENC12",[1485.2673],10)
+             Continue()
 END
 
 IF
-	Global("SELENCE","GLOBAL",0)
-	LevelGT(Player1,17)
+    Global("SELENCE","GLOBAL",0)
+    LevelGT(Player1,17)
 THEN
-	RESPONSE #100
-		SetGlobal("SELENCE","GLOBAL",1)
-		CreateCreature("SELENC17",[1485.2673],10)
- 	        Continue()
+    RESPONSE #100
+        SetGlobal("SELENCE","GLOBAL",1)
+        CreateCreature("SELENC17",[1485.2673],10)
+             Continue()
 END
-
-
