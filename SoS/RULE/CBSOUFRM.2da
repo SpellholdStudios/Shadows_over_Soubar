@@ -1,9 +1,9 @@
 2DA V1.0
 Ch03aMon
-                        0               1    
+                        0               1
 SWITCH                  DEFAULT         REPUTATION
-DEFAULT                 -1              -1        
+DEFAULT                 -1              -1
 GOOD_REPUTATION         -1              74267
 BAD_REPUTATION          -1              74267
-GOOD_POWER              NONE            NONE      
-BAD_POWER               NONE            NONE      
+GOOD_POWER              NONE            NONE
+BAD_POWER               NONE            NONE

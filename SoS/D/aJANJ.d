@@ -4,7 +4,7 @@ IF ~Global("CbOriginalPeopleInteract","AR4210",1)
 AreaCheck("AR4210")
 Global("CbJanInteracted_4210","AR4210",0)~ THEN BEGIN SOS202
   SAY @0
-  IF ~~ THEN REPLY @1GOTO 	SOS203
+  IF ~~ THEN REPLY @1GOTO SOS203
   IF ~~ THEN REPLY @2GOTO SOS209
 END
 

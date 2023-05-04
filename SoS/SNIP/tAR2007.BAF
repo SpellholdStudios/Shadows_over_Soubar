@@ -1,23 +1,21 @@
 IF
-	Global("CbStopLogan","GLOBAL",1)
-	IsActive("CELOGAN")
+    Global("CbStopLogan","GLOBAL",1)
+    IsActive("CELOGAN")
 THEN
-	RESPONSE #100
-		ActionOverride("CELOGAN",Deactivate("CELOGAN"))
-		CreateCreature("CBFIXLGN",[1222.426],2)
- 	        Continue()
+    RESPONSE #100
+        ActionOverride("CELOGAN",Deactivate("CELOGAN"))
+        CreateCreature("CBFIXLGN",[1222.426],2)
+             Continue()
 END
 
 IF
-	!Global("CbStopLogan","GLOBAL",1)
-	!IsActive("CELOGAN")
-	Exists("CBFIXLGN")
-	Delay(3)
+    !Global("CbStopLogan","GLOBAL",1)
+    !IsActive("CELOGAN")
+    Exists("CBFIXLGN")
+    Delay(3)
 THEN
-	RESPONSE #100
-		ActionOverride("CBFIXLGN",DestroySelf())
-		ActionOverride("CELOGAN",Activate("CELOGAN"))
- 	        Continue()
+    RESPONSE #100
+        ActionOverride("CBFIXLGN",DestroySelf())
+        ActionOverride("CELOGAN",Activate("CELOGAN"))
+             Continue()
 END
-
-

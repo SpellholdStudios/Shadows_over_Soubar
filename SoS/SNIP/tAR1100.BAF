@@ -1,44 +1,43 @@
 IF
-	Global("TOMAST","GLOBAL",0)
-	LevelLT(Player1,17)
+    Global("TOMAST","GLOBAL",0)
+    LevelLT(Player1,17)
 THEN
-	RESPONSE #100
-		SetGlobal("TOMAST","GLOBAL",1)
-		CreateCreature("TOMAST11",[4479.2632],0)
- 	        Continue()
+    RESPONSE #100
+        SetGlobal("TOMAST","GLOBAL",1)
+        CreateCreature("TOMAST11",[4479.2632],0)
+             Continue()
 END
 
 IF
-	Global("TOMAST","GLOBAL",0)
-	LevelLT(Player1,20)
-	LevelGT(Player1,16)
+    Global("TOMAST","GLOBAL",0)
+    LevelLT(Player1,20)
+    LevelGT(Player1,16)
 THEN
-	RESPONSE #100
-		SetGlobal("TOMAST","GLOBAL",1)
-		CreateCreature("TOMAST16",[4479.2632],0)
- 	        Continue()
+    RESPONSE #100
+        SetGlobal("TOMAST","GLOBAL",1)
+        CreateCreature("TOMAST16",[4479.2632],0)
+             Continue()
 END
 
 IF
-	Global("TOMAST","GLOBAL",0)
-	LevelGT(Player1,19)
+    Global("TOMAST","GLOBAL",0)
+    LevelGT(Player1,19)
 THEN
-	RESPONSE #100
-		SetGlobal("TOMAST","GLOBAL",1)
-		CreateCreature("TOMAST19",[4479.2632],0)
- 	        Continue()
+    RESPONSE #100
+        SetGlobal("TOMAST","GLOBAL",1)
+        CreateCreature("TOMAST19",[4479.2632],0)
+             Continue()
 END
 
 IF
-	PartyHasItem("CBLTCNT1")
-	PartyHasItem("CBLTCNT2")
-	!PartyHasItemIdentified("CBLTCNT2")
-	Global("CbPlayerCanGoToSoubar","GLOBAL",0)
-	Global("CbMayorAndRolfCutscene","AR1100",0)
+    PartyHasItem("CBLTCNT1")
+    PartyHasItem("CBLTCNT2")
+    !PartyHasItemIdentified("CBLTCNT2")
+    Global("CbPlayerCanGoToSoubar","GLOBAL",0)
+    Global("CbMayorAndRolfCutscene","AR1100",0)
 THEN
-	RESPONSE #100
-		SetGlobal("CbMayorAndRolfCutscene","AR1100",1)
-		CreateCreatureOffScreen("CBUHCUT1",0)
- 	        Continue()
+    RESPONSE #100
+        SetGlobal("CbMayorAndRolfCutscene","AR1100",1)
+        CreateCreatureOffScreen("CBUHCUT1",0)
+             Continue()
 END
-

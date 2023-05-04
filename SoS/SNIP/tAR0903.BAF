@@ -1,23 +1,21 @@
 IF
-	Global("CbStopPrelate","GLOBAL",1)
-	IsActive("HPRELATE")
+    Global("CbStopPrelate","GLOBAL",1)
+    IsActive("HPRELATE")
 THEN
-	RESPONSE #100
-		ActionOverride("HPRELATE",Deactivate("HPRELATE"))
-		CreateCreature("CBFIXPRE",[348.587],10)
- 	        Continue()
+    RESPONSE #100
+        ActionOverride("HPRELATE",Deactivate("HPRELATE"))
+        CreateCreature("CBFIXPRE",[348.587],10)
+             Continue()
 END
 
 IF
-	!Global("CbStopPrelate","GLOBAL",1)
-	!IsActive("HPRELATE")
-	Exists("CBFIXPRE")
+    !Global("CbStopPrelate","GLOBAL",1)
+    !IsActive("HPRELATE")
+    Exists("CBFIXPRE")
         Delay(3)
 THEN
-	RESPONSE #100
-		ActionOverride("CBFIXPRE",DestroySelf())
-		ActionOverride("HPRELATE",Activate("HPRELATE"))
- 	        Continue()
+    RESPONSE #100
+        ActionOverride("CBFIXPRE",DestroySelf())
+        ActionOverride("HPRELATE",Activate("HPRELATE"))
+             Continue()
 END
-
-

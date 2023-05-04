@@ -7,174 +7,174 @@ THEN
   RESPONSE #100
                SetGlobal("SoubarStuffWarning","GLOBAL",1)
                ActionOverride(Player1,DisplayStringHead(Myself,@10119))
- 	       Continue()
+            Continue()
 END
 IF
-	Global("CbDeactivateOtherCaptains","GLOBAL",1)
-	InParty("Minsc")
-	Global("BPMinsc4286","AR4286",0)
-	!HasItem("MISC84","Minsc")
+    Global("CbDeactivateOtherCaptains","GLOBAL",1)
+    InParty("Minsc")
+    Global("BPMinsc4286","AR4286",0)
+    !HasItem("MISC84","Minsc")
 THEN
-	RESPONSE #100
-		SetGlobal("BPMinsc4286","AR4286",1)
-		ReallyForceSpellRES("SPMINSC","Minsc")
-		ActionOverride("Minsc",FillSlot(SLOT_MISC))
-		ActionOverride("Minsc",EquipItem("MISC84"))
- 	        Continue()
+    RESPONSE #100
+        SetGlobal("BPMinsc4286","AR4286",1)
+        ReallyForceSpellRES("SPMINSC","Minsc")
+        ActionOverride("Minsc",FillSlot(SLOT_MISC))
+        ActionOverride("Minsc",EquipItem("MISC84"))
+             Continue()
 END
 
 IF
-	Global("CbDeactivateOtherCaptains","GLOBAL",1)
-	InParty("Edwin")
-	Global("BPEdwin4286","AR4286",0)
-	!HasItem("MISC89","Edwin")
+    Global("CbDeactivateOtherCaptains","GLOBAL",1)
+    InParty("Edwin")
+    Global("BPEdwin4286","AR4286",0)
+    !HasItem("MISC89","Edwin")
 THEN
-	RESPONSE #100
-		SetGlobal("BPEdwin4286","AR4286",1)
-		ReallyForceSpellRES("SPEDWIN","Edwin")
-		ActionOverride("Edwin",FillSlot(SLOT_AMULET))
-		ActionOverride("Edwin",EquipItem("MISC89"))
- 	        Continue()
+    RESPONSE #100
+        SetGlobal("BPEdwin4286","AR4286",1)
+        ReallyForceSpellRES("SPEDWIN","Edwin")
+        ActionOverride("Edwin",FillSlot(SLOT_AMULET))
+        ActionOverride("Edwin",EquipItem("MISC89"))
+             Continue()
 END
 
 /*IF
-	Global("CbDeactivateOtherCaptains","GLOBAL",1)
-	InParty("Imoen2")
-	Global("BPImoen4286","AR4286",0)
-	!HasItem("MRIMRIN1","Imoen2")
+    Global("CbDeactivateOtherCaptains","GLOBAL",1)
+    InParty("Imoen2")
+    Global("BPImoen4286","AR4286",0)
+    !HasItem("MRIMRIN1","Imoen2")
 THEN
-	RESPONSE #100
-		SetGlobal("BPImoen4286","AR4286",1)
-		ReallyForceSpellRES("SPIMOEN","Imoen2")
-		ActionOverride("Imoen2",FillSlot(SLOT_GAUNTLETS))
-		ActionOverride("Imoen2",EquipItem("MRIMRIN1"))  //?
- 	        Continue()
+    RESPONSE #100
+        SetGlobal("BPImoen4286","AR4286",1)
+        ReallyForceSpellRES("SPIMOEN","Imoen2")
+        ActionOverride("Imoen2",FillSlot(SLOT_GAUNTLETS))
+        ActionOverride("Imoen2",EquipItem("MRIMRIN1"))  //?
+             Continue()
 END*/
 
 IF
-	Global("CbDeactivateOtherCaptains","GLOBAL",1)
-	InParty("Valygar")
-	Global("BPValyg4286","AR4286",0)
-	!HasItem("VALNECK1","Valygar")
+    Global("CbDeactivateOtherCaptains","GLOBAL",1)
+    InParty("Valygar")
+    Global("BPValyg4286","AR4286",0)
+    !HasItem("VALNECK1","Valygar")
 THEN
-	RESPONSE #100
-		SetGlobal("BPValyg4286","AR4286",1)
-		ReallyForceSpellRES("spvalyg","Valygar")
-		ActionOverride("Valygar",FillSlot(SLOT_AMULET))
-		ActionOverride("Valygar",EquipItem("VALNECK1"))
- 	        Continue()
+    RESPONSE #100
+        SetGlobal("BPValyg4286","AR4286",1)
+        ReallyForceSpellRES("spvalyg","Valygar")
+        ActionOverride("Valygar",FillSlot(SLOT_AMULET))
+        ActionOverride("Valygar",EquipItem("VALNECK1"))
+             Continue()
 END
 
 IF
-	Global("CbDeactivateOtherCaptains","GLOBAL",1)
-	InParty("Nalia")
-	Global("BPNalia4286","AR4286",0)
-	!HasItem("NPRING01","Nalia")
+    Global("CbDeactivateOtherCaptains","GLOBAL",1)
+    InParty("Nalia")
+    Global("BPNalia4286","AR4286",0)
+    !HasItem("NPRING01","Nalia")
 THEN
-	RESPONSE #100
-		SetGlobal("BPNalia4286","AR4286",1)
-		ReallyForceSpellRES("spnalia","Nalia")
-		ActionOverride("Nalia",FillSlot(SLOT_RING_LEFT))
-		ActionOverride("Nalia",EquipItem("NPRING01"))
- 	        Continue()
+    RESPONSE #100
+        SetGlobal("BPNalia4286","AR4286",1)
+        ReallyForceSpellRES("spnalia","Nalia")
+        ActionOverride("Nalia",FillSlot(SLOT_RING_LEFT))
+        ActionOverride("Nalia",EquipItem("NPRING01"))
+             Continue()
 END
 
 IF
-	Global("CbDeactivateOtherCaptains","GLOBAL",1)
-	InParty("Robilard")
-	Global("BPRobil4286","AR4286",0)
-	!HasItem("RINGROB","Robilard")
+    Global("CbDeactivateOtherCaptains","GLOBAL",1)
+    InParty("Robilard")
+    Global("BPRobil4286","AR4286",0)
+    !HasItem("RINGROB","Robilard")
 THEN
-	RESPONSE #100
-		SetGlobal("BPRobil4286","AR4286",1)
-		ReallyForceSpellRES("sprobil","Robilard")
-		ActionOverride("Robilard",FillSlot(SLOT_RING_RIGHT))
-		ActionOverride("Robilard",EquipItem("RINGROB"))
- 	        Continue()
+    RESPONSE #100
+        SetGlobal("BPRobil4286","AR4286",1)
+        ReallyForceSpellRES("sprobil","Robilard")
+        ActionOverride("Robilard",FillSlot(SLOT_RING_RIGHT))
+        ActionOverride("Robilard",EquipItem("RINGROB"))
+             Continue()
 END
 
 IF
-	Global("CbDeactivateOtherCaptains","GLOBAL",1)
-	InParty("Shartedd")
-	Global("BPSharT4286","AR4286",0)
-	!HasItem("SHAR20","Shartedd")
+    Global("CbDeactivateOtherCaptains","GLOBAL",1)
+    InParty("Shartedd")
+    Global("BPSharT4286","AR4286",0)
+    !HasItem("SHAR20","Shartedd")
 THEN
-	RESPONSE #100
-		SetGlobal("BPSharT4286","AR4286",1)
-		ReallyForceSpellRES("spshart","Shartedd")
-		ActionOverride("Shartedd",FillSlot(SLOT_ARMOR))
-		ActionOverride("Shartedd",EquipItem("SHAR20"))
- 	        Continue()
+    RESPONSE #100
+        SetGlobal("BPSharT4286","AR4286",1)
+        ReallyForceSpellRES("spshart","Shartedd")
+        ActionOverride("Shartedd",FillSlot(SLOT_ARMOR))
+        ActionOverride("Shartedd",EquipItem("SHAR20"))
+             Continue()
 END
 
 IF
-	Global("CbDeactivateOtherCaptains","GLOBAL",1)
-	InParty("Kachiko")
-	Global("BPKachi4286","AR4286",0)
-	!HasItem("NPRING02","Kachiko")
+    Global("CbDeactivateOtherCaptains","GLOBAL",1)
+    InParty("Kachiko")
+    Global("BPKachi4286","AR4286",0)
+    !HasItem("NPRING02","Kachiko")
 THEN
-	RESPONSE #100
-		SetGlobal("BPKachi4286","AR4286",1)
-		ReallyForceSpellRES("spkachi","Kachiko")
-		ActionOverride("Kachiko",FillSlot(SLOT_RING_LEFT))
-		ActionOverride("Kachiko",EquipItem("NPRING02"))
- 	        Continue()
+    RESPONSE #100
+        SetGlobal("BPKachi4286","AR4286",1)
+        ReallyForceSpellRES("spkachi","Kachiko")
+        ActionOverride("Kachiko",FillSlot(SLOT_RING_LEFT))
+        ActionOverride("Kachiko",EquipItem("NPRING02"))
+             Continue()
 END
 
 IF
-	Global("CbDeactivateOtherCaptains","GLOBAL",1)
-	InParty("Sime")
-	Global("BPSime14286","AR4286",0)
-	!HasItem("HELMSUN","Sime")
+    Global("CbDeactivateOtherCaptains","GLOBAL",1)
+    InParty("Sime")
+    Global("BPSime14286","AR4286",0)
+    !HasItem("HELMSUN","Sime")
 THEN
-	RESPONSE #100
-		SetGlobal("BPSime14286","AR4286",1)
-		ReallyForceSpellRES("spsime1","Sime")
-		ActionOverride("Sime",FillSlot(SLOT_HELMET))
-		ActionOverride("Sime",EquipItem("HELMSUN"))
- 	        Continue()
+    RESPONSE #100
+        SetGlobal("BPSime14286","AR4286",1)
+        ReallyForceSpellRES("spsime1","Sime")
+        ActionOverride("Sime",FillSlot(SLOT_HELMET))
+        ActionOverride("Sime",EquipItem("HELMSUN"))
+             Continue()
 END
 
 IF
-	Global("CbDeactivateOtherCaptains","GLOBAL",1)
-	InParty("Sime")
-	Global("BPSime24286","AR4286",0)
-	!HasItem("SIAMUL","Sime")
+    Global("CbDeactivateOtherCaptains","GLOBAL",1)
+    InParty("Sime")
+    Global("BPSime24286","AR4286",0)
+    !HasItem("SIAMUL","Sime")
 THEN
-	RESPONSE #100
-		SetGlobal("BPSime24286","AR4286",1)
-		ReallyForceSpellRES("spsime2","Sime")
-		ActionOverride("Sime",FillSlot(SLOT_AMULET))
-		ActionOverride("Sime",EquipItem("SIAMUL"))
- 	        Continue()
+    RESPONSE #100
+        SetGlobal("BPSime24286","AR4286",1)
+        ReallyForceSpellRES("spsime2","Sime")
+        ActionOverride("Sime",FillSlot(SLOT_AMULET))
+        ActionOverride("Sime",EquipItem("SIAMUL"))
+             Continue()
 END
 
 IF
-	Global("CbDeactivateOtherCaptains","GLOBAL",1)
-	InParty("Selence")
-	Global("BPSelen4286","AR4286",0)
-	!HasItem("CBSLENCE","Selence")
+    Global("CbDeactivateOtherCaptains","GLOBAL",1)
+    InParty("Selence")
+    Global("BPSelen4286","AR4286",0)
+    !HasItem("CBSLENCE","Selence")
 THEN
-	RESPONSE #100
-		SetGlobal("BPSelen4286","AR4286",1)
-		ReallyForceSpellRES("spselen","Selence")
-		ActionOverride("Selence",FillSlot(SLOT_MISC2))
-		ActionOverride("Selence",EquipItem("CBSLENCE"))
- 	        Continue()
+    RESPONSE #100
+        SetGlobal("BPSelen4286","AR4286",1)
+        ReallyForceSpellRES("spselen","Selence")
+        ActionOverride("Selence",FillSlot(SLOT_MISC2))
+        ActionOverride("Selence",EquipItem("CBSLENCE"))
+             Continue()
 END
 
 IF
-	Global("CbDeactivateOtherCaptains","GLOBAL",1)
-	InParty("Dynaheir")
-	Global("BPDynah4286","AR4286",0)
-	!HasItem("BOO","Dynaheir")
+    Global("CbDeactivateOtherCaptains","GLOBAL",1)
+    InParty("Dynaheir")
+    Global("BPDynah4286","AR4286",0)
+    !HasItem("BOO","Dynaheir")
 THEN
-	RESPONSE #100
-		SetGlobal("BPDynah4286","AR4286",1)
-		ReallyForceSpellRES("spdynah","Dynaheir")
-		ActionOverride("Dynaheir",FillSlot(SLOT_MISC2))
-		ActionOverride("Dynaheir",EquipItem("BOO"))
- 	        Continue()
+    RESPONSE #100
+        SetGlobal("BPDynah4286","AR4286",1)
+        ReallyForceSpellRES("spdynah","Dynaheir")
+        ActionOverride("Dynaheir",FillSlot(SLOT_MISC2))
+        ActionOverride("Dynaheir",EquipItem("BOO"))
+             Continue()
 END
 //*******************************************************************************************
 
@@ -325,4 +325,3 @@ THEN
     RemoveAreaType(CITY)
     SetGlobal("CbBarrackResting","AR4286",3)
 END
-

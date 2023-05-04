@@ -1,20 +1,18 @@
 IF
         HPLT(Myself,1)
-	Global("CbLyrarsGateBreached","GLOBAL",1)
+    Global("CbLyrarsGateBreached","GLOBAL",1)
 THEN
-	RESPONSE #100
-		SetGlobal("CbLyrarsGateBreached","GLOBAL",2)
+    RESPONSE #100
+        SetGlobal("CbLyrarsGateBreached","GLOBAL",2)
 END
 
 IF
-	AttackedBy([GOODCUTOFF],MELEE)
-	OR(2)
-		AttackedBy([GOODCUTOFF],RANGED)
-		AttackedBy([GOODCUTOFF],DEFAULT)
-	Global("CbLyrarsGateBreached","GLOBAL",0)
+    AttackedBy([GOODCUTOFF],MELEE)
+    OR(2)
+        AttackedBy([GOODCUTOFF],RANGED)
+        AttackedBy([GOODCUTOFF],DEFAULT)
+    Global("CbLyrarsGateBreached","GLOBAL",0)
 THEN
-	RESPONSE #100
-		SetGlobal("CbLyrarsGateBreached","GLOBAL",1)
+    RESPONSE #100
+        SetGlobal("CbLyrarsGateBreached","GLOBAL",1)
 END
-
-

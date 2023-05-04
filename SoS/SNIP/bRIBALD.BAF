@@ -1,34 +1,33 @@
 IF
-	Global("CbGuardsAlerted","AR0702",1)
-	Allegiance(Myself,NEUTRAL)
+    Global("CbGuardsAlerted","AR0702",1)
+    Allegiance(Myself,NEUTRAL)
 THEN
-	RESPONSE #100
-		Wait(3)
-		DisplayStringHead(Myself,55272) // Thief! I know not where you obtained that but it will not serve you well! Guards!
-		Wait(3)
-		DisplayStringHead(Myself,55278) // Guards! Thieves try to gain entrance! Kill them!
-		SetGlobal("Ribald","AR0702",1)
-		Enemy()
+    RESPONSE #100
+        Wait(3)
+        DisplayStringHead(Myself,55272) // Thief! I know not where you obtained that but it will not serve you well! Guards!
+        Wait(3)
+        DisplayStringHead(Myself,55278) // Guards! Thieves try to gain entrance! Kill them!
+        SetGlobal("Ribald","AR0702",1)
+        Enemy()
 END
 
 IF
-	Global("CBRibaldSShopBrokenInto","GLOBAL",1)
-	!Global("CbRibaldFoundStolenGoods","LOCALS",1)
-	See([ANYONE])
+    Global("CBRibaldSShopBrokenInto","GLOBAL",1)
+    !Global("CbRibaldFoundStolenGoods","LOCALS",1)
+    See([ANYONE])
         OR(10)
-	      HasItem("CBCL005",LastSeenBy(Myself))
-	      HasItem("CBCL009",LastSeenBy(Myself))
-	      HasItem("CBCL012",LastSeenBy(Myself))
-	      HasItem("CBCL024",LastSeenBy(Myself))
-	      HasItem("CBCL029",LastSeenBy(Myself))
-	      HasItem("CBCL031",LastSeenBy(Myself))
-	      HasItem("CBCL033",LastSeenBy(Myself))
-	      HasItem("CBCL042",LastSeenBy(Myself))
-	      HasItem("CBCL047",LastSeenBy(Myself))
-	      HasItem("CBCL060",LastSeenBy(Myself))
+          HasItem("CBCL005",LastSeenBy(Myself))
+          HasItem("CBCL009",LastSeenBy(Myself))
+          HasItem("CBCL012",LastSeenBy(Myself))
+          HasItem("CBCL024",LastSeenBy(Myself))
+          HasItem("CBCL029",LastSeenBy(Myself))
+          HasItem("CBCL031",LastSeenBy(Myself))
+          HasItem("CBCL033",LastSeenBy(Myself))
+          HasItem("CBCL042",LastSeenBy(Myself))
+          HasItem("CBCL047",LastSeenBy(Myself))
+          HasItem("CBCL060",LastSeenBy(Myself))
 THEN
-	RESPONSE #100
-		SetGlobal("CbRibaldFoundStolenGoods","LOCALS",1)
-		StartDialogueNoSet(LastSeenBy(Myself))
+    RESPONSE #100
+        SetGlobal("CbRibaldFoundStolenGoods","LOCALS",1)
+        StartDialogueNoSet(LastSeenBy(Myself))
 END
-

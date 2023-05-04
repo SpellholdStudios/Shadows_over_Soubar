@@ -30,14 +30,14 @@ ALWAYS
   
 <<<<<<<< .../blank.txt
 >>>>>>>>
-	ACTION_IF ~%WEIDU_OS%~ STRING_EQUAL_CASE ~win32~ BEGIN
-		OUTER_SPRINT os_slash ~\~
-		OUTER_SPRINT exe ~.exe~
-	END ELSE ACTION_IF ~%WEIDU_OS%~ STRING_EQUAL_CASE ~osx~ BEGIN
-		OUTER_SPRINT os_slash ~/~
-		OUTER_SPRINT exe ~~
-	END
-	OUTER_SPRINT ~tileconv~ ~%MOD_FOLDER%%os_slash%bin%os_slash%%WEIDU_OS%%os_slash%tileconv%exe%~
+    ACTION_IF ~%WEIDU_OS%~ STRING_EQUAL_CASE ~win32~ BEGIN
+        OUTER_SPRINT os_slash ~\~
+        OUTER_SPRINT exe ~.exe~
+    END ELSE ACTION_IF ~%WEIDU_OS%~ STRING_EQUAL_CASE ~osx~ BEGIN
+        OUTER_SPRINT os_slash ~/~
+        OUTER_SPRINT exe ~~
+    END
+    OUTER_SPRINT ~tileconv~ ~%MOD_FOLDER%%os_slash%bin%os_slash%%WEIDU_OS%%os_slash%tileconv%exe%~
 
     // Convert strings to UTF-8 for Enhanced Edition
     // setup.tra needs to be reloaded after conversion
@@ -90,7 +90,7 @@ BEGIN @20000
 DESIGNATED 0 LABEL ~shadows_over_soubar~
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-	INCLUDE ~%MOD_FOLDER%/lib/install-guititle.tpa~
+    INCLUDE ~%MOD_FOLDER%/lib/install-guititle.tpa~
 END
 
 COPY_EXISTING ~misc01.itm~ ~override/sos.mrk~
@@ -266,7 +266,7 @@ END
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 COPY_EXISTING ~SPELL.IDS~        ~override~
-	REPLACE_TEXTUALLY ~2302 WIZARD_DISPEL_MAGIC~      ~2302 WIZARD_REMOVE_MAGIC~
+    REPLACE_TEXTUALLY ~2302 WIZARD_DISPEL_MAGIC~      ~2302 WIZARD_REMOVE_MAGIC~
 //	REPLACE_TEXTUALLY ~2326 WIZARD_TRUE_DISPEL_MAGIC~ ~2326 WIZARD_DISPEL_MAGIC~
 APPEND ~SPELL.IDS~ ~2326 WIZARD_DISPEL_MAGIC~
 UNLESS ~2326 WIZARD_DISPEL_MAGIC~
@@ -277,15 +277,15 @@ UNLESS ~2429 BELTYNS_BURNING_BLOOD~
 
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-	COPY ~%MOD_FOLDER%/Rule/Ids/ANISND.IDS~ ~override~
-		 ~%MOD_FOLDER%/Rule/Ids/ANIMATE.IDS~ ~override~
-	ACTION_IF FILE_EXISTS ~script compiler/AICOMPILE.exe~
-	THEN BEGIN
-	COPY_EXISTING   ~ANISND.IDS~   ~script compiler~
-					~ANIMATE.IDS~  ~script compiler~
-					~KIT.IDS~      ~script compiler~
-					~SPELL.IDS~    ~script compiler~
-	END
+    COPY ~%MOD_FOLDER%/Rule/Ids/ANISND.IDS~ ~override~
+         ~%MOD_FOLDER%/Rule/Ids/ANIMATE.IDS~ ~override~
+    ACTION_IF FILE_EXISTS ~script compiler/AICOMPILE.exe~
+    THEN BEGIN
+    COPY_EXISTING   ~ANISND.IDS~   ~script compiler~
+                    ~ANIMATE.IDS~  ~script compiler~
+                    ~KIT.IDS~      ~script compiler~
+                    ~SPELL.IDS~    ~script compiler~
+    END
 END
 
 //******************************************************************
@@ -348,19 +348,19 @@ COPY ~%MOD_FOLDER%/ARE/AR4259.are~           ~override~
 COPY ~%MOD_FOLDER%/ARE/AR4260.are~           ~override~
 // Decompress files from BIFC to prevent oBG2 from crashing
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-	COPY_EXISTING
-		~AM1101.WAV~ ~override~
-		~AM1101A.WAV~ ~override~
-		~AM1101A.BAM~ ~override~
+    COPY_EXISTING
+        ~AM1101.WAV~ ~override~
+        ~AM1101A.WAV~ ~override~
+        ~AM1101A.BAM~ ~override~
 END
 
 COPY ~%MOD_FOLDER%/ARE/AR4261.are~           ~override~
 // Decompress files from BIFC to prevent oBG2 from crashing
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-	COPY_EXISTING
-		~AM1103.WAV~ ~override~
-		~AM1103A.WAV~ ~override~
-		~AM1104A.BAM~ ~override~
+    COPY_EXISTING
+        ~AM1103.WAV~ ~override~
+        ~AM1103A.WAV~ ~override~
+        ~AM1104A.BAM~ ~override~
 END
 
 COPY ~%MOD_FOLDER%/ARE/AR4262.are~           ~override~
@@ -493,27 +493,27 @@ ELSE BEGIN
 END
 
 ACTION_IF GAME_IS ~eet~ BEGIN
-	COPY ~%MOD_FOLDER%/Worldmap/eet/eet-links.tbl~  ~%MOD_FOLDER%/Worldmap/eet~
-		PATCH_IF (FILE_EXISTS_IN_GAME ~rot.mrk~)  OR (FILE_EXISTS ~data/ROT-RULE.BIF~) BEGIN
-			APPEND_FILE ~%MOD_FOLDER%/Worldmap/eet/rot_links.tbl~                        
-		END                                                                    
-		PATCH_IF (FILE_EXISTS_IN_GAME ~ctb.mrk~)  OR (FILE_EXISTS ~data/CTB-RULE.BIF~) BEGIN
-			APPEND_FILE ~%MOD_FOLDER%/Worldmap/eet/ctb_links.tbl~                        
-		END                                                                    
-		PATCH_IF (FILE_EXISTS_IN_GAME ~tdd.mrk~)  OR (FILE_EXISTS ~data/TDD-RULE.BIF~) OR  (MOD_IS_INSTALLED "TDDz" "0") BEGIN
-			APPEND_FILE ~%MOD_FOLDER%/Worldmap/eet/tdd_links.tbl~
-		END
-	INCLUDE ~%MOD_FOLDER%/lib/add_worldmap_tbl.tpa~
-	LAF ADD_WORLDMAP_TBL
-		INT_VAR
-		verbose = 1
-		inclSv = 0
-		STR_VAR
-		path_to_areas = EVAL ~%MOD_FOLDER%/Worldmap/eet/eet-areas.tbl~
-		//path_to_areas_bp = EVAL ~%MOD_FOLDER%/Worldmap/areas.tbl~
-		path_to_links = EVAL ~%MOD_FOLDER%/Worldmap/eet/eet-links.tbl~
-		path_to_trans = EVAL ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
-	END
+    COPY ~%MOD_FOLDER%/Worldmap/eet/eet-links.tbl~  ~%MOD_FOLDER%/Worldmap/eet~
+        PATCH_IF (FILE_EXISTS_IN_GAME ~rot.mrk~)  OR (FILE_EXISTS ~data/ROT-RULE.BIF~) BEGIN
+            APPEND_FILE ~%MOD_FOLDER%/Worldmap/eet/rot_links.tbl~                        
+        END                                                                    
+        PATCH_IF (FILE_EXISTS_IN_GAME ~ctb.mrk~)  OR (FILE_EXISTS ~data/CTB-RULE.BIF~) BEGIN
+            APPEND_FILE ~%MOD_FOLDER%/Worldmap/eet/ctb_links.tbl~                        
+        END                                                                    
+        PATCH_IF (FILE_EXISTS_IN_GAME ~tdd.mrk~)  OR (FILE_EXISTS ~data/TDD-RULE.BIF~) OR  (MOD_IS_INSTALLED "TDDz" "0") BEGIN
+            APPEND_FILE ~%MOD_FOLDER%/Worldmap/eet/tdd_links.tbl~
+        END
+    INCLUDE ~%MOD_FOLDER%/lib/add_worldmap_tbl.tpa~
+    LAF ADD_WORLDMAP_TBL
+        INT_VAR
+        verbose = 1
+        inclSv = 0
+        STR_VAR
+        path_to_areas = EVAL ~%MOD_FOLDER%/Worldmap/eet/eet-areas.tbl~
+        //path_to_areas_bp = EVAL ~%MOD_FOLDER%/Worldmap/areas.tbl~
+        path_to_links = EVAL ~%MOD_FOLDER%/Worldmap/eet/eet-links.tbl~
+        path_to_trans = EVAL ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
+    END
 END
 
 //******************************************************************
@@ -746,106 +746,106 @@ END
 // YETI animation
 //***********************************************************************************
 ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
-	ACTION_IF (NOT FILE_EXISTS ~data/ROT-RULE.BIF~) AND	(NOT FILE_EXISTS_IN_GAME ~rot.mrk~) AND	(NOT FILE_EXISTS_IN_GAME ~TT0025.ARE~) BEGIN
-		ACTION_FOR_EACH var IN 2da bam BEGIN
-			ACTION_BASH_FOR ~%MOD_FOLDER%/anim/Yeti~ ~^.+\.%var%$~ BEGIN
-				COPY ~%BASH_FOR_FILESPEC%~ ~override~
-			END
-		END
-	END
-	ACTION_BASH_FOR ~%MOD_FOLDER%/anim/Yeti~ ~^.+\.ogg$~ BEGIN
-		ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
+    ACTION_IF (NOT FILE_EXISTS ~data/ROT-RULE.BIF~) AND	(NOT FILE_EXISTS_IN_GAME ~rot.mrk~) AND	(NOT FILE_EXISTS_IN_GAME ~TT0025.ARE~) BEGIN
+        ACTION_FOR_EACH var IN 2da bam BEGIN
+            ACTION_BASH_FOR ~%MOD_FOLDER%/anim/Yeti~ ~^.+\.%var%$~ BEGIN
+                COPY ~%BASH_FOR_FILESPEC%~ ~override~
+            END
+        END
+    END
+    ACTION_BASH_FOR ~%MOD_FOLDER%/anim/Yeti~ ~^.+\.ogg$~ BEGIN
+        ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
             MKDIR ~%workspace%/ogg2~
             COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/ogg2~
-		END
-	END
+        END
+    END
   COPY ~%MOD_FOLDER%/CRE/CBSSYETI.cre~         ~override~
-		SAY NAME1 @20288
-		SAY NAME2 @20288
-		WRITE_LONG 0x28 0xE060   //IC_LICH
-	BUT_ONLY_IF_IT_CHANGES
+        SAY NAME1 @20288
+        SAY NAME2 @20288
+        WRITE_LONG 0x28 0xE060   //IC_LICH
+    BUT_ONLY_IF_IT_CHANGES
 END
 
 ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
-	ACTION_FOR_EACH var IN bam BEGIN
-		ACTION_BASH_FOR ~%MOD_FOLDER%/anim/Yeti~ ~^.+\.%var%$~ BEGIN
-			OUTER_PATCH_SAVE newname ~%BASH_FOR_FILE%~ BEGIN
-				REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~MLIC~ ~MYET~
-			END
-			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%newname%~ BEGIN
-				COPY ~%BASH_FOR_FILESPEC%~ ~override/%newname%~
-			END
-		END
-	END
-	ACTION_BASH_FOR ~%MOD_FOLDER%/anim/Yeti~ ~^.+\.ogg$~ BEGIN
-		ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
+    ACTION_FOR_EACH var IN bam BEGIN
+        ACTION_BASH_FOR ~%MOD_FOLDER%/anim/Yeti~ ~^.+\.%var%$~ BEGIN
+            OUTER_PATCH_SAVE newname ~%BASH_FOR_FILE%~ BEGIN
+                REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~MLIC~ ~MYET~
+            END
+            ACTION_IF NOT FILE_EXISTS_IN_GAME ~%newname%~ BEGIN
+                COPY ~%BASH_FOR_FILESPEC%~ ~override/%newname%~
+            END
+        END
+    END
+    ACTION_BASH_FOR ~%MOD_FOLDER%/anim/Yeti~ ~^.+\.ogg$~ BEGIN
+        ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
             MKDIR ~%workspace%/ogg2~
             COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/ogg2~
-		END
-	END
+        END
+    END
   COPY ~%MOD_FOLDER%/CRE/CBSSYETI.cre~         ~override~
-		SAY NAME1 @20288
-		SAY NAME2 @20288
-		WRITE_LONG 0x28 0xE25D   //IC_LICH          0xE25D TUNDRA_YETI with EE    0xe25D IC_TUNDRA_YETI with EXTENDED ANIMATION
-	BUT_ONLY_IF_IT_CHANGES
+        SAY NAME1 @20288
+        SAY NAME2 @20288
+        WRITE_LONG 0x28 0xE25D   //IC_LICH          0xE25D TUNDRA_YETI with EE    0xe25D IC_TUNDRA_YETI with EXTENDED ANIMATION
+    BUT_ONLY_IF_IT_CHANGES
 END
 
 //**************************************************************************
 ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
-	ACTION_FOR_EACH var IN 2da bam BEGIN
-		ACTION_BASH_FOR ~%MOD_FOLDER%/anim/Remorhaz~ ~^.+\.%var%$~ BEGIN
-			COPY ~%BASH_FOR_FILESPEC%~ ~override~
-		END
-	END
-	ACTION_BASH_FOR ~%MOD_FOLDER%/anim/Remorhaz~ ~^.+\.ogg$~ BEGIN
-		ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
+    ACTION_FOR_EACH var IN 2da bam BEGIN
+        ACTION_BASH_FOR ~%MOD_FOLDER%/anim/Remorhaz~ ~^.+\.%var%$~ BEGIN
+            COPY ~%BASH_FOR_FILESPEC%~ ~override~
+        END
+    END
+    ACTION_BASH_FOR ~%MOD_FOLDER%/anim/Remorhaz~ ~^.+\.ogg$~ BEGIN
+        ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
             MKDIR ~%workspace%/ogg2~
             COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/ogg2~
-		END
-	END
-	COPY ~%MOD_FOLDER%/CRE/CBTWRMGR.cre~         ~override~
-		SAY NAME1 @20340
-		SAY NAME2 @20340
-		WRITE_LONG 0x28 0xE230   //IC_BEETLE_RHINOCEROS
+        END
+    END
+    COPY ~%MOD_FOLDER%/CRE/CBTWRMGR.cre~         ~override~
+        SAY NAME1 @20340
+        SAY NAME2 @20340
+        WRITE_LONG 0x28 0xE230   //IC_BEETLE_RHINOCEROS
 
-	COPY ~%MOD_FOLDER%/CRE/CBTWRMLS.cre~         ~override~
-		SAY NAME1 @20341
-		SAY NAME2 @20341
-		WRITE_LONG 0x28 0xE230   //IC_BEETLE_RHINOCEROS
+    COPY ~%MOD_FOLDER%/CRE/CBTWRMLS.cre~         ~override~
+        SAY NAME1 @20341
+        SAY NAME2 @20341
+        WRITE_LONG 0x28 0xE230   //IC_BEETLE_RHINOCEROS
 END
 ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
-	ACTION_FOR_EACH var IN bam BEGIN
-		ACTION_BASH_FOR ~%MOD_FOLDER%/anim/Remorhaz~ ~^.+\.%var%$~ BEGIN
-			OUTER_PATCH_SAVE newname ~%BASH_FOR_FILE%~ BEGIN
-				REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~MBRH~ ~MREM~
-			END
-			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%newname%~ BEGIN
-				COPY ~%BASH_FOR_FILESPEC%~ ~override/%newname%~
-			END
-		END
-	END
-	ACTION_BASH_FOR ~%MOD_FOLDER%/anim/Remorhaz~ ~^.+\.ogg$~ BEGIN
-		ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
+    ACTION_FOR_EACH var IN bam BEGIN
+        ACTION_BASH_FOR ~%MOD_FOLDER%/anim/Remorhaz~ ~^.+\.%var%$~ BEGIN
+            OUTER_PATCH_SAVE newname ~%BASH_FOR_FILE%~ BEGIN
+                REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~MBRH~ ~MREM~
+            END
+            ACTION_IF NOT FILE_EXISTS_IN_GAME ~%newname%~ BEGIN
+                COPY ~%BASH_FOR_FILESPEC%~ ~override/%newname%~
+            END
+        END
+    END
+    ACTION_BASH_FOR ~%MOD_FOLDER%/anim/Remorhaz~ ~^.+\.ogg$~ BEGIN
+        ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
             MKDIR ~%workspace%/ogg2~
             COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/ogg2~
-		END
-	END
-	COPY ~%MOD_FOLDER%/CRE/CBTWRMGR.cre~         ~override~
-		SAY NAME1 @20340
-		SAY NAME2 @20340
-		WRITE_LONG 0x28 0xE253   //REMORHAZ
-	
-	COPY ~%MOD_FOLDER%/CRE/CBTWRMLS.cre~         ~override~
-		SAY NAME1 @20341
-		SAY NAME2 @20341
-		WRITE_LONG 0x28 0xE253   //REMORHAZ
+        END
+    END
+    COPY ~%MOD_FOLDER%/CRE/CBTWRMGR.cre~         ~override~
+        SAY NAME1 @20340
+        SAY NAME2 @20340
+        WRITE_LONG 0x28 0xE253   //REMORHAZ
+    
+    COPY ~%MOD_FOLDER%/CRE/CBTWRMLS.cre~         ~override~
+        SAY NAME1 @20341
+        SAY NAME2 @20341
+        WRITE_LONG 0x28 0xE253   //REMORHAZ
 END
 
 //////////////////////////////
 // bgee.lua cheat table
 //////////////////////////////
 INCLUDE ~%MOD_FOLDER%/lib/cheat_var.tph~
-	
+    
 //**************************************************************************
 // A single SoS Kit
 //**************************************************************************
@@ -871,23 +871,23 @@ SAY @21001
 SAY @20802
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-	
+    
     INCLUDE ~%MOD_FOLDER%/lib/a7#add_kit_ex.tpa~
     LAUNCH_ACTION_FUNCTION ADD_KIT_EX
-	INT_VAR
-		briefdesc = RESOLVE_STR_REF (@20802)
-	STR_VAR
-		kit_name = fence
-		clswpbon = ~0 0 3~
-		numwslot = ~2~
-		thiefskl = ~40 20~
-		traplimt = ~6~
-		clascolr = ~24 99 169 2 93~
-		clasiskl = ~0 0 0 0 0 0 0~
-		clasthac = ~0~
-		thiefscl = ~100 100 100 100 100 100 100 0~
-		hpclass  = ~hprog~
-		clsrcreq = ~1 1 1 1 1 1 1~
+    INT_VAR
+        briefdesc = RESOLVE_STR_REF (@20802)
+    STR_VAR
+        kit_name = fence
+        clswpbon = ~0 0 3~
+        numwslot = ~2~
+        thiefskl = ~40 20~
+        traplimt = ~6~
+        clascolr = ~24 99 169 2 93~
+        clasiskl = ~0 0 0 0 0 0 0~
+        clasthac = ~0~
+        thiefscl = ~100 100 100 100 100 100 100 0~
+        hpclass  = ~hprog~
+        clsrcreq = ~1 1 1 1 1 1 1~
     END
 END
 
@@ -911,26 +911,26 @@ COPY ~%MOD_FOLDER%/CRE/SELENC07.cre~         ~override~
    SAY 0x1cc @20806
 
     PATCH_IF (GAME_IS ~bg2ee eet~) BEGIN
-	SET bm_idx=0xffffffff
-	INNER_ACTION BEGIN
-		COPY_EXISTING + ~KITLIST.2DA~  ~override~
-			COUNT_2DA_ROWS 9 "rows_cnt"
-			FOR( cnt=0; cnt<"%rows_cnt%"; cnt=cnt+1 ) BEGIN
-			READ_2DA_ENTRY cnt 1 9 "kit_name"
-			READ_2DA_ENTRY cnt 0 9 "num"
-			PATCH_IF( ("%kit_name%" STRING_COMPARE_CASE "Fence")=0 ) BEGIN
-				SET bm_idx = num
-			END
-			END
-	END
-	PATCH_IF( bm_idx>=0 ) BEGIN
-	 	WRITE_LONG 0x244 (((0x4000 | bm_idx) * 0x10000))
+    SET bm_idx=0xffffffff
+    INNER_ACTION BEGIN
+        COPY_EXISTING + ~KITLIST.2DA~  ~override~
+            COUNT_2DA_ROWS 9 "rows_cnt"
+            FOR( cnt=0; cnt<"%rows_cnt%"; cnt=cnt+1 ) BEGIN
+            READ_2DA_ENTRY cnt 1 9 "kit_name"
+            READ_2DA_ENTRY cnt 0 9 "num"
+            PATCH_IF( ("%kit_name%" STRING_COMPARE_CASE "Fence")=0 ) BEGIN
+                SET bm_idx = num
+            END
+            END
     END
-	
+    PATCH_IF( bm_idx>=0 ) BEGIN
+         WRITE_LONG 0x244 (((0x4000 | bm_idx) * 0x10000))
+    END
+    
    END
    
    PATCH_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-	SET bm_idx=0xffffffff
+    SET bm_idx=0xffffffff
     INNER_ACTION BEGIN
       COPY_EXISTING + ~KITLIST.2DA~  ~override~
         COUNT_2DA_ROWS 9 "rows_cnt"
@@ -950,40 +950,40 @@ COPY ~%MOD_FOLDER%/CRE/SELENC07.cre~         ~override~
 // Decompressing and buffing
 //////////////////////////////
 MKDIR ~%MOD_FOLDER%/biff~
-	  ~%workspace%/ogg1~
+      ~%workspace%/ogg1~
 
 
 ACTION_BASH_FOR ~%MOD_FOLDER%/language/english/ogg1~ ~^.+\.ogg$~ BEGIN
-	ACTION_IF NOT FILE_EXISTS ~%MOD_FOLDER%/language/%LANGUAGE%/ogg1/%BASH_FOR_FILE%~ BEGIN
-		COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/ogg1~
-	END
+    ACTION_IF NOT FILE_EXISTS ~%MOD_FOLDER%/language/%LANGUAGE%/ogg1/%BASH_FOR_FILE%~ BEGIN
+        COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/ogg1~
+    END
 END
 
 /*COPY ~%MOD_FOLDER%/language/%LANGUAGE%/ogg1~ ~%MOD_FOLDER%/biff~
-	 ~%workspace%/ogg2~ ~%MOD_FOLDER%/biff~*/
+     ~%workspace%/ogg2~ ~%MOD_FOLDER%/biff~*/
 
 LAF HANDLE_AUDIO
-	STR_VAR
-	audio_path = EVAL ~%workspace%/ogg1~
-	oggdec_path = EVAL ~%MOD_FOLDER%/bin/win32~
-	sox_path = EVAL ~%MOD_FOLDER%/bin/osx~
-	output_path = ~override~
+    STR_VAR
+    audio_path = EVAL ~%workspace%/ogg1~
+    oggdec_path = EVAL ~%MOD_FOLDER%/bin/win32~
+    sox_path = EVAL ~%MOD_FOLDER%/bin/osx~
+    output_path = ~override~
 END
 
 LAF HANDLE_AUDIO  // With no configuration, HANDLE_AUDIO expects your audio, oggdec.exe and SoX to be located in mymod/audio
   STR_VAR
     audio_path = EVAL ~%workspace%/ogg2~
     oggdec_path = EVAL ~%MOD_FOLDER%/bin/win32~
-	sox_path = EVAL ~%MOD_FOLDER%/bin/osx~
-	output_path = ~override~
+    sox_path = EVAL ~%MOD_FOLDER%/bin/osx~
+    output_path = ~override~
 END
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-	LAF HANDLE_TILESETS
-		STR_VAR
-		tiz_path = EVAL ~%MOD_FOLDER%/Tiz~
-		tisunpack_path = EVAL ~%MOD_FOLDER%/bin~
-	END	 
+    LAF HANDLE_TILESETS
+        STR_VAR
+        tiz_path = EVAL ~%MOD_FOLDER%/Tiz~
+        tisunpack_path = EVAL ~%MOD_FOLDER%/bin~
+    END	 
 END
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
@@ -998,7 +998,7 @@ END
 
 // older mods use SoS-RULE	
 MAKE_BIFF ~SoS-RULE~ BEGIN
-	~override~ ~SoS.mrk~
+    ~override~ ~SoS.mrk~
 END
 
 COPY_EXISTING ~misc01.itm~ ~override/SoS.mrk~
@@ -1008,301 +1008,301 @@ COPY_EXISTING ~misc01.itm~ ~override/SoS.mrk~
  * ======================== */
 
 BEGIN @21011
-	DESIGNATED 4 LABEL ~sos_alternative_soubar_cuttooth~
-	REQUIRE_PREDICATE MOD_IS_INSTALLED "SoS.tp2" (ID_OF_LABEL "SoS.tp2" "shadows_over_soubar" ) @21003
+    DESIGNATED 4 LABEL ~sos_alternative_soubar_cuttooth~
+    REQUIRE_PREDICATE MOD_IS_INSTALLED "SoS.tp2" (ID_OF_LABEL "SoS.tp2" "shadows_over_soubar" ) @21003
 
-	ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-   		COPY	~%MOD_FOLDER%/PVRZ/ALT/AR4230.TIS~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A423000.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A423001.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A423002.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A423003.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A423004.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A423005.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A423006.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A423007.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A423008.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A423009.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A423010.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A423011.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A423012.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A423013.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A423014.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A423015.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A423016.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A423017.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A423018.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A423019.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/AR4230N.TIS~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A4230N00.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A4230N01.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A4230N02.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A4230N03.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A4230N04.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A4230N05.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A4230N06.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A4230N07.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A4230N08.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A4230N09.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A4230N10.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A4230N11.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A4230N12.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A4230N13.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A4230N14.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A4230N15.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A4230N16.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A4230N17.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A4230N18.PVRZ~ ~override~
-				~%MOD_FOLDER%/PVRZ/ALT/A4230N19.PVRZ~ ~override~
-	END
-	ELSE BEGIN
-		COPY_LARGE	~%MOD_FOLDER%/TIZ/ALT/AR4230.TIS~ ~override~
-					~%MOD_FOLDER%/TIZ/ALT/AR4230N.TIS~ ~override~
-	END
+    ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+           COPY	~%MOD_FOLDER%/PVRZ/ALT/AR4230.TIS~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A423000.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A423001.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A423002.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A423003.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A423004.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A423005.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A423006.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A423007.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A423008.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A423009.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A423010.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A423011.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A423012.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A423013.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A423014.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A423015.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A423016.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A423017.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A423018.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A423019.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/AR4230N.TIS~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A4230N00.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A4230N01.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A4230N02.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A4230N03.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A4230N04.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A4230N05.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A4230N06.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A4230N07.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A4230N08.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A4230N09.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A4230N10.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A4230N11.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A4230N12.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A4230N13.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A4230N14.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A4230N15.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A4230N16.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A4230N17.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A4230N18.PVRZ~ ~override~
+                ~%MOD_FOLDER%/PVRZ/ALT/A4230N19.PVRZ~ ~override~
+    END
+    ELSE BEGIN
+        COPY_LARGE	~%MOD_FOLDER%/TIZ/ALT/AR4230.TIS~ ~override~
+                    ~%MOD_FOLDER%/TIZ/ALT/AR4230N.TIS~ ~override~
+    END
 
-	COPY	~%MOD_FOLDER%/MOS/ALT/AR4230.MOS~ ~override~
-			~%MOD_FOLDER%/MOS/ALT/AR4230N.MOS~ ~override~
-			~%MOD_FOLDER%/MOS/ALT/AR4230HT.BMP~ ~override~
-			~%MOD_FOLDER%/MOS/ALT/AR4230LM.BMP~ ~override~
-			~%MOD_FOLDER%/MOS/ALT/AR4230LN.BMP~ ~override~
-			~%MOD_FOLDER%/MOS/ALT/AR4230SR.BMP~ ~override~
+    COPY	~%MOD_FOLDER%/MOS/ALT/AR4230.MOS~ ~override~
+            ~%MOD_FOLDER%/MOS/ALT/AR4230N.MOS~ ~override~
+            ~%MOD_FOLDER%/MOS/ALT/AR4230HT.BMP~ ~override~
+            ~%MOD_FOLDER%/MOS/ALT/AR4230LM.BMP~ ~override~
+            ~%MOD_FOLDER%/MOS/ALT/AR4230LN.BMP~ ~override~
+            ~%MOD_FOLDER%/MOS/ALT/AR4230SR.BMP~ ~override~
 
-	COPY	~%MOD_FOLDER%/WED/ALT/AR4230.WED~ ~override~
-			~%MOD_FOLDER%/WED/ALT/AR4230N.WED~ ~override~
+    COPY	~%MOD_FOLDER%/WED/ALT/AR4230.WED~ ~override~
+            ~%MOD_FOLDER%/WED/ALT/AR4230N.WED~ ~override~
 
-	COPY	~%MOD_FOLDER%/ARE/ALT/AR4230.are~ ~override~
-		// Info points
-		SAY 0x257c @20075 // Social Club
-		SAY 0x2640 @20076 // Narwhal
-		SAY 0x2704 @20077 // Barracks
-		SAY 0x27c8 @20078 // Town hall
-		SAY 0x288c @20079 // Reading room
-		SAY 0x2950 @20771 // The Splintered Stair
-		SAY 0x2a14 @20077 // Barracks
-		// Automap notes
-		SAY 0x8300 @20081 // South to Chionthar
-		SAY 0x8334 @20078 // Town hall
-		SAY 0x8368 @20077 // Barracks
-		SAY 0x839c @20075 // Social Club
-		SAY 0x83d0 @20079 // Reading room
-		SAY 0x8404 @20080 // North Lyrar's Hold
-		SAY 0x8438 @20076 // Narwhal
-		// Automap coords
-		WRITE_SHORT 0x8364 4850 // Barracks X
-		WRITE_SHORT 0x8366 3415 // Barracks Y
+    COPY	~%MOD_FOLDER%/ARE/ALT/AR4230.are~ ~override~
+        // Info points
+        SAY 0x257c @20075 // Social Club
+        SAY 0x2640 @20076 // Narwhal
+        SAY 0x2704 @20077 // Barracks
+        SAY 0x27c8 @20078 // Town hall
+        SAY 0x288c @20079 // Reading room
+        SAY 0x2950 @20771 // The Splintered Stair
+        SAY 0x2a14 @20077 // Barracks
+        // Automap notes
+        SAY 0x8300 @20081 // South to Chionthar
+        SAY 0x8334 @20078 // Town hall
+        SAY 0x8368 @20077 // Barracks
+        SAY 0x839c @20075 // Social Club
+        SAY 0x83d0 @20079 // Reading room
+        SAY 0x8404 @20080 // North Lyrar's Hold
+        SAY 0x8438 @20076 // Narwhal
+        // Automap coords
+        WRITE_SHORT 0x8364 4850 // Barracks X
+        WRITE_SHORT 0x8366 3415 // Barracks Y
 
-	// Area script adjustment
-	COPY_EXISTING ~AR4230.BCS~ ~override~
-		DECOMPILE_AND_PATCH BEGIN
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4555.1696]~	~[4360.1750]~	// Cat & Eagle
-			REPLACE_TEXTUALLY EXACT_MATCH ~[693.1237]~	~[506.1237]~	// Cat & Eagle
-			REPLACE_TEXTUALLY EXACT_MATCH ~[608.2859]~	~[716.916]~		// Dog
-			REPLACE_TEXTUALLY EXACT_MATCH ~[2187.1035]~	~[1789.896]~	// Dog
-			REPLACE_TEXTUALLY EXACT_MATCH ~[2784.2987]~	~[3065.3040]~	// Dog
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4492.1911]~	~[4162.536]~	// Horse
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4204.2358]~	~[1157.1940]~	// Horse
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3555.396]~	~[3444.261]~	// Cow
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4278.1048]~	~[4532.628]~	// Cow
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4062.1056]~	~[890.65]~		// Cow
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4039.386]~	~[712.570]~		// Cow
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4248.620]~	~[104.1021]~	// Chicken
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4091.723]~	~[755.1026]~	// Chicken
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4321.704]~	~[958.917]~		// Chicken
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4262.753]~	~[321.1133]~	// Chicken
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4135.752]~	~[504.1246]~	// Chicken
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4348.904]~	~[972.705]~		// Chicken
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4097.902]~	~[940.657]~		// Chicken
-			
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3723.1803]~	~[3680.1830]~	// Soubar Villager
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3829.2805]~	~[3830.2265]~	// Soubar Villager
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1867.2005]~	~[2230.1967]~	// Soubar Villager
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1632.2731]~	~[1780.2865]~	// Soubar Villager
-			REPLACE_TEXTUALLY EXACT_MATCH ~[2635.907]~	~[2528.503]~	// Soubar Villager
-			REPLACE_TEXTUALLY EXACT_MATCH ~[800.1397]~	~[1520.1240]~	// Soubar Villager
-			REPLACE_TEXTUALLY EXACT_MATCH ~[2112.1472]~	~[2290.1525]~	// Soubar Villager
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1408.3221]~	~[788.3540]~	// Soubar Villager
+    // Area script adjustment
+    COPY_EXISTING ~AR4230.BCS~ ~override~
+        DECOMPILE_AND_PATCH BEGIN
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4555.1696]~	~[4360.1750]~	// Cat & Eagle
+            REPLACE_TEXTUALLY EXACT_MATCH ~[693.1237]~	~[506.1237]~	// Cat & Eagle
+            REPLACE_TEXTUALLY EXACT_MATCH ~[608.2859]~	~[716.916]~		// Dog
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2187.1035]~	~[1789.896]~	// Dog
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2784.2987]~	~[3065.3040]~	// Dog
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4492.1911]~	~[4162.536]~	// Horse
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4204.2358]~	~[1157.1940]~	// Horse
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3555.396]~	~[3444.261]~	// Cow
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4278.1048]~	~[4532.628]~	// Cow
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4062.1056]~	~[890.65]~		// Cow
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4039.386]~	~[712.570]~		// Cow
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4248.620]~	~[104.1021]~	// Chicken
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4091.723]~	~[755.1026]~	// Chicken
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4321.704]~	~[958.917]~		// Chicken
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4262.753]~	~[321.1133]~	// Chicken
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4135.752]~	~[504.1246]~	// Chicken
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4348.904]~	~[972.705]~		// Chicken
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4097.902]~	~[940.657]~		// Chicken
+            
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3723.1803]~	~[3680.1830]~	// Soubar Villager
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3829.2805]~	~[3830.2265]~	// Soubar Villager
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1867.2005]~	~[2230.1967]~	// Soubar Villager
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1632.2731]~	~[1780.2865]~	// Soubar Villager
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2635.907]~	~[2528.503]~	// Soubar Villager
+            REPLACE_TEXTUALLY EXACT_MATCH ~[800.1397]~	~[1520.1240]~	// Soubar Villager
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2112.1472]~	~[2290.1525]~	// Soubar Villager
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1408.3221]~	~[788.3540]~	// Soubar Villager
 
-			REPLACE_TEXTUALLY EXACT_MATCH ~[425.1288]~	~[1635.358]~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1874.1288]~	~[1095.2450]~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3292.2378]~	~[2255.2730]~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3980.2425]~	~[1820.3290]~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4779.1666]~	~[4387.2451]~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4759.1558]~	~[4380.1009]~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4168.3366]~	~[2843.3788]~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[2596.3379]~	~[1322.3712]~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1521.3365]~	~[238.3333]~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[110.2922]~	~[153.1081]~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4547.2967]~	~[4870.3702]~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4672.2967]~	~[4982.3712]~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3428.2102],13~	~[2274.2343],1~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3483.2032],13~	~[2914.2512],1~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[425.1288]~	~[1635.358]~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1874.1288]~	~[1095.2450]~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3292.2378]~	~[2255.2730]~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3980.2425]~	~[1820.3290]~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4779.1666]~	~[4387.2451]~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4759.1558]~	~[4380.1009]~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4168.3366]~	~[2843.3788]~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2596.3379]~	~[1322.3712]~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1521.3365]~	~[238.3333]~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[110.2922]~	~[153.1081]~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4547.2967]~	~[4870.3702]~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4672.2967]~	~[4982.3712]~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3428.2102],13~	~[2274.2343],1~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3483.2032],13~	~[2914.2512],1~	// Soubar Guard
 
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4586.3077],6~	~[4030.3630],12~	// Soubar Guard (party's squad)
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4647.3073],6~	~[4030.3700],12~	// Soubar Guard (party's squad)
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4601.3127],6~	~[4030.3770],12~	// Soubar Guard (party's squad)
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4665.3123],6~	~[3955.3665],12~	// Soubar Guard (party's squad)
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4613.3187],6~	~[3955.3735],12~	// Soubar Guard (party's squad)
-			
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1626.191]~	~[2055.190]~	// Soubar Guard (ten new guards)
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1754.318]~	~[2721.247]~	// Soubar Guard (ten new guards)
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1898.357]~	~[3449.379]~	// Soubar Guard (ten new guards)
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1981.221]~	~[4191.750]~	// Soubar Guard (ten new guards)
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4840.1225]~	~[4076.1633]~	// Soubar Guard (ten new guards)
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4755.1364]~	~[4143.1990]~	// Soubar Guard (ten new guards)
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4839.1476]~	~[3086.1821]~	// Soubar Guard (ten new guards)
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4226.1472]~	~[4232.1372]~	// Soubar Guard (ten new guards)
-			REPLACE_TEXTUALLY EXACT_MATCH ~[381.880]~	~[381.355]~		// Soubar Guard (ten new guards)
-			REPLACE_TEXTUALLY EXACT_MATCH ~[302.986]~	~[634.294]~		// Soubar Guard (ten new guards)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4586.3077],6~	~[4030.3630],12~	// Soubar Guard (party's squad)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4647.3073],6~	~[4030.3700],12~	// Soubar Guard (party's squad)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4601.3127],6~	~[4030.3770],12~	// Soubar Guard (party's squad)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4665.3123],6~	~[3955.3665],12~	// Soubar Guard (party's squad)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4613.3187],6~	~[3955.3735],12~	// Soubar Guard (party's squad)
+            
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1626.191]~	~[2055.190]~	// Soubar Guard (ten new guards)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1754.318]~	~[2721.247]~	// Soubar Guard (ten new guards)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1898.357]~	~[3449.379]~	// Soubar Guard (ten new guards)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1981.221]~	~[4191.750]~	// Soubar Guard (ten new guards)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4840.1225]~	~[4076.1633]~	// Soubar Guard (ten new guards)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4755.1364]~	~[4143.1990]~	// Soubar Guard (ten new guards)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4839.1476]~	~[3086.1821]~	// Soubar Guard (ten new guards)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4226.1472]~	~[4232.1372]~	// Soubar Guard (ten new guards)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[381.880]~	~[381.355]~		// Soubar Guard (ten new guards)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[302.986]~	~[634.294]~		// Soubar Guard (ten new guards)
 
-			REPLACE_TEXTUALLY EXACT_MATCH ~[453.945]~	~[453.601]~		// Squad Leader A
-			REPLACE_TEXTUALLY EXACT_MATCH ~[474.1118]~	~[73.195]~		// Squad Leader B
-			REPLACE_TEXTUALLY EXACT_MATCH ~[287.1139]~	~[75.355]~		// Squad Leader C
-			REPLACE_TEXTUALLY EXACT_MATCH ~[220.1035]~	~[1017.375]~	// Squad Leader D
-			REPLACE_TEXTUALLY EXACT_MATCH ~[235.868]~	~[792.205]~		// Squad Leader E
-			REPLACE_TEXTUALLY EXACT_MATCH ~[618.869]~	~[819.447]~		// Squad Leader G
-			REPLACE_TEXTUALLY EXACT_MATCH ~[359.653]~	~[434.95]~		// Squad Leader H
-			REPLACE_TEXTUALLY EXACT_MATCH ~[231.661]~	~[192.644]~		// Squad Leader I
-			REPLACE_TEXTUALLY EXACT_MATCH ~[595.586]~	~[695.564]~		// Squad Leader J
-			REPLACE_TEXTUALLY EXACT_MATCH ~[320.800]~	~[320.320]~		// Squad Leader K
+            REPLACE_TEXTUALLY EXACT_MATCH ~[453.945]~	~[453.601]~		// Squad Leader A
+            REPLACE_TEXTUALLY EXACT_MATCH ~[474.1118]~	~[73.195]~		// Squad Leader B
+            REPLACE_TEXTUALLY EXACT_MATCH ~[287.1139]~	~[75.355]~		// Squad Leader C
+            REPLACE_TEXTUALLY EXACT_MATCH ~[220.1035]~	~[1017.375]~	// Squad Leader D
+            REPLACE_TEXTUALLY EXACT_MATCH ~[235.868]~	~[792.205]~		// Squad Leader E
+            REPLACE_TEXTUALLY EXACT_MATCH ~[618.869]~	~[819.447]~		// Squad Leader G
+            REPLACE_TEXTUALLY EXACT_MATCH ~[359.653]~	~[434.95]~		// Squad Leader H
+            REPLACE_TEXTUALLY EXACT_MATCH ~[231.661]~	~[192.644]~		// Squad Leader I
+            REPLACE_TEXTUALLY EXACT_MATCH ~[595.586]~	~[695.564]~		// Squad Leader J
+            REPLACE_TEXTUALLY EXACT_MATCH ~[320.800]~	~[320.320]~		// Squad Leader K
 
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1598.218]~	~[2406.395]~	// Squad Leader A
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1810.101]~	~[2083.165]~	// Squad Leader B
-			REPLACE_TEXTUALLY EXACT_MATCH ~[2034.244]~	~[2758.232]~	// Squad Leader C
-			REPLACE_TEXTUALLY EXACT_MATCH ~[2022.382]~	~[2961.276]~	// Squad Leader D
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1812.447]~	~[2104.405]~	// Squad Leader E
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1675.533]~	~[2594.554]~	// Squad Leader G
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1488.423]~	~[2943.372]~	// Squad Leader H
-			REPLACE_TEXTUALLY EXACT_MATCH ~[2105.123]~	~[2424.286]~	// Squad Leader I
-			REPLACE_TEXTUALLY EXACT_MATCH ~[2151.428]~	~[2683.39]~		// Squad Leader J
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1761.306]~	~[2057.638]~	// Squad Leader K
-			
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4758.1285]~	~[3915.2258]~	// Squad Leader A
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4772.1471]~	~[4120.2169]~	// Squad Leader B
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4918.1664]~	~[4214.2354]~	// Squad Leader C
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4688.1705]~	~[4384.2458]~	// Squad Leader D
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4602.1576]~	~[4620.2402]~	// Squad Leader E
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4445.1429]~	~[4760.2459]~	// Squad Leader G
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4402.1297]~	~[4811.2581]~	// Squad Leader H
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4307.1275]~	~[5022.2562]~	// Squad Leader I
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4389.1460]~	~[4306.2440]~	// Squad Leader J
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4430.1641]~	~[3961.2105]~	// Squad Leader K
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1598.218]~	~[2406.395]~	// Squad Leader A
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1810.101]~	~[2083.165]~	// Squad Leader B
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2034.244]~	~[2758.232]~	// Squad Leader C
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2022.382]~	~[2961.276]~	// Squad Leader D
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1812.447]~	~[2104.405]~	// Squad Leader E
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1675.533]~	~[2594.554]~	// Squad Leader G
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1488.423]~	~[2943.372]~	// Squad Leader H
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2105.123]~	~[2424.286]~	// Squad Leader I
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2151.428]~	~[2683.39]~		// Squad Leader J
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1761.306]~	~[2057.638]~	// Squad Leader K
+            
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4758.1285]~	~[3915.2258]~	// Squad Leader A
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4772.1471]~	~[4120.2169]~	// Squad Leader B
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4918.1664]~	~[4214.2354]~	// Squad Leader C
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4688.1705]~	~[4384.2458]~	// Squad Leader D
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4602.1576]~	~[4620.2402]~	// Squad Leader E
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4445.1429]~	~[4760.2459]~	// Squad Leader G
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4402.1297]~	~[4811.2581]~	// Squad Leader H
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4307.1275]~	~[5022.2562]~	// Squad Leader I
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4389.1460]~	~[4306.2440]~	// Squad Leader J
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4430.1641]~	~[3961.2105]~	// Squad Leader K
 
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3275.2350],6~	~[3250.3800],12~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3275.2400],6~	~[3250.3750],12~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3275.2450],6~	~[3250.3700],12~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3275.2500],6~	~[3250.3650],12~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3275.2550],6~	~[3250.3600],12~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3375.2350],6~	~[3180.3800],12~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3375.2400],6~	~[3180.3750],12~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3375.2450],6~	~[3180.3700],12~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3375.2500],6~	~[3180.3650],12~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3375.2550],6~	~[3180.3600],12~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3475.2350],6~	~[3180.3500],14~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3475.2400],6~	~[3240.3480],14~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3475.2450],6~	~[3300.3460],14~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3475.2500],6~	~[3360.3440],14~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3475.2550],6~	~[3420.3420],14~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3575.2350],6~	~[3140.3420],14~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3575.2400],6~	~[3200.3400],14~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3575.2450],6~	~[3260.3380],14~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3575.2500],6~	~[3320.3360],14~	// Soubar Guard
-			REPLACE_TEXTUALLY EXACT_MATCH ~[3575.2550],6~	~[3380.3340],14~	// Soubar Guard
-			
-			REPLACE_TEXTUALLY EXACT_MATCH ~[2180.2220]~	~[2871.2838]~	// Soubar Villager
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4739.1428]~	~[4186.565]~	// Squad Leader A
-			REPLACE_TEXTUALLY EXACT_MATCH ~[2350.460]~	~[2545.369]~	// Squad Leader B
-			REPLACE_TEXTUALLY EXACT_MATCH ~[433.1261]~	~[268.318]~		// Squad Leader C
-			REPLACE_TEXTUALLY EXACT_MATCH ~[4380.1370]~	~[4392.699]~	// Squad Leader D
-		END
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3275.2350],6~	~[3250.3800],12~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3275.2400],6~	~[3250.3750],12~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3275.2450],6~	~[3250.3700],12~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3275.2500],6~	~[3250.3650],12~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3275.2550],6~	~[3250.3600],12~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3375.2350],6~	~[3180.3800],12~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3375.2400],6~	~[3180.3750],12~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3375.2450],6~	~[3180.3700],12~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3375.2500],6~	~[3180.3650],12~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3375.2550],6~	~[3180.3600],12~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3475.2350],6~	~[3180.3500],14~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3475.2400],6~	~[3240.3480],14~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3475.2450],6~	~[3300.3460],14~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3475.2500],6~	~[3360.3440],14~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3475.2550],6~	~[3420.3420],14~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3575.2350],6~	~[3140.3420],14~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3575.2400],6~	~[3200.3400],14~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3575.2450],6~	~[3260.3380],14~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3575.2500],6~	~[3320.3360],14~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3575.2550],6~	~[3380.3340],14~	// Soubar Guard
+            
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2180.2220]~	~[2871.2838]~	// Soubar Villager
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4739.1428]~	~[4186.565]~	// Squad Leader A
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2350.460]~	~[2545.369]~	// Squad Leader B
+            REPLACE_TEXTUALLY EXACT_MATCH ~[433.1261]~	~[268.318]~		// Squad Leader C
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4380.1370]~	~[4392.699]~	// Squad Leader D
+        END
 
-	// Soubar Sergeant script
-	COPY_EXISTING ~CBSOUSGT.DLG~ ~override~
-		DECOMPILE_AND_PATCH BEGIN
-			REPLACE_TEXTUALLY EXACT_MATCH ~1725,270~ ~1480,460~ // Patrol mission: sergeant start position
-		END
+    // Soubar Sergeant script
+    COPY_EXISTING ~CBSOUSGT.DLG~ ~override~
+        DECOMPILE_AND_PATCH BEGIN
+            REPLACE_TEXTUALLY EXACT_MATCH ~1725,270~ ~1480,460~ // Patrol mission: sergeant start position
+        END
 
-	// Patrol Mission Cut Scene
-	COPY_EXISTING ~CBRODPAT.BCS~ ~override~
-		DECOMPILE_AND_PATCH BEGIN
-			// Soubar Sergeant position
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1800.450]~ ~[2115.535]~
+    // Patrol Mission Cut Scene
+    COPY_EXISTING ~CBRODPAT.BCS~ ~override~
+        DECOMPILE_AND_PATCH BEGIN
+            // Soubar Sergeant position
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1800.450]~ ~[2115.535]~
 
-			// View Points
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1295.456]~ ~[1320.490]~
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1734.395]~ ~[1760.425]~
-			REPLACE_TEXTUALLY EXACT_MATCH ~[2024.255]~ ~[2040.290]~
-			REPLACE_TEXTUALLY EXACT_MATCH ~[2484.191]~ ~[2575.300]~
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1525.75]~ ~[1170.444]~
-			REPLACE_TEXTUALLY EXACT_MATCH ~[954.172]~ ~[1025.299]~
+            // View Points
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1295.456]~ ~[1320.490]~
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1734.395]~ ~[1760.425]~
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2024.255]~ ~[2040.290]~
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2484.191]~ ~[2575.300]~
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1525.75]~ ~[1170.444]~
+            REPLACE_TEXTUALLY EXACT_MATCH ~[954.172]~ ~[1025.299]~
 
-			// Bandit Spawn Points
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1250.50]~ ~[1150.50]~
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1300.50]~ ~[1100.50]~
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1350.50]~ ~[1050.50]~
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1400.50]~ ~[1000.50]~
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1450.50]~ ~[950.50]~
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1500.50]~ ~[900.50]~
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1550.50]~ ~[850.50]~
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1600.50]~ ~[800.50]~
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1650.50]~ ~[750.50]~
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1700.50]~ ~[700.50]~
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1750.50]~ ~[650.50]~
-			REPLACE_TEXTUALLY EXACT_MATCH ~[1800.50]~ ~[600.50]~
-			REPLACE_TEXTUALLY EXACT_MATCH ~[2200.50]~ ~[2650.50]~
-			REPLACE_TEXTUALLY EXACT_MATCH ~[2250.50]~ ~[2700.50]~
-			REPLACE_TEXTUALLY EXACT_MATCH ~[2300.50]~ ~[2750.50]~
-			REPLACE_TEXTUALLY EXACT_MATCH ~[2350.50]~ ~[2800.50]~
-			REPLACE_TEXTUALLY EXACT_MATCH ~[2400.50]~ ~[2850.50]~
-			REPLACE_TEXTUALLY EXACT_MATCH ~MoveToObject("CbWayPoint6")~ ~MoveToObject("CbWayPoint3")~
-		END
+            // Bandit Spawn Points
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1250.50]~ ~[1150.50]~
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1300.50]~ ~[1100.50]~
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1350.50]~ ~[1050.50]~
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1400.50]~ ~[1000.50]~
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1450.50]~ ~[950.50]~
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1500.50]~ ~[900.50]~
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1550.50]~ ~[850.50]~
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1600.50]~ ~[800.50]~
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1650.50]~ ~[750.50]~
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1700.50]~ ~[700.50]~
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1750.50]~ ~[650.50]~
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1800.50]~ ~[600.50]~
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2200.50]~ ~[2650.50]~
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2250.50]~ ~[2700.50]~
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2300.50]~ ~[2750.50]~
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2350.50]~ ~[2800.50]~
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2400.50]~ ~[2850.50]~
+            REPLACE_TEXTUALLY EXACT_MATCH ~MoveToObject("CbWayPoint6")~ ~MoveToObject("CbWayPoint3")~
+        END
 
-	// Patrol Bandit script
-	COPY_EXISTING ~CBRDPTBD.BCS~ ~override~
-		DECOMPILE_AND_PATCH BEGIN
-			REPLACE_TEXTUALLY EXACT_MATCH ~MoveToObjectNoInterrupt("CbWayPoint6")~ ~MoveToObjectNoInterrupt("CbWayPoint3")~
-		END
+    // Patrol Bandit script
+    COPY_EXISTING ~CBRDPTBD.BCS~ ~override~
+        DECOMPILE_AND_PATCH BEGIN
+            REPLACE_TEXTUALLY EXACT_MATCH ~MoveToObjectNoInterrupt("CbWayPoint6")~ ~MoveToObjectNoInterrupt("CbWayPoint3")~
+        END
 
-		
+        
 /* ======== *
  *  Biffing *
  * ======== */
 
 BEGIN @21002
-	DESIGNATED 3 LABEL ~sos_resource_biffing~
-	REQUIRE_PREDICATE MOD_IS_INSTALLED "SoS.tp2" (ID_OF_LABEL "SoS.tp2" "shadows_over_soubar" ) @21003
-	REQUIRE_PREDICATE (NOT GAME_IS ~bg2ee eet~) @21004
+    DESIGNATED 3 LABEL ~sos_resource_biffing~
+    REQUIRE_PREDICATE MOD_IS_INSTALLED "SoS.tp2" (ID_OF_LABEL "SoS.tp2" "shadows_over_soubar" ) @21003
+    REQUIRE_PREDICATE (NOT GAME_IS ~bg2ee eet~) @21004
 
-	PRINT @21005
+    PRINT @21005
 
-	ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
+    ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 
-		ACTION_DEFINE_ASSOCIATIVE_ARRAY table_SOS_biff BEGIN
-			~SoS-tis~ , ~override~ , ~^.*\.tis$~ => 150000000 //150 MB
-			~SoS-wav~ , ~override~ , ~^.*\.wav$~ => 150000000 //150 MB
-	//		~SoS-RES~ , ~override~ , ~^.*$~ => 100000000 
-		END
-		
-		ACTION_PHP_EACH table_SOS_biff AS biff => size BEGIN
-			OUTER_SET totalSize = 0
-			OUTER_SET index = 0
-			MKDIR ~%workspace%/%biff%%index%~
-			ACTION_BASH_FOR ~%biff_1%~ ~%biff_2%~ BEGIN
-				ACTION_IF ( BASH_FOR_SIZE + totalSize > size ) AND ( totalSize > 0 ) BEGIN
-					MAKE_BIFF ~%biff%%index%~ BEGIN ~%workspace%/%biff%%index%~ ~^.*$~ END
-					OUTER_SET index = index + 1
-					OUTER_SET totalSize = 0
-					MKDIR ~%workspace%/%biff%%index%~
-				END
-				MOVE ~%BASH_FOR_FILESPEC%~ ~%workspace%/%biff%%index%~
-				OUTER_SET totalSize = totalSize + BASH_FOR_SIZE
-			END
-			ACTION_IF ( totalSize > 0 ) BEGIN
-				MAKE_BIFF ~%biff%%index%~ BEGIN ~%workspace%/%biff%%index%~ ~^.*$~ END
-			END
-		END
-	END
+        ACTION_DEFINE_ASSOCIATIVE_ARRAY table_SOS_biff BEGIN
+            ~SoS-tis~ , ~override~ , ~^.*\.tis$~ => 150000000 //150 MB
+            ~SoS-wav~ , ~override~ , ~^.*\.wav$~ => 150000000 //150 MB
+    //		~SoS-RES~ , ~override~ , ~^.*$~ => 100000000 
+        END
+        
+        ACTION_PHP_EACH table_SOS_biff AS biff => size BEGIN
+            OUTER_SET totalSize = 0
+            OUTER_SET index = 0
+            MKDIR ~%workspace%/%biff%%index%~
+            ACTION_BASH_FOR ~%biff_1%~ ~%biff_2%~ BEGIN
+                ACTION_IF ( BASH_FOR_SIZE + totalSize > size ) AND ( totalSize > 0 ) BEGIN
+                    MAKE_BIFF ~%biff%%index%~ BEGIN ~%workspace%/%biff%%index%~ ~^.*$~ END
+                    OUTER_SET index = index + 1
+                    OUTER_SET totalSize = 0
+                    MKDIR ~%workspace%/%biff%%index%~
+                END
+                MOVE ~%BASH_FOR_FILESPEC%~ ~%workspace%/%biff%%index%~
+                OUTER_SET totalSize = totalSize + BASH_FOR_SIZE
+            END
+            ACTION_IF ( totalSize > 0 ) BEGIN
+                MAKE_BIFF ~%biff%%index%~ BEGIN ~%workspace%/%biff%%index%~ ~^.*$~ END
+            END
+        END
+    END
 
-	COPY_EXISTING ~misc01.itm~ ~override/%MOD_FOLDER%.mrk~
+    COPY_EXISTING ~misc01.itm~ ~override/%MOD_FOLDER%.mrk~
 
 
 /* ================================================================================== *
@@ -1313,17 +1313,17 @@ DESIGNATED 1 LABEL ~sos_selence_at_waukeens_promenade_after_meeting_Gaelan~
 REQUIRE_PREDICATE MOD_IS_INSTALLED "SoS.tp2" (ID_OF_LABEL "SoS.tp2" "shadows_over_soubar" ) @21003
 
 COPY_EXISTING ~Gaelan.dlg~ ~override~
-	DECOMPILE_AND_PATCH BEGIN
-		REPLACE_TEXTUALLY ~SetGlobalTimer("ImoenDream1","GLOBAL",ONE_DAY)~
-						  ~SetGlobalTimer("ImoenDream1","GLOBAL",ONE_DAY)
-						  SetGlobal("CBGaelanafterSlum","GLOBAL",1)~
-	END
+    DECOMPILE_AND_PATCH BEGIN
+        REPLACE_TEXTUALLY ~SetGlobalTimer("ImoenDream1","GLOBAL",ONE_DAY)~
+                          ~SetGlobalTimer("ImoenDream1","GLOBAL",ONE_DAY)
+                          SetGlobal("CBGaelanafterSlum","GLOBAL",1)~
+    END
 COPY_EXISTING ~AR0700.bcs~ ~override~
-	DECOMPILE_AND_PATCH BEGIN
-		REPLACE_TEXTUALLY ~Global("SELENCE","GLOBAL",0)~
-						  ~Global("SELENCE","GLOBAL",0)
-						  Global("CBGaelanafterSlum","GLOBAL",1)~
-	END
+    DECOMPILE_AND_PATCH BEGIN
+        REPLACE_TEXTUALLY ~Global("SELENCE","GLOBAL",0)~
+                          ~Global("SELENCE","GLOBAL",0)
+                          Global("CBGaelanafterSlum","GLOBAL",1)~
+    END
 
 
 /* ====================================================================== *
@@ -1335,7 +1335,7 @@ REQUIRE_PREDICATE MOD_IS_INSTALLED "SoS.tp2" (ID_OF_LABEL "SoS.tp2" "shadows_ove
 REQUIRE_PREDICATE (NOT GAME_IS ~bg2ee eet~) @21004
 
 ACTION_IF (~%WEIDU_OS%~ STRING_EQUAL_CASE ~osx~ = 1) BEGIN
-	FAIL @21007
+    FAIL @21007
 END
 
 //patching speed of MBRH slot ************************************************************
@@ -1343,11 +1343,11 @@ END
 //for other version it's necessary to search for C6 42 06 0A 8B 85 9C FB FF FF C6 40 07 0A
 //and patch both 0A at found offsets with 6 : ------------^^----------------------------^^
 COPY_EXISTING ~bgmain.exe~  ~bgmain.exe~
-	READ_BYTE 0x0041D40E   byte1
-	READ_BYTE 0x0041D40E+1 byte2
-	READ_BYTE 0x0041D40E+2 byte3
-	PATCH_IF( "%byte1%"=0xC6 AND "%byte2%"=0x42 AND "%byte3%"=0x06 ) BEGIN
-		WRITE_BYTE 0x0041D40E+3 6 //was 0x0A
-		WRITE_BYTE 0x0041D418+3 6 //was 0x0A
-	END
+    READ_BYTE 0x0041D40E   byte1
+    READ_BYTE 0x0041D40E+1 byte2
+    READ_BYTE 0x0041D40E+2 byte3
+    PATCH_IF( "%byte1%"=0xC6 AND "%byte2%"=0x42 AND "%byte3%"=0x06 ) BEGIN
+        WRITE_BYTE 0x0041D40E+3 6 //was 0x0A
+        WRITE_BYTE 0x0041D418+3 6 //was 0x0A
+    END
 BUT_ONLY_IF_IT_CHANGES
