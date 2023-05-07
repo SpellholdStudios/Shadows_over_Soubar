@@ -36,7 +36,7 @@ COPY_EXISTING ~AR0406.are~           ~override~
    END
    WRITE_ASCII ("%cont_offset%"+0xc0*cnt+0x78)  "CBSHCCKY"    //key name
  END
- BUT_ONLY_IF_IT_CHANGES //********************************************************  ~AR0406.are~
+ BUT_ONLY //********************************************************  ~AR0406.are~
 
 
 COPY_EXISTING ~AR0700.are~           ~override~
