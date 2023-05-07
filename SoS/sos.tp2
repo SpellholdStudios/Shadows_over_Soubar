@@ -52,7 +52,7 @@ ALWAYS
                     infer_charsets = 1
                 STR_VAR
                     tra_path = EVAL "%MOD_FOLDER%/language"
-                    iconv_path = EVAL "%MOD_FOLDER%/bin/win32/iconv" //available as part of the base system on OS X and GNU/Linux
+                    iconv_path = EVAL "%MOD_FOLDER%/Tools/iconv" //available as part of the base system on OS X and GNU/Linux
                     reload_array = charsetsReloadArray
                     noconvert_array = charsetsNoConvertArray
             END
@@ -81,7 +81,6 @@ LANGUAGE ~Espanol (traduccion por SirLancelot & Co)~
 LANGUAGE ~Italiano (traduzione di Ilot & Co)~
          ~Italian~
          ~SoS/Language/Italian/setup.tra~
-
 
 /* ====================================== *
  *  Shadows over Soubar : main component  *
@@ -965,16 +964,16 @@ END
 LAF HANDLE_AUDIO
     STR_VAR
     audio_path = EVAL ~%workspace%/ogg1~
-    oggdec_path = EVAL ~%MOD_FOLDER%/bin/win32~
-    sox_path = EVAL ~%MOD_FOLDER%/bin/osx~
+    oggdec_path = EVAL ~%MOD_FOLDER%/Tools/oggdec/~
+    sox_path = EVAL ~%MOD_FOLDER%/Tools/sox/~
     output_path = ~override~
 END
 
 LAF HANDLE_AUDIO  // With no configuration, HANDLE_AUDIO expects your audio, oggdec.exe and SoX to be located in mymod/audio
   STR_VAR
     audio_path = EVAL ~%workspace%/ogg2~
-    oggdec_path = EVAL ~%MOD_FOLDER%/bin/win32~
-    sox_path = EVAL ~%MOD_FOLDER%/bin/osx~
+    oggdec_path = EVAL ~%MOD_FOLDER%/Tools/oggdec/~
+    sox_path = EVAL ~%MOD_FOLDER%/Tools/sox/~
     output_path = ~override~
 END
 
@@ -982,7 +981,7 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
     LAF HANDLE_TILESETS
         STR_VAR
         tiz_path = EVAL ~%MOD_FOLDER%/Tiz~
-        tisunpack_path = EVAL ~%MOD_FOLDER%/bin~
+        tisunpack_path = EVAL ~%MOD_FOLDER%/Tools/tileconv/%WEIDU_OS%~
     END	 
 END
 
