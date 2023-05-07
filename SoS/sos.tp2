@@ -583,7 +583,7 @@ INCLUDE ~%MOD_FOLDER%/lib/install-cre.tpa~
 COPY_EXISTING ~ICGOB04.cre~         ~override~
               ~FSHORDE1.cre~        ~override~ //this creature is not used, but still...for safer future ;)
  WRITE_LONG 0x28  0xE400   //IC_GOBLIN_AXE instead of IC_GOBLINELITE_AXE
-BUT_ONLY_IF_IT_CHANGES*/
+BUT_ONLY*/
 
 
 //******************************************************************
@@ -762,7 +762,7 @@ ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
         SAY NAME1 @20288
         SAY NAME2 @20288
         WRITE_LONG 0x28 0xE060   //IC_LICH
-    BUT_ONLY_IF_IT_CHANGES
+    BUT_ONLY
 END
 
 ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
@@ -786,7 +786,7 @@ ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
         SAY NAME1 @20288
         SAY NAME2 @20288
         WRITE_LONG 0x28 0xE25D   //IC_LICH          0xE25D TUNDRA_YETI with EE    0xe25D IC_TUNDRA_YETI with EXTENDED ANIMATION
-    BUT_ONLY_IF_IT_CHANGES
+    BUT_ONLY
 END
 
 //**************************************************************************
@@ -1348,4 +1348,4 @@ COPY_EXISTING ~bgmain.exe~  ~bgmain.exe~
         WRITE_BYTE 0x0041D40E+3 6 //was 0x0A
         WRITE_BYTE 0x0041D418+3 6 //was 0x0A
     END
-BUT_ONLY_IF_IT_CHANGES
+BUT_ONLY
