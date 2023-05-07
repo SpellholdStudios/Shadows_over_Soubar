@@ -89,7 +89,7 @@ BEGIN @20000
 DESIGNATED 0 LABEL ~shadows_over_soubar~
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-    INCLUDE ~%MOD_FOLDER%/lib/install-guititle.tpa~
+    INCLUDE ~%MOD_FOLDER%/Lib/install-guititle.tpa~
 END
 
 COPY_EXISTING ~misc01.itm~ ~override/sos.mrk~
@@ -233,7 +233,7 @@ BOLIVAR      BOLIVARP           BOLIVARJ          ***            ***            
 TOMASTM      TOMASTOP           TOMASTOJ          ***            ***                ***                   ***                   ***~
 UNLESS ~SELENCE~
 
-INCLUDE ~%MOD_FOLDER%/lib/tooltip.tpa~
+INCLUDE ~%MOD_FOLDER%/Lib/tooltip.tpa~
 LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBCL001~ tooltips = ~@20028 @20029~ END
 LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBCL006~ tooltips = ~@20030 @20031~ END
 LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBCL016~ tooltips = ~@20032 @20033 @20034~ END
@@ -256,10 +256,10 @@ LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBRJR020~ tooltips = ~@20061 @20062 @200
 LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBSTFSKL~ tooltips = ~@20064 @20065 @20066~ END
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-    ACTION_IF FILE_EXISTS ~bg2fixpack/lib/kit_ids_fixer.tpa~ BEGIN
-        INCLUDE ~bg2fixpack/lib/kit_ids_fixer.tpa~
+    ACTION_IF FILE_EXISTS ~bg2fixpack/Lib/kit_ids_fixer.tpa~ BEGIN
+        INCLUDE ~bg2fixpack/Lib/kit_ids_fixer.tpa~
     END ELSE BEGIN
-        INCLUDE ~%MOD_FOLDER%/lib/kit_ids_fixer.tpa~
+        INCLUDE ~%MOD_FOLDER%/Lib/kit_ids_fixer.tpa~
     END
 END
 
@@ -492,26 +492,27 @@ ELSE BEGIN
 END
 
 ACTION_IF GAME_IS ~eet~ BEGIN
-    COPY ~%MOD_FOLDER%/Worldmap/eet/eet-links.tbl~  ~%MOD_FOLDER%/Worldmap/eet~
+    COPY ~%MOD_FOLDER%/Worldmap/EET/eet-links.tbl~  ~%MOD_FOLDER%/Worldmap/EET~
         PATCH_IF (FILE_EXISTS_IN_GAME ~rot.mrk~)  OR (FILE_EXISTS ~data/ROT-RULE.BIF~) BEGIN
-            APPEND_FILE ~%MOD_FOLDER%/Worldmap/eet/rot_links.tbl~                        
+            APPEND_FILE ~%MOD_FOLDER%/Worldmap/EET/rot_links.tbl~                        
         END                                                                    
         PATCH_IF (FILE_EXISTS_IN_GAME ~ctb.mrk~)  OR (FILE_EXISTS ~data/CTB-RULE.BIF~) BEGIN
-            APPEND_FILE ~%MOD_FOLDER%/Worldmap/eet/ctb_links.tbl~                        
+            APPEND_FILE ~%MOD_FOLDER%/Worldmap/EET/ctb_links.tbl~                        
         END                                                                    
         PATCH_IF (FILE_EXISTS_IN_GAME ~tdd.mrk~)  OR (FILE_EXISTS ~data/TDD-RULE.BIF~) OR  (MOD_IS_INSTALLED "TDDz" "0") BEGIN
-            APPEND_FILE ~%MOD_FOLDER%/Worldmap/eet/tdd_links.tbl~
+            APPEND_FILE ~%MOD_FOLDER%/Worldmap/EET/tdd_links.tbl~
         END
-    INCLUDE ~%MOD_FOLDER%/lib/add_worldmap_tbl.tpa~
+    INCLUDE ~%MOD_FOLDER%/Lib/add_worldmap_tbl.tpa~
     LAF ADD_WORLDMAP_TBL
         INT_VAR
         verbose = 1
         inclSv = 0
         STR_VAR
-        path_to_areas = EVAL ~%MOD_FOLDER%/Worldmap/eet/eet-areas.tbl~
+        path_to_areas = EVAL ~%MOD_FOLDER%/Worldmap/EET/eet-areas.tbl~
         //path_to_areas_bp = EVAL ~%MOD_FOLDER%/Worldmap/areas.tbl~
-        path_to_links = EVAL ~%MOD_FOLDER%/Worldmap/eet/eet-links.tbl~
+        path_to_links = EVAL ~%MOD_FOLDER%/Worldmap/EET/eet-links.tbl~
         path_to_trans = EVAL ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
+
     END
 END
 
@@ -537,8 +538,7 @@ COMPILE EVALUATE_BUFFER ~SOSDLG~
 COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/D~
 COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/D2~
 
-ACTION_IF FILE_EXISTS ~data/TS-TIS.BIF~     // Compatibility with TS
-OR FILE_EXISTS ~override/GodBless.ITM~
+ACTION_IF FILE_EXISTS ~data/TS-TIS.BIF~ OR FILE_EXISTS ~override/GodBless.ITM~ // Compatibility with TS
 THEN BEGIN
   COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/Compat/TS/aRIBALD.d~
 END
@@ -552,13 +552,13 @@ END
 /////////////////////////////
 PRINT @20070
 
-INCLUDE ~%MOD_FOLDER%/lib/install-arescripts.tpa~
+INCLUDE ~%MOD_FOLDER%/Lib/install-arescripts.tpa~
 
 ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
    COPY ~%MOD_FOLDER%/WED/BG2/AR1004.WED~ ~override~
 END
 
-INCLUDE ~%MOD_FOLDER%/lib/install-wed.tpa~
+INCLUDE ~%MOD_FOLDER%/Lib/install-wed.tpa~
 
 //******************************************************************
 //  SCRIPTS
@@ -573,7 +573,7 @@ COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/BAF~
 //******************************************************************
 PRINT @20090
 
-INCLUDE ~%MOD_FOLDER%/lib/install-cre.tpa~
+INCLUDE ~%MOD_FOLDER%/Lib/install-cre.tpa~
 
 
 
@@ -591,7 +591,7 @@ BUT_ONLY*/
 //******************************************************************
 PRINT @20409
 
-INCLUDE ~%MOD_FOLDER%/lib/install-itm.tpa~
+INCLUDE ~%MOD_FOLDER%/Lib/install-itm.tpa~
 
 
 //******************************************************************
@@ -843,7 +843,7 @@ END
 //////////////////////////////
 // bgee.lua cheat table
 //////////////////////////////
-INCLUDE ~%MOD_FOLDER%/lib/cheat_var.tph~
+INCLUDE ~%MOD_FOLDER%/Lib/cheat_var.tph~
     
 //**************************************************************************
 // A single SoS Kit
@@ -871,7 +871,7 @@ SAY @20802
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     
-    INCLUDE ~%MOD_FOLDER%/lib/a7#add_kit_ex.tpa~
+    INCLUDE ~%MOD_FOLDER%/Lib/a7#add_kit_ex.tpa~
     LAUNCH_ACTION_FUNCTION ADD_KIT_EX
     INT_VAR
         briefdesc = RESOLVE_STR_REF (@20802)
@@ -987,7 +987,6 @@ END
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
    COPY ~%MOD_FOLDER%/Pvrz~ ~override~
 END
-
 
 COPY ~%MOD_FOLDER%/Language/English/MVE~ ~override~
 ACTION_IF DIRECTORY_EXISTS ~%MOD_FOLDER%/Language/%LANGUAGE%/MVE~ BEGIN
