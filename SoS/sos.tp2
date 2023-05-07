@@ -964,7 +964,7 @@ END
 LAF HANDLE_AUDIO
     STR_VAR
     audio_path = EVAL ~%workspace%/ogg1~
-    oggdec_path = EVAL ~%MOD_FOLDER%/Tools/oggdec/~
+    oggdec_path = EVAL ~%MOD_FOLDER%/Tools/oggdec~
     sox_path = EVAL ~%MOD_FOLDER%/Tools/sox/~
     output_path = ~override~
 END
@@ -972,7 +972,7 @@ END
 LAF HANDLE_AUDIO  // With no configuration, HANDLE_AUDIO expects your audio, oggdec.exe and SoX to be located in mymod/audio
   STR_VAR
     audio_path = EVAL ~%workspace%/ogg2~
-    oggdec_path = EVAL ~%MOD_FOLDER%/Tools/oggdec/~
+    oggdec_path = EVAL ~%MOD_FOLDER%/Tools/oggdec~
     sox_path = EVAL ~%MOD_FOLDER%/Tools/sox/~
     output_path = ~override~
 END
@@ -981,7 +981,7 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
     LAF HANDLE_TILESETS
         STR_VAR
         tiz_path = EVAL ~%MOD_FOLDER%/Tiz~
-        tisunpack_path = EVAL ~%MOD_FOLDER%/Tools/tileconv/%WEIDU_OS%~
+        tisunpack_path = EVAL ~%MOD_FOLDER%/Tools/tisunpack~
     END	 
 END
 
