@@ -1,15 +1,15 @@
 @0 = ~Ich bin froh, dass Ihr sicher angekommen seid. Ich bin geehrt, Euch hier in unserer Stadt zu haben. ~ [CB_76960]
-@1 = ~Wie ich Euch früher in den Umar Hügeln informierte, kann Euch Bürgermeister Melandor alles erzählen, was immer Ihr über die Banditen in Lyrar wissen müsst. ~ [CB_76961]
-@2 = ~Ich verstehe, dass Sirrus will, dass Ihr Euch der Soubar Wache anschließt. Also, viel Glück dabei. Ich bin sicher, dass Ihr die Fähigkeiten für einen Mann des Militärs habt. ~ [CB_76962] ~Ich verstehe, dass Sirrus will, dass Ihr Euch der Soubar Wache anschließt. Also, viel Glück dabei. Ich bin sicher, dass Ihr die Fähigkeiten für eine Frau des Militärs habt. ~ [CB_76962]
-@3 = ~Wie würde es Euch gefallen, Gefreiter zu sein? Ich bin sicher, dass der Major Euch dabei ziemlich beschäftigen wird. ~ [CB_76963] ~Wie würde es Euch gefallen, Gefreite zu sein? Ich bin sicher, dass der Major Euch dabei ziemlich beschäftigen wird. ~ [CB_76963]
-@4 = ~Der Mann des Militärs ist also befördert worden. Dann sind Glückwünsche angebracht. ~ [CB_76964] ~Die Frau des Militärs ist also befördert worden. Dann sind Glückwünsche angebracht. ~ [CB_76964]
-@5 = ~Ich hörte die Nachrichten heute. Ihr wart die einzige Hoffnung für Soubar, und ich bin froh, dass Ihr Euch dafür entschieden habt, unserer kleinen Stadt zu helfen. Vielen Dank für alles, was Ihr getan habt. ~ [CB_76965]
-@6 = ~Bürgermeister <CHARNAME>. Ich glaube, dass Ihr noch jemanden hier braucht, der als Ratsmitglied handelt? ~ [CB_76966]
-@7 = ~Nein. Ihr werdet des Postens enthoben. Ich habe meine eigenen Ratsmitglieder ernannt. Aber Soubar dankt Euch für Euren Dienst. ~
+@1 = ~Wie ich Euch frÃ¼her in den Umar HÃ¼geln informierte, kann Euch BÃ¼rgermeister Melandor alles erzÃ¤hlen, was immer Ihr Ã¼ber die Banditen in Lyrar wissen mÃ¼sst. ~ [CB_76961]
+@2 = ~Ich verstehe, dass Sirrus will, dass Ihr Euch der Soubar Wache anschlieÃŸt. Also, viel GlÃ¼ck dabei. Ich bin sicher, dass Ihr die FÃ¤higkeiten fÃ¼r einen Mann des MilitÃ¤rs habt. ~ [CB_76962] ~Ich verstehe, dass Sirrus will, dass Ihr Euch der Soubar Wache anschlieÃŸt. Also, viel GlÃ¼ck dabei. Ich bin sicher, dass Ihr die FÃ¤higkeiten fÃ¼r eine Frau des MilitÃ¤rs habt. ~ [CB_76962]
+@3 = ~Wie wÃ¼rde es Euch gefallen, Gefreiter zu sein? Ich bin sicher, dass der Major Euch dabei ziemlich beschÃ¤ftigen wird. ~ [CB_76963] ~Wie wÃ¼rde es Euch gefallen, Gefreite zu sein? Ich bin sicher, dass der Major Euch dabei ziemlich beschÃ¤ftigen wird. ~ [CB_76963]
+@4 = ~Der Mann des MilitÃ¤rs ist also befÃ¶rdert worden. Dann sind GlÃ¼ckwÃ¼nsche angebracht. ~ [CB_76964] ~Die Frau des MilitÃ¤rs ist also befÃ¶rdert worden. Dann sind GlÃ¼ckwÃ¼nsche angebracht. ~ [CB_76964]
+@5 = ~Ich hÃ¶rte die Nachrichten heute. Ihr wart die einzige Hoffnung fÃ¼r Soubar, und ich bin froh, dass Ihr Euch dafÃ¼r entschieden habt, unserer kleinen Stadt zu helfen. Vielen Dank fÃ¼r alles, was Ihr getan habt. ~ [CB_76965]
+@6 = ~BÃ¼rgermeister <CHARNAME>. Ich glaube, dass Ihr noch jemanden hier braucht, der als Ratsmitglied handelt? ~ [CB_76966]
+@7 = ~Nein. Ihr werdet des Postens enthoben. Ich habe meine eigenen Ratsmitglieder ernannt. Aber Soubar dankt Euch fÃ¼r Euren Dienst. ~
 @8 = ~Ja das tue ich. Ihr sollet im Rat der Stadt bleiben. ~
-@9 = ~Sehr gut. Es war eine Ehre, Soubar und Euch, <CHARNAME>, zu dienen. Ich werde in meine Heimat nach Cormyr zurückkehren. Viel Glück. ~ [CB_76967]
-@10 = ~Dann werde ich Euch und Soubar nach besten Kräften mit meinen Fähigkeiten dienen. ~ [CB_76968]
-@11 = ~Es tut mir ehrlich Leid, denn wir können nichts dafür, dass Ihr den ganzen Weg nach Soubar gekommen seid, aber ich hoffe, dass Ihr nicht zu viel Abenteuer auf dem Weg hierher hattet. ~ [CB_76969]
-@12 = ~Ich lege immer Berichte für ihn ab oder schreibe Befehle auf. Ich bin nicht einmal ein Mitglied der Wache, und er lässt mich für sich arbeiten. ~ [CB_76970]
-@13 = ~Ich bin sicher, dass Sirrus und der Major Euch ziemlich schnell die Ränge durchlaufen lassen werden, da Ihr tatsächlich ein fähiger Abenteurer seid und Eure Fähigkeiten die unserer eigenen Bürgerwehr bei weitem übertreffen. ~ [CB_76971] ~Ich bin sicher, dass Sirrus und der Major Euch ziemlich schnell die Ränge durchlaufen lassen werden, da Ihr tatsächlich eine fähige Abenteurerin seid und Eure Fähigkeiten die unserer eigenen Bürgerwehr bei weitem übertreffen. ~ [CB_76971]
+@9 = ~Sehr gut. Es war eine Ehre, Soubar und Euch, <CHARNAME>, zu dienen. Ich werde in meine Heimat nach Cormyr zurÃ¼ckkehren. Viel GlÃ¼ck. ~ [CB_76967]
+@10 = ~Dann werde ich Euch und Soubar nach besten KrÃ¤ften mit meinen FÃ¤higkeiten dienen. ~ [CB_76968]
+@11 = ~Es tut mir ehrlich Leid, denn wir kÃ¶nnen nichts dafÃ¼r, dass Ihr den ganzen Weg nach Soubar gekommen seid, aber ich hoffe, dass Ihr nicht zu viel Abenteuer auf dem Weg hierher hattet. ~ [CB_76969]
+@12 = ~Ich lege immer Berichte fÃ¼r ihn ab oder schreibe Befehle auf. Ich bin nicht einmal ein Mitglied der Wache, und er lÃ¤sst mich fÃ¼r sich arbeiten. ~ [CB_76970]
+@13 = ~Ich bin sicher, dass Sirrus und der Major Euch ziemlich schnell die RÃ¤nge durchlaufen lassen werden, da Ihr tatsÃ¤chlich ein fÃ¤higer Abenteurer seid und Eure FÃ¤higkeiten die unserer eigenen BÃ¼rgerwehr bei weitem Ã¼bertreffen. ~ [CB_76971] ~Ich bin sicher, dass Sirrus und der Major Euch ziemlich schnell die RÃ¤nge durchlaufen lassen werden, da Ihr tatsÃ¤chlich eine fÃ¤hige Abenteurerin seid und Eure FÃ¤higkeiten die unserer eigenen BÃ¼rgerwehr bei weitem Ã¼bertreffen. ~ [CB_76971]
 
