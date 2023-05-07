@@ -948,8 +948,7 @@ COPY ~%MOD_FOLDER%/CRE/SELENC07.cre~         ~override~
 //////////////////////////////
 // Decompressing and buffing
 //////////////////////////////
-MKDIR ~%MOD_FOLDER%/biff~
-      ~%workspace%/ogg1~
+MKDIR ~%workspace%/ogg1~
 
 
 ACTION_BASH_FOR ~%MOD_FOLDER%/language/english/ogg1~ ~^.+\.ogg$~ BEGIN
