@@ -71,7 +71,7 @@ COPY ~%MOD_FOLDER%/gui~ ~GUI_Mods/%gui_slot_name%~
 //*****************************************************************************************
 //*****************************************************************************************
 
-COPY_EXISTING + ~%MOD_FOLDER%/title.tr~ ~%workspace%/title.tra~
+COPY_EXISTING + ~%MOD_FOLDER%/Language/title.tr~ ~%workspace%/title.tra~
  SPRINT bgt " "
  SPRINT tdd ""
  SPRINT sos ""
