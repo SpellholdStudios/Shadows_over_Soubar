@@ -8,8 +8,6 @@ VERSION ~1.16~
 
 README ~%MOD_FOLDER%/readme/%MOD_FOLDER%-readme-readme-english.html~ ~%MOD_FOLDER%/readme/%MOD_FOLDER%-readme-%LANGUAGE%.html~
 
-AUTO_TRA ~%MOD_FOLDER%/Language/%s~
-
 ASK_EVERY_COMPONENT
 
 ALWAYS
@@ -39,48 +37,64 @@ ALWAYS
     END
     OUTER_SPRINT ~tileconv~ ~%MOD_FOLDER%%os_slash%bin%os_slash%%WEIDU_OS%%os_slash%tileconv%exe%~
 
-    // Convert strings to UTF-8 for Enhanced Edition
-    // setup.tra needs to be reloaded after conversion
+    // define variable for HANDLE_CHARSETS out_path so it can be reused later
+    OUTER_TEXT_SPRINT "HANDLE_CHARSETS_OUT_PATH" EVAL "weidu_external/Language/%MOD_FOLDER%"
+    // do not convert Setup.tra files, those should be UTF8 already
+    ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN setup END // List of tra files that need to be reloaded after conversion because they were previously loaded in the LANGUAGE section
+    ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN mod END // List of tra files that contain ONLY strings for the WeiDU installer and NOT game content
+    // On EE games, convert game content tra files to utf-8 so that games don't crash when encountering international characters.
+    LAF HANDLE_CHARSETS
+        INT_VAR
+            from_utf8 = 1
+            infer_charsets = 1
+            verbose = 1 // you can disable this if you want to skip verbose output
+        STR_VAR
+            default_language = ~English~
+            tra_path = EVAL "%MOD_FOLDER%/language"
+            out_path = EVAL "%HANDLE_CHARSETS_OUT_PATH%" // location of converted .tra files
+            iconv_path = EVAL "%MOD_FOLDER%/Tools/iconv" //available as part of the base system on OS X and GNU/Linux
+            reload_array = charsetsReloadArray
+            noconvert_array = charsetsNoConvertArray
+    END
+    // for AUTO_TRA: if the game is the enhanced edition, the conversion will not happen so all .tra files should be loaded from "%MOD_FOLDER%/Language"
+    ACTION_IF (GAME_IS "bgee bg2ee eet iwdee pstee") THEN BEGIN
+        OUTER_TEXT_SPRINT "TRA_LOCATION" EVAL "%MOD_FOLDER%/Language"
+    END
 
-    ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
-        
-        ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup END // List of tra files that contain ONLY strings for the WeiDU installer and NOT game content
-        ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN setup-ee END // List of tra files that need to be reloaded after conversion because they were previously loaded in the LANGUAGE section
-        // On EE games, convert game content tra files to utf-8 so that games don't crash when encountering international characters.
-        LAF HANDLE_CHARSETS
-            INT_VAR
-                infer_charsets = 1
-            STR_VAR
-                tra_path = EVAL "%MOD_FOLDER%/language"
-                iconv_path = EVAL "%MOD_FOLDER%/Tools/iconv" //available as part of the base system on OS X and GNU/Linux
-                reload_array = charsetsReloadArray
-                noconvert_array = charsetsNoConvertArray
-        END
-        COPY ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap-utf8.tra~ ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
-        LOAD_TRA ~%MOD_FOLDER%/language/%LANGUAGE%/setup-ee.tra~
+    // for AUTO_TRA: if the game is the classic edition, all converted .tra files will be loaded from HANDLE_CHARSETS out_path
+    ACTION_IF NOT (GAME_IS "bgee bg2ee eet iwdee pstee") THEN BEGIN
+        OUTER_TEXT_SPRINT "TRA_LOCATION" EVAL "%HANDLE_CHARSETS_OUT_PATH%"
+    END
+    // load ee-like item desctiptions
+    ACTION_IF GAME_IS ~bgee bg2ee eet iwdee pstee~ THEN BEGIN
+        LOAD_TRA ~%MOD_FOLDER%/language/%LANGUAGE%/ITEMS-EE.tra~
     END
 
 END
 
+// for the EE games, the variable will point to the untouched .tra files
+// for classic games will point to the HANDLE_CHARSETS out_path value where converted files are stored
+AUTO_TRA "%TRA_LOCATION%/%s"
+
 LANGUAGE ~English~
          ~English~
-         ~SoS/Language/English/setup.tra~
+         ~SoS/Language/English/mod.tra~ ~SoS/Language/English/setup.tra~
 
 LANGUAGE ~Russian (translation by aerie-ru.info team)~
          ~Russian~
-         ~SoS/Language/Russian/setup.tra~
+         ~SoS/Language/Russian/mod.tra~ ~SoS/Language/Russian/setup.tra~
 
 LANGUAGE ~Deutsch (Uebersetzung von Leonardo Watson)~
          ~German~
-         ~SoS/Language/German/setup.tra~
+         ~SoS/Language/German/mod.tra~ ~SoS/Language/German/setup.tra~
 
 LANGUAGE ~Espanol (traduccion por SirLancelot & Co)~
          ~Spanish~
-         ~SoS/Language/Spanish/setup.tra~
+         ~SoS/Language/Spanish/mod.tra~ ~SoS/Language/Spanish/setup.tra~
 
 LANGUAGE ~Italiano (traduzione di Ilot & Co)~
          ~Italian~
-         ~SoS/Language/Italian/setup.tra~
+         ~SoS/Language/Italian/mod.tra~ ~SoS/Language/Italian/setup.tra~
 
 /* ====================================== *
  *  Shadows over Soubar : main component  *
@@ -464,31 +478,34 @@ COPY ~%MOD_FOLDER%/ARE/AR4365.are~           ~override~
 PRINT @20013
 
 ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ THEN BEGIN
-  COPY ~Worldmap/map_mods_areas.tbl~  ~Worldmap~
-   APPEND_FILE ~%MOD_FOLDER%/Worldmap/areas.tbl~
+    COPY ~Worldmap/map_mods_areas.tbl~  ~Worldmap~
+    APPEND_FILE ~%MOD_FOLDER%/Worldmap/areas.tbl~
 
-  COPY ~Worldmap/map_mods_links.tbl~  ~Worldmap~
-   APPEND_FILE ~%MOD_FOLDER%/Worldmap/links.tbl~
-   PATCH_IF (FILE_EXISTS ~data/ROT-RULE.BIF~) OR (FILE_EXISTS_IN_GAME ~rot.mrk~) BEGIN
-     APPEND_FILE ~%MOD_FOLDER%/Worldmap/rot_links.tbl~
-   END
-   PATCH_IF (FILE_EXISTS ~data/TDD-RULE.BIF~) OR (FILE_EXISTS_IN_GAME ~tdd.mrk~) OR  (MOD_IS_INSTALLED "TDDz" "0") BEGIN
-     APPEND_FILE ~%MOD_FOLDER%/Worldmap/tdd_links.tbl~
-   END
-   PATCH_IF (FILE_EXISTS ~data/CTB-RULE.BIF~) OR (FILE_EXISTS_IN_GAME ~ctb.mrk~) BEGIN
-     APPEND_FILE ~%MOD_FOLDER%/Worldmap/ctb_links.tbl~
-   END
+    COPY ~Worldmap/map_mods_links.tbl~  ~Worldmap~
+    APPEND_FILE ~%MOD_FOLDER%/Worldmap/links.tbl~
+    PATCH_IF (FILE_EXISTS ~data/ROT-RULE.BIF~) OR (FILE_EXISTS_IN_GAME ~rot.mrk~) BEGIN
+        APPEND_FILE ~%MOD_FOLDER%/Worldmap/rot_links.tbl~
+    END
+    PATCH_IF (FILE_EXISTS ~data/TDD-RULE.BIF~) OR (FILE_EXISTS_IN_GAME ~tdd.mrk~) OR  (MOD_IS_INSTALLED "TDDz" "0") BEGIN
+        APPEND_FILE ~%MOD_FOLDER%/Worldmap/tdd_links.tbl~
+    END
+    PATCH_IF (FILE_EXISTS ~data/CTB-RULE.BIF~) OR (FILE_EXISTS_IN_GAME ~ctb.mrk~) BEGIN
+        APPEND_FILE ~%MOD_FOLDER%/Worldmap/ctb_links.tbl~
+    END
 
-  //preliminary step - making LANGUAGE temporary file
-  COPY - ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~  ~tmp_worldmap.tra~
-  COPY ~Worldmap/map_mods_trans.tra~  ~Worldmap~
-   APPEND_FILE ~tmp_worldmap.tra~
+    //preliminary step - making LANGUAGE temporary file
+    //COPY - ~%MOD_FOLDER%/Language/%LANGUAGE%/Worldmap.tra~  ~tmp_worldmap.tra~
+    COPY - ~%TRA_LOCATION%/%LANGUAGE%/Worldmap.tra~  ~tmp_worldmap.tra~
+
+    COPY ~Worldmap/map_mods_trans.tra~  ~Worldmap~
+    APPEND_FILE ~tmp_worldmap.tra~
 END
 ELSE BEGIN
-  MKDIR ~Worldmap~
-  COPY ~%MOD_FOLDER%/Worldmap/areas.tbl~ ~Worldmap/map_mods_areas.tbl~
-  COPY ~%MOD_FOLDER%/Worldmap/links.tbl~ ~Worldmap/map_mods_links.tbl~
-  COPY ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
+    MKDIR ~Worldmap~
+    COPY ~%MOD_FOLDER%/Worldmap/areas.tbl~ ~Worldmap/map_mods_areas.tbl~
+    COPY ~%MOD_FOLDER%/Worldmap/links.tbl~ ~Worldmap/map_mods_links.tbl~
+    //COPY ~%MOD_FOLDER%/Language/%LANGUAGE%/Worldmap.tra~ ~Worldmap/map_mods_trans.tra~
+    COPY ~%TRA_LOCATION%/%LANGUAGE%/Worldmap.tra~ ~Worldmap/map_mods_trans.tra~
 END
 
 ACTION_IF GAME_IS ~eet~ BEGIN
