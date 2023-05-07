@@ -57,9 +57,10 @@ ALWAYS
                     noconvert_array = charsetsNoConvertArray
             END
         END
+        COPY ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap-utf8.tra~ ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
+        LOAD_TRA ~%MOD_FOLDER%/language/%LANGUAGE%/setup-ee.tra~
     END
-    COPY ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap-utf8.tra~ ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
-    LOAD_TRA ~%MOD_FOLDER%/language/%LANGUAGE%/setup-ee.tra~
+
 END
 
 LANGUAGE ~English~
