@@ -1,8 +1,8 @@
 ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
     COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
-    REPLACE_TEXTUALLY ~cheatAreasTutorial = {~
-~cheatAreasSoS = {
-
+    REPLACE_TEXTUALLY ~{"OH7200", "Hexxat - Bottom Right Quarter (Zakhara)"},~ 
+    ~{"OH7200", "Hexxat - Bottom Right Quarter (Zakhara)"},
+    -- SoS Areas
     {"AR4201", "SoS Ribald Night"},
     {"AR4202", "SoS Waukeen Lions Dungeon"},
     {"AR4203", "SoS L1"},
@@ -94,7 +94,5 @@ ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
     {"AR4350", "From Soubar to Lyrar 2"},
     {"AR4351", "SoS Training with Guards"},
     {"AR4370", "SoS Lyrar's Hold"}
-}
-cheatAreasTutorial = {
-~
+    ~
 END
