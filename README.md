@@ -226,7 +226,7 @@ This component requires the main component to be installed. It patches BGmain.ex
 - Biffing is now an optional installation component.
 - Fixed militia training quest when only 9 new guard are trained.
 - Fixed CTDs in AR4261, AR4260 and AR4258 areas.
-- Restored TIS and MOS files of Soubar for oBG2.
+- Restored TIS and MOS files of Soubar for oBG2 nad Lyrar's Castle TIS for BG2:EE.
 - Fixed oBG2 visual bug in sir Williams house (AR1004).
 - Updated worldmap position of areas for Chionthar, Soubar and Lyrar's Hold.
 - Corrected automap notes in Soubar and Soubar prison.
