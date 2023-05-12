@@ -1,836 +1,836 @@
-@20423 = ~Cuando la Palabra de Poder es pronunciada, todas las criaturas a 8 metros del objetivo deben realizar una tirada de salvaciÛn contra varitas o sufrir un angustioso dolor durante 2-8 asaltos que penaliza en 4 puntos el THACO y en 1 la clase de armadura.
+@20423 = ~Cuando la Palabra de Poder es pronunciada, todas las criaturas a 8 metros del objetivo deben realizar una tirada de salvaci√≥n contra varitas o sufrir un angustioso dolor durante 2-8 asaltos que penaliza en 4 puntos el THACO y en 1 la clase de armadura.
 
-El conjuro sÛlo puede usado una vez al dÌa, y durante su ejecuciÛn, el lanzador esta obligado a llevar el amuleto en la mano.
+El conjuro s√≥lo puede usado una vez al d√≠a, y durante su ejecuci√≥n, el lanzador esta obligado a llevar el amuleto en la mano.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
-Habilidad ofensiva: Todos los enemigos a 8m o menos son penalizados con -4 al THACO y -1 al AC durante 2-8 asaltos. Salvarse vs. varitas anula efectos. Las criaturas con resistencia m·gica son inmunes~
-@20437 = ~Un individuo que vista estas bandas altamente pulidas puede contar mucho sobre aquellos a los que saluda. Dando la mano a otra persona puede determinar la clase y el nivel de quien tiene enfrente. Mediante otro gesto, tambiÈn puede determinar el alineamiento. No obstante, los brazales no desvelan nada si la vÌctima del conjuro lleva un amuleto de protecciÛn contra la detecciÛn o si esta imbuida con otra magia protectora similar.   Los brazales de revelaciÛn se suelen encontrar con 4-40 cargas y no pueden ser recargados.
+Habilidad ofensiva: Todos los enemigos a 8m o menos son penalizados con -4 al THACO y -1 al AC durante 2-8 asaltos. Salvarse vs. varitas anula efectos. Las criaturas con resistencia m√°gica son inmunes~
+@20437 = ~Un individuo que vista estas bandas altamente pulidas puede contar mucho sobre aquellos a los que saluda. Dando la mano a otra persona puede determinar la clase y el nivel de quien tiene enfrente. Mediante otro gesto, tambi√©n puede determinar el alineamiento. No obstante, los brazales no desvelan nada si la v√≠ctima del conjuro lleva un amuleto de protecci√≥n contra la detecci√≥n o si esta imbuida con otra magia protectora similar.   Los brazales de revelaci√≥n se suelen encontrar con 4-40 cargas y no pueden ser recargados.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Especial: 
  Permite revelar la clase, el nivel y el alineamiento del objetivo mediante dos conjuros
  diferentes~
-@20438 = ~Esta espada resplandeciente es extremadamente antigua, data de 3000 aÒos antes de la creaciÛn del DÌa Final de los Valles. Fue forjada por un archimago netheriano llamado Pouldinus como regalo para un amigo guerrero llamado Kalamnin. Kalamnin era un estricto devoto de Amaunator, el estricto Dios de la Ley y el Sol hoy casi olvidado.  Aunque siempre diÛ lo mejor de si mismo para prodigar las leyes de Amaunator en sus viajes, Kalamnin perdiÛ su espada cuando muriÛ a manos de unos demonios invocados por el mago Ylmandi, que guardÛ la espada en el seno de su familia hasta la caÌda de Netheril.
+@20438 = ~Esta espada resplandeciente es extremadamente antigua, data de 3000 a√±os antes de la creaci√≥n del D√≠a Final de los Valles. Fue forjada por un archimago netheriano llamado Pouldinus como regalo para un amigo guerrero llamado Kalamnin. Kalamnin era un estricto devoto de Amaunator, el estricto Dios de la Ley y el Sol hoy casi olvidado.  Aunque siempre di√≥ lo mejor de si mismo para prodigar las leyes de Amaunator en sus viajes, Kalamnin perdi√≥ su espada cuando muri√≥ a manos de unos demonios invocados por el mago Ylmandi, que guard√≥ la espada en el seno de su familia hasta la ca√≠da de Netheril.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Aptitudes de Combate:
  Cada golpe acertado tiene 5% de provocar Sangre Ardiente de Beltyn en el objetivo
 Habilidades Especiales: 
- Permite lanzar Rayo solar 1/DÌa
+ Permite lanzar Rayo solar 1/D√≠a
 THAC0: +3
-DaÒo: 2D4+3, + 2D4+3 ptos de daÒo adicionales por fuego contra no muertos
-Tipo de daÒo: cortante
+Da√±o: 2D4+3, + 2D4+3 ptos de da√±o adicionales por fuego contra no muertos
+Tipo de da√±o: cortante
 Peso: 3
 Factor de velocidad:  1
 Talento marcial: espada bastarda
 Tipo:  a una mano~
-@20440 = ~Este poderoso amuleto fue manufacturado por el encantador Celemon de Calimport en el aÒo 727 DR. Hizo 10 copias idÈnticas antes de que un rival celoso lo asesinar· para robarle el procedimiento. Sus colegas no tenÌan tanto talento como Celemon, y destruyeron su laboratorio, la fÛrmula, y a ellos mismos, cuando ocurriÛ el desastre.    Este ejemplar en particular lo llevÛ a cuestas el guerrero/mago elfo Pelan Rainwind. Se perdiÛ cuando el elfo sucumbiÛ a manos de gigantes en alg˙n lugar de la Columna del Mundo all· por el 840 DR.
+@20440 = ~Este poderoso amuleto fue manufacturado por el encantador Celemon de Calimport en el a√±o 727 DR. Hizo 10 copias id√©nticas antes de que un rival celoso lo asesinar√° para robarle el procedimiento. Sus colegas no ten√≠an tanto talento como Celemon, y destruyeron su laboratorio, la f√≥rmula, y a ellos mismos, cuando ocurri√≥ el desastre.    Este ejemplar en particular lo llev√≥ a cuestas el guerrero/mago elfo Pelan Rainwind. Se perdi√≥ cuando el elfo sucumbi√≥ a manos de gigantes en alg√∫n lugar de la Columna del Mundo all√° por el 840 DR.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
-Permite lanzar simult·neamente Piel PÈtrea y Globo Menor de Invulnerabilidad sobre el portador
+Permite lanzar simult√°neamente Piel P√©trea y Globo Menor de Invulnerabilidad sobre el portador
 ~
-@20442 = ~El amuleto que sostienes en tus manos tiene la forma de un escarabajo esculpido y se cree que hay varios como Èl circulando por los Reinos, especialmente en los alrededores de Mulhorand. Los sacerdotes de Waukeen les tienen bastante aprecio.
+@20442 = ~El amuleto que sostienes en tus manos tiene la forma de un escarabajo esculpido y se cree que hay varios como √©l circulando por los Reinos, especialmente en los alrededores de Mulhorand. Los sacerdotes de Waukeen les tienen bastante aprecio.
 
-…ste ejemplar en concreto lo creÛ Gulvak Anrak en Thay, un poderoso conjurador interesado principalmente en la magia defensiva. Gulvak entregÛ el escarabeo a su aprediz, Alik Banom, quien fue asesinado por soldados de Cormyr en el 1021 DR. De acuerdo con la leyenda, Alik comenzÛ una reyerta con un caballero de Cormyr que insultÛ a Thay y a los magos rojos en general. Aunque luchÛ con pericia, no fue rival para los dragones p˙rpura; el caballero no luchÛ solo.
+√âste ejemplar en concreto lo cre√≥ Gulvak Anrak en Thay, un poderoso conjurador interesado principalmente en la magia defensiva. Gulvak entreg√≥ el escarabeo a su aprediz, Alik Banom, quien fue asesinado por soldados de Cormyr en el 1021 DR. De acuerdo con la leyenda, Alik comenz√≥ una reyerta con un caballero de Cormyr que insult√≥ a Thay y a los magos rojos en general. Aunque luch√≥ con pericia, no fue rival para los dragones p√∫rpura; el caballero no luch√≥ solo.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
-Bono +2 a las tiradas de salvaciÛn vs. petrificar y polimorfar~
-@20444 = ~El Amuleto de Carne SombrÌa, sÌmbolo de enfermedad y muerte, es un horrible objeto maldito creado por el nigromante calishita Niri Eddin. Eddin se lo entregÛ a sus enemigos como supuesto regalo y asÌ los engaÒÛ y maldijo para siempre. DespuÈs reclamÛ su colgante de nuevo para sÌ, y para recuperarlo contratÛ ladrones de alta alcurnia.
+Bono +2 a las tiradas de salvaci√≥n vs. petrificar y polimorfar~
+@20444 = ~El Amuleto de Carne Sombr√≠a, s√≠mbolo de enfermedad y muerte, es un horrible objeto maldito creado por el nigromante calishita Niri Eddin. Eddin se lo entreg√≥ a sus enemigos como supuesto regalo y as√≠ los enga√±√≥ y maldijo para siempre. Despu√©s reclam√≥ su colgante de nuevo para s√≠, y para recuperarlo contrat√≥ ladrones de alta alcurnia.
 
-Se cree que Niri a˙n "vive" en alguna parte de los reinos, pero lo cierto es que naciÛ en el 832 DR y no se sabe nada m·s de Èl.
+Se cree que Niri a√∫n "vive" en alguna parte de los reinos, pero lo cierto es que naci√≥ en el 832 DR y no se sabe nada m√°s de √©l.
 ~
-@20446 = ~Este escudo de plata residiÛ una vez en la Mano de Seldarine, donde tuvo la tarea de proteger a sus portadores de ataques y magia daÒina. Tiempo m·s tarde, debido a su supina estupidez, los orcos y goblins que lo encontraron lo dejaron abandonado en la torre donde lo hallaron. La Doncella Ilmadia lo recuperÛ.
+@20446 = ~Este escudo de plata residi√≥ una vez en la Mano de Seldarine, donde tuvo la tarea de proteger a sus portadores de ataques y magia da√±ina. Tiempo m√°s tarde, debido a su supina estupidez, los orcos y goblins que lo encontraron lo dejaron abandonado en la torre donde lo hallaron. La Doncella Ilmadia lo recuper√≥.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
-Aptitudes Portador: Resistencia m·gica +25%
-BonificaciÛn a la clase de armadura: 3
+Aptitudes Portador: Resistencia m√°gica +25%
+Bonificaci√≥n a la clase de armadura: 3
 Peso: 5~
-@20447 = ~Kontik, servidor de Auril, forjÛ esta cuchilla. Ha sido encantada con algunas mejoras m·gicas.
+@20447 = ~Kontik, servidor de Auril, forj√≥ esta cuchilla. Ha sido encantada con algunas mejoras m√°gicas.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Aptitudes Portador:
  Inteligencia: +1, Carisma -1
- 100% Resistencia al frÌo, -50% a la Resistencia al fuego
+ 100% Resistencia al fr√≠o, -50% a la Resistencia al fuego
 Habilidades Especiales:
- Cono de FrÌo 2/dÌa 
+ Cono de Fr√≠o 2/d√≠a 
 THAC0: +3
-DaÒo: 1D4 +3
-Tipo de daÒo: perforante
+Da√±o: 1D4 +3
+Tipo de da√±o: perforante
 Peso: 1
 Factor de velocidad: 2
 Tipo de talento: Daga
 Tipo: 1-mano~
-@20449 = ~Gond, Dios de los inventos y los artificios, es una deidad raramente adorada por los aventureros tradicionales. Algunos ladrones sin embargo, adoran a Gond para obtener su bendiciÛn con las ganz˙as, trampas y m·quinas complejas. Uno de sus mayores devotos en el pasado, Jurmar el Tranquilo, empezÛ su carrera como cerrajero y se hizo famoso por su enorme sensibilidad t·ctil y su frialdad. Jurmar pagÛ a sacerdotisas de Gond para que le tejieran este cinturÛn para Èl. Siempre que el pÌcaro se viÛ en una situaciÛn en la que no tuvo la herramienta mec·nica necesaria para salir adelante, los bolsillos del cinturÛn le proveyeron la soluciÛn.
+@20449 = ~Gond, Dios de los inventos y los artificios, es una deidad raramente adorada por los aventureros tradicionales. Algunos ladrones sin embargo, adoran a Gond para obtener su bendici√≥n con las ganz√∫as, trampas y m√°quinas complejas. Uno de sus mayores devotos en el pasado, Jurmar el Tranquilo, empez√≥ su carrera como cerrajero y se hizo famoso por su enorme sensibilidad t√°ctil y su frialdad. Jurmar pag√≥ a sacerdotisas de Gond para que le tejieran este cintur√≥n para √©l. Siempre que el p√≠caro se vi√≥ en una situaci√≥n en la que no tuvo la herramienta mec√°nica necesaria para salir adelante, los bolsillos del cintur√≥n le proveyeron la soluci√≥n.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Especial: +10% Abrir Cerraduras y +5% Encontrar/desactivar trampas~
-@20451 = ~El Amor de Bess la Negra fue creada por una maga hermosa y cruel que adoraba a la SeÒora de la Desgracia, Beshaba. Se llamaba Redani, y era tan conocida por sus poderes como encantadora como por sus poderes como seductora. Siempre entregaba el arma a su consorte favorito, y sin que Èste se diera cuenta, le colocaba un anillo de Disponibilidad en Èl conservando un anillo Activador en su poder. De este modo, cuando pasaba un tiempo convencÌa a un nuevo romeo al que entrega el anillo Activador para matar a su antÌguo consorte.
-   Sin embargo, un dÌa Redani confiÛ en quien no debÌa para llevar a cabo su macabro juego ritual. Gural de Khessenta, un clÈrigo de Hoar disfrazado, investigÛ y descubriÛ como vengar a uno de los ex-amantes que resultÛ ser amigo suyo.  Los clÈrigos de Hoar no tuvieron miramientos con Redani y reanimaron como no-muertos a todos las antiguas vÌctimas de la maga que la destrozaron extremidad por extremidad.
+@20451 = ~El Amor de Bess la Negra fue creada por una maga hermosa y cruel que adoraba a la Se√±ora de la Desgracia, Beshaba. Se llamaba Redani, y era tan conocida por sus poderes como encantadora como por sus poderes como seductora. Siempre entregaba el arma a su consorte favorito, y sin que √©ste se diera cuenta, le colocaba un anillo de Disponibilidad en √©l conservando un anillo Activador en su poder. De este modo, cuando pasaba un tiempo convenc√≠a a un nuevo romeo al que entrega el anillo Activador para matar a su ant√≠guo consorte.
+   Sin embargo, un d√≠a Redani confi√≥ en quien no deb√≠a para llevar a cabo su macabro juego ritual. Gural de Khessenta, un cl√©rigo de Hoar disfrazado, investig√≥ y descubri√≥ como vengar a uno de los ex-amantes que result√≥ ser amigo suyo.  Los cl√©rigos de Hoar no tuvieron miramientos con Redani y reanimaron como no-muertos a todos las antiguas v√≠ctimas de la maga que la destrozaron extremidad por extremidad.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
-Especial:  El 10% de los golpes propinados causa la pÈrdida de 4 puntos de Suerte
+Especial:  El 10% de los golpes propinados causa la p√©rdida de 4 puntos de Suerte
 THAC0:  +3
-DaÒo:  1D6 +4
-Tipo de daÒo:  contundente
+Da√±o:  1D6 +4
+Tipo de da√±o:  contundente
 Peso:  7
 Factor de velocidad:  5
 Talento marcial:  Maza
 Tipo:  1 mano~
-@20453 = ~Dentro de este frasco de cristal hay una rara mezcla de aceite y sustancias quÌmicas. Cuando se enciende, la mezcla arde en el aire a altas temperaturas durante varios segundos.    El aceite incendiario es en ocasiones difÌcil de usar debido a que se tarda mucho en prepararlo adecuadamente. Los aventureros lo llevan para enfrentarse a trolls o monstruos similares que sÛlo pueden ser derrotados con fuego.
+@20453 = ~Dentro de este frasco de cristal hay una rara mezcla de aceite y sustancias qu√≠micas. Cuando se enciende, la mezcla arde en el aire a altas temperaturas durante varios segundos.    El aceite incendiario es en ocasiones dif√≠cil de usar debido a que se tarda mucho en prepararlo adecuadamente. Los aventureros lo llevan para enfrentarse a trolls o monstruos similares que s√≥lo pueden ser derrotados con fuego.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
-Cuando se lanza sobre un objetivo el frasco de cristal se rompe y estalla en una bola de fuego de 1,5 metros de di·metro causando 2-16 puntos de daÒo por fuego a todo el que pilla por delante
+Cuando se lanza sobre un objetivo el frasco de cristal se rompe y estalla en una bola de fuego de 1,5 metros de di√°metro causando 2-16 puntos de da√±o por fuego a todo el que pilla por delante
 ~
 
-@20459 = ~Reconocido por su asombrosa habilidad para derribar caballeros montados, el Mandoble del T˙mulo fue empuÒado en su tiempo por el famoso mercenario Adal Kerrn. 
+@20459 = ~Reconocido por su asombrosa habilidad para derribar caballeros montados, el Mandoble del T√∫mulo fue empu√±ado en su tiempo por el famoso mercenario Adal Kerrn. 
 
-Adal Kerrn era un guerrero muy h·bil como infanterÌa pesada. Junto a su compaÒÌa, los Lanceros de Kerrn, derrotÛ a cientos de magos, bandidos y lÌderes religiosos a lo largo y ancho de los Reinos Olvidados. Durante las batallas siempre se colocaba al frente de sus hombres para detener las cargas de la caballerÌa pesada y esta fue su perdiciÛn cuando en el aÒo 1054 DR matÛ accidentalmente al caballo de un enemigo y Èste le cayÛ encima. Aunque su cuerpo no se encontrÛ nunca, la iglesia de Helm recuperÛ su espada.
+Adal Kerrn era un guerrero muy h√°bil como infanter√≠a pesada. Junto a su compa√±√≠a, los Lanceros de Kerrn, derrot√≥ a cientos de magos, bandidos y l√≠deres religiosos a lo largo y ancho de los Reinos Olvidados. Durante las batallas siempre se colocaba al frente de sus hombres para detener las cargas de la caballer√≠a pesada y esta fue su perdici√≥n cuando en el a√±o 1054 DR mat√≥ accidentalmente al caballo de un enemigo y √©ste le cay√≥ encima. Aunque su cuerpo no se encontr√≥ nunca, la iglesia de Helm recuper√≥ su espada.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 THAC0: +4
-DaÒo: 1D10 +4
-Tipo de daÒo: cortante
+Da√±o: 1D10 +4
+Tipo de da√±o: cortante
 Peso: 20
 Factor de Velocidad: 10
 Talento marcial: mandoble
 Tipo: 2-manos
 Requiere: Fuerza 14~
-@20461 = ~Esta armadura fue creada en 1221 DR por un armero duergar que trabajaba para un sacerdote de Bane llamado Alerri de Aguas Profundas. Durante los primeros dÌas de Alerri como sacerdote, Èste provocaba y atacaba a agentes de Sune. Desafortunadamente para Alerri, los seguidores de la SeÒora de los Cabellos Ardientes emplearon magia encantadora para controlar a los antiguos banitas. Una vez encantados, Alerri fue enviado a las calles de Aguas Profundas a realizar una serie de actos vergonzosos para los de su estirpe. DespuÈs de muchos aÒos, decidiÛ construir una armadura que le protegiese de los encantamientos y no dudÛ en trabajar codo con codo con sus camaradas banitas para descrubir los materiales y rituales necesarios. Siguiendo las instrucciones de su maestro, asesinÛ trece parejas casadas y pusÛ sus anillos de boda en la armadura. DespuÈs matÛ a trece elfos y se baÒÛ en su sangre rezando plegarias sat·nicas durante trece horas. Cuando acabÛ su armadura obtuvo protecciÛn contra la magia Sunita y un irrefrenable odio. DeclarÛ la guerra a los agentes de Sune, Llira y Halani Celanil durante tres aÒos. Su sendero de muerte acabÛ cuando los devotos de Corellon Larethian le emboscaron y le asesinaron en una carretera al norte de Aguas Profundas.
+@20461 = ~Esta armadura fue creada en 1221 DR por un armero duergar que trabajaba para un sacerdote de Bane llamado Alerri de Aguas Profundas. Durante los primeros d√≠as de Alerri como sacerdote, √©ste provocaba y atacaba a agentes de Sune. Desafortunadamente para Alerri, los seguidores de la Se√±ora de los Cabellos Ardientes emplearon magia encantadora para controlar a los antiguos banitas. Una vez encantados, Alerri fue enviado a las calles de Aguas Profundas a realizar una serie de actos vergonzosos para los de su estirpe. Despu√©s de muchos a√±os, decidi√≥ construir una armadura que le protegiese de los encantamientos y no dud√≥ en trabajar codo con codo con sus camaradas banitas para descrubir los materiales y rituales necesarios. Siguiendo las instrucciones de su maestro, asesin√≥ trece parejas casadas y pus√≥ sus anillos de boda en la armadura. Despu√©s mat√≥ a trece elfos y se ba√±√≥ en su sangre rezando plegarias sat√°nicas durante trece horas. Cuando acab√≥ su armadura obtuvo protecci√≥n contra la magia Sunita y un irrefrenable odio. Declar√≥ la guerra a los agentes de Sune, Llira y Halani Celanil durante tres a√±os. Su sendero de muerte acab√≥ cuando los devotos de Corellon Larethian le emboscaron y le asesinaron en una carretera al norte de Aguas Profundas.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Aptitudes Portador:
  Carisma -2
- Inmunidad a Hechizo horrendo, Hechizar persona, ConfusiÛn, Orden imperiosa y Pensamiento
+ Inmunidad a Hechizo horrendo, Hechizar persona, Confusi√≥n, Orden imperiosa y Pensamiento
  estricto
 Clase de Armadura: 3
 Peso: 45~
-@20463 = ~Esta capa Èlfica tejida con seda y lana fue originariamente construida por un poderoso mago de Myth Nantar llamado Mithran PetalodeLuz. 
-Mithran era famoso por su devociÛn a los viajes y su simpatÌa hacia los "N'TelQuessir," la "no gente"; es decir, los no elfos. Esto le trajo su perdiciÛn cuando su capa fue reetejida y encantada por su amante drow Rauva Vrinn. El nuevo diseÒo negro y azul medianoche, infrecuente entre los elfos de la superficie, pronto levantÛ sospechas entre sus compaÒeros y un conocido de Mithran cazador de drows llamado Gaedel descubriÛ el escondite de la amante de Mithran en un bosque cercano a Myth Nantar, y la asesinÛ. Cuando Mithran descubriÛ lo sucedido, sus gritos de ira tronaron en el cielo. El mago, enloquecido por el dolor y la rabia, irrumpiÛ en la caseta de Gaedel y sus hermanos y los descuartizÛ a todos. Con el tiempo, la familia de Gaedel se vengÛ y Mithran no pudo escapar a su destino. Su capa fue recuperada por un Ìntimo amigo suyo, el guerrero enano Hael LagodeBronce. Gracias a Èl el valioso objeto sobreviviÛ a la caÌda de Myth Nantar mientras que la arrogante ciudad de los elfos se hundiÛ en el Mar de las Estrellas Fugaces algunos aÒos despuÈs.
+@20463 = ~Esta capa √©lfica tejida con seda y lana fue originariamente construida por un poderoso mago de Myth Nantar llamado Mithran PetalodeLuz. 
+Mithran era famoso por su devoci√≥n a los viajes y su simpat√≠a hacia los "N'TelQuessir," la "no gente"; es decir, los no elfos. Esto le trajo su perdici√≥n cuando su capa fue reetejida y encantada por su amante drow Rauva Vrinn. El nuevo dise√±o negro y azul medianoche, infrecuente entre los elfos de la superficie, pronto levant√≥ sospechas entre sus compa√±eros y un conocido de Mithran cazador de drows llamado Gaedel descubri√≥ el escondite de la amante de Mithran en un bosque cercano a Myth Nantar, y la asesin√≥. Cuando Mithran descubri√≥ lo sucedido, sus gritos de ira tronaron en el cielo. El mago, enloquecido por el dolor y la rabia, irrumpi√≥ en la caseta de Gaedel y sus hermanos y los descuartiz√≥ a todos. Con el tiempo, la familia de Gaedel se veng√≥ y Mithran no pudo escapar a su destino. Su capa fue recuperada por un √≠ntimo amigo suyo, el guerrero enano Hael LagodeBronce. Gracias a √©l el valioso objeto sobrevivi√≥ a la ca√≠da de Myth Nantar mientras que la arrogante ciudad de los elfos se hundi√≥ en el Mar de las Estrellas Fugaces algunos a√±os despu√©s.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
-BonificaciÛn a la Clase de Armadura: +3
-BonificaciÛn a las Tiradas de salvaciÛn: +2~
-@20465 = ~Esta bebida oscura fue bautizada asÌ por los mercaderes de Berdusk que la elaboraron. Los mercaderes berduskanos siempre tenian mucha prisa por satisfacer pedidos relacionados con sus negocios y caÌan fatigados tras largas horas de trabajo presos de la necesidad de dormir y descansar. Bebiendo este brebaje, los efectos de la fatiga y el cansancio desaparecÌan permitiendo al catador de la pociÛn seguir con lo que estuviera haciendo durante al menos un dÌa m·s.
+Bonificaci√≥n a la Clase de Armadura: +3
+Bonificaci√≥n a las Tiradas de salvaci√≥n: +2~
+@20465 = ~Esta bebida oscura fue bautizada as√≠ por los mercaderes de Berdusk que la elaboraron. Los mercaderes berduskanos siempre tenian mucha prisa por satisfacer pedidos relacionados con sus negocios y ca√≠an fatigados tras largas horas de trabajo presos de la necesidad de dormir y descansar. Bebiendo este brebaje, los efectos de la fatiga y el cansancio desaparec√≠an permitiendo al catador de la poci√≥n seguir con lo que estuviera haciendo durante al menos un d√≠a m√°s.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Quita la fatiga y devuelve la vitalidad al personaje como si hubiese dormido una noche entera~
-@20467 = ~En el aÒo 834 CV, un mago llamado Legedain el Sabio capturÛ a un renombrado ladrÛn que se introducÌa en su torre. Se trataba de un cÌnico bribÛn llamado Ilfain Plumanegra. Legedain se hacÌa viejo y comenzaba a estar cansado de su fr·gil cuerpo, asÌ que para remediarlo lanzÛ un conjuro de TransmigraciÛn almacenando el espÌritu de Ilfain en una preciosa gema. DespuÈs, Legedain transfiriÛ su espÌritu al cuerpo del joven elfo, y dejÛ la gema abandonada en una estanteria. Cien aÒos despuÈs, Legedain decidiÛ utilizarla, y creÛ una espada para Gundak, su arrogante guardaespaldas, transfiriendo el espÌritu de Ilfain desde la gema a la espada. Ilfain, que en vida era muy sarc·stico con los dem·s, comenzÛ a criticar telep·ticamente a Gundak cuando combatÌa. Tras un par de semanas, Gundak se cansÛ de la espada y la abandonÛ en una callejuela. Varios guerrreros utilizaron la espada y la fueron abandonando tras cortos periodos de posesiÛn. Con el tiempo, la espada ha llegado a ser conocida sÛlo por su nombre y su infamia.
+@20467 = ~En el a√±o 834 CV, un mago llamado Legedain el Sabio captur√≥ a un renombrado ladr√≥n que se introduc√≠a en su torre. Se trataba de un c√≠nico brib√≥n llamado Ilfain Plumanegra. Legedain se hac√≠a viejo y comenzaba a estar cansado de su fr√°gil cuerpo, as√≠ que para remediarlo lanz√≥ un conjuro de Transmigraci√≥n almacenando el esp√≠ritu de Ilfain en una preciosa gema. Despu√©s, Legedain transfiri√≥ su esp√≠ritu al cuerpo del joven elfo, y dej√≥ la gema abandonada en una estanteria. Cien a√±os despu√©s, Legedain decidi√≥ utilizarla, y cre√≥ una espada para Gundak, su arrogante guardaespaldas, transfiriendo el esp√≠ritu de Ilfain desde la gema a la espada. Ilfain, que en vida era muy sarc√°stico con los dem√°s, comenz√≥ a criticar telep√°ticamente a Gundak cuando combat√≠a. Tras un par de semanas, Gundak se cans√≥ de la espada y la abandon√≥ en una callejuela. Varios guerrreros utilizaron la espada y la fueron abandonando tras cortos periodos de posesi√≥n. Con el tiempo, la espada ha llegado a ser conocida s√≥lo por su nombre y su infamia.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
-Habilidades Especiales: Encontrar Trampas 1/DÌa, Apertura 1/DÌa
+Habilidades Especiales: Encontrar Trampas 1/D√≠a, Apertura 1/D√≠a
 THACO: +4
-DaÒo: 2D4 +4
-Tipo de daÒo: cortante
+Da√±o: 2D4 +4
+Tipo de da√±o: cortante
 Peso: 4
 Factor de velocidad: 5
 Tipo de pericia: espada larga
 Tipo: 1 mano~
-@20469 = ~El excÈntrico hechicero Zilzanzer, bien conocido por su anillo de Gorgona, fuÈ tambiÈn el creador de un buen n˙mero de proyectiles arcanos, "los magnÌficos dardos de Zilzanzer". Estos se vendieron a muchos de sus colegas y a pesar de las numerosas variantes que se desarrollaron, la esencia de su magia siempre fue la misma.
+@20469 = ~El exc√©ntrico hechicero Zilzanzer, bien conocido por su anillo de Gorgona, fu√© tambi√©n el creador de un buen n√∫mero de proyectiles arcanos, "los magn√≠ficos dardos de Zilzanzer". Estos se vendieron a muchos de sus colegas y a pesar de las numerosas variantes que se desarrollaron, la esencia de su magia siempre fue la misma.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Especial: El lanzador puede tirar hasta 5 dardos de Zilzanzer por asalto, independientemente de su clase y su pericia
-DaÒo: 1D3 +2
-Tipo de daÒo: perforante
+Da√±o: 1D3 +2
+Tipo de da√±o: perforante
 Peso: 0
 Factor de Velocidad: 1
 Tipo de talento: proyectiles
 Tipo: 1-mano~
-@20471 = ~El espadachÌn Naradon de Thesk era famoso por vencer a todo tipo de magos enfrent·ndose a ellos en desventaja numÈrica. GanÛ su reputaciÛn con la ayuda de tres objetos: las pociones de velocidad, las botas de velocidad, y su amada espada corta, Im·n de Hechizos.     A los 32 aÒos de edad, Naradon de Thesk iniciÛ su retiro. Cansado y fatigado de sus dÌas de aventura, su abuso de pociones de velocidad lo acabÛ debilitando y muriÛ cuatro aÒos m·s tarde. Con un ˙nico heredero como legado, su espada acabÛ en las manos de un astuto pÌcaro. Sin embargo, a diferencia de otras armas m·gicas, Im·n de Hechizos no tuvo una historia cruel con un reguereo de sangre en su honor.
+@20471 = ~El espadach√≠n Naradon de Thesk era famoso por vencer a todo tipo de magos enfrent√°ndose a ellos en desventaja num√©rica. Gan√≥ su reputaci√≥n con la ayuda de tres objetos: las pociones de velocidad, las botas de velocidad, y su amada espada corta, Im√°n de Hechizos.     A los 32 a√±os de edad, Naradon de Thesk inici√≥ su retiro. Cansado y fatigado de sus d√≠as de aventura, su abuso de pociones de velocidad lo acab√≥ debilitando y muri√≥ cuatro a√±os m√°s tarde. Con un √∫nico heredero como legado, su espada acab√≥ en las manos de un astuto p√≠caro. Sin embargo, a diferencia de otras armas m√°gicas, Im√°n de Hechizos no tuvo una historia cruel con un reguereo de sangre en su honor.
     
-La espada se reconoce f·cilmente por llevar un pescador grabado en la cruceta.
+La espada se reconoce f√°cilmente por llevar un pescador grabado en la cruceta.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Aptitudes Portador:
- +1 salvaciÛn vs. conjuros
- +5% Resistencia M·gica
+ +1 salvaci√≥n vs. conjuros
+ +5% Resistencia M√°gica
 Aptitudes de Combate:
  50% de anular la capacidad de lanzar conjuros del objetivo golpeado durante 2 asaltos
 THAC0: +2
-DaÒo: 1D6+2
-Tipo de daÒo: perforante
+Da√±o: 1D6+2
+Tipo de da√±o: perforante
 Peso: 1
 Factor de Velocidad: 1
 Tipo de talento: espada corta
 Tipo: 1-mano~
-@20475 = ~Creada durante la edad dorada de los elfos de la Mano de Seldarine y los enanos de las profundidades de Dorn, esta t˙nica fue construida por y para los magos. Aunque parezca una t˙nica normal, protege del frÌo, el fuego y la electricidad.
+@20475 = ~Creada durante la edad dorada de los elfos de la Mano de Seldarine y los enanos de las profundidades de Dorn, esta t√∫nica fue construida por y para los magos. Aunque parezca una t√∫nica normal, protege del fr√≠o, el fuego y la electricidad.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Aptitudes Portador:
  Destreza -2
- +40% resistencia al fuego, frÌo y electricidad
+ +40% resistencia al fuego, fr√≠o y electricidad
 Clase de armadura: 9
 Peso: 10~
-@20479 = ~Este lucero del alba plateado y negro fue creado originariamente por un nigromante de Cormyr llamado Demeth Wan. Tiempo despuÈs de su construcciÛn fue comprado por un sacerdote de Myrkul que lo utilizÛ salvajemente en sus escaramuzas contra sus enemigos. Cuando finalmente el sacerdote fue derrotado por un paladÌn de Lathander, Èste confiscÛ el arma. AÒos m·s tarde el templo de la montaÒa que lo custodiaba fue saqueado por gigantes en 1190 DR y nunca m·s se supo del objeto.  Con una siniestra apariencia, su interior oculta un enorme poder.
+@20479 = ~Este lucero del alba plateado y negro fue creado originariamente por un nigromante de Cormyr llamado Demeth Wan. Tiempo despu√©s de su construcci√≥n fue comprado por un sacerdote de Myrkul que lo utiliz√≥ salvajemente en sus escaramuzas contra sus enemigos. Cuando finalmente el sacerdote fue derrotado por un palad√≠n de Lathander, √©ste confisc√≥ el arma. A√±os m√°s tarde el templo de la monta√±a que lo custodiaba fue saqueado por gigantes en 1190 DR y nunca m√°s se supo del objeto.  Con una siniestra apariencia, su interior oculta un enorme poder.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Especial: Cada golpe acertado tiene un 10% de lanzar Curar heridas leves al portador y otorgarle +1 a la Fuerza durante 5 asaltos
 THAC0: +3
-DaÒo: 2D4 +3
-Tipo de daÒo: contundente
+Da√±o: 2D4 +3
+Tipo de da√±o: contundente
 Peso: 9
 Factor de velocidad: 4
 Talento marcial: mangual/lucero del alba/mayal
 Tipo: 1 mano~
-@20481 = ~Un objeto m·gico extremadamente deseado, el Guantelete de Valor es parte de una de las tres Armas de Poder que quedan de los archimagos de Myth Drannor. Las Armas de Poder fueron creadas para que las usasen los campeones de la ciudad Èlfica en las raras ocasiones en que Èsta se encontrase en peligro.     Este guantelete resplandece eternamente y representa la c˙spide del poder Èlfico. Aventureros de toda clase y condiciÛn buscan la localizaciÛn de este tipo de objetos a lo largo y ancho de los Reinos Olvidados.
+@20481 = ~Un objeto m√°gico extremadamente deseado, el Guantelete de Valor es parte de una de las tres Armas de Poder que quedan de los archimagos de Myth Drannor. Las Armas de Poder fueron creadas para que las usasen los campeones de la ciudad √©lfica en las raras ocasiones en que √©sta se encontrase en peligro.     Este guantelete resplandece eternamente y representa la c√∫spide del poder √©lfico. Aventureros de toda clase y condici√≥n buscan la localizaci√≥n de este tipo de objetos a lo largo y ancho de los Reinos Olvidados.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Aptitudes Portador:
  Inmunidad a Hechizar, Inmovilizar, Dormir y hechizos similares
- Se puede usar como arma 3/dÌa:
+ Se puede usar como arma 3/d√≠a:
 THAC0: +1
-DaÒo: 1D4+1, 12% de causar 3D6 ptos. de daÒo adicionales y atontar durante 3 segundos
-Tipo de daÒo: contundente
+Da√±o: 1D4+1, 12% de causar 3D6 ptos. de da√±o adicionales y atontar durante 3 segundos
+Tipo de da√±o: contundente
 Peso: 2~
-@20483 = ~Este casco fue usado durante cientos de aÒos por medianos y gnomos en la pequeÒa y desconocida comunidad llamada el Valle de Shepherd. Cada atardecer el capit·n de la guardia de noche tomaba el objeto del capit·n de la guardÌa de dÌa y al amanecer ocurrÌa lo contrario y el ciclo se repetÌa una y otra vez. AsÌ hasta que Pheldon Tock, un capit·n de la guardia de noche, decidiÛ cambiar la tradiciÛn. El Yelmo del Defensor Verdadero terminÛ en manos de un enano aburrido que lo guardÛ para sÌ en tierras lejanas.
+@20483 = ~Este casco fue usado durante cientos de a√±os por medianos y gnomos en la peque√±a y desconocida comunidad llamada el Valle de Shepherd. Cada atardecer el capit√°n de la guardia de noche tomaba el objeto del capit√°n de la guard√≠a de d√≠a y al amanecer ocurr√≠a lo contrario y el ciclo se repet√≠a una y otra vez. As√≠ hasta que Pheldon Tock, un capit√°n de la guardia de noche, decidi√≥ cambiar la tradici√≥n. El Yelmo del Defensor Verdadero termin√≥ en manos de un enano aburrido que lo guard√≥ para s√≠ en tierras lejanas.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Especial: Inmunidad a dormir y a los efectos de la fatiga
 Bonificador de clase de armadura:  3
 Peso:  2~
-@20489 = ~Esta armadura fue hecha a mano a partir de la piel del gusano polar m·s poderoso del Valle del Viento Helado conocido por los nativos como el "Rey del Invierno". La piel blanca, cubierta con ribetes azules, es extremadamente gruesa, resistente y asombrosamente ligera a la vez.
+@20489 = ~Esta armadura fue hecha a mano a partir de la piel del gusano polar m√°s poderoso del Valle del Viento Helado conocido por los nativos como el "Rey del Invierno". La piel blanca, cubierta con ribetes azules, es extremadamente gruesa, resistente y asombrosamente ligera a la vez.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Clase de armadura: 3
-Especial:  +25% Resistencia al FrÌo y al Fuego
+Especial:  +25% Resistencia al Fr√≠o y al Fuego
 Peso: 25~
-@20490 = ~Este arma la forjaste con tus propias manos bajo la supervisiÛn de Tiernon el enano. Hecha de hielo recolectado de las paredes del HelechoEscarcha, la espada ha juntado tu fuerza y la del glaciar originando asÌ un arma formidable. Aunque hecha de escarcha, el arma sÛlo es ligeramente frÌa al tacto y no se funde ni sometida a las m·s altas temperaturas.
+@20490 = ~Este arma la forjaste con tus propias manos bajo la supervisi√≥n de Tiernon el enano. Hecha de hielo recolectado de las paredes del HelechoEscarcha, la espada ha juntado tu fuerza y la del glaciar originando as√≠ un arma formidable. Aunque hecha de escarcha, el arma s√≥lo es ligeramente fr√≠a al tacto y no se funde ni sometida a las m√°s altas temperaturas.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Aptitudes Portador:
- +10% Resistencia al Fuego y al FrÌo
+ +10% Resistencia al Fuego y al Fr√≠o
 Habilidades Especiales:
- Tormenta de Venganza 1/DÌa
+ Tormenta de Venganza 1/D√≠a
 THAC0: +4
-DaÒo: 1D8+4, 5% de causar 2D6 de daÒo adicional por frÌo
-Tipo se daÒo: cortante
+Da√±o: 1D8+4, 5% de causar 2D6 de da√±o adicional por fr√≠o
+Tipo se da√±o: cortante
 Peso: 3~
-@20492 = ~Por extraÒo que parezca, esta daga de hueso est· afilada de forma similar a un Kris, pero lo que la hace verdaderamente letal es que de vez en cuando segrega un poderoso veneno oscuro que coge desprevenido al oponente.
+@20492 = ~Por extra√±o que parezca, esta daga de hueso est√° afilada de forma similar a un Kris, pero lo que la hace verdaderamente letal es que de vez en cuando segrega un poderoso veneno oscuro que coge desprevenido al oponente.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 THAC0: +2
-DaÒo: 1D4 +2, 20% de envenenar a menos que se pase un tiro de salvaciÛn vs. muerte
-Tipo de daÒo: perforante
+Da√±o: 1D4 +2, 20% de envenenar a menos que se pase un tiro de salvaci√≥n vs. muerte
+Tipo de da√±o: perforante
 Peso: 3
 Factor de velocidad: 2
 Talento marcial: daga~
-@20494 = ~Creado durante la edad de oro entre los elfos de la Mano de Seldarine y los enanos de la Hondanada de Dorn, este anillo fue forjado para aumentar el poder de los magos jÛvenes que necesitaban r·pidamente aumentar su repertorio de conjuros, pues aunque los altos hechiceros de Seldarine estaban entre los m·s poderosos de los Reinos, su falta de tiempo libre les impedÌa adquirir pergaminos con los que abastecer a sus aprendices y hacerles progresar en el Arte.
+@20494 = ~Creado durante la edad de oro entre los elfos de la Mano de Seldarine y los enanos de la Hondanada de Dorn, este anillo fue forjado para aumentar el poder de los magos j√≥venes que necesitaban r√°pidamente aumentar su repertorio de conjuros, pues aunque los altos hechiceros de Seldarine estaban entre los m√°s poderosos de los Reinos, su falta de tiempo libre les imped√≠a adquirir pergaminos con los que abastecer a sus aprendices y hacerles progresar en el Arte.
 
-ESTADÕSTICAS
+ESTAD√çSTICAS
 
 Inteligencia: +1~
 @20496 = ~Esta poderosa hacha consiste en un mango de varios pies de largo rematado con una pesada doble hoja. Es una arma poco manejable, pero un guerrero experto puede dar golpes formidables con ella.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
-DaÒo: 1D10
-Tipo de daÒo: cortante
+Da√±o: 1D10
+Tipo de da√±o: cortante
 Peso: 10
 Factor de velocidad: 9
 Tipo de talento: hacha
 Tipo: 2 manos~
-@20497 = ~Esta era el hacha de un alma maldita condenada a vagar a lo largo y ancho de Faer˙n cometiendo crÌmenes contra los elfos de Myth Drannor. Denell Harband era un ser humano participante del "Rastro de Halfaxe". Bajo Ûrdenes de su comandante, Halvan el Oscuro avanzÛ a travÈs de bosques Èlficos a pesar de repetidos ataques y protestas. Cuando los elfos finalmente lo capturaron, Èl enfatizÛ que estaba libre de toda culpa, dado que estaba cumpliendo Ûrdenes. El consejo faÈrico lo juzgÛ y lo condenÛ a llevar Camino Solitario desde la Costa de la Espada al lejano Este Fronterizo, y desde el Gran Glaciar hasta Lurien. Le llevÛ 30 aÒos terminar su tarea. Cuando acabÛ, era un guerrero capaz, resistente, y desgastado por los aÒos pasados en lugares desconocidos. En el camino de regreso a su hogar, pasÛ por el Valle de la Rastra y viÛ que en la plaza de la ciudad habÌa una estatua de madera fabricada en su honor. Con una sola mano, alojÛ su enorme hacha sobre la frente de su representaciÛn tallada en piedra, y la rompiÛ en dos partes. EntrÛ en su cabaÒa, y viviÛ el resto de sus dÌas como granjero.
+@20497 = ~Esta era el hacha de un alma maldita condenada a vagar a lo largo y ancho de Faer√∫n cometiendo cr√≠menes contra los elfos de Myth Drannor. Denell Harband era un ser humano participante del "Rastro de Halfaxe". Bajo √≥rdenes de su comandante, Halvan el Oscuro avanz√≥ a trav√©s de bosques √©lficos a pesar de repetidos ataques y protestas. Cuando los elfos finalmente lo capturaron, √©l enfatiz√≥ que estaba libre de toda culpa, dado que estaba cumpliendo √≥rdenes. El consejo fa√©rico lo juzg√≥ y lo conden√≥ a llevar Camino Solitario desde la Costa de la Espada al lejano Este Fronterizo, y desde el Gran Glaciar hasta Lurien. Le llev√≥ 30 a√±os terminar su tarea. Cuando acab√≥, era un guerrero capaz, resistente, y desgastado por los a√±os pasados en lugares desconocidos. En el camino de regreso a su hogar, pas√≥ por el Valle de la Rastra y vi√≥ que en la plaza de la ciudad hab√≠a una estatua de madera fabricada en su honor. Con una sola mano, aloj√≥ su enorme hacha sobre la frente de su representaci√≥n tallada en piedra, y la rompi√≥ en dos partes. Entr√≥ en su caba√±a, y vivi√≥ el resto de sus d√≠as como granjero.
 
-ESTADÕSTICAS
+ESTAD√çSTICAS
 
-Especial: ContituciÛn +1
+Especial: Contituci√≥n +1
 THAC0: +3
-DaÒo: 1D10 +3
-Tipo de daÒo: cortante
+Da√±o: 1D10 +3
+Tipo de da√±o: cortante
 Peso: 10
 Factor de velocidad: 6
 Tipo de talento: hacha
 Tipo: 2 manos~
-@20501 = ~La lira de progresiÛn fue creada por el bardo Sedini Paletto. Sedini fue profesor de bardos principiantes durante Èpocas difÌciles. Este instrumento, que siempre sostenÌa a su lado, lo ayudaba en la lucha contra los que atacasen a sus estudiantes. Cuando Sedini envejeciÛ, pasÛ su lira a su estudiante predilecto, Galwen Alaman. Galwen continuÛ la enseÒanza durante algunos aÒos antes de dedicarse a las aventuras, se cree que perdiÛ el objeto cuando se le cayÛ accidentalmente en un pantano.
+@20501 = ~La lira de progresi√≥n fue creada por el bardo Sedini Paletto. Sedini fue profesor de bardos principiantes durante √©pocas dif√≠ciles. Este instrumento, que siempre sosten√≠a a su lado, lo ayudaba en la lucha contra los que atacasen a sus estudiantes. Cuando Sedini envejeci√≥, pas√≥ su lira a su estudiante predilecto, Galwen Alaman. Galwen continu√≥ la ense√±anza durante algunos a√±os antes de dedicarse a las aventuras, se cree que perdi√≥ el objeto cuando se le cay√≥ accidentalmente en un pantano.
 
-ESTADÕSTICAS
+ESTAD√çSTICAS
 
 Llevada bajo el brazo izquierdo, este instrumento permite al bardo memorizar dos hechizos extra de 2 nivel y otro de 3~
-@20503 = ~Esta armadura fue hecha a mano por herreros enanos y elfos a partir de hierro de meteoritos durante la Era de la CooperaciÛn.  Un sumo sacerdote de Moradin y un sumo sacerdote de Labelas Enoreth encantaron la armadura con sus poderes actuales. Desgraciadamente, ning˙n guerrero elfo o enano la llevÛ jam·s.  Cuando surgieron los problemas entre la Mano de Seldarine y la Hondanada de Dorn, los enanos guardaron la armadura bajo llave rechazando utilizar nada que los elfos hubieran tocado.
+@20503 = ~Esta armadura fue hecha a mano por herreros enanos y elfos a partir de hierro de meteoritos durante la Era de la Cooperaci√≥n.  Un sumo sacerdote de Moradin y un sumo sacerdote de Labelas Enoreth encantaron la armadura con sus poderes actuales. Desgraciadamente, ning√∫n guerrero elfo o enano la llev√≥ jam√°s.  Cuando surgieron los problemas entre la Mano de Seldarine y la Hondanada de Dorn, los enanos guardaron la armadura bajo llave rechazando utilizar nada que los elfos hubieran tocado.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Aptitudes Equipada: Puntos de vida +10, Regenera 1 PV/turno
 Clase de Armadura: 2
 Peso: 40~
-@20505 = ~Esta sencilla capa ha sido imbuÌda con propiedades m·gicas para ayudar a proteger de su portador. Afecta tanto a las tiradas de salvaciÛn como a la clase de armadura. Es ideal para magos ˙ otros que no puedan usar armaduras voluminosas ni restrictivas.
+@20505 = ~Esta sencilla capa ha sido imbu√≠da con propiedades m√°gicas para ayudar a proteger de su portador. Afecta tanto a las tiradas de salvaci√≥n como a la clase de armadura. Es ideal para magos √∫ otros que no puedan usar armaduras voluminosas ni restrictivas.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Peso: 1~
-@20506 = ~Esta capa de aspecto deshilachado permaneciÛ mucho tiempo en letargo por orden de Lysan, sacerdotisa de Auril.   Creada en las ceremonias de La Tormenta Venidera a principios del invierno en honor a la Doncella del Hielo, esta capa fue especÌficamente diseÒada para derretir el fuego e inmunizar contra la par·lisis. Adem·s, aunque las sacerdotisas de Auril ya son resistentes al frÌo de por sÌ y pueden moverse en la nieve y en rÌos congelados con facilidad, esta capa amplifica su protecciÛn permitiendo no solo soportar el frÌo sino tambiÈn absorber su poder.   Cuando un sÛlo copo de nieve cae la capa, Èsta se transforma en un manto blanco resplandeciente que permite a su portador flotar sobre la nieve y sumergirse en agua helada.
+@20506 = ~Esta capa de aspecto deshilachado permaneci√≥ mucho tiempo en letargo por orden de Lysan, sacerdotisa de Auril.   Creada en las ceremonias de La Tormenta Venidera a principios del invierno en honor a la Doncella del Hielo, esta capa fue espec√≠ficamente dise√±ada para derretir el fuego e inmunizar contra la par√°lisis. Adem√°s, aunque las sacerdotisas de Auril ya son resistentes al fr√≠o de por s√≠ y pueden moverse en la nieve y en r√≠os congelados con facilidad, esta capa amplifica su protecci√≥n permitiendo no solo soportar el fr√≠o sino tambi√©n absorber su poder.   Cuando un s√≥lo copo de nieve cae la capa, √©sta se transforma en un manto blanco resplandeciente que permite a su portador flotar sobre la nieve y sumergirse en agua helada.
 
-La mayorÌa de los mercaderes no querr·n comerciar con este objeto o lo har·n por un precio muy bajo, ya que lo ver·n como una reliquia de Auril sÛlo apta para atraer fieles y no para el comercio.
+La mayor√≠a de los mercaderes no querr√°n comerciar con este objeto o lo har√°n por un precio muy bajo, ya que lo ver√°n como una reliquia de Auril s√≥lo apta para atraer fieles y no para el comercio.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Especial: 
- +1 salvaciÛn vs. par·lisis
- +30% Resistencia al frÌo y al fuego
- AcciÛn Libre 3/dÌa
-BonificaciÛn a la Clase de Armadura: 1
+ +1 salvaci√≥n vs. par√°lisis
+ +30% Resistencia al fr√≠o y al fuego
+ Acci√≥n Libre 3/d√≠a
+Bonificaci√≥n a la Clase de Armadura: 1
 Peso: 1~
-@20510 = ~Se cree que criaturas faÈricas ayudaron a crear esta bonita espada, y las leyendas dicen que fue forjada en las profundidades de Myrloch, en el gran lago del centro de Gwynneth de las Moonshaes. El arma tiene un aire a Èsas lejanas tierras, con lo que se presupone que es extremadamente vieja. El ˙nico individuo conocido portador del arma fue un semielfo bardo llamado Daen Winterbrush. Algunos dicen que despuÈs de que accidentalmente encontrase la espada, fue bendecido con una creatividad excepcional y una asombrosa percepciÛn. ViajÛ durante cuarenta aÒos y es famoso por algunas de las m·s singulares e imperecederas melodÌas que pueblan Faer˙n. Se dice que finalmente Daen se volviÛ demasiado melancÛlico por la visiÛn de la miseria y opresiÛn que encontrÛ en sus viajes y que los forjadores de las Islas de las Moonshaes le dieron la bienvenida en el pecho de Myrloch.
+@20510 = ~Se cree que criaturas fa√©ricas ayudaron a crear esta bonita espada, y las leyendas dicen que fue forjada en las profundidades de Myrloch, en el gran lago del centro de Gwynneth de las Moonshaes. El arma tiene un aire a √©sas lejanas tierras, con lo que se presupone que es extremadamente vieja. El √∫nico individuo conocido portador del arma fue un semielfo bardo llamado Daen Winterbrush. Algunos dicen que despu√©s de que accidentalmente encontrase la espada, fue bendecido con una creatividad excepcional y una asombrosa percepci√≥n. Viaj√≥ durante cuarenta a√±os y es famoso por algunas de las m√°s singulares e imperecederas melod√≠as que pueblan Faer√∫n. Se dice que finalmente Daen se volvi√≥ demasiado melanc√≥lico por la visi√≥n de la miseria y opresi√≥n que encontr√≥ en sus viajes y que los forjadores de las Islas de las Moonshaes le dieron la bienvenida en el pecho de Myrloch.
 
-ESTADÕSTICAS
+ESTAD√çSTICAS
 
 Especial: +20 al Conocimiento
 THACO: +3
-DaÒo: 1D8 +3
-Tipo de daÒo: cortante
+Da√±o: 1D8 +3
+Tipo de da√±o: cortante
 Peso: 4
 Factor de velocidad: 4
 Tipo de talento: espada larga
 Tipo: 1 mano~
-@20512 = ~El frontal de este enorme escudo de acero est· decorado con diseÒos esmaltados negros y una ˙nica calavera colada en el centro.  En su interior resplandecen unas runas indescifrables grabadas en tiempos remotos. Las ˙nicas palabras legibles est·n en la parte superior y dicen: "øY QU… HAY DE LA MUERTE?" La historia de este objeto parece imposible de entender para los ojos mortales.
+@20512 = ~El frontal de este enorme escudo de acero est√° decorado con dise√±os esmaltados negros y una √∫nica calavera colada en el centro.  En su interior resplandecen unas runas indescifrables grabadas en tiempos remotos. Las √∫nicas palabras legibles est√°n en la parte superior y dicen: "¬øY QU√â HAY DE LA MUERTE?" La historia de este objeto parece imposible de entender para los ojos mortales.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Especial: Inmunidad a Dedo de la Muerte y Palabra de Poder: Matar
-BonificaciÛn de Clase de Armadura: +4, +5 vs. proyectiles
+Bonificaci√≥n de Clase de Armadura: +4, +5 vs. proyectiles
 Peso: 20~
-@20514 = ~Esta t˙nica fue fabricada a partir de un tejido resistente y teÒida de azul oscuro, el color favorito de su dueÒo original, el archimago Ogi-Luc.  Sembiano de nacimiento, Ogi-Luc era un hombre poderoso, tan fuerte de cuerpo como de mente.  Sin embargo, no estaba satisfecho con ser meramente fuerte, sino que pretendÌa ser extraordinariamente fuerte. Cuando se ponÌa esta t˙nica, los hombres orgullosos se hacÌan a un lado y los fanfarrones se callaban.  Pero a pesar de todo su empeÒo y habilidad, Ogi-Luc fue incapaz de derrotar al abjurador thayino Nesk Vhaltim, y Èste cogiÛ la t˙nica como premio.   AÒos m·s tarde, fue robada y vendida por un osado pÌcaro.
+@20514 = ~Esta t√∫nica fue fabricada a partir de un tejido resistente y te√±ida de azul oscuro, el color favorito de su due√±o original, el archimago Ogi-Luc.  Sembiano de nacimiento, Ogi-Luc era un hombre poderoso, tan fuerte de cuerpo como de mente.  Sin embargo, no estaba satisfecho con ser meramente fuerte, sino que pretend√≠a ser extraordinariamente fuerte. Cuando se pon√≠a esta t√∫nica, los hombres orgullosos se hac√≠an a un lado y los fanfarrones se callaban.  Pero a pesar de todo su empe√±o y habilidad, Ogi-Luc fue incapaz de derrotar al abjurador thayino Nesk Vhaltim, y √©ste cogi√≥ la t√∫nica como premio.   A√±os m√°s tarde, fue robada y vendida por un osado p√≠caro.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
-Especial:  Establece la Fuerza en 18/99 y otorga +2 a la ConstituciÛn
+Especial:  Establece la Fuerza en 18/99 y otorga +2 a la Constituci√≥n
 Clase de Armadura: 4
 Peso: 5~
-@20518 = ~Pellon Kay nunca habrÌa aparecido en los libros de historia de no ser por su famoso la˙d. Sin Èl, nadie lo habrÌa recordado en absoluto. Nacido en Sembia, Pellon creÛ una nueva escuela de m˙sica, pero nunca se tomÛ sus actuaciones demasiado en serio.  Los monjes creÌan que Milil fruncÌa el entrecejo por sus bufonadas, pero lo ˙nico cierto es que Talos encontraba su actitud realmente divertida. Una noche, el avatar del dios lo contemplÛ luchar con m·s de veinte hombres en una taberna, y como regalo, Talos tocÛ el la˙d al lado de donde estaba el cuerpo inconsciente de Pellon. DespuÈs de esa noche, Pellon descubriÛ que podÌa hacer a los hombres enfurecer frenÈticamente con sÛlo tocar su instrumento. De esta forma, disfrutÛ de lo lindo poniendo furiosos a mercenarios y marineros durante incontables semanas, e hizo docenas de enemigos por todas partes debido a su frivolidad y su apetito por la confrontaciÛn. Finalmente, cayÛ derrotado ante un destacado guerrero que no permitiÛ que se acercase lo suficiente para emplear el la˙d contra Èl.  El guerrero tirÛ el instrumento al Mar de las Estrellas Fugaces.
+@20518 = ~Pellon Kay nunca habr√≠a aparecido en los libros de historia de no ser por su famoso la√∫d. Sin √©l, nadie lo habr√≠a recordado en absoluto. Nacido en Sembia, Pellon cre√≥ una nueva escuela de m√∫sica, pero nunca se tom√≥ sus actuaciones demasiado en serio.  Los monjes cre√≠an que Milil frunc√≠a el entrecejo por sus bufonadas, pero lo √∫nico cierto es que Talos encontraba su actitud realmente divertida. Una noche, el avatar del dios lo contempl√≥ luchar con m√°s de veinte hombres en una taberna, y como regalo, Talos toc√≥ el la√∫d al lado de donde estaba el cuerpo inconsciente de Pellon. Despu√©s de esa noche, Pellon descubri√≥ que pod√≠a hacer a los hombres enfurecer fren√©ticamente con s√≥lo tocar su instrumento. De esta forma, disfrut√≥ de lo lindo poniendo furiosos a mercenarios y marineros durante incontables semanas, e hizo docenas de enemigos por todas partes debido a su frivolidad y su apetito por la confrontaci√≥n. Finalmente, cay√≥ derrotado ante un destacado guerrero que no permiti√≥ que se acercase lo suficiente para emplear el la√∫d contra √©l.  El guerrero tir√≥ el instrumento al Mar de las Estrellas Fugaces.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
-Cuando se toca en direcciÛn a un enemigo, Èste cae bajo los efectos del conjuro Hechizo Horrendo~
-@20519 = ~PociÛn de pensamiento claro~
-@20520 = ~Pocas de estas pociones fueron nunca manufacturadas y los mÈtodos con las que se hicieron se perdieron para siempre.  Creadas durante los tiempos de Netheril para los sacerdotes m·s importantes, estas pociones aumentan el poder de los sacerdotes.
+Cuando se toca en direcci√≥n a un enemigo, √©ste cae bajo los efectos del conjuro Hechizo Horrendo~
+@20519 = ~Poci√≥n de pensamiento claro~
+@20520 = ~Pocas de estas pociones fueron nunca manufacturadas y los m√©todos con las que se hicieron se perdieron para siempre.  Creadas durante los tiempos de Netheril para los sacerdotes m√°s importantes, estas pociones aumentan el poder de los sacerdotes.
 
 ESTADISTICAS:
 
-ConstituciÛn -2, SabidurÌa +1 (efectos permanentes)
-SÛlo lo puede usar:
-ClÈrigo~
+Constituci√≥n -2, Sabidur√≠a +1 (efectos permanentes)
+S√≥lo lo puede usar:
+Cl√©rigo~
 @20521 = ~Laceradora de Ihanora~
-@20522 = ~Las ˙nicas partes materiales de este arma gÈlida son la empuÒadura, el agarre y el pomo, todas forjadas de brillante plata y acero. Este arma fue creada en 1099 DR por la Elegida de Auril, Ihanora la Clemente.  Ihanora marchÛ por el norte dirigiendo despiadados ataques contra todos los que intentaban encontrar refugio del frÌo y la batalla. Viajaba congel·ndolo todo a su paso con una abigarrada pandilla de yetis, osos polares, gigantes de la escarcha y un dragÛn blanco. Ihanora fue derrotada en 1108 DR por la cÈlebre Brigada de la M·scara Roja encabezada por el ruÌn asesino Harley el Mordiente.
+@20522 = ~Las √∫nicas partes materiales de este arma g√©lida son la empu√±adura, el agarre y el pomo, todas forjadas de brillante plata y acero. Este arma fue creada en 1099 DR por la Elegida de Auril, Ihanora la Clemente.  Ihanora march√≥ por el norte dirigiendo despiadados ataques contra todos los que intentaban encontrar refugio del fr√≠o y la batalla. Viajaba congel√°ndolo todo a su paso con una abigarrada pandilla de yetis, osos polares, gigantes de la escarcha y un drag√≥n blanco. Ihanora fue derrotada en 1108 DR por la c√©lebre Brigada de la M√°scara Roja encabezada por el ru√≠n asesino Harley el Mordiente.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 THAC0: +2
-DaÒo: 2D4 +2, 2% de congelar (muerte autom·tica)
-Tipo de daÒo: frÌo
+Da√±o: 2D4 +2, 2% de congelar (muerte autom√°tica)
+Tipo de da√±o: fr√≠o
 Peso: 10
 Factor de velocidad: 6
 Tipo de talento: espada bastarda
 Tipo: 1 mano~
-@20524 = ~Edion, nigromante moribundo de Sembia, fue el propietario originario de este poderoso anillo. El mago forjÛ el objeto con sus propias manos y en sus ˙ltimos aÒos de vida se encontrÛ tan ligado a Èl que casi nunca se lo quitÛ de encima hasta que expirÛ su ˙ltimo aliento.
+@20524 = ~Edion, nigromante moribundo de Sembia, fue el propietario originario de este poderoso anillo. El mago forj√≥ el objeto con sus propias manos y en sus √∫ltimos a√±os de vida se encontr√≥ tan ligado a √©l que casi nunca se lo quit√≥ de encima hasta que expir√≥ su √∫ltimo aliento.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
-Especial: Dobla el n˙mero de hechizos memorizables de nivel 5~
-@20526 = ~Esta capucha marrÛn oscuro est· diseÒada para ser usada sobre la cabeza y los hombros a modo de capota ancha. Fue creado por el ladrÛn e ilusionista gnomo Brein CastaÒo. Brein usÛ la capucha en sus aventuras durante muchos aÒos antes de que su amante de la infancia le convenciese de que se retirara. Entonces pasÛ a manos de su sobrino, Chirchet, quien a su vez 
-vendiÛ el objeto a cambio de tierras de cultivo.
+Especial: Dobla el n√∫mero de hechizos memorizables de nivel 5~
+@20526 = ~Esta capucha marr√≥n oscuro est√° dise√±ada para ser usada sobre la cabeza y los hombros a modo de capota ancha. Fue creado por el ladr√≥n e ilusionista gnomo Brein Casta√±o. Brein us√≥ la capucha en sus aventuras durante muchos a√±os antes de que su amante de la infancia le convenciese de que se retirara. Entonces pas√≥ a manos de su sobrino, Chirchet, quien a su vez 
+vendi√≥ el objeto a cambio de tierras de cultivo.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
-Especial: Sigilo +10%, Ceguera y Rociada de color 1/dÌa
+Especial: Sigilo +10%, Ceguera y Rociada de color 1/d√≠a
 Bonificador a la clase de armadura: 2
 Peso: 2~
-@20528 = ~Uno de los cintos encantados m·s hermosos creados en Zakhara, este lujoso objeto de seda fue diseÒado para auxiliar a sus portadores a esquivar ataques. La Hermandad de los Tres Soles, una sociedad de asesinos sagrados, concedÌa estos cintos a sus sirvientes m·s devotos. Este cinto en particular perteneciÛ al miembro Khamu Bedi. Una cadena de delicadas letras negras escritas sobre la seda roja dicen: "SÈ veloz, poderoso y letal. Pero sobre todo, sÈ moral."
+@20528 = ~Uno de los cintos encantados m√°s hermosos creados en Zakhara, este lujoso objeto de seda fue dise√±ado para auxiliar a sus portadores a esquivar ataques. La Hermandad de los Tres Soles, una sociedad de asesinos sagrados, conced√≠a estos cintos a sus sirvientes m√°s devotos. Este cinto en particular perteneci√≥ al miembro Khamu Bedi. Una cadena de delicadas letras negras escritas sobre la seda roja dicen: "S√© veloz, poderoso y letal. Pero sobre todo, s√© moral."
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Especial: Borrosidad constante sobre el portador
 Peso: 2~
-@20532 = ~Emitiendo una tÈnue aura azul, este gigantesca arma es un mandoble aserrado hecho de hueso. Ocasionalmente golpea con una oleada de frÌo y entumece machacando a sus vÌctimas.
+@20532 = ~Emitiendo una t√©nue aura azul, este gigantesca arma es un mandoble aserrado hecho de hueso. Ocasionalmente golpea con una oleada de fr√≠o y entumece machacando a sus v√≠ctimas.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 THAC0: +3
-DaÒo: 1D10+3, 20% de infligir 1D10 de daÒo de frÌo adicional
-Tipo de daÒo: cortante
+Da√±o: 1D10+3, 20% de infligir 1D10 de da√±o de fr√≠o adicional
+Tipo de da√±o: cortante
 Peso: 25
 Factor de velocidad: 10
 Tipo de talento: mandoble
 Tipo: 2 manos~
-@20535 = ~El Arrullo de Owain fue creado por un bardo trastornado llamado Owain Piper. Piper era un devoto de Auril, nacido en la ciudad de Luna Plateada y acostumbrado a aceptar el clima frÌo de su tierra natal. ViajÛ extensamente por el Mar de la Luna, donde encontrÛ a un mago llamado 
-Pelham del Pantano. Owain y Pelham se hicieron buenos amigos y estuvieron en contacto durante una dÈcada. Pelham encantÛ el Arrullo de Owain para el bardo en cambio de una pequeÒa suma de dinero. Owain raramente usÛ el instrumento en batalla, lo empleada cuando los gansos retrasados en la emigraciÛn rondaban en el lago. Soplaba el cuerno para que los gansos lo escuchasen como el sonido de sus primos y entonces emprendiesen el viaje hacia el sur. Cuando los gansos intentasen echar avolar, el cuerno de Owain los congelarÌa allÌ mismo, donde los dejarÌa morir.
+@20535 = ~El Arrullo de Owain fue creado por un bardo trastornado llamado Owain Piper. Piper era un devoto de Auril, nacido en la ciudad de Luna Plateada y acostumbrado a aceptar el clima fr√≠o de su tierra natal. Viaj√≥ extensamente por el Mar de la Luna, donde encontr√≥ a un mago llamado 
+Pelham del Pantano. Owain y Pelham se hicieron buenos amigos y estuvieron en contacto durante una d√©cada. Pelham encant√≥ el Arrullo de Owain para el bardo en cambio de una peque√±a suma de dinero. Owain raramente us√≥ el instrumento en batalla, lo empleada cuando los gansos retrasados en la emigraci√≥n rondaban en el lago. Soplaba el cuerno para que los gansos lo escuchasen como el sonido de sus primos y entonces emprendiesen el viaje hacia el sur. Cuando los gansos intentasen echar avolar, el cuerno de Owain los congelar√≠a all√≠ mismo, donde los dejar√≠a morir.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
-Cuando es usado lanza Cono de frÌo ocasionando 10D4+10 puntos de daÒo~
-@20537 = ~El hechicero Spendelard se hizo famoso gracias a la extrema utilidad de sus conjuros. Cuando no estaba elaborando uno, sus infrecuentes pero largos viajes le metÌan en embrollos peligrosos. …ste bastÛn creado por Èl le ayudÛ bastante a salir indÈmne de dichas situaciones, pero un buen dÌa se encontrÛ con una peregrina druida de Chauntea y se lo cambiÛ por otra vara que le gustaba m·s.
+Cuando es usado lanza Cono de fr√≠o ocasionando 10D4+10 puntos de da√±o~
+@20537 = ~El hechicero Spendelard se hizo famoso gracias a la extrema utilidad de sus conjuros. Cuando no estaba elaborando uno, sus infrecuentes pero largos viajes le met√≠an en embrollos peligrosos. √âste bast√≥n creado por √©l le ayud√≥ bastante a salir ind√©mne de dichas situaciones, pero un buen d√≠a se encontr√≥ con una peregrina druida de Chauntea y se lo cambi√≥ por otra vara que le gustaba m√°s.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
-Especial: Bono +1 a la clase de armadura y las tiradas de salvaciÛn vs. conjuros
+Especial: Bono +1 a la clase de armadura y las tiradas de salvaci√≥n vs. conjuros
 THAC0: +1
-DaÒo: 1D6+1
-Tipo de daÒo: contundente
+Da√±o: 1D6+1
+Tipo de da√±o: contundente
 Peso: 3
 Factor de velocidad: 3
-Tipo de talento: bastÛn
+Tipo de talento: bast√≥n
 Tipo: 2-manos~
-@20539 = ~Este par de botas extremadamente fuertes fueron propiedad del explorador Thentian Bordel "Pisoteador" Farpath. Bordel fue famoso por todo el mar de la Luna por sus habilidades de viaje. Bordel y un grupo de compaÒeros exploradores seÒalarÌan un lugar de Faerun para marchar hasta all·. Los competidores caminarÌan hasta ese lugar por la ruta m·s r·pida posible. Bordel ganÛ muchas m·s competiciones de las que perdiÛ, ganando una reputaciÛn por tener pisadas extremadamente pesadas. Esto le ganÛ el sobrenombre "Pisoteador." Cuando Bordel muriÛ en una caÌda de rocas, fue enterrado en el desierto. Muchos aÒos despuÈs de su muerte, comenzaron a circular los rumores de que las botas de Bordel estaban encantadas para que sus pasos sonasen con fuerza cuando se acercaba. Este rumor circulÛ fuera de control, algunos fueron tan lejos que llegaban a decir que las botas de Bordel eran capaces de derribar casas con su peso. Diez aÒos despuÈs la muerte de Bordel, unos ladrones robaron las botas, tomando control sobre la propiedad
-que tanta gente creyÛ poseer.
+@20539 = ~Este par de botas extremadamente fuertes fueron propiedad del explorador Thentian Bordel "Pisoteador" Farpath. Bordel fue famoso por todo el mar de la Luna por sus habilidades de viaje. Bordel y un grupo de compa√±eros exploradores se√±alar√≠an un lugar de Faerun para marchar hasta all√°. Los competidores caminar√≠an hasta ese lugar por la ruta m√°s r√°pida posible. Bordel gan√≥ muchas m√°s competiciones de las que perdi√≥, ganando una reputaci√≥n por tener pisadas extremadamente pesadas. Esto le gan√≥ el sobrenombre "Pisoteador." Cuando Bordel muri√≥ en una ca√≠da de rocas, fue enterrado en el desierto. Muchos a√±os despu√©s de su muerte, comenzaron a circular los rumores de que las botas de Bordel estaban encantadas para que sus pasos sonasen con fuerza cuando se acercaba. Este rumor circul√≥ fuera de control, algunos fueron tan lejos que llegaban a decir que las botas de Bordel eran capaces de derribar casas con su peso. Diez a√±os despu√©s la muerte de Bordel, unos ladrones robaron las botas, tomando control sobre la propiedad
+que tanta gente crey√≥ poseer.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
-Permite al portador lanzar Terremoto 1/DÌa
+Permite al portador lanzar Terremoto 1/D√≠a
 Peso: 4~
-@20541 = ~Como otros de su clase, este martillo est· hecho completamente de acero y montado sobre un asta de cuarenta y cinco centÌmetros. Este ejemplar es m·gico y ha sido bendecido en su creaciÛn haciÈndolo m·s efectivo en combate.
+@20541 = ~Como otros de su clase, este martillo est√° hecho completamente de acero y montado sobre un asta de cuarenta y cinco cent√≠metros. Este ejemplar es m√°gico y ha sido bendecido en su creaci√≥n haci√©ndolo m√°s efectivo en combate.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Especial:
  Memoriza 2 conjuros adicionales de sacerdote de nivel 1
  Memoriza 1 conjuro adicional de sacerdote de nivel 2
  Memoriza 1 conjuro adicional de sacerdote de nivel 3
 THAC0: +3
-DaÒo: 1D4 +4
-Tipo de daÒo: contundente
+Da√±o: 1D4 +4
+Tipo de da√±o: contundente
 Peso: 6
 Factor de velocidad: 3
 Tipo de talento: martillo de guerra
 Clase:  Una mano~
-@20543 = ~Como otros de su clase, este martillo de guerra est· hecho completamente de acero y es difÌcil de emular en poder. Consiste en un sÛlido, grande y pesado rect·ngulo de metal montado sobre un asta de cuarenta y cinco centÌmetros y contiene unos poderosÌsimos encantamientos en su interior que lo hacen pr·cticamente imparable en combate.
+@20543 = ~Como otros de su clase, este martillo de guerra est√° hecho completamente de acero y es dif√≠cil de emular en poder. Consiste en un s√≥lido, grande y pesado rect√°ngulo de metal montado sobre un asta de cuarenta y cinco cent√≠metros y contiene unos poderos√≠simos encantamientos en su interior que lo hacen pr√°cticamente imparable en combate.
 
-Las armas Defensoras se encuentran entre las m·s poderosas del mundo.
+Las armas Defensoras se encuentran entre las m√°s poderosas del mundo.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Aptitudes Portador:
- Resistencia m·gica +15%, Clase de Armadura +2 (bono)
- Resistencia fÌsica +15%, +3 a las tiradas de salvaciÛn vs. conjuros (bono)
+ Resistencia m√°gica +15%, Clase de Armadura +2 (bono)
+ Resistencia f√≠sica +15%, +3 a las tiradas de salvaci√≥n vs. conjuros (bono)
 THAC0: +5
-DaÒo: 1D4 +5, 20% de sanar al portador 1D4 puntos de vida
-Tipo de daÒo: contundente
+Da√±o: 1D4 +5, 20% de sanar al portador 1D4 puntos de vida
+Tipo de da√±o: contundente
 Peso: 6
 Factor de velocidad: 3
 Tipo de talento: martillo de guerra
 Clase: una manon~
-@20545 = ~Adem·s de tener una soberbia manofactura, diminutas runas de poder pueden ser vistas grabadas a lo largo y ancho de la superficie de esta hacha. Es obvio que se invirtiÛ mucho tiempo y esfuerzo en su creaciÛn, y aunque no se note al principio, observando con atenciÛn se puede descubrir un ligero brillo azulado emanando desde el interior.
+@20545 = ~Adem√°s de tener una soberbia manofactura, diminutas runas de poder pueden ser vistas grabadas a lo largo y ancho de la superficie de esta hacha. Es obvio que se invirti√≥ mucho tiempo y esfuerzo en su creaci√≥n, y aunque no se note al principio, observando con atenci√≥n se puede descubrir un ligero brillo azulado emanando desde el interior.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 THAC0: +2
-DaÒo: 1D8+2, 25% de envenenar
-Tipo de daÒo: cortante
+Da√±o: 1D8+2, 25% de envenenar
+Tipo de da√±o: cortante
 Peso: 7
 Factor de velocidad: 7
 Tipo de talento: hacha
 Tipo: 1 mano~
-@20547 = ~Adem·s de tener una soberbia manofactura, diminutas runas de poder pueden ser vistas grabadas a lo largo y ancho de la superficie de esta hacha. Es obvio que se invirtiÛ mucho tiempo y esfuerzo en su creaciÛn, y aunque no se note al principio, observando con atenciÛn se puede descubrir un ligero brillo azulado emanando desde el interior.
+@20547 = ~Adem√°s de tener una soberbia manofactura, diminutas runas de poder pueden ser vistas grabadas a lo largo y ancho de la superficie de esta hacha. Es obvio que se invirti√≥ mucho tiempo y esfuerzo en su creaci√≥n, y aunque no se note al principio, observando con atenci√≥n se puede descubrir un ligero brillo azulado emanando desde el interior.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Aptitudes Portador:
  Clase de armadura +1 (bono)
 Aptitudes de Combate:
  10% de atontar por cada golpe propinado
 THAC0: +4
-DaÒo: 1D8+4 + 1D6 de daÒo contundente adicional
-Tipo de daÒo: cortante
+Da√±o: 1D8+4 + 1D6 de da√±o contundente adicional
+Tipo de da√±o: cortante
 Peso: 7
 Factor de velocidad: 7
 Tipo de talento: hacha
 Tipo: 1 mano~
-@20549 = ~Esta poderosa hacha consiste en un mango de 140 cm. con una pesada doble hoja rematada al final. Es un arma difÌcil de manejar, pero un guerrero habilidoso puede asestar unos golpes tremendos con ella. Runas enanas recubren su dorso.
+@20549 = ~Esta poderosa hacha consiste en un mango de 140 cm. con una pesada doble hoja rematada al final. Es un arma dif√≠cil de manejar, pero un guerrero habilidoso puede asestar unos golpes tremendos con ella. Runas enanas recubren su dorso.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Aptitudes Portador:
- +10% a la Resistencia m·gica, +2 a las tiradas de salvaciÛn (bono)
- +10% a la Resistencia al daÒo cortante, perforante, contundente y de proyectil
+ +10% a la Resistencia m√°gica, +2 a las tiradas de salvaci√≥n (bono)
+ +10% a la Resistencia al da√±o cortante, perforante, contundente y de proyectil
 THAC0: +3
-DaÒo: 1D10 +3
-Tipo de daÒo: cortante
+Da√±o: 1D10 +3
+Tipo de da√±o: cortante
 Peso: 10
 Factor de velocidad: 9
 Tipo de talento: hacha
 Clase: 2 manos~
-@20551 = ~Adem·s de tener una soberbia manofactura, diminutas runas de poder pueden ser vistas grabadas a lo largo y ancho de la superficie de esta espada. Es obvio que se invirtiÛ mucho tiempo y esfuerzo en su creaciÛn, y aunque no se note al principio, observando con atenciÛn se puede descubrir un ligero brillo azulado emanando desde el interior.
+@20551 = ~Adem√°s de tener una soberbia manofactura, diminutas runas de poder pueden ser vistas grabadas a lo largo y ancho de la superficie de esta espada. Es obvio que se invirti√≥ mucho tiempo y esfuerzo en su creaci√≥n, y aunque no se note al principio, observando con atenci√≥n se puede descubrir un ligero brillo azulado emanando desde el interior.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Bonificador a la clase de armadura: 2
 Bonificadores a las resistencias:
- +10% a la resistencia al daÒo cortante
- +10% a la resistencia al daÒo perforante
- +10% a la resistencia al daÒo contundente
+ +10% a la resistencia al da√±o cortante
+ +10% a la resistencia al da√±o perforante
+ +10% a la resistencia al da√±o contundente
  +10% a la resistencia a los proyectiles
- +1 a todas las tiradas de salvaciÛn
+ +1 a todas las tiradas de salvaci√≥n
 THAC0: +3
-DaÒo: 2D4 +3
-Tipo de daÒo: cortante
+Da√±o: 2D4 +3
+Tipo de da√±o: cortante
 Peso: 10
 Factor de velocidad: 8
 Tipo de talento: espada bastarda
 Clase: 1 mano~
-@20553 = ~Esta espada legendaria fue empuÒada durante un breve perÌodo de tiempo por el guerrero Ilban de Elturel. Es por sus hazaÒas en Calimshan que el arma se ganÛ su nombre. Sin embargo, antes de estar con Ilban, Valerosa estuvo en posesiÛn de un asesino sagrado de la lejana Zakhara. Seg˙n los profetas, la liviana espada fue forjada para servir a una orden de asesinos. Los dueÒÛs de Valerosa sobrevivieron a muchas experiencias increÌbles, la mayorÌa gracias a la magia del arma. El arma se perdiÛ en Calimshan cuando un asesino sagrado cazÛ a un agente blasfemo del Pach· en Calimport. La cimitarra se quedÛ en las manos de Baris Cabal cerca de una docena de aÒos antes de que la banda fuese desintegrada por Ilban y sus compaÒeros. Las cruzadas de Ilban metieron a Valerosa en batalla contra hombres de la arena, escorpiones gigantes, corsarios del desierto, hechiceros malvados y los demonÌacos sirvientes de Celan Harad.
+@20553 = ~Esta espada legendaria fue empu√±ada durante un breve per√≠odo de tiempo por el guerrero Ilban de Elturel. Es por sus haza√±as en Calimshan que el arma se gan√≥ su nombre. Sin embargo, antes de estar con Ilban, Valerosa estuvo en posesi√≥n de un asesino sagrado de la lejana Zakhara. Seg√∫n los profetas, la liviana espada fue forjada para servir a una orden de asesinos. Los due√±√≥s de Valerosa sobrevivieron a muchas experiencias incre√≠bles, la mayor√≠a gracias a la magia del arma. El arma se perdi√≥ en Calimshan cuando un asesino sagrado caz√≥ a un agente blasfemo del Pach√° en Calimport. La cimitarra se qued√≥ en las manos de Baris Cabal cerca de una docena de a√±os antes de que la banda fuese desintegrada por Ilban y sus compa√±eros. Las cruzadas de Ilban metieron a Valerosa en batalla contra hombres de la arena, escorpiones gigantes, corsarios del desierto, hechiceros malvados y los demon√≠acos sirvientes de Celan Harad.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Especial: Un ataque extra por asalto
 THAC0: +2
-DaÒo: 1D8 +2
-Tipo de daÒo: cortante
+Da√±o: 1D8 +2
+Tipo de da√±o: cortante
 Peso: 4
 Tipo de talento: espada larga
 Factor de velocidad: 0
 Clase: 1 mano~
-@20556 = ~Esta enjuta capa parece deshilachada, pero con una inspecciÛn m·s cercana, se ve que sus hilos son cabellos humanos. La capa se contorsiona a la luz de las velas y cada hebra del pelo que la conforma se enreda y desenreda haciendo que parezca que la luz resbala sobre ella.
+@20556 = ~Esta enjuta capa parece deshilachada, pero con una inspecci√≥n m√°s cercana, se ve que sus hilos son cabellos humanos. La capa se contorsiona a la luz de las velas y cada hebra del pelo que la conforma se enreda y desenreda haciendo que parezca que la luz resbala sobre ella.
 
-Los cabellos son el pelo de las vÌrgenes enviadas a la Isla Burial a descansar eternamente junto a sus seÒores muertos. Fue voluntad del Vidente confortar a estas mujeres, apaciguando su p·nico y su miedo tomando un mechÛn de pelo de cada una y tejiÈndolo en una capa que les extrajo la angustia de sus espÌritus. El resultado se tradujo en un manto que se cierne sobre si mismo con culpabilidad pero que es capaz de repeler el miedo.
+Los cabellos son el pelo de las v√≠rgenes enviadas a la Isla Burial a descansar eternamente junto a sus se√±ores muertos. Fue voluntad del Vidente confortar a estas mujeres, apaciguando su p√°nico y su miedo tomando un mech√≥n de pelo de cada una y teji√©ndolo en una capa que les extrajo la angustia de sus esp√≠ritus. El resultado se tradujo en un manto que se cierne sobre si mismo con culpabilidad pero que es capaz de repeler el miedo.
 
-Cuando la capa es usada, los cabellos que la dan forma se "atemorizan" y entretejen alrededor del cuerpo de quien la lleva como los hilos de un telar. Como consecuencia, la capa no se puede desenredar a voluntad sino que debe lanzarse antes un conjuro de Quitar MaldiciÛn.
+Cuando la capa es usada, los cabellos que la dan forma se "atemorizan" y entretejen alrededor del cuerpo de quien la lleva como los hilos de un telar. Como consecuencia, la capa no se puede desenredar a voluntad sino que debe lanzarse antes un conjuro de Quitar Maldici√≥n.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Aptitudes Portador:
  Inmunidad al Miedo y Arrebato Emocional
  Bono CA +4 contra ataques contundentes, perforantes y de proyectil
  Bono CA +2 contra ataques cortantes
 Habilidades Portador:
- Capa de Miedo 1/dÌa
+ Capa de Miedo 1/d√≠a
 Peso: 1~
 @20558 = ~Cierta cantidad de estos broqueles pueden ser hallados en los templos de Waukeen
-a lo largo y ancho de Faerun. La iglesia hizo estos escudos para venderlos a los aventureros. A cambio de los poderes del artefacto, el portador debe mantener la enseÒa del escudo al descubierto y no alterarla. Si el portador no accede, los poderes del escudo fallan, asi que docenas de aventureros viajan por los Reinos con la enseÒa dorada de Waukeen ondeando bajo su brazo.
+a lo largo y ancho de Faerun. La iglesia hizo estos escudos para venderlos a los aventureros. A cambio de los poderes del artefacto, el portador debe mantener la ense√±a del escudo al descubierto y no alterarla. Si el portador no accede, los poderes del escudo fallan, asi que docenas de aventureros viajan por los Reinos con la ense√±a dorada de Waukeen ondeando bajo su brazo.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Bonificador a la Clase de Armadura: +3
-Bonificador a las Tiradas de SalvaciÛn: +2
-Resistencia m·gica: 10%
+Bonificador a las Tiradas de Salvaci√≥n: +2
+Resistencia m√°gica: 10%
 Peso: 4~
-@20560 = ~El nombre original de esta extraÒa espada est· perdido en el lÛbegro fondo del Mar de las Espadas. ConstruÌdo con un hueso de sahuagin reforzado m·gicamente, se dice que el arma fue usada en rituales kuo-toa. El asidero est· hecho de coral y se encuentra enredado en piel de sahuagin. 
+@20560 = ~El nombre original de esta extra√±a espada est√° perdido en el l√≥begro fondo del Mar de las Espadas. Constru√≠do con un hueso de sahuagin reforzado m√°gicamente, se dice que el arma fue usada en rituales kuo-toa. El asidero est√° hecho de coral y se encuentra enredado en piel de sahuagin. 
 
-Su portador original fue Lockhart, destacado ladrÛn, aventurero y contrabandista de la Costa de la Espada. La daga le debe su nombre.
+Su portador original fue Lockhart, destacado ladr√≥n, aventurero y contrabandista de la Costa de la Espada. La daga le debe su nombre.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Especial: Con cada ataque tiene un 2% de probabilidades de lanzar Dedo de la Muerte sobre el contrincante
 THAC0: +2
-DaÒo: 1D4+2
-Tipo de daÒo: perforante
+Da√±o: 1D4+2
+Tipo de da√±o: perforante
 Peso: 1
 Factor de velocidad: 1
 Tipo de talento: Daga
 Clase: Una mano~
-@20562 = ~Esta hacha fue construÌda para un joven b·rbaro llamado Hegelfden. Lo que sigue es su historia:
-   Hegelfden naciÛ en la tribu del Elk y los chamanes profetizaron que serÌa un poderoso guerrero. El b·rbaro creciÛ creyendo que era especial, importante y algo mejor que aquellos que le rodeaban. A los diecisiete, cumpliÛ la profecÌa y se convirtiÛ en un poderoso combatiente.
-   En un viaje por la Espina Dorsal del Mundo, Hegelfden capturÛ dos artesanos enanos con los que se cruzÛ en una cueva. Soberbio, rehusÛ dejarlos ir hasta que le creasen un magnÌfica hacha para Èl. Los dos enanos accedieron de mala gana, forjando una poderosa arma con aguda hoja y empuÒadura recia. Habiendo terminado, pidieron su liberaciÛn, pero Hegelfden frunciÛ el entrecejo y les negÛ su deseo pues planeaba mantenerlos como sirvientes. Los enanos le maldijeron y le advirtieron que el fruto de su abuso serÌa su fin, pero el b·rbaro se burlÛ de ellos y llev·ndoselos consigo, continuÛ con su vida. Al dÌa siguiente, en una batalla contra una tribu rival, entrÛ en un estado bersÈrker descontrolado y matÛ a todo bicho viviente con el que se cruzÛ. Sus compaÒeros de clan, convencidos de que se habÌa vuelto loco, decidieron quitarle la vida y se llevaron su cuerpo. El hacha se perdiÛ para siempre en el campo de batalla.
+@20562 = ~Esta hacha fue constru√≠da para un joven b√°rbaro llamado Hegelfden. Lo que sigue es su historia:
+   Hegelfden naci√≥ en la tribu del Elk y los chamanes profetizaron que ser√≠a un poderoso guerrero. El b√°rbaro creci√≥ creyendo que era especial, importante y algo mejor que aquellos que le rodeaban. A los diecisiete, cumpli√≥ la profec√≠a y se convirti√≥ en un poderoso combatiente.
+   En un viaje por la Espina Dorsal del Mundo, Hegelfden captur√≥ dos artesanos enanos con los que se cruz√≥ en una cueva. Soberbio, rehus√≥ dejarlos ir hasta que le creasen un magn√≠fica hacha para √©l. Los dos enanos accedieron de mala gana, forjando una poderosa arma con aguda hoja y empu√±adura recia. Habiendo terminado, pidieron su liberaci√≥n, pero Hegelfden frunci√≥ el entrecejo y les neg√≥ su deseo pues planeaba mantenerlos como sirvientes. Los enanos le maldijeron y le advirtieron que el fruto de su abuso ser√≠a su fin, pero el b√°rbaro se burl√≥ de ellos y llev√°ndoselos consigo, continu√≥ con su vida. Al d√≠a siguiente, en una batalla contra una tribu rival, entr√≥ en un estado bers√©rker descontrolado y mat√≥ a todo bicho viviente con el que se cruz√≥. Sus compa√±eros de clan, convencidos de que se hab√≠a vuelto loco, decidieron quitarle la vida y se llevaron su cuerpo. El hacha se perdi√≥ para siempre en el campo de batalla.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Aptitudes Combate: Cada golpe tiene un 5% de probabilidades de originar Furia de Combate sobre el portador durante 10 asaltos
 THACO: +5
-DaÒo: 1D8 +5
-Tipo de daÒo: cortante
+Da√±o: 1D8 +5
+Tipo de da√±o: cortante
 Peso: 6
 Factor de velocidad: 3
 Tipo de talento: hacha
 Clase: 1 mano~
-@20563 = ~Este es un bastÛn de cuero negro, muy fuerte, con distintas escenas y runas grabadas. Permite al usuario causar p·nico a cualquiera que toque -sin tirada de salvaciÛn-, e inflige 4D6 puntos de daÒo que pueden ser sanados ˙nicamente por magia clerical, pociones o todo un dÌa de descanso. Puede ser usado tambiÈn para conjurar a un tipo de demonio I (Tanar'ri) y/o convertir a el que lo agarra en un demonio tipo III (como el Asesino) durante cinco asaltos. Cada una de Èstas funciones sÛlo puede ser usada una vez al dÌa.
+@20563 = ~Este es un bast√≥n de cuero negro, muy fuerte, con distintas escenas y runas grabadas. Permite al usuario causar p√°nico a cualquiera que toque -sin tirada de salvaci√≥n-, e inflige 4D6 puntos de da√±o que pueden ser sanados √∫nicamente por magia clerical, pociones o todo un d√≠a de descanso. Puede ser usado tambi√©n para conjurar a un tipo de demonio I (Tanar'ri) y/o convertir a el que lo agarra en un demonio tipo III (como el Asesino) durante cinco asaltos. Cada una de √©stas funciones s√≥lo puede ser usada una vez al d√≠a.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Habilidades de Combate:
- Causa miedo en el objetivo (sin salvaciÛn)
- Puede convocar a un Tanar'ri una vez por dÌa
- Puede convertir al portador en el Asesino una vez por dÌa
-DaÒo: 4D6
+ Causa miedo en el objetivo (sin salvaci√≥n)
+ Puede convocar a un Tanar'ri una vez por d√≠a
+ Puede convertir al portador en el Asesino una vez por d√≠a
+Da√±o: 4D6
 Peso: 3
 Factor de velocidad: 1
-Tipo de talento: bastÛn
+Tipo de talento: bast√≥n
 Clase: 2 manos
 Requerimientos: fuerza 5~
-@20567 = ~El catalejo suele utilizarse por exploradores o centinelas en compaÒÌas mercenarias o ejÈrcitos regulares. Los beneficios de poder avistar y vigilar a los enemigos sin uso de magia suponen una gran virt˙d para aquellos poco familiarizados con los mÈtodos arcanos.
+@20567 = ~El catalejo suele utilizarse por exploradores o centinelas en compa√±√≠as mercenarias o ej√©rcitos regulares. Los beneficios de poder avistar y vigilar a los enemigos sin uso de magia suponen una gran virt√∫d para aquellos poco familiarizados con los m√©todos arcanos.
 
-Recibiste este ejemplar de manos del Comandante de la Guardia de Soubar. Revelar· una pequeÒa ·rea del mapa por lejana que esta estÈ como si usaras el conjuro Vista Lejana, pero sin uso real de magia. 
+Recibiste este ejemplar de manos del Comandante de la Guardia de Soubar. Revelar√° una peque√±a √°rea del mapa por lejana que esta est√© como si usaras el conjuro Vista Lejana, pero sin uso real de magia. 
 
-El Comandante sugiriÛ que podrÌas emplear el catalejo para avistar a los bandidos de las granjas al norte de Soubar.
+El Comandante sugiri√≥ que podr√≠as emplear el catalejo para avistar a los bandidos de las granjas al norte de Soubar.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
-Especial: Permite beneficiarse de los mismos efectos que Vista Lejana 3/dÌa~
-@20597 = ~Normalmente encontrado en viales, PerdiciÛn de Fantasmas es un polvo muy valioso para aventureros y nigromantes. Cuando se consume mezclado con agua, protege durante 24 horas de ser envejecido por un fantasma (protecciÛn contra el plano negativo)  Es muy buscado por quienes luchan contra no-muertos.
+Especial: Permite beneficiarse de los mismos efectos que Vista Lejana 3/d√≠a~
+@20597 = ~Normalmente encontrado en viales, Perdici√≥n de Fantasmas es un polvo muy valioso para aventureros y nigromantes. Cuando se consume mezclado con agua, protege durante 24 horas de ser envejecido por un fantasma (protecci√≥n contra el plano negativo)  Es muy buscado por quienes luchan contra no-muertos.
 
 ESTADISTICAS:
 
-El que lo consume recibe inmunidad contra la consunciÛn de niveles durante 24 horas~
+El que lo consume recibe inmunidad contra la consunci√≥n de niveles durante 24 horas~
 @20600 = ~Sobre los Filos infernales:
 
-     Se rumorea que hace muchos aÒos, durante las guerras entre hermanos entre los elfos y los elfos oscuros, un experimentado drow llamado Gulgaraith forjÛ numerosas armas de gran poder para defenderse en la batalla. Estas armas fueron bautizadas como Los Filos infernales, y varios siglos despuÈs nadie sabe cuantos perduran en el mundo, sÛlo se sabe que son artefactos de gran poder.
+     Se rumorea que hace muchos a√±os, durante las guerras entre hermanos entre los elfos y los elfos oscuros, un experimentado drow llamado Gulgaraith forj√≥ numerosas armas de gran poder para defenderse en la batalla. Estas armas fueron bautizadas como Los Filos infernales, y varios siglos despu√©s nadie sabe cuantos perduran en el mundo, s√≥lo se sabe que son artefactos de gran poder.
 
-Efectos Globales:  Todos los Filos Infernales funcionan como una Espada de la Agudeza modificada +3 y decapitan con un tirada natural de 20.  Son tan poderosos que si se rompen se reconstruyen solos y si se separan de su dueÒo lo buscan incesantemente hasta encontrarlo. Su habilidad m·s famosa es la de matar instant·neamente, pero tambiÈn destacan porque aquellos a los que asesinan no se les puede revivir.
+Efectos Globales:  Todos los Filos Infernales funcionan como una Espada de la Agudeza modificada +3 y decapitan con un tirada natural de 20.  Son tan poderosos que si se rompen se reconstruyen solos y si se separan de su due√±o lo buscan incesantemente hasta encontrarlo. Su habilidad m√°s famosa es la de matar instant√°neamente, pero tambi√©n destacan porque aquellos a los que asesinan no se les puede revivir.
 
-Cada Filo Infernal tiene su propio ego, inteligencia y poder de defensa particular para ayudar a su dueÒo.
+Cada Filo Infernal tiene su propio ego, inteligencia y poder de defensa particular para ayudar a su due√±o.
 
 Filo Infernal: Devoravidas:
 
-  Se trata de una cimitarra brillante como el rubÌ que puede lanzar Celeridad sobre su portador 3 veces al dÌa.  Tiene una inteligencia de 17 y un ego de 10.
+  Se trata de una cimitarra brillante como el rub√≠ que puede lanzar Celeridad sobre su portador 3 veces al d√≠a.  Tiene una inteligencia de 17 y un ego de 10.
 
 ESTADISTICAS:
 
-DaÒo: 1D6 + 3
-Tipo de DaÒo: cortante
+Da√±o: 1D6 + 3
+Tipo de Da√±o: cortante
 Peso: 5
 Factor de Velocidad: 5
 Tipo de Talento: cimitarra
 Tipo: 1 mano~
 @20601 = ~Sobre los Filos infernales:
 
-     Se rumorea que hace muchos aÒos, durante las guerras entre hermanos entre los elfos y los elfos oscuros, un experimentado drow llamado Gulgaraith forjÛ numerosas armas de gran poder para defenderse en la batalla. Estas armas fueron bautizadas como Los Filos infernales, y varios siglos despuÈs nadie sabe cuantos perduran en el mundo, sÛlo se sabe que son artefactos de gran poder.
+     Se rumorea que hace muchos a√±os, durante las guerras entre hermanos entre los elfos y los elfos oscuros, un experimentado drow llamado Gulgaraith forj√≥ numerosas armas de gran poder para defenderse en la batalla. Estas armas fueron bautizadas como Los Filos infernales, y varios siglos despu√©s nadie sabe cuantos perduran en el mundo, s√≥lo se sabe que son artefactos de gran poder.
 
-Efectos Globales:  Todos los Filos Infernales funcionan como una Espada de la Agudeza modificada, son +3 y decapitan con un tirada de 20.  Son tan poderosos que si se rompen se reconstruyen solos y si se separan de su dueÒo lo buscan incesantemente hasta encontrarlo. Su habilidad m·s famosa es la de matar instant·neamente, pero tambiÈn destacan porque aquellos a los que asesinan son imposibles de revivir.
+Efectos Globales:  Todos los Filos Infernales funcionan como una Espada de la Agudeza modificada, son +3 y decapitan con un tirada de 20.  Son tan poderosos que si se rompen se reconstruyen solos y si se separan de su due√±o lo buscan incesantemente hasta encontrarlo. Su habilidad m√°s famosa es la de matar instant√°neamente, pero tambi√©n destacan porque aquellos a los que asesinan son imposibles de revivir.
 
-Cada Filo Infernal tiene su propio ego, inteligencia, y poder de defensa particular para ayudar a su dueÒo en combate.
+Cada Filo Infernal tiene su propio ego, inteligencia, y poder de defensa particular para ayudar a su due√±o en combate.
 
 Filo Infernal: Drenadora de Almas:
 
-  Se trata de una espada larga con un brillo de color p˙rpura/amarillento.  Puede lanzar ProtecciÛn contra el Plano Negativo 3 veces al dÌa.  Tiene una inteligencia de 17 y un ego de 12.
+  Se trata de una espada larga con un brillo de color p√∫rpura/amarillento.  Puede lanzar Protecci√≥n contra el Plano Negativo 3 veces al d√≠a.  Tiene una inteligencia de 17 y un ego de 12.
 
 ESTADISTICAS:
 
-DaÒo:  1D8 + 3
-Tipo de DaÒo:  cortante
+Da√±o:  1D8 + 3
+Tipo de Da√±o:  cortante
 Peso: 5
 Factor de Velocidad: 5
 Tipo de Talento: Espada Larga
 Tipo:  una mano
 No Usable Por:
  Druida
- ClÈrigo
+ Cl√©rigo
  Mago~
 @20602 = ~Sobre los Filos infernales:
 
-     Se rumorea que hace muchos aÒos, durante las guerras entre hermanos entre los elfos y los elfos oscuros, un experimentado drow llamado Gulgaraith forjÛ numerosas armas de gran poder para defenderse en la batalla. Estas armas fueron bautizadas como Los Filos infernales, y varios siglos despuÈs nadie sabe cuantos perduran en el mundo, sÛlo se sabe que son artefactos de gran poder.
+     Se rumorea que hace muchos a√±os, durante las guerras entre hermanos entre los elfos y los elfos oscuros, un experimentado drow llamado Gulgaraith forj√≥ numerosas armas de gran poder para defenderse en la batalla. Estas armas fueron bautizadas como Los Filos infernales, y varios siglos despu√©s nadie sabe cuantos perduran en el mundo, s√≥lo se sabe que son artefactos de gran poder.
 
-Efectos Globales:  Todos los Filos Infernales funcionan como una Espada de la Agudeza modificada, son +3 y decapitan con un tirada de 20.  Son tan poderosos que si se rompen se reconstruyen solos y si se separan de su dueÒo lo buscan incesantemente hasta encontrarlo. Su habilidad m·s famosa es la de matar instant·neamente, pero tambiÈn destacan porque aquellos a los que asesinan son imposibles de revivir.
+Efectos Globales:  Todos los Filos Infernales funcionan como una Espada de la Agudeza modificada, son +3 y decapitan con un tirada de 20.  Son tan poderosos que si se rompen se reconstruyen solos y si se separan de su due√±o lo buscan incesantemente hasta encontrarlo. Su habilidad m√°s famosa es la de matar instant√°neamente, pero tambi√©n destacan porque aquellos a los que asesinan son imposibles de revivir.
 
-Cada Filo Infernal tiene su propio ego, inteligencia, y poder de defensa particular para ayudar a su dueÒo en combate.
+Cada Filo Infernal tiene su propio ego, inteligencia, y poder de defensa particular para ayudar a su due√±o en combate.
 
 Filo Infernal: Devoradora de Almas:
 
-Se trata de una cimitarra de brillo gris·ceo. Permite lanzar el conjuro TransformaciÛn de Tenser a nivel 13 de poder una vez al dÌa.  Tiene una inteligencia de 16 y un ego de 13.
+Se trata de una cimitarra de brillo gris√°ceo. Permite lanzar el conjuro Transformaci√≥n de Tenser a nivel 13 de poder una vez al d√≠a.  Tiene una inteligencia de 16 y un ego de 13.
 
 ESTADISTICAS:
 
-DaÒo:  1D6 + 3
-Tipo de DaÒo:  cortante
+Da√±o:  1D6 + 3
+Tipo de Da√±o:  cortante
 Peso: 5
 Factor de Velocidad: 5
 Tipo de Talento: Cimitarra
 Tipo:  Cimitarra~
 @20603 = ~Sobre los Filos infernales:
 
-     Se rumorea que hace muchos aÒos, durante las guerras entre hermanos entre los elfos y los elfos oscuros, un experimentado drow llamado Gulgaraith forjÛ numerosas armas de gran poder para defenderse en la batalla. Estas armas fueron bautizadas como Los Filos infernales, y varios siglos despuÈs nadie sabe cuantos perduran en el mundo, sÛlo se sabe que son artefactos de gran poder.
+     Se rumorea que hace muchos a√±os, durante las guerras entre hermanos entre los elfos y los elfos oscuros, un experimentado drow llamado Gulgaraith forj√≥ numerosas armas de gran poder para defenderse en la batalla. Estas armas fueron bautizadas como Los Filos infernales, y varios siglos despu√©s nadie sabe cuantos perduran en el mundo, s√≥lo se sabe que son artefactos de gran poder.
 
-Efectos Globales:  Todos los Filos Infernales funcionan como una Espada de la Agudeza modificada, son +3 y decapitan con un tirada de 20.  Son tan poderosos que si se rompen se reconstruyen solos y si se separan de su dueÒo lo buscan incesantemente hasta encontrarlo. Su habilidad m·s famosa es la de matar instant·neamente, pero tambiÈn destacan porque aquellos a los que asesinan son imposibles de revivir.
+Efectos Globales:  Todos los Filos Infernales funcionan como una Espada de la Agudeza modificada, son +3 y decapitan con un tirada de 20.  Son tan poderosos que si se rompen se reconstruyen solos y si se separan de su due√±o lo buscan incesantemente hasta encontrarlo. Su habilidad m√°s famosa es la de matar instant√°neamente, pero tambi√©n destacan porque aquellos a los que asesinan son imposibles de revivir.
 
-Cada Filo Infernal tiene su propio ego, inteligencia, y poder de defensa particular para ayudar a su dueÒo en combate.
+Cada Filo Infernal tiene su propio ego, inteligencia, y poder de defensa particular para ayudar a su due√±o en combate.
 
 Filo Infernal: Succionadora de Almas:
 
-  Se trata de una espada larga con un brillo verde/amarillento.  Otorga a su dueÒo 37% de Resistencia M·gica y la habilidad de lanzar Esfera Menor de Invulnerabilidad a nivel 12 de poder tres veces al dÌa.  Tiene una inteligencia de 17 y un ego de 12.
+  Se trata de una espada larga con un brillo verde/amarillento.  Otorga a su due√±o 37% de Resistencia M√°gica y la habilidad de lanzar Esfera Menor de Invulnerabilidad a nivel 12 de poder tres veces al d√≠a.  Tiene una inteligencia de 17 y un ego de 12.
 
 ESTADISTICAS:
 
-DaÒo:  1D8 + 3
-Tipo de DaÒo:  cortante
+Da√±o:  1D8 + 3
+Tipo de Da√±o:  cortante
 Peso: 5
 Factor de Velocidad: 5
 Tipo de Talento: Espada Larga
-Tipo:  un puÒo~
+Tipo:  un pu√±o~
 @20604 = ~Sobre los Filos infernales:
 
-     Se rumorea que hace muchos aÒos, durante las guerras entre hermanos entre los elfos y los elfos oscuros, un experimentado drow llamado Gulgaraith forjÛ numerosas armas de gran poder para defenderse en la batalla. Estas armas fueron bautizadas como Los Filos infernales, y varios siglos despuÈs nadie sabe cuantas perduran en el mundo, sÛlo se sabe que son artefactos de gran renombre.
+     Se rumorea que hace muchos a√±os, durante las guerras entre hermanos entre los elfos y los elfos oscuros, un experimentado drow llamado Gulgaraith forj√≥ numerosas armas de gran poder para defenderse en la batalla. Estas armas fueron bautizadas como Los Filos infernales, y varios siglos despu√©s nadie sabe cuantas perduran en el mundo, s√≥lo se sabe que son artefactos de gran renombre.
 
-Efectos Globales:  Todos los Filos Infernales funcionan como una Espada de la Agudeza modificada, son +3 y decapitan con un tirada de ataque de 20.  Son tan poderosos que si se rompen se reconstruyen solos y si se separan de su dueÒo lo buscan incesantemente hasta encontrarlo.  Su habilidad m·s famosa es la de matar instant·neamente, pero tambiÈn destacan porque aquellos a los que asesinan son imposibles de revivir.
+Efectos Globales:  Todos los Filos Infernales funcionan como una Espada de la Agudeza modificada, son +3 y decapitan con un tirada de ataque de 20.  Son tan poderosos que si se rompen se reconstruyen solos y si se separan de su due√±o lo buscan incesantemente hasta encontrarlo.  Su habilidad m√°s famosa es la de matar instant√°neamente, pero tambi√©n destacan porque aquellos a los que asesinan son imposibles de revivir.
 
-Cada Filo Infernal tiene su propio ego, inteligencia, y poder de defensa particular para ayudar a su dueÒo en combate.
+Cada Filo Infernal tiene su propio ego, inteligencia, y poder de defensa particular para ayudar a su due√±o en combate.
 
 Filo Infernal:  Desolladora de Almas:
 
-  Se trata de una espada corta de brillo amarillento con capacidad para lanzar Piel PÈtrea sobre el portador 3 veces al dÌa a nivel 12 de poder.  Tiene una inteligencia de 17 y un ego de 12.
+  Se trata de una espada corta de brillo amarillento con capacidad para lanzar Piel P√©trea sobre el portador 3 veces al d√≠a a nivel 12 de poder.  Tiene una inteligencia de 17 y un ego de 12.
 
 ESTADISTICAS:
 
-DaÒo:  1D6 + 3
-Tipo de DaÒo:  cortante
+Da√±o:  1D6 + 3
+Tipo de Da√±o:  cortante
 Peso: 5
 Factor de Velocidad: 5
 Tipo de Talento: Espada Corta
 Tipo:  un mano~
 @20605 = ~Sobre los Filos infernales:
 
-     Se rumorea que hace muchos aÒos, durante las guerras entre hermanos entre los elfos y los elfos oscuros, un experimentado drow llamado Gulgaraith forjÛ numerosas armas de gran poder para defenderse en la batalla. Estas armas fueron bautizadas como Los Filos infernales, y varios siglos despuÈs nadie sabe cuantos perduran en el mundo, sÛlo se sabe que son artefactos de gran poder.
+     Se rumorea que hace muchos a√±os, durante las guerras entre hermanos entre los elfos y los elfos oscuros, un experimentado drow llamado Gulgaraith forj√≥ numerosas armas de gran poder para defenderse en la batalla. Estas armas fueron bautizadas como Los Filos infernales, y varios siglos despu√©s nadie sabe cuantos perduran en el mundo, s√≥lo se sabe que son artefactos de gran poder.
 
-Efectos Globales:  Todos los Filos Infernales funcionan como una Espada de la Agudeza modificada, son +3 y decapitan con un tirada exitosa de 20.  Son tan poderosos que si se rompen se reconstruyen solos y si se separan de su dueÒo lo buscan incesantemente hasta encontrarlo.  Su habilidad m·s famosa es la de matar instant·neamente, pero tambiÈn destacan porque aquellos a los que asesinan son imposibles de revivir.
+Efectos Globales:  Todos los Filos Infernales funcionan como una Espada de la Agudeza modificada, son +3 y decapitan con un tirada exitosa de 20.  Son tan poderosos que si se rompen se reconstruyen solos y si se separan de su due√±o lo buscan incesantemente hasta encontrarlo.  Su habilidad m√°s famosa es la de matar instant√°neamente, pero tambi√©n destacan porque aquellos a los que asesinan son imposibles de revivir.
 
-Cada Filo Infernal tiene su propio ego, inteligencia, y poder de defensa particular para ayudar a su dueÒo en combate.
+Cada Filo Infernal tiene su propio ego, inteligencia, y poder de defensa particular para ayudar a su due√±o en combate.
 
 Filo Infernal:  Aniquiladora de Almas:
 
-  Se trata de una cimitarra de acero negro con un brillo rojo como el fuego del infierno.  Otorga a su portador 100% de Resistencia al Fuego y puede lanzar Imagen espejada tres veces al dÌa a nivel 12 de poder.  Tiene una inteligencia de 17 y un ego de 12.
+  Se trata de una cimitarra de acero negro con un brillo rojo como el fuego del infierno.  Otorga a su portador 100% de Resistencia al Fuego y puede lanzar Imagen espejada tres veces al d√≠a a nivel 12 de poder.  Tiene una inteligencia de 17 y un ego de 12.
 
 ESTADISTICAS:
 
-DaÒo:  1D8 + 3
-Tipo de DaÒo:  cortante
+Da√±o:  1D8 + 3
+Tipo de Da√±o:  cortante
 Peso: 5
 Factor de Velocidad: 5
 Tipo de Talento: Cimitarra
 Tipo:  una mano~
-@20616 = ~SÛlo los sirvientes m·s devotos de la Reina AraÒa logran hacerse con estos poderosos sÌmbolos. 
+@20616 = ~S√≥lo los sirvientes m√°s devotos de la Reina Ara√±a logran hacerse con estos poderosos s√≠mbolos. 
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
-Dos hechizos adicionales de clÈrigo de 6to nivel y uno m·s de 7mo
-Resistencia M·gica +5%, Fuerza +1~
-@20624 = ~La Maza de Lyrar es un arma muy poderosa que encontraste al norte de Soubar.  Protege al portador de la consunciÛn de niveles y le establece la fuerza a 22.
+Dos hechizos adicionales de cl√©rigo de 6to nivel y uno m√°s de 7mo
+Resistencia M√°gica +5%, Fuerza +1~
+@20624 = ~La Maza de Lyrar es un arma muy poderosa que encontraste al norte de Soubar.  Protege al portador de la consunci√≥n de niveles y le establece la fuerza a 22.
 
 ESTADISTICAS:
 
-Aptitudes Equipada: Fuerza 22, ProtecciÛn contra el Plano Negativo
+Aptitudes Equipada: Fuerza 22, Protecci√≥n contra el Plano Negativo
 THACO: +5
-DaÒo: 1D6+6
-Tipo de DaÒo: aplastante
+Da√±o: 1D6+6
+Tipo de Da√±o: aplastante
 Peso: 4
 Factor de Velocidad: 2
 Tipo de Talento: maza
 Tipo: 1 mano
 Requiere: fuerza 10~
-@20626 = ~Encontraste esta armadura junto a una tumba mientras asediabas la Fortaleza de Lyrar. A pesar de ser muy vieja, est· en buenas condiciones. Su ˙nica pega es que enlentece a quien la lleva al atacar, pero tiene una manofactura impresionante y no perjudica al resto de acciones comunes.  Otorga un 50% de resistencia contra el daÒo contundente, cortante, perforante y de proyectil.
+@20626 = ~Encontraste esta armadura junto a una tumba mientras asediabas la Fortaleza de Lyrar. A pesar de ser muy vieja, est√° en buenas condiciones. Su √∫nica pega es que enlentece a quien la lleva al atacar, pero tiene una manofactura impresionante y no perjudica al resto de acciones comunes.  Otorga un 50% de resistencia contra el da√±o contundente, cortante, perforante y de proyectil.
 
 ESTADISTICAS:
 
 Aptitudes Portador:
- 50% de resistencia contra todos los tipos de daÒo fÌsico
- +30% de resistencia al daÒo m·gico
- N˙mero de ataques del portador reducidos un 33% (penalizaciÛn)
-Clase de Armadura: -1, -5 contra daÒo cortante
+ 50% de resistencia contra todos los tipos de da√±o f√≠sico
+ +30% de resistencia al da√±o m√°gico
+ N√∫mero de ataques del portador reducidos un 33% (penalizaci√≥n)
+Clase de Armadura: -1, -5 contra da√±o cortante
 Peso: 35
 Requiere: fuerza 12~
-@20628 = ~Encontraste este escudo en la Fortaleza de Lyrar. Proporciona permanentemente el efecto del conjuro ProtecciÛn contra el Mal sobre el portador y otorga un bono a la clase armadura muy superior al del resto de escudos ordinarios.
+@20628 = ~Encontraste este escudo en la Fortaleza de Lyrar. Proporciona permanentemente el efecto del conjuro Protecci√≥n contra el Mal sobre el portador y otorga un bono a la clase armadura muy superior al del resto de escudos ordinarios.
 
 ESTADISTICAS:
 
 Aptitudes Portador: 
  Bono CA +2 vs. proyectiles
- ProtecciÛn contra el Mal constante
+ Protecci√≥n contra el Mal constante
 Clase de Armadura: 4
 Peso: 15
 Requiere: fuerza 15~
-@20638 = ~El guerrero Vanshir viajÛ durante mucho tiempo con un grupo mercenario, algunos en quienes no confiaba por su maldad, aunque peleÛ duro por mantenerles a salvo.  Un dÌa luego de una batalla donde todos quedaron heridos, un ladrÛn decidiÛ aprovecharse robando a la compaÒÌa.  ComenzÛ con el m·s poderoso guerrero, Vanshir.  El malvado hombre le clavÛ una daga envenenada por la espalda y se dedicÛ luego al resto del grupo.  Vanshir sobreviviÛ y llegÛ a la ciudad m·s cercana para curarse y descansar, 3 dias despuÈs, regresÛ a su casa.  AquÌ es cuando se obsesionÛ con vengarse y vendiÛ todo lo que tenÌa, llamÛ a todos quines le debÌan favores y a sus amigos.  UsÛ el dinero para pagarle a un mago que le hiciera un arma muy poderosa que le ayudara a matar ladrones.
-   Es un arma +3 que da inmunidad al miedo, +3 a AC, y +1 a las tiradas de salvaciÛn.  Tiene un brillo verde y palpita.
+@20638 = ~El guerrero Vanshir viaj√≥ durante mucho tiempo con un grupo mercenario, algunos en quienes no confiaba por su maldad, aunque pele√≥ duro por mantenerles a salvo.  Un d√≠a luego de una batalla donde todos quedaron heridos, un ladr√≥n decidi√≥ aprovecharse robando a la compa√±√≠a.  Comenz√≥ con el m√°s poderoso guerrero, Vanshir.  El malvado hombre le clav√≥ una daga envenenada por la espalda y se dedic√≥ luego al resto del grupo.  Vanshir sobrevivi√≥ y lleg√≥ a la ciudad m√°s cercana para curarse y descansar, 3 dias despu√©s, regres√≥ a su casa.  Aqu√≠ es cuando se obsesion√≥ con vengarse y vendi√≥ todo lo que ten√≠a, llam√≥ a todos quines le deb√≠an favores y a sus amigos.  Us√≥ el dinero para pagarle a un mago que le hiciera un arma muy poderosa que le ayudara a matar ladrones.
+   Es un arma +3 que da inmunidad al miedo, +3 a AC, y +1 a las tiradas de salvaci√≥n.  Tiene un brillo verde y palpita.
 
 ESTADISTICAS:
 
 Aptitudes Portador:
-*Inmunidad a miedo/p·nico/confusiÛn
-*Premia con +3 a la clase de armadura y +1 a todas las tiradas de salvaciÛn
+*Inmunidad a miedo/p√°nico/confusi√≥n
+*Premia con +3 a la clase de armadura y +1 a todas las tiradas de salvaci√≥n
 THAC0: +3
-DaÒo:  1D8+3
-Tipo de DaÒo: cortante
+Da√±o:  1D8+3
+Tipo de Da√±o: cortante
 Peso: 4
 Factor de Velocidad: 5
 Tipo de Talento: espada Larga
-Tipo: un puÒo
+Tipo: un pu√±o
 Requiere: fuerza 6~
-@20640 = ~Este medallon de plata da +2 a todas las tiradas de salvaciÛn contra hechizos.
+@20640 = ~Este medallon de plata da +2 a todas las tiradas de salvaci√≥n contra hechizos.
 
 ESTADISTICAS:
 
-SalvaciÛn vs. hechizos +2 (bono)
+Salvaci√≥n vs. hechizos +2 (bono)
 Peso:  3~
-@20642 = ~Esta espada larga m·gica que no tiene brillo y est· sin pulir es de un tinte rojizo.  La hoja es de largo regular, aunque un poco m·s delgada de lo normal.  La empuÒadura est· separada y es de acero.  La cruz est· hecha en forma de dos medialunas cruz·ndose, similar a .  La empuÒadura est· envuelta en cuerdas azules y verdes.
-     FuÈ forjada hace 150 aÒos por un explorador que se hizo mago en el ·rea del Bosque del Arkho, llamado Frasfer el MarrÛn.  …l y unos compaÒeros vigilaban el Bosque, cuando una banda de hombres lobo; esto les obligo a intentar hacer un objeto m·gico para eliminarlos m·s f·cilmente.  Uno de sus compaÒeros era druida, y la mezcla de magia druÌdica y arcana creÛ esta espada.
-     Nazger, un soldado de Sembia fuÈ quien fundiÛ la espada 150 aÒos atr·s.  La usÛ para buscar asesinos en Highmoon, una ciudad al norte del Bosque del Arkho.  Asique Nazger matÛ a la mayorÌa.  Pero peleando en las alcantarillas de la ciudad desapareciÛ.  Lo ˙nico que se encontrÛ de Nazger, fuÈ su espada.  En un mercado fuÈ vendida a una caravana que iba a Ordulin.
-     Como Nazgar no tenÌa familia directa los soldados de la ciudad investigaron muy poco.  Todo lo que se supo fuÈ que un pobre de la ciudad encontrÛ la espada y la vendiÛ por comida en el mercado.  El pobre no sabÌa nada m·s.
+@20642 = ~Esta espada larga m√°gica que no tiene brillo y est√° sin pulir es de un tinte rojizo.  La hoja es de largo regular, aunque un poco m√°s delgada de lo normal.  La empu√±adura est√° separada y es de acero.  La cruz est√° hecha en forma de dos medialunas cruz√°ndose, similar a .  La empu√±adura est√° envuelta en cuerdas azules y verdes.
+     Fu√© forjada hace 150 a√±os por un explorador que se hizo mago en el √°rea del Bosque del Arkho, llamado Frasfer el Marr√≥n.  √âl y unos compa√±eros vigilaban el Bosque, cuando una banda de hombres lobo; esto les obligo a intentar hacer un objeto m√°gico para eliminarlos m√°s f√°cilmente.  Uno de sus compa√±eros era druida, y la mezcla de magia dru√≠dica y arcana cre√≥ esta espada.
+     Nazger, un soldado de Sembia fu√© quien fundi√≥ la espada 150 a√±os atr√°s.  La us√≥ para buscar asesinos en Highmoon, una ciudad al norte del Bosque del Arkho.  Asique Nazger mat√≥ a la mayor√≠a.  Pero peleando en las alcantarillas de la ciudad desapareci√≥.  Lo √∫nico que se encontr√≥ de Nazger, fu√© su espada.  En un mercado fu√© vendida a una caravana que iba a Ordulin.
+     Como Nazgar no ten√≠a familia directa los soldados de la ciudad investigaron muy poco.  Todo lo que se supo fu√© que un pobre de la ciudad encontr√≥ la espada y la vendi√≥ por comida en el mercado.  El pobre no sab√≠a nada m√°s.
      Los poderes de esta espada pueden haber sido revelados a los de la caravana, o pueden haber quedado ocultos y haber sido vendida como una espada normal.  
-     La espada de Nazger es una espada inteligente +1 en daÒo, que da +3 de daÒo contra hombes lobo.  TambiÈn despierta a su dueÒo cuando hay hombres lobo cerca en caso de que Èste estÈ dormido, aunque no dir· que criatura exactamente es el hombre-lobo, ni se hace m·s poderosa cuando est· cerca.   TambiÈn parece tener unas inscripciones si se la mira en una noche de luna llena.  
+     La espada de Nazger es una espada inteligente +1 en da√±o, que da +3 de da√±o contra hombes lobo.  Tambi√©n despierta a su due√±o cuando hay hombres lobo cerca en caso de que √©ste est√© dormido, aunque no dir√° que criatura exactamente es el hombre-lobo, ni se hace m√°s poderosa cuando est√° cerca.   Tambi√©n parece tener unas inscripciones si se la mira en una noche de luna llena.  
 
 ESTADISTICAS:
 
-THAC0: +1, +3 vs. lic·ntropos
-DaÒo: 1D6 +1, +3 vs. lic·ntropos
-Tipo de daÒo: cortante
+THAC0: +1, +3 vs. lic√°ntropos
+Da√±o: 1D6 +1, +3 vs. lic√°ntropos
+Tipo de da√±o: cortante
 Peso: 6
 Factor de velocidad: 1
 Tipo de talento: espada Larga
-Tipo: un puÒo
+Tipo: un pu√±o
 Requiere: fuerza 6~
-@20645 = ~Este espejo puede convocar un Horror Neblinoso 3/dÌa y lanzar Imagen espejada 1/dÌa.~
-@20649 = ~Este tomo sÛlo afecta al primero que lo lee y para sacarle provecho hay que estudiarlo durante una semana entera.  Pasado ese tiempo se gana libertad de movimiento permanente, pero a partir de entonces, si se mata a una planta de rosas incluso aunque sea inadvertida o accidentalmente, se pierde la aptitud obtenida.
+@20645 = ~Este espejo puede convocar un Horror Neblinoso 3/d√≠a y lanzar Imagen espejada 1/d√≠a.~
+@20649 = ~Este tomo s√≥lo afecta al primero que lo lee y para sacarle provecho hay que estudiarlo durante una semana entera.  Pasado ese tiempo se gana libertad de movimiento permanente, pero a partir de entonces, si se mata a una planta de rosas incluso aunque sea inadvertida o accidentalmente, se pierde la aptitud obtenida.
 
 ESTADISTICAS:
 
-AcciÛn Libre permanente~
-@20653 = ~Se dice que existen sÈis de estas espadas.  Todas son Espadas ImpÌas +5 y est·n hechas de hierro negro y huesos.  Confieren a su dueÒo SÌmbolo de la Muerte una vez al dÌa y absorben el poder de hechizos de magos y clÈrigos como si fueran una varita de absorciÛn. La ˙nica gran pega de esta arma es que drena un nivel A SU PORTADOR cada vez que golpea con Èxito a un oponente.
+Acci√≥n Libre permanente~
+@20653 = ~Se dice que existen s√©is de estas espadas.  Todas son Espadas Imp√≠as +5 y est√°n hechas de hierro negro y huesos.  Confieren a su due√±o S√≠mbolo de la Muerte una vez al d√≠a y absorben el poder de hechizos de magos y cl√©rigos como si fueran una varita de absorci√≥n. La √∫nica gran pega de esta arma es que drena un nivel A SU PORTADOR cada vez que golpea con √©xito a un oponente.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Aptitudes Portador:
  Inmunidad a todo tipo de hechizo
 Penalizador de Combate:
  Cada golpe acertado drena un nivel al portador
 Habilidades Especiales:
- SÌmbolo de la Muerte 1/dÌa
+ S√≠mbolo de la Muerte 1/d√≠a
 THAC0: +5
-DaÒo: 1D10 +5
-Tipo de daÒo: cortante
+Da√±o: 1D10 +5
+Tipo de da√±o: cortante
 Peso: 4
 Factor de velocidad: 5
 Tipo de talento: mandoble
-Tipo: dos puÒos
+Tipo: dos pu√±os
 Requiere: fuerza 14, nivel 19~
-@20655 = ~El Amuleto de Guarda del EspÌritu es un amuleto de plata u oro con un cristal suspendido en el centro. Si su dueÒo cae a -1 puntos de vida mientras lo usa, su espÌritu se transfiere al cristal. De esta forma, su alma se guarda en el cristal hasta que su cuerpo revive de nuevo y asÌ se protege contra la muerte irreversible.
+@20655 = ~El Amuleto de Guarda del Esp√≠ritu es un amuleto de plata u oro con un cristal suspendido en el centro. Si su due√±o cae a -1 puntos de vida mientras lo usa, su esp√≠ritu se transfiere al cristal. De esta forma, su alma se guarda en el cristal hasta que su cuerpo revive de nuevo y as√≠ se protege contra la muerte irreversible.
 
 ESTADISTICAS
 
-Habilidades: Al usarse, protege de la muerte irreversible (pero no de la muerte en sÌ)~
-@20657 = ~El Manto de Rabia es un objeto hecho a partir de la piel de un animal peligroso como un oso o un leÛn.  Cuando se usa le da a su dueÒo la habilidad Furia b·rbara a nivel 1 de poder. Si el portador de la capa ya es b·rbaro de por sÌ entonces simplemente le da la posibilidad de usar el poder m·s veces al dÌa.
+Habilidades: Al usarse, protege de la muerte irreversible (pero no de la muerte en s√≠)~
+@20657 = ~El Manto de Rabia es un objeto hecho a partir de la piel de un animal peligroso como un oso o un le√≥n.  Cuando se usa le da a su due√±o la habilidad Furia b√°rbara a nivel 1 de poder. Si el portador de la capa ya es b√°rbaro de por s√≠ entonces simplemente le da la posibilidad de usar el poder m√°s veces al d√≠a.
 
 ESTADISTICAS:
 
-Habilidades Especiales: Furia B·rbara
+Habilidades Especiales: Furia B√°rbara
 Requiere: Nivel 11~
-@20660 = ~El Cetro de Savras es un bastÛn tallado y gris con nueve zafiros estrella incrustados.  Un diamante engarzado tiene el sÌmbolo de Savras en la base del cetro, junto con un diamante con el sÌmbolo de Azru.
+@20660 = ~El Cetro de Savras es un bast√≥n tallado y gris con nueve zafiros estrella incrustados.  Un diamante engarzado tiene el s√≠mbolo de Savras en la base del cetro, junto con un diamante con el s√≠mbolo de Azru.
 
 Historia
-     DespuÈs de la caÌda de Netheril y antes de la fundaciÛn de Myth Drannor, los dioses lucharon en el cataclismo de la maÒana, y muchos fueron asesinados durante las guerras, nuevas deidades fueron creadas como Tymora y Beshaba.  Durante estos tiempos turbulentos dos dioses elevados por Mystra la ayudaron a vencer a los magos que luchaban contra ella.  Azuth venciÛ a Savras y lo aprisionÛ en un artefacto muy poderoso creado luego del conflicto.
-     El seÒor de los hechizos, como se le conociÛ luego a Azuth querÌa quedarse con el cetro en el cual aprisionÛ a Savras como su bastÛn de oficio.  Aunque su status luego del conflicto era de semidios, Savras era a˙n poderoso y teletransportÛ el artefacto a los Reinos, donde Azuth no podÌa alcanzarlo.  (Como El-Que-Todo-lo-Ve y el Lord de la DivinaciÛn, Savras simplemente bloqueÛ los podres de divinaciÛn de Azuth.)  El Cetro de Savras, pasÛ por las manos de muchos archimaos a traves de los siglos.  Savras siempre quiso escapar de su prision, y subliminalmente (como Spirit del Cetro) influenciÛ a varios magos para que le ayudaran.
-     Antes de que Savras pudiera liberarse, el Cetro llegÛ a las manos de SylunÈ Silverhand, una de las siete hermanas.  Savras le dio habilidades de dragon de las aguas permanentemente, permitiÈndole tomar la forma de dragon de plata cuando quisiera.  Savras querÌa convencer a SylunÈ de que lo liberara de su prisiÛn, pensando que ella tenia poder por ser elegida de Mystra.
-     SylunÈ no le escuchÛ porque no confiaba en un dios caÌdo, asique usÛ su poder y el Cetro en incontables aventuras.  Eventualmente le devolviÛ el Cetro a Azuth.  SylunÈ habÌa usado el cetro para dsecubrir varios secretos de los poderes de los dioses de los Reinos que Mystra no querÌa que supieran los mortales.
-     Una vez que Azuth recuperÛ el Cetro de Savras, se sintiÛ culpable del sufrimiento de Savras, y terminada la Era de los Trastornos, lo liberÛ.
-     Hoy Savras sirve a Azuth, y se dedica a las magias de adivinaciÛn.  Dicen a˙n que el Cetro se encuentra en los Reinos, aunque supusetamente solo los dioses pueden verlo. A˙n guarda parte del poder que se usÛ en crearlo.
+     Despu√©s de la ca√≠da de Netheril y antes de la fundaci√≥n de Myth Drannor, los dioses lucharon en el cataclismo de la ma√±ana, y muchos fueron asesinados durante las guerras, nuevas deidades fueron creadas como Tymora y Beshaba.  Durante estos tiempos turbulentos dos dioses elevados por Mystra la ayudaron a vencer a los magos que luchaban contra ella.  Azuth venci√≥ a Savras y lo aprision√≥ en un artefacto muy poderoso creado luego del conflicto.
+     El se√±or de los hechizos, como se le conoci√≥ luego a Azuth quer√≠a quedarse con el cetro en el cual aprision√≥ a Savras como su bast√≥n de oficio.  Aunque su status luego del conflicto era de semidios, Savras era a√∫n poderoso y teletransport√≥ el artefacto a los Reinos, donde Azuth no pod√≠a alcanzarlo.  (Como El-Que-Todo-lo-Ve y el Lord de la Divinaci√≥n, Savras simplemente bloque√≥ los podres de divinaci√≥n de Azuth.)  El Cetro de Savras, pas√≥ por las manos de muchos archimaos a traves de los siglos.  Savras siempre quiso escapar de su prision, y subliminalmente (como Spirit del Cetro) influenci√≥ a varios magos para que le ayudaran.
+     Antes de que Savras pudiera liberarse, el Cetro lleg√≥ a las manos de Sylun√© Silverhand, una de las siete hermanas.  Savras le dio habilidades de dragon de las aguas permanentemente, permiti√©ndole tomar la forma de dragon de plata cuando quisiera.  Savras quer√≠a convencer a Sylun√© de que lo liberara de su prisi√≥n, pensando que ella tenia poder por ser elegida de Mystra.
+     Sylun√© no le escuch√≥ porque no confiaba en un dios ca√≠do, asique us√≥ su poder y el Cetro en incontables aventuras.  Eventualmente le devolvi√≥ el Cetro a Azuth.  Sylun√© hab√≠a usado el cetro para dsecubrir varios secretos de los poderes de los dioses de los Reinos que Mystra no quer√≠a que supieran los mortales.
+     Una vez que Azuth recuper√≥ el Cetro de Savras, se sinti√≥ culpable del sufrimiento de Savras, y terminada la Era de los Trastornos, lo liber√≥.
+     Hoy Savras sirve a Azuth, y se dedica a las magias de adivinaci√≥n.  Dicen a√∫n que el Cetro se encuentra en los Reinos, aunque supusetamente solo los dioses pueden verlo. A√∫n guarda parte del poder que se us√≥ en crearlo.
 
 ESTADISTICAS:
 
-Una vez al dÌa el portador puede imitar el efecto de uno de los ojos del contemplador. Los poderes incluyen:
+Una vez al d√≠a el portador puede imitar el efecto de uno de los ojos del contemplador. Los poderes incluyen:
  Hechizar Persona
  Hechizar Monstruo
  Dormir
@@ -840,62 +840,62 @@ Una vez al dÌa el portador puede imitar el efecto de uno de los ojos del contemp
  Lentificar
  Causar Heridas Graves
  Rayo Mortal
- Rayo Antim·gico~
+ Rayo Antim√°gico~
 @20662 = ~La Espada Fantasma Zeladazar
 
-     La Espada Fantasma es una espada larga de hoja invisible, aunque a veces se la ve cuando corta algo -armaduras, por ejemplo-  Lo normalmente visible de Zeladazar es la empuÒadura. La joya es tan grande como una naranja pequeÒa.
+     La Espada Fantasma es una espada larga de hoja invisible, aunque a veces se la ve cuando corta algo -armaduras, por ejemplo-  Lo normalmente visible de Zeladazar es la empu√±adura. La joya es tan grande como una naranja peque√±a.
 
 Historia:
-     En los dias decadentes de Netheril, un peculiar hechicero llamado Twyluth Ornadyn pensÛ que la salvaciÛn de Netherese yacÌa en vivir armoniosamente con la naturaleza y las dem·s criaturas vivas.  Ornadyn vio que la batall serÌa necesaria para salvaguardar a Netherese asique creÛ estas espadas que permitirÌan a sus dueÒos comunicarse via meditaciÛn y transmisiones mentales de im·genes y sonidos.  CreÛ dos de estas espadas para probarlas, pero fuÈ muerto por un aprendiz traicionero.  El cuerpo sin cabeza del archimago cojiÛ la otra espada para defenderse, destrozandose junto con el aprendiz.
-     La otra espada pasÛ a manos del Archimago Alados Sorngol, que la bautizÛ como espada de los sueÒos, ya que eso fuÈ lo que le hizo caercarse a ella.  
+     En los dias decadentes de Netheril, un peculiar hechicero llamado Twyluth Ornadyn pens√≥ que la salvaci√≥n de Netherese yac√≠a en vivir armoniosamente con la naturaleza y las dem√°s criaturas vivas.  Ornadyn vio que la batall ser√≠a necesaria para salvaguardar a Netherese asique cre√≥ estas espadas que permitir√≠an a sus due√±os comunicarse via meditaci√≥n y transmisiones mentales de im√°genes y sonidos.  Cre√≥ dos de estas espadas para probarlas, pero fu√© muerto por un aprendiz traicionero.  El cuerpo sin cabeza del archimago coji√≥ la otra espada para defenderse, destrozandose junto con el aprendiz.
+     La otra espada pas√≥ a manos del Archimago Alados Sorngol, que la bautiz√≥ como espada de los sue√±os, ya que eso fu√© lo que le hizo caercarse a ella.  
 
-Poderes:  SÛlo la magia puede hacer visible a la hoja.  El dueÒo es inmune a la par·lisis y el drenaje de energÌa, y adem·s queda bajo los efectos de acciÛn libre de forma permanente lo que le proteje de hechizos que prevengan su movimiento.
-     La Espada Fantasma hace 1D12 puntos de daÒo a todas las criaturas vivientes y 4d12 a los no-muertos.  El toque de la espada desintegra fantasm·s.
+Poderes:  S√≥lo la magia puede hacer visible a la hoja.  El due√±o es inmune a la par√°lisis y el drenaje de energ√≠a, y adem√°s queda bajo los efectos de acci√≥n libre de forma permanente lo que le proteje de hechizos que prevengan su movimiento.
+     La Espada Fantasma hace 1D12 puntos de da√±o a todas las criaturas vivientes y 4d12 a los no-muertos.  El toque de la espada desintegra fantasm√°s.
 
 ESTADISTICAS:
 
 Aptitudes Portador:
- Inmunidad a la par·lisis
- Inmunidad a la consunciÛn de niveles
+ Inmunidad a la par√°lisis
+ Inmunidad a la consunci√≥n de niveles
  Libertad de movimiento permanente
-DaÒo: 1D12, 4D12 vs no-muertos
-Tipo de daÒo: cortante
+Da√±o: 1D12, 4D12 vs no-muertos
+Tipo de da√±o: cortante
 Peso: 2
 Factor de velocidad: 0
 Tipo de talento: espada larga
-Tipo: un puÒo
+Tipo: un pu√±o
 Requiere: fuerza 6~
-@20664 = ~Un explorador llamado Dzance encontrÛ este escudo en un cofre dentro de las profundidades de Gauntlgrym, La Ciudad Perdida. Llegado el dÌa de retirarse de las aventuras, Dzance se fue a vivir a Luna de Plata y le entregÛ el escudo a Belpir, un joven caballero de la ciudad que emprendiÛ viaje y desapareciÛ para siempre.    Se cree que el objeto le debe su origen a los enanos.
+@20664 = ~Un explorador llamado Dzance encontr√≥ este escudo en un cofre dentro de las profundidades de Gauntlgrym, La Ciudad Perdida. Llegado el d√≠a de retirarse de las aventuras, Dzance se fue a vivir a Luna de Plata y le entreg√≥ el escudo a Belpir, un joven caballero de la ciudad que emprendi√≥ viaje y desapareci√≥ para siempre.    Se cree que el objeto le debe su origen a los enanos.
 
-FUNCI”N:  El Guardian es un escudo +0; es m·gico pero no da bono a la armadura.  Tiene un poder defensivo muy especial: irradia un aura que envuelve al dueÒo y refleja cualquier misil m·gico lanzado contra Èl. TambiÈn tiene un poder ofensivo que absorbe y almacena electricidad y es capaz de descargar chispas sobre el enemigo si entra en contacto fÌsico con Èl. Sin embargo, si Èste poder es liberado, hay un 30% de que el portador sufra un viaje interplanar accidental hacia un destino impredecible.~
-@20666 = ~     Esta armadura lleva el nombre de la maga que la inventÛ.  La hechicera creadora forjÛ otras iguales para los campeones del reino norteÒo del que procedÌa. El secreto de cÛmo las hizo muriÛ con ella. Los magos del norte han buscado su fÛrmula sin Èxito durante siglos.     De la docena de armaduras que se construyeron sÛlo quedan tres, el resto fueron destruÌdas o se perdieron.
+FUNCI√ìN:  El Guardian es un escudo +0; es m√°gico pero no da bono a la armadura.  Tiene un poder defensivo muy especial: irradia un aura que envuelve al due√±o y refleja cualquier misil m√°gico lanzado contra √©l. Tambi√©n tiene un poder ofensivo que absorbe y almacena electricidad y es capaz de descargar chispas sobre el enemigo si entra en contacto f√≠sico con √©l. Sin embargo, si √©ste poder es liberado, hay un 30% de que el portador sufra un viaje interplanar accidental hacia un destino impredecible.~
+@20666 = ~     Esta armadura lleva el nombre de la maga que la invent√≥.  La hechicera creadora forj√≥ otras iguales para los campeones del reino norte√±o del que proced√≠a. El secreto de c√≥mo las hizo muri√≥ con ella. Los magos del norte han buscado su f√≥rmula sin √©xito durante siglos.     De la docena de armaduras que se construyeron s√≥lo quedan tres, el resto fueron destru√≠das o se perdieron.
 
-     FunciÛn:  Se trata de un armadura completa +2 de aleaciÛn no met·lica.  La electricidad no conduce por ella y nunca se inflama ni se congela, asi que su dueÒo se vuelve inmune a los tres elementos y se encuentra a salvo tanto en zonas frÌas como c·lidas.
+     Funci√≥n:  Se trata de un armadura completa +2 de aleaci√≥n no met√°lica.  La electricidad no conduce por ella y nunca se inflama ni se congela, asi que su due√±o se vuelve inmune a los tres elementos y se encuentra a salvo tanto en zonas fr√≠as como c√°lidas.
 
 ESTADISTICAS:
 
 Habilidades Equipada:
  100% Resistencia al Fuego, Frio y Electricidad
- AcciÛn Libre
+ Acci√≥n Libre
 Clase de Armadura: -1
 Peso: 70
 Requiere: Fuerza 17, Inteligencia 17~
 @20670 = ~Broche de Guardia
 
-     Este tipo de broches de Myth Drannor, conocidos como Giiraegisir, fueron usados en su tiempo como prenda de moda y amuletos.  Aunque todos son distintos en materiales, todos comparten la misma forma b·sica: un Ûvalo de marfil con un alfiler en la parte de atr·s.
-     …ste Giiraegisir desata un interesante poder cuando se desabrocha: genera un campo de energÌa que rodea al dueÒo y le otorga clase de armadura cero durante tres asaltos.  La habilidad sÛlo se puede usar una vez al dÌa.
-     Realmente muchos giiraegisir se diseÒaron m·s para representar sÌmbolos especiales o para embellecer que para dar poder. En todo caso, son objetos especialmente apropiados para ser bendecidos con encantamientos.
+     Este tipo de broches de Myth Drannor, conocidos como Giiraegisir, fueron usados en su tiempo como prenda de moda y amuletos.  Aunque todos son distintos en materiales, todos comparten la misma forma b√°sica: un √≥valo de marfil con un alfiler en la parte de atr√°s.
+     √âste Giiraegisir desata un interesante poder cuando se desabrocha: genera un campo de energ√≠a que rodea al due√±o y le otorga clase de armadura cero durante tres asaltos.  La habilidad s√≥lo se puede usar una vez al d√≠a.
+     Realmente muchos giiraegisir se dise√±aron m√°s para representar s√≠mbolos especiales o para embellecer que para dar poder. En todo caso, son objetos especialmente apropiados para ser bendecidos con encantamientos.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Cuando se usa otorga clase de armadura 0 durante 3 asaltos~
-@20672 = ~    El CinturÛn de Leones proporciona un amplio repertorio de habilidades a su portador: le permite hablar con felinos, invocarlos, controlarlos, caerse sin hacerse daÒo, moverse sigilosamente con un mÌnimo de 50% de probabilidades de Èxito y ver en la oscuridad como un gato (infravisiÛn)~
-@20674 = ~Esta varita puede curar la ceguera y otorgar Detectar Invisibilidad a un objetivo durante un asalto. TambiÈn proporciona el conjuro Ojo de Mago y permite ver a grandes distancias con un ojo que escudriÒa y revela todo que lo ve.   Cada uso de la varita consume una carga y cuando Èstas se acaban, el objeto se desvanece.~
-@20676 = ~Este bastÛn funciona igual que un Anillo de HechicerÌa. Cuando se equipa, incrementa el n˙mero de hechizos memorizables en el grimorio para determinados niveles de mago.
+@20672 = ~    El Cintur√≥n de Leones proporciona un amplio repertorio de habilidades a su portador: le permite hablar con felinos, invocarlos, controlarlos, caerse sin hacerse da√±o, moverse sigilosamente con un m√≠nimo de 50% de probabilidades de √©xito y ver en la oscuridad como un gato (infravisi√≥n)~
+@20674 = ~Esta varita puede curar la ceguera y otorgar Detectar Invisibilidad a un objetivo durante un asalto. Tambi√©n proporciona el conjuro Ojo de Mago y permite ver a grandes distancias con un ojo que escudri√±a y revela todo que lo ve.   Cada uso de la varita consume una carga y cuando √©stas se acaban, el objeto se desvanece.~
+@20676 = ~Este bast√≥n funciona igual que un Anillo de Hechicer√≠a. Cuando se equipa, incrementa el n√∫mero de hechizos memorizables en el grimorio para determinados niveles de mago.
 
 ESTADISTICAS:
 
-Permite memorizar al mago m·s hechizos:
+Permite memorizar al mago m√°s hechizos:
  Nivel 1: +4
  Nivel 2: +4
  Nivel 3: +4
@@ -903,119 +903,119 @@ Permite memorizar al mago m·s hechizos:
  Nivel 5: +4 
  Nivel 6: +1
 THACO: +2
-DaÒo: 1D6+2
-Tipo de daÒo: contundente
+Da√±o: 1D6+2
+Tipo de da√±o: contundente
 Peso: 4
 Factor de velocidad: 4
-Tipo de talento: bastÛn
+Tipo de talento: bast√≥n
 Tipo: dos manos
 Requiere: Fuerza 5~
-@20680 = ~Un BastÛn de AbjuraciÛn sirve para incorporar algunos hechizos adicionales al grimorio b·sico de un Abjurador y poder lanzarlos desde el bastÛn.
+@20680 = ~Un Bast√≥n de Abjuraci√≥n sirve para incorporar algunos hechizos adicionales al grimorio b√°sico de un Abjurador y poder lanzarlos desde el bast√≥n.
 
 ESTADISTICAS:
 
-Especial: Lanza hechizos de AbjuraciÛn
+Especial: Lanza hechizos de Abjuraci√≥n
 
-DaÒo: 1D6+2 
-Tipo de daÒo: contundente
+Da√±o: 1D6+2 
+Tipo de da√±o: contundente
 Peso: 4
 Factor de velocidad: 2
-Tipo de talento: bastÛn
+Tipo de talento: bast√≥n
 Tipo: 2 manos
 Requisitos: Fuerza 5~
-@20681 = ~Un BastÛn de ConjuraciÛn sirve para incorporar algunos hechizos adicionales al grimorio b·sico de un Conjurador y poder lanzarlos desde el bastÛn.
+@20681 = ~Un Bast√≥n de Conjuraci√≥n sirve para incorporar algunos hechizos adicionales al grimorio b√°sico de un Conjurador y poder lanzarlos desde el bast√≥n.
 
 ESTADISTICAS:
 
-Especial: Lanza hechizos de ConjuraciÛn
+Especial: Lanza hechizos de Conjuraci√≥n
 
-DaÒo: 1D6+2 
-Tipo de daÒo: contundente
+Da√±o: 1D6+2 
+Tipo de da√±o: contundente
 Peso: 4
 Factor de velocidad: 2
-Tipo de talento: bastÛn
+Tipo de talento: bast√≥n
 Tipo: 2 manos
 Requisitos: Fuerza 5~
-@20682 = ~Un BastÛn de AdivinaciÛn sirve para incorporar algunos hechizos adicionales al grimorio b·sico de un Adivinador y poder lanzarlos desde el bastÛn.
+@20682 = ~Un Bast√≥n de Adivinaci√≥n sirve para incorporar algunos hechizos adicionales al grimorio b√°sico de un Adivinador y poder lanzarlos desde el bast√≥n.
 
 ESTADISTICAS:
 
-Especial: Lanza hechizos de AdivinaciÛn
+Especial: Lanza hechizos de Adivinaci√≥n
 
-DaÒo: 1D6+2 
-Tipo de daÒo: contundente
+Da√±o: 1D6+2 
+Tipo de da√±o: contundente
 Peso: 4
 Factor de velocidad: 2
-Tipo de talento: bastÛn
+Tipo de talento: bast√≥n
 Tipo: 2 manos
 Requisitos: Fuerza 5~
-@20683 = ~Un BastÛn de Encantamiento sirve para incorporar algunos hechizos adicionales al grimorio b·sico de un Encantador y poder lanzarlos desde el bastÛn.
+@20683 = ~Un Bast√≥n de Encantamiento sirve para incorporar algunos hechizos adicionales al grimorio b√°sico de un Encantador y poder lanzarlos desde el bast√≥n.
 
 ESTADISTICAS:
 
 Especial: Lanza hechizos de Encantamiento
 
-DaÒo: 1D6+2 
-Tipo de daÒo: contundente
+Da√±o: 1D6+2 
+Tipo de da√±o: contundente
 Peso: 4
 Factor de velocidad: 2
-Tipo de talento: bastÛn
+Tipo de talento: bast√≥n
 Tipo: 2 manos
 Requisitos: Fuerza 5~
-@20684 = ~Un BastÛn de EvocaciÛn sirve para incorporar algunos hechizos adicionales al grimorio b·sico de un Invocador y poder lanzarlos desde el bastÛn.
+@20684 = ~Un Bast√≥n de Evocaci√≥n sirve para incorporar algunos hechizos adicionales al grimorio b√°sico de un Invocador y poder lanzarlos desde el bast√≥n.
 
 ESTADISTICAS:
 
-Especial: Lanza hechizos de EvocaciÛn
+Especial: Lanza hechizos de Evocaci√≥n
 
-DaÒo: 1D6+2 
-Tipo de daÒo: contundente
+Da√±o: 1D6+2 
+Tipo de da√±o: contundente
 Peso: 4
 Factor de velocidad: 2
-Tipo de talento: bastÛn
+Tipo de talento: bast√≥n
 Tipo: 2 manos
 Requisitos: Fuerza 5~
-@20685 = ~Un BastÛn de Ilusionista sirve para incorporar algunos hechizos adicionales al grimorio b·sico de un Ilusionista y poder lanzarlos desde el bastÛn.
+@20685 = ~Un Bast√≥n de Ilusionista sirve para incorporar algunos hechizos adicionales al grimorio b√°sico de un Ilusionista y poder lanzarlos desde el bast√≥n.
 
 ESTADISTICAS:
 
-Especial: Lanza hechizos de IlusiÛn
+Especial: Lanza hechizos de Ilusi√≥n
 
-DaÒo: 1D6+2 
-Tipo de daÒo: contundente
+Da√±o: 1D6+2 
+Tipo de da√±o: contundente
 Peso: 4
 Factor de velocidad: 2
-Tipo de talento: bastÛn
+Tipo de talento: bast√≥n
 Tipo: 2 manos
 Requisitos: Fuerza 5~
-@20686 = ~Un BastÛn de Nigromancia sirve para incorporar algunos hechizos adicionales al grimorio b·sico de un Nigromante y poder lanzarlos desde el bastÛn.
+@20686 = ~Un Bast√≥n de Nigromancia sirve para incorporar algunos hechizos adicionales al grimorio b√°sico de un Nigromante y poder lanzarlos desde el bast√≥n.
 
 ESTADISTICAS:
 
 Especial: Lanza hechizos de Nigromancia
 
-DaÒo: 1D6+2 
-Tipo de daÒo: contundente
+Da√±o: 1D6+2 
+Tipo de da√±o: contundente
 Peso: 4
 Factor de velocidad: 2
-Tipo de talento: bastÛn
+Tipo de talento: bast√≥n
 Tipo: 2 manos
 Requisitos: Fuerza 5~
-@20687 = ~Un BastÛn de AlteraciÛn sirve para incorporar algunos hechizos adicionales al grimorio b·sico de un Transmutador y poder lanzarlos desde el bastÛn.
+@20687 = ~Un Bast√≥n de Alteraci√≥n sirve para incorporar algunos hechizos adicionales al grimorio b√°sico de un Transmutador y poder lanzarlos desde el bast√≥n.
 
 ESTADISTICAS:
 
-Especial: Lanza hechizos de AlteraciÛn
+Especial: Lanza hechizos de Alteraci√≥n
 
-DaÒo: 1D6+2 
-Tipo de daÒo: contundente
+Da√±o: 1D6+2 
+Tipo de da√±o: contundente
 Peso: 4
 Factor de velocidad: 2
-Tipo de talento: bastÛn
+Tipo de talento: bast√≥n
 Tipo: 2 manos
 Requisitos: Fuerza 5~
-@20697 = ~Tras derrotar al seÒor de los bandidos, su magnÌfico escudo yace a tus pies. Es realmente uno de esos objetos que merece la pena conservar toda la vida, pues con Èl te sientes invulnerable.
-El escudo otorga 6 puntos de bonificaciÛn a la clase de armadura y un bono de -3 a todas las tiradas de salvaciÛn. Adem·s, la tasa de movimiento del portador se ve incrementada en 2 puntos y los proyectiles normales son in˙tiles contra Èl. 
+@20697 = ~Tras derrotar al se√±or de los bandidos, su magn√≠fico escudo yace a tus pies. Es realmente uno de esos objetos que merece la pena conservar toda la vida, pues con √©l te sientes invulnerable.
+El escudo otorga 6 puntos de bonificaci√≥n a la clase de armadura y un bono de -3 a todas las tiradas de salvaci√≥n. Adem√°s, la tasa de movimiento del portador se ve incrementada en 2 puntos y los proyectiles normales son in√∫tiles contra √©l. 
 
 
 ESTADISTICAS:
@@ -1024,27 +1024,27 @@ Especial: Inmunidad frente a proyectiles normales, tasa de movimiento incrementa
 Clase de Armadura: 6
 Peso: 10
 Requisitos: Fuerza 16~
-@20699 = ~Tras derrotar al semiorco en su fortaleza al norte de Soubar, encuentras entre sus restos la terrible espada que esgrimiÛ contra ti mientras combatÌais. Sin duda un arma merecedora del mayor de los talentos, su poder es tal que es capaz de derribar a cualquier oponente de nivel 15 o inferior de un solo golpe.
+@20699 = ~Tras derrotar al semiorco en su fortaleza al norte de Soubar, encuentras entre sus restos la terrible espada que esgrimi√≥ contra ti mientras combat√≠ais. Sin duda un arma merecedora del mayor de los talentos, su poder es tal que es capaz de derribar a cualquier oponente de nivel 15 o inferior de un solo golpe.
 
 ESTADISTICAS:
 
-Especial: Asesina a cualquier enemigo de nivel 15 o inferior de un sÛlo golpe a menos que se salve contra muerte con un penalizador de -2 a la tirada
+Especial: Asesina a cualquier enemigo de nivel 15 o inferior de un s√≥lo golpe a menos que se salve contra muerte con un penalizador de -2 a la tirada
 THACO: +3 
-DaÒo: 2D6 + 3
-Tipo de daÒo: cortante
+Da√±o: 2D6 + 3
+Tipo de da√±o: cortante
 Peso: 8
 Factor de velocidad: 4
 Tipo de talento: espada bastarda
 Tipo: 1-mano
 Requisitos: Fuerza 15~
-@20704 = ~Esta es una flauta que sirve para invocar y comandar ratas. Dondequiera que se toque, la extraÒamente hipnÛtica melodÌa que produce puede atraer a decenas de ratas de las ·reas cercanas y embelesarlas. Esto puede ser una maldiciÛn para un pueblo o ciudad ya que las ratas son portadoras de enfermedades y enseguida atestan el lugar donde el flautista se encuentra.
+@20704 = ~Esta es una flauta que sirve para invocar y comandar ratas. Dondequiera que se toque, la extra√±amente hipn√≥tica melod√≠a que produce puede atraer a decenas de ratas de las √°reas cercanas y embelesarlas. Esto puede ser una maldici√≥n para un pueblo o ciudad ya que las ratas son portadoras de enfermedades y enseguida atestan el lugar donde el flautista se encuentra.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Cuando es tocado, el instrumento convoca hasta 25 ratas a la vez~
-@20714 = ~Este bastÛn puede ser usado por todas las clases y sirve para reanimar a los muertos. Cada vez que se dice la palabra "°Lev·ntate!" gasta una carga e invoca esqueletos que quedan bajo el control del portador del bastÛn. Si la vara cambia de manos el control de los esqueletos tambiÈn lo hace. La duraciÛn de este conjuro es permanente, aunque sus efectos pueden ser disipados o las criaturas destruidas.
+@20714 = ~Este bast√≥n puede ser usado por todas las clases y sirve para reanimar a los muertos. Cada vez que se dice la palabra "¬°Lev√°ntate!" gasta una carga e invoca esqueletos que quedan bajo el control del portador del bast√≥n. Si la vara cambia de manos el control de los esqueletos tambi√©n lo hace. La duraci√≥n de este conjuro es permanente, aunque sus efectos pueden ser disipados o las criaturas destruidas.
 
-El 25% de estos bastones tambiÈn tienen otra habilidad secundaria: son capaces de arreglar huesos rotos a la criatura objetivo.  Por desgracia, dicha habilidad tambiÈn consume una carga.
+El 25% de estos bastones tambi√©n tienen otra habilidad secundaria: son capaces de arreglar huesos rotos a la criatura objetivo.  Por desgracia, dicha habilidad tambi√©n consume una carga.
 
 ESTADISTICAS:
 
@@ -1052,41 +1052,41 @@ Habilidades Especiales:
  Reanimar a los muertos
  Curar Heridas Graves
 THACO: +2
-DaÒo: 1D6+2
+Da√±o: 1D6+2
 Peso: 3
 Factor de velocidad: 1
-Tipo de talento: bastÛn
+Tipo de talento: bast√≥n
 Tipo: 2 manos
 Requiere: Fuerza 5~
-@20718 = ~Recogiste este corazÛn del cuerpo inerte de un Gusano de Tremor. Algunos bersÈrkers suelen comerse corazones como este creyendo que les dar·n la fuerza que tenÌa su enemigo. Este corazÛn en efecto elevar· durante dos horas la fuerza y la constituciÛn en 1 punto a quien se lo coma, pero tambiÈn enfermar· ocasionando 10 puntos de daÒo.~
-@20720 = ~Esta armadura exquisitamente construÌda ha sido bendecida por Torm.  Viene adornada con su sÌmbolo sagrado y tiene grabadas las letras "IRNI" en el peto. Aunque no es m·gica, su origen divino hace que no se deba tomar a la ligera. 
+@20718 = ~Recogiste este coraz√≥n del cuerpo inerte de un Gusano de Tremor. Algunos bers√©rkers suelen comerse corazones como este creyendo que les dar√°n la fuerza que ten√≠a su enemigo. Este coraz√≥n en efecto elevar√° durante dos horas la fuerza y la constituci√≥n en 1 punto a quien se lo coma, pero tambi√©n enfermar√° ocasionando 10 puntos de da√±o.~
+@20720 = ~Esta armadura exquisitamente constru√≠da ha sido bendecida por Torm.  Viene adornada con su s√≠mbolo sagrado y tiene grabadas las letras "IRNI" en el peto. Aunque no es m√°gica, su origen divino hace que no se deba tomar a la ligera. 
 
-Cuando se lleva puesta otorga protecciÛn contra el plano negativo, lo que protege al portador frente a determinados poderes tales como la consunciÛn de niveles o similares.
+Cuando se lleva puesta otorga protecci√≥n contra el plano negativo, lo que protege al portador frente a determinados poderes tales como la consunci√≥n de niveles o similares.
 
 
 ESTADISTICAS:
 
-Especial: ProtecciÛn contra el Plano Negativo
+Especial: Protecci√≥n contra el Plano Negativo
 Clase de Armadura: 3
 Peso: 18
 Requiere: Fuerza 12~
 @20722 = ~Mandoble +3: Espada sagrada de Torm
 
-Este mandoble ha sido bendecido por el todopoderoso Torm. Si se hiere con Èl a una criatura caÛtica malvada, Èsta quedar· petrificada a menos que supere con Èxito una tirada de salvaciÛn contra conjuros. Adem·s, otorga un hechizo adicional de 6to y 7mo nivel, 5% de resistencia m·gica y +1 a la Fuerza.
+Este mandoble ha sido bendecido por el todopoderoso Torm. Si se hiere con √©l a una criatura ca√≥tica malvada, √©sta quedar√° petrificada a menos que supere con √©xito una tirada de salvaci√≥n contra conjuros. Adem√°s, otorga un hechizo adicional de 6to y 7mo nivel, 5% de resistencia m√°gica y +1 a la Fuerza.
 
-La espada sagrada de Torm sÛlo concede sus poderes cuando se lleva desenfundada y se empuÒa.
+La espada sagrada de Torm s√≥lo concede sus poderes cuando se lleva desenfundada y se empu√±a.
 
-ESTADÕSTICAS:
+ESTAD√çSTICAS:
 
 Aptitudes Portador:
  +1 hechizo adicional de 6to y 7mo nivel
- Resistencia m·gica +5%
+ Resistencia m√°gica +5%
  Fuerza +1
 Aptitudes de Combate: 
- Petrifica a todas las criaturas demonÌacas golpeadas a menos que se salven vs. hechizos a -2
+ Petrifica a todas las criaturas demon√≠acas golpeadas a menos que se salven vs. hechizos a -2
 THAC0: +3
-DaÒo: 1D10 +3 
-Tipo de daÒo: cortante
+Da√±o: 1D10 +3 
+Tipo de da√±o: cortante
 Peso: 10
 Factor de velocidad: 7
 Tipo de Talento: mandoble
