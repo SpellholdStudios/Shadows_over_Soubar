@@ -40,8 +40,8 @@ ALWAYS
     // define variable for HANDLE_CHARSETS out_path so it can be reused later
     OUTER_TEXT_SPRINT "HANDLE_CHARSETS_OUT_PATH" EVAL "weidu_external/Language/%MOD_FOLDER%"
     // do not convert Setup.tra files, those should be UTF8 already
-    ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN setup END // List of tra files that need to be reloaded after conversion because they were previously loaded in the LANGUAGE section
-    ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN mod END // List of tra files that contain ONLY strings for the WeiDU installer and NOT game content
+    ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN setup END // List of tra files that contain ONLY strings for the WeiDU installer and NOT game content
+    ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN mod END // List of tra files that need to be reloaded after conversion because they were previously loaded in the LANGUAGE section
     // On EE games, convert game content tra files to utf-8 so that games don't crash when encountering international characters.
     LAF HANDLE_CHARSETS
         INT_VAR
