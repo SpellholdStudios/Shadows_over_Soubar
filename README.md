@@ -222,6 +222,7 @@ This component requires the main component to be installed. It patches BGmain.ex
 
 #### Version 2.0 (Upcoming version)
 
+Roberciiik:
 - Alternative Soubar area from the "World of Baldur's Gate" modification - designed and modeled by Cuttooth, with effects enrichment and ideas by Dradiel, and integrated into the mod by Roberciiik.
 - Biffing is now an optional installation component.
 - Fixed militia training quest when only 9 new guards are trained.
@@ -234,6 +235,10 @@ This component requires the main component to be installed. It patches BGmain.ex
 - Added missing identified description to some letters.
 - Moved movies to the language directory so they can be replaced by the local language version.
 - Moved some NPC sound files to the language directory - they can now be replaced by the local language version.
+
+AL|EN:
+- Introduce immutability and encapsulation.
+- Fix mod uninstallation: all mod files should be removed from override during uninstallation
 - Fixed copying of the MVE folder.
 - Uses the %MOD_FOLDER% automatic variable.
 - Uses labels for component requirements statements.
@@ -243,8 +248,17 @@ This component requires the main component to be installed. It patches BGmain.ex
 - Updated iconv and replaced it with a static build.
 - Updated the readme file to use the latest templates.
 - Updated the metadata file to use the latest template.
-- Removed redundant files.
+- Change HANDLE_CHARSETS to use from_UTF8 and adjusted tra files.
+- Fixed HANDLE_CHARSETS execution on EET.
+- Updated add_worldmap_tbl.
+- Fixed adding areas to cheat table.
+- Remove custom kit.ids fixer and use latest from BG2Fixpack.
+- Remove manual *.tlk files backup.
+- Standardize folder names, file extensions.
 - Made cosmetic changes to the readme files.
+- Added 'outdated' to outdated readme files.
+- Replace tabs with spaces.
+- Removed redundant files.
 
 ##
 
