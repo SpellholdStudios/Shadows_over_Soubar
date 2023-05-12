@@ -222,7 +222,7 @@ This component requires the main component to be installed. It patches BGmain.ex
 
 #### Version 2.0 (Upcoming version)
 
-Roberciiik:
+By Roberciiik:
 - Alternative Soubar area from the "World of Baldur's Gate" modification - designed and modeled by Cuttooth, with effects enrichment and ideas by Dradiel, and integrated into the mod by Roberciiik.
 - Biffing is now an optional installation component.
 - Fixed militia training quest when only 9 new guards are trained.
@@ -236,7 +236,7 @@ Roberciiik:
 - Moved movies to the language directory so they can be replaced by the local language version.
 - Moved some NPC sound files to the language directory - they can now be replaced by the local language version.
 
-AL|EN:
+By AL|EN:
 - Introduce immutability and encapsulation.
 - Fix mod uninstallation: all mod files should be removed from override during uninstallation
 - Fixed copying of the MVE folder.
