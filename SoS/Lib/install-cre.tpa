@@ -1,6 +1,6 @@
-COPY  ~%MOD_FOLDER%/CRE/BOLIVR09.cre~         ~override~
-       ~%MOD_FOLDER%/CRE/BOLIVR15.cre~         ~override~
-       ~%MOD_FOLDER%/CRE/BOLIVR20.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/BOLIVR09.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/BOLIVR15.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/BOLIVR20.cre~         ~override~
   SAY NAME1 @20091
   SAY NAME2 @20091
   SAY 0xa4 @20092 
@@ -38,210 +38,210 @@ COPY  ~%MOD_FOLDER%/CRE/BOLIVR09.cre~         ~override~
   SAY 0x1b0 @20124  
   SAY 0x1cc @20125 
 
-COPY  ~%MOD_FOLDER%/CRE/CB220BN1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB220BN2.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB220BN1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB220BN2.cre~         ~override~
   SAY NAME1 @20126
   SAY NAME2 @20126
 
-COPY  ~%MOD_FOLDER%/CRE/CB230BAA.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB230BAH.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB230BAS.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB230BBA.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB230BBH.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB230BBS.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB230BCA.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB230BCH.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB230BCS.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB230BDA.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB230BDH.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB230BDS.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB232BD1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB232BD2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB232BD3.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB232BD4.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB232BD5.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB232BDA.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB232BDB.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB232BDC.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB232BDD.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB232BDE.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB230BAA.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB230BAH.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB230BAS.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB230BBA.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB230BBH.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB230BBS.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB230BCA.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB230BCH.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB230BCS.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB230BDA.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB230BDH.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB230BDS.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB232BD1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB232BD2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB232BD3.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB232BD4.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB232BD5.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB232BDA.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB232BDB.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB232BDC.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB232BDD.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB232BDE.cre~         ~override~
   SAY NAME1 @20127
   SAY NAME2 @20127
 
-COPY  ~%MOD_FOLDER%/CRE/CB230BLA.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB230BLB.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB230BLC.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB230BLD.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB232LD1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB232LD2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB307SL1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB307SL2.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB230BLA.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB230BLB.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB230BLC.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB230BLD.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB232LD1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB232LD2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB307SL1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB307SL2.cre~         ~override~
   SAY NAME1 @20128
   SAY NAME2 @20128
 
-COPY  ~%MOD_FOLDER%/CRE/CB232CLU.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB232CLU.cre~         ~override~
   SAY NAME1 @20129
   SAY NAME2 @20129
 
-COPY  ~%MOD_FOLDER%/CRE/CB232COW.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB232COW.cre~         ~override~
   SAY NAME1 @20130
   SAY NAME2 @20130
 
-COPY  ~%MOD_FOLDER%/CRE/CB232FM1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB232FM2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB232FM3.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB232FM4.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB232FM1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB232FM2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB232FM3.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB232FM4.cre~         ~override~
   SAY NAME1 @20131
   SAY NAME2 @20131
 
-COPY  ~%MOD_FOLDER%/CRE/CB232HRS.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB232HRS.cre~         ~override~
   SAY NAME1 @20132
   SAY NAME2 @20132
 
-COPY  ~%MOD_FOLDER%/CRE/CB257HLF.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB257HLF.cre~         ~override~
   SAY NAME1 @20133 
   SAY NAME2 @20133 
 
-COPY  ~%MOD_FOLDER%/CRE/CB270CCA.cre~         ~override~       
-     ~%MOD_FOLDER%/CRE/CB270CCB.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB270CCC.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB270CCD.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB270CCE.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB270CCF.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB270CCG.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB270PT1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB270PT2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB304SVA.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB304SVB.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB304SVC.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB270CCA.cre~         ~override~       
+     ~%MOD_FOLDER%/Cre/CB270CCB.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB270CCC.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB270CCD.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB270CCE.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB270CCF.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB270CCG.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB270PT1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB270PT2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB304SVA.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB304SVB.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB304SVC.cre~         ~override~
   SAY NAME1 @20134
   SAY NAME2 @20134 
 
-COPY  ~%MOD_FOLDER%/CRE/CB282CAT.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB282CAT.cre~         ~override~
   SAY NAME1 @20135 
   SAY NAME2 @20135 
 
-COPY  ~%MOD_FOLDER%/CRE/CB285FT1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB285FT2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB285FT3.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB285FT4.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB285FT5.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB285FT1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB285FT2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB285FT3.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB285FT4.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB285FT5.cre~         ~override~
   SAY NAME1 @20136 
   SAY NAME2 @20136 
 
-COPY  ~%MOD_FOLDER%/CRE/CB287CPT.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CB287CPT.cre~         ~override~       
   SAY NAME1 @20137 
   SAY NAME2 @20137 
 
-COPY  ~%MOD_FOLDER%/CRE/CB300CO1.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB300CO1.cre~         ~override~
   SAY NAME1 @20138 
   SAY NAME2 @20139
 
-COPY  ~%MOD_FOLDER%/CRE/CB300CO2.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB300CO2.cre~         ~override~
   SAY NAME1 @20140 
   SAY NAME2 @20139 
 
-COPY  ~%MOD_FOLDER%/CRE/CB300SLA.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB300SLA.cre~         ~override~
   SAY NAME1 @20139
   SAY NAME2 @20139
 
-COPY  ~%MOD_FOLDER%/CRE/CB304TRA.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB304TRB.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB304TRA.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB304TRB.cre~         ~override~
   SAY NAME1 @20141
   SAY NAME2 @20141
 
-COPY  ~%MOD_FOLDER%/CRE/CB325EQK.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB325EQK.cre~         ~override~
 
-COPY  ~%MOD_FOLDER%/CRE/CB330CR1.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB330CR1.cre~         ~override~
   SAY NAME1 @20025
   SAY NAME2 @20025
 
-COPY  ~%MOD_FOLDER%/CRE/CB330CR2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB330CR3.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB330CR4.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB330CR5.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB330CR6.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB330CR2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB330CR3.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB330CR4.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB330CR5.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB330CR6.cre~         ~override~
   SAY NAME1 @20025
   SAY NAME2 @20025
 
-COPY  ~%MOD_FOLDER%/CRE/CB351TGA.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CB351TGA.cre~         ~override~       
   SAY NAME1 @20142 
   SAY NAME2 @20142
 
-COPY  ~%MOD_FOLDER%/CRE/CB351TGB.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CB351TGB.cre~         ~override~       
   SAY NAME1 @20143 
   SAY NAME2 @20143 
 
-COPY  ~%MOD_FOLDER%/CRE/CB351TGC.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CB351TGC.cre~         ~override~       
   SAY NAME1 @20144
   SAY NAME2 @20144 
 
-COPY  ~%MOD_FOLDER%/CRE/CB351TGD.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CB351TGD.cre~         ~override~       
   SAY NAME1 @20145 
   SAY NAME2 @20145 
 
-COPY  ~%MOD_FOLDER%/CRE/CB4270DW.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CB4270DW.cre~         ~override~       
   SAY NAME1 @20146 
   SAY NAME2 @20146 
 
-COPY  ~%MOD_FOLDER%/CRE/CB4270SM.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB4270SM.cre~         ~override~
   SAY NAME1 @20147 
   SAY NAME2 @20147 
 
-COPY  ~%MOD_FOLDER%/CRE/CB4270WB.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB4270WB.cre~         ~override~
   SAY NAME1 @20148
   SAY NAME2 @20148
 
-COPY  ~%MOD_FOLDER%/CRE/CB4279ST.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CB4279ST.cre~         ~override~       
   SAY NAME1 @20149 
   SAY NAME2 @20149 
 
-COPY  ~%MOD_FOLDER%/CRE/CB4280ST.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CB4280ST.cre~         ~override~       
   SAY NAME1 @20150 
   SAY NAME2 @20150 
 
-COPY  ~%MOD_FOLDER%/CRE/CB4281ST.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CB4281ST.cre~         ~override~       
   SAY NAME1 @20151 
   SAY NAME2 @20151 
 
-COPY  ~%MOD_FOLDER%/CRE/CB4287MJ.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CB4287MJ.cre~         ~override~       
   SAY NAME1 @20152 
   SAY NAME2 @20152 
 
-COPY  ~%MOD_FOLDER%/CRE/CB4300AR.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CB4300AR.cre~         ~override~       
   SAY NAME1 @20153 
   SAY NAME2 @20153 
 
-COPY  ~%MOD_FOLDER%/CRE/CB4300CT.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CB4300CT.cre~         ~override~       
   SAY NAME1 @20154 
   SAY NAME2 @20154 
 
-COPY  ~%MOD_FOLDER%/CRE/CB4300GH.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CB4300GH.cre~         ~override~       
   SAY NAME1 @20155 
   SAY NAME2 @20155
 
-COPY  ~%MOD_FOLDER%/CRE/CB4300GT.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CB4300GT.cre~         ~override~       
   SAY NAME1 @20156 
   SAY NAME2 @20156 
 
-COPY  ~%MOD_FOLDER%/CRE/CB4300OR.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB4304OR.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB4310SW.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB4311AR.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB4300OR.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB4304OR.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB4310SW.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB4311AR.cre~         ~override~
   SAY NAME1 @20126
   SAY NAME2 @20126
 
-COPY  ~%MOD_FOLDER%/CRE/CB4305SN.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB4305SN.cre~         ~override~
 
-COPY  ~%MOD_FOLDER%/CRE/CB4307MG.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB4307MG.cre~         ~override~
   SAY NAME1 @20157
   SAY NAME2 @20158
 
-COPY  ~%MOD_FOLDER%/CRE/CB4308NR.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB4308NR.cre~         ~override~
   SAY NAME1 @20159
   SAY NAME2 @20159
 
-COPY  ~%MOD_FOLDER%/CRE/CBAKSOUB.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBAKSOUB.cre~         ~override~
   SAY NAME1 @20160
   SAY NAME2 @20161
   SAY 0xb8 @20162 
@@ -251,276 +251,276 @@ COPY  ~%MOD_FOLDER%/CRE/CBAKSOUB.cre~         ~override~
   SAY 0xf0 ~~ [ILLASE05]
   SAY 0x10c @20167 
 
-COPY  ~%MOD_FOLDER%/CRE/CBAMNG01.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBAMNG02.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBAMNG03.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBAMNG04.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBAMNG05.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBAMNG01.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBAMNG02.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBAMNG03.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBAMNG04.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBAMNG05.cre~         ~override~
   SAY NAME1 @20168
   SAY NAME2 @20168
 
-COPY  ~%MOD_FOLDER%/CRE/CBAMNLG1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBAMNLG2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBAMNLG3.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBAMNLG4.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBAMNLGS.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBAMNLG1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBAMNLG2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBAMNLG3.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBAMNLG4.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBAMNLGS.cre~         ~override~
   SAY NAME1 @20169
   SAY NAME2 @20169
 
-COPY  ~%MOD_FOLDER%/CRE/CBARVIN1.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBARVIN1.cre~         ~override~
   SAY NAME1 @20160
   SAY NAME2 @20161
   SAY 0xa4 @20170
 
-COPY  ~%MOD_FOLDER%/CRE/CBBANDED.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBBANDED.cre~         ~override~
   SAY NAME1 @20171
   SAY NAME2 @20171
 
-COPY  ~%MOD_FOLDER%/CRE/CBBNLCH1.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBBNLCH1.cre~         ~override~
   SAY NAME1 @20172
   SAY NAME2 @20172 
 
-COPY  ~%MOD_FOLDER%/CRE/CBBNLCH2.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBBNLCH2.cre~         ~override~       
   SAY NAME1 @20173 
   SAY NAME2 @20172 
 
-COPY  ~%MOD_FOLDER%/CRE/CBBUCKMO.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBBUCKMO.cre~         ~override~       
   SAY NAME1 @20174 
   SAY NAME2 @20174 
 
-COPY  ~%MOD_FOLDER%/CRE/CBBURNBN.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBBURNBN.cre~         ~override~       
   SAY NAME1 @20175 
   SAY NAME2 @20175 
 
-COPY  ~%MOD_FOLDER%/CRE/CBCHANT1.cre~         ~override~       
-     ~%MOD_FOLDER%/CRE/CBCHANT2.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBCHANT1.cre~         ~override~       
+     ~%MOD_FOLDER%/Cre/CBCHANT2.cre~         ~override~
   SAY NAME1 @20176 
   SAY NAME2 @20176 
 
-COPY  ~%MOD_FOLDER%/CRE/CBCHARBR.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBCHARBR.cre~         ~override~       
   SAY NAME1 @20177 
   SAY NAME2 @20177 
 
-COPY  ~%MOD_FOLDER%/CRE/CBCHARLN.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBCHARLN.cre~         ~override~       
   SAY NAME1 @20178 
   SAY NAME2 @20178 
 
-COPY  ~%MOD_FOLDER%/CRE/CBCHARWF.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBCHARWF.cre~         ~override~       
   SAY NAME1 @20179 
   SAY NAME2 @20179 
 
-COPY  ~%MOD_FOLDER%/CRE/CBCHRRAN.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBCHRRAN.cre~         ~override~       
   SAY NAME1 @20180 
   SAY NAME2 @20180 
 
-COPY  ~%MOD_FOLDER%/CRE/CB304SBG.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB351GD1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB351GD2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB351GD3.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB351GD4.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB351GD5.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBCOMP01.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBCUTDF1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBCUTDF2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBCUTDF3.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBCUTDF4.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB304SBG.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB351GD1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB351GD2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB351GD3.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB351GD4.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB351GD5.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBCOMP01.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBCUTDF1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBCUTDF2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBCUTDF3.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBCUTDF4.cre~         ~override~
   SAY NAME1 @20181 
   SAY NAME2 @20181 
 
-COPY  ~%MOD_FOLDER%/CRE/CBDDDRGE.cre~         ~override~       
-     ~%MOD_FOLDER%/CRE/CBDRAGDP.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBDDDRGE.cre~         ~override~       
+     ~%MOD_FOLDER%/Cre/CBDRAGDP.cre~         ~override~
   SAY NAME1 @20182
   SAY NAME2 @20183
 
-COPY  ~%MOD_FOLDER%/CRE/CBDDHMNE.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBDRGDPH.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBDDHMNE.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBDRGDPH.cre~         ~override~
   SAY NAME1 @20184
   SAY NAME2 @20183
 
-COPY  ~%MOD_FOLDER%/CRE/CBDDSNKE.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBDRGDPS.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBDDSNKE.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBDRGDPS.cre~         ~override~
   SAY NAME1 @20185
   SAY NAME2 @20183
 
-COPY  ~%MOD_FOLDER%/CRE/CBDRBUCK.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBDRBUCK.cre~         ~override~
   SAY NAME1 @20186
   SAY NAME2 @20186
 
-COPY  ~%MOD_FOLDER%/CRE/CBDRICL2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBDRICL3.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBDRICL2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBDRICL3.cre~         ~override~
   SAY NAME1 @20187
   SAY NAME2 @20187
 
-COPY  ~%MOD_FOLDER%/CRE/CBDRIFT1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBDRIFT2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBDRIFT3.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBDRIFT1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBDRIFT2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBDRIFT3.cre~         ~override~
   SAY NAME1 @20188 
   SAY NAME2 @20188 
 
-COPY  ~%MOD_FOLDER%/CRE/CBDRIWZ2.cre~         ~override~       
-     ~%MOD_FOLDER%/CRE/CBDRIWZ3.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBDRIWZ2.cre~         ~override~       
+     ~%MOD_FOLDER%/Cre/CBDRIWZ3.cre~         ~override~
   SAY NAME1 @20189 
   SAY NAME2 @20189 
 
-COPY  ~%MOD_FOLDER%/CRE/CBDRT70A.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBDRT70A.cre~         ~override~
   SAY NAME1 @20190
   SAY NAME2 @20190 
 
-COPY  ~%MOD_FOLDER%/CRE/CBDRT70B.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBDRT70B.cre~         ~override~       
   SAY NAME1 @20191 
   SAY NAME2 @20191 
 
-COPY  ~%MOD_FOLDER%/CRE/CBDRWERE.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBDRWERE.cre~         ~override~       
   SAY NAME1 @20186 
   SAY NAME2 @20186 
 
-COPY  ~%MOD_FOLDER%/CRE/CBDRWFM1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBDRWFM2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBDRWFM3.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBDRWFR2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBDRWFR3.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBDRWFM1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBDRWFM2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBDRWFM3.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBDRWFR2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBDRWFR3.cre~         ~override~
   SAY NAME1 @20192 
   SAY NAME2 @20192 
 
-COPY  ~%MOD_FOLDER%/CRE/CBDRWHM2.cre~         ~override~       
-     ~%MOD_FOLDER%/CRE/CBDRWHM3.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBDRWHM2.cre~         ~override~       
+     ~%MOD_FOLDER%/Cre/CBDRWHM3.cre~         ~override~
   SAY NAME1 @20193 
   SAY NAME2 @20194 
 
-COPY  ~%MOD_FOLDER%/CRE/CBDRWHP3.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBDRWHP3.cre~         ~override~       
   SAY NAME1 @20195 
   SAY NAME2 @20196 
 
-COPY  ~%MOD_FOLDER%/CRE/CBDRWW11.cre~         ~override~       
-     ~%MOD_FOLDER%/CRE/CBDRWW13.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBDRWW21.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBDRWW23.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBDRWW11.cre~         ~override~       
+     ~%MOD_FOLDER%/Cre/CBDRWW13.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBDRWW21.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBDRWW23.cre~         ~override~
   SAY NAME1 @20197 
   SAY NAME2 @20197 
 
-COPY  ~%MOD_FOLDER%/CRE/CBFIXLGN.CRE~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBFIXLGN.CRE~         ~override~       
 
-COPY  ~%MOD_FOLDER%/CRE/CBFIXPRE.CRE~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBFIXPRE.CRE~         ~override~       
 
-COPY  ~%MOD_FOLDER%/CRE/CBGAELAN.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBGAELAN.cre~         ~override~
 
-COPY  ~%MOD_FOLDER%/CRE/CBGAIUS1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBGVSOUB.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBGAIUS1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBGVSOUB.cre~         ~override~
   SAY NAME1 @20198
   SAY NAME2 @20199
 
-COPY  ~%MOD_FOLDER%/CRE/CBGONOBL.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBGONOBL.cre~         ~override~
 
-COPY  ~%MOD_FOLDER%/CRE/CBGRBONE.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBGRBONE.cre~         ~override~
   SAY NAME1 @20200
   SAY NAME2 @20200
 
-COPY  ~%MOD_FOLDER%/CRE/CBHBBOOK.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBHBBOOK.cre~         ~override~
 
-COPY  ~%MOD_FOLDER%/CRE/CB232RNA.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB232RNH.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB4300HB.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB4300SW.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB430SCD.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB430SCE.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CB430SCF.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBACSO01.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBACSO02.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBACSO03.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBACSO04.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBACSO05.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBACSO06.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBACSO07.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBACSO08.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBACSO09.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBACSO10.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBACSO11.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBACSO12.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBACSO13.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBACSO14.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBACSO15.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBACSO16.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBACSO17.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBACSO18.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBACSO19.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBACSO20.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBCUTAT0.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBCUTAT1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBCUTAT2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBCUTAT3.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBCUTAT4.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBCUTAT5.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBCUTAT6.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBCUTAT7.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBCUTAT8.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBCUTAT9.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBCUTATA.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBCUTATB.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBCUTATC.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBCUTATD.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBHBSO02.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBHBSO03.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBHBSO04.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBHBSO05.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBHBSO06.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBHBSO07.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBHBSO08.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBHBSO09.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBHBSO10.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBHBSO12.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBHBSO13.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBHBSO14.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBHBSO15.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBHBSO16.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBHBSO17.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBHBSO18.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBHBSO19.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBHBSO20.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRDPTBD.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDA1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDA2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDA3.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDB1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDB2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDB3.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDC1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDC2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDC3.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDD1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDD2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDD3.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDE1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDE2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDE3.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDG1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDG2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDG3.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDH1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDH2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDH3.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDI1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDI2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDI3.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDJ1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDJ2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDJ3.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDK1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDK2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTBDK3.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CB232RNA.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB232RNH.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB4300HB.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB4300SW.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB430SCD.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB430SCE.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CB430SCF.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBACSO01.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBACSO02.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBACSO03.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBACSO04.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBACSO05.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBACSO06.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBACSO07.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBACSO08.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBACSO09.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBACSO10.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBACSO11.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBACSO12.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBACSO13.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBACSO14.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBACSO15.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBACSO16.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBACSO17.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBACSO18.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBACSO19.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBACSO20.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBCUTAT0.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBCUTAT1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBCUTAT2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBCUTAT3.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBCUTAT4.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBCUTAT5.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBCUTAT6.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBCUTAT7.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBCUTAT8.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBCUTAT9.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBCUTATA.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBCUTATB.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBCUTATC.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBCUTATD.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBHBSO02.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBHBSO03.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBHBSO04.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBHBSO05.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBHBSO06.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBHBSO07.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBHBSO08.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBHBSO09.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBHBSO10.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBHBSO12.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBHBSO13.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBHBSO14.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBHBSO15.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBHBSO16.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBHBSO17.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBHBSO18.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBHBSO19.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBHBSO20.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRDPTBD.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDA1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDA2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDA3.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDB1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDB2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDB3.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDC1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDC2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDC3.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDD1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDD2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDD3.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDE1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDE2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDE3.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDG1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDG2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDG3.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDH1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDH2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDH3.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDI1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDI2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDI3.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDJ1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDJ2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDJ3.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDK1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDK2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTBDK3.cre~         ~override~
   SAY NAME1 @20201
   SAY NAME2 @20201
 
-COPY  ~%MOD_FOLDER%/CRE/CBIMP111.cre~         ~override~
-COPY  ~%MOD_FOLDER%/CRE/CBIMP112.cre~         ~override~
-COPY  ~%MOD_FOLDER%/CRE/CBIMP113.cre~         ~override~
-COPY  ~%MOD_FOLDER%/CRE/CBIMP114.cre~         ~override~
-COPY  ~%MOD_FOLDER%/CRE/CBIMP115.cre~         ~override~
-COPY  ~%MOD_FOLDER%/CRE/CBIMP116.cre~         ~override~
-COPY  ~%MOD_FOLDER%/CRE/CBIMP117.cre~         ~override~
-COPY  ~%MOD_FOLDER%/CRE/CBIMP118.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBIMP111.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBIMP112.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBIMP113.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBIMP114.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBIMP115.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBIMP116.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBIMP117.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBIMP118.cre~         ~override~
 
-COPY  ~%MOD_FOLDER%/CRE/CBISSON1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBISSON2.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBISSON1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBISSON2.cre~         ~override~
   SAY NAME1 @20202 
   SAY NAME2 @20202 
   SAY 0xb8 @20203 
@@ -530,19 +530,19 @@ COPY  ~%MOD_FOLDER%/CRE/CBISSON1.cre~         ~override~
   SAY 0xf0 ~~ [ODREN05] 
   SAY 0x10c @20208 
 
-COPY  ~%MOD_FOLDER%/CRE/CBKBAKER.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBKBAKER.cre~         ~override~
   SAY NAME1 @20209 
   SAY NAME2 @20209 
 
-COPY  ~%MOD_FOLDER%/CRE/CBLDBUCK.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBLDBUCK.cre~         ~override~       
   SAY NAME1 @20210 
   SAY NAME2 @20211
 
-COPY  ~%MOD_FOLDER%/CRE/CBLOLTH1.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBLOLTH1.cre~         ~override~       
   SAY NAME1 @20212 
   SAY NAME2 @20212 
 
-COPY  ~%MOD_FOLDER%/CRE/CBLOLTH2.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBLOLTH2.cre~         ~override~
   SAY NAME1 @20212 
   SAY NAME2 @20212 
   SAY 0xc8 ~~ [DEMOG02]
@@ -551,50 +551,50 @@ COPY  ~%MOD_FOLDER%/CRE/CBLOLTH2.cre~         ~override~
   SAY 0xf0 ~~ [DEMOG05] 
   SAY 0x10c @20217 
 
-COPY  ~%MOD_FOLDER%/CRE/CBLOLTH3.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBLOLTH3.cre~         ~override~
   SAY NAME1 @20218
   SAY NAME2 @20219
 
-COPY  ~%MOD_FOLDER%/CRE/CBLYBUCK.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBLYBUCK.cre~         ~override~       
   SAY NAME1 @20220 
   SAY NAME2 @20220 
 
-COPY  ~%MOD_FOLDER%/CRE/CBMARCH1.CRE~         ~override~
-COPY  ~%MOD_FOLDER%/CRE/CBMARCH2.CRE~         ~override~
-COPY  ~%MOD_FOLDER%/CRE/CBMARCH3.CRE~         ~override~
-COPY  ~%MOD_FOLDER%/CRE/CBMARCH4.CRE~         ~override~
-COPY  ~%MOD_FOLDER%/CRE/CBMARCH5.CRE~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBMARCH1.CRE~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBMARCH2.CRE~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBMARCH3.CRE~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBMARCH4.CRE~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBMARCH5.CRE~         ~override~
 
-COPY  ~%MOD_FOLDER%/CRE/CBMMOUTH.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBMMOUTH.cre~         ~override~       
   SAY NAME1 @20221 
   SAY NAME2 @20221 
 
-COPY  ~%MOD_FOLDER%/CRE/CBNARULF.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBNARULF.cre~         ~override~       
   SAY NAME1 @20159 
   SAY NAME2 @20159 
 
-COPY  ~%MOD_FOLDER%/CRE/CBPRISON.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBPRISON.cre~         ~override~       
   SAY NAME1 @20222 
   SAY NAME2 @20222 
 
-COPY  ~%MOD_FOLDER%/CRE/CBRBDBLB.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBRBDBLB.cre~         ~override~       
   SAY NAME1 @20223 
   SAY NAME2 @20223
 
-COPY  ~%MOD_FOLDER%/CRE/CBRBDBRB.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBRBDBRB.cre~         ~override~       
   SAY NAME1 @20224
   SAY NAME2 @20224 
 
-COPY  ~%MOD_FOLDER%/CRE/CBRBDDRB.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBRBDDRB.cre~         ~override~
   SAY NAME1 @20225 
   SAY NAME2 @20225 
 
-COPY  ~%MOD_FOLDER%/CRE/CBRBDGRB.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBRBDGRB.cre~         ~override~
   SAY NAME1 @20224
   SAY NAME2 @20224 
 
-COPY  ~%MOD_FOLDER%/CRE/CBROLFSB.CRE~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRSSOUB.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBROLFSB.CRE~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRSSOUB.cre~         ~override~
   SAY NAME1 @20226
   SAY NAME2 @20227
   SAY 0xc8 @20228 
@@ -602,352 +602,352 @@ COPY  ~%MOD_FOLDER%/CRE/CBROLFSB.CRE~         ~override~
   SAY 0xec ~~ [GROM04]
   SAY 0xf0 @20231 
 
-COPY  ~%MOD_FOLDER%/CRE/CBROPEDP.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBROPEDP.cre~         ~override~
   SAY NAME1 @20232
   SAY NAME2 @20232
 
-COPY  ~%MOD_FOLDER%/CRE/CBRRRPIP.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBRRRPIP.cre~         ~override~
   SAY NAME1 @20233
   SAY NAME2 @20233
 
-COPY  ~%MOD_FOLDER%/CRE/CBRRRRAT.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBRRRRAT.cre~         ~override~
   SAY 0xa4 ~~ [RAT01]
   SAY 0xec ~~ [RAT02]
   SAY 0xf0 ~~ [RAT03]
   SAY 0x10c ~~ [RAT01]
   SAY 0x110 ~~ [RAT02]
 
-COPY  ~%MOD_FOLDER%/CRE/CBRTRALT.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBRTRALT.cre~         ~override~
   SAY NAME1 @20237 
   SAY NAME2 @20237
 
-COPY  ~%MOD_FOLDER%/CRE/CBRTRBDA.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTRBDB.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTRBDC.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTRBDD.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTRBDE.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTRBDF.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTRBDG.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTRBDH.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTRBDI.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTRBDJ.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBRTRBDK.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBRTRBDA.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTRBDB.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTRBDC.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTRBDD.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTRBDE.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTRBDF.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTRBDG.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTRBDH.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTRBDI.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTRBDJ.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBRTRBDK.cre~         ~override~
   SAY NAME1 @20128 
   SAY NAME2 @20128 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSBBATH.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSBBATH.cre~         ~override~       
   SAY NAME1 @20238 
   SAY NAME2 @20238 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSBIN62.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSBIN62.cre~         ~override~       
   SAY NAME1 @20239 
   SAY NAME2 @20239 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSBIN64.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSBIN64.cre~         ~override~       
   SAY NAME1 @20240 
   SAY NAME2 @20240 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSBIN67.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSBIN67.cre~         ~override~       
   SAY NAME1 @20241 
   SAY NAME2 @20241 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSBIN70.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSBIN70.cre~         ~override~       
   SAY NAME1 @20242 
   SAY NAME2 @20242 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSBIN71.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSBIN71.cre~         ~override~       
   SAY NAME1 @20243 
   SAY NAME2 @20243 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSBIN72.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSBIN72.cre~         ~override~       
   SAY NAME1 @20244 
   SAY NAME2 @20244 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSBIN75.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSBIN75.cre~         ~override~       
   SAY NAME1 @20245 
   SAY NAME2 @20245 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSBMD73.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSBMD73.cre~         ~override~       
   SAY NAME1 @20246 
   SAY NAME2 @20246 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSBMD74.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBSBMD74.cre~         ~override~
   SAY NAME1 @20247 
   SAY NAME2 @20247 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSBSLP1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBSLP2.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBSBSLP1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBSLP2.cre~         ~override~
   SAY NAME1 @20248
   SAY NAME2 @20248
 
-COPY  ~%MOD_FOLDER%/CRE/CBSBTVCS.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBTVRA.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBTVRB.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBTVRC.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBTVRD.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBTVRE.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBTVRF.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBTVRG.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBTVRH.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBTVRI.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBTVRJ.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBTVRK.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBTVRL.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBTVRM.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBTVRN.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBTVRO.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBTVRP.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBTVRQ.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVILA.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVILB.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVILC.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVILD.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVILE.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVILF.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVILG.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVILH.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVILI.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVILJ.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVILK.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVILL.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVLIA.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVLIB.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVLIC.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVLID.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVLIE.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVLIF.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVLIG.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVLIH.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVLII.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVLIJ.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVLIK.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVLIL.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVLIU.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVLIV.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVLIW.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSBVLIX.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBSBTVCS.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBTVRA.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBTVRB.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBTVRC.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBTVRD.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBTVRE.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBTVRF.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBTVRG.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBTVRH.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBTVRI.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBTVRJ.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBTVRK.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBTVRL.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBTVRM.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBTVRN.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBTVRO.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBTVRP.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBTVRQ.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVILA.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVILB.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVILC.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVILD.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVILE.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVILF.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVILG.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVILH.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVILI.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVILJ.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVILK.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVILL.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVLIA.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVLIB.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVLIC.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVLID.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVLIE.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVLIF.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVLIG.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVLIH.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVLII.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVLIJ.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVLIK.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVLIL.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVLIU.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVLIV.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVLIW.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSBVLIX.cre~         ~override~
   SAY NAME1 @20134 
   SAY NAME2 @20134
 
-COPY  ~%MOD_FOLDER%/CRE/CBSBW172.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBSBW172.cre~         ~override~
   SAY NAME1 @20249 
   SAY NAME2 @20249 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSBW272.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSBW272.cre~         ~override~       
   SAY NAME1 @20250 
   SAY NAME2 @20250 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSBW372.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSBW372.cre~         ~override~       
   SAY NAME1 @20251
   SAY NAME2 @20251 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSBWT64.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSBWT64.cre~         ~override~       
   SAY NAME1 @20252 
   SAY NAME2 @20252 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSBWT67.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSBWT67.cre~         ~override~       
   SAY NAME1 @20253 
   SAY NAME2 @20253 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSBWU67.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSBWU67.cre~         ~override~       
   SAY NAME1 @20254 
   SAY NAME2 @20254 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSBWV67.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSBWV67.cre~         ~override~       
   SAY NAME1 @20255 
   SAY NAME2 @20255 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSDSO01.cre~         ~override~       
-     ~%MOD_FOLDER%/CRE/CBSDSO02.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO03.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO04.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO05.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO06.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO07.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO08.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO09.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO10.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO11.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO12.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO21.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO22.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO23.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO24.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO25.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO26.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO27.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO28.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO29.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO30.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO31.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO32.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO41.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO42.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO43.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO44.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO45.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO46.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO47.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO48.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO49.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO50.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO51.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSDSO52.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBSDSO01.cre~         ~override~       
+     ~%MOD_FOLDER%/Cre/CBSDSO02.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO03.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO04.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO05.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO06.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO07.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO08.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO09.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO10.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO11.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO12.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO21.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO22.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO23.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO24.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO25.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO26.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO27.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO28.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO29.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO30.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO31.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO32.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO41.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO42.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO43.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO44.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO45.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO46.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO47.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO48.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO49.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO50.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO51.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSDSO52.cre~         ~override~
   SAY NAME1 @20201
   SAY NAME2 @20201
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP01.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBSHPP01.cre~         ~override~
   SAY NAME1 @20256
   SAY NAME2 @20256 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP02.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHPP02.cre~         ~override~       
   SAY NAME1 @20257 
   SAY NAME2 @20257 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP03.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHPP03.cre~         ~override~       
   SAY NAME1 @20258 
   SAY NAME2 @20258 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP04.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHPP04.cre~         ~override~       
   SAY NAME1 @20259 
   SAY NAME2 @20259 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP05.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHPP05.cre~         ~override~       
   SAY NAME1 @20260 
   SAY NAME2 @20260 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP06.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHPP06.cre~         ~override~       
   SAY NAME1 @20261 
   SAY NAME2 @20261 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP07.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHPP07.cre~         ~override~       
   SAY NAME1 @20262 
   SAY NAME2 @20262 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP08.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHPP08.cre~         ~override~       
   SAY NAME1 @20263 
   SAY NAME2 @20263 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP09.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHPP09.cre~         ~override~       
   SAY NAME1 @20264 
   SAY NAME2 @20264 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP10.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHPP10.cre~         ~override~       
   SAY NAME1 @20265 
   SAY NAME2 @20265 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP11.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBSHPP11.cre~         ~override~
   SAY NAME1 @20266 
   SAY NAME2 @20266 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP12.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHPP12.cre~         ~override~       
   SAY NAME1 @20267 
   SAY NAME2 @20267 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP13.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHPP13.cre~         ~override~       
   SAY NAME1 @20268 
   SAY NAME2 @20268 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP14.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHPP14.cre~         ~override~       
   SAY NAME1 @20269 
   SAY NAME2 @20269 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP15.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHPP15.cre~         ~override~       
   SAY NAME1 @20270 
   SAY NAME2 @20270
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP16.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHPP16.cre~         ~override~       
   SAY NAME1 @20271 
   SAY NAME2 @20271 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP17.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHPP17.cre~         ~override~       
   SAY NAME1 @20272 
   SAY NAME2 @20272 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP18.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHPP18.cre~         ~override~       
   SAY NAME1 @20273 
   SAY NAME2 @20273 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP19.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHPP19.cre~         ~override~       
   SAY NAME1 @20274 
   SAY NAME2 @20274 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP20.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHPP20.cre~         ~override~       
   SAY NAME1 @20275 
   SAY NAME2 @20275 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP21.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHPP21.cre~         ~override~       
   SAY NAME1 @20276 
   SAY NAME2 @20276 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP22.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHPP22.cre~         ~override~       
   SAY NAME1 @20277 
   SAY NAME2 @20277 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP23.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHPP23.cre~         ~override~       
   SAY NAME1 @20278 
   SAY NAME2 @20278 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP24.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHPP24.cre~         ~override~       
   SAY NAME1 @20279 
   SAY NAME2 @20279 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP25.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHPP25.cre~         ~override~       
   SAY NAME1 @20280 
   SAY NAME2 @20280 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHPP26.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHPP26.cre~         ~override~       
   SAY NAME1 @20281 
   SAY NAME2 @20281 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHTHEF.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHTHEF.cre~         ~override~       
   SAY NAME1 @20282
   SAY NAME2 @20282 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSHTHIF.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSHTHIF.cre~         ~override~       
   SAY NAME1 @20283 
   SAY NAME2 @20283 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSIRRUS.cre~         ~override~       
-     ~%MOD_FOLDER%/CRE/CBSMSOUB.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBSIRRUS.cre~         ~override~       
+     ~%MOD_FOLDER%/Cre/CBSMSOUB.cre~         ~override~
   SAY NAME1 @20284 
   SAY NAME2 @20285 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSNBUCK.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBSNBUCK.cre~         ~override~
   SAY NAME1 @20286 
   SAY NAME2 @20286 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSOBANN.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSOBANN.cre~         ~override~       
   SAY NAME1 @20134 
   SAY NAME2 @20134 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSOBGR1.cre~         ~override~       
-     ~%MOD_FOLDER%/CRE/CBSOBGR2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSOBGR3.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSOBGR4.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSOBGR5.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSOBGRD.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBSOUGRD.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBSOBGR1.cre~         ~override~       
+     ~%MOD_FOLDER%/Cre/CBSOBGR2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSOBGR3.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSOBGR4.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSOBGR5.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSOBGRD.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBSOUGRD.cre~         ~override~
   SAY NAME1 @20181 
   SAY NAME2 @20181 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSOUMJR.CRE~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSOUMJR.CRE~         ~override~       
   SAY NAME1 @20152 
   SAY NAME2 @20152 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSOUSGT.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSOUSGT.cre~         ~override~       
   SAY NAME1 @20237 
   SAY NAME2 @20237 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSPLLTH.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSPLLTH.cre~         ~override~       
   SAY NAME1 @20287 
   SAY NAME2 @20287 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSPYBAN.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBSPYBAN.cre~         ~override~
   SAY NAME1 @20201 
   SAY NAME2 @20201 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSPYRLF.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBSPYRLF.cre~         ~override~
   SAY NAME1 @20227
   SAY NAME2 @20227 
   SAY 0xc8 @20228 
@@ -955,34 +955,34 @@ COPY  ~%MOD_FOLDER%/CRE/CBSPYRLF.cre~         ~override~
   SAY 0xec ~~ [GROM04] 
   SAY 0xf0 @20231 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSTBUCK.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBSTBUCK.cre~         ~override~
   SAY NAME1 @20289 
   SAY NAME2 @20289 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSUPMUM.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBSUPMUM.cre~         ~override~
   SAY NAME1 @20290 
   SAY NAME2 @20290 
 
-COPY  ~%MOD_FOLDER%/CRE/CBSWPIPE.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBSWPIPE.cre~         ~override~       
   SAY NAME1 @20291 
   SAY NAME2 @20291 
 
-COPY  ~%MOD_FOLDER%/CRE/CBTANASU.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBTANASU.cre~         ~override~       
   SAY NAME1 @20292 
   SAY NAME2 @20292 
 
-COPY  ~%MOD_FOLDER%/CRE/CBTBGGAL.cre~         ~override~       
-     ~%MOD_FOLDER%/CRE/CBTBGGL1.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBTBGGAL.cre~         ~override~       
+     ~%MOD_FOLDER%/Cre/CBTBGGL1.cre~         ~override~
   SAY NAME1 @20293
   SAY NAME2 @20294
 
-COPY  ~%MOD_FOLDER%/CRE/CBTBGMAL.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBTBGML1.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBTBGMAL.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBTBGML1.cre~         ~override~
   SAY NAME1 @20295
   SAY NAME2 @20296
 
-COPY  ~%MOD_FOLDER%/CRE/CBTBGMER.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBTBGMR1.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBTBGMER.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBTBGMR1.cre~         ~override~
   SAY NAME1 @20297 
   SAY NAME2 @20298 
   SAY 0xa8 @20299  
@@ -1028,67 +1028,67 @@ COPY  ~%MOD_FOLDER%/CRE/CBTBGMER.cre~         ~override~
   SAY 0x1bc @20333  
   SAY 0x1c0 @20334  
 
-COPY  ~%MOD_FOLDER%/CRE/CBTBGPOT.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBTBGPT1.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBTBGPOT.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBTBGPT1.cre~         ~override~
   SAY NAME1 @20335 
   SAY NAME2 @20336 
 
-COPY  ~%MOD_FOLDER%/CRE/CBTBGTD1.cre~         ~override~       
-     ~%MOD_FOLDER%/CRE/CBTBGTOD.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBTBGTD1.cre~         ~override~       
+     ~%MOD_FOLDER%/Cre/CBTBGTOD.cre~         ~override~
   SAY NAME1 @20337 
   SAY NAME2 @20338 
 
-COPY  ~%MOD_FOLDER%/CRE/CBTRIEL0.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBTRIEL1.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBTRIEL2.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBTRIEL3.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBTRIEL4.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBTRIEL5.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBTRIEL6.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBTRIEL7.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBTRIEL8.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/CBTRIEL9.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBTRIEL0.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBTRIEL1.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBTRIEL2.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBTRIEL3.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBTRIEL4.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBTRIEL5.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBTRIEL6.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBTRIEL7.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBTRIEL8.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/CBTRIEL9.cre~         ~override~
   SAY NAME1 @20141 
   SAY NAME2 @20141 
 
-COPY  ~%MOD_FOLDER%/CRE/CBTWRMBB.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBTWRMBB.cre~         ~override~
   SAY NAME1 @20339 
   SAY NAME2 @20339 
 
-COPY  ~%MOD_FOLDER%/CRE/CBUHAKCT.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBUHAKCT.cre~         ~override~
   SAY NAME1 @20160 
   SAY NAME2 @20161 
   SAY 0xa4 @20170 
 
-COPY  ~%MOD_FOLDER%/CRE/CBUHCUT1.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBUHCUT1.cre~         ~override~
 
-COPY  ~%MOD_FOLDER%/CRE/CBUHGVCT.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBUHGVCT.cre~         ~override~
   SAY NAME1 @20198
   SAY NAME2 @20199 
 
-COPY  ~%MOD_FOLDER%/CRE/CBVINNIE.CRE~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CBVINNIE.CRE~         ~override~
 
-COPY  ~%MOD_FOLDER%/CRE/CBWEREGR.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBWEREGR.cre~         ~override~       
   SAY NAME1 @20342 
   SAY NAME2 @20342 
 
-COPY  ~%MOD_FOLDER%/CRE/CBWILLET.CRE~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBWILLET.CRE~         ~override~       
 
-COPY  ~%MOD_FOLDER%/CRE/CBWILLMA.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBWILLMA.cre~         ~override~       
   SAY NAME1 @20343 
   SAY NAME2 @20343 
 
-COPY  ~%MOD_FOLDER%/CRE/CBWILLMS.CRE~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBWILLMS.CRE~         ~override~       
   SAY NAME1 @20344 
   SAY NAME2 @20344 
 
-COPY  ~%MOD_FOLDER%/CRE/CBWLSERV.cre~         ~override~       
+COPY ~%MOD_FOLDER%/Cre/CBWLSERV.cre~         ~override~       
   SAY NAME1 @20345 
   SAY NAME2 @20345 
 
-COPY  ~%MOD_FOLDER%/CRE/CHARLO09.CRE~         ~override~       
-     ~%MOD_FOLDER%/CRE/CHARLO12.CRE~         ~override~
-     ~%MOD_FOLDER%/CRE/CHARLO22.CRE~         ~override~
+COPY ~%MOD_FOLDER%/Cre/CHARLO09.CRE~         ~override~       
+     ~%MOD_FOLDER%/Cre/CHARLO12.CRE~         ~override~
+     ~%MOD_FOLDER%/Cre/CHARLO22.CRE~         ~override~
   SAY NAME1 @20346 
   SAY NAME2 @20346 
   SAY 0xac @20347  
@@ -1126,9 +1126,9 @@ COPY  ~%MOD_FOLDER%/CRE/CHARLO09.CRE~         ~override~
   SAY 0x1cc @20375 
 
 
-COPY  ~%MOD_FOLDER%/CRE/TOMAST11.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/TOMAST16.cre~         ~override~
-     ~%MOD_FOLDER%/CRE/TOMAST19.cre~         ~override~
+COPY ~%MOD_FOLDER%/Cre/TOMAST11.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/TOMAST16.cre~         ~override~
+     ~%MOD_FOLDER%/Cre/TOMAST19.cre~         ~override~
   SAY NAME1 @20376 
   SAY NAME2 @20377 
   SAY 0xa8 @20378  
