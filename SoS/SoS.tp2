@@ -35,6 +35,9 @@ ALWAYS
         OUTER_SPRINT os_slash ~/~
         OUTER_SPRINT exe ~~
     END
+  
+  ACTION_IF NOT VARIABLE_IS_SET one_time_execution THEN BEGIN // check to make this happen only once per install
+    OUTER_SET one_time_execution = 1
 
     // define variable for HANDLE_CHARSETS out_path so it can be reused later
     OUTER_TEXT_SPRINT "HANDLE_CHARSETS_OUT_PATH" EVAL "weidu_external/Language/%MOD_FOLDER%"
@@ -68,7 +71,7 @@ ALWAYS
     ACTION_IF GAME_IS ~bgee bg2ee eet iwdee pstee~ THEN BEGIN
         LOAD_TRA ~%MOD_FOLDER%/Language/%LANGUAGE%/ITEMS-EE.tra~
     END
-
+  END
 END
 
 // for the EE games, the variable will point to the untouched .tra files
