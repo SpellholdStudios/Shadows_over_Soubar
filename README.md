@@ -184,7 +184,7 @@ This component requires the main component to be installed. It patches BGmain.ex
 
 ## 
 
-#### Programs/tools used in creation:
+#### Programs/Tools used in creation:
 
 - <a href="https://github.com/WeiDUorg/weidu/releases"><acronym title="Weimer Dialogue Utility">WeiDU</acronym></a>, by Wes Weimer, the bigg and Wisp.
 - <a href="https://github.com/Argent77/NearInfinity/releases">Near Infinity</a>, by Jon Olav Hauglid, FredSRichardson, and Argent77.
