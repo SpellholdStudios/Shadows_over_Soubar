@@ -238,7 +238,7 @@ By Roberciiik:
 
 By AL|EN:
 - Introduce immutability and encapsulation.
-- Fix mod uninstallation: all mod files should be removed from override during uninstallation
+- Fix mod uninstallation: all mod files should be removed from override during uninstallation.
 - Fixed copying of the MVE folder.
 - Uses the %MOD_FOLDER% automatic variable.
 - Uses labels for component requirements statements.
@@ -250,6 +250,7 @@ By AL|EN:
 - Updated the metadata file to use the latest template.
 - Change HANDLE_CHARSETS to use from_UTF8 and adjusted tra files.
 - Fixed HANDLE_CHARSETS execution on EET.
+- Fixed encoding problems by replacing ű with û.
 - Updated add_worldmap_tbl.
 - Fixed adding areas to cheat table.
 - Remove custom kit.ids fixer and use latest from BG2Fixpack.
