@@ -253,7 +253,7 @@ By AL|EN:
 - Updated add_worldmap_tbl.
 - Fixed adding areas to cheat table.
 - Remove custom kit.ids fixer and use latest from BG2Fixpack.
-- Remove manual *.tlk files backup.
+- Remove additional backup of  *.tlk files.
 - Standardize folder names, file extensions.
 - Made cosmetic changes to the readme files.
 - Added 'outdated' to outdated readme files.
