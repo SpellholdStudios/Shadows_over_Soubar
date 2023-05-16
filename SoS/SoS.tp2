@@ -762,10 +762,6 @@ END
 
 MKDIR ~%workspace%/Ogg2~
 
-ACTION_BASH_FOR ~%MOD_FOLDER%/Ogg2~ ~^.+\.ogg$~ BEGIN
-    COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/Ogg2~
-END
-
 ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
     ACTION_IF (NOT FILE_EXISTS ~data/ROT-RULE.BIF~) AND	(NOT FILE_EXISTS_IN_GAME ~rot.mrk~) AND	(NOT FILE_EXISTS_IN_GAME ~TT0025.ARE~) BEGIN
         ACTION_FOR_EACH var IN 2da bam BEGIN
@@ -797,6 +793,10 @@ ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
                 COPY ~%BASH_FOR_FILESPEC%~ ~override/%newname%~
             END
         END
+    END
+
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Ogg2~ ~^.+\.ogg$~ BEGIN
+        COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/Ogg2~
     END
 
     ACTION_BASH_FOR ~%MOD_FOLDER%/Anim/Yeti~ ~^.+\.ogg$~ BEGIN
@@ -844,6 +844,10 @@ ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
                 COPY ~%BASH_FOR_FILESPEC%~ ~override/%newname%~
             END
         END
+    END
+
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Ogg2~ ~^.+\.ogg$~ BEGIN
+        COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/Ogg2~
     END
 
     ACTION_BASH_FOR ~%MOD_FOLDER%/Anim/Remorhaz~ ~^.+\.ogg$~ BEGIN
