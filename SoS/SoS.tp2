@@ -4,7 +4,7 @@ AUTHOR ~Charles Bisson, Horred The Plague (WeiDU), King Diamond (WeiDU revision)
 
 NO_IF_EVAL_BUG
 
-VERSION ~1.16~
+VERSION ~2.0~
 
 README ~%MOD_FOLDER%/readme/%MOD_FOLDER%-readme-readme-english.html~ ~%MOD_FOLDER%/readme/%MOD_FOLDER%-readme-%LANGUAGE%.html~
 
@@ -35,7 +35,6 @@ ALWAYS
         OUTER_SPRINT os_slash ~/~
         OUTER_SPRINT exe ~~
     END
-    OUTER_SPRINT ~tileconv~ ~%MOD_FOLDER%%os_slash%bin%os_slash%%WEIDU_OS%%os_slash%tileconv%exe%~
 
     // define variable for HANDLE_CHARSETS out_path so it can be reused later
     OUTER_TEXT_SPRINT "HANDLE_CHARSETS_OUT_PATH" EVAL "weidu_external/Language/%MOD_FOLDER%"
@@ -522,14 +521,13 @@ ACTION_IF GAME_IS ~eet~ BEGIN
     INCLUDE ~%MOD_FOLDER%/Lib/add_worldmap_tbl.tpa~
     LAF ADD_WORLDMAP_TBL
         INT_VAR
-        verbose = 1
-        inclSv = 0
+            verbose = 1
+            inclSv = 0
         STR_VAR
-        path_to_areas = EVAL ~%MOD_FOLDER%/Worldmap/EET/eet-areas.tbl~
-        //path_to_areas_bp = EVAL ~%MOD_FOLDER%/Worldmap/areas.tbl~
-        path_to_links = EVAL ~%MOD_FOLDER%/Worldmap/EET/eet-links.tbl~
-        path_to_trans = EVAL ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
-
+            path_to_areas = EVAL ~%MOD_FOLDER%/Worldmap/EET/eet-areas.tbl~
+            //path_to_areas_bp = EVAL ~%MOD_FOLDER%/Worldmap/areas.tbl~
+            path_to_links = EVAL ~%MOD_FOLDER%/Worldmap/EET/eet-links.tbl~
+            path_to_trans = EVAL ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
     END
 END
 
@@ -761,6 +759,13 @@ END
 //***********************************************************************************
 // YETI animation
 //***********************************************************************************
+
+MKDIR ~%workspace%/Ogg2~
+
+ACTION_BASH_FOR ~%MOD_FOLDER%/Ogg2~ ~^.+\.ogg$~ BEGIN
+    COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/Ogg2~
+END
+
 ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
     ACTION_IF (NOT FILE_EXISTS ~data/ROT-RULE.BIF~) AND	(NOT FILE_EXISTS_IN_GAME ~rot.mrk~) AND	(NOT FILE_EXISTS_IN_GAME ~TT0025.ARE~) BEGIN
         ACTION_FOR_EACH var IN 2da bam BEGIN
@@ -769,10 +774,10 @@ ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
             END
         END
     END
+
     ACTION_BASH_FOR ~%MOD_FOLDER%/anim/Yeti~ ~^.+\.ogg$~ BEGIN
         ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
-            MKDIR ~%workspace%/ogg2~
-            COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/ogg2~
+            COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/Ogg2~
         END
     END
   COPY ~%MOD_FOLDER%/CRE/CBSSYETI.cre~         ~override~
@@ -793,10 +798,10 @@ ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
             END
         END
     END
+
     ACTION_BASH_FOR ~%MOD_FOLDER%/anim/Yeti~ ~^.+\.ogg$~ BEGIN
         ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
-            MKDIR ~%workspace%/ogg2~
-            COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/ogg2~
+            COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/Ogg2~
         END
     END
   COPY ~%MOD_FOLDER%/CRE/CBSSYETI.cre~         ~override~
@@ -813,10 +818,10 @@ ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
             COPY ~%BASH_FOR_FILESPEC%~ ~override~
         END
     END
+
     ACTION_BASH_FOR ~%MOD_FOLDER%/anim/Remorhaz~ ~^.+\.ogg$~ BEGIN
         ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
-            MKDIR ~%workspace%/ogg2~
-            COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/ogg2~
+            COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/Ogg2~
         END
     END
     COPY ~%MOD_FOLDER%/CRE/CBTWRMGR.cre~         ~override~
@@ -840,10 +845,10 @@ ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
             END
         END
     END
+
     ACTION_BASH_FOR ~%MOD_FOLDER%/anim/Remorhaz~ ~^.+\.ogg$~ BEGIN
         ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
-            MKDIR ~%workspace%/ogg2~
-            COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/ogg2~
+            COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/Ogg2~
         END
     END
     COPY ~%MOD_FOLDER%/CRE/CBTWRMGR.cre~         ~override~
@@ -965,40 +970,42 @@ COPY ~%MOD_FOLDER%/CRE/SELENC07.cre~         ~override~
 //////////////////////////////
 // Decompressing and buffing
 //////////////////////////////
-MKDIR ~%workspace%/ogg1~
-
-
-ACTION_BASH_FOR ~%MOD_FOLDER%/language/english/ogg1~ ~^.+\.ogg$~ BEGIN
-    ACTION_IF NOT FILE_EXISTS ~%MOD_FOLDER%/language/%LANGUAGE%/ogg1/%BASH_FOR_FILE%~ BEGIN
-        COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/ogg1~
+MKDIR ~%workspace%/Language/%LANGUAGE%/ogg1~
+    
+ACTION_BASH_FOR ~%MOD_FOLDER%/Language/%LANGUAGE%/ogg1~ ~^.+\.ogg$~ BEGIN
+    COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/Language/%LANGUAGE%/ogg1~
+END
+ACTION_BASH_FOR ~%MOD_FOLDER%/Language/English/ogg1~ ~^.+\.ogg$~ BEGIN
+    ACTION_IF NOT FILE_EXISTS ~%workspace%/Language/%LANGUAGE%/ogg1/%BASH_FOR_FILE%~ BEGIN
+        COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/Language/%LANGUAGE%/ogg1~
     END
 END
 
-/*COPY ~%MOD_FOLDER%/language/%LANGUAGE%/ogg1~ ~%MOD_FOLDER%/biff~
-     ~%workspace%/ogg2~ ~%MOD_FOLDER%/biff~*/
+/*COPY ~%MOD_FOLDER%/Language/%LANGUAGE%/ogg1~ ~%MOD_FOLDER%/biff~
+     ~%workspace%/Ogg2~ ~%MOD_FOLDER%/biff~*/
 
 LAF HANDLE_AUDIO
     STR_VAR
-    audio_path = EVAL ~%workspace%/ogg1~
-    oggdec_path = EVAL ~%MOD_FOLDER%/Tools/oggdec~
-    sox_path = EVAL ~%MOD_FOLDER%/Tools/sox/~
-    output_path = ~override~
+        audio_path = EVAL ~%workspace%/Language/%LANGUAGE%/ogg1~
+        oggdec_path = EVAL ~%MOD_FOLDER%/Tools/oggdec~
+        sox_path = EVAL ~%MOD_FOLDER%/Tools/sox/~
+        output_path = ~override~
 END
 
 LAF HANDLE_AUDIO  // With no configuration, HANDLE_AUDIO expects your audio, oggdec.exe and SoX to be located in mymod/audio
-  STR_VAR
-    audio_path = EVAL ~%workspace%/ogg2~
-    oggdec_path = EVAL ~%MOD_FOLDER%/Tools/oggdec~
-    sox_path = EVAL ~%MOD_FOLDER%/Tools/sox/~
-    output_path = ~override~
+    STR_VAR
+        audio_path = EVAL ~%workspace%/Ogg2~
+        oggdec_path = EVAL ~%MOD_FOLDER%/Tools/oggdec~
+        sox_path = EVAL ~%MOD_FOLDER%/Tools/sox/~
+        output_path = ~override~
 END
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
     LAF HANDLE_TILESETS
         STR_VAR
-        tiz_path = EVAL ~%MOD_FOLDER%/Tiz~
-        tisunpack_path = EVAL ~%MOD_FOLDER%/Tools/tisunpack~
-    END	 
+            tiz_path = EVAL ~%MOD_FOLDER%/Tiz~
+            tisunpack_path = EVAL ~%MOD_FOLDER%/Tools/tisunpack~
+    END
 END
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
