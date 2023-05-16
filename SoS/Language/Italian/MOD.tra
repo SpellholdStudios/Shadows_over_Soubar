@@ -701,8 +701,8 @@ Il passato di Bolivar potrà non essere chiaro, ma la sua personalità lo è. Bo
 @20373 = ~Oh, stai dimostrando di essere una persona molto irritante.~ [CHARL_31]
 @20374 = ~Spero che ti venga il vaiolo su quella mano.~ [CHARL_33]
 @20375 = ~CHARLOTTE è stata cresciuta nella lontana isola degli Elfi, Evermeet, ed addestrata nel campo dell'arte, della letteratura, della religione, della storia, della musica e della recitazione. I suoi studi, per quanto piacevoli, non diedero a Charlotte la convinzione che l'avrebbero resa un'esponente creativa della sua cultura. Aveva la conoscenza del grande lavoro degli altri - come l'essere capace di individuare l'esatto anno di produzione di un quadro o da chi fosse stato realizzato - ma non aveva l'abilità o il talento creativo per produrre qualche sua opera. E' stato a questo punto che Charlotte capì di aver bisogno di qualcos'altro. Dopo aver ultimato i suoi studi quando era una giovane elfa, Charlotte lasciò l'isola e, opponendosi alla volontà della sua famiglia e di suo padre, si diresse verso la terra ferma quando molti altri elfi partivano per Evermeet.  
-	Charlotte girovagò per decenni le foreste prima di comprendere che era una ranger. Non era mai stata addestrata formalmente per essere tale, ma per lei fu più o meno una sorta di scoperta. Intraprese la sua nuova carriera seriamente e si rivelò piuttosto dotata. Il fatto che sia di razza elfica e di sesso femminile non ha influito sul fatto che è diventata competente nelle abilità da ranger.
-	Recentemente, Charlotte ha perso la fede per qualche ragione che lei non è molto disponibile a dire e ha perso il suo stato di ranger. Ciò nonostante, continua ad esserlo nel cuore e forse otterrà nuovamente il suo titolo.~
+    Charlotte girovagò per decenni le foreste prima di comprendere che era una ranger. Non era mai stata addestrata formalmente per essere tale, ma per lei fu più o meno una sorta di scoperta. Intraprese la sua nuova carriera seriamente e si rivelò piuttosto dotata. Il fatto che sia di razza elfica e di sesso femminile non ha influito sul fatto che è diventata competente nelle abilità da ranger.
+    Recentemente, Charlotte ha perso la fede per qualche ragione che lei non è molto disponibile a dire e ha perso il suo stato di ranger. Ciò nonostante, continua ad esserlo nel cuore e forse otterrà nuovamente il suo titolo.~
 @20376 = ~Tomas Tomalson~
 @20377 = ~Tomas~
 @20378 = ~Ci sono grandi probabilità... di battersela.~ [CBTOM_01]
@@ -1278,7 +1278,7 @@ Intelligenza: Bonus +1
 Utilizzabile solo da:
   Mago (singolo, duale e multiclasse)~
 @20495 = ~Strada Solitaria~
-@20496 = ~Questa potente arma è composta da un'asta lunga quasi due metri sormontata da una possente lama. L'ascia può essere bipenne, e montare una lama da ogni lato dell'asta, oppure può essere dotata di una lama singola. È  un'arma difficile da impugnare, ma un guerriero abile è in grado di sferrare colpi di grande potenza se la usa come si deve.
+@20496 = ~Questa potente arma è composta da un'asta lunga quasi due metri sormontata da una possente lama. L'ascia può essere bipenne, e montare una lama da ogni lato dell'asta, oppure può essere dotata di una lama singola. Ø  un'arma difficile da impugnare, ma un guerriero abile è in grado di sferrare colpi di grande potenza se la usa come si deve.
 
 STATISTICHE:
 
@@ -1353,7 +1353,7 @@ Non utilizzabile da:
  Kensai
  Infiltrato~
 @20504 = ~Manto della Tempesta Incombente~
-@20505 = ~A questo semplice mantello sono state conferite alcune piccole proprietà magiche per aiutare a proteggere chi lo indossa. Assolve a questo compito influenzando sia i tiri salvezza che la classe armatura. È ideale per maghi e altri che non possono indossare le armature più ingombranti o quelle che limitano i movimenti in misura maggiore.
+@20505 = ~A questo semplice mantello sono state conferite alcune piccole proprietà magiche per aiutare a proteggere chi lo indossa. Assolve a questo compito influenzando sia i tiri salvezza che la classe armatura. Ø ideale per maghi e altri che non possono indossare le armature più ingombranti o quelle che limitano i movimenti in misura maggiore.
  
 STATISTICHE:
 
@@ -1378,7 +1378,7 @@ Resistance Bonuses:
 Non utilizzabile da: 
   Ammazzastregoni~
 @20507 = ~Specchio di Ghiaccio Nero~
-@20508 = ~Avvolto da serpenti gemelli lungo i bordi e fissato dalle mani di Tiernon, questo specchio di ghiaccio nero può ora essere portato al collo. È utilizzato ancora con le stesse funzioni dello specchio di ghiaccio nero originale, ma è molto più leggero, e i riflessi all'interno dello specchio sembrano sia più definiti che opachi allo stesso tempo. 
+@20508 = ~Avvolto da serpenti gemelli lungo i bordi e fissato dalle mani di Tiernon, questo specchio di ghiaccio nero può ora essere portato al collo. Ø utilizzato ancora con le stesse funzioni dello specchio di ghiaccio nero originale, ma è molto più leggero, e i riflessi all'interno dello specchio sembrano sia più definiti che opachi allo stesso tempo. 
 
 Il potere dello Specchio di Ghiaccio Nero sta nella sua capacità di confondere la vista dell'attaccante. Il semplice indossarlo conferisce un bonus alle difese di chi lo indossa, poiché gli attaccanti scoprono che chi lo indossa non è dove pensavano che si trovasse. Concentrandosi sullo specchio, inoltre, chi lo indossa può alterare le percezioni visive di chi guarda nella sua direzione, rendendosi più difficile da colpire, o dividendo la sua immagine in numerosi riflessi, confondendo ulteriormente gli avversari. Lo specchio contiene una limitata quantità di energia per svolgere queste imprese, ma anche quando i poteri di Sfocatura e Immagini Illusorie saranno scomparsi, le difese passive rimarranno.
 
@@ -1504,7 +1504,7 @@ Raddoppia il numero degli incantesimi di quinto livello a disposizione del perso
 Utilizzabile solo da:
   Mago (Singolo, Duale, e Multi)~
 @20525 = ~Cappuccio del Vagabondo~
-@20526 = ~Questo cappuccio color marrone scuro va portato sulla testa e sulle spalle come se fosse un normale cappuccio. È stato realizzato dal ladro e illusionista gnomo Brein Chestnut. Brein usò il cappuccio per le sue imprese per molti anni prima che il suo amore di gioventù lo convincesse ad abbandonare l'avventura. Cedette il cappuccio a suo nipote, Chirchet, che a sua volta lo vendette in cambio di un grosso appezzamento di terra.
+@20526 = ~Questo cappuccio color marrone scuro va portato sulla testa e sulle spalle come se fosse un normale cappuccio. Ø stato realizzato dal ladro e illusionista gnomo Brein Chestnut. Brein usò il cappuccio per le sue imprese per molti anni prima che il suo amore di gioventù lo convincesse ad abbandonare l'avventura. Cedette il cappuccio a suo nipote, Chirchet, che a sua volta lo vendette in cambio di un grosso appezzamento di terra.
 
 STATISTICHE:
 
@@ -1646,7 +1646,7 @@ Non utilizzabile da:
  Monaco
  Addestratore di animali~
 @20544 = ~Ascia da Battaglia Avvelenata +2~
-@20545 = ~Oltre all'incredibile fattura di quest'arma, è possibile notare che la sua superficie è ricoperta di piccole rune di potere. È evidente che per crearla sono stati compiuti molti sforzi; inoltre, anche se non è immediatamente apparente, sembra irradiare una debole luminescenza bluastra.
+@20545 = ~Oltre all'incredibile fattura di quest'arma, è possibile notare che la sua superficie è ricoperta di piccole rune di potere. Ø evidente che per crearla sono stati compiuti molti sforzi; inoltre, anche se non è immediatamente apparente, sembra irradiare una debole luminescenza bluastra.
 
 STATISTICHE:
 
@@ -1670,7 +1670,7 @@ Non utilizzabile da:
  Monaco
  Addestratore di animali~
 @20546 = ~Verità di Benorg~
-@20547 = ~Oltre all'incredibile fattura di quest'arma, è possibile notare che la sua superficie è ricoperta di piccole rune di potere. È evidente che per crearla sono stati compiuti molti sforzi; inoltre, anche se non è immediatamente apparente, sembra irradiare una debole luminescenza bluastra.
+@20547 = ~Oltre all'incredibile fattura di quest'arma, è possibile notare che la sua superficie è ricoperta di piccole rune di potere. Ø evidente che per crearla sono stati compiuti molti sforzi; inoltre, anche se non è immediatamente apparente, sembra irradiare una debole luminescenza bluastra.
 
 STATISTICHE:
 
@@ -1695,7 +1695,7 @@ Non utilizzabile da:
  Monaco
  Addestratore di animali~
 @20548 = ~Ascia Grande della Resistenza +3~
-@20549 = ~Questa potente arma è composta da un'asta lunga quasi due metri sormontata da una possente lama. L'ascia può essere bipenne, e montare una lama da ogni lato dell'asta, oppure può essere dotata di una lama singola. È  un'arma difficile da impugnare, ma un guerriero abile è in grado di sferrare colpi di grande potenza se la usa come si deve. Per potenziare ulteriormente l'arma, la testa dell'ascia è stata decorata con rune naniche.
+@20549 = ~Questa potente arma è composta da un'asta lunga quasi due metri sormontata da una possente lama. L'ascia può essere bipenne, e montare una lama da ogni lato dell'asta, oppure può essere dotata di una lama singola. Ø  un'arma difficile da impugnare, ma un guerriero abile è in grado di sferrare colpi di grande potenza se la usa come si deve. Per potenziare ulteriormente l'arma, la testa dell'ascia è stata decorata con rune naniche.
 
 STATISTICHE:
 
@@ -1723,7 +1723,7 @@ Non utilizzabile da:
  Monaco
  Addestratore di animali~
 @20550 = ~Spada Bastarda +3 di Difesa~
-@20551 = ~Oltre all'incredibile fattura di quest'arma, è possibile notare che la sua superficie è ricoperta di piccole rune di potere. È evidente che crearla è costato molta fatica; inoltre, anche se non è immediatamente apparente, sembra irradiare una debole luminescenza bluastra.
+@20551 = ~Oltre all'incredibile fattura di quest'arma, è possibile notare che la sua superficie è ricoperta di piccole rune di potere. Ø evidente che crearla è costato molta fatica; inoltre, anche se non è immediatamente apparente, sembra irradiare una debole luminescenza bluastra.
 
 STATISTICHE:
 
@@ -1771,7 +1771,7 @@ Non utilizzabile da:
   Chierico
   Addestratore di animali~
 @20554 = ~Lamento delle Vergini~
-@20555 = ~A questo semplice mantello sono state conferite alcune piccole proprietà magiche per aiutare a proteggere chi lo indossa. Assolve a questo compito influenzando sia i tiri salvezza che la classe armatura. È ideale per maghi e altri che non possono indossare le armature più ingombranti o quelle che limitano i movimenti in misura maggiore.
+@20555 = ~A questo semplice mantello sono state conferite alcune piccole proprietà magiche per aiutare a proteggere chi lo indossa. Assolve a questo compito influenzando sia i tiri salvezza che la classe armatura. Ø ideale per maghi e altri che non possono indossare le armature più ingombranti o quelle che limitano i movimenti in misura maggiore.
 
 STATISTICHE:
 
@@ -1813,7 +1813,7 @@ Non utilizzabile da:
  Monaco
  Kensai~
 @20559 = ~La Vecchia Withery~
-@20560 = ~Il nome originale di questa strana lama è perduto nelle fangose profondità del Mare delle Spade. Intagliato nell'osso rinforzato magicamente di un sahuagin, si ritiene che l'arma fosse utilizzata dai kuo-toa in alcuni strani rituali. Il manico è fatto di corallo e rivestito in pelle di sahuagin. Una volta appartenne a Lockhart, un noto avventuriero, ladro e contrabbandiere della Costa della Spada. È stato lui a dare alla lama il suo attuale nome.
+@20560 = ~Il nome originale di questa strana lama è perduto nelle fangose profondità del Mare delle Spade. Intagliato nell'osso rinforzato magicamente di un sahuagin, si ritiene che l'arma fosse utilizzata dai kuo-toa in alcuni strani rituali. Il manico è fatto di corallo e rivestito in pelle di sahuagin. Una volta appartenne a Lockhart, un noto avventuriero, ladro e contrabbandiere della Costa della Spada. Ø stato lui a dare alla lama il suo attuale nome.
 
 STATISTICHE:
 
