@@ -282,7 +282,7 @@ END
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 COPY_EXISTING ~SPELL.IDS~        ~override~
     REPLACE_TEXTUALLY ~2302 WIZARD_DISPEL_MAGIC~      ~2302 WIZARD_REMOVE_MAGIC~
-//	REPLACE_TEXTUALLY ~2326 WIZARD_TRUE_DISPEL_MAGIC~ ~2326 WIZARD_DISPEL_MAGIC~
+//    REPLACE_TEXTUALLY ~2326 WIZARD_TRUE_DISPEL_MAGIC~ ~2326 WIZARD_DISPEL_MAGIC~
 APPEND ~SPELL.IDS~ ~2326 WIZARD_DISPEL_MAGIC~
 UNLESS ~2326 WIZARD_DISPEL_MAGIC~
 END
@@ -766,7 +766,7 @@ END
 MKDIR ~%workspace%/Ogg2~
 
 ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
-    ACTION_IF (NOT FILE_EXISTS ~data/ROT-RULE.BIF~) AND	(NOT FILE_EXISTS_IN_GAME ~rot.mrk~) AND	(NOT FILE_EXISTS_IN_GAME ~TT0025.ARE~) BEGIN
+    ACTION_IF (NOT FILE_EXISTS ~data/ROT-RULE.BIF~) AND    (NOT FILE_EXISTS_IN_GAME ~rot.mrk~) AND    (NOT FILE_EXISTS_IN_GAME ~TT0025.ARE~) BEGIN
         ACTION_FOR_EACH var IN 2da bam BEGIN
             ACTION_BASH_FOR ~%MOD_FOLDER%/Anim/Yeti~ ~^.+\.%var%$~ BEGIN
                 COPY ~%BASH_FOR_FILESPEC%~ ~override~
@@ -1024,7 +1024,7 @@ ACTION_IF DIRECTORY_EXISTS ~%MOD_FOLDER%/Language/%LANGUAGE%/MVE~ BEGIN
     COPY ~%MOD_FOLDER%/Language/%LANGUAGE%/MVE~ ~override~
 END
 
-// older mods use SoS-RULE	
+// older mods use SoS-RULE    
 MAKE_BIFF ~SoS-RULE~ BEGIN
     ~override~ ~SoS.mrk~
 END
@@ -1040,7 +1040,7 @@ BEGIN @21011
     REQUIRE_PREDICATE MOD_IS_INSTALLED "SoS.tp2" (ID_OF_LABEL "SoS.tp2" "shadows_over_soubar" ) @21003
 
     ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-           COPY	~%MOD_FOLDER%/Pvrz/Alt/AR4230.TIS~ ~override~
+           COPY    ~%MOD_FOLDER%/Pvrz/Alt/AR4230.TIS~ ~override~
                 ~%MOD_FOLDER%/Pvrz/Alt/A423000.PVRZ~ ~override~
                 ~%MOD_FOLDER%/Pvrz/Alt/A423001.PVRZ~ ~override~
                 ~%MOD_FOLDER%/Pvrz/Alt/A423002.PVRZ~ ~override~
@@ -1084,21 +1084,21 @@ BEGIN @21011
                 ~%MOD_FOLDER%/Pvrz/Alt/A4230N19.PVRZ~ ~override~
     END
     ELSE BEGIN
-        COPY_LARGE	~%MOD_FOLDER%/Tiz/ALT/AR4230.TIS~ ~override~
+        COPY_LARGE    ~%MOD_FOLDER%/Tiz/ALT/AR4230.TIS~ ~override~
                     ~%MOD_FOLDER%/Tiz/ALT/AR4230N.TIS~ ~override~
     END
 
-    COPY	~%MOD_FOLDER%/Mos/ALT/AR4230.MOS~ ~override~
+    COPY    ~%MOD_FOLDER%/Mos/ALT/AR4230.MOS~ ~override~
             ~%MOD_FOLDER%/Mos/ALT/AR4230N.MOS~ ~override~
             ~%MOD_FOLDER%/Mos/ALT/AR4230HT.BMP~ ~override~
             ~%MOD_FOLDER%/Mos/ALT/AR4230LM.BMP~ ~override~
             ~%MOD_FOLDER%/Mos/ALT/AR4230LN.BMP~ ~override~
             ~%MOD_FOLDER%/Mos/ALT/AR4230SR.BMP~ ~override~
 
-    COPY	~%MOD_FOLDER%/Wed/Alt/AR4230.WED~ ~override~
+    COPY    ~%MOD_FOLDER%/Wed/Alt/AR4230.WED~ ~override~
             ~%MOD_FOLDER%/Wed/Alt/AR4230N.WED~ ~override~
 
-    COPY	~%MOD_FOLDER%/Are/Alt/AR4230.are~ ~override~
+    COPY    ~%MOD_FOLDER%/Are/Alt/AR4230.are~ ~override~
         // Info points
         SAY 0x257c @20075 // Social Club
         SAY 0x2640 @20076 // Narwhal
@@ -1122,125 +1122,125 @@ BEGIN @21011
     // Area script adjustment
     COPY_EXISTING ~AR4230.BCS~ ~override~
         DECOMPILE_AND_PATCH BEGIN
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4555.1696]~	~[4360.1750]~	// Cat & Eagle
-            REPLACE_TEXTUALLY EXACT_MATCH ~[693.1237]~	~[506.1237]~	// Cat & Eagle
-            REPLACE_TEXTUALLY EXACT_MATCH ~[608.2859]~	~[716.916]~		// Dog
-            REPLACE_TEXTUALLY EXACT_MATCH ~[2187.1035]~	~[1789.896]~	// Dog
-            REPLACE_TEXTUALLY EXACT_MATCH ~[2784.2987]~	~[3065.3040]~	// Dog
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4492.1911]~	~[4162.536]~	// Horse
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4204.2358]~	~[1157.1940]~	// Horse
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3555.396]~	~[3444.261]~	// Cow
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4278.1048]~	~[4532.628]~	// Cow
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4062.1056]~	~[890.65]~		// Cow
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4039.386]~	~[712.570]~		// Cow
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4248.620]~	~[104.1021]~	// Chicken
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4091.723]~	~[755.1026]~	// Chicken
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4321.704]~	~[958.917]~		// Chicken
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4262.753]~	~[321.1133]~	// Chicken
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4135.752]~	~[504.1246]~	// Chicken
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4348.904]~	~[972.705]~		// Chicken
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4097.902]~	~[940.657]~		// Chicken
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4555.1696]~    ~[4360.1750]~    // Cat & Eagle
+            REPLACE_TEXTUALLY EXACT_MATCH ~[693.1237]~    ~[506.1237]~    // Cat & Eagle
+            REPLACE_TEXTUALLY EXACT_MATCH ~[608.2859]~    ~[716.916]~        // Dog
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2187.1035]~    ~[1789.896]~    // Dog
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2784.2987]~    ~[3065.3040]~    // Dog
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4492.1911]~    ~[4162.536]~    // Horse
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4204.2358]~    ~[1157.1940]~    // Horse
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3555.396]~    ~[3444.261]~    // Cow
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4278.1048]~    ~[4532.628]~    // Cow
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4062.1056]~    ~[890.65]~        // Cow
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4039.386]~    ~[712.570]~        // Cow
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4248.620]~    ~[104.1021]~    // Chicken
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4091.723]~    ~[755.1026]~    // Chicken
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4321.704]~    ~[958.917]~        // Chicken
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4262.753]~    ~[321.1133]~    // Chicken
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4135.752]~    ~[504.1246]~    // Chicken
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4348.904]~    ~[972.705]~        // Chicken
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4097.902]~    ~[940.657]~        // Chicken
             
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3723.1803]~	~[3680.1830]~	// Soubar Villager
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3829.2805]~	~[3830.2265]~	// Soubar Villager
-            REPLACE_TEXTUALLY EXACT_MATCH ~[1867.2005]~	~[2230.1967]~	// Soubar Villager
-            REPLACE_TEXTUALLY EXACT_MATCH ~[1632.2731]~	~[1780.2865]~	// Soubar Villager
-            REPLACE_TEXTUALLY EXACT_MATCH ~[2635.907]~	~[2528.503]~	// Soubar Villager
-            REPLACE_TEXTUALLY EXACT_MATCH ~[800.1397]~	~[1520.1240]~	// Soubar Villager
-            REPLACE_TEXTUALLY EXACT_MATCH ~[2112.1472]~	~[2290.1525]~	// Soubar Villager
-            REPLACE_TEXTUALLY EXACT_MATCH ~[1408.3221]~	~[788.3540]~	// Soubar Villager
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3723.1803]~    ~[3680.1830]~    // Soubar Villager
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3829.2805]~    ~[3830.2265]~    // Soubar Villager
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1867.2005]~    ~[2230.1967]~    // Soubar Villager
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1632.2731]~    ~[1780.2865]~    // Soubar Villager
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2635.907]~    ~[2528.503]~    // Soubar Villager
+            REPLACE_TEXTUALLY EXACT_MATCH ~[800.1397]~    ~[1520.1240]~    // Soubar Villager
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2112.1472]~    ~[2290.1525]~    // Soubar Villager
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1408.3221]~    ~[788.3540]~    // Soubar Villager
 
-            REPLACE_TEXTUALLY EXACT_MATCH ~[425.1288]~	~[1635.358]~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[1874.1288]~	~[1095.2450]~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3292.2378]~	~[2255.2730]~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3980.2425]~	~[1820.3290]~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4779.1666]~	~[4387.2451]~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4759.1558]~	~[4380.1009]~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4168.3366]~	~[2843.3788]~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[2596.3379]~	~[1322.3712]~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[1521.3365]~	~[238.3333]~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[110.2922]~	~[153.1081]~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4547.2967]~	~[4870.3702]~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4672.2967]~	~[4982.3712]~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3428.2102],13~	~[2274.2343],1~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3483.2032],13~	~[2914.2512],1~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[425.1288]~    ~[1635.358]~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1874.1288]~    ~[1095.2450]~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3292.2378]~    ~[2255.2730]~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3980.2425]~    ~[1820.3290]~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4779.1666]~    ~[4387.2451]~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4759.1558]~    ~[4380.1009]~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4168.3366]~    ~[2843.3788]~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2596.3379]~    ~[1322.3712]~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1521.3365]~    ~[238.3333]~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[110.2922]~    ~[153.1081]~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4547.2967]~    ~[4870.3702]~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4672.2967]~    ~[4982.3712]~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3428.2102],13~    ~[2274.2343],1~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3483.2032],13~    ~[2914.2512],1~    // Soubar Guard
 
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4586.3077],6~	~[4030.3630],12~	// Soubar Guard (party's squad)
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4647.3073],6~	~[4030.3700],12~	// Soubar Guard (party's squad)
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4601.3127],6~	~[4030.3770],12~	// Soubar Guard (party's squad)
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4665.3123],6~	~[3955.3665],12~	// Soubar Guard (party's squad)
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4613.3187],6~	~[3955.3735],12~	// Soubar Guard (party's squad)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4586.3077],6~    ~[4030.3630],12~    // Soubar Guard (party's squad)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4647.3073],6~    ~[4030.3700],12~    // Soubar Guard (party's squad)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4601.3127],6~    ~[4030.3770],12~    // Soubar Guard (party's squad)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4665.3123],6~    ~[3955.3665],12~    // Soubar Guard (party's squad)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4613.3187],6~    ~[3955.3735],12~    // Soubar Guard (party's squad)
             
-            REPLACE_TEXTUALLY EXACT_MATCH ~[1626.191]~	~[2055.190]~	// Soubar Guard (ten new guards)
-            REPLACE_TEXTUALLY EXACT_MATCH ~[1754.318]~	~[2721.247]~	// Soubar Guard (ten new guards)
-            REPLACE_TEXTUALLY EXACT_MATCH ~[1898.357]~	~[3449.379]~	// Soubar Guard (ten new guards)
-            REPLACE_TEXTUALLY EXACT_MATCH ~[1981.221]~	~[4191.750]~	// Soubar Guard (ten new guards)
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4840.1225]~	~[4076.1633]~	// Soubar Guard (ten new guards)
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4755.1364]~	~[4143.1990]~	// Soubar Guard (ten new guards)
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4839.1476]~	~[3086.1821]~	// Soubar Guard (ten new guards)
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4226.1472]~	~[4232.1372]~	// Soubar Guard (ten new guards)
-            REPLACE_TEXTUALLY EXACT_MATCH ~[381.880]~	~[381.355]~		// Soubar Guard (ten new guards)
-            REPLACE_TEXTUALLY EXACT_MATCH ~[302.986]~	~[634.294]~		// Soubar Guard (ten new guards)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1626.191]~    ~[2055.190]~    // Soubar Guard (ten new guards)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1754.318]~    ~[2721.247]~    // Soubar Guard (ten new guards)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1898.357]~    ~[3449.379]~    // Soubar Guard (ten new guards)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1981.221]~    ~[4191.750]~    // Soubar Guard (ten new guards)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4840.1225]~    ~[4076.1633]~    // Soubar Guard (ten new guards)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4755.1364]~    ~[4143.1990]~    // Soubar Guard (ten new guards)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4839.1476]~    ~[3086.1821]~    // Soubar Guard (ten new guards)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4226.1472]~    ~[4232.1372]~    // Soubar Guard (ten new guards)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[381.880]~    ~[381.355]~        // Soubar Guard (ten new guards)
+            REPLACE_TEXTUALLY EXACT_MATCH ~[302.986]~    ~[634.294]~        // Soubar Guard (ten new guards)
 
-            REPLACE_TEXTUALLY EXACT_MATCH ~[453.945]~	~[453.601]~		// Squad Leader A
-            REPLACE_TEXTUALLY EXACT_MATCH ~[474.1118]~	~[73.195]~		// Squad Leader B
-            REPLACE_TEXTUALLY EXACT_MATCH ~[287.1139]~	~[75.355]~		// Squad Leader C
-            REPLACE_TEXTUALLY EXACT_MATCH ~[220.1035]~	~[1017.375]~	// Squad Leader D
-            REPLACE_TEXTUALLY EXACT_MATCH ~[235.868]~	~[792.205]~		// Squad Leader E
-            REPLACE_TEXTUALLY EXACT_MATCH ~[618.869]~	~[819.447]~		// Squad Leader G
-            REPLACE_TEXTUALLY EXACT_MATCH ~[359.653]~	~[434.95]~		// Squad Leader H
-            REPLACE_TEXTUALLY EXACT_MATCH ~[231.661]~	~[192.644]~		// Squad Leader I
-            REPLACE_TEXTUALLY EXACT_MATCH ~[595.586]~	~[695.564]~		// Squad Leader J
-            REPLACE_TEXTUALLY EXACT_MATCH ~[320.800]~	~[320.320]~		// Squad Leader K
+            REPLACE_TEXTUALLY EXACT_MATCH ~[453.945]~    ~[453.601]~        // Squad Leader A
+            REPLACE_TEXTUALLY EXACT_MATCH ~[474.1118]~    ~[73.195]~        // Squad Leader B
+            REPLACE_TEXTUALLY EXACT_MATCH ~[287.1139]~    ~[75.355]~        // Squad Leader C
+            REPLACE_TEXTUALLY EXACT_MATCH ~[220.1035]~    ~[1017.375]~    // Squad Leader D
+            REPLACE_TEXTUALLY EXACT_MATCH ~[235.868]~    ~[792.205]~        // Squad Leader E
+            REPLACE_TEXTUALLY EXACT_MATCH ~[618.869]~    ~[819.447]~        // Squad Leader G
+            REPLACE_TEXTUALLY EXACT_MATCH ~[359.653]~    ~[434.95]~        // Squad Leader H
+            REPLACE_TEXTUALLY EXACT_MATCH ~[231.661]~    ~[192.644]~        // Squad Leader I
+            REPLACE_TEXTUALLY EXACT_MATCH ~[595.586]~    ~[695.564]~        // Squad Leader J
+            REPLACE_TEXTUALLY EXACT_MATCH ~[320.800]~    ~[320.320]~        // Squad Leader K
 
-            REPLACE_TEXTUALLY EXACT_MATCH ~[1598.218]~	~[2406.395]~	// Squad Leader A
-            REPLACE_TEXTUALLY EXACT_MATCH ~[1810.101]~	~[2083.165]~	// Squad Leader B
-            REPLACE_TEXTUALLY EXACT_MATCH ~[2034.244]~	~[2758.232]~	// Squad Leader C
-            REPLACE_TEXTUALLY EXACT_MATCH ~[2022.382]~	~[2961.276]~	// Squad Leader D
-            REPLACE_TEXTUALLY EXACT_MATCH ~[1812.447]~	~[2104.405]~	// Squad Leader E
-            REPLACE_TEXTUALLY EXACT_MATCH ~[1675.533]~	~[2594.554]~	// Squad Leader G
-            REPLACE_TEXTUALLY EXACT_MATCH ~[1488.423]~	~[2943.372]~	// Squad Leader H
-            REPLACE_TEXTUALLY EXACT_MATCH ~[2105.123]~	~[2424.286]~	// Squad Leader I
-            REPLACE_TEXTUALLY EXACT_MATCH ~[2151.428]~	~[2683.39]~		// Squad Leader J
-            REPLACE_TEXTUALLY EXACT_MATCH ~[1761.306]~	~[2057.638]~	// Squad Leader K
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1598.218]~    ~[2406.395]~    // Squad Leader A
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1810.101]~    ~[2083.165]~    // Squad Leader B
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2034.244]~    ~[2758.232]~    // Squad Leader C
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2022.382]~    ~[2961.276]~    // Squad Leader D
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1812.447]~    ~[2104.405]~    // Squad Leader E
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1675.533]~    ~[2594.554]~    // Squad Leader G
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1488.423]~    ~[2943.372]~    // Squad Leader H
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2105.123]~    ~[2424.286]~    // Squad Leader I
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2151.428]~    ~[2683.39]~        // Squad Leader J
+            REPLACE_TEXTUALLY EXACT_MATCH ~[1761.306]~    ~[2057.638]~    // Squad Leader K
             
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4758.1285]~	~[3915.2258]~	// Squad Leader A
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4772.1471]~	~[4120.2169]~	// Squad Leader B
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4918.1664]~	~[4214.2354]~	// Squad Leader C
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4688.1705]~	~[4384.2458]~	// Squad Leader D
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4602.1576]~	~[4620.2402]~	// Squad Leader E
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4445.1429]~	~[4760.2459]~	// Squad Leader G
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4402.1297]~	~[4811.2581]~	// Squad Leader H
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4307.1275]~	~[5022.2562]~	// Squad Leader I
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4389.1460]~	~[4306.2440]~	// Squad Leader J
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4430.1641]~	~[3961.2105]~	// Squad Leader K
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4758.1285]~    ~[3915.2258]~    // Squad Leader A
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4772.1471]~    ~[4120.2169]~    // Squad Leader B
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4918.1664]~    ~[4214.2354]~    // Squad Leader C
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4688.1705]~    ~[4384.2458]~    // Squad Leader D
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4602.1576]~    ~[4620.2402]~    // Squad Leader E
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4445.1429]~    ~[4760.2459]~    // Squad Leader G
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4402.1297]~    ~[4811.2581]~    // Squad Leader H
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4307.1275]~    ~[5022.2562]~    // Squad Leader I
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4389.1460]~    ~[4306.2440]~    // Squad Leader J
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4430.1641]~    ~[3961.2105]~    // Squad Leader K
 
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3275.2350],6~	~[3250.3800],12~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3275.2400],6~	~[3250.3750],12~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3275.2450],6~	~[3250.3700],12~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3275.2500],6~	~[3250.3650],12~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3275.2550],6~	~[3250.3600],12~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3375.2350],6~	~[3180.3800],12~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3375.2400],6~	~[3180.3750],12~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3375.2450],6~	~[3180.3700],12~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3375.2500],6~	~[3180.3650],12~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3375.2550],6~	~[3180.3600],12~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3475.2350],6~	~[3180.3500],14~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3475.2400],6~	~[3240.3480],14~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3475.2450],6~	~[3300.3460],14~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3475.2500],6~	~[3360.3440],14~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3475.2550],6~	~[3420.3420],14~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3575.2350],6~	~[3140.3420],14~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3575.2400],6~	~[3200.3400],14~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3575.2450],6~	~[3260.3380],14~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3575.2500],6~	~[3320.3360],14~	// Soubar Guard
-            REPLACE_TEXTUALLY EXACT_MATCH ~[3575.2550],6~	~[3380.3340],14~	// Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3275.2350],6~    ~[3250.3800],12~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3275.2400],6~    ~[3250.3750],12~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3275.2450],6~    ~[3250.3700],12~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3275.2500],6~    ~[3250.3650],12~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3275.2550],6~    ~[3250.3600],12~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3375.2350],6~    ~[3180.3800],12~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3375.2400],6~    ~[3180.3750],12~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3375.2450],6~    ~[3180.3700],12~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3375.2500],6~    ~[3180.3650],12~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3375.2550],6~    ~[3180.3600],12~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3475.2350],6~    ~[3180.3500],14~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3475.2400],6~    ~[3240.3480],14~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3475.2450],6~    ~[3300.3460],14~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3475.2500],6~    ~[3360.3440],14~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3475.2550],6~    ~[3420.3420],14~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3575.2350],6~    ~[3140.3420],14~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3575.2400],6~    ~[3200.3400],14~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3575.2450],6~    ~[3260.3380],14~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3575.2500],6~    ~[3320.3360],14~    // Soubar Guard
+            REPLACE_TEXTUALLY EXACT_MATCH ~[3575.2550],6~    ~[3380.3340],14~    // Soubar Guard
             
-            REPLACE_TEXTUALLY EXACT_MATCH ~[2180.2220]~	~[2871.2838]~	// Soubar Villager
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4739.1428]~	~[4186.565]~	// Squad Leader A
-            REPLACE_TEXTUALLY EXACT_MATCH ~[2350.460]~	~[2545.369]~	// Squad Leader B
-            REPLACE_TEXTUALLY EXACT_MATCH ~[433.1261]~	~[268.318]~		// Squad Leader C
-            REPLACE_TEXTUALLY EXACT_MATCH ~[4380.1370]~	~[4392.699]~	// Squad Leader D
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2180.2220]~    ~[2871.2838]~    // Soubar Villager
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4739.1428]~    ~[4186.565]~    // Squad Leader A
+            REPLACE_TEXTUALLY EXACT_MATCH ~[2350.460]~    ~[2545.369]~    // Squad Leader B
+            REPLACE_TEXTUALLY EXACT_MATCH ~[433.1261]~    ~[268.318]~        // Squad Leader C
+            REPLACE_TEXTUALLY EXACT_MATCH ~[4380.1370]~    ~[4392.699]~    // Squad Leader D
         END
 
     // Soubar Sergeant script
@@ -1307,7 +1307,7 @@ BEGIN @21002
         ACTION_DEFINE_ASSOCIATIVE_ARRAY table_SOS_biff BEGIN
             ~SoS-tis~ , ~override~ , ~^.*\.tis$~ => 150000000 //150 MB
             ~SoS-wav~ , ~override~ , ~^.*\.wav$~ => 150000000 //150 MB
-    //		~SoS-RES~ , ~override~ , ~^.*$~ => 100000000 
+    //        ~SoS-RES~ , ~override~ , ~^.*$~ => 100000000 
         END
         
         ACTION_PHP_EACH table_SOS_biff AS biff => size BEGIN
@@ -1358,7 +1358,7 @@ COPY_EXISTING ~AR0700.bcs~ ~override~
  *  Remorhaz walking speed adjustment (for ENGLISH version .EXE ONLY!!!)  *
  * ====================================================================== */
 BEGIN @21006
-DESIGNATED 2 LABEL ~sos_remorhaz_walking_speed_adjustment~	
+DESIGNATED 2 LABEL ~sos_remorhaz_walking_speed_adjustment~    
 REQUIRE_PREDICATE MOD_IS_INSTALLED "SoS.tp2" (ID_OF_LABEL "SoS.tp2" "shadows_over_soubar" ) @21003
 REQUIRE_PREDICATE (NOT GAME_IS ~bg2ee eet~) @21004
 
