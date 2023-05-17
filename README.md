@@ -244,7 +244,7 @@ By AL|EN:
 - Uses labels for component requirements statements.
 - Simplified the mod ID where possible.
 - Renamed the mod folder from "SOS" to "SoS" to match the mod name.
-- Renamed "setup-SOS.tp2" to "sos.tp2".
+- Renamed "setup-SOS.tp2" to "SoS.tp2".
 - Updated iconv and replaced it with a static build.
 - Updated the readme file to use the latest templates.
 - Updated the metadata file to use the latest template.
