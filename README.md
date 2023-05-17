@@ -227,14 +227,14 @@ By Roberciiik:
 - Biffing is now an optional installation component.
 - Fixed militia training quest when only 9 new guards are trained.
 - Fixed CTDs in AR4261, AR4260, and AR4258 areas.
-- Restored TIS and MOS files of Soubar for oBG2 nad Lyrar's Castle TIS for BG2:EE.
+- Restored TIS and MOS files of Soubar for oBG2 and Lyrar's Castle TIS for BG2:EE.
 - Fixed a visual bug in Sir William's house (AR1004) in oBG2.
 - Updated the worldmap position of areas for Chionthar, Soubar, and Lyrar's Hold.
 - Corrected automap notes in Soubar and Soubar prison.
 - Traified missing lines (setup, kit name, debug prints).
-- Added missing identified description to some letters.
-- Moved movies to the language directory so they can be replaced by the local language version.
-- Moved some NPC sound files to the language directory - they can now be replaced by the local language version.
+- Added missing identified descriptions to some letters.
+- Moved movies to the language directory so the local language version can replace them.
+- Moved some NPC sound files to the language directory - the local language version can now replace them.
 
 By AL|EN:
 - Introduce immutability and encapsulation.
@@ -248,14 +248,14 @@ By AL|EN:
 - Updated iconv and replaced it with a static build.
 - Updated the readme file to use the latest templates.
 - Updated the metadata file to use the latest template.
-- Change HANDLE_CHARSETS to use from_UTF8 and adjusted tra files.
+- Change HANDLE_CHARSETS to use from_UTF8 and adjust tra files.
 - Fixed HANDLE_CHARSETS execution on EET.
 - Fixed encoding problems by replacing ű with û.
 - Updated add_worldmap_tbl.
-- Fixed adding areas to cheat table.
-- Remove custom kit.ids fixer and use latest from BG2Fixpack.
-- Remove additional backup of  *.tlk files.
-- Standardize folder names, file extensions.
+- Fixed adding areas to the cheat table.
+- Remove the custom kit.ids fixer and use the latest from BG2Fixpack.
+- Remove additional backup of *.tlk files.
+- Standardize folder names and file extensions.
 - Made cosmetic changes to the readme files.
 - Added 'outdated' to outdated readme files.
 - Replace tabs with spaces.
