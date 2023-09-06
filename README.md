@@ -1,8 +1,9 @@
 
-![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/Shadows_over_Soubar?include_prereleases&color=darkred)<a name="top" id="top"> </a>
-![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20Mac%20%7C%20linux&color=informational)
-![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20German%20%7C%20Italian%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
-
+![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/Shadows_over_Soubar?label=Release&include_prereleases&color=darkred)
+![Downloads](https://img.shields.io/github/downloads/SpellholdStudios/Shadows_over_Soubar/total.svg?color=blue&label=Downloads)
+![Platform](https://img.shields.io/static/v1?label=Platform&message=Windows%20%7C%20Mac%20%7C%20Linux&color=informational)
+![Language](https://img.shields.io/static/v1?label=Language&message=English%20%7C%20German%20%7C%20Italian%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
+![SupportedGames](https://img.shields.io/static/v1?label=Supported%20games&message=BG2%3AEE%20%7C%20BG2%20%7C%20BGT%20%7C%20EET&color=blue)
 
 <div align="center"><h1>Shadows over Soubar</h1>
 
