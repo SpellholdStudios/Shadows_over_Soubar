@@ -530,7 +530,7 @@ ACTION_IF GAME_IS ~eet~ BEGIN
             path_to_areas = EVAL ~%MOD_FOLDER%/Worldmap/EET/eet-areas.tbl~
             //path_to_areas_bp = EVAL ~%MOD_FOLDER%/Worldmap/areas.tbl~
             path_to_links = EVAL ~%MOD_FOLDER%/Worldmap/EET/eet-links.tbl~
-            path_to_trans = EVAL ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/Worldmap.tra~
+            path_to_trans = EVAL ~%TRA_LOCATION%/%LANGUAGE%/Worldmap.tra~
     END
 END
 
