@@ -262,6 +262,13 @@ By AL|EN:
 - Replace tabs with spaces.
 - Removed redundant files.
 
+By Weigo:
+- added sounds from ogg2 (only if they are missing)
+- changed AR4230(N).mos files for EE and non-EE version (EE has larger images)
+- changed tiz format to tbc format
+- added a7_tools.tpa by Argent77 for HANDLE_TILECONV function
+- added in %MOD_FOLDER%/Tools/Tileconv all tileconv versions
+
 ##
 
 #### Version 1.16 (September 28, 2021)
