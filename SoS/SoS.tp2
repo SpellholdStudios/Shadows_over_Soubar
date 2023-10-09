@@ -988,6 +988,12 @@ ACTION_BASH_FOR ~%MOD_FOLDER%/Language/English/Ogg1~ ~^.+\.ogg$~ BEGIN
     END
 END
 
+ACTION_BASH_FOR ~%MOD_FOLDER%/Ogg2~ ~^.+\.ogg$~ BEGIN
+    ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
+        COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/Ogg2~
+    END
+END
+
 /*COPY ~%MOD_FOLDER%/Language/%LANGUAGE%/Ogg1~ ~%MOD_FOLDER%/biff~
      ~%workspace%/Ogg2~ ~%MOD_FOLDER%/biff~*/
 
@@ -1007,11 +1013,12 @@ LAF HANDLE_AUDIO  // With no configuration, HANDLE_AUDIO expects your audio, ogg
         output_path = ~override~
 END
 
+INCLUDE ~%MOD_FOLDER%/lib/a7_tools.tpa~
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-    LAF HANDLE_TILESETS
+    LAF HANDLE_TILECONV
         STR_VAR
-            tiz_path = EVAL ~%MOD_FOLDER%/Tiz~
-            tisunpack_path = EVAL ~%MOD_FOLDER%/Tools/tisunpack~
+            input_path    = EVAL ~%MOD_FOLDER%/tbc~
+            output_path   = EVAL ~override~
     END
 END
 
@@ -1023,6 +1030,7 @@ COPY ~%MOD_FOLDER%/Language/English/MVE~ ~override~
 ACTION_IF DIRECTORY_EXISTS ~%MOD_FOLDER%/Language/%LANGUAGE%/MVE~ BEGIN
     COPY ~%MOD_FOLDER%/Language/%LANGUAGE%/MVE~ ~override~
 END
+
 
 // older mods use SoS-RULE    
 MAKE_BIFF ~SoS-RULE~ BEGIN
@@ -1082,15 +1090,21 @@ BEGIN @21011
                 ~%MOD_FOLDER%/Pvrz/Alt/A4230N17.PVRZ~ ~override~
                 ~%MOD_FOLDER%/Pvrz/Alt/A4230N18.PVRZ~ ~override~
                 ~%MOD_FOLDER%/Pvrz/Alt/A4230N19.PVRZ~ ~override~
+                ~%MOD_FOLDER%/Mos/ALT/ee/AR4230.MOS~ ~override~
+                ~%MOD_FOLDER%/Mos/ALT/ee/AR4230N.MOS~ ~override~
     END
     ELSE BEGIN
-        COPY_LARGE    ~%MOD_FOLDER%/Tiz/ALT/AR4230.TIS~ ~override~
-                    ~%MOD_FOLDER%/Tiz/ALT/AR4230N.TIS~ ~override~
+        INCLUDE ~%MOD_FOLDER%/lib/a7_tools.tpa~
+        LAF HANDLE_TILECONV
+            STR_VAR
+                input_path    = EVAL ~%MOD_FOLDER%/tbc/alt~
+                output_path   = EVAL ~override~
+        END
+        COPY    ~%MOD_FOLDER%/Mos/ALT/non-ee/AR4230.MOS~ ~override~
+                ~%MOD_FOLDER%/Mos/ALT/non-ee/AR4230N.MOS~ ~override~
     END
 
-    COPY    ~%MOD_FOLDER%/Mos/ALT/AR4230.MOS~ ~override~
-            ~%MOD_FOLDER%/Mos/ALT/AR4230N.MOS~ ~override~
-            ~%MOD_FOLDER%/Mos/ALT/AR4230HT.BMP~ ~override~
+    COPY    ~%MOD_FOLDER%/Mos/ALT/AR4230HT.BMP~ ~override~
             ~%MOD_FOLDER%/Mos/ALT/AR4230LM.BMP~ ~override~
             ~%MOD_FOLDER%/Mos/ALT/AR4230LN.BMP~ ~override~
             ~%MOD_FOLDER%/Mos/ALT/AR4230SR.BMP~ ~override~
@@ -1331,8 +1345,7 @@ BEGIN @21002
     END
 
     COPY_EXISTING ~misc01.itm~ ~override/%MOD_FOLDER%.mrk~
-
-
+ 
 /* ================================================================================== *
  *  Selence arrives to Waukeens Promenade after the meeting with Gaelan in the slums  *
  * ================================================================================== */
