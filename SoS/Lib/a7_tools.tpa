@@ -3,11 +3,35 @@
  * Note: Requires WeiDU v239 or later!                                                                 *
  *                                                                                                     *
  * Author: Argent77                                                                                    *
- * Version: 1.2                                                                                        *
+ * Version: 1.3                                                                                        *
  *******************************************************************************************************/
 
 /*
  * Overview of functions provided by this library:
+ *
+ * Action function: HANDLE_TIS2OVL
+ * Executes "tis2ovl" to convert TIS overlays between classic BG2 and Enhanced Edition game formats.
+ * Note: Requires WeiDU v239 or later!
+ *
+ * Parameters:
+ * INT_VAR silent         Set to zero to show visual feedback during conversion. (Default: 1)
+ * INT_VAR to_ee          Set to non-zero to convert tilesets from classic BG2 format to Enhanced Edition game format. (Default: autodetect)
+ * INT_VAR to_classic     Set to non-zero to convert tilesets from Enhanced Edition game format to classic BG2 format. (Default: autodetect)
+ * INT_VAR exec_type      Specify when to execute the command. (Default: 0)
+ *                        Supported values: 0 = AT_NOW, 1 = AT_EXIT, 2 = AT_UNINSTALL,
+ *                                          3 = AT_INTERACTIVE_NOW, 4 = AT_INTERACTIVE_EXIT, 5 = AT_INTERACTIVE_UNINSTALL
+ * STR_VAR input_path     (mandatory) Path to a single WED input file or the directory containing WED files to convert.
+ *                        Note: You can specify multiple input paths by appending an underscore and an ascending number starting at 0
+ *                              to the parameter name, e.g. input_path_0, input_path_1, ...
+ * STR_VAR search_path    Search path for TIS files. (Default: "override" folder of the game)
+ *                        Note: You can specify multiple search paths by appending an underscore and an ascending number starting at 0
+ *                              to the parameter name, e.g. search_path_0, search_path_1, ...
+ * STR_VAR output_path    Output directory for TIS files. (Default: overwrite input TIS files)
+ * STR_VAR tis2ovl_path   Full path to the "tis2ovl" binary.
+ *                        Default: Attempts to find the the tool binary in "%MOD_FOLDER%/tools/tis2ovl/", "%input_path%/tis2ovl/" or
+ *                        "%output_path%/tis2ovl/" if not specified. (See default folder structure of GET_TOOL_BINARY below for more information.)
+ * RET     num_converted  Returns the number of successfully converted TIS files.
+ *
  *
  * Action function: HANDLE_TILE2EE
  * Executes "tile2ee" to convert MOS/TIS between palette-based (V1) and pvrz-based (V2) formats.
@@ -27,7 +51,7 @@
  *                                          3 = AT_INTERACTIVE_NOW, 4 = AT_INTERACTIVE_EXIT, 5 = AT_INTERACTIVE_UNINSTALL
  * STR_VAR input_path     (mandatory) Path to a single MOS/TIS input file or the directory containing MOS or TIS files to convert.
  * STR_VAR tile2ee_path   Full path to the "tile2ee" binary.
- *                        Default: Attempts to find the the tool binary in "%MOD_FOLDER%/tools/tile2ee/", "%input_path%/tile2ee/" or 
+ *                        Default: Attempts to find the the tool binary in "%MOD_FOLDER%/tools/tile2ee/", "%input_path%/tile2ee/" or
  *                        "%output_path%/tile2ee/" if not specified. (See default folder structure of GET_TOOL_BINARY below for more information.)
  * STR_VAR output_path    Output path for converted MOS and TIS files. (Default: override)
  * RET     num_converted  Returns the number of successfully converted MOS and TIS files (not counting PVRZ files generated in the process).
@@ -49,7 +73,7 @@
  *                                          3 = AT_INTERACTIVE_NOW, 4 = AT_INTERACTIVE_EXIT, 5 = AT_INTERACTIVE_UNINSTALL
  * STR_VAR input_path     (mandatory) Path to a single MBC/TBC input file or the directory containing MBC or TBC files to decode.
  * STR_VAR tileconv_path  Full path to the "tileconv" binary.
- *                        Default: Attempts to find the the tool binary in "%MOD_FOLDER%/tools/tileconv/", "%input_path%/tileconv/" or 
+ *                        Default: Attempts to find the the tool binary in "%MOD_FOLDER%/tools/tileconv/", "%input_path%/tileconv/" or
  *                        "%output_path%/tileconv/" if not specified. (See default folder structure of GET_TOOL_BINARY below for more information.)
  * STR_VAR output_path    Output path for MOS/TIS files. (Default: override)
  * RET     num_converted  Returns the number of successfully converted files.
@@ -65,6 +89,7 @@
  * STR_VAR tool_binary        (mandatory) The full path to the tool binary.
  * STR_VAR arg_0, arg_1, ...  Variable number of arguments for the specified tool. Use arg_0, arg_1, ...
  * RET     command            Returns the fully assembled command.
+ * RET     result             Contains the return value of the executed tool if the function was called with exec_type set to 0 or 3.
  *
  *
  * Action function: FIND_TOOL_BINARY
@@ -107,8 +132,12 @@
  *
  *
  * Changelog:
+ * v1.3:
+ * - Added action function HANDLE_TIS2OVL for dealing with tis2ovl.
+ *
  * v1.2:
  * - Fixed a bug that could fail HANDLE_TILECONV and HANDLE_TILE2EE with large output files.
+ * - Improved action function GET_TOOL_BINARY.
  *
  * v1.1:
  * - Added support for converting single input file in HANDLE_TILECONV and HANDLE_TILE2EE.
@@ -169,7 +198,7 @@ echo %a7arch%>override/a7arch.txt
     DEFAULT
   END
 
-  ACTION_IF (~%SYSTEM_ARCH%~ STRING_EQUAL ~~) BEGIN
+  ACTION_IF (~%SYSTEM_ARCH%~ STR_EQ ~~) BEGIN
     OUTER_TEXT_SPRINT SYSTEM_ARCH ~%WEIDU_ARCH%~
   END
 END
@@ -197,23 +226,23 @@ DEFINE_ACTION_FUNCTION GET_TOOL_BINARY
 BEGIN
   OUTER_TEXT_SPRINT tool_binary ~~
 
-  ACTION_IF (tool_name STRING_EQUAL ~~) BEGIN
+  ACTION_IF (tool_name STR_EQ ~~) BEGIN
     FAIL ~ERROR: No tool name specified.~
   END
 
-  ACTION_IF (~%WEIDU_OS%~ STRING_EQUAL_CASE ~osx~) BEGIN
+  ACTION_IF (~%WEIDU_OS%~ STR_EQ ~osx~) BEGIN
     OUTER_TEXT_SPRINT SYSTEM_ARCH ~~
   END ELSE BEGIN
     LAF GET_SYSTEM_ARCH RET SYSTEM_ARCH END
   END
 
-  ACTION_IF (~%WEIDU_OS%~ STRING_EQUAL_CASE ~win32~) BEGIN
+  ACTION_IF (~%WEIDU_OS%~ STR_EQ ~win32~) BEGIN
     OUTER_TEXT_SPRINT tool_name ~%tool_name%.exe~
   END
 
-  ACTION_IF (~%SYSTEM_ARCH%~ STRING_EQUAL_CASE ~amd64~) BEGIN
+  ACTION_IF (~%SYSTEM_ARCH%~ STR_EQ ~amd64~) BEGIN
     OUTER_TEXT_SPRINT tool_binary ~%tool_os_64_path%/%tool_name%~
-  END ELSE ACTION_IF (~%SYSTEM_ARCH%~ STRING_EQUAL_CASE ~x86~) BEGIN
+  END ELSE ACTION_IF (~%SYSTEM_ARCH%~ STR_EQ ~x86~) BEGIN
     OUTER_TEXT_SPRINT tool_binary ~%tool_os_32_path%/%tool_name%~
   END
 
@@ -250,7 +279,7 @@ BEGIN
 
   // 2. Search extra paths if needed
   OUTER_SET idx = 0
-  OUTER_WHILE (~%tool_binary%~ STRING_EQUAL ~~) && (VARIABLE_IS_SET EVAL ~path_%idx%~) BEGIN
+  OUTER_WHILE (~%tool_binary%~ STR_EQ ~~) && (VARIABLE_IS_SET EVAL ~path_%idx%~) BEGIN
     OUTER_TEXT_SPRINT path EVAL ~%path_%idx%%~
     ACTION_IF (NOT DIRECTORY_EXISTS ~%path%~) BEGIN
       LAF DIRECTORY_OF_FILESPEC STR_VAR filespec = EVAL ~%path%~ RET directory END
@@ -278,28 +307,30 @@ DEFINE_ACTION_FUNCTION EXECUTE_TOOL
     // arg_0, arg_1, ...
   RET
     command
+    result
 BEGIN
   // assembling list of arguments
   OUTER_TEXT_SPRINT params ~~
   OUTER_FOR (idx = 0; VARIABLE_IS_SET EVAL ~arg_%idx%~; ++idx) BEGIN
     OUTER_TEXT_SPRINT param EVAL ~%arg_%idx%%~
-    ACTION_IF (NOT ~%param%~ STRING_EQUAL ~~ &&
-               NOT ~%param%~ STRING_EQUAL ~%arg_%idx%%~) BEGIN
+    ACTION_IF (NOT ~%param%~ STR_EQ ~~ &&
+               NOT ~%param%~ STR_EQ ~%arg_%idx%%~) BEGIN
       OUTER_TEXT_SPRINT params ~%params% %param%~
     END
   END
 
   OUTER_TEXT_SPRINT command ~%tool_binary%%params%~
+  OUTER_SET result = 0
 
-  ACTION_IF (~%WEIDU_OS%~ STRING_EQUAL_CASE ~osx~ OR
-             ~%WEIDU_OS%~ STRING_EQUAL_CASE ~unix~) BEGIN
+  ACTION_IF (~%WEIDU_OS%~ STR_EQ ~osx~ OR
+             ~%WEIDU_OS%~ STR_EQ ~unix~) BEGIN
     AT_NOW ~chmod +x %tool_binary%~
   END
 
-  ACTION_IF (exec_type = 0) BEGIN AT_NOW ~%command%~ END
+  ACTION_IF (exec_type = 0) BEGIN AT_NOW result ~%command%~ END
   ELSE ACTION_IF (exec_type = 1) BEGIN AT_EXIT ~%command%~ END
   ELSE ACTION_IF (exec_type = 2) BEGIN AT_UNINSTALL ~%command%~ END
-  ELSE ACTION_IF (exec_type = 3) BEGIN AT_INTERACTIVE_NOW ~%command%~ END
+  ELSE ACTION_IF (exec_type = 3) BEGIN AT_INTERACTIVE_NOW result ~%command%~ END
   ELSE ACTION_IF (exec_type = 4) BEGIN AT_INTERACTIVE_EXIT ~%command%~ END
   ELSE ACTION_IF (exec_type = 5) BEGIN AT_INTERACTIVE_UNINSTALL ~%command%~ END
   ELSE BEGIN FAIL ~ERROR: Invalid execution type specified~ END
@@ -323,7 +354,7 @@ DEFINE_ACTION_FUNCTION HANDLE_TILECONV
     num_converted
 BEGIN
   // checking path to tileconv binary
-  ACTION_IF (~%tileconv_path%~ STRING_EQUAL ~~) BEGIN
+  ACTION_IF (~%tileconv_path%~ STR_EQ ~~) BEGIN
     LAF FIND_TOOL_BINARY
       STR_VAR
         tool_name = ~tileconv~
@@ -332,7 +363,7 @@ BEGIN
       RET
         tool_binary
     END
-    ACTION_IF (~%tool_binary%~ STRING_EQUAL ~~) BEGIN
+    ACTION_IF (~%tool_binary%~ STR_EQ ~~) BEGIN
       FAIL ~ERROR: tileconv not found: "%tileconv_path%"~
     END ELSE BEGIN
       OUTER_TEXT_SPRINT tileconv_path ~%tool_binary%~
@@ -340,13 +371,13 @@ BEGIN
   END
 
   // don't allow empty input path
-  ACTION_IF (~%input_path%~ STRING_EQUAL ~~) BEGIN OUTER_TEXT_SPRINT input_path ~.~ END
+  ACTION_IF (~%input_path%~ STR_EQ ~~) BEGIN OUTER_TEXT_SPRINT input_path ~.~ END
 
   // don't allow empty output path
-  ACTION_IF (~%output_path%~ STRING_EQUAL ~~) BEGIN OUTER_TEXT_SPRINT output_path ~.~ END
+  ACTION_IF (~%output_path%~ STR_EQ ~~) BEGIN OUTER_TEXT_SPRINT output_path ~.~ END
 
   // needed to take care of file paths containing whitespace characters
-  ACTION_IF (~%WEIDU_OS%~ STRING_EQUAL_CASE ~win32~) BEGIN
+  ACTION_IF (~%WEIDU_OS%~ STR_EQ ~win32~) BEGIN
     OUTER_TEXT_SPRINT quote ~"~
   END ELSE BEGIN
     OUTER_TEXT_SPRINT quote ~'~
@@ -365,15 +396,15 @@ BEGIN
     // processing directory content
     ACTION_BASH_FOR ~%input_path%~ ~.+\.[mt]bc$~ BEGIN
       OUTER_TEXT_SPRINT bc_folder ~%output_path%/%folder_prefix%%BASH_FOR_RES%~
-      ACTION_IF (~%BASH_FOR_EXT%~ STRING_EQUAL_CASE ~tbc~ && convert_tbc) BEGIN
+      ACTION_IF (~%BASH_FOR_EXT%~ STR_EQ ~tbc~ && convert_tbc) BEGIN
         OUTER_TEXT_SPRINT bc_file ~%bc_folder%/%BASH_FOR_RES%.tis~
-      END ELSE ACTION_IF (~%BASH_FOR_EXT%~ STRING_EQUAL_CASE ~mbc~ && convert_mbc) BEGIN
+      END ELSE ACTION_IF (~%BASH_FOR_EXT%~ STR_EQ ~mbc~ && convert_mbc) BEGIN
         OUTER_TEXT_SPRINT bc_file ~%bc_folder%/%BASH_FOR_RES%.mos~
       END ELSE BEGIN
         OUTER_TEXT_SPRINT bc_file ~~
       END
 
-      ACTION_IF (NOT ~%bc_file%~ STRING_EQUAL_CASE ~~) BEGIN
+      ACTION_IF (NOT ~%bc_file%~ STR_EQ ~~) BEGIN
         MKDIR ~%bc_folder%~
         OUTER_TEXT_SPRINT arg_output ~-o %quote%%bc_file%%quote%~
         OUTER_TEXT_SPRINT arg_input ~%quote%%BASH_FOR_FILESPEC%%quote%~
@@ -402,9 +433,9 @@ BEGIN
     LAF RES_OF_FILESPEC STR_VAR filespec = EVAL ~%input_path%~ RET res END
     LAF EXT_OF_FILESPEC STR_VAR filespec = EVAL ~%input_path%~ RET ext END
     OUTER_TEXT_SPRINT bc_folder ~%output_path%/%folder_prefix%%res%~
-    ACTION_IF (~%ext%~ STRING_EQUAL_CASE ~tbc~) BEGIN
+    ACTION_IF (~%ext%~ STR_EQ ~tbc~) BEGIN
       OUTER_TEXT_SPRINT bc_file ~%bc_folder%/%res%.tis~
-    END ELSE ACTION_IF (~%ext%~ STRING_EQUAL_CASE ~mbc~) BEGIN
+    END ELSE ACTION_IF (~%ext%~ STR_EQ ~mbc~) BEGIN
       OUTER_TEXT_SPRINT bc_file ~%bc_folder%/%res%.mos~
     END ELSE BEGIN
       FAIL ~ERROR: Unsupported source file extension: %ext%~
@@ -455,7 +486,7 @@ DEFINE_ACTION_FUNCTION HANDLE_TILE2EE
     num_converted
 BEGIN
   // checking path to tile2ee binary
-  ACTION_IF (~%tile2ee_path%~ STRING_EQUAL ~~) BEGIN
+  ACTION_IF (~%tile2ee_path%~ STR_EQ ~~) BEGIN
     LAF FIND_TOOL_BINARY
       STR_VAR
         tool_name = ~tile2ee~
@@ -464,7 +495,7 @@ BEGIN
       RET
         tool_binary
     END
-    ACTION_IF (~%tool_binary%~ STRING_EQUAL ~~) BEGIN
+    ACTION_IF (~%tool_binary%~ STR_EQ ~~) BEGIN
       FAIL ~ERROR: tile2ee not found: "%tile2ee_path%"~
     END ELSE BEGIN
       OUTER_TEXT_SPRINT tile2ee_path ~%tool_binary%~
@@ -472,13 +503,13 @@ BEGIN
   END
 
   // don't allow empty input path
-  ACTION_IF (~%input_path%~ STRING_EQUAL ~~) BEGIN OUTER_TEXT_SPRINT input_path ~.~ END
+  ACTION_IF (~%input_path%~ STR_EQ ~~) BEGIN OUTER_TEXT_SPRINT input_path ~.~ END
 
   // don't allow empty output path
-  ACTION_IF (~%output_path%~ STRING_EQUAL ~~) BEGIN OUTER_TEXT_SPRINT output_path ~.~ END
+  ACTION_IF (~%output_path%~ STR_EQ ~~) BEGIN OUTER_TEXT_SPRINT output_path ~.~ END
 
   // needed to take care of file paths containing whitespace characters
-  ACTION_IF (~%WEIDU_OS%~ STRING_EQUAL_CASE ~win32~) BEGIN
+  ACTION_IF (~%WEIDU_OS%~ STR_EQ ~win32~) BEGIN
     OUTER_TEXT_SPRINT quote ~"~
   END ELSE BEGIN
     OUTER_TEXT_SPRINT quote ~'~
@@ -547,7 +578,7 @@ BEGIN
             OUTER_PATCH_SAVE cur_index ~%BASH_FOR_RES%~ BEGIN
               REPLACE_TEXTUALLY CASE_INSENSITIVE EVALUATE_REGEXP ~^mos0*~ ~~
             END
-            ACTION_IF (~%cur_index%~ STRING_EQUAL ~~) BEGIN OUTER_SET cur_index = 0 END
+            ACTION_IF (~%cur_index%~ STR_EQ ~~) BEGIN OUTER_SET cur_index = 0 END
             ACTION_IF (cur_index >= min_pvrz_index) BEGIN
               OUTER_SET min_pvrz_index = cur_index + 1
             END
@@ -615,5 +646,100 @@ BEGIN
     DELETE + ~%folder%~
   END ELSE BEGIN
     FAIL ~ERROR: Path does not exist: %input_path%~
+  END
+END
+
+
+DEFINE_ACTION_FUNCTION HANDLE_TIS2OVL
+INT_VAR
+  silent        = 1
+  to_ee         = 0
+  to_classic    = 0
+  exec_type     = 0
+STR_VAR
+  input_path    = ~~
+  search_path   = ~override~
+  output_path   = ~~
+  tis2ovl_path  = ~~
+RET
+  num_converted
+BEGIN
+  // TODO: make function "uninstallable"
+  OUTER_SET num_converted = 0
+
+  // checking path to tis2ovl binary
+  ACTION_IF (~%tis2ovl_path%~ STR_EQ ~~) BEGIN
+    LAF FIND_TOOL_BINARY
+      STR_VAR
+        tool_name = ~tis2ovl~
+        path_0    = EVAL ~%search_path%~
+        path_1    = EVAL ~%output_path%~
+      RET
+        tool_binary
+    END
+    ACTION_IF (~%tool_binary%~ STR_EQ ~~) BEGIN
+      FAIL ~ERROR: tis2ovl not found: "%tis2ovl_path%"~
+    END ELSE BEGIN
+      OUTER_TEXT_SPRINT tis2ovl_path ~%tool_binary%~
+    END
+  END
+
+  // needed to take care of file paths containing whitespace characters
+  ACTION_IF (~%WEIDU_OS%~ STR_EQ ~win32~) BEGIN
+    OUTER_TEXT_SPRINT quote ~"~
+  END ELSE BEGIN
+    OUTER_TEXT_SPRINT quote ~'~
+  END
+
+  // initializing parameters
+  ACTION_IF (silent) BEGIN OUTER_TEXT_SPRINT arg_silent ~-q~ END ELSE BEGIN OUTER_TEXT_SPRINT arg_silent ~~ END
+  ACTION_IF (to_ee) BEGIN OUTER_TEXT_SPRINT arg_to_ee ~-c~ END ELSE BEGIN OUTER_TEXT_SPRINT arg_to_ee ~~ END
+  ACTION_IF (to_classic) BEGIN OUTER_TEXT_SPRINT arg_to_classic ~-e~ END ELSE BEGIN OUTER_TEXT_SPRINT arg_to_classic ~~ END
+  ACTION_IF (NOT ~%output_path%~ STR_EQ ~~) BEGIN OUTER_TEXT_SPRINT arg_out ~-o %quote%%output_path%%quote%~ END ELSE BEGIN OUTER_TEXT_SPRINT arg_out ~~ END
+
+  // setting search paths
+  OUTER_TEXT_SPRINT arg_search ~~
+  OUTER_FOR (i = "-1"; i < 0 || VARIABLE_IS_SET EVAL ~search_path_%i%~; ++i) BEGIN
+    ACTION_IF (i < 0) BEGIN OUTER_TEXT_SPRINT arg ~%search_path%~ END ELSE BEGIN OUTER_TEXT_SPRINT arg EVAL ~%search_path_%i%%~ END
+    OUTER_PATCH_SAVE arg ~%arg%~ BEGIN REPLACE_TEXTUALLY ~^[ %TAB%]+~ ~~ REPLACE_TEXTUALLY ~[ %TAB%]+$~ ~~ END
+    ACTION_IF (NOT ~%arg%~ STR_EQ ~~) BEGIN OUTER_TEXT_SPRINT arg_search ~%arg_search% -s %quote%%arg%%quote%~ END
+  END
+
+  // setting input paths
+  OUTER_SET input_files = 0
+  OUTER_FOR (i = "-1"; i < 0 || VARIABLE_IS_SET EVAL ~input_path_%i%~; ++i) BEGIN
+    ACTION_IF (i < 0) BEGIN OUTER_TEXT_SPRINT arg ~%input_path%~ END ELSE BEGIN OUTER_TEXT_SPRINT arg EVAL ~%input_path_%i%%~ END
+    OUTER_PATCH_SAVE arg ~%arg%~ BEGIN REPLACE_TEXTUALLY ~^[ %TAB%]+~ ~~ REPLACE_TEXTUALLY ~[ %TAB%]+$~ ~~ END
+    ACTION_IF (NOT ~%arg%~ STR_EQ ~~) BEGIN
+      ACTION_IF (DIRECTORY_EXISTS ~%arg%~) BEGIN
+        ACTION_BASH_FOR ~%arg%~ ~.+\.wed$~ BEGIN
+          OUTER_TEXT_SPRINT $input_files(~%input_files%~) ~%quote%%BASH_FOR_FILESPEC%%quote%~
+        END
+      END ELSE BEGIN
+        OUTER_TEXT_SPRINT $input_files(~%input_files%~) ~%quote%%arg%%quote%~
+        OUTER_SET input_files += 1
+      END
+    END
+  END
+
+  OUTER_FOR (i = 0; i < input_files; ++i) BEGIN
+    OUTER_TEXT_SPRINT input_file $input_files(~%i%~)
+    LAF EXECUTE_TOOL
+      INT_VAR
+        exec_type
+      STR_VAR
+        tool_binary = EVAL ~%tis2ovl_path%~
+        arg_0       = EVAL ~%arg_silent%~
+        arg_1       = EVAL ~%arg_to_ee%~
+        arg_2       = EVAL ~%arg_to_classic%~
+        arg_3       = EVAL ~%arg_search%~
+        arg_4       = EVAL ~%arg_out%~
+        arg_5       = EVAL ~%input_file%~
+      RET
+        result
+    END
+    ACTION_IF (result = 0) BEGIN
+      OUTER_SET num_converted += 1
+    END
   END
 END
