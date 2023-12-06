@@ -221,7 +221,7 @@ This component requires the main component to be installed. It patches BGmain.ex
 
 ## <a name="versions" id="versions"></a>Version History
 
-#### Version 2.0 (Upcoming version)
+#### Version 2.0 (December, 06, 2023)
 
 By Roberciiik:
 - Alternative Soubar area from the "World of Baldur's Gate" modification - designed and modeled by Cuttooth, with effects enrichment and ideas by Dradiel, and integrated into the mod by Roberciiik.
@@ -239,7 +239,7 @@ By Roberciiik:
 
 By AL|EN:
 - Introduce immutability and encapsulation.
-- Fix mod uninstallation: all mod files should be removed from override during uninstallation.
+- Fix mod uninstallation: now all mod files should be removed from override during uninstallation.
 - Fixed copying of the MVE folder.
 - Uses the %MOD_FOLDER% automatic variable.
 - Uses labels for component requirements statements.
