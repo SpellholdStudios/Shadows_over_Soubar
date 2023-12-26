@@ -2,7 +2,7 @@
 ![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/Shadows_over_Soubar?label=Release&include_prereleases&color=darkred)
 ![Downloads](https://img.shields.io/github/downloads/SpellholdStudios/Shadows_over_Soubar/total.svg?color=blue&label=Downloads)
 ![Platform](https://img.shields.io/static/v1?label=Platform&message=Windows%20%7C%20Mac%20%7C%20Linux&color=informational)
-![Language](https://img.shields.io/static/v1?label=Language&message=English%20%7C%20German%20%7C%20Italian%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
+![Language](https://img.shields.io/static/v1?label=Language&message=English%20%7C%20German%20%7C%20Italian%20%7C%20Russian%20%7C%20Spanish%20%7C%20Simplified%20Chinese&color=limegreen)
 ![SupportedGames](https://img.shields.io/static/v1?label=Supported%20games&message=BG2%3AEE%20%7C%20BG2%20%7C%20BGT%20%7C%20EET&color=blue)
 
 <div align="center"><h1>Shadows over Soubar</h1>
@@ -181,6 +181,7 @@ This component requires the main component to be installed. It patches BGmain.ex
 - Spanish translation: SirLancelot's Team.
 - Russian translation: aerie-ru.info team.
 - German translation: Leonardo Watson.
+- Simplified Chinese translation: Lzw104522773.
 - Everyone else from the <a href="http://gibberlings3.net/forums/">The Gibberlings Three</a>, <a href="http://www.shsforums.net/">Spellhold Studios</a> forums, and the other Infinity Engine gaming and modding communities who offered their help and support.
 
 ## 
@@ -220,6 +221,11 @@ This component requires the main component to be installed. It patches BGmain.ex
 
 
 ## <a name="versions" id="versions"></a>Version History
+
+#### Under development
+
+By Lzw104522773:
+- Added Simplified Chinese translations.
 
 #### Version 2.0 (December, 06, 2023)
 
