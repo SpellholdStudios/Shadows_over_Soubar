@@ -98,6 +98,10 @@ LANGUAGE ~Italiano (traduzione di Ilot & Co)~
          ~Italian~
          ~SoS/Language/Italian/mod.tra~ ~SoS/Language/Italian/setup.tra~
 
+LANGUAGE ~Simplified Chinese~
+         ~Schinese~
+         ~SoS/Language/Schinese/mod.tra~ ~SoS/Language/Schinese/setup.tra~
+
 /* ====================================== *
  *  Shadows over Soubar : main component  *
  * ====================================== */
