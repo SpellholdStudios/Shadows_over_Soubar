@@ -255,7 +255,7 @@ By AL|EN:
 - Updated iconv and replaced it with a static build.
 - Updated the readme file to use the latest templates.
 - Updated the metadata file to use the latest template.
-- Change HANDLE_CHARSETS to use from_UTF8 and adjust tra files.
+- Change HANDLE_CHARSETS to use from_utf8=1 and adapt *.tra files.
 - Fixed HANDLE_CHARSETS execution on EET.
 - Fixed encoding problems by replacing ű with û.
 - Updated add_worldmap_tbl.
@@ -264,13 +264,13 @@ By AL|EN:
 - Remove additional backup of *.tlk files.
 - Standardize folder names and file extensions.
 - Made cosmetic changes to the readme files.
-- Added 'outdated' to outdated readme files.
+- Added 'outdated' suffix to outdated readme files.
 - Replace tabs with spaces.
 - Removed redundant files.
 
 By Weigo:
 - Added sounds from ogg2 (only if they are missing).
-- Changed AR4230(N).mos files for EE and non-EE version (EE has larger images).
+- Changed AR4230(N).mos files for EE and non-EE versions (EE has larger images).
 - Changed tiz format to tbc format.
 - Added a7_tools.tpa by Argent77 for HANDLE_TILECONV function.
 - Added in %MOD_FOLDER%/Tools/Tileconv all tileconv versions.
@@ -281,7 +281,7 @@ By Weigo:
 
 - Fixed install error for non-English versions: Added needed dlls for iconv.exe.
 - Added inn2616.sto in case it is not existent ingame (BGII:EE).
-- Added install order syntax and globally unique labelling to .ini to support Project Infinity.
+- Added install order syntax and globally unique labeling to .ini to support Project Infinity.
 
 ##
 
@@ -292,9 +292,9 @@ By Weigo:
 - Added `DESIGNATED` numbers and "*shadows_over_soubar*", "*sos_selence_at_waukeens_promenade_after_meeting_Gaelan*" and "*sos_remorhaz_walking_speed_adjustment*" component `LABELS`.
 - Various bugfixes, as listed in the GitHub commits. :wink:
 - Added `README` command in tp2.
-- Wrote a new *sos-readme-english.html* readme file and moved all readme files into new readme folder.
+- Wrote a new *sos-readme-english.html* readme file and moved all readme files into a new readme folder.
 - Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
-- Uploaded mod to official SpellHold Studios GitHub mirror account.
+- Uploaded mod to the official SpellHold Studios GitHub mirror account.
 
 ## 
 
@@ -325,7 +325,7 @@ By Weigo:
 		AR4219.baf - restored<br>
 		AR4240, AR4242, AR4244, AR4246, AR4251, AR4252, AR4253, AR4254, AR4255, AR4258, AR4259.BAF - spawning method optimized
 	4. Continue() issue fix: tAR1100.BAF divided into 2 parts for E_T and E_B
-	5. rebelst's forum post fixes:<br>
+	5. rebelst's forum postfixes:<br>
 		- tNALIA.BAF: "Myself" should have no quotes<br>
 		- AR4370.BAF: CB300CO[1-2] should be CB4300CO[1-2]<br>
 		- CB421012.BAF: CBRJR003, CBRJR016, CBRJR02[2-5] don't exist, lines should be removed<br>
@@ -392,7 +392,7 @@ By Weigo:
 #### Version 1.0.4
 
 - <ins>Fixes and enhancements, by King Diamond</ins>:
-	1. INTERDIA.2DA patching removed completely because of none of the joinable NPCs have banter dialogues.
+	1. INTERDIA.2DA patching was removed completely because none of the joinable NPCs have banter dialogues.
 	2. AR4235 is not used: ARE, WED, TIS, MOS, BMPs.<br>
 		AR4361 is not used: ARE.
 	3. Movie moved to a separate MVE folder/BIFF.
@@ -409,15 +409,15 @@ By Weigo:
 		CBRJR18B<br>
 		CBRJRVM<br>
 		spdynah-spvalyg - they are from BP package
-	7. CBRJR008.SPL (Beltyn's Burning Blood) replaced by TDD's SPWI429.SPL; corresponding references updated (CBCL001.ITM, CBRJR008.ITM); SPELL.IDS patch implemented.
-	8. SHGRASPS.SPL (Shocking Grasp) usage replaced by SPWI115.SPL (CBRJR015.ITM).
+	7. CBRJR008.SPL (Beltyn's Burning Blood) was replaced by TDD's SPWI429.SPL; corresponding references updated (CBCL001.ITM, CBRJR008.ITM); SPELL.IDS patch implemented.
+	8. SHGRASPS.SPL (Shocking Grasp) usage was replaced by SPWI115.SPL (CBRJR015.ITM).
 	9. FENCE kit fixed according to its description. Now ALL races are available for it.
 	10. Unused store removed: CB361TPT.STO.
 	11. Another Items' revision - many inconsistencies fixed (equipping effects, missed strings, icons); TOOLTIP.2DA patching added.
 	12. Unused item CBUHGVCT.ITM removed.
 	13. SELENCE NPC installation fixed: Fence kit ID is being set properly now.
 	14. CBBRNOIL.SPL recreated - AR4370 proximity trigger script spell (CBBRNOIL.BAF - fixed).
-	15. GUILSOP.BAM removed from the installation.
+	15. GUILSOP.BAM was removed from the installation.
 
 ## 
 
@@ -426,16 +426,16 @@ By Weigo:
 - Additions from the BP package.
 - Fixes and enhancements by Horred the Plague:
 	1. Unused files removed. Download archive size reduced from 95.9M to 69M.
-	2. All AREs revised with DLTCEP, their file structure rearranged and fixed. Many missed info triggers and automap pointers text patching added, Beregost taverns ambients removed to reflect Soubar environments.
+	2. All AREs revised with DLTCEP, and their file structure was rearranged and fixed. Many missed info triggers and automap pointers text patching added, Beregost taverns ambients removed to reflect Soubar environments.
 	3. Missed ambient sounds added (OGG3 directory); some missed scripts and BAMs re included.
 	4. Solved all possible area compatibility issues. AR4300 -> AR4370 with all corresponding resources, script/dialogues links, TIS and WED fixed (there was a real MESS with it!)
-	5. All ITMs revised; numerous bugs fixed: 0 weapon proficiencies, invalid or absent icons/BAMs, wrong stats, incomplete descriptions; total upgrade of usability settings. Now all items match their descriptions. In a combination with BDash-WeiDU text fix all descriptions will be 99%-complete.
+	5. All ITMs revised; numerous bugs fixed: 0 weapon proficiencies, invalid or absent icons/BAMs, wrong stats, incomplete descriptions; total upgrade of usability settings. Now all items match their descriptions. In combination with BDash-WeiDU text fix all descriptions will be 99%-complete.
 	6. STOres revised and many incorrect rumors dialogues links fixed, strings patches added.
 	7. All dialogues revised: empty blocks removed, several invalid external references fixed. The whole bunch of dialogues is getting compiled by one COMPILE command now as it should be to produce valid cross-references.
 	8. Scripts revised: several missed patches for journal entries added.
 	9. Patching of all BG2 original resources converted to "WeiDU-only" that makes it 100% compatible with any other mod around.
-	10. Journal system revised and rearranged for a single .TRA using (both scripts and dialogues) to unify the journal strings for correct entries' adding/removing.
-	11. Several BG1-side strings fixed because of many SoS creatures use them in their soundsets. Patch is taken from BGT-WeiDU.
+	10. The journal system was revised and rearranged for a single .tra using (both scripts and dialogues) to unify the journal strings for correct entries' adding/removing.
+	11. Several BG1-side strings are fixed because many SoS creatures use them in their soundsets. Patch is taken from BGT-WeiDU.
 	12. Great main screen logo for SoS taken from Yovaneth's fixpack as well as some fixes checked and implemented (except "G3 Identify All" one). For more info visit <a href="http://www.final-exodus.net/~dai/yovaneth/baldursgate_index.html">this</a>.
 	13. Installation script (TP2 and BATs) optimized, some errors fixed (f.e. it biffed everything, including AR0072.tis that should remain in \override\).
 	14. Unused WAVs removed from ALORA, KIVAN and ELDOTH soundsets. The creatures that use them are not joinable NPCs, so they won't use any sound beside 01,03,07,11,17-19,38,39. 
