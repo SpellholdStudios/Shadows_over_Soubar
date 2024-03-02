@@ -61,7 +61,9 @@ This mod is designed to work on the following Infinity Engine games: the origina
 
 Shadows over Soubar is a WeiDU mod, and therefore should be compatible with all WeiDU mods. It is only compatible with BGII: ToB. However, we cannot test every single one. If you encounter any bugs, please <a href="http://www.shsforums.net/forum/195-shadows-over-soubar/">report them on the forum</a>!
 
->Classical game players are strongly recommended to download and install the latest version of the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.<br>
+In case you are using BP-BGT-Worldmap mod, version 13 or later is required.
+
+> Classical game players are strongly recommended to download and install the latest version of the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.<br>
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -223,6 +225,9 @@ This component requires the main component to be installed. It patches BGmain.ex
 ## <a name="versions" id="versions"></a>Version History
 
 #### Under development
+
+By Roberciiik:
+- Support for BP-BGT-Worldmap v13!
 
 By Lzw104522773:
 - Added Simplified Chinese translations.
