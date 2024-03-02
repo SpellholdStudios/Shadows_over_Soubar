@@ -227,7 +227,8 @@ This component requires the main component to be installed. It patches BGmain.ex
 #### Under development
 
 By Roberciiik:
-- Support for BP-BGT-Worldmap v13!
+- Support for BP-BGT-Worldmap v13.
+- Removed "(SoS)" tag from the worldmap hints.
 
 By Lzw104522773:
 - Added Simplified Chinese translations.
