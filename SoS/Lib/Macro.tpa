@@ -1,0 +1,27 @@
+
+DEFINE_PATCH_MACRO ~CLEAR_ARRAY~
+BEGIN
+	CLEAR_ARRAY x_coord
+	CLEAR_ARRAY y_coord
+END
+
+DEFINE_PATCH_MACRO ~DELETE_EXISTING_ANIMATIONS~ // to delete torches, candles ...
+BEGIN
+	// offset to rest encounters and songlist is 0. Adding empty table
+	PATCH_IF LONG_AT 0xc0 = 0 BEGIN
+		WRITE_LONG 0xc0 BUFFER_LENGTH
+		INSERT_BYTES BUFFER_LENGTH 0xe4
+	END
+	PATCH_IF LONG_AT 0xbc = 0 BEGIN
+		WRITE_LONG 0xbc BUFFER_LENGTH
+		INSERT_BYTES BUFFER_LENGTH 0x90
+	END
+	GET_OFFSET_ARRAY animation_array ARE_V10_ANIMATIONS
+	PATCH_PHP_EACH animation_array AS animation_num => animation_offset BEGIN
+		READ_SHORT animation_offset+0x20 animation_pos_x
+		READ_SHORT animation_offset+0x22 animation_pos_y
+		PATCH_IF ((~%animation_pos_x%~ = $x_coord("%index%")) AND (~%animation_pos_y%~ =  $y_coord("%index%"))) BEGIN
+			LPF fj_are_structure INT_VAR fj_delete_mode = animation_num STR_VAR fj_structure_type = animation END
+		END
+	END
+END
