@@ -4,14 +4,20 @@ AUTHOR ~Charles Bisson, Horred The Plague (WeiDU), King Diamond (WeiDU revision)
 
 NO_IF_EVAL_BUG
 
-VERSION ~2.0~
+VERSION ~2.1~
 
 README ~%MOD_FOLDER%/Readme/%MOD_FOLDER%-readme-readme-english.html~ ~%MOD_FOLDER%/Readme/%MOD_FOLDER%-readme-%LANGUAGE%.html~
 
 ASK_EVERY_COMPONENT
 
 ALWAYS
-
+	ACTION_IF GAME_IS ~bgt soa tob~ BEGIN
+        OUTER_SPRINT engine ~non-ee~
+    END 
+	ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
+        OUTER_SPRINT engine ~ee~
+    END
+	
     OUTER_SPRINT workspace "weidu_external/workspace/%MOD_FOLDER%"
     MKDIR "%workspace%"
 
@@ -97,7 +103,7 @@ LANGUAGE ~Espanol (traduccion por SirLancelot & Co)~
 LANGUAGE ~Italiano (traduzione di Ilot & Co)~
          ~Italian~
          ~SoS/Language/Italian/mod.tra~ ~SoS/Language/Italian/setup.tra~
-
+		 
 LANGUAGE ~Simplified Chinese~
          ~Schinese~
          ~SoS/Language/Schinese/mod.tra~ ~SoS/Language/Schinese/setup.tra~
@@ -111,6 +117,7 @@ DESIGNATED 0 LABEL ~shadows_over_soubar~
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
     INCLUDE ~%MOD_FOLDER%/Lib/install-guititle.tpa~
 END
+INCLUDE ~%MOD_FOLDER%/lib/macro.tpa~
 
 COPY_EXISTING ~misc01.itm~ ~override/sos.mrk~
 
@@ -118,7 +125,21 @@ COPY ~%MOD_FOLDER%/Sfx~  ~override~   //to overwrite files there!!!
 COPY ~%MOD_FOLDER%/Rule~ ~override~   //to overwrite files there!!!
 COPY ~%MOD_FOLDER%/Bam~  ~override~   //to overwrite files there!!!
 COPY ~%MOD_FOLDER%/Mos~  ~override~   //to overwrite files there!!!
+COPY ~%MOD_FOLDER%/Mos/%engine%~  ~override~
 COPY ~%MOD_FOLDER%/Wed~  ~override~   //to overwrite files there!!!
+
+
+ACTION_BASH_FOR ~%MOD_FOLDER%/graphics~ ~^.+\.tis$~ BEGIN
+    ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
+        COPY ~%MOD_FOLDER%/graphics/%BASH_FOR_FILE%~ ~override~
+    END
+END
+
+ACTION_BASH_FOR ~%MOD_FOLDER%/graphics~ ~^.+\.bam$~ BEGIN
+    ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
+        COPY ~%MOD_FOLDER%/graphics/%BASH_FOR_FILE%~ ~override~
+    END
+END
 
 /////                                                  \\\\\
 ///// install journal strings                          \\\\\
@@ -313,58 +334,123 @@ END
 PRINT @20073
 
 COPY ~%MOD_FOLDER%/Are/AR4201.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4202.ARE~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4203.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4204.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4205.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4206.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4210.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 
 COPY ~%MOD_FOLDER%/Are/AR4211.ARE~           ~override~
-  SAY 0x11a8 @20074
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+    SAY 0x11a8 @20074
 
 COPY ~%MOD_FOLDER%/Are/AR4212.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4219.ARE~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4220.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 
 COPY ~%MOD_FOLDER%/Are/AR4230.are~           ~override~
-  SAY 0x1b88 @20075
-  SAY 0x1c4c @20076
-  SAY 0x1d10 @20077
-  SAY 0x1dd4 @20078
-  SAY 0x1e98 @20079
-  SAY 0x6370 @20080
-  SAY 0x63a4 @20081
-  SAY 0x63d8 @20078
-  SAY 0x640c @20077
-  SAY 0x6440 @20075
-  SAY 0x6474 @20079
-  SAY 0x64a8 @20076
-  SAY 0x64dc @20771
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+    SAY 0x1b88 @20075
+    SAY 0x1c4c @20076
+    SAY 0x1d10 @20077
+    SAY 0x1dd4 @20078
+    SAY 0x1e98 @20079
+    SAY 0x6370 @20080
+    SAY 0x63a4 @20081
+    SAY 0x63d8 @20078
+    SAY 0x640c @20077
+    SAY 0x6440 @20075
+    SAY 0x6474 @20079
+    SAY 0x64a8 @20076
+    SAY 0x64dc @20771
 
 COPY ~%MOD_FOLDER%/Are/AR4232.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4240.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4241.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4242.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4243.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4244.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4245.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4246.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4247.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4248.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4249.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4250.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4251.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4252.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4253.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4254.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4255.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4256.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4257.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4258.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4259.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
 
 COPY ~%MOD_FOLDER%/Are/AR4260.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 // Decompress files from BIFC to prevent oBG2 from crashing
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
     COPY_EXISTING
@@ -374,6 +460,8 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 END
 
 COPY ~%MOD_FOLDER%/Are/AR4261.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 // Decompress files from BIFC to prevent oBG2 from crashing
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
     COPY_EXISTING
@@ -383,85 +471,194 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 END
 
 COPY ~%MOD_FOLDER%/Are/AR4262.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4263.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4264.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4265.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4266.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4267.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4268.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4269.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4270.ARE~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4271.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 
 COPY ~%MOD_FOLDER%/Are/AR4272.are~           ~override~
-  SAY 0xda8 @20083
-  SAY 0xe6c @20084
-  SAY 0xf30 @20085
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+    SAY 0xda8 @20083
+    SAY 0xe6c @20084
+    SAY 0xf30 @20085
 
 COPY ~%MOD_FOLDER%/Are/AR4273.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4274.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4275.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4276.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4277.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4278.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4279.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4280.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4281.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4282.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4283.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4284.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4285.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4286.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 
 COPY ~%MOD_FOLDER%/Are/AR4287.are~           ~override~
-  SAY 0x528 @20086
-  SAY 0x5ec @20086
-  SAY 0x6b0 @20086
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+    SAY 0x528 @20086
+    SAY 0x5ec @20086
+    SAY 0x6b0 @20086
 
 COPY ~%MOD_FOLDER%/Are/AR4288.ARE~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4289.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4290.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4291.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4292.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4293.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4294.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4295.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4296.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4298.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4299.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 
 COPY ~%MOD_FOLDER%/Are/AR4370.are~           ~override~
-  SAY 0x3808 @20087
-  SAY 0x38cc @20087
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+    SAY 0x3808 @20087
+    SAY 0x38cc @20087
 
 COPY ~%MOD_FOLDER%/Are/AR4301.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4302.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4303.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4304.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4305.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4306.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4307.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 
 COPY ~%MOD_FOLDER%/Are/AR4308.are~           ~override~
-  SAY 0xfc8 @20088
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+    SAY 0xfc8 @20088
 
 COPY ~%MOD_FOLDER%/Are/AR4309.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4310.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4311.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4312.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4313.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4320.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4325.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4330.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 
 COPY ~%MOD_FOLDER%/Are/AR4340.are~           ~override~
-  SAY 0x968 @20089
-  SAY 0xa2c @20089
-  SAY 0xaf0 @20089
-  SAY 0xbb4 @20089
-
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+    SAY 0x968 @20089
+    SAY 0xa2c @20089
+    SAY 0xaf0 @20089
+    SAY 0xbb4 @20089
+  
 COPY ~%MOD_FOLDER%/Are/AR4350.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/Are/AR4351.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 
 ACTION_IF GAME_IS ~eet~ BEGIN
     OUTER_SPRINT "NBaldursGate_RinniesHouse_L2" "BG0007"
@@ -471,12 +668,15 @@ END ELSE ACTION_IF GAME_IS ~bgt~ BEGIN
     OUTER_SPRINT "NBaldursGate_RinniesHouse_L2" "ARA007"
 END
 COPY ~%MOD_FOLDER%/Are/AR4360.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
     WRITE_ASCIIE 0x0018 ~%NBaldursGate_RinniesHouse_L2%~ #8
     WRITE_ASCIIE 0x0024 ~%NBaldursGate_RinniesHouse_L2%~ #8
     WRITE_ASCIIE 0x0030 ~%NBaldursGate_RinniesHouse_L2%~ #8
     WRITE_ASCIIE 0x003c ~%NBaldursGate_RinniesHouse_L2%~ #8
 
 COPY ~%MOD_FOLDER%/Are/AR4365.are~           ~override~
+	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 
 //**************************************************
 //  WORLDMAP
@@ -1117,6 +1317,7 @@ BEGIN @21011
             ~%MOD_FOLDER%/Wed/Alt/AR4230N.WED~ ~override~
 
     COPY    ~%MOD_FOLDER%/Are/Alt/AR4230.are~ ~override~
+		PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
         // Info points
         SAY 0x257c @20075 // Social Club
         SAY 0x2640 @20076 // Narwhal

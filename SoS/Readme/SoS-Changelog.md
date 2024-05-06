@@ -1,3 +1,18 @@
+# Version 2.1 (May, 06, 2024)
+
+By Weigo:
+- added nightmaps
+- added animations to the maps
+- fixed graphical glitches
+- mos files (EE) has the right size
+
+By Roberciiik:
+- Support for BP-BGT-Worldmap v13.
+- Removed "(SoS)" tag from the worldmap hints.
+
+By Lzw104522773:
+- Added Simplified Chinese translations.
+
 # Version 2.0 (December, 06, 2023)
 
 By Roberciiik:

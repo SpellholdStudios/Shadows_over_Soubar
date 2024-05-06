@@ -224,7 +224,13 @@ This component requires the main component to be installed. It patches BGmain.ex
 
 ## <a name="versions" id="versions"></a>Version History
 
-#### Under development
+# Version 2.1 (May, 06, 2024)
+
+By Weigo:
+- added nightmaps
+- added animations to the maps
+- fixed graphical glitches
+- mos files (EE) has the right size
 
 By Roberciiik:
 - Support for BP-BGT-Worldmap v13.
