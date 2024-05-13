@@ -224,13 +224,13 @@ This component requires the main component to be installed. It patches BGmain.ex
 
 ## <a name="versions" id="versions"></a>Version History
 
-# Version 2.1 (May, 06, 2024)
+# Version 2.1 (May 13, 2024)
 
 By Weigo:
-- added nightmaps
-- added animations to the maps
-- fixed graphical glitches
-- mos files (EE) has the right size
+- Added nightmaps.
+- Added animations to the maps.
+- Fixed graphical glitches.
+- MOS files (EE) has the right size.
 
 By Roberciiik:
 - Support for BP-BGT-Worldmap v13.
@@ -239,7 +239,7 @@ By Roberciiik:
 By Lzw104522773:
 - Added Simplified Chinese translations.
 
-#### Version 2.0 (December, 06, 2023)
+#### Version 2.0 (December 06, 2023)
 
 By Roberciiik:
 - Alternative Soubar area from the "World of Baldur's Gate" modification - designed and modeled by Cuttooth, with effects enrichment and ideas by Dradiel, and integrated into the mod by Roberciiik.
