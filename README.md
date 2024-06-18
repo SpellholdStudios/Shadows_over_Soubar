@@ -135,31 +135,31 @@ The installer includes the following components. The number of each is the compo
 All optional components require the main component (they need to since it's the one that installs new content).<br /><br />
 
 
-#### 0. Main component
+#### 1. Main component
 
 This component installs the mod itself.</br>
 
 ##
 
-#### 1. Alternative Soubar area
+#### 2. Alternative Soubar area
 
 We all know that the original Soubar was built by the same construction company as Beregost. This component installs brand new Soubar location created by Cuttooth. This component requires the main component to be installed.</br>
 
 ##
 
-#### 2. Biffing
+#### 3. Biffing
 
 This component requires the main component to be installed. Compress files for better game performance. Only valid for classic (BG2:ToB or BGT) game.</br>
 
 ##
 
-#### 3. Selence arrives to Waukeens Promenade after the meeting with Gaelan in the slums
+#### 4. Selence arrives to Waukeens Promenade after the meeting with Gaelan in the slums
 
 This component requires the main component to be installed.</br>
 
 ## 
 
-#### 4. Remorhaz walking speed adjustment (for ENGLISH version .EXE ONLY!!!)
+#### 5. Remorhaz walking speed adjustment (for ENGLISH version .EXE ONLY!!!)
 
 This component requires the main component to be installed. It patches BGmain.exe to reduce MBRH moving speed.</br>
 :warning: **WARNING!** It is only valid for an ENGLISH version, for non-EE games and for non-Mac OS.</br></br>
@@ -224,7 +224,7 @@ This component requires the main component to be installed. It patches BGmain.ex
 
 ## <a name="versions" id="versions"></a>Version History
 
-# Version 2.1 (May 13, 2024)
+#### Version 2.1 (May 13, 2024)
 
 By Weigo:
 - Added nightmaps.
