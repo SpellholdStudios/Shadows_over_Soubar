@@ -1294,8 +1294,6 @@ BEGIN @21011
                 ~%MOD_FOLDER%/Pvrz/Alt/A4230N17.PVRZ~ ~override~
                 ~%MOD_FOLDER%/Pvrz/Alt/A4230N18.PVRZ~ ~override~
                 ~%MOD_FOLDER%/Pvrz/Alt/A4230N19.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Mos/ALT/ee/AR4230.MOS~ ~override~
-                ~%MOD_FOLDER%/Mos/ALT/ee/AR4230N.MOS~ ~override~
     END
     ELSE BEGIN
         INCLUDE ~%MOD_FOLDER%/lib/a7_tools.tpa~
@@ -1304,9 +1302,10 @@ BEGIN @21011
                 input_path    = EVAL ~%MOD_FOLDER%/tbc/alt~
                 output_path   = EVAL ~override~
         END
-        COPY    ~%MOD_FOLDER%/Mos/ALT/non-ee/AR4230.MOS~ ~override~
-                ~%MOD_FOLDER%/Mos/ALT/non-ee/AR4230N.MOS~ ~override~
     END
+
+    COPY    ~%MOD_FOLDER%/Mos/ALT/%engine%/AR4230.MOS~ ~override~
+            ~%MOD_FOLDER%/Mos/ALT/%engine%/AR4230N.MOS~ ~override~
 
     COPY    ~%MOD_FOLDER%/Mos/ALT/AR4230HT.BMP~ ~override~
             ~%MOD_FOLDER%/Mos/ALT/AR4230LM.BMP~ ~override~
@@ -1317,7 +1316,6 @@ BEGIN @21011
             ~%MOD_FOLDER%/Wed/Alt/AR4230N.WED~ ~override~
 
     COPY    ~%MOD_FOLDER%/Are/Alt/AR4230.are~ ~override~
-		PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
         // Info points
         SAY 0x257c @20075 // Social Club
         SAY 0x2640 @20076 // Narwhal
