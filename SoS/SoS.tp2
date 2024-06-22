@@ -78,6 +78,7 @@ ALWAYS
         LOAD_TRA ~%MOD_FOLDER%/Language/%LANGUAGE%/ITEMS-EE.tra~
     END
   END
+  INCLUDE ~%MOD_FOLDER%/lib/macro.tpa~
 END
 
 // for the EE games, the variable will point to the untouched .tra files
@@ -117,7 +118,6 @@ DESIGNATED 0 LABEL ~shadows_over_soubar~
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
     INCLUDE ~%MOD_FOLDER%/Lib/install-guititle.tpa~
 END
-INCLUDE ~%MOD_FOLDER%/lib/macro.tpa~
 
 COPY_EXISTING ~misc01.itm~ ~override/sos.mrk~
 
@@ -1317,6 +1317,7 @@ BEGIN @21011
             ~%MOD_FOLDER%/Wed/Alt/AR4230N.WED~ ~override~
 
     COPY    ~%MOD_FOLDER%/Are/Alt/AR4230.are~ ~override~
+		PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
         // Info points
         SAY 0x257c @20075 // Social Club
         SAY 0x2640 @20076 // Narwhal
