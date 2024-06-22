@@ -1317,7 +1317,6 @@ BEGIN @21011
             ~%MOD_FOLDER%/Wed/Alt/AR4230N.WED~ ~override~
 
     COPY    ~%MOD_FOLDER%/Are/Alt/AR4230.are~ ~override~
-		PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
         // Info points
         SAY 0x257c @20075 // Social Club
         SAY 0x2640 @20076 // Narwhal
