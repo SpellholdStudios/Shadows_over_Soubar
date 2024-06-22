@@ -21,3 +21,7 @@ __macosx
 *.zip
 
 Thumbs.db
+
+# WeiDU installer
+weidu.exe
+setup-sos.exe
