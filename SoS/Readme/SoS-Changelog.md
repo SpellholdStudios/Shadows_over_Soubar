@@ -1,3 +1,7 @@
+# Version 2.1.1 (June 23, 2024)
+
+- Hotfix for installation issue and CTD when nightmaps are installed for alternative Soubar.
+
 # Version 2.1 (May 13, 2024)
 
 By Weigo:

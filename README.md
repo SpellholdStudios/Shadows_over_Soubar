@@ -224,9 +224,9 @@ This component requires the main component to be installed. It patches BGmain.ex
 
 ## <a name="versions" id="versions"></a>Version History
 
-#### Under development
+#### Version 2.1.1 (June 23, 2024)
 
-- Hotfix for installtion issue and CTD when nightmaps are installed for alternative Soubar.
+- Hotfix for installation issue and CTD when nightmaps are installed for alternative Soubar.
 
 #### Version 2.1 (May 13, 2024)
 

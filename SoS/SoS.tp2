@@ -4,7 +4,7 @@ AUTHOR ~Charles Bisson, Horred The Plague (WeiDU), King Diamond (WeiDU revision)
 
 NO_IF_EVAL_BUG
 
-VERSION ~2.1~
+VERSION ~2.1.1~
 
 README ~%MOD_FOLDER%/Readme/%MOD_FOLDER%-readme-readme-english.html~ ~%MOD_FOLDER%/Readme/%MOD_FOLDER%-readme-%LANGUAGE%.html~
 
