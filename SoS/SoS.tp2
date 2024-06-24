@@ -370,7 +370,6 @@ COPY ~%MOD_FOLDER%/Are/AR4220.are~           ~override~
 
 
 COPY ~%MOD_FOLDER%/Are/AR4230.are~           ~override~
-	PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
     SAY 0x1b88 @20075
     SAY 0x1c4c @20076
     SAY 0x1d10 @20077
