@@ -4,7 +4,7 @@ AUTHOR ~Charles Bisson, Horred The Plague (WeiDU), King Diamond (WeiDU revision)
 
 NO_IF_EVAL_BUG
 
-VERSION ~2.1.1~
+VERSION ~2.1.2~
 
 README ~%MOD_FOLDER%/Readme/%MOD_FOLDER%-readme-readme-english.html~ ~%MOD_FOLDER%/Readme/%MOD_FOLDER%-readme-%LANGUAGE%.html~
 
@@ -1323,7 +1323,6 @@ BEGIN @21011
 			END
 			PATCH_IF (~%trigger_name%~ STR_EQ ~Inf3351a~) BEGIN
 				SAY offset+0x64 @20076 // Narwhal
-				PATCH_PRINT ~%trigger_name%~
 			END
 			PATCH_IF (~%trigger_name%~ STR_EQ ~Info3301~) BEGIN
 				SAY offset+0x64 @20077 // Barracks
@@ -1341,14 +1340,14 @@ BEGIN @21011
 				SAY offset+0x64 @20077 // Barracks
 			END
 		END
-		GET_OFFSET_ARRAY auto_map_array  0xc4 4 0xc8 4 0 0 0x34 
+		GET_OFFSET_ARRAY auto_map_array 0xc4 4 0xc8 4 0 0 0x34 
 		PATCH_PHP_EACH auto_map_array AS num => offset BEGIN
 			READ_SHORT offset xcoord
 			PATCH_IF xcoord = 4109 BEGIN
 				SAY offset+0x04 @20081 // South to Chionthar
 			END
 			PATCH_IF xcoord = 2729 BEGIN
-				SAY offset+0x04 @20076 // Narwhal
+				SAY offset+0x04 @20078 // Town hall
 			END
 			PATCH_IF xcoord = 4444 BEGIN
 				SAY offset+0x04 @20077 // Barracks
@@ -1368,27 +1367,7 @@ BEGIN @21011
 				SAY offset+0x04 @20076 // Narwhal
 			END
 		END
-/*
-        // Info points
-        SAY 0x257c @20075 // Social Club
-        SAY 0x2640 @20076 // Narwhal
-        SAY 0x2704 @20077 // Barracks
-        SAY 0x27c8 @20078 // Town hall
-        SAY 0x288c @20079 // Reading room
-        SAY 0x2950 @20771 // The Splintered Stair
-        SAY 0x2a14 @20077 // Barracks
-        // Automap notes
-        SAY 0x8300 @20081 // South to Chionthar
-        SAY 0x8334 @20078 // Town hall
-        SAY 0x8368 @20077 // Barracks
-        SAY 0x839c @20075 // Social Club
-        SAY 0x83d0 @20079 // Reading room
-        SAY 0x8404 @20080 // North Lyrar's Hold
-        SAY 0x8438 @20076 // Narwhal
-        // Automap coords
-        WRITE_SHORT 0x8364 4850 // Barracks X
-        WRITE_SHORT 0x8366 3415 // Barracks Y
-*/
+
     // Area script adjustment
     COPY_EXISTING ~AR4230.BCS~ ~override~
         DECOMPILE_AND_PATCH BEGIN
