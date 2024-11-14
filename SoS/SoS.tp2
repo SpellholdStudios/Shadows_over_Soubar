@@ -4,7 +4,7 @@ AUTHOR ~Charles Bisson, Horred The Plague (WeiDU), King Diamond (WeiDU revision)
 
 NO_IF_EVAL_BUG
 
-VERSION ~2.1.2~
+VERSION ~2.1.3~
 
 README ~%MOD_FOLDER%/Readme/%MOD_FOLDER%-readme-readme-english.html~ ~%MOD_FOLDER%/Readme/%MOD_FOLDER%-readme-%LANGUAGE%.html~
 
@@ -312,8 +312,31 @@ APPEND ~SPELL.IDS~ ~2326 WIZARD_DISPEL_MAGIC~
 UNLESS ~2326 WIZARD_DISPEL_MAGIC~
 END
 
-APPEND ~SPELL.IDS~ ~2429 BELTYNS_BURNING_BLOOD~
-UNLESS ~2429 BELTYNS_BURNING_BLOOD~
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~BELTYNS_BURNING_BLOOD~)
+ACTION_IF (spell_num > 0) BEGIN
+	LAF RES_NUM_OF_SPELL_NAME
+		STR_VAR spell_name = ~BELTYNS_BURNING_BLOOD~
+		RET spell_num = spell_num spell = spell_res
+	END
+END ELSE BEGIN
+	ADD_SPELL ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPWI429.spl~ 2 4 ~BELTYNS_BURNING_BLOOD~
+		SAY NAME1 @20651
+		SAY UNIDENTIFIED_DESC @20652
+		SPRINT spell ~%DEST_RES%~	
+END
+COPY ~%MOD_FOLDER%/Itm/CBCL001.itm~          ~override~
+	SAY NAME2 @20028
+	SAY DESC @20438
+	WRITE_ASCIIE 0x186 ~%spell%~ #8
+COPY ~%MOD_FOLDER%/Itm/CBRJR008.itm~         ~override~
+	SAY NAME2 @20651
+	SAY DESC @20652
+	WRITE_ASCIIE 0xf6 ~%spell%~ #8
+	WRITE_ASCIIE 0x126 ~%spell%~ #8
+
+COPY ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPRB005A.bam~          ~override~
+     ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPRB005B.bam~          ~override~
+     ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPRB005C.bam~          ~override~
 
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
@@ -820,16 +843,17 @@ INCLUDE ~%MOD_FOLDER%/Lib/install-itm.tpa~
 //******************************************************************
 PRINT @20756
 
-ACTION_IF NOT FILE_EXISTS ~data/TDD-RULE.BIF~ AND NOT FILE_EXISTS_IN_GAME ~tdd.mrk~ OR GAME_IS ~bg2ee eet~
-THEN BEGIN
-COPY ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPWI429.spl~          ~override~
-  SAY NAME1 @20651
-  SAY UNIDENTIFIED_DESC @20652
-
-COPY ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPRB005A.bam~          ~override~
-       ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPRB005B.bam~          ~override~
-       ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPRB005C.bam~          ~override~
-END
+//will be installed with ADD_SPELL
+//ACTION_IF NOT FILE_EXISTS ~data/TDD-RULE.BIF~ AND NOT FILE_EXISTS_IN_GAME ~tdd.mrk~ OR GAME_IS ~bg2ee eet~
+//THEN BEGIN
+//COPY ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPWI429.spl~          ~override~
+//  SAY NAME1 @20651
+//  SAY UNIDENTIFIED_DESC @20652
+//
+//COPY ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPRB005A.bam~          ~override~
+//       ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPRB005B.bam~          ~override~
+//       ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPRB005C.bam~          ~override~
+//END
 
 COPY ~%MOD_FOLDER%/Spl/Copy~                 ~override~
 
