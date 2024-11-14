@@ -843,18 +843,6 @@ INCLUDE ~%MOD_FOLDER%/Lib/install-itm.tpa~
 //******************************************************************
 PRINT @20756
 
-//will be installed with ADD_SPELL
-//ACTION_IF NOT FILE_EXISTS ~data/TDD-RULE.BIF~ AND NOT FILE_EXISTS_IN_GAME ~tdd.mrk~ OR GAME_IS ~bg2ee eet~
-//THEN BEGIN
-//COPY ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPWI429.spl~          ~override~
-//  SAY NAME1 @20651
-//  SAY UNIDENTIFIED_DESC @20652
-//
-//COPY ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPRB005A.bam~          ~override~
-//       ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPRB005B.bam~          ~override~
-//       ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPRB005C.bam~          ~override~
-//END
-
 COPY ~%MOD_FOLDER%/Spl/Copy~                 ~override~
 
 COPY ~%MOD_FOLDER%/Spl/CBBRCRVA.spl~         ~override~
