@@ -1,3 +1,11 @@
+#Version 2.1.3 (November 14, 2024)
+
+- changed spell installation to ADD_SPELL
+
+#Version 2.1.2 (July 7, 2024)
+
+- Restored nightmaps for the alternative Soubar area (by Weigo).
+
 # Version 2.1.1 (June 23, 2024)
 
 - Hotfix for installation issue and CTD when nightmaps are installed for alternative Soubar.
