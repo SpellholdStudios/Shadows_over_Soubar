@@ -89,10 +89,6 @@ COPY ~%MOD_FOLDER%/Itm/CBBURNBN.itm~         ~override~
 COPY ~%MOD_FOLDER%/Itm/CBCAPT01.itm~         ~override~
   SAY 0xae @20137
 
-COPY ~%MOD_FOLDER%/Itm/CBCL001.itm~          ~override~
-  SAY NAME2 @20028
-  SAY DESC @20438
-
 COPY ~%MOD_FOLDER%/Itm/CBCL002.itm~          ~override~
   SAY NAME2 @20439
   SAY DESC @20440
@@ -680,9 +676,6 @@ COPY ~%MOD_FOLDER%/Itm/CBRJR007.ITM~         ~override~
   SAY DESC @20649 
   SAY 0x43e @20650 
 
-COPY ~%MOD_FOLDER%/Itm/CBRJR008.itm~         ~override~
-  SAY NAME2 @20651
-  SAY DESC @20652
 
 COPY ~%MOD_FOLDER%/Itm/CBRJR009.itm~         ~override~
   SAY NAME2 @20058
