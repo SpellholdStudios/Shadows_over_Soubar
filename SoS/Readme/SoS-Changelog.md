@@ -1,3 +1,8 @@
+# Version 2.1.4 (November 14, 2024)
+
+- A dynamic installation of the pvrz files with the a7_pvrz_tis tool
+- The wizard spells are installed in a separate component. 
+
 # Version 2.1.3 (November 14, 2024)
 
 - changed spell installation to ADD_SPELL

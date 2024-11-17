@@ -25,3 +25,21 @@ BEGIN
 		END
 	END
 END
+
+DEFINE_ACTION_FUNCTION TIS_PVRZ_INDICES
+  INT_VAR
+    target_base_index = 0
+	index_range = 0
+ 
+BEGIN
+	OUTER_FOR (count = target_base_index ; count < target_base_index + index_range ; count +=1) BEGIN
+		ACTION_IF count < 10 BEGIN 
+			OUTER_SPRINT idx ~0%count%~ 
+		END	ELSE BEGIN 
+			OUTER_SPRINT idx ~%count%~ 
+		END
+		COPY_EXISTING ~%prefix%%idx%.pvrz~ ~override~
+		DELETE ~override/%prefix%%idx%.pvrz~
+	END
+
+END
