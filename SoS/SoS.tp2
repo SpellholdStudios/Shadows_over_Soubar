@@ -4,7 +4,7 @@ AUTHOR ~Charles Bisson, Horred The Plague (WeiDU), King Diamond (WeiDU revision)
 
 NO_IF_EVAL_BUG
 
-VERSION ~2.1.3~
+VERSION ~2.1.4~
 
 README ~%MOD_FOLDER%/Readme/%MOD_FOLDER%-readme-readme-english.html~ ~%MOD_FOLDER%/Readme/%MOD_FOLDER%-readme-%LANGUAGE%.html~
 
@@ -109,9 +109,14 @@ LANGUAGE ~Simplified Chinese~
          ~Schinese~
          ~SoS/Language/Schinese/mod.tra~ ~SoS/Language/Schinese/setup.tra~
 
-/* ====================================== *
- *  Shadows over Soubar : main component  *
- * ====================================== */
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Shadows over Soubar : main component             \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
 BEGIN @20000
 DESIGNATED 0 LABEL ~shadows_over_soubar~
 
@@ -127,7 +132,6 @@ COPY ~%MOD_FOLDER%/Bam~  ~override~   //to overwrite files there!!!
 COPY ~%MOD_FOLDER%/Mos~  ~override~   //to overwrite files there!!!
 COPY ~%MOD_FOLDER%/Mos/%engine%~  ~override~
 COPY ~%MOD_FOLDER%/Wed~  ~override~   //to overwrite files there!!!
-
 
 ACTION_BASH_FOR ~%MOD_FOLDER%/graphics~ ~^.+\.tis$~ BEGIN
     ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
@@ -311,33 +315,6 @@ COPY_EXISTING ~SPELL.IDS~        ~override~
 APPEND ~SPELL.IDS~ ~2326 WIZARD_DISPEL_MAGIC~
 UNLESS ~2326 WIZARD_DISPEL_MAGIC~
 END
-
-OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~BELTYNS_BURNING_BLOOD~)
-ACTION_IF (spell_num > 0) BEGIN
-	LAF RES_NUM_OF_SPELL_NAME
-		STR_VAR spell_name = ~BELTYNS_BURNING_BLOOD~
-		RET spell_num = spell_num spell = spell_res
-	END
-END ELSE BEGIN
-	ADD_SPELL ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPWI429.spl~ 2 4 ~BELTYNS_BURNING_BLOOD~
-		SAY NAME1 @20651
-		SAY UNIDENTIFIED_DESC @20652
-		SPRINT spell ~%DEST_RES%~	
-END
-COPY ~%MOD_FOLDER%/Itm/CBCL001.itm~          ~override~
-	SAY NAME2 @20028
-	SAY DESC @20438
-	WRITE_ASCIIE 0x186 ~%spell%~ #8
-COPY ~%MOD_FOLDER%/Itm/CBRJR008.itm~         ~override~
-	SAY NAME2 @20651
-	SAY DESC @20652
-	WRITE_ASCIIE 0xf6 ~%spell%~ #8
-	WRITE_ASCIIE 0x126 ~%spell%~ #8
-
-COPY ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPRB005A.bam~          ~override~
-     ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPRB005B.bam~          ~override~
-     ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPRB005C.bam~          ~override~
-
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
     COPY ~%MOD_FOLDER%/Rule/Ids/ANISND.IDS~ ~override~
@@ -837,6 +814,20 @@ PRINT @20409
 
 INCLUDE ~%MOD_FOLDER%/Lib/install-itm.tpa~
 
+// wizard spell items
+COPY ~%MOD_FOLDER%/Itm/CBCL001.itm~          ~override~
+	SAY NAME2 @20028
+	SAY DESC @20438
+
+COPY ~%MOD_FOLDER%/Itm/CBRJR008.itm~         ~override~
+	SAY NAME2 @20651
+	SAY DESC @20652
+
+	
+COPY ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPRB005A.bam~          ~override~
+     ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPRB005B.bam~          ~override~
+     ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/SPRB005C.bam~          ~override~
+
 
 //******************************************************************
 //  SPELLS
@@ -866,6 +857,7 @@ COPY ~%MOD_FOLDER%/Spl/CBRVCH.spl~           ~override~
   SAY NAME1 @20762
   SAY 0xce @20763 
 
+COPY ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/CBWI429.spl~  ~override~
 
 //******************************************************************
 //  STORES
@@ -1238,7 +1230,17 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 END
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-   COPY ~%MOD_FOLDER%/Pvrz~ ~override~
+	INCLUDE ~%MOD_FOLDER%/lib/a7_pvrz_tis.tpa~
+    ACTION_BASH_FOR ~%MOD_FOLDER%/PVRZ~ ~.*\.tis$~ BEGIN
+		COPY ~%BASH_FOR_FILESPEC%~ ~override~
+			LPF UPDATE_PVRZ_INDICES RET original_base_index new_base_index END
+		LAF TIS_RES_TO_PVRZ STR_VAR tis_res = EVAL ~%SOURCE_RES%~ RET prefix END
+		ACTION_IF (new_base_index >= 0) BEGIN // It is strongly recommended to check the return values of "UPDATE_PVRZ_INDICES".
+			ACTION_BASH_FOR ~%MOD_FOLDER%/PVRZ~ ~%prefix%[0-9][0-9]\.pvrz$~ BEGIN // Installing associated PVRZ resources
+				LAF INSTALL_PVRZ INT_VAR original_base_index new_base_index STR_VAR source_file = EVAL ~%BASH_FOR_FILESPEC%~ END
+			END
+		END
+	END
 END
 
 COPY ~%MOD_FOLDER%/Language/English/MVE~ ~override~
@@ -1254,58 +1256,39 @@ END
 
 COPY_EXISTING ~misc01.itm~ ~override/SoS.mrk~
 
-/* ======================== *
- *  Alternative Soubar area *
- * ======================== */
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Alternative Soubar area                          \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
 BEGIN @21011
     DESIGNATED 4 LABEL ~sos_alternative_soubar_cuttooth~
     REQUIRE_PREDICATE MOD_IS_INSTALLED "SoS.tp2" (ID_OF_LABEL "SoS.tp2" "shadows_over_soubar" ) @21003
 
-    ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-           COPY    ~%MOD_FOLDER%/Pvrz/Alt/AR4230.TIS~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A423000.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A423001.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A423002.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A423003.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A423004.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A423005.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A423006.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A423007.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A423008.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A423009.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A423010.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A423011.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A423012.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A423013.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A423014.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A423015.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A423016.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A423017.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A423018.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A423019.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/AR4230N.TIS~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A4230N00.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A4230N01.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A4230N02.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A4230N03.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A4230N04.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A4230N05.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A4230N06.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A4230N07.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A4230N08.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A4230N09.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A4230N10.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A4230N11.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A4230N12.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A4230N13.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A4230N14.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A4230N15.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A4230N16.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A4230N17.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A4230N18.PVRZ~ ~override~
-                ~%MOD_FOLDER%/Pvrz/Alt/A4230N19.PVRZ~ ~override~
-    END
+	ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+		INCLUDE ~%MOD_FOLDER%/lib/a7_pvrz_tis.tpa~
+		ACTION_BASH_FOR ~%MOD_FOLDER%/PVRZ/Alt~ ~.*\.tis$~ BEGIN
+			// delete old pvrz files
+			ACTION_IF FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
+				LAF TIS_RES_TO_PVRZ STR_VAR tis_res = EVAL ~%BASH_FOR_RES%~ RET prefix END
+				COPY_EXISTING ~%BASH_FOR_FILE%~ ~override~
+					LPF UPDATE_PVRZ_INDICES RET target_base_index = original_base_index index_range = index_range END
+				LAF TIS_PVRZ_INDICES INT_VAR target_base_index index_range END
+			END
+			// install new pvrz files
+			COPY ~%BASH_FOR_FILESPEC%~ ~override~
+				LPF UPDATE_PVRZ_INDICES RET original_base_index new_base_index END
+			LAF TIS_RES_TO_PVRZ STR_VAR tis_res = EVAL ~%SOURCE_RES%~ RET prefix END
+			ACTION_IF (new_base_index >= 0) BEGIN // It is strongly recommended to check the return values of "UPDATE_PVRZ_INDICES".
+				ACTION_BASH_FOR ~%MOD_FOLDER%/PVRZ/Alt~ ~%prefix%[0-9][0-9]\.pvrz$~ BEGIN // Installing associated PVRZ resources
+					LAF INSTALL_PVRZ INT_VAR original_base_index new_base_index STR_VAR source_file = EVAL ~%BASH_FOR_FILESPEC%~ END
+				END
+			END
+		END
+	END
     ELSE BEGIN
         INCLUDE ~%MOD_FOLDER%/lib/a7_tools.tpa~
         LAF HANDLE_TILECONV
@@ -1551,10 +1534,13 @@ BEGIN @21011
             REPLACE_TEXTUALLY EXACT_MATCH ~MoveToObjectNoInterrupt("CbWayPoint6")~ ~MoveToObjectNoInterrupt("CbWayPoint3")~
         END
 
-        
-/* ======== *
- *  Biffing *
- * ======== */
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Biffing                                          \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\        
 
 BEGIN @21002
     DESIGNATED 3 LABEL ~sos_resource_biffing~
@@ -1592,10 +1578,16 @@ BEGIN @21002
     END
 
     COPY_EXISTING ~misc01.itm~ ~override/%MOD_FOLDER%.mrk~
- 
-/* ================================================================================== *
- *  Selence arrives to Waukeens Promenade after the meeting with Gaelan in the slums  *
- * ================================================================================== */
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Selence arrives to Waukeens Promenade after the  \\\\\
+///// meeting with Gaelan in the slums                 \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\ 
+
 BEGIN @20002 /* ~Selence arrives to Waukeens Promenade after the meeting with Gaelan in the slums~ */
 DESIGNATED 1 LABEL ~sos_selence_at_waukeens_promenade_after_meeting_Gaelan~
 REQUIRE_PREDICATE MOD_IS_INSTALLED "SoS.tp2" (ID_OF_LABEL "SoS.tp2" "shadows_over_soubar" ) @21003
@@ -1613,10 +1605,15 @@ COPY_EXISTING ~AR0700.bcs~ ~override~
                           Global("CBGaelanafterSlum","GLOBAL",1)~
     END
 
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Remorhaz walking speed adjustment                \\\\\
+///// (for ENGLISH version .EXE ONLY!!!)               \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
-/* ====================================================================== *
- *  Remorhaz walking speed adjustment (for ENGLISH version .EXE ONLY!!!)  *
- * ====================================================================== */
 BEGIN @21006
 DESIGNATED 2 LABEL ~sos_remorhaz_walking_speed_adjustment~    
 REQUIRE_PREDICATE MOD_IS_INSTALLED "SoS.tp2" (ID_OF_LABEL "SoS.tp2" "shadows_over_soubar" ) @21003
@@ -1639,3 +1636,37 @@ COPY_EXISTING ~bgmain.exe~  ~bgmain.exe~
         WRITE_BYTE 0x0041D418+3 6 //was 0x0A
     END
 BUT_ONLY
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// SoS Wizard Spell                                 \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+BEGIN @21012
+DESIGNATED 5 LABEL ~sos_wizard_spell~
+REQUIRE_PREDICATE MOD_IS_INSTALLED "SoS.tp2" (ID_OF_LABEL "SoS.tp2" "shadows_over_soubar" ) @21003
+
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~BELTYNS_BURNING_BLOOD~)
+ACTION_IF (spell_num > 0) BEGIN
+	LAF RES_NUM_OF_SPELL_NAME
+		STR_VAR spell_name = ~BELTYNS_BURNING_BLOOD~
+		RET spell_num = spell_num spell = spell_res
+	END
+END ELSE BEGIN
+	ADD_SPELL ~%MOD_FOLDER%/Compat/%MOD_FOLDER%/CBWI429.spl~ 2 4 ~BELTYNS_BURNING_BLOOD~
+		SAY NAME1 @20651
+		SAY UNIDENTIFIED_DESC @20652
+		SPRINT spell ~%DEST_RES%~	
+END
+COPY ~%MOD_FOLDER%/Itm/CBCL001.itm~          ~override~
+	SAY NAME2 @20028
+	SAY DESC @20438
+	WRITE_ASCIIE 0x186 ~%spell%~ #8
+COPY ~%MOD_FOLDER%/Itm/CBRJR008.itm~         ~override~
+	SAY NAME2 @20651
+	SAY DESC @20652
+	WRITE_ASCIIE 0xf6 ~%spell%~ #8
+	WRITE_ASCIIE 0x126 ~%spell%~ #8
