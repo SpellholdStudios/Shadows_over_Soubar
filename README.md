@@ -1,3 +1,8 @@
+<hr>
+
+:warning: **The maintenance and support of this project has been moved to a [new repository](https://github.com/Spellhold-Studios/Shadows-over-Soubar).**
+
+<hr><br>
 
 ![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/Shadows_over_Soubar?label=Release&include_prereleases&color=darkred)
 ![Downloads](https://img.shields.io/github/downloads/SpellholdStudios/Shadows_over_Soubar/total.svg?color=blue&label=Downloads)
